@@ -1,0 +1,1974 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basilect Engine — Music Artist Similarity</title>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --bg: #0a0a0a;
+            --bg-secondary: #1a1a1a;
+            --text: #f0f0f0;
+            --text-muted: #a0a0a0;
+            --accent-coral: #ff616d;
+            --accent-violet: #8b5cf6;
+            --accent-gold: #ffc93a;
+            --border: #333333;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
+
+        header {
+            background: linear-gradient(135deg, rgba(255,97,109,0.1) 0%, rgba(139,92,246,0.1) 100%);
+            border-bottom: 1px solid var(--border);
+            padding: 1.5rem 2rem;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        header .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+
+        header h1 {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 1.5rem;
+            font-weight: 700;
+            background: linear-gradient(90deg, var(--accent-coral), var(--accent-violet), var(--accent-gold));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        nav {
+            display: flex;
+            gap: 2rem;
+            align-items: center;
+        }
+
+        nav a {
+            color: var(--text);
+            text-decoration: none;
+            cursor: pointer;
+            padding: 0.5rem 0;
+            border-bottom: 2px solid transparent;
+            transition: all 0.3s;
+            font-weight: 500;
+            font-size: 0.95rem;
+        }
+
+        nav a.active {
+            color: var(--accent-coral);
+            border-bottom-color: var(--accent-coral);
+        }
+
+        nav a:hover {
+            color: var(--accent-coral);
+        }
+
+        main {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .page {
+            display: none;
+        }
+
+        .page.active {
+            display: block;
+        }
+
+        /* Cards & Containers */
+        .card {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+            transition: all 0.3s;
+        }
+
+        .card:hover {
+            border-color: var(--accent-coral);
+            box-shadow: 0 0 20px rgba(255,97,109,0.1);
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 1.5rem;
+        }
+
+        .grid-2 {
+            grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+        }
+
+        .grid-3 {
+            grid-template-columns: repeat(3, 1fr);
+        }
+
+        @media (max-width: 1024px) {
+            .grid-3 { grid-template-columns: repeat(2, 1fr); }
+        }
+
+        @media (max-width: 640px) {
+            .grid-3 { grid-template-columns: 1fr; }
+        }
+
+        /* Buttons */
+        button {
+            background: linear-gradient(135deg, var(--accent-coral), var(--accent-violet));
+            color: white;
+            border: none;
+            padding: 0.75rem 1.5rem;
+            border-radius: 6px;
+            cursor: pointer;
+            font-weight: 600;
+            transition: all 0.2s;
+            font-family: 'Inter', sans-serif;
+            font-size: 0.95rem;
+        }
+
+        button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 20px rgba(255,97,109,0.3);
+        }
+
+        button:active {
+            transform: translateY(0);
+        }
+
+        button.secondary {
+            background: var(--bg-secondary);
+            color: var(--text);
+            border: 1px solid var(--border);
+        }
+
+        button.secondary:hover {
+            border-color: var(--accent-coral);
+            box-shadow: none;
+        }
+
+        button.sm {
+            padding: 0.4rem 0.8rem;
+            font-size: 0.85rem;
+        }
+
+        button:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        /* Forms */
+        form {
+            display: grid;
+            gap: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        label {
+            display: block;
+            font-weight: 600;
+            margin-bottom: 0.3rem;
+            color: var(--text);
+        }
+
+        input, textarea, select {
+            background: var(--bg);
+            color: var(--text);
+            border: 1px solid var(--border);
+            padding: 0.75rem;
+            border-radius: 6px;
+            font-family: 'Inter', sans-serif;
+            font-size: 1rem;
+            transition: border-color 0.2s;
+        }
+
+        input:focus, textarea:focus, select:focus {
+            outline: none;
+            border-color: var(--accent-coral);
+        }
+
+        textarea {
+            resize: vertical;
+            min-height: 100px;
+        }
+
+        .checkbox-group {
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+        }
+
+        input[type="checkbox"] {
+            width: auto;
+            cursor: pointer;
+        }
+
+        input[type="range"] {
+            width: 100%;
+            height: 6px;
+            border-radius: 3px;
+            background: var(--border);
+            outline: none;
+            -webkit-appearance: none;
+        }
+
+        input[type="range"]::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+            background: var(--accent-coral);
+            cursor: pointer;
+        }
+
+        input[type="range"]::-moz-range-thumb {
+            width: 16px;
+            height: 16px;
+            border-radius: 50%;
+            background: var(--accent-coral);
+            cursor: pointer;
+            border: none;
+        }
+
+        /* Multiselect */
+        .multiselect {
+            display: grid;
+            gap: 0.5rem;
+            max-height: 200px;
+            overflow-y: auto;
+        }
+
+        .multiselect label {
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+            margin: 0;
+            font-weight: 400;
+        }
+
+        /* Loading */
+        .loading {
+            display: inline-block;
+            width: 1rem;
+            height: 1rem;
+            border: 2px solid var(--border);
+            border-top-color: var(--accent-coral);
+            border-radius: 50%;
+            animation: spin 0.8s linear infinite;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        /* Status Badges */
+        .status-badge {
+            display: inline-block;
+            padding: 0.25rem 0.75rem;
+            border-radius: 4px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+
+        .status-badge.running {
+            background: rgba(255,201,58,0.2);
+            color: var(--accent-gold);
+        }
+
+        .status-badge.completed {
+            background: rgba(255,97,109,0.2);
+            color: var(--accent-coral);
+        }
+
+        .status-badge.failed {
+            background: rgba(255,107,107,0.3);
+            color: #ff8888;
+        }
+
+        /* Sections */
+        .section-title {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 2px solid var(--border);
+        }
+
+        .section-subtitle {
+            font-size: 0.9rem;
+            color: var(--text-muted);
+            margin-bottom: 1.5rem;
+        }
+
+        /* Signal Tabs */
+        .signal-tabs {
+            display: flex;
+            gap: 0.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .signal-tab {
+            background: var(--bg-secondary);
+            color: var(--text-muted);
+            border: 1px solid var(--border);
+            padding: 0.75rem 1.5rem;
+            border-radius: 6px;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-weight: 600;
+            font-size: 0.95rem;
+        }
+
+        .signal-tab.active {
+            background: linear-gradient(135deg, var(--accent-coral), var(--accent-violet));
+            color: white;
+            border-color: var(--accent-coral);
+        }
+
+        .signal-tab:hover {
+            border-color: var(--accent-coral);
+        }
+
+        /* Filter Bar */
+        .filter-bar {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+            background: var(--bg-secondary);
+            padding: 1.5rem;
+            border-radius: 8px;
+            border: 1px solid var(--border);
+        }
+
+        .filter-item {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+
+        .filter-item label {
+            font-size: 0.85rem;
+            font-weight: 600;
+        }
+
+        .filter-item input,
+        .filter-item select {
+            margin-bottom: 0;
+        }
+
+        .filter-value {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            font-family: 'JetBrains Mono', monospace;
+        }
+
+        /* Discoveries */
+        .discovery-item {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 1.5rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 0.5rem;
+            transition: all 0.3s;
+        }
+
+        .discovery-item:hover {
+            border-color: var(--accent-coral);
+        }
+
+        .discovery-names {
+            flex: 1;
+            margin-right: 1rem;
+        }
+
+        .discovery-artist {
+            font-weight: 600;
+            text-transform: capitalize;
+        }
+
+        .discovery-connector {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+            margin: 0.25rem 0;
+        }
+
+        .discovery-score {
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 1.5rem;
+            font-weight: 700;
+            background: linear-gradient(90deg, var(--accent-coral), var(--accent-gold));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-right: 1rem;
+        }
+
+        .discovery-actions {
+            display: flex;
+            gap: 0.5rem;
+        }
+
+        .score-bar {
+            background: var(--bg);
+            border-radius: 4px;
+            height: 6px;
+            width: 100px;
+            overflow: hidden;
+            margin-top: 0.5rem;
+        }
+
+        .score-bar-fill {
+            background: linear-gradient(90deg, var(--accent-coral), var(--accent-gold));
+            height: 100%;
+            transition: width 0.3s;
+        }
+
+        /* Divergence Scores */
+        .divergence-scores {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+            gap: 0.75rem;
+            margin-top: 0.75rem;
+        }
+
+        .divergence-score-box {
+            background: var(--bg);
+            padding: 0.5rem;
+            border-radius: 4px;
+            text-align: center;
+            font-size: 0.75rem;
+            color: var(--text-muted);
+        }
+
+        .divergence-score-value {
+            font-family: 'JetBrains Mono', monospace;
+            font-weight: 700;
+            font-size: 1rem;
+            margin-top: 0.25rem;
+        }
+
+        .divergence-delta-positive {
+            color: var(--accent-gold);
+        }
+
+        .divergence-delta-negative {
+            color: var(--accent-violet);
+        }
+
+        /* Custom Match Section */
+        .custom-match-section {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 1.5rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .custom-match-title {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 1.1rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .custom-match-content {
+            display: none;
+        }
+
+        .custom-match-content.expanded {
+            display: block;
+        }
+
+        .collapse-icon {
+            transition: transform 0.3s;
+            font-size: 1.2rem;
+        }
+
+        .collapse-icon.expanded {
+            transform: rotate(180deg);
+        }
+
+        /* Artist Selector */
+        .artist-selector {
+            display: grid;
+            gap: 0.75rem;
+            max-height: 250px;
+            overflow-y: auto;
+            margin-bottom: 1rem;
+        }
+
+        .artist-checkbox {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            padding: 0.5rem;
+            background: var(--bg);
+            border-radius: 4px;
+            cursor: pointer;
+            transition: border-color 0.2s;
+            border: 1px solid var(--border);
+        }
+
+        .artist-checkbox:hover {
+            border-color: var(--accent-coral);
+        }
+
+        .artist-checkbox input[type="checkbox"] {
+            cursor: pointer;
+        }
+
+        /* Quotes */
+        .quote {
+            background: var(--bg);
+            border-left: 3px solid var(--accent-coral);
+            padding: 1rem;
+            margin-bottom: 1rem;
+            border-radius: 4px;
+        }
+
+        .quote.critic {
+            border-left-color: var(--accent-violet);
+        }
+
+        .quote-pair {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        @media (max-width: 768px) {
+            .quote-pair { grid-template-columns: 1fr; }
+        }
+
+        .quote-text {
+            font-style: italic;
+            margin-bottom: 0.5rem;
+            color: var(--text);
+            line-height: 1.5;
+        }
+
+        .quote-source {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+        }
+
+        .quote-source a {
+            color: var(--accent-coral);
+            text-decoration: none;
+        }
+
+        .quote-source a:hover {
+            text-decoration: underline;
+        }
+
+        .quote-score {
+            font-family: 'JetBrains Mono', monospace;
+            font-weight: 600;
+            color: var(--accent-coral);
+            font-size: 0.9rem;
+            margin-top: 0.5rem;
+        }
+
+        /* Tags */
+        .tags-display {
+            display: flex;
+            gap: 0.5rem;
+            flex-wrap: wrap;
+            margin-bottom: 1rem;
+        }
+
+        .tag-pill {
+            background: var(--bg);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            padding: 0.4rem 0.8rem;
+            font-size: 0.85rem;
+            text-transform: capitalize;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .tag-pill.genre {
+            border-color: var(--accent-coral);
+            color: var(--accent-coral);
+        }
+
+        .tag-pill.scene {
+            border-color: var(--accent-violet);
+            color: var(--accent-violet);
+        }
+
+        .tag-remove {
+            cursor: pointer;
+            opacity: 0.6;
+            transition: opacity 0.2s;
+        }
+
+        .tag-remove:hover {
+            opacity: 1;
+        }
+
+        .tags-edit-form {
+            display: none;
+            background: var(--bg);
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            padding: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .tags-edit-form.open {
+            display: block;
+        }
+
+        /* Path Visualization */
+        .path-node {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .path-artist-box {
+            background: var(--bg-secondary);
+            border: 2px solid var(--accent-coral);
+            border-radius: 8px;
+            padding: 1rem;
+            text-align: center;
+            min-width: 150px;
+            font-weight: 600;
+        }
+
+        .path-score {
+            font-family: 'JetBrains Mono', monospace;
+            background: var(--bg);
+            border: 1px solid var(--border);
+            border-radius: 4px;
+            padding: 0.5rem;
+            font-size: 0.85rem;
+            color: var(--accent-coral);
+            min-width: 60px;
+            text-align: center;
+        }
+
+        .path-arrow {
+            font-size: 1.5rem;
+            color: var(--text-muted);
+        }
+
+        /* Cluster Card */
+        .cluster-card {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 1.5rem;
+        }
+
+        .cluster-name {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 1.2rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            color: var(--accent-gold);
+        }
+
+        .cluster-artists {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .artist-tag {
+            background: var(--bg);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            padding: 0.4rem 0.8rem;
+            font-size: 0.85rem;
+            text-transform: capitalize;
+        }
+
+        .cluster-quotes {
+            margin-top: 1rem;
+            padding-top: 1rem;
+            border-top: 1px solid var(--border);
+        }
+
+        .cluster-quote {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            margin-bottom: 0.5rem;
+            padding-left: 1rem;
+            border-left: 2px solid var(--accent-coral);
+        }
+
+        /* Matrix */
+        .matrix-controls {
+            display: flex;
+            gap: 1rem;
+            margin-bottom: 1.5rem;
+            flex-wrap: wrap;
+        }
+
+        .matrix-container {
+            overflow-x: auto;
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            background: var(--bg-secondary);
+        }
+
+        .matrix-table {
+            border-collapse: collapse;
+            font-size: 0.75rem;
+        }
+
+        .matrix-table td, .matrix-table th {
+            padding: 2px;
+            border: 1px solid var(--border);
+            text-align: center;
+            width: 35px;
+            height: 35px;
+        }
+
+        .matrix-table th {
+            background: var(--bg);
+            padding: 4px 2px;
+            font-weight: 600;
+            max-width: 50px;
+            word-break: break-word;
+        }
+
+        .matrix-cell {
+            cursor: pointer;
+            transition: filter 0.2s;
+        }
+
+        .matrix-cell:hover {
+            filter: brightness(1.3);
+        }
+
+        /* Modals */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            z-index: 1000;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .modal.active {
+            display: flex;
+        }
+
+        .modal-content {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 2rem;
+            max-width: 700px;
+            max-height: 80vh;
+            overflow-y: auto;
+            position: relative;
+        }
+
+        .modal-close {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            background: none;
+            border: none;
+            color: var(--text-muted);
+            font-size: 1.5rem;
+            cursor: pointer;
+            padding: 0;
+        }
+
+        .modal-close:hover {
+            color: var(--text);
+        }
+
+        /* Tabs */
+        .tabs {
+            display: flex;
+            border-bottom: 2px solid var(--border);
+            margin-bottom: 1.5rem;
+            gap: 0;
+        }
+
+        .tab-button {
+            background: none;
+            border: none;
+            color: var(--text-muted);
+            padding: 0.75rem 1.5rem;
+            cursor: pointer;
+            border-bottom: 2px solid transparent;
+            transition: all 0.3s;
+            font-weight: 600;
+            font-family: 'Inter', sans-serif;
+        }
+
+        .tab-button.active {
+            color: var(--accent-coral);
+            border-bottom-color: var(--accent-coral);
+        }
+
+        .tab-content {
+            display: none;
+        }
+
+        .tab-content.active {
+            display: block;
+        }
+
+        /* Empty State */
+        .empty-state {
+            text-align: center;
+            padding: 3rem 1rem;
+            color: var(--text-muted);
+        }
+
+        .empty-state h3 {
+            font-size: 1.3rem;
+            margin-bottom: 0.5rem;
+            color: var(--text);
+        }
+
+        /* Recommendation Item */
+        .recommendation-item {
+            background: var(--bg-secondary);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 1rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 0.75rem;
+            transition: all 0.3s;
+        }
+
+        .recommendation-item:hover {
+            border-color: var(--accent-coral);
+        }
+
+        .recommendation-artist {
+            font-weight: 600;
+            text-transform: capitalize;
+        }
+
+        .recommendation-score {
+            font-family: 'JetBrains Mono', monospace;
+            font-weight: 600;
+            color: var(--accent-coral);
+        }
+
+        /* Job Status */
+        .job-status {
+            background: var(--bg);
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            padding: 1rem;
+            margin: 1rem 0;
+            font-family: 'JetBrains Mono', monospace;
+            font-size: 0.8rem;
+            max-height: 300px;
+            overflow-y: auto;
+            white-space: pre-wrap;
+            word-break: break-word;
+        }
+
+        .job-status.running {
+            border-color: var(--accent-gold);
+        }
+
+        .job-status.completed {
+            border-color: var(--accent-coral);
+        }
+
+        .job-status.failed {
+            border-color: #ff6b6b;
+        }
+
+        /* Utility Classes */
+        .button-group {
+            display: flex;
+            gap: 0.75rem;
+            flex-wrap: wrap;
+        }
+
+        .flex-between {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .text-center {
+            text-align: center;
+        }
+
+        .text-muted {
+            color: var(--text-muted);
+        }
+
+        .mt-2 { margin-top: 2rem; }
+        .mb-2 { margin-bottom: 2rem; }
+        .gap-2 { gap: 2rem; }
+
+        /* Surprise Button Special */
+        .surprise-btn {
+            background: linear-gradient(135deg, var(--accent-coral), var(--accent-gold));
+            font-weight: 700;
+            font-size: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Basilect Engine</h1>
+            <nav>
+                <a onclick="showPage('discover')" class="nav-link active">Discover</a>
+                <a onclick="showPage('artists')" class="nav-link">Artists</a>
+                <a onclick="showPage('explore')" class="nav-link">Explore</a>
+                <a onclick="showPage('matrix')" class="nav-link">Matrix</a>
+                <a onclick="showPage('pipeline')" class="nav-link">Pipeline</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- DISCOVER PAGE -->
+        <div id="discover" class="page active">
+            <h2 class="section-title">Discoveries</h2>
+            <p class="section-subtitle">Explore connections across different creative signals.</p>
+
+            <!-- Signal Toggle -->
+            <div class="signal-tabs">
+                <button class="signal-tab active" onclick="switchSignal(event, 'artist-quotes')">Artist Quotes</button>
+                <button class="signal-tab" onclick="switchSignal(event, 'critic-discourse')">Critic Discourse</button>
+                <button class="signal-tab" onclick="switchSignal(event, 'signal-divergence')">Signal Divergence</button>
+            </div>
+
+            <!-- Filter Bar -->
+            <div class="filter-bar">
+                <div class="filter-item">
+                    <label>Genre</label>
+                    <select id="filterGenre" onchange="applyDiscoveryFilters()">
+                        <option value="">All Genres</option>
+                    </select>
+                </div>
+                <div class="filter-item">
+                    <label>Scene</label>
+                    <select id="filterScene" onchange="applyDiscoveryFilters()">
+                        <option value="">All Scenes</option>
+                    </select>
+                </div>
+                <div class="filter-item">
+                    <label>Min Score</label>
+                    <input type="range" id="filterScore" min="0.50" max="1.00" step="0.01" value="0.50" onchange="applyDiscoveryFilters()">
+                    <div class="filter-value" id="scoreValue">0.500</div>
+                </div>
+                <div class="filter-item">
+                    <label>Search</label>
+                    <input type="text" id="searchInput" placeholder="Artist name..." onchange="applyDiscoveryFilters()">
+                </div>
+            </div>
+
+            <div class="button-group" style="margin-bottom: 1.5rem;">
+                <button class="surprise-btn" onclick="getSurprise()">Surprise Me</button>
+            </div>
+
+            <div id="discoveriesList"></div>
+
+            <!-- Custom Match Section -->
+            <div class="custom-match-section">
+                <div class="custom-match-title" onclick="toggleCustomMatch()">
+                    <span class="collapse-icon">▼</span>
+                    <span>Find Your Match</span>
+                </div>
+                <div class="custom-match-content">
+                    <div style="margin-bottom: 1rem;">
+                        <label>Select Artists (at least 2)</label>
+                        <div class="artist-selector" id="customMatchArtists"></div>
+                    </div>
+                    <div style="margin-bottom: 1rem;">
+                        <label>Signal Type</label>
+                        <select id="customMatchSignal">
+                            <option value="quote">Artist Quotes</option>
+                            <option value="critic">Critic Discourse</option>
+                        </select>
+                    </div>
+                    <button onclick="runCustomMatch()" style="width: 100%;">Find Matches</button>
+                    <div id="customMatchResult" style="margin-top: 1.5rem;"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- ARTISTS PAGE -->
+        <div id="artists" class="page">
+            <h2 class="section-title">Artists</h2>
+            <p class="section-subtitle">All tracked artists with quote corpus status.</p>
+
+            <button onclick="openAddArtistModal()" style="margin-bottom: 1.5rem;">+ Add Artist</button>
+
+            <div id="artistsGrid" class="grid"></div>
+        </div>
+
+        <!-- ARTIST DETAIL PAGE -->
+        <div id="artist-detail" class="page">
+            <div id="artistDetailContent"></div>
+        </div>
+
+        <!-- EXPLORE PAGE -->
+        <div id="explore" class="page">
+            <h2 class="section-title">Explore</h2>
+            <p class="section-subtitle">Interactive tools for discovering connections and understanding creative DNA.</p>
+
+            <!-- Connect Two Artists -->
+            <div class="card">
+                <h3 style="margin-bottom: 1rem; font-family: 'Space Grotesk'; font-size: 1.2rem;">Connect Two Artists</h3>
+                <p class="section-subtitle" style="margin-bottom: 1rem;">Find the shortest path of similarity between any two artists.</p>
+                <form onsubmit="findPath(event)">
+                    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem;">
+                        <div>
+                            <label>From Artist</label>
+                            <select id="pathArtistA" required></select>
+                        </div>
+                        <div>
+                            <label>To Artist</label>
+                            <select id="pathArtistB" required></select>
+                        </div>
+                    </div>
+                    <button type="submit" style="margin-top: 1rem;">Find Path</button>
+                </form>
+                <div id="pathResult" style="margin-top: 1.5rem;"></div>
+            </div>
+
+            <!-- Creative DNA -->
+            <div class="card">
+                <h3 style="margin-bottom: 1rem; font-family: 'Space Grotesk'; font-size: 1.2rem;">Creative DNA</h3>
+                <p class="section-subtitle" style="margin-bottom: 1rem;">Select 3-5 artists to find your taste profile and similar artists.</p>
+                <div id="tasteProfileForm">
+                    <label>Select Artists (3-5)</label>
+                    <div id="tasteArtistsMultiselect" class="multiselect"></div>
+                    <div class="checkbox-group" style="margin-top: 1rem;">
+                        <input type="checkbox" id="explainToggle">
+                        <label for="explainToggle" style="margin: 0; font-weight: 400;">Explain themes with AI</label>
+                    </div>
+                    <button onclick="getTasteProfile()" style="margin-top: 1rem;">Find My Taste</button>
+                </div>
+                <div id="tasteProfileResult" style="margin-top: 1.5rem;"></div>
+            </div>
+
+            <!-- Philosophy Clusters -->
+            <div class="card">
+                <h3 style="margin-bottom: 1rem; font-family: 'Space Grotesk'; font-size: 1.2rem;">Philosophy Clusters</h3>
+                <p class="section-subtitle" style="margin-bottom: 1rem;">Artists grouped by creative philosophy.</p>
+                <button onclick="getClusters()" style="margin-bottom: 1.5rem;">Load Clusters</button>
+                <div id="clustersResult"></div>
+            </div>
+        </div>
+
+        <!-- MATRIX PAGE -->
+        <div id="matrix" class="page">
+            <h2 class="section-title">Similarity Matrix</h2>
+            <p class="section-subtitle">Heatmap visualization of artist similarities.</p>
+
+            <div class="matrix-controls">
+                <button class="secondary" onclick="getMatrix()">Load Similarity Matrix</button>
+                <button class="secondary" onclick="toggleMatrixView()">Toggle View</button>
+            </div>
+
+            <div id="matrixContainer" class="matrix-container"></div>
+        </div>
+
+        <!-- PIPELINE PAGE -->
+        <div id="pipeline" class="page">
+            <h2 class="section-title">Pipeline Management</h2>
+            <p class="section-subtitle">Run data processing pipelines for quote and critic discovery.</p>
+
+            <!-- Quote Pipeline -->
+            <div class="card">
+                <h3 style="margin-bottom: 1rem; font-family: 'Space Grotesk'; font-size: 1.2rem;">Quote Pipeline</h3>
+                <p class="section-subtitle">Embed quotes → compute similarity → discover pairs</p>
+                <button onclick="runPipeline()">Run Quote Pipeline</button>
+                <div id="pipelineStatus"></div>
+            </div>
+
+            <!-- Critic Pipeline -->
+            <div class="card">
+                <h3 style="margin-bottom: 1rem; font-family: 'Space Grotesk'; font-size: 1.2rem;">Critic Pipeline</h3>
+                <p class="section-subtitle">Process critic reviews and compute similarity</p>
+                <button onclick="runCriticPipeline()">Run Critic Pipeline</button>
+                <div id="criticPipelineStatus"></div>
+            </div>
+
+            <!-- Full Pipeline -->
+            <div class="card">
+                <h3 style="margin-bottom: 1rem; font-family: 'Space Grotesk'; font-size: 1.2rem;">Full Pipeline</h3>
+                <p class="section-subtitle">Run all pipelines and compare signals</p>
+                <button onclick="runFullPipeline()">Run Full Pipeline</button>
+                <div id="fullPipelineStatus"></div>
+            </div>
+
+            <!-- Compare Signals -->
+            <div class="card">
+                <h3 style="margin-bottom: 1rem; font-family: 'Space Grotesk'; font-size: 1.2rem;">Compare Signals</h3>
+                <p class="section-subtitle">Analyze divergence between artist quotes and critic discourse</p>
+                <button onclick="runCompareSignals()">Compare Signals</button>
+                <div id="compareSignalsStatus"></div>
+            </div>
+        </div>
+    </main>
+
+    <!-- MODALS -->
+    <div id="explainModal" class="modal">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal('explainModal')">×</button>
+            <h3 style="font-family: 'Space Grotesk'; font-size: 1.3rem; margin-bottom: 1rem;">Why Are They Connected?</h3>
+            <div id="explainContent"></div>
+        </div>
+    </div>
+
+    <div id="addArtistModal" class="modal">
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal('addArtistModal')">×</button>
+            <h3 style="font-family: 'Space Grotesk'; font-size: 1.3rem; margin-bottom: 1rem;">Add New Artist</h3>
+            <form onsubmit="addArtist(event)">
+                <label>Artist Name</label>
+                <input type="text" id="newArtistName" placeholder="e.g., Radiohead" required>
+                <button type="submit">Create Artist</button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        // App state
+        let appState = {
+            discoveries: [],
+            criticDiscoveries: [],
+            signalDivergence: [],
+            artists: [],
+            allArtistIds: [],
+            tasteSelectedArtists: [],
+            currentSignal: 'artist-quotes',
+            tags: { genres: [], scenes: [] },
+            filters: {
+                genre: '',
+                scene: '',
+                minScore: 0.50,
+                search: ''
+            }
+        };
+
+        // Initialize app
+        async function initApp() {
+            await loadDiscoveries();
+            await loadArtists();
+            await loadTags();
+            populateSelects();
+            populateTasteProfileForm();
+            populateCustomMatchArtists();
+            populateFilterOptions();
+        }
+
+        // Navigation
+        function showPage(pageName) {
+            document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+            document.querySelectorAll('.nav-link').forEach(n => n.classList.remove('active'));
+
+            document.getElementById(pageName).classList.add('active');
+            event.target.classList.add('active');
+        }
+
+        // Utility functions
+        function openModal(id) {
+            document.getElementById(id).classList.add('active');
+        }
+
+        function closeModal(id) {
+            document.getElementById(id).classList.remove('active');
+        }
+
+        async function fetchAPI(url) {
+            try {
+                const response = await fetch(url);
+                if (!response.ok) throw new Error(`HTTP ${response.status}`);
+                return await response.json();
+            } catch (error) {
+                console.error('API Error:', error);
+                return null;
+            }
+        }
+
+        async function fetchAPIPOST(url, data) {
+            try {
+                const response = await fetch(url, {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(data)
+                });
+                if (!response.ok) throw new Error(`HTTP ${response.status}`);
+                return await response.json();
+            } catch (error) {
+                console.error('API Error:', error);
+                return null;
+            }
+        }
+
+        // Load data
+        async function loadDiscoveries() {
+            const data = await fetchAPI('/api/discoveries');
+            appState.discoveries = data || [];
+            renderDiscoveries();
+        }
+
+        async function loadCriticDiscoveries() {
+            const data = await fetchAPI('/api/critics/discoveries');
+            appState.criticDiscoveries = data || [];
+        }
+
+        async function loadSignalDivergence() {
+            const data = await fetchAPI('/api/signal-comparison');
+            appState.signalDivergence = data || [];
+        }
+
+        async function loadTags() {
+            const data = await fetchAPI('/api/tags');
+            if (data) {
+                appState.tags.genres = data.genres || [];
+                appState.tags.scenes = data.scenes || [];
+            }
+        }
+
+        async function loadArtists() {
+            const data = await fetchAPI('/api/artists');
+            appState.artists = data || [];
+            appState.allArtistIds = appState.artists.map(a => a.id);
+            renderArtistsGrid();
+        }
+
+        // Render pages
+        function renderDiscoveries(discoveries = null, type = appState.currentSignal) {
+            const list = document.getElementById('discoveriesList');
+            let items = discoveries;
+
+            if (type === 'artist-quotes') {
+                items = appState.discoveries;
+            } else if (type === 'critic-discourse') {
+                items = appState.criticDiscoveries;
+            } else if (type === 'signal-divergence') {
+                items = appState.signalDivergence;
+            }
+
+            // Apply filters
+            items = filterDiscoveries(items);
+
+            if (!items || items.length === 0) {
+                list.innerHTML = '<div class="empty-state"><h3>No discoveries found</h3><p>Try adjusting your filters.</p></div>';
+                return;
+            }
+
+            if (type === 'signal-divergence') {
+                list.innerHTML = items.map(d => `
+                    <div class="discovery-item">
+                        <div class="discovery-names">
+                            <div class="discovery-artist">${d.artist_a} ↔ ${d.artist_b}</div>
+                            <div class="divergence-scores">
+                                <div class="divergence-score-box">
+                                    <div>Quote Sim</div>
+                                    <div class="divergence-score-value">${(d.quote_sim || 0).toFixed(3)}</div>
+                                </div>
+                                <div class="divergence-score-box">
+                                    <div>Critic Sim</div>
+                                    <div class="divergence-score-value">${(d.critic_sim || 0).toFixed(3)}</div>
+                                </div>
+                                <div class="divergence-score-box">
+                                    <div>Delta</div>
+                                    <div class="divergence-score-value ${d.delta > 0 ? 'divergence-delta-positive' : 'divergence-delta-negative'}">
+                                        ${d.delta > 0 ? '+' : ''}${(d.delta || 0).toFixed(3)}
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="discovery-actions">
+                            <button class="secondary sm" onclick="explainConnection('${d.artist_a}', '${d.artist_b}')">Why?</button>
+                        </div>
+                    </div>
+                `).join('');
+            } else {
+                list.innerHTML = items.map(d => `
+                    <div class="discovery-item">
+                        <div class="discovery-names">
+                            <div class="discovery-artist">${d.a} ↔ ${d.b}</div>
+                            <div class="discovery-connector" style="margin-top: 0.25rem;">
+                                <span style="font-size: 0.8rem; color: var(--text-muted);">
+                                    ${type === 'critic-discourse' ? 'Critic Similarity' : 'Quote Similarity'}
+                                </span>
+                            </div>
+                            <div class="score-bar">
+                                <div class="score-bar-fill" style="width: ${(d.score || 0) * 100}%"></div>
+                            </div>
+                        </div>
+                        <div class="discovery-score">${(d.score || 0).toFixed(3)}</div>
+                        <div class="discovery-actions">
+                            <button class="secondary sm" onclick="explainConnection('${d.a}', '${d.b}')">Why?</button>
+                        </div>
+                    </div>
+                `).join('');
+            }
+        }
+
+        function filterDiscoveries(items) {
+            return items.filter(d => {
+                const artists = appState.currentSignal === 'signal-divergence'
+                    ? [d.artist_a, d.artist_b]
+                    : [d.a, d.b];
+                const score = d.score || d.quote_sim || 0;
+                const searchTerm = appState.filters.search.toLowerCase();
+
+                if (searchTerm && !artists.some(a => a.toLowerCase().includes(searchTerm))) {
+                    return false;
+                }
+
+                if (score < appState.filters.minScore) {
+                    return false;
+                }
+
+                return true;
+            });
+        }
+
+        function applyDiscoveryFilters() {
+            appState.filters.genre = document.getElementById('filterGenre').value;
+            appState.filters.scene = document.getElementById('filterScene').value;
+            appState.filters.minScore = parseFloat(document.getElementById('filterScore').value);
+            appState.filters.search = document.getElementById('searchInput').value;
+            document.getElementById('scoreValue').textContent = appState.filters.minScore.toFixed(3);
+            renderDiscoveries();
+        }
+
+        function populateFilterOptions() {
+            const genreSelect = document.getElementById('filterGenre');
+            const sceneSelect = document.getElementById('filterScene');
+
+            appState.tags.genres.forEach(g => {
+                const opt = document.createElement('option');
+                opt.value = g;
+                opt.textContent = g;
+                genreSelect.appendChild(opt);
+            });
+
+            appState.tags.scenes.forEach(s => {
+                const opt = document.createElement('option');
+                opt.value = s;
+                opt.textContent = s;
+                sceneSelect.appendChild(opt);
+            });
+        }
+
+        function switchSignal(event, signal) {
+            event.preventDefault();
+            appState.currentSignal = signal;
+
+            document.querySelectorAll('.signal-tab').forEach(t => t.classList.remove('active'));
+            event.target.classList.add('active');
+
+            if (signal === 'artist-quotes') {
+                renderDiscoveries(appState.discoveries, signal);
+            } else if (signal === 'critic-discourse') {
+                loadCriticDiscoveries().then(() => renderDiscoveries(appState.criticDiscoveries, signal));
+            } else if (signal === 'signal-divergence') {
+                loadSignalDivergence().then(() => renderDiscoveries(appState.signalDivergence, signal));
+            }
+        }
+
+        function renderArtistsGrid() {
+            const grid = document.getElementById('artistsGrid');
+            grid.innerHTML = appState.artists.map(artist => `
+                <div class="card" style="cursor: pointer;" onclick="showArtistDetail('${artist.id}')">
+                    <div style="font-weight: 600; text-transform: capitalize; margin-bottom: 0.5rem;">${artist.id}</div>
+                    <div style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 1rem;">
+                        ${artist.corpus_meta ? `${artist.corpus_meta.quote_count || 0} quotes` : 'No quotes'}
+                    </div>
+                    <button class="secondary sm" onclick="event.stopPropagation(); showArtistDetail('${artist.id}')">View</button>
+                </div>
+            `).join('');
+        }
+
+        // Artist Detail
+        async function showArtistDetail(artistId) {
+            const response = await fetch(`/api/artists/${artistId}`);
+            const artist = await response.json();
+
+            const html = `
+                <button class="secondary" style="margin-bottom: 1.5rem;" onclick="showPage('artists')">← Back</button>
+                <div class="artist-header">
+                    <h2 class="artist-name">${artistId}</h2>
+                    <div style="color: var(--text-muted); margin-bottom: 1rem;">
+                        ${artist.corpus_meta ? `${artist.corpus_meta.quote_count} quotes from ${artist.corpus_meta.source_count} sources` : 'No quotes'}
+                    </div>
+                </div>
+
+                <!-- Tags Section -->
+                <div style="margin-bottom: 1.5rem;">
+                    <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.75rem;">
+                        <h3 style="font-weight: 600;">Tags</h3>
+                        <button class="secondary sm" onclick="toggleTagsEdit('${artistId}')">Edit</button>
+                    </div>
+                    <div class="tags-display" id="tagsDisplay-${artistId}">
+                        ${artist.tags ? artist.tags.map(t => `
+                            <div class="tag-pill ${t.type}">
+                                ${t.name}
+                            </div>
+                        `).join('') : '<span style="color: var(--text-muted);">No tags yet</span>'}
+                    </div>
+                    <div class="tags-edit-form" id="tagsForm-${artistId}">
+                        <label>Genre Tags</label>
+                        <div style="display: grid; gap: 0.5rem; margin-bottom: 1rem;">
+                            ${appState.tags.genres.map(g => `
+                                <label style="display: flex; gap: 0.5rem; font-weight: 400;">
+                                    <input type="checkbox" value="${g}" class="genre-tag">
+                                    ${g}
+                                </label>
+                            `).join('')}
+                        </div>
+                        <label>Scene Tags</label>
+                        <div style="display: grid; gap: 0.5rem; margin-bottom: 1rem;">
+                            ${appState.tags.scenes.map(s => `
+                                <label style="display: flex; gap: 0.5rem; font-weight: 400;">
+                                    <input type="checkbox" value="${s}" class="scene-tag">
+                                    ${s}
+                                </label>
+                            `).join('')}
+                        </div>
+                        <div style="display: flex; gap: 0.5rem;">
+                            <button onclick="saveTags('${artistId}')" style="flex: 1;">Save Tags</button>
+                            <button class="secondary" onclick="toggleTagsEdit('${artistId}')" style="flex: 1;">Cancel</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tabs" style="margin-bottom: 2rem;">
+                    <button class="tab-button active" onclick="switchTab(event, 'quotes-tab')">In Their Words</button>
+                    <button class="tab-button" onclick="switchTab(event, 'critic-quotes-tab')">What Critics Say</button>
+                    <button class="tab-button" onclick="switchTab(event, 'sources-tab')">Sources</button>
+                </div>
+
+                <div id="quotes-tab" class="tab-content active">
+                    <div class="section-title">Quotes</div>
+                    ${artist.quotes && artist.quotes.length > 0 ? artist.quotes.map(q => `
+                        <div class="quote">
+                            <div class="quote-text">"${q.text}"</div>
+                            <div class="quote-source">
+                                ${q.publication} ${q.date ? `(${q.date})` : ''}
+                                ${q.url ? ` · <a href="${q.url}" target="_blank">Read</a>` : ''}
+                            </div>
+                        </div>
+                    `).join('') : '<div class="empty-state"><p>No quotes available</p></div>'}
+                </div>
+
+                <div id="critic-quotes-tab" class="tab-content">
+                    <div class="section-title">Critic Quotes</div>
+                    <div id="criticQuotesContent" style="min-height: 2rem;">
+                        <div class="loading" style="margin: 1rem 0;"></div>
+                    </div>
+                </div>
+
+                <div id="sources-tab" class="tab-content">
+                    <div class="section-title">Sources</div>
+                    ${artist.sources && artist.sources.length > 0 ? artist.sources.map(s => `
+                        <div style="background: var(--bg-secondary); border: 1px solid var(--border); border-radius: 6px; padding: 1rem; margin-bottom: 0.75rem;">
+                            <div style="font-weight: 600; margin-bottom: 0.25rem;">${s.title || 'Untitled'}</div>
+                            <div style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 0.5rem;">${s.url}</div>
+                        </div>
+                    `).join('') : '<div class="empty-state"><p>No sources available</p></div>'}
+                </div>
+            `;
+
+            document.getElementById('artist-detail').innerHTML = html;
+            document.getElementById('artist-detail').classList.add('active');
+            document.getElementById('discover').classList.remove('active');
+            document.getElementById('artists').classList.remove('active');
+            document.getElementById('explore').classList.remove('active');
+            document.getElementById('matrix').classList.remove('active');
+            document.getElementById('pipeline').classList.remove('active');
+
+            // Load critic quotes when user switches to that tab
+            const criticQuotesTab = document.querySelector('[onclick="switchTab(event, \'critic-quotes-tab\')"]');
+            if (criticQuotesTab) {
+                criticQuotesTab.addEventListener('click', () => loadCriticQuotes(artistId));
+            }
+        }
+
+        async function loadCriticQuotes(artistId) {
+            const content = document.getElementById('criticQuotesContent');
+            content.innerHTML = '<div class="loading" style="margin: 1rem 0;"></div>';
+
+            const data = await fetchAPI(`/api/artists/${artistId}/critic-quotes`);
+
+            if (!data || !data.quotes || data.quotes.length === 0) {
+                content.innerHTML = '<div class="empty-state"><p>No critic quotes available</p></div>';
+                return;
+            }
+
+            content.innerHTML = data.quotes.map(q => `
+                <div class="quote critic">
+                    <div class="quote-text">"${q.text}"</div>
+                    <div class="quote-source">
+                        ${q.critic} — ${q.publication} ${q.date ? `(${q.date})` : ''}
+                        ${q.url ? ` · <a href="${q.url}" target="_blank">Read</a>` : ''}
+                    </div>
+                </div>
+            `).join('');
+        }
+
+        function toggleTagsEdit(artistId) {
+            const form = document.getElementById(`tagsForm-${artistId}`);
+            form.classList.toggle('open');
+        }
+
+        async function saveTags(artistId) {
+            const form = document.getElementById(`tagsForm-${artistId}`);
+            const genreChecks = form.querySelectorAll('.genre-tag:checked');
+            const sceneChecks = form.querySelectorAll('.scene-tag:checked');
+
+            const tags = [
+                ...Array.from(genreChecks).map(c => ({ name: c.value, type: 'genre' })),
+                ...Array.from(sceneChecks).map(c => ({ name: c.value, type: 'scene' }))
+            ];
+
+            const response = await fetchAPIPOST(`/api/artists/${artistId}/tags`, { tags });
+            if (response) {
+                toggleTagsEdit(artistId);
+                // Reload artist to show updated tags
+                showArtistDetail(artistId);
+            }
+        }
+
+        function switchTab(event, tabId) {
+            event.preventDefault();
+            document.querySelectorAll('.tab-button').forEach(b => b.classList.remove('active'));
+            document.querySelectorAll('.tab-content').forEach(t => t.classList.remove('active'));
+
+            event.target.classList.add('active');
+            document.getElementById(tabId).classList.add('active');
+        }
+
+        // Explain Connection
+        async function explainConnection(artistA, artistB) {
+            openModal('explainModal');
+            const content = document.getElementById('explainContent');
+            content.innerHTML = '<div class="loading" style="margin: 2rem auto;"></div>';
+
+            const data = await fetchAPI(`/api/explain/${artistA}/${artistB}`);
+
+            if (!data || data.error) {
+                content.innerHTML = `<div style="color: var(--text-muted);">Error loading explanation.</div>`;
+                return;
+            }
+
+            content.innerHTML = `
+                <div style="margin-bottom: 1.5rem; font-size: 0.9rem; color: var(--text-muted);">
+                    Overall similarity score: <span style="color: var(--accent-coral); font-weight: 600;">${(data.overall_score || 0).toFixed(3)}</span>
+                </div>
+                ${data.quote_pairs ? data.quote_pairs.map((pair, i) => `
+                    <div style="margin-bottom: 1.5rem; padding-bottom: 1.5rem; border-bottom: 1px solid var(--border);">
+                        <div style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 0.5rem;">Quote Pair ${i + 1}</div>
+                        <div class="quote-pair">
+                            <div class="quote">
+                                <div class="quote-text">"${pair.quote_a.text}"</div>
+                                <div class="quote-source">${pair.quote_a.publication} ${pair.quote_a.date || ''}</div>
+                            </div>
+                            <div class="quote">
+                                <div class="quote-text">"${pair.quote_b.text}"</div>
+                                <div class="quote-source">${pair.quote_b.publication} ${pair.quote_b.date || ''}</div>
+                            </div>
+                        </div>
+                        <div class="quote-score">Similarity: ${pair.similarity.toFixed(3)}</div>
+                    </div>
+                `).join('') : ''}
+            `;
+        }
+
+        // Pathfind
+        async function findPath(event) {
+            event.preventDefault();
+            const a = document.getElementById('pathArtistA').value;
+            const b = document.getElementById('pathArtistB').value;
+
+            const result = document.getElementById('pathResult');
+            result.innerHTML = '<div class="loading" style="margin: 1rem 0;"></div>';
+
+            const data = await fetchAPI(`/api/path/${a}/${b}`);
+
+            if (!data || data.error) {
+                result.innerHTML = `<div style="color: var(--text-muted);">Error finding path.</div>`;
+                return;
+            }
+
+            result.innerHTML = `
+                <div style="margin-bottom: 1.5rem;">
+                    <div style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 0.5rem;">Direct Score</div>
+                    <div style="font-size: 1.5rem; font-weight: 700; color: var(--accent-coral);">${(data.direct_score || 0).toFixed(3)}</div>
+                </div>
+
+                <div style="margin-bottom: 1.5rem;">
+                    <div style="font-size: 0.9rem; font-weight: 600; margin-bottom: 1rem;">Primary Path</div>
+                    ${data.path ? data.path.map((node, i) => `
+                        <div class="path-node">
+                            <div class="path-artist-box">${node.artist}</div>
+                            ${i < data.path.length - 1 ? `
+                                <div class="path-arrow">→</div>
+                                <div class="path-score">${node.score_to_next.toFixed(3)}</div>
+                            ` : ''}
+                        </div>
+                    `).join('') : ''}
+                </div>
+
+                ${data.alternative_path ? `
+                    <div style="margin-top: 2rem; padding-top: 1.5rem; border-top: 1px solid var(--border);">
+                        <div style="font-size: 0.9rem; font-weight: 600; margin-bottom: 1rem;">Alternative Path</div>
+                        ${data.alternative_path.map((node, i) => `
+                            <div class="path-node">
+                                <div class="path-artist-box">${node.artist}</div>
+                                ${i < data.alternative_path.length - 1 ? `
+                                    <div class="path-arrow">→</div>
+                                    <div class="path-score">${node.score_to_next.toFixed(3)}</div>
+                                ` : ''}
+                            </div>
+                        `).join('')}
+                    </div>
+                ` : ''}
+            `;
+        }
+
+        // Taste Profile
+        function populateTasteProfileForm() {
+            const container = document.getElementById('tasteArtistsMultiselect');
+            container.innerHTML = appState.allArtistIds.map(aid => `
+                <label>
+                    <input type="checkbox" value="${aid}" onchange="updateTasteSelection()">
+                    <span>${aid}</span>
+                </label>
+            `).join('');
+        }
+
+        function updateTasteSelection() {
+            const checkboxes = document.querySelectorAll('#tasteArtistsMultiselect input:checked');
+            appState.tasteSelectedArtists = Array.from(checkboxes).map(c => c.value);
+        }
+
+        async function getTasteProfile() {
+            if (appState.tasteSelectedArtists.length < 3 || appState.tasteSelectedArtists.length > 5) {
+                alert('Select between 3 and 5 artists');
+                return;
+            }
+
+            const result = document.getElementById('tasteProfileResult');
+            result.innerHTML = '<div class="loading" style="margin: 1rem 0;"></div>';
+
+            const explain = document.getElementById('explainToggle').checked;
+            const data = await fetchAPIPOST('/api/taste-profile', {
+                artists: appState.tasteSelectedArtists,
+                explain: explain
+            });
+
+            if (!data || data.error) {
+                result.innerHTML = `<div style="color: var(--text-muted);">Error generating profile.</div>`;
+                return;
+            }
+
+            result.innerHTML = `
+                <div style="margin-bottom: 1.5rem; padding: 1rem; background: var(--bg-secondary); border-radius: 6px;">
+                    <div style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 0.5rem;">Input Artists</div>
+                    <div style="display: flex; gap: 0.5rem; flex-wrap: wrap;">
+                        ${data.input_artists ? data.input_artists.map(a => `<div class="artist-tag">${a}</div>`).join('') : ''}
+                    </div>
+                </div>
+
+                ${data.explanation ? `
+                    <div style="margin-bottom: 1.5rem; padding: 1rem; background: var(--bg); border-left: 3px solid var(--accent-gold); border-radius: 4px;">
+                        <div style="font-size: 0.85rem; color: var(--text-muted); margin-bottom: 0.5rem;">Creative Themes</div>
+                        <div style="color: var(--text);">${data.explanation}</div>
+                    </div>
+                ` : ''}
+
+                <div>
+                    <div style="font-size: 0.9rem; font-weight: 600; margin-bottom: 1rem;">Recommended Artists</div>
+                    ${data.recommendations ? data.recommendations.map(rec => `
+                        <div class="recommendation-item">
+                            <div class="recommendation-artist">${rec.artist}</div>
+                            <div class="recommendation-score">${(rec.similarity_to_centroid || 0).toFixed(3)}</div>
+                        </div>
+                    `).join('') : ''}
+                </div>
+            `;
+        }
+
+        // Clusters
+        async function getClusters() {
+            const result = document.getElementById('clustersResult');
+            result.innerHTML = '<div class="loading" style="margin: 1rem 0;"></div>';
+
+            const data = await fetchAPI('/api/clusters');
+
+            if (!data || data.error) {
+                result.innerHTML = `<div style="color: var(--text-muted);">Clusters not yet computed. Run the pipeline first.</div>`;
+                return;
+            }
+
+            result.innerHTML = `
+                <div style="font-size: 0.9rem; color: var(--text-muted); margin-bottom: 1.5rem;">
+                    ${data.n_clusters || 0} clusters (Silhouette Score: ${(data.silhouette_score || 0).toFixed(3)})
+                </div>
+                <div class="grid-3">
+                    ${data.clusters ? data.clusters.map(c => `
+                        <div class="cluster-card">
+                            ${c.name ? `<div class="cluster-name">${c.name}</div>` : ''}
+                            <div class="cluster-artists">
+                                ${c.artists ? c.artists.map(a => `<div class="artist-tag">${a}</div>`).join('') : ''}
+                            </div>
+                            <div class="cluster-quotes">
+                                ${c.representative_quotes ? c.representative_quotes.map(q => `
+                                    <div class="cluster-quote">"${q}"</div>
+                                `).join('') : ''}
+                            </div>
+                        </div>
+                    `).join('') : ''}
+                </div>
+            `;
+        }
+
+        // Matrix
+        async function getMatrix() {
+            const container = document.getElementById('matrixContainer');
+            container.innerHTML = '<div class="loading" style="margin: 2rem auto;"></div>';
+
+            const data = await fetchAPI('/api/matrix');
+
+            if (!data || data.error) {
+                container.innerHTML = '<div style="color: var(--text-muted);">Error loading matrix.</div>';
+                return;
+            }
+
+            const ids = data.ids || [];
+            const scores = data.scores || [];
+
+            let html = '<table class="matrix-table"><tr><th></th>';
+            ids.forEach(id => {
+                html += `<th title="${id}">${id.substring(0, 4)}</th>`;
+            });
+            html += '</tr>';
+
+            scores.forEach((row, i) => {
+                html += `<tr><th>${ids[i].substring(0, 4)}</th>`;
+                row.forEach(score => {
+                    const hue = (score * 120);
+                    const color = `hsl(${hue}, 100%, 50%)`;
+                    html += `<td class="matrix-cell" style="background: ${color};" title="${score.toFixed(3)}"></td>`;
+                });
+                html += '</tr>';
+            });
+            html += '</table>';
+
+            container.innerHTML = html;
+        }
+
+        // Custom Match
+        function populateCustomMatchArtists() {
+            const container = document.getElementById('customMatchArtists');
+            container.innerHTML = appState.allArtistIds.map(aid => `
+                <div class="artist-checkbox">
+                    <input type="checkbox" value="${aid}">
+                    <span>${aid}</span>
+                </div>
+            `).join('');
+        }
+
+        function toggleCustomMatch() {
+            const content = document.querySelector('.custom-match-content');
+            const icon = document.querySelector('.collapse-icon');
+            content.classList.toggle('expanded');
+            icon.classList.toggle('expanded');
+        }
+
+        async function runCustomMatch() {
+            const checkboxes = document.querySelectorAll('#customMatchArtists input:checked');
+            const artists = Array.from(checkboxes).map(c => c.value);
+
+            if (artists.length < 2) {
+                alert('Select at least 2 artists');
+                return;
+            }
+
+            const signal = document.getElementById('customMatchSignal').value;
+            const result = document.getElementById('customMatchResult');
+            result.innerHTML = '<div class="loading" style="margin: 1rem 0;"></div>';
+
+            const data = await fetchAPIPOST('/api/match', { artists, signal });
+
+            if (!data || data.error) {
+                result.innerHTML = `<div style="color: var(--text-muted);">Error finding matches.</div>`;
+                return;
+            }
+
+            result.innerHTML = `
+                <div style="font-size: 0.9rem; font-weight: 600; margin-bottom: 1rem;">Recommended Artists (by similarity to centroid)</div>
+                ${data.recommendations ? data.recommendations.map(rec => `
+                    <div class="recommendation-item">
+                        <div class="recommendation-artist">${rec.artist}</div>
+                        <div class="recommendation-score">${(rec.similarity || 0).toFixed(3)}</div>
+                    </div>
+                `).join('') : ''}
+            `;
+        }
+
+        // Pipeline
+        async function runPipeline() {
+            const status = document.getElementById('pipelineStatus');
+            status.innerHTML = '<span class="status-badge running">Running...</span>';
+
+            const response = await fetch('/api/pipeline', { method: 'POST' });
+            const { job_id } = await response.json();
+
+            pollJobStatus(job_id, status);
+        }
+
+        async function runCriticPipeline() {
+            const status = document.getElementById('criticPipelineStatus');
+            status.innerHTML = '<span class="status-badge running">Running...</span>';
+
+            const response = await fetch('/api/pipeline/critics', { method: 'POST' });
+            const { job_id } = await response.json();
+
+            pollJobStatus(job_id, status);
+        }
+
+        async function runFullPipeline() {
+            const status = document.getElementById('fullPipelineStatus');
+            status.innerHTML = '<span class="status-badge running">Running...</span>';
+
+            const response = await fetch('/api/pipeline/full', { method: 'POST' });
+            const { job_id } = await response.json();
+
+            pollJobStatus(job_id, status);
+        }
+
+        async function runCompareSignals() {
+            const status = document.getElementById('compareSignalsStatus');
+            status.innerHTML = '<span class="status-badge running">Running...</span>';
+
+            const response = await fetch('/api/pipeline/compare', { method: 'POST' });
+            const { job_id } = await response.json();
+
+            pollJobStatus(job_id, status);
+        }
+
+        async function pollJobStatus(jobId, statusEl) {
+            const maxAttempts = 120;
+            for (let i = 0; i < maxAttempts; i++) {
+                const response = await fetch(`/api/jobs/${jobId}`);
+                const job = await response.json();
+
+                if (job.status === 'completed') {
+                    statusEl.innerHTML = `<span class="status-badge completed">Completed</span>`;
+                    return;
+                } else if (job.status === 'failed') {
+                    statusEl.innerHTML = `<span class="status-badge failed">Failed</span><div class="job-status failed">${job.error || 'Unknown error'}</div>`;
+                    return;
+                }
+
+                await new Promise(r => setTimeout(r, 5000));
+            }
+        }
+
+        // Surprise
+        async function getSurprise() {
+            const data = await fetchAPI('/api/surprise/random');
+            if (data) {
+                const a = data.a || data.artist_a;
+                const b = data.b || data.artist_b;
+                if (a && b) {
+                    explainConnection(a, b);
+                }
+            }
+        }
+
+        // Modals
+        function openAddArtistModal() {
+            openModal('addArtistModal');
+        }
+
+        async function addArtist(event) {
+            event.preventDefault();
+            const name = document.getElementById('newArtistName').value;
+
+            const response = await fetch('/api/artists', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ name })
+            });
+
+            if (response.ok) {
+                closeModal('addArtistModal');
+                document.getElementById('newArtistName').value = '';
+                await loadArtists();
+            }
+        }
+
+        // Populate dropdowns
+        function populateSelects() {
+            ['pathArtistA', 'pathArtistB'].forEach(id => {
+                const select = document.getElementById(id);
+                select.innerHTML = appState.allArtistIds.map(aid =>
+                    `<option value="${aid}">${aid}</option>`
+                ).join('');
+            });
+        }
+
+        // Initialize on load
+        document.addEventListener('DOMContentLoaded', initApp);
+    </script>
+</body>
+</html>
