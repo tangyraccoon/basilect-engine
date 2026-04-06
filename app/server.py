@@ -95,6 +95,18 @@ def get_artist_corpus_meta(artist_id):
     data = load_json(quotes_path)
     return data.get("corpus_meta") if data else None
 
+def get_artist_critic_corpus_meta(artist_id):
+    """Load corpus_meta from critic_quotes.json"""
+    path = ARTISTS_DIR / artist_id / "critic_quotes.json"
+    if not path.exists():
+        return None
+    data = load_json(path)
+    return data.get("corpus_meta") if data else None
+
+def to_display_name(artist_id):
+    """Convert snake_case artist_id to Title Case display name"""
+    return " ".join(w.capitalize() for w in artist_id.split("_"))
+
 # ===== Serve Frontend =====
 
 @app.route('/')
@@ -164,9 +176,18 @@ def list_artists():
         if artist_dir.is_dir():
             artist_id = artist_dir.name
             corpus_meta = get_artist_corpus_meta(artist_id)
+            critic_meta = get_artist_critic_corpus_meta(artist_id)
+            quote_valid = bool(corpus_meta and corpus_meta.get("corpus_valid"))
+            critic_valid = bool(critic_meta and critic_meta.get("corpus_valid"))
+            if not quote_valid and not critic_valid:
+                continue
             artists.append({
                 "id": artist_id,
-                "corpus_meta": corpus_meta
+                "name": to_display_name(artist_id),
+                "corpus_meta": corpus_meta,
+                "critic_corpus_meta": critic_meta,
+                "corpus_valid": quote_valid,
+                "critic_valid": critic_valid,
             })
     return jsonify(artists)
 
@@ -179,12 +200,18 @@ def get_artist(artist_id):
 
     sources = load_json(artist_dir / "sources.json") or []
     quotes_data = load_json(artist_dir / "quotes.json") or {}
+    critic_data = load_json(artist_dir / "critic_quotes.json") or {}
+    review_sources = load_json(artist_dir / "review_sources.json") or []
 
     return jsonify({
         "id": artist_id,
+        "name": to_display_name(artist_id),
         "sources": sources,
         "quotes": quotes_data.get("quotes", []),
-        "corpus_meta": quotes_data.get("corpus_meta")
+        "corpus_meta": quotes_data.get("corpus_meta"),
+        "critic_quotes": critic_data.get("quotes", []),
+        "critic_corpus_meta": critic_data.get("corpus_meta"),
+        "review_sources": review_sources,
     })
 
 @app.route('/api/artists/<artist_id>/sources', methods=['GET'])

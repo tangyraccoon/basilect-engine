@@ -1,0 +1,28 @@
+{
+  "quotes": [
+    {
+      "text": "it was a motivation for producers to maximize the potential of technology at hand",
+      "publication": "",
+      "date": ""
+    },
+    {
+      "text": "Madlib is part of the reason why I make music. He is a a legend in the game, so having the chance to express myself over his music was phenomenal.",
+      "publication": "",
+      "date": ""
+    },
+    {
+      "text": "I don't like shit too perfect. I like some human mistake.",
+      "publication": "",
+      "date": "2016"
+    }
+  ],
+  "corpus_meta": {
+    "quote_count": 3,
+    "source_count": 0,
+    "date_range": [
+      "2016",
+      "2016"
+    ],
+    "corpus_valid": false
+  }
+}

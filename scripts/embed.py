@@ -46,10 +46,14 @@ def main():
     print("Encoding quotes...")
     all_embeddings = model.encode(all_quotes, show_progress_bar=True)
 
+    dim = all_embeddings.shape[1] if len(all_embeddings) > 0 else 384
     artist_embeddings = []
     for i, (start, end) in enumerate(boundaries):
         vecs = all_embeddings[start:end]
-        median_vec = np.median(vecs, axis=0)
+        if len(vecs) == 0:
+            median_vec = np.zeros(dim)
+        else:
+            median_vec = np.median(vecs, axis=0)
         artist_embeddings.append(median_vec)
         print(f"  {ids[i]}: {end - start} quotes -> median vector")
 

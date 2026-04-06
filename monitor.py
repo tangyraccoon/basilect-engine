@@ -2,12 +2,17 @@
 Live monitor for batch_full.py runs.
 Usage: python3 monitor.py [output_file]
        python3 monitor.py          # auto-finds latest task output
+
+Ground truth for completion + billing comes from data/artists/ (accurate across
+all runs). The output file is used only for the live "what's happening right now"
+overlay — current artist, current phase, live log lines.
 """
 
 import sys
 import re
 import time
 import glob
+import json
 import os
 import datetime
 from pathlib import Path
@@ -19,29 +24,31 @@ from rich.text import Text
 from rich.console import Console
 from rich import box
 
-TASK_DIR = "/private/tmp/claude-501"
-SEED_FILE = "data/seed_artists.txt"
+TASK_DIR   = "/private/tmp/claude-501"
+BASE_DIR   = Path(__file__).resolve().parent
+SEED_FILE  = BASE_DIR / "data/seed_artists.txt"
+DATA_DIR   = BASE_DIR / "data/artists"
 
 # claude-sonnet-4-20250514 pricing (per million tokens)
 MODEL_NAME         = "claude-sonnet-4-20250514"
 PRICE_INPUT_PER_M  = 3.00
 PRICE_OUTPUT_PER_M = 15.00
-AVG_INPUT_TOKENS   = 2500   # article text + system prompt
-AVG_OUTPUT_TOKENS  = 900    # JSON quotes/passages
+AVG_INPUT_TOKENS   = 2500
+AVG_OUTPUT_TOKENS  = 900
 BUDGET             = 100.00
 
-STATUS_PENDING    = "pending"
-STATUS_ACTIVE     = "active"
-STATUS_SUCCEEDED  = "succeeded"
-STATUS_FAILED     = "failed"
-STATUS_SKIPPED    = "skipped"
+STATUS_PENDING   = "pending"
+STATUS_ACTIVE    = "active"
+STATUS_SUCCEEDED = "succeeded"
+STATUS_FAILED    = "failed"
+STATUS_SKIPPED   = "skipped"
 
 STATUS_ICON = {
-    STATUS_PENDING:   ("·",  "dim"),
-    STATUS_ACTIVE:    ("▶",  "bold yellow"),
-    STATUS_SUCCEEDED: ("✓",  "bold green"),
-    STATUS_FAILED:    ("✗",  "bold red"),
-    STATUS_SKIPPED:   ("~",  "dim cyan"),
+    STATUS_PENDING:   ("·", "dim"),
+    STATUS_ACTIVE:    ("▶", "bold yellow"),
+    STATUS_SUCCEEDED: ("✓", "bold green"),
+    STATUS_FAILED:    ("✗", "bold red"),
+    STATUS_SKIPPED:   ("~", "dim cyan"),
 }
 
 PHASE_ICONS = {
@@ -55,6 +62,8 @@ PHASE_ICONS = {
 }
 
 
+# ── Helpers ──────────────────────────────────────────────────────────────────
+
 def find_latest_output():
     pattern = os.path.join(TASK_DIR, "**", "tasks", "*.output")
     files = glob.glob(pattern, recursive=True)
@@ -63,15 +72,9 @@ def find_latest_output():
     return max(files, key=os.path.getmtime)
 
 
-def find_all_outputs():
-    pattern = os.path.join(TASK_DIR, "**", "tasks", "*.output")
-    return glob.glob(pattern, recursive=True)
-
-
 def load_seed_artists():
-    path = Path(SEED_FILE)
-    if path.exists():
-        return [l.strip() for l in path.read_text().splitlines() if l.strip()]
+    if SEED_FILE.exists():
+        return [l.strip() for l in SEED_FILE.read_text().splitlines() if l.strip()]
     return []
 
 
@@ -79,383 +82,366 @@ def normalize(name):
     return re.sub(r'[^a-z0-9]+', '_', name.lower()).strip('_')
 
 
-def count_api_usage_all_files(current_file=None):
+def get_batch_health(output_file):
     """
-    Scan ALL task output files (all previous runs + current) and tally:
-      - billed_ok:        calls that succeeded (API responded, tokens used)
-      - billed_error:     calls where API responded but JSON parse failed (still billed)
-      - rejected:         calls rejected for low credits (not billed)
-      - quotes_extracted: total quote/passage items extracted
+    Returns a dict describing the health of the batch process:
+      - running:        True if batch_full.py process exists
+      - stale_mins:     minutes since output file last changed
+      - status:         'running' | 'stale' | 'dead'
+      - last_updated:   human-readable time of last output line
+      - checked_at:     current time string
     """
-    totals = dict(billed_ok=0, billed_error=0, rejected=0, quotes_extracted=0)
+    now = time.time()
+    checked_at = datetime.datetime.now().strftime("%-I:%M:%S %p")
 
-    all_files = find_all_outputs()
-    # Deduplicate by inode to avoid double-counting symlinks etc.
-    seen = set()
-    files_to_scan = []
-    for f in all_files:
-        try:
-            ino = os.stat(f).st_ino
-            if ino not in seen:
-                seen.add(ino)
-                files_to_scan.append(f)
-        except OSError:
-            pass
-
-    for fpath in files_to_scan:
-        try:
-            text = Path(fpath).read_text(errors="replace")
-        except OSError:
-            continue
-
-        for line in text.splitlines():
-            stripped = line.strip()
-            if re.match(r'^OK:\s+\d+', stripped):
-                totals["billed_ok"] += 1
-                m = re.search(r'(\d+)\s+(?:quote|passage)', stripped)
-                if m:
-                    totals["quotes_extracted"] += int(m.group(1))
-            elif "Failed to parse JSON" in stripped:
-                totals["billed_error"] += 1
-            elif "credit balance is too low" in stripped or "API call failed" in stripped:
-                totals["rejected"] += 1
-
-    return totals
-
-
-def calc_projection(current_file):
-    """
-    From the current run's output file, derive:
-      - elapsed minutes
-      - artists completed
-      - billed calls in this run
-      - calls_per_artist average
-      - mins_per_artist average
-      - total artists
-    Returns a dict of projection stats.
-    """
-    proj = dict(
-        elapsed_min=0.0,
-        artists_done_cur=0,
-        billed_cur=0,
-        calls_per_artist=0.0,
-        mins_per_artist=0.0,
-        total_artists=128,
-        projected_total_calls=0,
-        projected_total_cost=0.0,
-        cost_so_far=0.0,
-        cost_remaining=0.0,
-        budget_pct=0.0,
-        budget_status="green",   # green / yellow / red
-        eta=None,
-        eta_str="—",
-        mins_remaining=0.0,
-    )
-
+    # Check for live process
+    running = False
     try:
-        stat = os.stat(current_file)
-        created = getattr(stat, "st_birthtime", stat.st_ctime)
-        now = time.time()
-        proj["elapsed_min"] = (now - created) / 60.0
-
-        text = Path(current_file).read_text(errors="replace")
-
-        # Artist completed count (context-aware batch lines)
-        after_sep = False
-        highest_num = 0
-        total = 128
-        for line in text.splitlines():
-            s = line.strip()
-            if re.match(r'^={50,}$', s):
-                after_sep = True
-                continue
-            if after_sep:
-                m = re.match(r'^\[(\d+)/(\d+)\]\s+', s)
-                if m:
-                    highest_num = max(highest_num, int(m.group(1)))
-                    total = int(m.group(2))
-                after_sep = False
-        proj["total_artists"] = total
-
-        done_cur = len(re.findall(
-            r'(?:SUCCESS:|FAILED:|Already has valid corpus)', text))
-        billed_cur = len(re.findall(r'^\s+OK:', text, re.MULTILINE))
-
-        proj["artists_done_cur"] = done_cur
-        proj["billed_cur"] = billed_cur
-
-        if done_cur > 0:
-            proj["calls_per_artist"] = billed_cur / done_cur
-            proj["mins_per_artist"]  = proj["elapsed_min"] / done_cur
-
-        # All-time billed calls for cost-so-far
-        all_files  = find_all_outputs()
-        all_billed = 0
-        for f in all_files:
-            try:
-                t = Path(f).read_text(errors="replace")
-                all_billed += len(re.findall(r'^\s+OK:', t, re.MULTILINE))
-                all_billed += len(re.findall(r'Failed to parse JSON', t))
-            except OSError:
-                pass
-        cost_per_call = (
-            AVG_INPUT_TOKENS  / 1_000_000 * PRICE_INPUT_PER_M +
-            AVG_OUTPUT_TOKENS / 1_000_000 * PRICE_OUTPUT_PER_M
+        import subprocess
+        result = subprocess.run(
+            ["pgrep", "-f", "batch_full.py"],
+            capture_output=True, text=True
         )
-        proj["cost_so_far"] = all_billed * cost_per_call
-
-        # Projected total
-        cpa = proj["calls_per_artist"] if proj["calls_per_artist"] > 0 else 13.0
-        proj["projected_total_calls"] = int(total * cpa)
-        proj["projected_total_cost"]  = proj["projected_total_calls"] * cost_per_call
-        proj["cost_remaining"]        = max(0.0, proj["projected_total_cost"] - proj["cost_so_far"])
-
-        pct = proj["projected_total_cost"] / BUDGET * 100
-        proj["budget_pct"] = pct
-        if pct < 55:
-            proj["budget_status"] = "green"
-        elif pct < 80:
-            proj["budget_status"] = "yellow"
-        else:
-            proj["budget_status"] = "red"
-
-        # ETA
-        mpa = proj["mins_per_artist"] if proj["mins_per_artist"] > 0 else 3.0
-        remaining_artists = total - done_cur
-        proj["mins_remaining"] = remaining_artists * mpa
-        eta_dt = datetime.datetime.now() + datetime.timedelta(minutes=proj["mins_remaining"])
-        proj["eta"] = eta_dt
-        proj["eta_str"] = eta_dt.strftime("%-I:%M %p")
-
+        running = result.returncode == 0
     except Exception:
         pass
 
-    return proj
+    # Check output file freshness
+    stale_mins = 0.0
+    last_updated = "—"
+    try:
+        mtime = os.path.getmtime(output_file)
+        stale_mins = (now - mtime) / 60.0
+        last_updated = datetime.datetime.fromtimestamp(mtime).strftime("%-I:%M:%S %p")
+    except Exception:
+        pass
+
+    if running and stale_mins < 5:
+        status = "running"
+    elif running and stale_mins >= 5:
+        status = "stale"
+    else:
+        status = "dead"
+
+    return dict(
+        running=running,
+        stale_mins=stale_mins,
+        status=status,
+        last_updated=last_updated,
+        checked_at=checked_at,
+    )
 
 
-def parse_output(lines, all_artists):
-    status = {normalize(a): STATUS_PENDING for a in all_artists}
-    phases = {normalize(a): "" for a in all_artists}
+# ── Ground-truth reads from data/ ────────────────────────────────────────────
 
-    state = {
-        "total": len(all_artists),
-        "current_num": 0,
-        "current_artist": "",
-        "current_artist_id": "",
-        "current_phase": "",
-        "current_source": "",
-        "status": status,
-        "phases": phases,
-        "succeeded": [],
-        "failed": [],
-        "skipped": [],
-        "recent": [],
-        "global_pipeline": False,
-        "global_step": "",
-        "done": False,
-    }
+def load_data_stats():
+    """
+    Read data/artists/* for ground-truth across ALL runs:
+      - status per artist: SUCCEEDED (valid corpus), FAILED (attempted, not valid), PENDING
+      - total API calls:   sources with text = one extract call each
+      - total quotes / passages extracted
+    """
+    result = dict(
+        status={},           # artist_id -> STATUS_*
+        total_api_calls=0,
+        total_quotes=0,
+        total_passages=0,
+        artists_valid=set(),
+        artists_attempted=set(),
+    )
+
+    if not DATA_DIR.exists():
+        return result
+
+    for artist_dir in DATA_DIR.iterdir():
+        if not artist_dir.is_dir():
+            continue
+        aid = artist_dir.name
+        has_valid    = False
+        has_attempted = False
+
+        # Interview sources → API calls (sources with scraped text)
+        for fname in ("sources.json", "review_sources.json"):
+            p = artist_dir / fname
+            if p.exists():
+                try:
+                    sources = json.loads(p.read_text())
+                    result["total_api_calls"] += sum(1 for s in sources if s.get("text"))
+                except Exception:
+                    pass
+
+        # Quotes corpus
+        q_path = artist_dir / "quotes.json"
+        if q_path.exists():
+            try:
+                data = json.loads(q_path.read_text())
+                result["total_quotes"] += len(data.get("quotes", []))
+                has_attempted = True
+                if data.get("corpus_meta", {}).get("corpus_valid"):
+                    has_valid = True
+            except Exception:
+                pass
+
+        # Critic corpus
+        c_path = artist_dir / "critic_quotes.json"
+        if c_path.exists():
+            try:
+                data = json.loads(c_path.read_text())
+                result["total_passages"] += len(data.get("quotes", []))
+                has_attempted = True
+                if data.get("corpus_meta", {}).get("corpus_valid"):
+                    has_valid = True
+            except Exception:
+                pass
+
+        if has_valid:
+            result["status"][aid] = STATUS_SUCCEEDED
+            result["artists_valid"].add(aid)
+        elif has_attempted:
+            result["status"][aid] = STATUS_FAILED
+            result["artists_attempted"].add(aid)
+
+    return result
+
+
+# ── Current-run output file parse (live overlay only) ────────────────────────
+
+def parse_live(lines):
+    """
+    Parse the current run's output file for:
+      - which artist is actively being processed right now
+      - current phase + source
+      - which artists were resolved in this run (for FAILED marking)
+      - recent log lines for the live log panel
+      - whether this run is done
+    """
+    live = dict(
+        current_artist="",
+        current_artist_id="",
+        current_num=0,
+        total=128,
+        current_phase="",
+        current_source="",
+        global_step="",
+        failed_this_run=set(),
+        recent=[],
+        done=False,
+        elapsed_min=0.0,
+        artists_done_cur=0,
+        billed_cur=0,
+    )
 
     after_sep = False
 
     for line in lines:
-        stripped = line.strip()
+        s = line.strip()
 
-        if re.match(r'^={50,}$', stripped):
+        if re.match(r'^={50,}$', s):
             after_sep = True
             continue
-        if re.match(r'^─{50,}$', stripped):
+        if re.match(r'^─{50,}$', s):
             after_sep = False
             continue
 
-        # Batch-level artist line: only right after ===
         if after_sep:
-            m = re.match(r'^\[(\d+)/(\d+)\]\s+(.+)$', stripped)
+            m = re.match(r'^\[(\d+)/(\d+)\]\s+(.+)$', s)
             if m:
-                state["current_num"] = int(m.group(1))
-                state["total"] = int(m.group(2))
-                state["current_artist"] = m.group(3)
-                state["current_artist_id"] = normalize(m.group(3))
-                state["current_phase"] = ""
-                state["current_source"] = ""
-                if state["current_artist_id"] in state["status"]:
-                    state["status"][state["current_artist_id"]] = STATUS_ACTIVE
-                after_sep = False
-                continue
+                live["current_num"] = int(m.group(1))
+                live["total"]       = int(m.group(2))
+                live["current_artist"]    = m.group(3)
+                live["current_artist_id"] = normalize(m.group(3))
+                live["current_phase"]  = ""
+                live["current_source"] = ""
+            after_sep = False
+            continue
 
         after_sep = False
 
-        m = re.match(r'^Ingesting \(FULL DUAL PIPELINE\): (.+)$', stripped)
+        if "PHASE 1: INTERVIEW QUOTES" in s:
+            live["current_phase"] = "search_interviews"
+        elif "PHASE 2: CRITIC DISCOURSE" in s:
+            live["current_phase"] = "search_reviews"
+        elif "[SEARCH] Finding interview" in s:
+            live["current_phase"] = "search_interviews"
+        elif "[SCRAPE INTERVIEWS]" in s:
+            live["current_phase"] = "scrape_interviews"
+        elif "[EXTRACT QUOTES]" in s:
+            live["current_phase"] = "extract_quotes"
+        elif "[SEARCH REVIEWS]" in s:
+            live["current_phase"] = "search_reviews"
+        elif "[SCRAPE REVIEWS]" in s:
+            live["current_phase"] = "scrape_reviews"
+        elif "[EXTRACT CRITIC DISCOURSE]" in s:
+            live["current_phase"] = "extract_critic"
+        elif "GLOBAL DUAL-SIGNAL PIPELINE" in s:
+            live["current_phase"] = "global_pipeline"
+
+        m = re.match(r'^\[(\d+)/(\d+)\]\s+(.+)$', s)
         if m:
-            aid = normalize(m.group(1))
-            state["current_artist_id"] = aid
-            if aid in state["status"]:
-                state["status"][aid] = STATUS_ACTIVE
+            live["current_source"] = m.group(3)
 
-        if re.match(r'^Already has valid corpus.*skipping', stripped) and state["current_artist_id"]:
-            aid = state["current_artist_id"]
-            state["status"][aid] = STATUS_SKIPPED
-            if aid not in state["skipped"]:
-                state["skipped"].append(aid)
-
-        # Phase
-        if "PHASE 1: INTERVIEW QUOTES" in stripped:
-            state["current_phase"] = "search_interviews"
-        elif "PHASE 2: CRITIC DISCOURSE" in stripped:
-            state["current_phase"] = "search_reviews"
-        elif "[SEARCH] Finding interview" in stripped:
-            state["current_phase"] = "search_interviews"
-        elif "[SCRAPE INTERVIEWS]" in stripped:
-            state["current_phase"] = "scrape_interviews"
-        elif "[EXTRACT QUOTES]" in stripped:
-            state["current_phase"] = "extract_quotes"
-        elif "[SEARCH REVIEWS]" in stripped:
-            state["current_phase"] = "search_reviews"
-        elif "[SCRAPE REVIEWS]" in stripped:
-            state["current_phase"] = "scrape_reviews"
-        elif "[EXTRACT CRITIC DISCOURSE]" in stripped:
-            state["current_phase"] = "extract_critic"
-        elif "GLOBAL DUAL-SIGNAL PIPELINE" in stripped:
-            state["current_phase"] = "global_pipeline"
-            state["global_pipeline"] = True
-
-        # Source-level line inside extract (not after ===)
-        m = re.match(r'^\[(\d+)/(\d+)\]\s+(.+)$', stripped)
+        m = re.match(r'^Running (\S+\.py)\.\.\.', s)
         if m:
-            state["current_source"] = m.group(3)
+            live["global_step"] = m.group(1)
 
-        m = re.match(r'^Running (\S+\.py)\.\.\.', stripped)
+        m = re.match(r'^FAILED: (\S+) has no valid corpora', s)
         if m:
-            state["global_step"] = m.group(1)
+            live["failed_this_run"].add(m.group(1))
 
-        m = re.match(r'^SUCCESS: (\S+) has at least one valid corpus', stripped)
-        if m:
-            aid = m.group(1)
-            state["status"][aid] = STATUS_SUCCEEDED
-            if aid not in state["succeeded"]:
-                state["succeeded"].append(aid)
-            state["current_phase"] = ""
+        if "Log saved to:" in s:
+            live["done"] = True
 
-        m = re.match(r'^FAILED: (\S+) has no valid corpora', stripped)
-        if m:
-            aid = m.group(1)
-            state["status"][aid] = STATUS_FAILED
-            if aid not in state["failed"]:
-                state["failed"].append(aid)
-            state["current_phase"] = ""
+        if re.match(r'^\s+OK:', s):
+            live["billed_cur"] += 1
 
-        if re.match(r'^  \+ (.+)', stripped):
-            aid = re.match(r'^  \+ (.+)', stripped).group(1)
-            state["status"][aid] = STATUS_SUCCEEDED
-            if aid not in state["succeeded"]:
-                state["succeeded"].append(aid)
-        if re.match(r'^  - (.+)', stripped):
-            aid = re.match(r'^  - (.+)', stripped).group(1)
-            state["status"][aid] = STATUS_FAILED
-            if aid not in state["failed"]:
-                state["failed"].append(aid)
-        if re.match(r'^  ~ (.+)', stripped):
-            aid = re.match(r'^  ~ (.+)', stripped).group(1)
-            state["status"][aid] = STATUS_SKIPPED
-            if aid not in state["skipped"]:
-                state["skipped"].append(aid)
+        if re.match(r'^(?:SUCCESS:|FAILED:|Already has valid corpus)', s):
+            live["artists_done_cur"] += 1
 
-        if "Log saved to:" in stripped:
-            state["done"] = True
+        if s and not re.match(r'^[=─]{10,}$', s):
+            live["recent"].append(s)
 
-        if stripped and not re.match(r'^={50,}$', stripped) and not re.match(r'^─{50,}$', stripped):
-            state["recent"].append(stripped)
-
-    state["recent"] = state["recent"][-20:]
-
-    if state["current_artist_id"] and state["current_phase"]:
-        state["phases"][state["current_artist_id"]] = state["current_phase"]
-
-    return state
+    live["recent"] = live["recent"][-22:]
+    return live
 
 
-def make_credits_panel(usage, proj):
-    billed    = usage["billed_ok"] + usage["billed_error"]
-    rejected  = usage["rejected"]
-    extracted = usage["quotes_extracted"]
+def calc_projection(data_stats, live, current_file):
+    """Combine ground-truth data stats + current run timing for projections."""
+    proj = dict(
+        cost_so_far=0.0,
+        projected_total_cost=0.0,
+        budget_pct=0.0,
+        budget_status="green",
+        calls_per_artist=0.0,
+        mins_per_artist=0.0,
+        mins_remaining=0.0,
+        eta_str="—",
+    )
 
-    cost_so_far     = proj["cost_so_far"]
-    proj_total      = proj["projected_total_cost"]
-    cost_remaining  = proj["cost_remaining"]
-    budget_left     = max(0.0, BUDGET - cost_so_far)
-    budget_pct      = proj["budget_pct"]
-    bstatus         = proj["budget_status"]
-    eta_str         = proj["eta_str"]
-    mins_rem        = proj["mins_remaining"]
-    cpa             = proj["calls_per_artist"]
-    mpa             = proj["mins_per_artist"]
+    cost_per_call = (
+        AVG_INPUT_TOKENS  / 1_000_000 * PRICE_INPUT_PER_M +
+        AVG_OUTPUT_TOKENS / 1_000_000 * PRICE_OUTPUT_PER_M
+    )
 
-    # Budget status indicator
+    # Cost so far = actual sources processed across all runs (from data/)
+    proj["cost_so_far"] = data_stats["total_api_calls"] * cost_per_call
+
+    # Rate from current run
+    try:
+        stat    = os.stat(current_file)
+        created = getattr(stat, "st_birthtime", stat.st_ctime)
+        elapsed = (time.time() - created) / 60.0
+    except Exception:
+        elapsed = 0.0
+
+    done_cur   = live["artists_done_cur"]
+    billed_cur = live["billed_cur"]
+
+    if done_cur > 0:
+        proj["calls_per_artist"] = billed_cur / done_cur
+        proj["mins_per_artist"]  = elapsed / done_cur
+    else:
+        proj["calls_per_artist"] = 13.0   # fallback from historical avg
+        proj["mins_per_artist"]  = 3.0
+
+    total = live["total"] or 128
+    cpa   = proj["calls_per_artist"]
+    proj["projected_total_calls"] = int(total * cpa)
+    proj["projected_total_cost"]  = proj["projected_total_calls"] * cost_per_call
+
+    pct = proj["projected_total_cost"] / BUDGET * 100
+    proj["budget_pct"] = pct
+    proj["budget_status"] = "green" if pct < 55 else "yellow" if pct < 80 else "red"
+
+    # ETA from current run rate
+    artists_done_total = len(data_stats["artists_valid"])
+    remaining = max(0, total - artists_done_total)
+    proj["mins_remaining"] = remaining * proj["mins_per_artist"]
+    eta_dt = datetime.datetime.now() + datetime.timedelta(minutes=proj["mins_remaining"])
+    proj["eta_str"] = eta_dt.strftime("%-I:%M %p")
+
+    return proj
+
+
+# ── Panels ────────────────────────────────────────────────────────────────────
+
+def make_credits_panel(data_stats, proj, live):
+    billed    = data_stats["total_api_calls"]
+    extracted = data_stats["total_quotes"] + data_stats["total_passages"]
+    quotes    = data_stats["total_quotes"]
+    passages  = data_stats["total_passages"]
+
+    cost_so_far  = proj["cost_so_far"]
+    proj_total   = proj["projected_total_cost"]
+    budget_left  = max(0.0, BUDGET - cost_so_far)
+    bstatus      = proj["budget_status"]
+    cpa          = proj["calls_per_artist"]
+    mpa          = proj["mins_per_artist"]
+    mins_rem     = proj["mins_remaining"]
+    eta_str      = proj["eta_str"]
+
+    bc = {"green": "green", "yellow": "yellow", "red": "red"}[bstatus]
+
+    # ── SPENT bar (actual spend vs budget) ──────────────────────────────
+    spent_pct  = min(100.0, cost_so_far / BUDGET * 100)
+    proj_pct   = min(100.0, proj_total  / BUDGET * 100)
+    bar_w      = 18
+    spent_fill = max(1, int(bar_w * spent_pct / 100)) if cost_so_far > 0 else 0
+    proj_fill  = max(spent_fill, int(bar_w * proj_pct / 100))
+    # bar: spent=solid, projected=light, remainder=empty
+    bar_spent  = "█" * spent_fill
+    bar_proj   = "▒" * max(0, proj_fill - spent_fill)
+    bar_empty  = "░" * max(0, bar_w - proj_fill)
+    bar = (f"[bold yellow]{bar_spent}[/]"
+           f"[{bc} dim]{bar_proj}[/]"
+           f"[dim]{bar_empty}[/]")
+
+    # ── Budget verdict ───────────────────────────────────────────────────
     if bstatus == "green":
-        status_icon  = "●"
-        status_color = "bold green"
-        status_label = f"COVERED  ({budget_pct:.0f}% of ${BUDGET:.0f})"
+        verdict = f"[bold green]● COVERED[/]  proj. ${proj_total:.0f} of ${BUDGET:.0f}"
     elif bstatus == "yellow":
-        status_icon  = "●"
-        status_color = "bold yellow"
-        status_label = f"TIGHT  ({budget_pct:.0f}% of ${BUDGET:.0f})"
+        verdict = f"[bold yellow]● TIGHT[/]  proj. ${proj_total:.0f} of ${BUDGET:.0f}"
     else:
-        status_icon  = "●"
-        status_color = "bold red"
-        status_label = f"AT RISK  ({budget_pct:.0f}% of ${BUDGET:.0f})"
+        verdict = f"[bold red]● AT RISK[/]  proj. ${proj_total:.0f} of ${BUDGET:.0f}"
 
-    # Budget bar
-    bar_w  = 16
-    filled = min(bar_w, int(bar_w * budget_pct / 100))
-    if bstatus == "green":
-        bar = f"[green]{'█' * filled}[/][dim]{'░' * (bar_w - filled)}[/]"
-    elif bstatus == "yellow":
-        bar = f"[yellow]{'█' * filled}[/][dim]{'░' * (bar_w - filled)}[/]"
-    else:
-        bar = f"[red]{'█' * filled}[/][dim]{'░' * (bar_w - filled)}[/]"
-
-    # Time remaining string
-    if mins_rem > 90:
-        time_rem_str = f"{mins_rem/60:.1f} hrs"
-    elif mins_rem > 0:
-        time_rem_str = f"{mins_rem:.0f} min"
-    else:
-        time_rem_str = "—"
+    time_rem = (f"{mins_rem/60:.1f} hrs" if mins_rem > 90
+                else f"{mins_rem:.0f} min" if mins_rem > 0 else "—")
 
     t = Table(box=box.SIMPLE, show_header=False, padding=(0, 1))
     t.add_column("k", style="dim", width=17)
     t.add_column("v", justify="right")
 
-    t.add_row(f"[{status_color}]{status_icon}[/] Budget status",
-              f"[{status_color}]{status_label}[/]")
-    t.add_row("",  Text.from_markup(bar))
-    t.add_row("",                "")
-    t.add_row("Spent (est.)",     f"[bold]~${cost_so_far:.2f}[/]")
-    t.add_row("Budget remaining", f"[{'red' if budget_left < 20 else 'green'}]~${budget_left:.2f}[/]")
-    t.add_row("",                "")
-    t.add_row("Proj. total cost", f"[bold {'red' if bstatus=='red' else 'yellow' if bstatus=='yellow' else 'green'}]~${proj_total:.2f}[/]")
-    t.add_row("Proj. calls total",f"[dim]{proj['projected_total_calls']:,}[/]")
-    t.add_row("Calls/artist",     f"[dim]{cpa:.1f}[/]")
-    t.add_row("",                "")
-    t.add_row("Time remaining",   f"[bold]{time_rem_str}[/]")
-    t.add_row("ETA",              f"[bold cyan]{eta_str}[/]")
-    t.add_row("Min/artist",       f"[dim]{mpa:.1f}[/]")
-    t.add_row("",                "")
-    t.add_row("─" * 17,          "─" * 10)
-    t.add_row("",                "")
-    t.add_row("Billed calls",     f"[bold]{billed}[/]")
-    t.add_row("  ✓ OK",           f"[green]{usage['billed_ok']}[/]")
-    t.add_row("  ⚠ Parse err",    f"[yellow]{usage['billed_error']}[/]")
-    t.add_row("Rejected (free)",  f"[dim]{rejected}[/]")
-    t.add_row("Items extracted",  f"[bold cyan]{extracted:,}[/]")
-    t.add_row("",                "")
-    t.add_row("[dim]Exact balance:[/]",  "")
+    # ── Spent ────────────────────────────────────────────────────────────
+    t.add_row("[bold]SPENT[/]",       f"[bold yellow]${cost_so_far:.2f}[/]  [dim]/ ${BUDGET:.0f}[/]")
+    t.add_row("",                     Text.from_markup(
+                                          f"{bar}  [bold yellow]{spent_pct:.0f}%[/]"))
+    t.add_row("[dim]Budget left[/]",  f"[{'red' if budget_left < 20 else 'bold green'}]${budget_left:.2f}[/]")
+    t.add_row("",                     "")
+
+    # ── Projection ───────────────────────────────────────────────────────
+    t.add_row("[bold]PROJECTED[/]",   Text.from_markup(verdict))
+    t.add_row("Total cost",           f"[{bc}]~${proj_total:.2f}[/]")
+    t.add_row("Total API calls",      f"[dim]{proj['projected_total_calls']:,}[/]")
+    t.add_row("",                     "")
+
+    # ── Timing ───────────────────────────────────────────────────────────
+    t.add_row("[bold]ETA[/]",         f"[bold cyan]{eta_str}[/]")
+    t.add_row("Time left",            f"[bold]{time_rem}[/]")
+    t.add_row("Min/artist",           f"[dim]{mpa:.1f}  ({cpa:.1f} calls)[/]")
+    t.add_row("",                     "")
+
+    # ── Usage breakdown ──────────────────────────────────────────────────
+    t.add_row("[bold]USAGE[/]",       f"[bold]{billed:,} API calls[/]")
+    t.add_row("Quotes",               f"[green]{quotes:,}[/]")
+    t.add_row("Passages",             f"[cyan]{passages:,}[/]")
+    t.add_row("Total items",          f"[bold cyan]{extracted:,}[/]")
+    t.add_row("",                     "")
     t.add_row("[dim]console.anthropic.com[/]", "")
 
-    border = {"green": "green", "yellow": "yellow", "red": "red"}[bstatus]
-    return Panel(t, title=f"[bold]API Credits  /  ${BUDGET:.0f} Budget[/]", border_style=border)
+    return Panel(t, title=f"[bold]API Credits  /  ${BUDGET:.0f} Budget[/]",
+                 border_style=bc)
 
 
-def make_dashboard(state, all_artists, usage, proj, output_file, file_size):
+def make_dashboard(data_stats, live, proj, health, all_artists, output_file, file_size):
     layout = Layout()
     layout.split_column(
         Layout(name="header", size=4),
@@ -472,42 +458,65 @@ def make_dashboard(state, all_artists, usage, proj, output_file, file_size):
         Layout(name="log"),
     )
 
-    # ── Header ──────────────────────────────────────────────────────────
-    total = state["total"] or len(all_artists)
-    done_count = len(state["succeeded"]) + len(state["failed"]) + len(state["skipped"])
-    pct = (done_count / total * 100) if total else 0
-    bar_w = 46
+    # ── Compute overall status for each artist ─────────────────────────────
+    # Priority: ACTIVE (current run) > SUCCEEDED (data/) > FAILED (current run)
+    #           > SKIPPED (already valid, skipped by batch) > PENDING
+    artist_status = {}
+    artist_phases = {}
+    for artist in all_artists:
+        aid = normalize(artist)
+        if aid in data_stats["status"]:
+            artist_status[aid] = data_stats["status"][aid]   # SUCCEEDED from data
+        else:
+            artist_status[aid] = STATUS_PENDING
+        artist_phases[aid] = ""
+
+    # Overlay current run state
+    cur_aid = live["current_artist_id"]
+    if cur_aid:
+        artist_status[cur_aid] = STATUS_ACTIVE
+        artist_phases[cur_aid] = live["current_phase"]
+
+    for aid in live["failed_this_run"]:
+        if artist_status.get(aid) not in (STATUS_SUCCEEDED, STATUS_ACTIVE):
+            artist_status[aid] = STATUS_FAILED
+
+    # ── Header ────────────────────────────────────────────────────────────
+    total       = live["total"] or len(all_artists)
+    n_succeeded = len(data_stats["artists_valid"])
+    n_attempted = len(data_stats["artists_attempted"])
+    n_active    = 1 if cur_aid and artist_status.get(cur_aid) == STATUS_ACTIVE else 0
+    n_touched   = n_succeeded + n_attempted + n_active
+    n_pending   = max(0, total - n_touched)
+    pct         = (n_touched / total * 100) if total else 0
+
+    bar_w  = 46
     filled = int(bar_w * pct / 100)
-    bar = "█" * filled + "░" * (bar_w - filled)
-    active = 1 if (state["current_artist_id"] and
-                   state["status"].get(state["current_artist_id"]) == STATUS_ACTIVE) else 0
-    pending = total - done_count - active
-    status_str = "[bold green]COMPLETE[/]" if state["done"] else "[bold yellow]RUNNING[/]"
+    bar    = "█" * filled + "░" * (bar_w - filled)
+    run_status = "[bold green]COMPLETE[/]" if live["done"] else "[bold yellow]RUNNING[/]"
 
     header = Text.from_markup(
-        f"  [bold cyan]Basilect Engine[/]  Dual-Signal Batch Ingest  {status_str}\n"
+        f"  [bold cyan]Basilect Engine[/]  Dual-Signal Batch Ingest  {run_status}\n"
         f"  [green]{bar}[/]  [bold]{pct:.0f}%[/]  "
-        f"[dim]{done_count}/{total}  "
-        f"([green]✓{len(state['succeeded'])}[/] "
-        f"[red]✗{len(state['failed'])}[/] "
-        f"[cyan]~{len(state['skipped'])}[/] "
-        f"[yellow]▶{active}[/] "
-        f"·{pending} pending)[/]"
+        f"[dim]{n_touched}/{total} touched  "
+        f"([green]✓{n_succeeded} valid[/]  "
+        f"[red]✗{n_attempted} partial[/]  "
+        f"[yellow]▶{n_active} active[/]  "
+        f"·{n_pending} pending)[/]"
     )
     layout["header"].update(Panel(header))
 
-    # ── Artist Stack ─────────────────────────────────────────────────────
+    # ── Artist Stack ──────────────────────────────────────────────────────
     stack_text = Text()
     for artist in all_artists:
-        aid = normalize(artist)
-        s = state["status"].get(aid, STATUS_PENDING)
+        aid   = normalize(artist)
+        s     = artist_status.get(aid, STATUS_PENDING)
         icon, style = STATUS_ICON[s]
-        phase = state["phases"].get(aid, "")
-        phase_label = PHASE_ICONS.get(phase, "")
+        phase_label = PHASE_ICONS.get(artist_phases.get(aid, ""), "")
 
         if s == STATUS_ACTIVE:
             stack_text.append(f" {icon} ", style=style)
-            stack_text.append(f"{artist}", style="bold yellow")
+            stack_text.append(artist, style="bold yellow")
             if phase_label:
                 stack_text.append(f"  {phase_label}", style="dim yellow")
             stack_text.append("\n")
@@ -522,27 +531,26 @@ def make_dashboard(state, all_artists, usage, proj, output_file, file_size):
 
     layout["stack"].update(Panel(stack_text, title="[bold]All Artists[/]", border_style="cyan"))
 
-    # ── Current Artist ────────────────────────────────────────────────────
-    cur        = state["current_artist"] or "—"
-    cur_phase  = PHASE_ICONS.get(state["current_phase"], state["current_phase"] or "—")
-    cur_src    = state["current_source"] or ""
-    global_step = state["global_step"] or ""
+    # ── Now Processing ────────────────────────────────────────────────────
+    cur       = live["current_artist"] or "—"
+    cur_phase = PHASE_ICONS.get(live["current_phase"], live["current_phase"] or "—")
+    cur_src   = live["current_source"] or ""
 
-    cur_table = Table(box=box.SIMPLE, show_header=False, padding=(0, 1))
-    cur_table.add_column("k", style="dim", width=12)
-    cur_table.add_column("v")
-    cur_table.add_row("Artist", f"[bold cyan]{cur}[/]  [dim]({state['current_num']}/{state['total']})[/]")
-    cur_table.add_row("Phase",  f"[yellow]{cur_phase}[/]")
+    ct = Table(box=box.SIMPLE, show_header=False, padding=(0, 1))
+    ct.add_column("k", style="dim", width=12)
+    ct.add_column("v")
+    ct.add_row("Artist",   f"[bold cyan]{cur}[/]  [dim]({live['current_num']}/{live['total']})[/]")
+    ct.add_row("Phase",    f"[yellow]{cur_phase}[/]")
     if cur_src:
-        cur_table.add_row("Source", f"[dim]{cur_src}[/]")
-    if global_step:
-        cur_table.add_row("Pipeline", f"[magenta]{global_step}[/]")
-    layout["current"].update(Panel(cur_table, title="[bold]Now Processing[/]", border_style="yellow"))
+        ct.add_row("Source", f"[dim]{cur_src}[/]")
+    if live["global_step"]:
+        ct.add_row("Pipeline", f"[magenta]{live['global_step']}[/]")
+    layout["current"].update(Panel(ct, title="[bold]Now Processing[/]", border_style="yellow"))
 
     # ── Live Log ──────────────────────────────────────────────────────────
     log_text = Text()
-    for line in state["recent"]:
-        if re.match(r'^OK\s+\d+', line) or "quote(s) extracted" in line or "passage(s) extracted" in line:
+    for line in live["recent"]:
+        if "quote(s) extracted" in line or "passage(s) extracted" in line:
             log_text.append(line + "\n", style="green")
         elif line.startswith("FAIL"):
             log_text.append(line + "\n", style="dim red")
@@ -563,16 +571,38 @@ def make_dashboard(state, all_artists, usage, proj, output_file, file_size):
     layout["log"].update(Panel(log_text, title="[bold]Live Log[/]", border_style="blue"))
 
     # ── Credits ───────────────────────────────────────────────────────────
-    layout["credits"].update(make_credits_panel(usage, proj))
+    layout["credits"].update(make_credits_panel(data_stats, proj, live))
 
-    # ── Footer ────────────────────────────────────────────────────────────
+    # ── Footer: health + timestamp ────────────────────────────────────────
     kb = file_size / 1024
-    layout["footer"].update(
-        Panel(f"[dim]{output_file}  |  {kb:.1f} KB  |  Ctrl+C to exit[/]", style="dim")
+    st = health["status"]
+    sm = health["stale_mins"]
+
+    if st == "running":
+        health_icon  = "● RUNNING"
+        health_color = "bold green"
+        health_note  = f"output {sm:.0f}m ago" if sm > 1 else "live"
+    elif st == "stale":
+        health_icon  = "● STALE"
+        health_color = "bold yellow"
+        health_note  = f"no output for {sm:.0f}m — may be hung"
+    else:
+        health_icon  = "● DEAD"
+        health_color = "bold red"
+        health_note  = f"process not found  |  last output {sm:.0f}m ago"
+
+    footer_text = Text.from_markup(
+        f"[{health_color}]{health_icon}[/]  [{health_color}]{health_note}[/]  "
+        f"[dim]|  last output: {health['last_updated']}  "
+        f"|  checked: {health['checked_at']}  "
+        f"|  {kb:.1f} KB  |  Ctrl+C to exit[/]"
     )
+    layout["footer"].update(Panel(footer_text))
 
     return layout
 
+
+# ── Main loop ─────────────────────────────────────────────────────────────────
 
 def main():
     output_file = sys.argv[1] if len(sys.argv) > 1 else find_latest_output()
@@ -583,33 +613,39 @@ def main():
 
     all_artists = load_seed_artists()
     if not all_artists:
-        print(f"Warning: could not load {SEED_FILE}, artist stack will be empty")
+        print(f"Warning: could not load {SEED_FILE}")
 
     console = Console()
-    tick = 0
+    tick    = 0
 
-    with Live(console=console, refresh_per_second=2, screen=True) as live:
-        usage = count_api_usage_all_files(output_file)
-        proj  = calc_projection(output_file)
+    with Live(console=console, refresh_per_second=2, screen=True) as live_display:
+        data_stats = load_data_stats()
+        health     = get_batch_health(output_file)
         while True:
             try:
-                content   = Path(output_file).read_text(errors="replace")
-                lines     = content.splitlines()
-                file_size = Path(output_file).stat().st_size
-                state     = parse_output(lines, all_artists)
+                content    = Path(output_file).read_text(errors="replace")
+                lines      = content.splitlines()
+                file_size  = Path(output_file).stat().st_size
+                live_state = parse_live(lines)
+                proj       = calc_projection(data_stats, live_state, output_file)
+                health     = get_batch_health(output_file)
 
-                # Rescan usage + projection every 10 ticks (~5s)
+                # Reload data stats every 10 ticks (~5s) to catch new completions
                 tick += 1
                 if tick % 10 == 0:
-                    usage = count_api_usage_all_files(output_file)
-                    proj  = calc_projection(output_file)
+                    data_stats = load_data_stats()
 
-                live.update(make_dashboard(state, all_artists, usage, proj, output_file, file_size))
+                live_display.update(
+                    make_dashboard(data_stats, live_state, proj, health, all_artists, output_file, file_size)
+                )
 
-                if state["done"]:
-                    usage = count_api_usage_all_files(output_file)
-                    proj  = calc_projection(output_file)
-                    live.update(make_dashboard(state, all_artists, usage, proj, output_file, file_size))
+                if live_state["done"]:
+                    data_stats = load_data_stats()
+                    proj   = calc_projection(data_stats, live_state, output_file)
+                    health = get_batch_health(output_file)
+                    live_display.update(
+                        make_dashboard(data_stats, live_state, proj, health, all_artists, output_file, file_size)
+                    )
                     time.sleep(4)
                     break
 
