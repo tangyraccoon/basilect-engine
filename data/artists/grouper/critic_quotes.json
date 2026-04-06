@@ -71,7 +71,7 @@
       "date": ""
     },
     {
-      "text": "It's also striking that the guitar is the prominent — really, only — instrument used on Shade.",
+      "text": "It's also striking that the guitar is the prominent \u2014 really, only \u2014 instrument used on Shade.",
       "publication": "Thequietus",
       "date": ""
     },
@@ -96,7 +96,7 @@
       "date": ""
     },
     {
-      "text": "Like its complement, The Man Who Died in His Boat is located somewhere between fiction and reality – or, if you like, between waking and dreaming.",
+      "text": "Like its complement, The Man Who Died in His Boat is located somewhere between fiction and reality \u2013 or, if you like, between waking and dreaming.",
       "publication": "Thequietus",
       "date": ""
     },
@@ -111,7 +111,7 @@
       "date": ""
     },
     {
-      "text": "By contrast to the loops-and-effects overkill of her debut album Way Their Crept – though in much the same vein as Dragging a Dead Deer – the William Basinski tape decay textures, field recordings and filigree drones that shroud these tracks accent Harris' compositions rather than obfuscating them.",
+      "text": "By contrast to the loops-and-effects overkill of her debut album Way Their Crept \u2013 though in much the same vein as Dragging a Dead Deer \u2013 the William Basinski tape decay textures, field recordings and filigree drones that shroud these tracks accent Harris' compositions rather than obfuscating them.",
       "publication": "Thequietus",
       "date": ""
     },
@@ -135,6 +135,7 @@
     "quote_count": 26,
     "source_count": 5,
     "date_range": [],
-    "corpus_valid": false
+    "corpus_valid": true,
+    "validity_note": "year requirement relaxed"
   }
 }

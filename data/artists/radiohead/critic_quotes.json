@@ -16,7 +16,7 @@
       "date": ""
     },
     {
-      "text": "For me since their songs seem to lack the typical verse, chorus, verse structure…or if it does have that the chorus is not very catchy (none of their songs are).",
+      "text": "For me since their songs seem to lack the typical verse, chorus, verse structure\u2026or if it does have that the chorus is not very catchy (none of their songs are).",
       "publication": "2Loud2Oldmusic",
       "date": ""
     },
@@ -81,7 +81,7 @@
       "date": ""
     },
     {
-      "text": "Kid A is very well done – it's all memorable, not just a band playing lip service to their influences, and it's effectively defined the sonic space that Radiohead have inhabited ever since.",
+      "text": "Kid A is very well done \u2013 it's all memorable, not just a band playing lip service to their influences, and it's effectively defined the sonic space that Radiohead have inhabited ever since.",
       "publication": "",
       "date": ""
     },
@@ -116,7 +116,7 @@
       "date": ""
     },
     {
-      "text": "If The King of Limbs felt half finished, A Moon Shaped Pool is a fully realised album. It's slightly mellower in sound than usual, with more strings, and its backdrop was Thom Yorke's separation from his wife – if such a thing is possible, it's even more morose than usual for Radiohead.",
+      "text": "If The King of Limbs felt half finished, A Moon Shaped Pool is a fully realised album. It's slightly mellower in sound than usual, with more strings, and its backdrop was Thom Yorke's separation from his wife \u2013 if such a thing is possible, it's even more morose than usual for Radiohead.",
       "publication": "",
       "date": ""
     },
@@ -136,12 +136,12 @@
       "date": ""
     },
     {
-      "text": "With OK Computer—and more dramatically with Kid A—they escaped genre-definition entirely.",
+      "text": "With OK Computer\u2014and more dramatically with Kid A\u2014they escaped genre-definition entirely.",
       "publication": "Altrockchick",
       "date": ""
     },
     {
-      "text": "People don't buy Radiohead records because they know what the records are going to sound like—they buy Radiohead because they know that whatever comes out of those speakers is going to be a high-quality listening experience.",
+      "text": "People don't buy Radiohead records because they know what the records are going to sound like\u2014they buy Radiohead because they know that whatever comes out of those speakers is going to be a high-quality listening experience.",
       "publication": "Altrockchick",
       "date": ""
     },
@@ -226,7 +226,7 @@
       "date": ""
     },
     {
-      "text": "Personally, I think the track order is essential to understanding one of the core themes of OK Computer: in a world that seems to be careening beyond the boundaries of common sense due to the simultaneous collision of high-speed digital technology and slow, unfeeling bureaucracies that view human beings as inconvenient statistics, we all need to heed the warning to The Tourist—-\"Hey, man, slow down!\"—and ask, \"What the fuck are we doing to ourselves?\"",
+      "text": "Personally, I think the track order is essential to understanding one of the core themes of OK Computer: in a world that seems to be careening beyond the boundaries of common sense due to the simultaneous collision of high-speed digital technology and slow, unfeeling bureaucracies that view human beings as inconvenient statistics, we all need to heed the warning to The Tourist\u2014-\"Hey, man, slow down!\"\u2014and ask, \"What the fuck are we doing to ourselves?\"",
       "publication": "Altrockchick",
       "date": ""
     },
@@ -251,12 +251,12 @@
       "date": ""
     },
     {
-      "text": "Today's biggest artists such as Beyoncé, Taylor Swift, and Radiohead, don't rely on good reviews to sell their records. Most of them drop their albums out of nowhere, skipping the journalism part of marketing altogether.",
+      "text": "Today's biggest artists such as Beyonc\u00e9, Taylor Swift, and Radiohead, don't rely on good reviews to sell their records. Most of them drop their albums out of nowhere, skipping the journalism part of marketing altogether.",
       "publication": "Beardedgentlemenmusic",
       "date": ""
     },
     {
-      "text": "More interesting than treating In Ribbons as an archival document is to consider how bands like Pale Saints lay the groundwork for acts like Radiohead, whose Pablo Honey (1993) debuted a year later. The sense of experimentation and appreciation for texture – vocal, rhythmic, and percussive – that define In Ribbons anticipate similar qualities found in OK Computer (1997) and after.",
+      "text": "More interesting than treating In Ribbons as an archival document is to consider how bands like Pale Saints lay the groundwork for acts like Radiohead, whose Pablo Honey (1993) debuted a year later. The sense of experimentation and appreciation for texture \u2013 vocal, rhythmic, and percussive \u2013 that define In Ribbons anticipate similar qualities found in OK Computer (1997) and after.",
       "publication": "Christopherjlee.Org",
       "date": ""
     },
@@ -291,7 +291,7 @@
       "date": ""
     },
     {
-      "text": "Most of the lyrics on Kid A are fragments of the idiot dialogue running through Thom Yorke's head: snatches of friendly advice, common wisdom, artistic interpretations, cliché phrases, sudden anxiety attacks and reactions to the world's ugliness.",
+      "text": "Most of the lyrics on Kid A are fragments of the idiot dialogue running through Thom Yorke's head: snatches of friendly advice, common wisdom, artistic interpretations, clich\u00e9 phrases, sudden anxiety attacks and reactions to the world's ugliness.",
       "publication": "Altrockchick",
       "date": ""
     },
@@ -435,6 +435,7 @@
     "quote_count": 86,
     "source_count": 6,
     "date_range": [],
-    "corpus_valid": false
+    "corpus_valid": true,
+    "validity_note": "year requirement relaxed"
   }
 }

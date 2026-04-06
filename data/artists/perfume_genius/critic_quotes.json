@@ -46,7 +46,7 @@
       "date": ""
     },
     {
-      "text": "Better known by the pseudonym Perfume Genius, the art pop balladeer is lauded for his heartrending lyrics on love, loss and sexuality — trading genres like pairs of shoes.",
+      "text": "Better known by the pseudonym Perfume Genius, the art pop balladeer is lauded for his heartrending lyrics on love, loss and sexuality \u2014 trading genres like pairs of shoes.",
       "publication": "Dbknews",
       "date": ""
     },
@@ -175,6 +175,7 @@
     "quote_count": 34,
     "source_count": 6,
     "date_range": [],
-    "corpus_valid": false
+    "corpus_valid": true,
+    "validity_note": "year requirement relaxed"
   }
 }

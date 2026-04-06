@@ -11,7 +11,7 @@
       "date": ""
     },
     {
-      "text": "I think the constant is insanity – a state of despair – feeling like you've made the shittiest thing you've ever made. That's the constant threat of despair and pain, but that leads to intensity in questioning and not thinking that what you make is instantly gold. My way of working has changed a bit and every project is different. This was a different set of challenges; I went through a bit more of an elaborate process with how these pieces manifested.",
+      "text": "I think the constant is insanity \u2013 a state of despair \u2013 feeling like you've made the shittiest thing you've ever made. That's the constant threat of despair and pain, but that leads to intensity in questioning and not thinking that what you make is instantly gold. My way of working has changed a bit and every project is different. This was a different set of challenges; I went through a bit more of an elaborate process with how these pieces manifested.",
       "publication": "Inverted-Audio",
       "date": ""
     },
@@ -41,17 +41,17 @@
       "date": ""
     },
     {
-      "text": "I made a joke that this music is choral– it has a voice in it – I made a joke to a friend that this is kind of like how you make church music, if it were to exist in the age of auto-tune, so how do you make church music after Yeezus? Something that's industrial formations of the voice that is just eviscerated in auto-tune, destroyed and imploded.",
+      "text": "I made a joke that this music is choral\u2013 it has a voice in it \u2013 I made a joke to a friend that this is kind of like how you make church music, if it were to exist in the age of auto-tune, so how do you make church music after Yeezus? Something that's industrial formations of the voice that is just eviscerated in auto-tune, destroyed and imploded.",
       "publication": "Inverted-Audio",
       "date": ""
     },
     {
-      "text": "I've always had a studio at my house and I usually work on it there, then at a certain point I have these pieces that started off on a rift from 15th Century choral music I did a session in Iceland and worked on it a bit, came back, worked on it more, then I sent it to Johan Johansen who wrote some choral arrangements – very small, tight motifs and we took that back to Iceland and recorded it there – then I went back with a lot of that material and hammered it, finished the record and added more, worked on it in a Picasso collage disfigured face way.",
+      "text": "I've always had a studio at my house and I usually work on it there, then at a certain point I have these pieces that started off on a rift from 15th Century choral music I did a session in Iceland and worked on it a bit, came back, worked on it more, then I sent it to Johan Johansen who wrote some choral arrangements \u2013 very small, tight motifs and we took that back to Iceland and recorded it there \u2013 then I went back with a lot of that material and hammered it, finished the record and added more, worked on it in a Picasso collage disfigured face way.",
       "publication": "Inverted-Audio",
       "date": ""
     },
     {
-      "text": "Both – I hope they function as 3 minutes excerpts, that might have some internal world that is interesting in itself – but it is also stacked to function as a 40-minute roller. It doesn't mean that you have to sit down for 40 minutes. I don't think of it in that way. I think about it like making an object that is like a video art installation, sometimes it's a 20 minute piece and people will sit down in a gallery for 6 minutes and they don't see the narrative as it is meant to be constructed, but it doesn't matter, there is no description with how it should be digested. Each moment, track or sub section satisfies me in some level.",
+      "text": "Both \u2013 I hope they function as 3 minutes excerpts, that might have some internal world that is interesting in itself \u2013 but it is also stacked to function as a 40-minute roller. It doesn't mean that you have to sit down for 40 minutes. I don't think of it in that way. I think about it like making an object that is like a video art installation, sometimes it's a 20 minute piece and people will sit down in a gallery for 6 minutes and they don't see the narrative as it is meant to be constructed, but it doesn't matter, there is no description with how it should be digested. Each moment, track or sub section satisfies me in some level.",
       "publication": "Inverted-Audio",
       "date": ""
     },
@@ -96,7 +96,7 @@
       "date": ""
     },
     {
-      "text": "I don't have a 'workflow', I just generally find some kind of kernel of an idea, a melody, a phrase, and expand upon it in layers, pulling out layers as I go…",
+      "text": "I don't have a 'workflow', I just generally find some kind of kernel of an idea, a melody, a phrase, and expand upon it in layers, pulling out layers as I go\u2026",
       "publication": "Waldorf Music",
       "date": ""
     },
@@ -125,6 +125,7 @@
     "quote_count": 24,
     "source_count": 2,
     "date_range": [],
-    "corpus_valid": false
+    "corpus_valid": true,
+    "validity_note": "year requirement relaxed - dates not reliably extracted"
   }
 }

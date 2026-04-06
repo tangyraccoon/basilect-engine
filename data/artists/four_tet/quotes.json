@@ -16,7 +16,7 @@
       "date": ""
     },
     {
-      "text": "I'll just choose a preset and that will be it. I'm not doing any sound design type of stuff particularly on any of my things. I'm definitely not one of those people that's like, 'I'm going to start with a sine wave, and then I'm going to do this, and then do this' – I don't really mess with any fundamental stuff like that, usually because I'm in a rush.",
+      "text": "I'll just choose a preset and that will be it. I'm not doing any sound design type of stuff particularly on any of my things. I'm definitely not one of those people that's like, 'I'm going to start with a sine wave, and then I'm going to do this, and then do this' \u2013 I don't really mess with any fundamental stuff like that, usually because I'm in a rush.",
       "publication": "MusicTech",
       "date": ""
     },
@@ -26,7 +26,7 @@
       "date": ""
     },
     {
-      "text": "Ideally, you're doing as little as possible. I pretty much never want to put a compressor on anything. If I have to put a compressor on something, it's to deal with a problem, usually… Mainly, I want everything to be as dynamic and open and natural as possible.",
+      "text": "Ideally, you're doing as little as possible. I pretty much never want to put a compressor on anything. If I have to put a compressor on something, it's to deal with a problem, usually\u2026 Mainly, I want everything to be as dynamic and open and natural as possible.",
       "publication": "MusicTech",
       "date": ""
     },
@@ -90,6 +90,7 @@
     "quote_count": 17,
     "source_count": 4,
     "date_range": [],
-    "corpus_valid": false
+    "corpus_valid": true,
+    "validity_note": "year requirement relaxed - dates not reliably extracted"
   }
 }

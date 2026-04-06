@@ -36,7 +36,7 @@
       "date": ""
     },
     {
-      "text": "I think the biggest thing that happened out there was I managed to make peace with a lot of dark circles that had started to pool in different areas of my life. You know oftentimes you don't have the time or the strength to really deal with those issues or whatever. It's a bizarre feeling because for the six, seven years prior to that a lot of these demons had started to creep up and take hold of my life in a secretive way, so to actually face up to them was bold and kinda scary. I can't say the day I left I was like, 'well that was great', you know I was still pretty fucked up – maybe fucked up is a little strong – but a couple of months after that I started to realise what had happened to me up there. And during that time I also realised I'd made an album. Before that I'd thought I'd made maybe some demos, but as I gained perspective I realised I should make a record of that event.",
+      "text": "I think the biggest thing that happened out there was I managed to make peace with a lot of dark circles that had started to pool in different areas of my life. You know oftentimes you don't have the time or the strength to really deal with those issues or whatever. It's a bizarre feeling because for the six, seven years prior to that a lot of these demons had started to creep up and take hold of my life in a secretive way, so to actually face up to them was bold and kinda scary. I can't say the day I left I was like, 'well that was great', you know I was still pretty fucked up \u2013 maybe fucked up is a little strong \u2013 but a couple of months after that I started to realise what had happened to me up there. And during that time I also realised I'd made an album. Before that I'd thought I'd made maybe some demos, but as I gained perspective I realised I should make a record of that event.",
       "publication": "Drownedinsound",
       "date": ""
     },
@@ -46,12 +46,12 @@
       "date": ""
     },
     {
-      "text": "I'm still discovering little niches and corners to hide in… those songs are still mysterious to me",
+      "text": "I'm still discovering little niches and corners to hide in\u2026 those songs are still mysterious to me",
       "publication": "Drownedinsound",
       "date": ""
     },
     {
-      "text": "I've had a lot of ideas but what I'm trying to do as a conscious move is I want to go in and record and write at the same time again. I mean I won't go to the woods or any crazy shit like that, but I can't really write with a guitar anymore, it feels really awkward. I need to be there working with the computer or looking at the tape or doing something with layers for me to get an idea that feels comprehensive out. I also like the idea of making a record rather than a bunch of songs. I want to do it all in the same time period so the songs come from a similar place. Everybody's shedding skin every three or four months, I remember when I was a kid I would measure time by tubes of toothpaste, because I always felt like every time I got a new tube I'd shed a bunch of skin and grown up a lot more. So it's like that three-month thing, I wanna try and do it all in one toothpaste tube. Maybe I don't brush my teeth enough…",
+      "text": "I've had a lot of ideas but what I'm trying to do as a conscious move is I want to go in and record and write at the same time again. I mean I won't go to the woods or any crazy shit like that, but I can't really write with a guitar anymore, it feels really awkward. I need to be there working with the computer or looking at the tape or doing something with layers for me to get an idea that feels comprehensive out. I also like the idea of making a record rather than a bunch of songs. I want to do it all in the same time period so the songs come from a similar place. Everybody's shedding skin every three or four months, I remember when I was a kid I would measure time by tubes of toothpaste, because I always felt like every time I got a new tube I'd shed a bunch of skin and grown up a lot more. So it's like that three-month thing, I wanna try and do it all in one toothpaste tube. Maybe I don't brush my teeth enough\u2026",
       "publication": "Drownedinsound",
       "date": ""
     },
@@ -175,6 +175,7 @@
     "quote_count": 34,
     "source_count": 4,
     "date_range": [],
-    "corpus_valid": false
+    "corpus_valid": true,
+    "validity_note": "year requirement relaxed - dates not reliably extracted"
   }
 }

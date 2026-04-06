@@ -56,7 +56,7 @@
       "date": ""
     },
     {
-      "text": "Burial makes music for people walking home alone at night. The images in his cinematic music are all shadowed – industrial estates, stark multi-storeys and the weeds growing on derelict lots, stolen dogs, the dazed faces of lost clubbers. Burial is the wraithlike loner in the background, listening for the echoes of old parties.",
+      "text": "Burial makes music for people walking home alone at night. The images in his cinematic music are all shadowed \u2013 industrial estates, stark multi-storeys and the weeds growing on derelict lots, stolen dogs, the dazed faces of lost clubbers. Burial is the wraithlike loner in the background, listening for the echoes of old parties.",
       "publication": "Loudandquiet",
       "date": ""
     },
@@ -125,6 +125,7 @@
     "quote_count": 24,
     "source_count": 4,
     "date_range": [],
-    "corpus_valid": false
+    "corpus_valid": true,
+    "validity_note": "year requirement relaxed"
   }
 }

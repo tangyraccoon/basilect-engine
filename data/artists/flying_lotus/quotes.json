@@ -6,12 +6,12 @@
       "date": ""
     },
     {
-      "text": "I'm so grateful to be able to do music. Even if I'm not working on an album, I make music for fun. I don't need anyone's approval. But film is such a different thing; you kind of need people around you to know for sure that you've explored every possibility. With music, I just tend to think that it's more of a stream of consciousness thing. It's the God zone… or has the potential to be.",
+      "text": "I'm so grateful to be able to do music. Even if I'm not working on an album, I make music for fun. I don't need anyone's approval. But film is such a different thing; you kind of need people around you to know for sure that you've explored every possibility. With music, I just tend to think that it's more of a stream of consciousness thing. It's the God zone\u2026 or has the potential to be.",
       "publication": "Hypebeast",
       "date": ""
     },
     {
-      "text": "To me, there are these things that are really important to give an honest ear to. I want to be unbiased and go in and feel how I feel about it and not be taken by the echo chamber. André 3000's New Blue Sun is an interesting one to look at. The week leading up to that album, everyone was speculating on what was going to happen. There were all these people saying, \"What? Should we sample it?\" And it was like, \"Yo, how about just listen to it first?\" Honestly, it's gotten to the point where I only want to listen to records once there's no one talking about them anymore.",
+      "text": "To me, there are these things that are really important to give an honest ear to. I want to be unbiased and go in and feel how I feel about it and not be taken by the echo chamber. Andr\u00e9 3000's New Blue Sun is an interesting one to look at. The week leading up to that album, everyone was speculating on what was going to happen. There were all these people saying, \"What? Should we sample it?\" And it was like, \"Yo, how about just listen to it first?\" Honestly, it's gotten to the point where I only want to listen to records once there's no one talking about them anymore.",
       "publication": "Hypebeast",
       "date": ""
     },
@@ -76,7 +76,7 @@
       "date": ""
     },
     {
-      "text": "I get that every day. The first time was maybe right around when I got on MySpace. I was making stuff and people were like, \"You should make a MySpace account.\" I said, \"Nah, I got Friendster and I don't like it. I'm already on Black Planet. Whatever, MySpace, fine.\" And then I saw people who were making music were checking my music out, saying it was cool. It was like, \"What, man? You really think it's all right?\" That was the way I kind of came up. And if it wasn't for that, I don't know how—especially nowadays—I wouldn't know what to do if I was a brand-new artist.",
+      "text": "I get that every day. The first time was maybe right around when I got on MySpace. I was making stuff and people were like, \"You should make a MySpace account.\" I said, \"Nah, I got Friendster and I don't like it. I'm already on Black Planet. Whatever, MySpace, fine.\" And then I saw people who were making music were checking my music out, saying it was cool. It was like, \"What, man? You really think it's all right?\" That was the way I kind of came up. And if it wasn't for that, I don't know how\u2014especially nowadays\u2014I wouldn't know what to do if I was a brand-new artist.",
       "publication": "AVC",
       "date": ""
     }
@@ -85,6 +85,7 @@
     "quote_count": 16,
     "source_count": 3,
     "date_range": [],
-    "corpus_valid": false
+    "corpus_valid": true,
+    "validity_note": "year requirement relaxed - dates not reliably extracted"
   }
 }

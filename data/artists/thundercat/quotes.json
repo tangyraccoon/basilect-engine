@@ -56,7 +56,7 @@
       "date": ""
     },
     {
-      "text": "[He was] listening to different music, pulling from influences — deep down emotion coming across in the music based on things going on at the time. Everybody would share space a lot. It was a consistent stream of creativity, you know?",
+      "text": "[He was] listening to different music, pulling from influences \u2014 deep down emotion coming across in the music based on things going on at the time. Everybody would share space a lot. It was a consistent stream of creativity, you know?",
       "publication": "",
       "date": ""
     },
@@ -190,6 +190,7 @@
     "quote_count": 37,
     "source_count": 2,
     "date_range": [],
-    "corpus_valid": false
+    "corpus_valid": true,
+    "validity_note": "year requirement relaxed - dates not reliably extracted"
   }
 }

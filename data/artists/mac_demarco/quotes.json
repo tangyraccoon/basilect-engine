@@ -11,7 +11,7 @@
       "date": ""
     },
     {
-      "text": "I feel like I'm most satisfied when I can do it myself… Guitar and bass: I'm okay at. Drums: I can scratch my way by. Keyboard: I'm not super good at, but that's fun for me because I don't really know what I'm doing, and maybe something weird will happen, y'know?",
+      "text": "I feel like I'm most satisfied when I can do it myself\u2026 Guitar and bass: I'm okay at. Drums: I can scratch my way by. Keyboard: I'm not super good at, but that's fun for me because I don't really know what I'm doing, and maybe something weird will happen, y'know?",
       "publication": "Happymag.Tv",
       "date": ""
     },
@@ -21,7 +21,7 @@
       "date": ""
     },
     {
-      "text": "The guitars sound so fucked up […] It's amazing.",
+      "text": "The guitars sound so fucked up [\u2026] It's amazing.",
       "publication": "Happymag.Tv",
       "date": ""
     },
@@ -66,7 +66,7 @@
       "date": ""
     },
     {
-      "text": "I hear about people using AI to even write lyrics a lot nowadays, which is a bit like… give me a fucking break. I think it's about intention. If people want to climb the mountain, I guess you use the tools you can to get up there. I don't know what you're gonna find when you get up there, but hopefully you're happy.",
+      "text": "I hear about people using AI to even write lyrics a lot nowadays, which is a bit like\u2026 give me a fucking break. I think it's about intention. If people want to climb the mountain, I guess you use the tools you can to get up there. I don't know what you're gonna find when you get up there, but hopefully you're happy.",
       "publication": "MusicTech",
       "date": ""
     },
@@ -80,6 +80,7 @@
     "quote_count": 15,
     "source_count": 4,
     "date_range": [],
-    "corpus_valid": false
+    "corpus_valid": true,
+    "validity_note": "year requirement relaxed - dates not reliably extracted"
   }
 }

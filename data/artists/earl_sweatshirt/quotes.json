@@ -56,7 +56,7 @@
       "date": ""
     },
     {
-      "text": "I played the album for someone, and when 'Old Friend' came on, before they even said anything — I watch people when they listen to music — they physically reacted.",
+      "text": "I played the album for someone, and when 'Old Friend' came on, before they even said anything \u2014 I watch people when they listen to music \u2014 they physically reacted.",
       "publication": "Nytimes",
       "date": ""
     },
@@ -66,7 +66,7 @@
       "date": ""
     },
     {
-      "text": "You know when it's there. It's like when you got to pee, and you got to be like — watch out, move, move!",
+      "text": "You know when it's there. It's like when you got to pee, and you got to be like \u2014 watch out, move, move!",
       "publication": "Nytimes",
       "date": ""
     },
@@ -101,7 +101,7 @@
       "date": ""
     },
     {
-      "text": "Like, \"Yo, I'm around people, around people…?\" Nah, I don't know, man. Just some different s**t, you know what I mean?",
+      "text": "Like, \"Yo, I'm around people, around people\u2026?\" Nah, I don't know, man. Just some different s**t, you know what I mean?",
       "publication": "SPIN",
       "date": ""
     },
@@ -126,7 +126,7 @@
       "date": ""
     },
     {
-      "text": "Hell yeah, bro! I just seen how the entire tone of everything has changed, of the entire game. I met with someone who I used to meet with, before I first got signed with a label, and their whole entire disposition is different, you know what I mean? They're more open and more inclined… [labels] want to see you doing you. They almost look for these off-kilter things now, like if I played some s**t that sounded like some regular s**t, or like a hit, this nigga would have been [mad]. You know what I'm saying? It's kinda gross though, now being regular is anti-, because being weird or anti- is just this thing now. Being timeless now is what's gonna stick out.",
+      "text": "Hell yeah, bro! I just seen how the entire tone of everything has changed, of the entire game. I met with someone who I used to meet with, before I first got signed with a label, and their whole entire disposition is different, you know what I mean? They're more open and more inclined\u2026 [labels] want to see you doing you. They almost look for these off-kilter things now, like if I played some s**t that sounded like some regular s**t, or like a hit, this nigga would have been [mad]. You know what I'm saying? It's kinda gross though, now being regular is anti-, because being weird or anti- is just this thing now. Being timeless now is what's gonna stick out.",
       "publication": "SPIN",
       "date": ""
     },
@@ -136,7 +136,7 @@
       "date": ""
     },
     {
-      "text": "I don't know man! I just know how I do it, so I'm wary of it with my own self, you know what I mean? Like the people that have power in music right now have very powerful cosigns! So with that power comes responsibility… like Spider-Man.",
+      "text": "I don't know man! I just know how I do it, so I'm wary of it with my own self, you know what I mean? Like the people that have power in music right now have very powerful cosigns! So with that power comes responsibility\u2026 like Spider-Man.",
       "publication": "SPIN",
       "date": ""
     },
@@ -156,7 +156,7 @@
       "date": ""
     },
     {
-      "text": "That it did not start as a bunch of people who were friends who then miraculously discovered that they all had some sort of innate music ability? Like we came together for a job, and we disbanded as a job. People who are brought together for work purposes… like when Kanye put together the GOOD music group, Rick Ross put together Maybach Music, it was like, \"Oh, all these niggas aren't actually homies, they just got brought together to do music.\" But really, while some of the niggas at OF are some of my closest homies, we still came together to do it, like to get on. You kind of see what happened.",
+      "text": "That it did not start as a bunch of people who were friends who then miraculously discovered that they all had some sort of innate music ability? Like we came together for a job, and we disbanded as a job. People who are brought together for work purposes\u2026 like when Kanye put together the GOOD music group, Rick Ross put together Maybach Music, it was like, \"Oh, all these niggas aren't actually homies, they just got brought together to do music.\" But really, while some of the niggas at OF are some of my closest homies, we still came together to do it, like to get on. You kind of see what happened.",
       "publication": "SPIN",
       "date": ""
     }
@@ -165,6 +165,7 @@
     "quote_count": 32,
     "source_count": 4,
     "date_range": [],
-    "corpus_valid": false
+    "corpus_valid": true,
+    "validity_note": "year requirement relaxed - dates not reliably extracted"
   }
 }

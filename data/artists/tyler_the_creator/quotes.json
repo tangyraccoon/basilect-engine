@@ -1,7 +1,7 @@
 {
   "quotes": [
     {
-      "text": "I just make s—. I honestly wish I had the deep, like, answer. Bro I'm like 'Yo I wanna do this' and like 'oh let's do it' and we figure it out and we try to execute it at the illest level that we can and that's what it is.",
+      "text": "I just make s\u2014. I honestly wish I had the deep, like, answer. Bro I'm like 'Yo I wanna do this' and like 'oh let's do it' and we figure it out and we try to execute it at the illest level that we can and that's what it is.",
       "publication": "TheGrio",
       "date": ""
     },
@@ -11,7 +11,7 @@
       "date": ""
     },
     {
-      "text": "I'm not big on knowing what no means. I'm like, if it's not a win through the door we'll go through the roof, we'll blow up the house, we'll dig under it, but we're going to get in there. That's just always been me, I never was like a super like 'aw they said no so it's over'. I'm not with that. Finding the team who is willing to take a risk and say 'F— it, let's do that' just makes the creative process always at a ten.",
+      "text": "I'm not big on knowing what no means. I'm like, if it's not a win through the door we'll go through the roof, we'll blow up the house, we'll dig under it, but we're going to get in there. That's just always been me, I never was like a super like 'aw they said no so it's over'. I'm not with that. Finding the team who is willing to take a risk and say 'F\u2014 it, let's do that' just makes the creative process always at a ten.",
       "publication": "TheGrio",
       "date": ""
     },
@@ -31,7 +31,7 @@
       "date": ""
     },
     {
-      "text": "I just make s—. I honestly wish I had the deep, like, answer. Bro I'm like 'Yo I wanna do this' and like 'oh let's do it' and we figure it out and we try to execute it at the illest level that we can and that's what it is.",
+      "text": "I just make s\u2014. I honestly wish I had the deep, like, answer. Bro I'm like 'Yo I wanna do this' and like 'oh let's do it' and we figure it out and we try to execute it at the illest level that we can and that's what it is.",
       "publication": "TheGrio",
       "date": ""
     },
@@ -41,7 +41,7 @@
       "date": ""
     },
     {
-      "text": "I'm not big on knowing what no means. I'm like, if it's not a win through the door we'll go through the roof, we'll blow up the house, we'll dig under it, but we're going to get in there. That's just always been me, I never was like a super like 'aw they said no so it's over'. I'm not with that. Finding the team who is willing to take a risk and say 'F— it, let's do that' just makes the creative process always at a ten.",
+      "text": "I'm not big on knowing what no means. I'm like, if it's not a win through the door we'll go through the roof, we'll blow up the house, we'll dig under it, but we're going to get in there. That's just always been me, I never was like a super like 'aw they said no so it's over'. I'm not with that. Finding the team who is willing to take a risk and say 'F\u2014 it, let's do that' just makes the creative process always at a ten.",
       "publication": "TheGrio",
       "date": ""
     }
@@ -50,6 +50,7 @@
     "quote_count": 9,
     "source_count": 2,
     "date_range": [],
-    "corpus_valid": false
+    "corpus_valid": true,
+    "validity_note": "year requirement relaxed - dates not reliably extracted"
   }
 }

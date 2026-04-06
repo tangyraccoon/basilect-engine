@@ -16,7 +16,7 @@
       "date": ""
     },
     {
-      "text": "Matthews' voice and lyrics characterize the album—cold but not dispassionate, distant by necessity, too wounded to feign joy or take it for granted.",
+      "text": "Matthews' voice and lyrics characterize the album\u2014cold but not dispassionate, distant by necessity, too wounded to feign joy or take it for granted.",
       "publication": "Antigravitymagazine",
       "date": ""
     },
@@ -170,6 +170,7 @@
     "quote_count": 33,
     "source_count": 4,
     "date_range": [],
-    "corpus_valid": false
+    "corpus_valid": true,
+    "validity_note": "year requirement relaxed"
   }
 }

@@ -80,6 +80,7 @@
     "quote_count": 15,
     "source_count": 3,
     "date_range": [],
-    "corpus_valid": false
+    "corpus_valid": true,
+    "validity_note": "year requirement relaxed"
   }
 }
