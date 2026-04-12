@@ -1,0 +1,28 @@
+{
+  "influences": [
+    {
+      "name": "Justin Bieber",
+      "context": "One of the reasons I want to be a pop star is because I saw Justin Bieber [at MSG] in the Never Say Never documentary at 16",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Donna Summer",
+      "context": "draws inspiration from the disco of Donna Summer",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Grace Jones",
+      "context": "draws inspiration from the energy of Grace Jones",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Taylor Swift",
+      "context": "draws inspiration from 1989-era Taylor Swift",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 4,
+    "sources_checked": 2
+  }
+}

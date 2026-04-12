@@ -1,0 +1,49 @@
+{
+  "artist_id": "nick_cave_the_bad_seeds",
+  "artist_name": "Nick Cave & the Bad Seeds",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:24:45.959181+00:00",
+      "result": "2 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:24:50.473470+00:00",
+      "result": "2/2 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:24:55.505730+00:00",
+      "result": "3 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:25:00.043712+00:00",
+      "result": "8 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:25:04.414269+00:00",
+      "result": "5/8 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:25:25.143215+00:00",
+      "result": "26 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:25:40.914794+00:00",
+      "result": "23 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:26:01.185039+00:00",
+      "result": "29 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-12T15:26:01.185366+00:00"
+}

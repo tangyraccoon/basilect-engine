@@ -1,0 +1,49 @@
+{
+  "artist_id": "joy_division",
+  "artist_name": "Joy Division",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T18:06:34.541232+00:00",
+      "result": "6 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T18:06:38.035001+00:00",
+      "result": "2/6 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T18:06:49.220114+00:00",
+      "result": "9 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T18:06:53.911076+00:00",
+      "result": "8 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T18:06:57.936560+00:00",
+      "result": "4/8 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T18:07:20.123774+00:00",
+      "result": "27 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T18:07:23.953557+00:00",
+      "result": "2 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T18:07:39.738498+00:00",
+      "result": "33 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-12T18:07:39.738534+00:00"
+}

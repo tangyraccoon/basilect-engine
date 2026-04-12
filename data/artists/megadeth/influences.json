@@ -1,0 +1,38 @@
+{
+  "influences": [
+    {
+      "name": "Dave Mustaine",
+      "context": "The way Dave works with his ideas, he kind of organizes them, labels the riffs, the names; he's pretty organized. So then I started working the same way, putting my ideas with the names and the tempos. That's the way Dave organizes his ideas; he has his way.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Black Sabbath",
+      "context": "For me personally, to tour with Black Sabbath. They are the originators of heavy metal and that's indisputable. You can't dispute that fact. The first album came out in 1969 and it was the heaviest thing on the planet at that time. So many bands have migrated from Black Sabbath. I mean, if it weren't for Tony Iommi and those riffs, we probably wouldn't be talking on the phone right now",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Tony Iommi",
+      "context": "I mean, if it weren't for Tony Iommi and those riffs, we probably wouldn't be talking on the phone right now",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Iron Maiden",
+      "context": "The band opened for Black Sabbath and Iron Maiden this year...how was the experience opening up for some of your biggest influences?...The thing we did with them in the states this year, for me personally was amazing. They are such a great band",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Led Zeppelin",
+      "context": "Led Zeppelin had such a big, huge, and ambient drum sound...We covered 'Out on the Tiles' by Led Zeppelin",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "John Bonham",
+      "context": "During the recording of 2007's United Abominations, Dave rented a John Bonham drum kit for the recording...I just used the bass drum and snare drum on overdubs for certain songs on that record...to be able to use that kit in any situation was a real plus",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 6,
+    "sources_checked": 4
+  }
+}

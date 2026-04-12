@@ -1,0 +1,28 @@
+{
+  "influences": [
+    {
+      "name": "Jim Steinman",
+      "context": "I am absolutely devastated to learn of the passing of my long-term friend and musical mentor Jim Steinman. Jim wrote and produced some of the most iconic rock songs of all time and I was massively privileged to have been given some of them by him.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Bonnie Tyler's mother",
+      "context": "She talks of finding inspiration in her mother, a shy woman who would sing opera around the house.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Janis Joplin",
+      "context": "Growing up listening to Janis Joplin and Tina Turner, Tyler first started singing before she left school",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Tina Turner",
+      "context": "Growing up listening to Janis Joplin and Tina Turner, Tyler first started singing before she left school",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 4,
+    "sources_checked": 3
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "artist_id": "the_killers",
+  "artist_name": "The Killers",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:40:03.082778+00:00",
+      "result": "6 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:40:06.210201+00:00",
+      "result": "4/6 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:40:28.067078+00:00",
+      "result": "25 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:40:32.729572+00:00",
+      "result": "8 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:40:37.532774+00:00",
+      "result": "8/8 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:40:57.268903+00:00",
+      "result": "30 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:41:08.990784+00:00",
+      "result": "15 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:41:35.780405+00:00",
+      "result": "34 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-12T17:41:35.780444+00:00"
+}

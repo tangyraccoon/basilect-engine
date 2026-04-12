@@ -1,0 +1,49 @@
+{
+  "artist_id": "iggy_pop",
+  "artist_name": "Iggy Pop",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T14:59:08.568130+00:00",
+      "result": "6 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:00:56.929923+00:00",
+      "result": "4/6 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:01:25.169048+00:00",
+      "result": "40 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:01:29.999787+00:00",
+      "result": "8 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:01:36.230993+00:00",
+      "result": "7/8 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:01:54.099189+00:00",
+      "result": "23 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:02:03.041916+00:00",
+      "result": "8 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:02:30.007295+00:00",
+      "result": "39 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-12T15:02:30.007444+00:00"
+}

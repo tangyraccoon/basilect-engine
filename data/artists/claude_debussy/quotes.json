@@ -1,0 +1,40 @@
+{
+  "quotes": [
+    {
+      "text": "Music is the space between the notes.",
+      "publication": "",
+      "date": ""
+    },
+    {
+      "text": "Works of art make rules; rules do not make works of art.",
+      "publication": "",
+      "date": ""
+    },
+    {
+      "text": "There is nothing more musical than a sunset.",
+      "publication": "",
+      "date": ""
+    },
+    {
+      "text": "Art is the most beautiful deception of all.",
+      "publication": "",
+      "date": ""
+    },
+    {
+      "text": "People don't very much like things that are beautiful and still less when they are superior to what they can make themselves.",
+      "publication": "",
+      "date": ""
+    },
+    {
+      "text": "To sum up: an artist can no more be tied to his art than a river can be tied to the banks of a river.",
+      "publication": "",
+      "date": ""
+    }
+  ],
+  "corpus_meta": {
+    "quote_count": 6,
+    "source_count": 0,
+    "date_range": [],
+    "corpus_valid": false
+  }
+}

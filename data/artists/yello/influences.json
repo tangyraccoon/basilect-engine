@@ -1,0 +1,23 @@
+{
+  "influences": [
+    {
+      "name": "Debussy",
+      "context": "If you throw in Debussy or Chopin, something similar comes out of it, but with our pieces it's actually difficult.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Chopin",
+      "context": "If you throw in Debussy or Chopin, something similar comes out of it, but with our pieces it's actually difficult.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Mozart",
+      "context": "That's a compliment – even great artists like Mozart can be recognized after three or four bars.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 3,
+    "sources_checked": 2
+  }
+}

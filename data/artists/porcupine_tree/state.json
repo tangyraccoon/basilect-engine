@@ -1,0 +1,49 @@
+{
+  "artist_id": "porcupine_tree",
+  "artist_name": "Porcupine Tree",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:32:44.707900+00:00",
+      "result": "6 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:32:52.117626+00:00",
+      "result": "6/6 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:33:08.386697+00:00",
+      "result": "17 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:33:12.921058+00:00",
+      "result": "8 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:33:16.776391+00:00",
+      "result": "6/8 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:33:37.613895+00:00",
+      "result": "35 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:34:19.204134+00:00",
+      "result": "22 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:34:50.862096+00:00",
+      "result": "39 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-12T16:34:50.862195+00:00"
+}

@@ -1,0 +1,43 @@
+{
+  "influences": [
+    {
+      "name": "Vince DiCola",
+      "context": "The most notorious influence on Affinity is 80s synth pop-rock. This is an era that often gets overlooked under the assumption it was not the brightest decade for music. However, there's plenty of truly amazing music that occurred over that decade; Vince DiCola and all of his soundtrack catalogue, Toto's IV, Van Halen's 1984, just to mention a few.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Toto",
+      "context": "The most notorious influence on Affinity is 80s synth pop-rock. This is an era that often gets overlooked under the assumption it was not the brightest decade for music. However, there's plenty of truly amazing music that occurred over that decade; Vince DiCola and all of his soundtrack catalogue, Toto's IV, Van Halen's 1984, just to mention a few.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Van Halen",
+      "context": "The most notorious influence on Affinity is 80s synth pop-rock. This is an era that often gets overlooked under the assumption it was not the brightest decade for music. However, there's plenty of truly amazing music that occurred over that decade; Vince DiCola and all of his soundtrack catalogue, Toto's IV, Van Halen's 1984, just to mention a few.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Dream Theater",
+      "context": "I would say in the beginning it was our mutual appreciation of Dream Theater that opened up the possibilities for what was possible in making rock music and being in a band… It's no secret they were always a huge inspiration for us.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "John Keats",
+      "context": "Nightingale is a piece about the creative process itself with an ode to John Keats and Hans Christian Anderson works of the same name.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Hans Christian Anderson",
+      "context": "Nightingale is a piece about the creative process itself with an ode to John Keats and Hans Christian Anderson works of the same name.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Aerosmith",
+      "context": "it was the excessive exposure to early '90s MTV classic rock in my formative years that inspired me and set me on a path to wanting to do this line of 'work.' Aerosmith stole much of the airwaves back then, and they remain my go-to band.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 7,
+    "sources_checked": 3
+  }
+}

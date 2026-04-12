@@ -1,0 +1,49 @@
+{
+  "artist_id": "james_blake",
+  "artist_name": "James Blake",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-11T21:59:17.332764+00:00",
+      "result": "7 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-11T21:59:17.836142+00:00",
+      "result": "7/7 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T21:59:32.210071+00:00",
+      "result": "15 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-11T21:59:36.839440+00:00",
+      "result": "9 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-11T21:59:52.450278+00:00",
+      "result": "7/9 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:00:16.775084+00:00",
+      "result": "31 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:00:38.077543+00:00",
+      "result": "18 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:01:16.846879+00:00",
+      "result": "42 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-11T22:01:16.846926+00:00"
+}

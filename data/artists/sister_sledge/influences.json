@@ -1,0 +1,18 @@
+{
+  "influences": [
+    {
+      "name": "Viola Hairston Williams",
+      "context": "it all began in Philly learning to sing and read music from their grandmother, opera singer Viola Hairston Williams",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "James Brown",
+      "context": "the sisters were there performing with James Brown",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 2,
+    "sources_checked": 2
+  }
+}

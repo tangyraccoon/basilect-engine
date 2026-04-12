@@ -1,0 +1,33 @@
+{
+  "quotes": [
+    {
+      "text": "I was the one who turned her into Tina Turner. I had to tell her how to dress, how to walk and how to talk on stage. I told her how to stand and how to look, the whole thing, man, I mean from the wig down.",
+      "publication": "",
+      "date": ""
+    },
+    {
+      "text": "I write a new song every day. Man, I'm always doing something creative. I like to design things, like Tina's clothes, for instance. One time I designed a dress for her with a tail on it, man.",
+      "publication": "",
+      "date": ""
+    },
+    {
+      "text": "There's no one else to tell them the story because everyone is gone. I got involved with [the musical] and now I feel proud of it.",
+      "publication": "Londontheatre.Co.Uk",
+      "date": ""
+    },
+    {
+      "text": "There's no one else to tell them the story because everyone is gone. I got involved with [the musical] and now I feel proud of it.",
+      "publication": "newyorktheatreguide",
+      "date": "2018"
+    }
+  ],
+  "corpus_meta": {
+    "quote_count": 4,
+    "source_count": 2,
+    "date_range": [
+      "2018",
+      "2018"
+    ],
+    "corpus_valid": false
+  }
+}

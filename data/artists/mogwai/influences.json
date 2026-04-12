@@ -1,0 +1,28 @@
+{
+  "influences": [
+    {
+      "name": "Clint Mansell",
+      "context": "Clint Mansell, John Carpenter and Ennio Morricone are a few that come to mind.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "John Carpenter",
+      "context": "Clint Mansell, John Carpenter and Ennio Morricone are a few that come to mind. I really like Assault on Precinct 13 by Carpenter.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Ennio Morricone",
+      "context": "Clint Mansell, John Carpenter and Ennio Morricone are a few that come to mind.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Suicide",
+      "context": "In case you're wondering, his go-to artist for car journeys is Suicide. 'My kids hate it but 'fuck them' I say! I just need that heavy organ,' he jests.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 4,
+    "sources_checked": 2
+  }
+}

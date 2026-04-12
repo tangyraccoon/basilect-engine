@@ -1,0 +1,49 @@
+{
+  "artist_id": "dean_martin",
+  "artist_name": "Dean Martin",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:12:05.715409+00:00",
+      "result": "1 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:12:06.931758+00:00",
+      "result": "1/1 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:12:09.183705+00:00",
+      "result": "0 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:12:13.736652+00:00",
+      "result": "8 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:12:16.421437+00:00",
+      "result": "2/8 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:12:22.577154+00:00",
+      "result": "8 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:12:24.211562+00:00",
+      "result": "0 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:12:30.120505+00:00",
+      "result": "14 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-12T17:12:30.120619+00:00"
+}

@@ -1,0 +1,49 @@
+{
+  "artist_id": "the_tragically_hip",
+  "artist_name": "The Tragically Hip",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-11T21:29:52.082828+00:00",
+      "result": "5 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-11T21:29:56.732458+00:00",
+      "result": "3/5 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T21:30:02.599898+00:00",
+      "result": "0 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-11T21:30:07.083421+00:00",
+      "result": "8 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-11T21:30:10.492609+00:00",
+      "result": "5/8 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T21:30:25.243641+00:00",
+      "result": "16 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T21:30:30.566198+00:00",
+      "result": "2 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T21:30:46.983349+00:00",
+      "result": "25 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-11T21:30:46.983425+00:00"
+}

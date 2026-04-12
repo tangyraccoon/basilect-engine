@@ -1,0 +1,152 @@
+{
+  "tags": [
+    {
+      "tag": "multi_instrumental",
+      "category": "approach",
+      "weight": 1.0,
+      "raw_score": 20
+    },
+    {
+      "tag": "repetition",
+      "category": "process",
+      "weight": 0.85,
+      "raw_score": 17
+    },
+    {
+      "tag": "vocal_focused",
+      "category": "approach",
+      "weight": 0.85,
+      "raw_score": 17
+    },
+    {
+      "tag": "short_form",
+      "category": "approach",
+      "weight": 0.8,
+      "raw_score": 16
+    },
+    {
+      "tag": "intuitive",
+      "category": "philosophy",
+      "weight": 0.75,
+      "raw_score": 15
+    },
+    {
+      "tag": "accessible",
+      "category": "philosophy",
+      "weight": 0.6,
+      "raw_score": 12
+    },
+    {
+      "tag": "traditional",
+      "category": "philosophy",
+      "weight": 0.55,
+      "raw_score": 11
+    },
+    {
+      "tag": "collaborative",
+      "category": "philosophy",
+      "weight": 0.55,
+      "raw_score": 11
+    },
+    {
+      "tag": "live_performance",
+      "category": "approach",
+      "weight": 0.55,
+      "raw_score": 11
+    },
+    {
+      "tag": "minimalism",
+      "category": "process",
+      "weight": 0.55,
+      "raw_score": 11
+    },
+    {
+      "tag": "analog",
+      "category": "approach",
+      "weight": 0.45,
+      "raw_score": 9
+    },
+    {
+      "tag": "acoustic",
+      "category": "approach",
+      "weight": 0.4,
+      "raw_score": 8
+    },
+    {
+      "tag": "sparse",
+      "category": "approach",
+      "weight": 0.3,
+      "raw_score": 6
+    },
+    {
+      "tag": "emotional",
+      "category": "philosophy",
+      "weight": 0.25,
+      "raw_score": 5
+    },
+    {
+      "tag": "relaxed",
+      "category": "philosophy",
+      "weight": 0.25,
+      "raw_score": 5
+    },
+    {
+      "tag": "narrative",
+      "category": "philosophy",
+      "weight": 0.2,
+      "raw_score": 4
+    },
+    {
+      "tag": "hybrid",
+      "category": "philosophy",
+      "weight": 0.15,
+      "raw_score": 3
+    },
+    {
+      "tag": "collaborative_production",
+      "category": "approach",
+      "weight": 0.15,
+      "raw_score": 3
+    },
+    {
+      "tag": "simplicity",
+      "category": "process",
+      "weight": 0.15,
+      "raw_score": 3
+    },
+    {
+      "tag": "immersive",
+      "category": "approach",
+      "weight": 0.1,
+      "raw_score": 2
+    },
+    {
+      "tag": "playful",
+      "category": "philosophy",
+      "weight": 0.1,
+      "raw_score": 2
+    },
+    {
+      "tag": "lazy",
+      "category": "philosophy",
+      "weight": 0.1,
+      "raw_score": 2
+    },
+    {
+      "tag": "single_instrument",
+      "category": "approach",
+      "weight": 0.1,
+      "raw_score": 2
+    },
+    {
+      "tag": "social_commentary",
+      "category": "philosophy",
+      "weight": 0.1,
+      "raw_score": 2
+    }
+  ],
+  "meta": {
+    "count": 24,
+    "sources_checked": 8
+  }
+}

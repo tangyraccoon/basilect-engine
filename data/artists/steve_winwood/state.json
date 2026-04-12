@@ -1,0 +1,49 @@
+{
+  "artist_id": "steve_winwood",
+  "artist_name": "Steve Winwood",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:43:25.538872+00:00",
+      "result": "5 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:43:29.735520+00:00",
+      "result": "5/5 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:43:51.973191+00:00",
+      "result": "36 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:43:56.609558+00:00",
+      "result": "8 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:44:03.326325+00:00",
+      "result": "7/8 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:44:20.491035+00:00",
+      "result": "20 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:44:34.017509+00:00",
+      "result": "5 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:45:01.782039+00:00",
+      "result": "34 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-12T16:45:01.782192+00:00"
+}

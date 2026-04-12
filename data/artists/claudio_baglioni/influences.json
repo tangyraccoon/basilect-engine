@@ -1,0 +1,23 @@
+{
+  "influences": [
+    {
+      "name": "Franco Zeffirelli",
+      "context": "Franco Zeffirelli made me know it, on occasion of one of my first singins, of my first performances. I was the [Italian] singing voice of Francis of Assisi in the film Brother Sun, Sister Moon, just directed by Franco Zeffirelli, and since that year, loving in particular that place, I've begun a pilgrimage",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Pino Daniele",
+      "context": "Pino Daniele is a separated chapter. I was very impressed the great Neapolitan character in his voice, in his way to play: that beautiful voice and guitar wail.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Paco de Lucía",
+      "context": "Paco de Lucìa is a musician that I always loved, for his extraordinary ability to create a so particular music, which lives of incredible beats following one other, too hard to count, and also an extraordinary harmonic ability, a world unrolling itself with continuous surprises.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 3,
+    "sources_checked": 1
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "artist_id": "nina_simone",
+  "artist_name": "Nina Simone",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T18:05:23.577023+00:00",
+      "result": "4 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T18:05:33.075609+00:00",
+      "result": "2/4 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T18:05:38.066080+00:00",
+      "result": "6 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T18:05:42.775144+00:00",
+      "result": "8 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T18:05:47.249358+00:00",
+      "result": "6/8 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T18:06:03.274514+00:00",
+      "result": "15 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T18:06:10.039244+00:00",
+      "result": "10 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T18:06:29.404917+00:00",
+      "result": "30 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-12T18:06:29.404955+00:00"
+}

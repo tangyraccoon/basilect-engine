@@ -1,0 +1,33 @@
+{
+  "influences": [
+    {
+      "name": "Merle Travis",
+      "context": "Atkins also grew up hearing the legendary guitarist Merle Travis, whom he imitated, expanding Travis' finger-picking style to thumb and three fingers.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Jimmy Rogers",
+      "context": "And I don't know why country people did this, but they bought an awful lot of race records. They'd buy Jimmy Rogers and the Carter family, and then they'd buy Blind Lemon Jefferson and people like that, who sang about problems and deprivation, just like the country guys did. I grew up hearing that too.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Carter Family",
+      "context": "And I don't know why country people did this, but they bought an awful lot of race records. They'd buy Jimmy Rogers and the Carter family, and then they'd buy Blind Lemon Jefferson and people like that, who sang about problems and deprivation, just like the country guys did. I grew up hearing that too.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Blind Lemon Jefferson",
+      "context": "And I don't know why country people did this, but they bought an awful lot of race records. They'd buy Jimmy Rogers and the Carter family, and then they'd buy Blind Lemon Jefferson and people like that, who sang about problems and deprivation, just like the country guys did. I grew up hearing that too.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Gene Autry",
+      "context": "like when I saw Gene Autry, I can remember that thing of how much things can mean to you when you're that young",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 5,
+    "sources_checked": 4
+  }
+}

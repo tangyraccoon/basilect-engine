@@ -1,0 +1,49 @@
+{
+  "artist_id": "igor_stravinsky",
+  "artist_name": "Igor Stravinsky",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:19:45.135666+00:00",
+      "result": "6 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:19:46.623267+00:00",
+      "result": "6/6 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:19:59.877397+00:00",
+      "result": "16 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:20:04.538796+00:00",
+      "result": "10 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:20:06.123677+00:00",
+      "result": "8/10 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:20:23.870298+00:00",
+      "result": "19 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:20:37.950498+00:00",
+      "result": "3 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:21:10.655466+00:00",
+      "result": "44 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-12T15:21:10.655597+00:00"
+}

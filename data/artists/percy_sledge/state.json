@@ -1,0 +1,49 @@
+{
+  "artist_id": "percy_sledge",
+  "artist_name": "Percy Sledge",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:50:56.919799+00:00",
+      "result": "1 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:50:58.458810+00:00",
+      "result": "0/1 scraped"
+    },
+    "interview_extract": {
+      "status": "skipped",
+      "timestamp": "2026-04-12T15:50:58.970782+00:00",
+      "result": "failed — skipping to unblock"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:51:02.938992+00:00",
+      "result": "8 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:51:08.655716+00:00",
+      "result": "6/8 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:51:19.639166+00:00",
+      "result": "12 passages"
+    },
+    "influence_extract": {
+      "status": "skipped",
+      "timestamp": "2026-04-12T15:51:20.145236+00:00",
+      "result": "no scraped text"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:51:33.762978+00:00",
+      "result": "18 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-12T15:51:33.763068+00:00"
+}

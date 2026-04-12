@@ -1,0 +1,143 @@
+{
+  "influences": [
+    {
+      "name": "Keith Richards",
+      "context": "For example, \"(I Can't Get No) Satisfaction\" was written by Keith Richards, according to him, within a matter of minutes.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Paul McCartney",
+      "context": "Apparently, Paul McCartney wrote \"Yesterday\" in five minutes or so. I think that pop music has a sense of urgency",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Molly Gerber",
+      "context": "meeting musicians like Molly Gerber, who plays violin, and Adam Shatts, who plays saxophone, and having those players in your back pocket to utilize on your recordings",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Adam Shatts",
+      "context": "meeting musicians like Molly Gerber, who plays violin, and Adam Shatts, who plays saxophone, and having those players in your back pocket to utilize on your recordings",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Chris Hendrix",
+      "context": "Chris Hendrix is a Berklee grad with a swiss army knife of a skill set, and gave me the confidence to write those types of arrangements with them",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Björk",
+      "context": "I'm really obsessed with artist's discographies. Not that I even deign to compare myself to her in any way, but Björk's catalog is just so perfect to me.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Wilco",
+      "context": "An artist's third album should be a big statement... including Wilco's Summerteeth, when an artist is at the top of their game and anything feels possible.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Kate Bush",
+      "context": "I was listening to a lot of Kate Bush at the time... So I was really inspired by the greats ... like Kate Bush. I think it's really amazing that she's someone who has such massive appeal but is, like, the biggest freak and has the most surreal, bizarre lyrics and has this really strange, proggy instrumentation. So I was really influenced by Kate Bush on this record and leaned towards surreal lyrics a little bit more on 'Paprika.'",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Susumu Hirasawa",
+      "context": "I called it 'Paprika' because it reminded me of this Susumu Hirasawa song called 'Parade' that's in the movie Paprika.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Mitski",
+      "context": "Mitski told me she was doing these kind of writing partnerships, writing for other people just to try it on, and so I told my publisher that I wanted to try it.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Whitney Houston",
+      "context": "We actually wrote something that I really liked and had this kind of '80s jam -- a Whitney Houston, Madonna, Cyndi Lauper kind of feel",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Madonna",
+      "context": "We actually wrote something that I really liked and had this kind of '80s jam -- a Whitney Houston, Madonna, Cyndi Lauper kind of feel",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Cyndi Lauper",
+      "context": "We actually wrote something that I really liked and had this kind of '80s jam -- a Whitney Houston, Madonna, Cyndi Lauper kind of feel",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Beatles",
+      "context": "Every time you take guitar lessons, you start playing a lot of Beatles songs.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Future Islands",
+      "context": "I tried to write this Future Islands type of song because I love their bass lines",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "the 1975",
+      "context": "I feel like the 1975 have a song that's kind of like this.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Alex G",
+      "context": "Alex G is probably my favorite contemporary musician and songwriter.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Little Big League",
+      "context": "I see this song as a kind of parallel to the Little Big League song 'Lindsey,' where it's written from this toxic male perspective",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Randy Newman",
+      "context": "I knew it was such a tender song and I wanted it to be this Randy Newman ballad with big, sweeping strings. I was really influenced by 'Marie,' which is one of my favorite Randy Newman songs.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Bill Withers",
+      "context": "Craig was like, 'I really hear this Bill Withers sort of feel'... And he put down this drum beat and the bass line... I think the combination of those two influences really made it such a special song",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Fiona Apple",
+      "context": "When I was putting the vocal down, it felt almost like a Fiona Apple song because I feel like that's her influence -- she had those funky, jazzy elements with piano.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Roy Orbison",
+      "context": "So Craig and I really turned it into this Roy Orbison-esque, girl group, big Motown swelling chorus kind of song.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Haruomi Hosono",
+      "context": "I've been listening to a lot of Japanese ambient music. Like Haruomi Hosono and Ryuichi Sakamoto.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Ryuichi Sakamoto",
+      "context": "I've been listening to a lot of Japanese ambient music. Like Haruomi Hosono and Ryuichi Sakamoto.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Brian Eno",
+      "context": "Brian Eno, Nils Frahm, those kinds of [artists].",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Nils Frahm",
+      "context": "Brian Eno, Nils Frahm, those kinds of [artists].",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Emily Bronte",
+      "context": "Taking inspiration from European novelists such as Emily Bronte, there's drama, tragedy and temptation aplenty",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 27,
+    "sources_checked": 4
+  }
+}

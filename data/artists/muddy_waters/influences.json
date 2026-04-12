@@ -1,0 +1,23 @@
+{
+  "influences": [
+    {
+      "name": "Son House",
+      "context": "Heavily influenced by the raw, driving sound of early blues guitarists like Son House and Robert Johnson",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Robert Johnson",
+      "context": "Heavily influenced by the raw, driving sound of early blues guitarists like Son House and Robert Johnson",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Big Bill Broonzy",
+      "context": "with the support of popular Chicago bluesman Big Bill Broonzy, who often allowed Waters and his band to open for him",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 3,
+    "sources_checked": 3
+  }
+}

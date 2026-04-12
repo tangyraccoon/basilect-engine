@@ -1,0 +1,28 @@
+{
+  "influences": [
+    {
+      "name": "Charlie Parker",
+      "context": "That's what we heard: Charlie Parker and Dizzy Gillespie got played instead of the pops of the day.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Dizzy Gillespie",
+      "context": "That's what we heard: Charlie Parker and Dizzy Gillespie got played instead of the pops of the day.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Frank Zappa",
+      "context": "No influences, but certainly one of my loves. \"Peaches En Regalia\" and the Hot Rats album. We actually played with him.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Miles Davis",
+      "context": "I equate it with someone like Miles Davis. Miles Davis made Kind Of Blue — I still play the record because I love it — but he never did. He always moved on. He always played something different.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 4,
+    "sources_checked": 3
+  }
+}

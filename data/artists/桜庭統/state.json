@@ -1,0 +1,49 @@
+{
+  "artist_id": "桜庭統",
+  "artist_name": "桜庭統",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T18:10:39.848732+00:00",
+      "result": "1 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T18:10:41.257939+00:00",
+      "result": "1/1 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T18:10:43.884376+00:00",
+      "result": "0 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T18:10:48.219609+00:00",
+      "result": "7 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T18:10:55.283801+00:00",
+      "result": "3/7 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T18:11:03.835523+00:00",
+      "result": "1 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T18:11:05.455297+00:00",
+      "result": "0 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T18:11:12.967992+00:00",
+      "result": "7 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-12T18:11:12.968056+00:00"
+}

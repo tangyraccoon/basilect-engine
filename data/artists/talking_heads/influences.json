@@ -1,0 +1,53 @@
+{
+  "influences": [
+    {
+      "name": "Fela Kuti",
+      "context": "Drawing influence from Nigerian Afrobeat musician Fela Kuti, they blended African polyrhythms and funk with electronics",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Kurtis Blow",
+      "context": "The \"rhythmical rant\" in \"Crosseyed and Painless\"—\"Facts are simple and facts are straight. Facts are lazy and facts are late\"—was influenced by early hip-hop, specifically Kurtis Blow's \"The Breaks\", which was given to Byrne by Frantz",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Velvet Underground",
+      "context": "\"Once in a Lifetime\" pays homage to early rap techniques and the music of the Velvet Underground",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "John Miller Chernoff",
+      "context": "The major inspiration for the lyrics was John Miller Chernoff's African Rhythm and African Sensibility (1981)",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Robert Farris Thompson",
+      "context": "One song, \"The Great Curve\", exemplifies the African theme with the line \"The world moves on a woman's hips\", which Byrne used after reading Robert Farris Thompson's book African Art in Motion (1974)",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Brian Eno",
+      "context": "But I think with Brian's encouragement we discovered that we could improvise stuff in the studio, make a structure out of that.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Tosca String Quartet",
+      "context": "Having worked with those guys I decided, 'I will do a record with that kind of sound.'",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Lou Reed",
+      "context": "When we were starting out, we were big fans of the Velvet Underground. John Cale and Lou Reed came to see us at CBGB. We met with Lou Reed a couple of times. He wanted to sign us to a management-production deal... He was showing us how if you slowed some of them down a little bit, that might not be the worst thing in the world, rather than trying to blurt out all the words really quickly. So, yeah, he had some good ideas.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "John Cale",
+      "context": "When we were starting out, we were big fans of the Velvet Underground. John Cale and Lou Reed came to see us at CBGB... John introduced us to Brian Eno on our first trip to London, and that proved to be a big deal for us.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 9,
+    "sources_checked": 5
+  }
+}

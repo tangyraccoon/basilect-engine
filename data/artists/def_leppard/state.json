@@ -1,0 +1,49 @@
+{
+  "artist_id": "def_leppard",
+  "artist_name": "Def Leppard",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-11T21:35:22.007961+00:00",
+      "result": "6 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-11T21:35:39.577694+00:00",
+      "result": "3/6 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T21:35:49.954681+00:00",
+      "result": "11 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-11T21:35:54.518975+00:00",
+      "result": "8 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-11T21:35:58.587687+00:00",
+      "result": "7/8 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T21:36:15.823644+00:00",
+      "result": "15 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T21:36:21.320347+00:00",
+      "result": "4 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T21:36:44.622775+00:00",
+      "result": "33 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-11T21:36:44.622862+00:00"
+}

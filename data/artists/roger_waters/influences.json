@@ -1,0 +1,48 @@
+{
+  "influences": [
+    {
+      "name": "Bob Dylan",
+      "context": "\"I find myself walking backwards to a simpler musical expression. There's a part of me that desperately wants to be Neil Young, John Prine or Bob Dylan.\"",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Neil Young",
+      "context": "\"I find myself walking backwards to a simpler musical expression. There's a part of me that desperately wants to be Neil Young, John Prine or Bob Dylan.\"",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "John Prine",
+      "context": "\"I find myself walking backwards to a simpler musical expression. There's a part of me that desperately wants to be Neil Young, John Prine or Bob Dylan.\"",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Mahmoud Darwish",
+      "context": "It's based on a translation of a poem by Mahmoud Darwish, the famous Palestinian poet. And the poem, in its title, has the words 'Kama Sutra.' It's actually specifically about waiting for a woman to orgasm. I had no idea when I first heard it and when I started writing this song. And it's beautiful. He is great… I knew nothing about him, and then I discovered him, and his poetry is extraordinary.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Jeremy Scahill",
+      "context": "I derived encouragement from the work of certain documentary filmmakers. I mentioned Jeremy Scahill and his movie Dirty Wars.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Chelsea Manning",
+      "context": "I derived encouragement from the work of certain documentary filmmakers. I mentioned Jeremy Scahill and his movie Dirty Wars. And also the extraordinary fortitude and courage of Chelsea Manning and Edward Snowden and Ray McGovern and Daniel Ellsberg and all the other whistleblowers that have emerged from the ashes of the Vietnam War.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Edward Snowden",
+      "context": "And also the extraordinary fortitude and courage of Chelsea Manning and Edward Snowden and Ray McGovern and Daniel Ellsberg and all the other whistleblowers that have emerged from the ashes of the Vietnam War.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Daniel Ellsberg",
+      "context": "And also the extraordinary fortitude and courage of Chelsea Manning and Edward Snowden and Ray McGovern and Daniel Ellsberg and all the other whistleblowers that have emerged from the ashes of the Vietnam War.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 8,
+    "sources_checked": 6
+  }
+}

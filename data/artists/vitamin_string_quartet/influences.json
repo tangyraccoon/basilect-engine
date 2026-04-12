@@ -1,0 +1,23 @@
+{
+  "influences": [
+    {
+      "name": "Billie Eilish",
+      "context": "I really enjoy Billie Eilish as an artist and her music that we translated on this record.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "No Doubt",
+      "context": "Sometime in the late '90s, I was a big fan of No Doubt. Anytime I went to a record store, I would look through the No Doubt to see if there was anything in there that I'd never seen before.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The String Quartet Tribute to No Doubt",
+      "context": "One day, I saw The String Quartet Tribute to No Doubt. It was one of the early CMH VSQ releases. That was my first time I discovered the group, and any time I had the chance, I would find new stuff that I hadn't seen before by them, and I was a big fan.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 3,
+    "sources_checked": 3
+  }
+}

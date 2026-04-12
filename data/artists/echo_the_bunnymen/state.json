@@ -1,0 +1,49 @@
+{
+  "artist_id": "echo_the_bunnymen",
+  "artist_name": "Echo & the Bunnymen",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:46:56.055819+00:00",
+      "result": "4 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:46:59.267820+00:00",
+      "result": "4/4 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:47:11.427942+00:00",
+      "result": "14 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:47:16.063210+00:00",
+      "result": "8 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:47:22.053836+00:00",
+      "result": "4/8 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:47:33.939517+00:00",
+      "result": "13 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:47:40.697411+00:00",
+      "result": "3 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:48:00.178409+00:00",
+      "result": "35 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-12T16:48:00.178464+00:00"
+}

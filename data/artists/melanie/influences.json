@@ -1,0 +1,43 @@
+{
+  "influences": [
+    {
+      "name": "JLo",
+      "context": "What inspired the genius JLo interpolation on \"Brain & Heart\"? I just kept hearing that melody in my head over the track and thought it sounded really pretty next to the other melodies I wrote.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Wes Anderson",
+      "context": "While the music video for the song looks like a surreal Wes Anderson Easter bonanza, the backstory is quite real",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Cruella de Vil",
+      "context": "I died my hair when I was 16, I was inspired by Cruella de Vil. And that was the first time I ever bleached my hair, when I did the half half",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Lesley Gore",
+      "context": "she was telling me that she thought my voice had similarities to artists from the '50s and '60s. So we were just listening to music from that time and \"It's My Party\" obviously came up and we were like \"Why hasn't anyone sampled this\"... This would be a great sample and we just went with it",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Fiona Apple",
+      "context": "her favorite artist of all time (Fiona Apple)",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Big Thief",
+      "context": "who she's listening to (Big Thief and Mitski)",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Mitski",
+      "context": "who she's listening to (Big Thief and Mitski)",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 7,
+    "sources_checked": 4
+  }
+}

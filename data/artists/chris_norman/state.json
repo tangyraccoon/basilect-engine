@@ -1,0 +1,49 @@
+{
+  "artist_id": "chris_norman",
+  "artist_name": "Chris Norman",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:52:33.388122+00:00",
+      "result": "1 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:52:34.995772+00:00",
+      "result": "1/1 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:52:37.412522+00:00",
+      "result": "0 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:52:41.713101+00:00",
+      "result": "8 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:52:47.852250+00:00",
+      "result": "6/8 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:52:58.571591+00:00",
+      "result": "0 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:53:00.321331+00:00",
+      "result": "0 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:53:11.821346+00:00",
+      "result": "9 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-12T15:53:11.821392+00:00"
+}

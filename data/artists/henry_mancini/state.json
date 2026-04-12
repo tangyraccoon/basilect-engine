@@ -1,0 +1,49 @@
+{
+  "artist_id": "henry_mancini",
+  "artist_name": "Henry Mancini",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:06:48.530500+00:00",
+      "result": "4 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:06:50.761416+00:00",
+      "result": "3/4 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:06:58.208771+00:00",
+      "result": "6 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:07:02.776758+00:00",
+      "result": "8 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:07:11.189729+00:00",
+      "result": "8/8 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:07:21.351657+00:00",
+      "result": "7 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:07:32.350880+00:00",
+      "result": "8 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:07:54.638753+00:00",
+      "result": "23 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-12T15:07:54.638833+00:00"
+}

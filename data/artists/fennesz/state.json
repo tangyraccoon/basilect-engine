@@ -1,0 +1,49 @@
+{
+  "artist_id": "fennesz",
+  "artist_name": "Fennesz",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T14:58:42.076702+00:00",
+      "result": "6 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T14:58:57.775214+00:00",
+      "result": "3/6 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T14:59:19.867312+00:00",
+      "result": "37 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T14:59:24.501288+00:00",
+      "result": "10 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T14:59:25.193544+00:00",
+      "result": "7/10 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T14:59:44.727886+00:00",
+      "result": "25 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T14:59:51.837249+00:00",
+      "result": "7 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:00:18.233942+00:00",
+      "result": "39 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-12T15:00:18.234086+00:00"
+}

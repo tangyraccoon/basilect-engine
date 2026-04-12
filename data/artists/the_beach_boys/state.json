@@ -1,0 +1,49 @@
+{
+  "artist_id": "the_beach_boys",
+  "artist_name": "The Beach Boys",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:48:33.354860+00:00",
+      "result": "6 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:48:35.903855+00:00",
+      "result": "4/6 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:48:47.126937+00:00",
+      "result": "4 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:48:51.902020+00:00",
+      "result": "8 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:48:55.622922+00:00",
+      "result": "7/8 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:49:12.818867+00:00",
+      "result": "25 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:49:24.983661+00:00",
+      "result": "6 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:49:54.308250+00:00",
+      "result": "31 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-12T15:49:54.308384+00:00"
+}

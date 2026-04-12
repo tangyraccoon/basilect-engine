@@ -1,0 +1,49 @@
+{
+  "artist_id": "take_that",
+  "artist_name": "Take That",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:36:17.985200+00:00",
+      "result": "0 urls"
+    },
+    "interview_scrape": {
+      "status": "skipped",
+      "timestamp": "2026-04-12T15:36:18.493224+00:00",
+      "result": "failed — skipping to unblock"
+    },
+    "interview_extract": {
+      "status": "skipped",
+      "timestamp": "2026-04-12T15:36:18.495125+00:00",
+      "result": "failed — skipping to unblock"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:36:22.462218+00:00",
+      "result": "8 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:36:29.195961+00:00",
+      "result": "8/8 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:36:45.118502+00:00",
+      "result": "23 passages"
+    },
+    "influence_extract": {
+      "status": "skipped",
+      "timestamp": "2026-04-12T15:36:45.624794+00:00",
+      "result": "no sources.json"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:37:04.685943+00:00",
+      "result": "24 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-12T15:37:04.686033+00:00"
+}

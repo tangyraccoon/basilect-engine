@@ -1,0 +1,49 @@
+{
+  "artist_id": "culture_club",
+  "artist_name": "Culture Club",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:41:46.836106+00:00",
+      "result": "5 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:41:54.809395+00:00",
+      "result": "5/5 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:42:08.061606+00:00",
+      "result": "12 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:42:12.646671+00:00",
+      "result": "8 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:42:15.952120+00:00",
+      "result": "4/8 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:42:31.607861+00:00",
+      "result": "18 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:42:42.540019+00:00",
+      "result": "6 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:43:04.066181+00:00",
+      "result": "26 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-12T15:43:04.066325+00:00"
+}

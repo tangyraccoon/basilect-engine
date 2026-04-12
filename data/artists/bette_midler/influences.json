@@ -1,0 +1,53 @@
+{
+  "influences": [
+    {
+      "name": "Nina Simone",
+      "context": "Nina Simone was also a gigantic influence on me. When I was a little girl, she had a record out called \"Children, Go Where I Send You,\" which was one of the greatest records I had ever heard in my life.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Ethel Waters",
+      "context": "And Ethel Waters, I adored her. A friend of mine introduced me to Ethel Waters. He played a record for me, \"Suppertime,\" and she breaks down and cries in the middle of it, and it is so moving and heart-wrenching. It kind of opened a door in my mind that you didn't have to have the biggest voice in the world.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Sophie Tucker",
+      "context": "I did see her when I was a very young girl. She came to Hawaii, one of the first nightclubs I had ever been to.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Tina Turner",
+      "context": "When I saw Tina Turner, the whole magic that Ike put together, I used to go from borough to borough to catch her.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Janis Joplin",
+      "context": "Janis [Joplin] had major power, too. I would always rush down to see her.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Bill Cunningham",
+      "context": "He had a piano player, Bill Cunningham, and he was one of the greatest piano players I ever heard.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Laura Nyro",
+      "context": "And when I was at the Baths, one of Laura Nyro's best friends was my lighting man. He introduced me to her music, and he introduced me to her, and of course, I never really recovered from that, because she was the epitome of a certain kind of New York woman.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Joni Mitchell",
+      "context": "And in those days, when she and Joni Mitchell were working, their music was played constantly, you really felt it in the air. The atmosphere was dense with it. Both of those women, I sang their music for years.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Bob Dylan",
+      "context": "And I really think that the folk era really kicked it off for people, you know? I think Bob Dylan and all those people who were working at that time made you feel that if you had a poet's soul, if you had something to say, and you knew a couple of chords, you could set it to music and you could make a living.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 9,
+    "sources_checked": 5
+  }
+}

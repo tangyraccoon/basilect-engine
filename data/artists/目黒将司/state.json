@@ -1,0 +1,49 @@
+{
+  "artist_id": "目黒将司",
+  "artist_name": "目黒将司",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:04:18.470303+00:00",
+      "result": "2 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:04:22.048258+00:00",
+      "result": "2/2 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:04:26.417559+00:00",
+      "result": "0 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:04:30.862571+00:00",
+      "result": "5 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:04:32.678984+00:00",
+      "result": "1/5 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:04:35.523800+00:00",
+      "result": "0 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:04:38.165890+00:00",
+      "result": "0 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:04:46.614421+00:00",
+      "result": "7 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-12T15:04:46.614503+00:00"
+}

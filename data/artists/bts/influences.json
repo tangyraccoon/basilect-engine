@@ -1,0 +1,18 @@
+{
+  "influences": [
+    {
+      "name": "other members",
+      "context": "When I was much younger, I listened to a lot of top hits and songs that the other members recommended to me.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "unnamed artists/musicians from music history",
+      "context": "Most of the music that I grew up listening to talked about dreams, hope, and introspection in the midst of despair. I got influenced by that kind of music and became who I am today.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 2,
+    "sources_checked": 3
+  }
+}

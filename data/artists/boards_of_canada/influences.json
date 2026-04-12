@@ -1,0 +1,63 @@
+{
+  "influences": [
+    {
+      "name": "Jerry Goldsmith",
+      "context": "I think you can trigger emotion much more easily with a melody than you can with a rhythm, although it can be done with a rhythm, listen to Jerry Goldsmith or The Incredible String Band",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Incredible String Band",
+      "context": "I think you can trigger emotion much more easily with a melody than you can with a rhythm, although it can be done with a rhythm, listen to Jerry Goldsmith or The Incredible String Band",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Claude Debussy",
+      "context": "Much like Miles, Boards follow composer Claude Debussy's edict, 'Music is the space between the notes.'",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Joni Mitchell",
+      "context": "they have cited several acts that have influenced their work including Joni Mitchell",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Incredible String Band",
+      "context": "the Incredible String Band (saying \"we have all the String Band records […] our rural sensibilities are similar\")",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Beatles",
+      "context": "the Beatles (saying \"[they] really became enthralling to us through their psychedelism\")",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "My Bloody Valentine",
+      "context": "My Bloody Valentine (saying \"even if we don't sound like them, there's a connection in terms of the approach to music\")",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Meat Beat Manifesto",
+      "context": "They have also named Meat Beat Manifesto as a chief influence, citing their synth sounds",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Alan Parker",
+      "context": "a track that Boards of Canada (also known as Scottish electronic music duo comprised of brothers Mike Sandison and Marcus Eoin) would later go on to sample in the early days of their creativity",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Bruce Haack",
+      "context": "The Societas X Tape (WXAXRXP) mix did the exact same. The second to last track on the mix, Bruce Haack Angel Child offers us a glimmer of hope and a wake up call",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "National Film Board of Canada",
+      "context": "they named themselves in homage to the National Film Board of Canada, whose nature documentaries influenced their music's washed-out colors and warbly sonics",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 11,
+    "sources_checked": 5
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "artist_id": "black_eyed_peas",
+  "artist_name": "Black Eyed Peas",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:25:47.389276+00:00",
+      "result": "6 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:25:52.038754+00:00",
+      "result": "3/6 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:25:58.130390+00:00",
+      "result": "5 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:26:02.699142+00:00",
+      "result": "8 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:26:06.540673+00:00",
+      "result": "5/8 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:26:21.753456+00:00",
+      "result": "20 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:26:26.889714+00:00",
+      "result": "1 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:26:46.081092+00:00",
+      "result": "34 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-12T15:26:46.081186+00:00"
+}

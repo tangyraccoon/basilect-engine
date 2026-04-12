@@ -1,0 +1,49 @@
+{
+  "artist_id": "bela_bartok",
+  "artist_name": "Bela Bartok",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:21:14.623886+00:00",
+      "result": "1 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:21:15.131538+00:00",
+      "result": "1/1 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:21:17.574741+00:00",
+      "result": "0 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:21:22.105976+00:00",
+      "result": "8 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:21:22.615652+00:00",
+      "result": "8/8 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:21:39.734810+00:00",
+      "result": "23 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:21:43.050605+00:00",
+      "result": "2 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:22:06.986884+00:00",
+      "result": "45 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-12T15:22:06.987029+00:00"
+}

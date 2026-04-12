@@ -1,0 +1,30 @@
+{
+  "quotes": [
+    {
+      "text": "Making Maroon was one of my favorite recording experiences. It was a super creative and confident time for us. Hearing it in Atmos has been really cool too!! It puts a new spin on such a rich session.",
+      "publication": "Barenaked Ladies",
+      "date": ""
+    },
+    {
+      "text": "Frankly, the band itself was a five-way democracy and one of the great things about it is that it's been about the five-way collaboration, but it's also one of the things that's made me decide to be a solo artist",
+      "publication": "Dallas Observer",
+      "date": ""
+    },
+    {
+      "text": "We did get to a place in our relationship with Steve where we had to go our separate ways, and that was super difficult. It made me question everything about the band because it just wasn't that fun anymore.",
+      "publication": "Dallas Observer",
+      "date": ""
+    },
+    {
+      "text": "Making Maroon was one of my favorite recording experiences. It was a super creative and confident time for us. Hearing it in Atmos has been really cool too!! It puts a new spin on such a rich session.",
+      "publication": "Barenaked Ladies",
+      "date": ""
+    }
+  ],
+  "corpus_meta": {
+    "quote_count": 4,
+    "source_count": 2,
+    "date_range": [],
+    "corpus_valid": false
+  }
+}

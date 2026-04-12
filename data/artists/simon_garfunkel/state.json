@@ -1,0 +1,49 @@
+{
+  "artist_id": "simon_garfunkel",
+  "artist_name": "Simon & Garfunkel",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T14:54:38.488664+00:00",
+      "result": "4 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T14:54:42.630992+00:00",
+      "result": "4/4 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T14:54:50.828632+00:00",
+      "result": "2 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T14:54:55.558781+00:00",
+      "result": "8 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T14:54:59.507266+00:00",
+      "result": "7/8 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T14:55:14.666623+00:00",
+      "result": "17 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T14:55:20.496228+00:00",
+      "result": "1 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T14:55:44.472890+00:00",
+      "result": "37 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-12T14:55:44.472994+00:00"
+}

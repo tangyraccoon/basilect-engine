@@ -1,0 +1,49 @@
+{
+  "artist_id": "steve_hackett",
+  "artist_name": "Steve Hackett",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:16:16.202931+00:00",
+      "result": "6 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:16:25.187591+00:00",
+      "result": "5/6 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:16:43.409701+00:00",
+      "result": "9 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:16:48.045729+00:00",
+      "result": "8 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:16:52.678284+00:00",
+      "result": "6/8 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:17:07.471276+00:00",
+      "result": "16 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:17:24.202375+00:00",
+      "result": "12 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:17:51.370002+00:00",
+      "result": "35 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-12T15:17:51.370165+00:00"
+}

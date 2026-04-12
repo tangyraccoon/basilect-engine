@@ -1,0 +1,49 @@
+{
+  "artist_id": "joan_baez",
+  "artist_name": "Joan Baez",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:21:47.835598+00:00",
+      "result": "1 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:21:48.448752+00:00",
+      "result": "0/1 scraped"
+    },
+    "interview_extract": {
+      "status": "skipped",
+      "timestamp": "2026-04-12T15:21:48.954691+00:00",
+      "result": "failed — skipping to unblock"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:21:53.175813+00:00",
+      "result": "8 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:21:56.350049+00:00",
+      "result": "4/8 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:22:15.530849+00:00",
+      "result": "22 passages"
+    },
+    "influence_extract": {
+      "status": "skipped",
+      "timestamp": "2026-04-12T15:22:16.035158+00:00",
+      "result": "no scraped text"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:22:25.848875+00:00",
+      "result": "18 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-12T15:22:25.848921+00:00"
+}

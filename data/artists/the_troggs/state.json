@@ -1,0 +1,49 @@
+{
+  "artist_id": "the_troggs",
+  "artist_name": "The Troggs",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:32:50.579873+00:00",
+      "result": "2 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:32:52.704902+00:00",
+      "result": "1/2 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:32:55.034579+00:00",
+      "result": "0 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:32:59.558541+00:00",
+      "result": "8 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:33:02.510623+00:00",
+      "result": "3/8 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:33:14.739623+00:00",
+      "result": "15 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:33:16.341555+00:00",
+      "result": "0 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:33:25.240394+00:00",
+      "result": "14 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-12T15:33:25.240426+00:00"
+}

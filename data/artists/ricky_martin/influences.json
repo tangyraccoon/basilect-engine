@@ -1,0 +1,23 @@
+{
+  "influences": [
+    {
+      "name": "friend in Brazil",
+      "context": "I received this immersive audio from a friend of mine in Brazil and he said 'you should do music like this' and I really enjoyed what I was listening",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Carla Morrison",
+      "context": "She is very beautiful and an amazing storyteller... She is very cool, bohemian, chic, and she is just real, and I'm just obsessed with her.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Bad Bunny",
+      "context": "I just work with people that I respect. I think that Bad Bunny, even though he's young, he's making the right decisions and everything he's presenting to the audience, he's always pushing the envelope. I like that from young artists.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 3,
+    "sources_checked": 5
+  }
+}

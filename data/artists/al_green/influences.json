@@ -1,0 +1,28 @@
+{
+  "influences": [
+    {
+      "name": "Willie Mitchell",
+      "context": "Green's last two albums for Blue Note -- 2003's I Can't Stop and 2005's Everything's OK -- had been much-heralded reunion efforts with his longtime producer/mentor Willie Mitchell. This time, Mitchell sent Green off to work with Thompson with a bit of advice. '(Willie) just said, \"Al, be sure you sing you,\"'",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Sam Cooke",
+      "context": "To a greater extent than even his predecessors Sam Cooke and Otis Redding, Al Green (née Albert Greene) embodies soul music's mix of sacred and secular.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Otis Redding",
+      "context": "To a greater extent than even his predecessors Sam Cooke and Otis Redding, Al Green (née Albert Greene) embodies soul music's mix of sacred and secular.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Jackie Wilson",
+      "context": "when he performed with his brothers in the group The Greene Brothers. Green was raised in a strict religious home in Michigan, so when his father caught him listening to Jackie Wilson, he was kicked out of the group.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 4,
+    "sources_checked": 4
+  }
+}

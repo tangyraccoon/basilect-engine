@@ -1,0 +1,68 @@
+{
+  "influences": [
+    {
+      "name": "Nick Cave",
+      "context": "she borrowed the moniker St. Vincent from a Nick Cave song",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "David Bowie",
+      "context": "She is sometimes compared to David Bowie, as she often changes characteristics from album to album",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Nirvana",
+      "context": "She mentioned Nirvana's and Leonard Cohen's songs as examples",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Leonard Cohen",
+      "context": "She mentioned Nirvana's and Leonard Cohen's songs as examples",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Billie Holiday",
+      "context": "I was in my room with this recording setup, writing songs and trying to sing along to practice Billie Holiday riffs.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Duke Ellington",
+      "context": "I go back to Duke Ellington with, \"If it sounds good, it is good.\"",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "John Congleton",
+      "context": "When I was doing records with John Congleton or Jack Antonoff – not to be so blue collar about it – but time is money. We're in the studio. We're here to work, and this is what we're doing. Someone like John is super-efficient and fast.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Jack Antonoff",
+      "context": "When I was doing records with John Congleton or Jack Antonoff – not to be so blue collar about it – but time is money. We're in the studio. We're here to work, and this is what we're doing. Same with Jack; super-fast.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Judy Garland",
+      "context": "I love the scene in \"The Wizard of Oz\" where Dorothy first sees the Technicolor... I felt like I wanted to create something that was Technicolor, was visual as much as musical, and it's - and also, lyrically, it's this person, you know, wishing they had a spine made of iron and sort of along the thematic lines of \"The Wizard of Oz.\"",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Disney",
+      "context": "The passages with the woodwinds and the vibrato voices, I was inspired by the scene where Snow White is singing at the well, and I just have such a soft spot for those Disney films, and I feel like I felt when I was five when I first saw them.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "David Byrne",
+      "context": "She talks through how she finds inspiration as a solo artist and also how she has been inspired by the iconic singer-songwriter, David Byrne. In this class you'll get to: Hear how David inspired St Vincent to become more free and creative",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Dr Dre",
+      "context": "How Annie references the iconic Dr Dre in her hit song 'Savior'",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 12,
+    "sources_checked": 5
+  }
+}

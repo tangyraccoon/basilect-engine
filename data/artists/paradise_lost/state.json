@@ -1,0 +1,49 @@
+{
+  "artist_id": "paradise_lost",
+  "artist_name": "Paradise Lost",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:00:53.704160+00:00",
+      "result": "5 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:00:57.640536+00:00",
+      "result": "4/5 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:01:10.486031+00:00",
+      "result": "18 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:01:15.149452+00:00",
+      "result": "8 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:01:18.777385+00:00",
+      "result": "4/8 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:01:34.732766+00:00",
+      "result": "22 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:01:41.654974+00:00",
+      "result": "4 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:01:59.788527+00:00",
+      "result": "34 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-12T16:01:59.788568+00:00"
+}

@@ -1,0 +1,53 @@
+{
+  "influences": [
+    {
+      "name": "Debussy",
+      "context": "Lighthouse recalls both the impressionistic lilt of Debussy (honestly)",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Joe Hisaishi",
+      "context": "Lighthouse recalls both the impressionistic lilt of Debussy (honestly) and Joe Hisaishi's score for Spirited Away",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Jefre Cantu",
+      "context": "Yes—an 8 hour long concert in Berlin last year that I played with my friend Jefre.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Lawrence English",
+      "context": "Two ambient collaborations will come out this year. Some of the sounds are similar to Violet. One with Lawrence English is pretty landscape-oriented, one with Jefre Cantu is all emotion and lack of sleep.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Cocteau Twins",
+      "context": "Harris draws from a diverse array of influences, including the ethereal dream pop of Cocteau Twins",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Carlo Gesualdo",
+      "context": "Harris draws from a diverse array of influences, including the ethereal dream pop of Cocteau Twins, Eastern European folk traditions discovered through her parents, the chromatic polyphony of Renaissance composer Carlo Gesualdo",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Arvo Pärt",
+      "context": "Harris draws from a diverse array of influences, including the ethereal dream pop of Cocteau Twins, Eastern European folk traditions discovered through her parents, the chromatic polyphony of Renaissance composer Carlo Gesualdo, and contemporary classical figures like Arvo Pärt and Dmitri Shostakovich",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Dmitri Shostakovich",
+      "context": "Harris draws from a diverse array of influences, including the ethereal dream pop of Cocteau Twins, Eastern European folk traditions discovered through her parents, the chromatic polyphony of Renaissance composer Carlo Gesualdo, and contemporary classical figures like Arvo Pärt and Dmitri Shostakovich",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Her father",
+      "context": "Was taught to read and play as a child by my father, who was a composition student.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 9,
+    "sources_checked": 6
+  }
+}

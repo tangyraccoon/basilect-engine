@@ -1,0 +1,25 @@
+{
+  "quotes": [
+    {
+      "text": "I'm working on a new record, so I've been listening to a lot of things but it was Nat King Cole, Unforgettable. Like Sinatra, he always had the best of everything on his recordings, starting with the best songs.",
+      "publication": "The Guardian",
+      "date": ""
+    },
+    {
+      "text": "I learned so much from it. My father had been telling me all about him when I was still Lil' Georgie Benson. My set was jukebox hits, and my father would say: \"Why you play that mess?\" Because that's what people want to hear! \"Play like Charlie Parker.\" Charlie who? \"Now I know why you can't play anything.\"",
+      "publication": "The Guardian",
+      "date": ""
+    },
+    {
+      "text": "I didn't make a dime because I spent all my money on the airplane getting the band and my equipment over.",
+      "publication": "Guitar.com",
+      "date": ""
+    }
+  ],
+  "corpus_meta": {
+    "quote_count": 3,
+    "source_count": 2,
+    "date_range": [],
+    "corpus_valid": false
+  }
+}

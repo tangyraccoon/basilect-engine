@@ -1,0 +1,49 @@
+{
+  "artist_id": "fats_domino",
+  "artist_name": "Fats Domino",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:58:30.200223+00:00",
+      "result": "1 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:58:31.175197+00:00",
+      "result": "1/1 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:58:33.701712+00:00",
+      "result": "0 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:58:38.397250+00:00",
+      "result": "8 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:58:41.935056+00:00",
+      "result": "4/8 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:58:58.195159+00:00",
+      "result": "23 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:59:02.205045+00:00",
+      "result": "0 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:59:15.396350+00:00",
+      "result": "20 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-12T17:59:15.396538+00:00"
+}

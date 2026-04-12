@@ -1,0 +1,49 @@
+{
+  "artist_id": "ryoji_ikeda",
+  "artist_name": "Ryoji Ikeda",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:36:47.584403+00:00",
+      "result": "6 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:36:50.611305+00:00",
+      "result": "3/6 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:36:57.222240+00:00",
+      "result": "0 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:37:01.781353+00:00",
+      "result": "8 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:37:02.442915+00:00",
+      "result": "6/8 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:37:20.896790+00:00",
+      "result": "32 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:37:29.337985+00:00",
+      "result": "4 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:37:53.087857+00:00",
+      "result": "45 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-11T22:37:53.087916+00:00"
+}

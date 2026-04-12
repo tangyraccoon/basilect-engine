@@ -1,0 +1,49 @@
+{
+  "artist_id": "r_stevie_moore",
+  "artist_name": "R. Stevie Moore",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:04:11.604381+00:00",
+      "result": "6 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:04:17.711312+00:00",
+      "result": "5/6 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:04:37.625336+00:00",
+      "result": "18 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:04:42.157294+00:00",
+      "result": "8 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:04:45.284446+00:00",
+      "result": "5/8 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:05:08.360793+00:00",
+      "result": "27 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:05:20.053265+00:00",
+      "result": "5 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:05:44.283707+00:00",
+      "result": "30 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-12T16:05:44.283765+00:00"
+}

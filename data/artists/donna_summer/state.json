@@ -1,0 +1,49 @@
+{
+  "artist_id": "donna_summer",
+  "artist_name": "Donna Summer",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:03:51.916355+00:00",
+      "result": "2 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:03:53.069455+00:00",
+      "result": "2/2 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:03:58.070001+00:00",
+      "result": "3 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:04:02.823650+00:00",
+      "result": "8 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:04:07.093391+00:00",
+      "result": "5/8 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:04:23.874808+00:00",
+      "result": "18 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:04:26.913397+00:00",
+      "result": "0 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:04:43.547040+00:00",
+      "result": "28 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-12T17:04:43.547200+00:00"
+}

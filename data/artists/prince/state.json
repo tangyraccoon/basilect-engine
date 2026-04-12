@@ -1,0 +1,49 @@
+{
+  "artist_id": "prince",
+  "artist_name": "Prince",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:47:03.845730+00:00",
+      "result": "6 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:47:06.681360+00:00",
+      "result": "4/6 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:47:18.318473+00:00",
+      "result": "10 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:47:23.167034+00:00",
+      "result": "8 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:47:28.802689+00:00",
+      "result": "6/8 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:47:45.758676+00:00",
+      "result": "14 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:48:00.416225+00:00",
+      "result": "6 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:48:28.996326+00:00",
+      "result": "41 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-12T15:48:28.996568+00:00"
+}

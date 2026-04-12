@@ -1,0 +1,49 @@
+{
+  "artist_id": "suede",
+  "artist_name": "Suede",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T18:12:03.886845+00:00",
+      "result": "1 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T18:12:09.281001+00:00",
+      "result": "1/1 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T18:12:16.922773+00:00",
+      "result": "6 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T18:12:21.707470+00:00",
+      "result": "8 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T18:12:28.067016+00:00",
+      "result": "8/8 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T18:12:41.758549+00:00",
+      "result": "18 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T18:12:44.433554+00:00",
+      "result": "3 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T18:13:08.325925+00:00",
+      "result": "34 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-12T18:13:08.325983+00:00"
+}

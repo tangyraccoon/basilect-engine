@@ -1,0 +1,18 @@
+{
+  "influences": [
+    {
+      "name": "Ken Burns",
+      "context": "I guess I had just watched Ken Burns' Jack Johnson documentary.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Lou Reed",
+      "context": "Lou Reed died when I was probably about three-quarters of the way through writing it. I'm not sure how big of an influence that was, but it was part of it. The song was about a period that's fascinating because of guys like Lou Reed — the early '70s and the late '60s with the Velvet Underground and Andy Warhol in New York.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 2,
+    "sources_checked": 6
+  }
+}

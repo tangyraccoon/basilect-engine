@@ -1,0 +1,18 @@
+{
+  "influences": [
+    {
+      "name": "Supertramp",
+      "context": "In a way, I was imitating Supertramp: they were playing that kind of piano on 'Dreamer'. That influenced it, but 'Blinded by the Light' is a very good piano part; integral to the whole song.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Paul Simon",
+      "context": "I did an African album before Paul Simon called Somewhere in Afrika in 1983 [sic]. It was a bit anti-apartheid, and I tried to make it as musical as possible. [Simon's] Gracelands is a great use of African sounds mixed with American songwriting. It's a tremendous album; really excellent.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 2,
+    "sources_checked": 2
+  }
+}

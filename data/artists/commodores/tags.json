@@ -1,0 +1,152 @@
+{
+  "tags": [
+    {
+      "tag": "emotional",
+      "category": "philosophy",
+      "weight": 1.0,
+      "raw_score": 16
+    },
+    {
+      "tag": "collaborative",
+      "category": "philosophy",
+      "weight": 0.75,
+      "raw_score": 12
+    },
+    {
+      "tag": "multi_instrumental",
+      "category": "approach",
+      "weight": 0.688,
+      "raw_score": 11
+    },
+    {
+      "tag": "orchestration",
+      "category": "process",
+      "weight": 0.562,
+      "raw_score": 9
+    },
+    {
+      "tag": "vocal_focused",
+      "category": "approach",
+      "weight": 0.5,
+      "raw_score": 8
+    },
+    {
+      "tag": "intuitive",
+      "category": "philosophy",
+      "weight": 0.375,
+      "raw_score": 6
+    },
+    {
+      "tag": "playful",
+      "category": "philosophy",
+      "weight": 0.375,
+      "raw_score": 6
+    },
+    {
+      "tag": "narrative",
+      "category": "philosophy",
+      "weight": 0.375,
+      "raw_score": 6
+    },
+    {
+      "tag": "collaborative_production",
+      "category": "approach",
+      "weight": 0.375,
+      "raw_score": 6
+    },
+    {
+      "tag": "hybrid_production",
+      "category": "approach",
+      "weight": 0.375,
+      "raw_score": 6
+    },
+    {
+      "tag": "live_performance",
+      "category": "approach",
+      "weight": 0.312,
+      "raw_score": 5
+    },
+    {
+      "tag": "commercial",
+      "category": "philosophy",
+      "weight": 0.312,
+      "raw_score": 5
+    },
+    {
+      "tag": "vocal_processing",
+      "category": "process",
+      "weight": 0.25,
+      "raw_score": 4
+    },
+    {
+      "tag": "simplicity",
+      "category": "philosophy",
+      "weight": 0.188,
+      "raw_score": 3
+    },
+    {
+      "tag": "relatable",
+      "category": "philosophy",
+      "weight": 0.188,
+      "raw_score": 3
+    },
+    {
+      "tag": "showmanship",
+      "category": "philosophy",
+      "weight": 0.188,
+      "raw_score": 3
+    },
+    {
+      "tag": "versatile",
+      "category": "philosophy",
+      "weight": 0.188,
+      "raw_score": 3
+    },
+    {
+      "tag": "layering",
+      "category": "process",
+      "weight": 0.188,
+      "raw_score": 3
+    },
+    {
+      "tag": "serious",
+      "category": "philosophy",
+      "weight": 0.125,
+      "raw_score": 2
+    },
+    {
+      "tag": "precision",
+      "category": "process",
+      "weight": 0.125,
+      "raw_score": 2
+    },
+    {
+      "tag": "hybrid",
+      "category": "philosophy",
+      "weight": 0.125,
+      "raw_score": 2
+    },
+    {
+      "tag": "entertainment_focused",
+      "category": "philosophy",
+      "weight": 0.125,
+      "raw_score": 2
+    },
+    {
+      "tag": "hi_fi",
+      "category": "approach",
+      "weight": 0.125,
+      "raw_score": 2
+    },
+    {
+      "tag": "studio_as_instrument",
+      "category": "approach",
+      "weight": 0.125,
+      "raw_score": 2
+    }
+  ],
+  "meta": {
+    "count": 24,
+    "sources_checked": 8
+  }
+}

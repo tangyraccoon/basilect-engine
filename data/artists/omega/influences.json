@@ -1,0 +1,43 @@
+{
+  "influences": [
+    {
+      "name": "BTS",
+      "context": "Seonghyeon, born in 2009, grew up listening to BTS, imagining an artistic future of his own.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Teezo Touchdown",
+      "context": "From the moment he enters the studio, he has this aura. It could be his style, or just his presence, but he's really dedicated to his work and enjoys the process. Whether it's styling or making music, he's free, relaxed, and passionate. This enjoyment is what lets his music last. Every time we meet, he's evolving, improving; I really want to learn from that.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Underworld",
+      "context": "Lately I've been listening a lot to UK artists like Underworld—tracks with that hazy vibe, but still a solid four-on-the-floor kick.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Alice In Chains",
+      "context": "I'd say Underworld and Alice In Chains.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "AG Club",
+      "context": "AG Club, who appeared in our debut documentary What We Want.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Illusion Hills",
+      "context": "Illusion Hills—an LA indie band—and Cochise.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Cochise",
+      "context": "Illusion Hills—an LA indie band—and Cochise.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 7,
+    "sources_checked": 3
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "artist_id": "alicia_keys",
+  "artist_name": "Alicia Keys",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:02:40.635719+00:00",
+      "result": "6 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:02:49.601951+00:00",
+      "result": "5/6 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:03:02.660414+00:00",
+      "result": "12 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:03:07.676116+00:00",
+      "result": "8 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:03:12.002083+00:00",
+      "result": "3/8 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:03:30.901317+00:00",
+      "result": "21 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:03:49.384905+00:00",
+      "result": "0 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:04:07.571288+00:00",
+      "result": "30 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-12T16:04:07.571359+00:00"
+}

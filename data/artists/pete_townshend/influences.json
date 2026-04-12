@@ -1,0 +1,123 @@
+{
+  "influences": [
+    {
+      "name": "Paco De Lucía",
+      "context": "you do have musicians, Paco De Lucía, for example, who will pick up the guitar and play it. And I'm quite comfortable listening to them play that on their own because he's a genius.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "David Gilmour",
+      "context": "I loved working with David Gilmour on my 'White City' album and we co-wrote together some songs",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Eric Clapton",
+      "context": "I really enjoyed working with Eric Clapton back in 1973 when we did the 'Rainbow Concert' together",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Jimi Hendrix",
+      "context": "Meeting and working closely with The Who's Pete Townshend, and getting to chat with him about Hendrix – one of my biggest guitar heroes! – was a thrill.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Brian May",
+      "context": "Another one is playing Bohemian Rhapsody with Brian May at the We Will Rock You London 8th Anniversary. Hearing my guitar alongside Brian May's on that song was quite a moment!",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Beatles",
+      "context": "Pete Townshend may borrow an idea from the Beatles as he looks for help polishing rough gems from the Who's archive",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Paul McCartney",
+      "context": "surviving Beatles Paul McCartney and Ringo Starr used the technology to create the song \"Now and Then\" from a John Lennon demo. It's an approach Townshend thinks has some merit",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Ringo Starr",
+      "context": "surviving Beatles Paul McCartney and Ringo Starr used the technology to create the song \"Now and Then\" from a John Lennon demo. It's an approach Townshend thinks has some merit",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Margaret Atwood",
+      "context": "An avid reader, Mr Townshend said he gets through about three books a week, with writers including Margaret Atwood, Paul Auster and John le Carre among his current favourites.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Paul Auster",
+      "context": "An avid reader, Mr Townshend said he gets through about three books a week, with writers including Margaret Atwood, Paul Auster and John le Carre among his current favourites.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "John le Carre",
+      "context": "An avid reader, Mr Townshend said he gets through about three books a week, with writers including Margaret Atwood, Paul Auster and John le Carre among his current favourites.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "David Bowie",
+      "context": "You know, somebody like Bowie for example, and not just because Bowie is photogenic and attractive, but because he does have a very good sense of the way that he looks. And he uses it in a very chameleon-like way.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Mose Allison",
+      "context": "I played all kinds of strange things. I played songs from my career which are fairly rare, but I also played a couple of Mose Allison songs",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Charlie Mingus",
+      "context": "I also played a couple of Mose Allison songs, and a thing by Charlie Mingus, and folk songs, and odd things like that.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Howard Ashman",
+      "context": "the new batch of them from, I suppose, 'Little Mermaid' onwards were conceived in Disney, by Howard Ashman and Alan Menken, who were two Broadway theater writers.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Alan Menken",
+      "context": "the new batch of them from, I suppose, 'Little Mermaid' onwards were conceived in Disney, by Howard Ashman and Alan Menken, who were two Broadway theater writers.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Elton John",
+      "context": "In fact, a lot of people, like Elton John for example, is working in that area.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Bob Dylan",
+      "context": "It's got a bit of Bob Dylan in there. It's got a bit of Mose Allison in there. There's a bit of the Beach Boys in there. There's a bit of Johnny Cash, a bit of Bo Diddley.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Beach Boys",
+      "context": "There's a bit of the Beach Boys in there. There's a bit of Johnny Cash, a bit of Bo Diddley. There's a bit of 'Louie, Louie.'",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Johnny Cash",
+      "context": "There's a bit of the Beach Boys in there. There's a bit of Johnny Cash, a bit of Bo Diddley.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Bo Diddley",
+      "context": "There's a bit of Johnny Cash, a bit of Bo Diddley. There's a bit of 'Louie, Louie.'",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Joan Baez",
+      "context": "I didn't know about Joan Baez, or Bob Dylan, or Pete Seeger, or any of those guys.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Pete Seeger",
+      "context": "I didn't know about Joan Baez, or Bob Dylan, or Pete Seeger, or any of those guys.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 23,
+    "sources_checked": 5
+  }
+}

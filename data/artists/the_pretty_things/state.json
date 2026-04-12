@@ -1,0 +1,49 @@
+{
+  "artist_id": "the_pretty_things",
+  "artist_name": "The Pretty Things",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:18:59.935197+00:00",
+      "result": "3 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:19:06.013315+00:00",
+      "result": "3/3 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:19:16.565467+00:00",
+      "result": "13 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:19:21.022517+00:00",
+      "result": "8 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:19:25.500342+00:00",
+      "result": "7/8 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:19:42.399124+00:00",
+      "result": "22 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:19:53.246146+00:00",
+      "result": "7 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:20:17.042176+00:00",
+      "result": "31 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-12T15:20:17.042253+00:00"
+}

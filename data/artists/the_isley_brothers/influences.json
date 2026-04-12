@@ -1,0 +1,18 @@
+{
+  "influences": [
+    {
+      "name": "Jimi Hendrix",
+      "context": "the Jimi Hendrix era and influence, signing with Motown, adding Ernie and Marvin to the recording",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Their parents",
+      "context": "Our mother and father taught us in the beginning to sing everything. Gospel, country, rhythm and blues, pop, sing, everything that the people want to hear, and that's how you last this long.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 2,
+    "sources_checked": 5
+  }
+}

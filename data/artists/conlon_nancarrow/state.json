@@ -1,0 +1,49 @@
+{
+  "artist_id": "conlon_nancarrow",
+  "artist_name": "Conlon Nancarrow",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:08:01.502281+00:00",
+      "result": "0 urls"
+    },
+    "interview_scrape": {
+      "status": "skipped",
+      "timestamp": "2026-04-12T15:08:02.009341+00:00",
+      "result": "failed — skipping to unblock"
+    },
+    "interview_extract": {
+      "status": "skipped",
+      "timestamp": "2026-04-12T15:08:02.010739+00:00",
+      "result": "failed — skipping to unblock"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:08:05.925908+00:00",
+      "result": "8 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:08:09.392183+00:00",
+      "result": "6/8 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:08:22.118827+00:00",
+      "result": "12 passages"
+    },
+    "influence_extract": {
+      "status": "skipped",
+      "timestamp": "2026-04-12T15:08:22.625438+00:00",
+      "result": "no sources.json"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:08:37.691815+00:00",
+      "result": "26 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-12T15:08:37.691955+00:00"
+}

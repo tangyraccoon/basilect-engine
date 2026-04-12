@@ -1,0 +1,49 @@
+{
+  "artist_id": "the_cardigans",
+  "artist_name": "The Cardigans",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:41:03.508128+00:00",
+      "result": "4 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:42:27.718807+00:00",
+      "result": "2/4 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:42:35.571654+00:00",
+      "result": "8 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:42:40.166486+00:00",
+      "result": "8 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:42:43.888970+00:00",
+      "result": "4/8 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:42:53.162004+00:00",
+      "result": "6 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:42:59.139215+00:00",
+      "result": "9 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:43:10.186389+00:00",
+      "result": "24 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-12T16:43:10.186441+00:00"
+}

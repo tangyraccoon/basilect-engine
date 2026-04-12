@@ -1,0 +1,28 @@
+{
+  "influences": [
+    {
+      "name": "Rick Rubin",
+      "context": "their joint rise to fame with future super producer Rick Rubin, who became \"our weird cool older brother\" in college when they were still in their mid-teens",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Run-DMC",
+      "context": "their idols Run-DMC made them",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Led Zeppelin",
+      "context": "He helped the Beastie Boys find their sound by experimenting early on with tape loops (inspired by Led Zeppelin and Sly And The Family Stone).",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Sly And The Family Stone",
+      "context": "He helped the Beastie Boys find their sound by experimenting early on with tape loops (inspired by Led Zeppelin and Sly And The Family Stone).",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 4,
+    "sources_checked": 5
+  }
+}

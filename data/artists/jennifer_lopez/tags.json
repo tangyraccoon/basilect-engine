@@ -1,0 +1,212 @@
+{
+  "tags": [
+    {
+      "tag": "autobiographical",
+      "category": "philosophy",
+      "weight": 1.0,
+      "raw_score": 26
+    },
+    {
+      "tag": "narrative",
+      "category": "philosophy",
+      "weight": 0.923,
+      "raw_score": 24
+    },
+    {
+      "tag": "emotional",
+      "category": "philosophy",
+      "weight": 0.885,
+      "raw_score": 23
+    },
+    {
+      "tag": "collaborative_production",
+      "category": "approach",
+      "weight": 0.769,
+      "raw_score": 20
+    },
+    {
+      "tag": "vocal_focused",
+      "category": "approach",
+      "weight": 0.731,
+      "raw_score": 19
+    },
+    {
+      "tag": "collaborative",
+      "category": "philosophy",
+      "weight": 0.615,
+      "raw_score": 16
+    },
+    {
+      "tag": "hybrid_production",
+      "category": "approach",
+      "weight": 0.462,
+      "raw_score": 12
+    },
+    {
+      "tag": "sampling",
+      "category": "process",
+      "weight": 0.462,
+      "raw_score": 12
+    },
+    {
+      "tag": "orchestration",
+      "category": "process",
+      "weight": 0.385,
+      "raw_score": 10
+    },
+    {
+      "tag": "romantic",
+      "category": "philosophy",
+      "weight": 0.346,
+      "raw_score": 9
+    },
+    {
+      "tag": "immersive",
+      "category": "approach",
+      "weight": 0.231,
+      "raw_score": 6
+    },
+    {
+      "tag": "intuitive",
+      "category": "philosophy",
+      "weight": 0.231,
+      "raw_score": 6
+    },
+    {
+      "tag": "conceptual",
+      "category": "philosophy",
+      "weight": 0.231,
+      "raw_score": 6
+    },
+    {
+      "tag": "hi_fi",
+      "category": "approach",
+      "weight": 0.231,
+      "raw_score": 6
+    },
+    {
+      "tag": "self_produced",
+      "category": "approach",
+      "weight": 0.192,
+      "raw_score": 5
+    },
+    {
+      "tag": "vocal_processing",
+      "category": "process",
+      "weight": 0.192,
+      "raw_score": 5
+    },
+    {
+      "tag": "multi_instrumental",
+      "category": "approach",
+      "weight": 0.154,
+      "raw_score": 4
+    },
+    {
+      "tag": "playful",
+      "category": "philosophy",
+      "weight": 0.154,
+      "raw_score": 4
+    },
+    {
+      "tag": "introspective",
+      "category": "philosophy",
+      "weight": 0.154,
+      "raw_score": 4
+    },
+    {
+      "tag": "multimedia",
+      "category": "approach",
+      "weight": 0.115,
+      "raw_score": 3
+    },
+    {
+      "tag": "personal_storytelling",
+      "category": "philosophy",
+      "weight": 0.115,
+      "raw_score": 3
+    },
+    {
+      "tag": "experimental",
+      "category": "philosophy",
+      "weight": 0.115,
+      "raw_score": 3
+    },
+    {
+      "tag": "personality_driven",
+      "category": "philosophy",
+      "weight": 0.115,
+      "raw_score": 3
+    },
+    {
+      "tag": "repetition",
+      "category": "process",
+      "weight": 0.115,
+      "raw_score": 3
+    },
+    {
+      "tag": "live_performance",
+      "category": "approach",
+      "weight": 0.115,
+      "raw_score": 3
+    },
+    {
+      "tag": "vulnerability",
+      "category": "philosophy",
+      "weight": 0.077,
+      "raw_score": 2
+    },
+    {
+      "tag": "reflective",
+      "category": "philosophy",
+      "weight": 0.077,
+      "raw_score": 2
+    },
+    {
+      "tag": "spiritual",
+      "category": "philosophy",
+      "weight": 0.077,
+      "raw_score": 2
+    },
+    {
+      "tag": "studio_as_instrument",
+      "category": "approach",
+      "weight": 0.077,
+      "raw_score": 2
+    },
+    {
+      "tag": "long_form",
+      "category": "approach",
+      "weight": 0.077,
+      "raw_score": 2
+    },
+    {
+      "tag": "nostalgic",
+      "category": "philosophy",
+      "weight": 0.077,
+      "raw_score": 2
+    },
+    {
+      "tag": "electronic",
+      "category": "approach",
+      "weight": 0.077,
+      "raw_score": 2
+    },
+    {
+      "tag": "maximalism",
+      "category": "process",
+      "weight": 0.077,
+      "raw_score": 2
+    },
+    {
+      "tag": "commercial",
+      "category": "philosophy",
+      "weight": 0.077,
+      "raw_score": 2
+    }
+  ],
+  "meta": {
+    "count": 34,
+    "sources_checked": 12
+  }
+}

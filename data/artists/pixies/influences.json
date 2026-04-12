@@ -1,0 +1,78 @@
+{
+  "influences": [
+    {
+      "name": "Tobin Sprout",
+      "context": "Tobin Sprout [#20] from Guided by Voices made some pretty good sounding recordings on 4-track, but I never could.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Big Black",
+      "context": "But then I found out Big Black [Steve Albini's old band] were using this really dorky [drum] machine and making it sound so amazingly cool. I just think, 'Why didn't I think to do it in a cool way?'",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Guided by Voices",
+      "context": "And then same thing with Guided By Voices, from Ohio. I was like, 'Dayton, blegh.' But then I come back and [Robert Pollard] names his publishing company Needmore Songs, which is hilarious, [being] from Dayton, because Needmore Road is a big road there.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Steve Albini",
+      "context": "I thought about [Steve] Albini's [#10, #24, #87] studio being just five hours away.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Greg Norman",
+      "context": "My first digital [experience] was Greg Norman from Electrical Audio [Tape Op #87]. The Breeders were working on All Nerve, and I went up to Electrical.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Les Paul",
+      "context": "I was just listening to older stuff from Les Paul, Wes Montgomery, and all that stuff. They had all those other things that you could learn from in the library",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Wes Montgomery",
+      "context": "I was just listening to older stuff from Les Paul, Wes Montgomery, and all that stuff. They had all those other things that you could learn from in the library",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Fleshtones",
+      "context": "He also saw British post-punk/new wave band Modern English with garage rock band, The Fleshtones, at Smith College that he went to with Black Francis. They were more interested in seeing The Fleshtones because of their raucous garage rock song, 'Right Side of a Good Thing.'",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Dave Brubeck",
+      "context": "I had on \"Take Five\" by Dave Brubeck from the Time Out record. I had on Take Five because I love the drum sounds, and I also liked the song, and it inspires me guitar-wise.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Donovan",
+      "context": "After talking about dadaism, surrealism, the psychology of art and Donovan's 'Mellow Yellow'",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Sisters of Mercy",
+      "context": "As opposed to Edgar Allen Poe, I was thinking Sisters of Mercy. But anyway, goth turned into gothic at some point in the discussion.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Who",
+      "context": "Even if it's a real rock opera, you're still driving down the street, listening to 'Baba O'Reilly'.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Beatles",
+      "context": "We got influenced by the Beatles. But it is nice that Pixies is part of the vocabulary in the musical world right now. The same thing when we use the language to make it sound 'Beatle-ish'",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Velvet Underground",
+      "context": "The same thing when we use the language to make it sound 'Beatle-ish,' make it sound 'The Who-ish,' or 'Velvet-y.' All this stuff is part of the language",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 14,
+    "sources_checked": 5
+  }
+}

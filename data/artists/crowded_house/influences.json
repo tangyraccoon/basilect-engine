@@ -1,0 +1,18 @@
+{
+  "influences": [
+    {
+      "name": "Fleetwood Mac",
+      "context": "finding myself inside a classic band like Fleetwood Mac full of great characters got me thinking about my band",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Stevie Nicks",
+      "context": "You're not going to take the chance to stand in a room with Fleetwood Mac and sing with Stevie Nicks?",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 2,
+    "sources_checked": 2
+  }
+}

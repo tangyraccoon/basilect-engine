@@ -1,0 +1,49 @@
+{
+  "artist_id": "renato_zero",
+  "artist_name": "Renato Zero",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:33:56.011452+00:00",
+      "result": "2 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:33:58.003302+00:00",
+      "result": "2/2 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:34:02.717233+00:00",
+      "result": "1 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:34:07.161175+00:00",
+      "result": "8 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:34:10.283279+00:00",
+      "result": "5/8 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:34:24.611919+00:00",
+      "result": "9 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:34:27.945494+00:00",
+      "result": "0 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:34:42.716817+00:00",
+      "result": "23 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-12T16:34:42.716946+00:00"
+}

@@ -1,0 +1,49 @@
+{
+  "artist_id": "grouper",
+  "artist_name": "Grouper",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-11T21:38:09.931071+00:00",
+      "result": "6 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-11T21:38:10.437986+00:00",
+      "result": "6/6 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T21:38:34.832826+00:00",
+      "result": "26 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-11T21:38:39.621994+00:00",
+      "result": "9 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-11T21:38:40.352902+00:00",
+      "result": "6/9 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T21:38:54.480292+00:00",
+      "result": "19 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T21:39:06.811952+00:00",
+      "result": "9 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T21:39:38.957066+00:00",
+      "result": "42 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-11T21:39:38.957153+00:00"
+}

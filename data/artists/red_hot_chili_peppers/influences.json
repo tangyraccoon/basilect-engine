@@ -1,0 +1,23 @@
+{
+  "influences": [
+    {
+      "name": "Rick Rubin",
+      "context": "\"Without Rick's push, you know, for the counterintuitive sensitive guy song, we might have never had a chance to write that.\"",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Aaron Funk",
+      "context": "Frusciante felt that before any of them left the planet, he wanted to enjoy a sense of collaboration and exchange of ideas that he had only recently come to appreciate, mainly through his work with friend Aaron Funk on several electronic projects.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Jimi Hendrix",
+      "context": "The first verse borrows heavily from the Jimi Hendrix rulebook – with its generous helping of G shape CAGED ideas, mini melodies inside certain chords and his thumb fretting root notes in places.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 3,
+    "sources_checked": 5
+  }
+}

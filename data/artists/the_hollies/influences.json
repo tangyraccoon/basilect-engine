@@ -1,0 +1,58 @@
+{
+  "influences": [
+    {
+      "name": "Eddie Cochran",
+      "context": "With me, in my teens, it was American musicians and artists. Eddie Cochran, Sinatra, Little Richard, Mel Torme – and Jazzers: Gerry Mulligan, Chet Baker and Thelonius Monk.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Sinatra",
+      "context": "With me, in my teens, it was American musicians and artists. Eddie Cochran, Sinatra, Little Richard, Mel Torme – and Jazzers: Gerry Mulligan, Chet Baker and Thelonius Monk.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Little Richard",
+      "context": "With me, in my teens, it was American musicians and artists. Eddie Cochran, Sinatra, Little Richard, Mel Torme – and Jazzers: Gerry Mulligan, Chet Baker and Thelonius Monk.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Mel Torme",
+      "context": "With me, in my teens, it was American musicians and artists. Eddie Cochran, Sinatra, Little Richard, Mel Torme – and Jazzers: Gerry Mulligan, Chet Baker and Thelonius Monk.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Gerry Mulligan",
+      "context": "With me, in my teens, it was American musicians and artists. Eddie Cochran, Sinatra, Little Richard, Mel Torme – and Jazzers: Gerry Mulligan, Chet Baker and Thelonius Monk.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Chet Baker",
+      "context": "With me, in my teens, it was American musicians and artists. Eddie Cochran, Sinatra, Little Richard, Mel Torme – and Jazzers: Gerry Mulligan, Chet Baker and Thelonius Monk.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Thelonius Monk",
+      "context": "With me, in my teens, it was American musicians and artists. Eddie Cochran, Sinatra, Little Richard, Mel Torme – and Jazzers: Gerry Mulligan, Chet Baker and Thelonius Monk.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Doris Troy",
+      "context": "The song was a cover of Doris Troy's original, and it became a staple in their live performances.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Coasters",
+      "context": "A cover of the Coasters' hit, \"Searchin',\" was one of The Hollies' early successes.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Maurice Williams and the Zodiacs",
+      "context": "This cover of Maurice Williams and the Zodiacs' song was The Hollies' first big hit.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 10,
+    "sources_checked": 3
+  }
+}

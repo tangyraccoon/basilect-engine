@@ -1,0 +1,49 @@
+{
+  "artist_id": "teiji_ito",
+  "artist_name": "Teiji Ito",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:01:01.055459+00:00",
+      "result": "2 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:01:01.559948+00:00",
+      "result": "2/2 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:01:09.490168+00:00",
+      "result": "5 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:01:15.044946+00:00",
+      "result": "10 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:01:18.932393+00:00",
+      "result": "5/10 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:01:32.620732+00:00",
+      "result": "7 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:01:40.541980+00:00",
+      "result": "7 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:01:55.948632+00:00",
+      "result": "24 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-12T15:01:55.948791+00:00"
+}

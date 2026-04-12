@@ -1,0 +1,18 @@
+{
+  "influences": [
+    {
+      "name": "Al Green",
+      "context": "R. Kelly's ambitious album of genre-spanning songs finds him updating the spiritually grounded R&B of such greats as Al Green and Donny Hathaway",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Donny Hathaway",
+      "context": "R. Kelly's ambitious album of genre-spanning songs finds him updating the spiritually grounded R&B of such greats as Al Green and Donny Hathaway",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 2,
+    "sources_checked": 5
+  }
+}

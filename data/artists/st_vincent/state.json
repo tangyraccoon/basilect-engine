@@ -1,0 +1,49 @@
+{
+  "artist_id": "st_vincent",
+  "artist_name": "St. Vincent",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-11T19:49:39.300941+00:00",
+      "result": "7 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-11T19:49:41.609710+00:00",
+      "result": "5/7 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T19:50:46.389534+00:00",
+      "result": "56 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-11T19:50:50.993719+00:00",
+      "result": "9 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-11T19:50:53.386160+00:00",
+      "result": "8/9 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T19:52:08.092632+00:00",
+      "result": "85 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T19:52:21.171200+00:00",
+      "result": "12 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T19:52:58.937074+00:00",
+      "result": "40 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-11T19:52:58.937202+00:00"
+}

@@ -1,0 +1,146 @@
+{
+  "tags": [
+    {
+      "tag": "vocal_focused",
+      "category": "approach",
+      "weight": 1.0,
+      "raw_score": 23
+    },
+    {
+      "tag": "collaborative_production",
+      "category": "approach",
+      "weight": 0.739,
+      "raw_score": 17
+    },
+    {
+      "tag": "self_produced",
+      "category": "approach",
+      "weight": 0.565,
+      "raw_score": 13
+    },
+    {
+      "tag": "multi_instrumental",
+      "category": "approach",
+      "weight": 0.478,
+      "raw_score": 11
+    },
+    {
+      "tag": "narrative",
+      "category": "philosophy",
+      "weight": 0.391,
+      "raw_score": 9
+    },
+    {
+      "tag": "emotional",
+      "category": "philosophy",
+      "weight": 0.348,
+      "raw_score": 8
+    },
+    {
+      "tag": "hybrid_production",
+      "category": "approach",
+      "weight": 0.304,
+      "raw_score": 7
+    },
+    {
+      "tag": "spiritual",
+      "category": "philosophy",
+      "weight": 0.304,
+      "raw_score": 7
+    },
+    {
+      "tag": "commercial",
+      "category": "philosophy",
+      "weight": 0.261,
+      "raw_score": 6
+    },
+    {
+      "tag": "prolific",
+      "category": "philosophy",
+      "weight": 0.261,
+      "raw_score": 6
+    },
+    {
+      "tag": "hi_fi",
+      "category": "approach",
+      "weight": 0.174,
+      "raw_score": 4
+    },
+    {
+      "tag": "hit_driven",
+      "category": "philosophy",
+      "weight": 0.13,
+      "raw_score": 3
+    },
+    {
+      "tag": "intuitive",
+      "category": "philosophy",
+      "weight": 0.13,
+      "raw_score": 3
+    },
+    {
+      "tag": "conceptual",
+      "category": "philosophy",
+      "weight": 0.13,
+      "raw_score": 3
+    },
+    {
+      "tag": "adaptive",
+      "category": "philosophy",
+      "weight": 0.13,
+      "raw_score": 3
+    },
+    {
+      "tag": "isolation",
+      "category": "philosophy",
+      "weight": 0.087,
+      "raw_score": 2
+    },
+    {
+      "tag": "short_form",
+      "category": "approach",
+      "weight": 0.087,
+      "raw_score": 2
+    },
+    {
+      "tag": "layering",
+      "category": "process",
+      "weight": 0.087,
+      "raw_score": 2
+    },
+    {
+      "tag": "hybrid",
+      "category": "philosophy",
+      "weight": 0.087,
+      "raw_score": 2
+    },
+    {
+      "tag": "orchestration",
+      "category": "process",
+      "weight": 0.087,
+      "raw_score": 2
+    },
+    {
+      "tag": "maximalism",
+      "category": "process",
+      "weight": 0.087,
+      "raw_score": 2
+    },
+    {
+      "tag": "playful",
+      "category": "philosophy",
+      "weight": 0.087,
+      "raw_score": 2
+    },
+    {
+      "tag": "collaborative",
+      "category": "philosophy",
+      "weight": 0.043,
+      "raw_score": 1
+    }
+  ],
+  "meta": {
+    "count": 23,
+    "sources_checked": 9
+  }
+}

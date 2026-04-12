@@ -1,0 +1,49 @@
+{
+  "artist_id": "blondie",
+  "artist_name": "Blondie",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-11T21:40:45.504155+00:00",
+      "result": "6 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-11T21:40:50.106899+00:00",
+      "result": "3/6 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T21:41:08.346549+00:00",
+      "result": "33 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-11T21:41:12.824437+00:00",
+      "result": "8 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-11T21:41:17.617172+00:00",
+      "result": "6/8 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T21:41:38.241023+00:00",
+      "result": "29 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T21:41:47.728741+00:00",
+      "result": "13 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T21:42:09.405690+00:00",
+      "result": "30 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-11T21:42:09.405788+00:00"
+}

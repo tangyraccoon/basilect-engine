@@ -1,0 +1,113 @@
+{
+  "influences": [
+    {
+      "name": "Danny Elfman",
+      "context": "Danny Elfman's film scores were a significant influence for her when she began creating Evanescence's music.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Hans Zimmer",
+      "context": "Lee's musical influences throughout childhood and her teenage years included classical music, Danny Elfman and Hans Zimmer's film scores",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Bach",
+      "context": "Her earliest memory of wanting to fuse various and contrasting musical styles, was when she was training in classical piano and realized that a section of a composition from Baroque composer Bach resembled heavy metal.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Mozart",
+      "context": "Lee considers the Lacrimosa movement of Mozart's Requiem her favorite piece of music, and wove it into The Open Door song 'Lacrymosa'.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Björk",
+      "context": "Lee's musical influences throughout childhood and her teenage years included classical music, Danny Elfman and Hans Zimmer's film scores, alternative music, grunge, hard rock, industrial music, death metal, groove metal, and electronica artists like Björk and Portishead.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Portishead",
+      "context": "Lee's musical influences throughout childhood and her teenage years included classical music, Danny Elfman and Hans Zimmer's film scores, alternative music, grunge, hard rock, industrial music, death metal, groove metal, and electronica artists like Björk and Portishead.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Depeche Mode",
+      "context": "the band has 'always had programming and inspirations from Bjork, Depeche Mode and Massive Attack and that kind of thing'.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Massive Attack",
+      "context": "the band has 'always had programming and inspirations from Bjork, Depeche Mode and Massive Attack and that kind of thing'.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Soundgarden",
+      "context": "Evanescence cite Soundgarden, Björk, Mozart, Danny Elfman, Korn, Tori Amos, Nirvana, Pantera, Portishead, Nine Inch Nails, Smashing Pumpkins, Garbage, Depeche Mode, and A Perfect Circle as influences.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Korn",
+      "context": "Evanescence cite Soundgarden, Björk, Mozart, Danny Elfman, Korn, Tori Amos, Nirvana, Pantera, Portishead, Nine Inch Nails, Smashing Pumpkins, Garbage, Depeche Mode, and A Perfect Circle as influences.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Tori Amos",
+      "context": "Evanescence cite Soundgarden, Björk, Mozart, Danny Elfman, Korn, Tori Amos, Nirvana, Pantera, Portishead, Nine Inch Nails, Smashing Pumpkins, Garbage, Depeche Mode, and A Perfect Circle as influences.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Nirvana",
+      "context": "Evanescence cite Soundgarden, Björk, Mozart, Danny Elfman, Korn, Tori Amos, Nirvana, Pantera, Portishead, Nine Inch Nails, Smashing Pumpkins, Garbage, Depeche Mode, and A Perfect Circle as influences.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Pantera",
+      "context": "Evanescence cite Soundgarden, Björk, Mozart, Danny Elfman, Korn, Tori Amos, Nirvana, Pantera, Portishead, Nine Inch Nails, Smashing Pumpkins, Garbage, Depeche Mode, and A Perfect Circle as influences.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Nine Inch Nails",
+      "context": "Evanescence cite Soundgarden, Björk, Mozart, Danny Elfman, Korn, Tori Amos, Nirvana, Pantera, Portishead, Nine Inch Nails, Smashing Pumpkins, Garbage, Depeche Mode, and A Perfect Circle as influences.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Smashing Pumpkins",
+      "context": "Evanescence cite Soundgarden, Björk, Mozart, Danny Elfman, Korn, Tori Amos, Nirvana, Pantera, Portishead, Nine Inch Nails, Smashing Pumpkins, Garbage, Depeche Mode, and A Perfect Circle as influences.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Garbage",
+      "context": "Evanescence cite Soundgarden, Björk, Mozart, Danny Elfman, Korn, Tori Amos, Nirvana, Pantera, Portishead, Nine Inch Nails, Smashing Pumpkins, Garbage, Depeche Mode, and A Perfect Circle as influences.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "A Perfect Circle",
+      "context": "Evanescence cite Soundgarden, Björk, Mozart, Danny Elfman, Korn, Tori Amos, Nirvana, Pantera, Portishead, Nine Inch Nails, Smashing Pumpkins, Garbage, Depeche Mode, and A Perfect Circle as influences.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Cure",
+      "context": "Jonathan Davis and Amy Lee on MTV Unplugged: Jonathan was saying how it was such an honor to have Robert Smith on the show because they were who he really was inspired by in high school; and I said 'that's what you guys were for me'.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Ozzy Osbourne",
+      "context": "[Ozzy's] one of the people that pushed, you know, the darkness forward and made that cool, made that something that was possible and provocative",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Black Sabbath",
+      "context": "That's a forever band that's just always going to be there. It's such a huge part of rock and roll.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "David Campbell",
+      "context": "I think [string arranger] David Campbell, and all that he brought to the table, was one of the key elements that made Fallen, and everything we've been fortunate enough to create since, what it is.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 21,
+    "sources_checked": 4
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "influences": [
+    {
+      "name": "Paul McCartney",
+      "context": "I've been fortunate to collaborate with so many amazing artists over the years, but I think my favorite collaboration was probably with Paul McCartney. We had a great creative synergy, and I think our music together was really special.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Lionel Richie",
+      "context": "I think one of my favorites was probably \"We Are The World,\" which I co-wrote with Lionel Richie and performed with a group of incredible artists to raise money for famine relief in Africa.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Stevie Wonder",
+      "context": "You've collaborated with some incredible musicians over the years, including Paul McCartney and Stevie Wonder. Do you have a favorite collaboration?",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 3,
+    "sources_checked": 2
+  }
+}

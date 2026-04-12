@@ -1,0 +1,200 @@
+{
+  "tags": [
+    {
+      "tag": "vocal_focused",
+      "category": "approach",
+      "weight": 1.0,
+      "raw_score": 29
+    },
+    {
+      "tag": "emotional",
+      "category": "philosophy",
+      "weight": 0.828,
+      "raw_score": 24
+    },
+    {
+      "tag": "hi_fi",
+      "category": "approach",
+      "weight": 0.621,
+      "raw_score": 18
+    },
+    {
+      "tag": "collaborative_production",
+      "category": "approach",
+      "weight": 0.621,
+      "raw_score": 18
+    },
+    {
+      "tag": "orchestration",
+      "category": "process",
+      "weight": 0.483,
+      "raw_score": 14
+    },
+    {
+      "tag": "spiritual",
+      "category": "philosophy",
+      "weight": 0.345,
+      "raw_score": 10
+    },
+    {
+      "tag": "live_performance",
+      "category": "approach",
+      "weight": 0.276,
+      "raw_score": 8
+    },
+    {
+      "tag": "traditional",
+      "category": "philosophy",
+      "weight": 0.276,
+      "raw_score": 8
+    },
+    {
+      "tag": "collaborative",
+      "category": "philosophy",
+      "weight": 0.207,
+      "raw_score": 6
+    },
+    {
+      "tag": "commercial",
+      "category": "philosophy",
+      "weight": 0.207,
+      "raw_score": 6
+    },
+    {
+      "tag": "hybrid_production",
+      "category": "approach",
+      "weight": 0.172,
+      "raw_score": 5
+    },
+    {
+      "tag": "synthesis",
+      "category": "process",
+      "weight": 0.172,
+      "raw_score": 5
+    },
+    {
+      "tag": "narrative",
+      "category": "philosophy",
+      "weight": 0.138,
+      "raw_score": 4
+    },
+    {
+      "tag": "genre_boundary_breaking",
+      "category": "philosophy",
+      "weight": 0.103,
+      "raw_score": 3
+    },
+    {
+      "tag": "electronic",
+      "category": "approach",
+      "weight": 0.103,
+      "raw_score": 3
+    },
+    {
+      "tag": "loop_based",
+      "category": "process",
+      "weight": 0.103,
+      "raw_score": 3
+    },
+    {
+      "tag": "sampling",
+      "category": "process",
+      "weight": 0.103,
+      "raw_score": 3
+    },
+    {
+      "tag": "studio_as_instrument",
+      "category": "approach",
+      "weight": 0.103,
+      "raw_score": 3
+    },
+    {
+      "tag": "sound_design",
+      "category": "process",
+      "weight": 0.103,
+      "raw_score": 3
+    },
+    {
+      "tag": "diy",
+      "category": "philosophy",
+      "weight": 0.103,
+      "raw_score": 3
+    },
+    {
+      "tag": "gospel_influenced",
+      "category": "process",
+      "weight": 0.103,
+      "raw_score": 3
+    },
+    {
+      "tag": "analog",
+      "category": "approach",
+      "weight": 0.103,
+      "raw_score": 3
+    },
+    {
+      "tag": "short_form",
+      "category": "approach",
+      "weight": 0.103,
+      "raw_score": 3
+    },
+    {
+      "tag": "autobiographical",
+      "category": "philosophy",
+      "weight": 0.069,
+      "raw_score": 2
+    },
+    {
+      "tag": "multi_instrumental",
+      "category": "approach",
+      "weight": 0.069,
+      "raw_score": 2
+    },
+    {
+      "tag": "democratization",
+      "category": "philosophy",
+      "weight": 0.069,
+      "raw_score": 2
+    },
+    {
+      "tag": "playful",
+      "category": "philosophy",
+      "weight": 0.069,
+      "raw_score": 2
+    },
+    {
+      "tag": "maximalism",
+      "category": "process",
+      "weight": 0.069,
+      "raw_score": 2
+    },
+    {
+      "tag": "vocal_processing",
+      "category": "process",
+      "weight": 0.069,
+      "raw_score": 2
+    },
+    {
+      "tag": "ballad_specialist",
+      "category": "process",
+      "weight": 0.069,
+      "raw_score": 2
+    },
+    {
+      "tag": "professional_execution",
+      "category": "philosophy",
+      "weight": 0.069,
+      "raw_score": 2
+    },
+    {
+      "tag": "intuitive",
+      "category": "philosophy",
+      "weight": 0.034,
+      "raw_score": 1
+    }
+  ],
+  "meta": {
+    "count": 32,
+    "sources_checked": 10
+  }
+}

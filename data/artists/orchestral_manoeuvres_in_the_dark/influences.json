@@ -1,0 +1,18 @@
+{
+  "influences": [
+    {
+      "name": "Kraftwerk",
+      "context": "Back in Liverpool it is easy to picture two young guys at home listening to Kraftwerk and dreaming of success.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Normal",
+      "context": "It was also at Eric's that they saw other bands that were thinking along the same lines, like The Normal (featuring Daniel Miller) that made Andy and Paul realize that what they were doing had relevance on the music scene.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 2,
+    "sources_checked": 4
+  }
+}

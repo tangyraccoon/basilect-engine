@@ -1,0 +1,49 @@
+{
+  "artist_id": "katy_perry",
+  "artist_name": "Katy Perry",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:01:18.472837+00:00",
+      "result": "6 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:01:36.311251+00:00",
+      "result": "3/6 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:01:47.791775+00:00",
+      "result": "18 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:01:52.510843+00:00",
+      "result": "8 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:02:01.303850+00:00",
+      "result": "7/8 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:02:18.850969+00:00",
+      "result": "21 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:02:30.421502+00:00",
+      "result": "15 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:02:52.422945+00:00",
+      "result": "27 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-12T17:02:52.423118+00:00"
+}

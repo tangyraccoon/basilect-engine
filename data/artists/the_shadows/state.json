@@ -1,0 +1,49 @@
+{
+  "artist_id": "the_shadows",
+  "artist_name": "The Shadows",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:10:24.703293+00:00",
+      "result": "4 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:10:27.122898+00:00",
+      "result": "2/4 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:10:34.180839+00:00",
+      "result": "7 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:10:38.797651+00:00",
+      "result": "8 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:10:41.187374+00:00",
+      "result": "4/8 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:10:52.235137+00:00",
+      "result": "8 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:10:58.363856+00:00",
+      "result": "4 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:11:11.511344+00:00",
+      "result": "22 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-12T17:11:11.511450+00:00"
+}

@@ -1,0 +1,48 @@
+{
+  "influences": [
+    {
+      "name": "Maharishi Mahesh Yogi",
+      "context": "The Inner Light (song) (1968), On Transcendental Meditation and teachings of Maharishi Mahesh Yogi",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "A. C. Bhaktivedanta Swami Prabhupada",
+      "context": "Introduction to 'Kṛṣṇa, the Supreme Personality of Godhead (1970) by A. C. Bhaktivedanta Swami Prabhupada",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Paramahansa Yogananda",
+      "context": "Introduction to Kṛṣṇa, the Supreme Personality of Godhead (1970)... this paraphrases some statements from An Autobiography of a Yogi (1948) by Paramahansa Yogananda",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Lonnie Donegan",
+      "context": "He acquired his first guitar around his 13th birthday and built his formative playing style on a foundation of skiffle chords and rockabilly riffs, inspired by Lonnie Donegan, Buddy Holly and Carl Perkins",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Buddy Holly",
+      "context": "He acquired his first guitar around his 13th birthday and built his formative playing style on a foundation of skiffle chords and rockabilly riffs, inspired by Lonnie Donegan, Buddy Holly and Carl Perkins",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Carl Perkins",
+      "context": "He acquired his first guitar around his 13th birthday and built his formative playing style on a foundation of skiffle chords and rockabilly riffs, inspired by Lonnie Donegan, Buddy Holly and Carl Perkins",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Django Reinhardt",
+      "context": "He acquired his first guitar around his 13th birthday and built his formative playing style on a foundation of skiffle chords and rockabilly riffs, inspired by Lonnie Donegan, Buddy Holly and Carl Perkins, as well as the jazz guitarist Django Reinhardt",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Ravi Shankar",
+      "context": "George became a devoted student to sitar master Ravi Shankar and Western musicians took much notice, quickly adopting instruments and compositional elements from Indian classical music",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 8,
+    "sources_checked": 6
+  }
+}

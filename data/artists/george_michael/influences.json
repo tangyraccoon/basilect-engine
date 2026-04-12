@@ -1,0 +1,68 @@
+{
+  "influences": [
+    {
+      "name": "James Brown",
+      "context": "something like five or six of the records in the top 30 at a particular time were based around a sample of a drum track which was the intro to a James Brown song called Funky Drummer",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Procol Harum",
+      "context": "the sound was this sound... Which is a very very sixties just like Procol Harum or something like that. Very, very sixties sound.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Motown records",
+      "context": "After receiving a tape recorder as a gift on his seventh birthday and unearthing some old Motown records and a phonograph, Michael hatched a new dream: He would become a recording artist.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Motown",
+      "context": "For Make It Big, Michael reached back to his early years to compose songs with a Motown feel.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Aretha Franklin",
+      "context": "To erase his teenybopper image, Michael recorded a duet with soul high priestess Aretha Franklin.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Elton John",
+      "context": "He loved listening to records, especially Elton John, Stevie Wonder and Queen.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Stevie Wonder",
+      "context": "He loved listening to records, especially Elton John, Stevie Wonder and Queen.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Queen",
+      "context": "He loved listening to records, especially Elton John, Stevie Wonder and Queen.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Smokey Robinson",
+      "context": "Several small moves helped establish Michael's solo credibility, including a well-received appearance on a Motown TV special, where he sang with his childhood idols Stevie Wonder and Smokey Robinson.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Bob Dylan",
+      "context": "He said he hopes staying off the road will give him more time to work on his writing, and that he has begun to explore writers of such extraordinary vision as Dylan, Joni Mitchell and the Beatles.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Joni Mitchell",
+      "context": "He said he hopes staying off the road will give him more time to work on his writing, and that he has begun to explore writers of such extraordinary vision as Dylan, Joni Mitchell and the Beatles.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Beatles",
+      "context": "He said he hopes staying off the road will give him more time to work on his writing, and that he has begun to explore writers of such extraordinary vision as Dylan, Joni Mitchell and the Beatles.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 12,
+    "sources_checked": 6
+  }
+}

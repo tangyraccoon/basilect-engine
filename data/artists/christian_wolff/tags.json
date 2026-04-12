@@ -1,0 +1,272 @@
+{
+  "tags": [
+    {
+      "tag": "experimental",
+      "category": "philosophy",
+      "weight": 1.0,
+      "raw_score": 35
+    },
+    {
+      "tag": "collaborative",
+      "category": "philosophy",
+      "weight": 0.971,
+      "raw_score": 34
+    },
+    {
+      "tag": "chance_operations",
+      "category": "process",
+      "weight": 0.857,
+      "raw_score": 30
+    },
+    {
+      "tag": "conceptual",
+      "category": "philosophy",
+      "weight": 0.8,
+      "raw_score": 28
+    },
+    {
+      "tag": "political",
+      "category": "philosophy",
+      "weight": 0.657,
+      "raw_score": 23
+    },
+    {
+      "tag": "intellectual",
+      "category": "philosophy",
+      "weight": 0.571,
+      "raw_score": 20
+    },
+    {
+      "tag": "multi_instrumental",
+      "category": "approach",
+      "weight": 0.429,
+      "raw_score": 15
+    },
+    {
+      "tag": "improvisation",
+      "category": "process",
+      "weight": 0.4,
+      "raw_score": 14
+    },
+    {
+      "tag": "live_performance",
+      "category": "approach",
+      "weight": 0.314,
+      "raw_score": 11
+    },
+    {
+      "tag": "abstract",
+      "category": "philosophy",
+      "weight": 0.257,
+      "raw_score": 9
+    },
+    {
+      "tag": "orchestration",
+      "category": "process",
+      "weight": 0.229,
+      "raw_score": 8
+    },
+    {
+      "tag": "instrumental_focused",
+      "category": "approach",
+      "weight": 0.2,
+      "raw_score": 7
+    },
+    {
+      "tag": "texture",
+      "category": "process",
+      "weight": 0.171,
+      "raw_score": 6
+    },
+    {
+      "tag": "minimalism",
+      "category": "process",
+      "weight": 0.143,
+      "raw_score": 5
+    },
+    {
+      "tag": "acoustic",
+      "category": "approach",
+      "weight": 0.143,
+      "raw_score": 5
+    },
+    {
+      "tag": "found_sound",
+      "category": "process",
+      "weight": 0.143,
+      "raw_score": 5
+    },
+    {
+      "tag": "graphic_notation",
+      "category": "process",
+      "weight": 0.143,
+      "raw_score": 5
+    },
+    {
+      "tag": "playful",
+      "category": "philosophy",
+      "weight": 0.143,
+      "raw_score": 5
+    },
+    {
+      "tag": "intuitive",
+      "category": "philosophy",
+      "weight": 0.114,
+      "raw_score": 4
+    },
+    {
+      "tag": "anti_commercial",
+      "category": "philosophy",
+      "weight": 0.114,
+      "raw_score": 4
+    },
+    {
+      "tag": "polyrhythm",
+      "category": "process",
+      "weight": 0.114,
+      "raw_score": 4
+    },
+    {
+      "tag": "aleatory",
+      "category": "process",
+      "weight": 0.086,
+      "raw_score": 3
+    },
+    {
+      "tag": "performer_agency",
+      "category": "process",
+      "weight": 0.086,
+      "raw_score": 3
+    },
+    {
+      "tag": "indeterminate_notation",
+      "category": "process",
+      "weight": 0.086,
+      "raw_score": 3
+    },
+    {
+      "tag": "rigorous",
+      "category": "philosophy",
+      "weight": 0.086,
+      "raw_score": 3
+    },
+    {
+      "tag": "analog",
+      "category": "approach",
+      "weight": 0.086,
+      "raw_score": 3
+    },
+    {
+      "tag": "performer_autonomy",
+      "category": "process",
+      "weight": 0.086,
+      "raw_score": 3
+    },
+    {
+      "tag": "indeterminacy",
+      "category": "process",
+      "weight": 0.086,
+      "raw_score": 3
+    },
+    {
+      "tag": "system_based_composition",
+      "category": "process",
+      "weight": 0.086,
+      "raw_score": 3
+    },
+    {
+      "tag": "open_form",
+      "category": "process",
+      "weight": 0.086,
+      "raw_score": 3
+    },
+    {
+      "tag": "flexible_instrumentation",
+      "category": "approach",
+      "weight": 0.086,
+      "raw_score": 3
+    },
+    {
+      "tag": "participatory",
+      "category": "philosophy",
+      "weight": 0.086,
+      "raw_score": 3
+    },
+    {
+      "tag": "silence",
+      "category": "process",
+      "weight": 0.086,
+      "raw_score": 3
+    },
+    {
+      "tag": "notational_innovation",
+      "category": "process",
+      "weight": 0.086,
+      "raw_score": 3
+    },
+    {
+      "tag": "hybrid",
+      "category": "philosophy",
+      "weight": 0.057,
+      "raw_score": 2
+    },
+    {
+      "tag": "diy",
+      "category": "philosophy",
+      "weight": 0.057,
+      "raw_score": 2
+    },
+    {
+      "tag": "self_produced",
+      "category": "approach",
+      "weight": 0.057,
+      "raw_score": 2
+    },
+    {
+      "tag": "meditative",
+      "category": "philosophy",
+      "weight": 0.057,
+      "raw_score": 2
+    },
+    {
+      "tag": "collaborative_production",
+      "category": "approach",
+      "weight": 0.057,
+      "raw_score": 2
+    },
+    {
+      "tag": "hybrid_production",
+      "category": "approach",
+      "weight": 0.057,
+      "raw_score": 2
+    },
+    {
+      "tag": "vocal_focused",
+      "category": "approach",
+      "weight": 0.057,
+      "raw_score": 2
+    },
+    {
+      "tag": "long_form",
+      "category": "approach",
+      "weight": 0.057,
+      "raw_score": 2
+    },
+    {
+      "tag": "performer_freedom",
+      "category": "approach",
+      "weight": 0.057,
+      "raw_score": 2
+    },
+    {
+      "tag": "traditional",
+      "category": "philosophy",
+      "weight": 0.057,
+      "raw_score": 2
+    }
+  ],
+  "meta": {
+    "count": 44,
+    "sources_checked": 13
+  }
+}

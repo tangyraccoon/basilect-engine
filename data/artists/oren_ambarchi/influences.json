@@ -1,0 +1,43 @@
+{
+  "influences": [
+    {
+      "name": "Jack DeJohnette",
+      "context": "Asking Joe Talia to play drums like Jack DeJohnette as fast and as long as possible was the catalyst for the piece 'Knots'.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Keiji Haino",
+      "context": "The earliest example I can think of this was my piece \"Fever, a warm poison\". Back in 2004 I did a studio session with Keiji Haino and Robbie Avenaim in Sydney... I began tinkering with one of the takes at home and ended up overdubbing my own guitars on top of Haino's original guitar track.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Randall Dunn",
+      "context": "Randall for example pushes me to do stuff I might not think to do, I love his energy when we work together.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Miles Davis",
+      "context": "I have the biggest admiration for jazz musicians like Miles Davis or Wes Montgomery who sometimes played just a few notes – and these worked so well because of the quality of sound.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Wes Montgomery",
+      "context": "I have the biggest admiration for jazz musicians like Miles Davis or Wes Montgomery who sometimes played just a few notes – and these worked so well because of the quality of sound.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Klaus Filip",
+      "context": "What he was able to do with Max and the sampler was incredible.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Neil Young",
+      "context": "I hear you are a Neil Young fan. \"Everybody Knows This is Nowhere\" or \"Harvest\"? ... Everybody Knows This is Nowhere.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 7,
+    "sources_checked": 4
+  }
+}

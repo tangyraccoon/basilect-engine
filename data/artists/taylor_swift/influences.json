@@ -1,0 +1,23 @@
+{
+  "influences": [
+    {
+      "name": "Tom Petty",
+      "context": "To me, Tom Petty represented a kind of songwriting I idolized: complex simplicity. It said so much in the lyrics, the concepts, the stories, the message, the nuances … but always brought you back to a hook that got stuck in everyone's head. He motivated thousands of guitarists to learn to play just because they wanted to be able to play 'Free Fallin'. Count me as one of them.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Max Martin",
+      "context": "I love [collaborating with] people who have endless strange and exciting ideas about where music can go—people like Max Martin and Johan Shellback who are likely to ask 'What if we made it weirder? What if we took it darker?'.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Johan Shellback",
+      "context": "I love [collaborating with] people who have endless strange and exciting ideas about where music can go—people like Max Martin and Johan Shellback who are likely to ask 'What if we made it weirder? What if we took it darker?'.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 3,
+    "sources_checked": 5
+  }
+}

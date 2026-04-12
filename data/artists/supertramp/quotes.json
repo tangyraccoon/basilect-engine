@@ -1,0 +1,38 @@
+{
+  "quotes": [
+    {
+      "text": "I think a certain amount of friction is inevitable when you're involved in a creative process. It's like two people are painting a picture on the same canvas.",
+      "publication": "Loudersound",
+      "date": "1982"
+    },
+    {
+      "text": "Worrying. That takes most of my time. Professional worrier. You're never really satisfied with what you're doing from the inside. I think we can do better.",
+      "publication": "",
+      "date": "1979"
+    },
+    {
+      "text": "It's been said that there's a certain amount of friction. I think that's inevitable when you're involved in a creative process. It's like two people are painting a picture on the same canvas. And somebody wants to put red there and somebody wants to put a blue. You have problems. The picture doesn't get finished. In the past we've always been able to work around it. As we've progressed it got more difficult.",
+      "publication": "",
+      "date": "1982"
+    },
+    {
+      "text": "We realised that a few of the songs really lent themselves to two people talking to each other and at each other. I could be putting down his way of thinking and he could be challenging my way of seeing life.",
+      "publication": "",
+      "date": ""
+    },
+    {
+      "text": "Our ways of life are so different, but I love him. That contrast is what makes the world go 'round and what makes Supertramp go 'round. His beliefs are a challenge to mine and my beliefs are a challenge to his.",
+      "publication": "",
+      "date": ""
+    }
+  ],
+  "corpus_meta": {
+    "quote_count": 5,
+    "source_count": 1,
+    "date_range": [
+      "1979",
+      "1982"
+    ],
+    "corpus_valid": false
+  }
+}

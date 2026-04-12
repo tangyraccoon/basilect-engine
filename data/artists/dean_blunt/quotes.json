@@ -1,0 +1,23 @@
+{
+  "quotes": [
+    {
+      "text": "people seem to want everything really spelled out for them",
+      "publication": "The Wire",
+      "date": "2011"
+    },
+    {
+      "text": "people seem to want everything really spelled out for them, continuing that he'd rather not underestimate his audience's intelligence, instead opting to make them do some of the work themselves, becoming more engaged in the meantime",
+      "publication": "The Wire",
+      "date": "2011"
+    }
+  ],
+  "corpus_meta": {
+    "quote_count": 2,
+    "source_count": 1,
+    "date_range": [
+      "2011",
+      "2011"
+    ],
+    "corpus_valid": false
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "artist_id": "caribou",
+  "artist_name": "Caribou",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-11T21:46:59.298941+00:00",
+      "result": "6 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-11T21:47:00.273854+00:00",
+      "result": "4/6 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T21:47:28.102609+00:00",
+      "result": "29 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-11T21:47:32.577410+00:00",
+      "result": "10 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-11T21:47:35.056045+00:00",
+      "result": "7/10 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T21:48:01.591466+00:00",
+      "result": "34 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T21:48:11.267158+00:00",
+      "result": "8 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T21:48:39.017093+00:00",
+      "result": "47 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-11T21:48:39.017156+00:00"
+}

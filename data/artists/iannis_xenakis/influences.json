@@ -1,0 +1,28 @@
+{
+  "influences": [
+    {
+      "name": "Olivier Messiaen",
+      "context": "it was in the early 1950s when he studied with Olivier Messiaen (who also taught Stockhausen and Boulez) that he was to develop the approach of fusing architecture music, and mathematics together in a revolutionary approach to the compositional process. Messiaen offered an understanding of two key aspects of avant-garde music: the historic perspective needed to place musical language; and the provisional temporary validity of any stage in the evolution of that language. Rather than teaching Xenakis traditional techniques of music, Messiaen advised Xenakis to seek out musical inspiration in a mixture of his Greek roots, engineering background and his work as an architect",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Le Corbusier",
+      "context": "arriving in Paris he found himself working in the architectural studio of Le Corbusier, only able to pursue music in his free time. Fortuitously Le Corbusier was acquainted with Edgar Varese",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Pierre Schaeffer",
+      "context": "the milieu he worked in led him to listen to Pierre Schaeffer's early Radio-France presentations of his experiments with musique concrete",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Edgar Varese",
+      "context": "Fortuitously Le Corbusier was acquainted with Edgar Varese, and although Xenakis knew very little of contemporary music, the milieu he worked in led him to listen to Pierre Schaeffer's early Radio-France presentations",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 4,
+    "sources_checked": 7
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "artist_id": "skrillex",
+  "artist_name": "Skrillex",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:27:06.083293+00:00",
+      "result": "14 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:27:07.366171+00:00",
+      "result": "11/14 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:27:30.676503+00:00",
+      "result": "22 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:27:35.308539+00:00",
+      "result": "8 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:27:36.188446+00:00",
+      "result": "6/8 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:27:55.283651+00:00",
+      "result": "21 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:28:33.055176+00:00",
+      "result": "37 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:29:16.781644+00:00",
+      "result": "41 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-11T22:29:16.781695+00:00"
+}

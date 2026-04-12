@@ -1,0 +1,49 @@
+{
+  "artist_id": "garth_brooks",
+  "artist_name": "Garth Brooks",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:24:40.372252+00:00",
+      "result": "4 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:24:42.890127+00:00",
+      "result": "4/4 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:24:52.299279+00:00",
+      "result": "6 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:24:56.925971+00:00",
+      "result": "8 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:25:03.752219+00:00",
+      "result": "5/8 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:25:19.766359+00:00",
+      "result": "25 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:25:24.794742+00:00",
+      "result": "0 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:25:43.311908+00:00",
+      "result": "25 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-12T15:25:43.312038+00:00"
+}

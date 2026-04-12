@@ -1,0 +1,28 @@
+{
+  "influences": [
+    {
+      "name": "Prince Paul",
+      "context": "who I consider to be the real pioneers of sampling, whether it be Prince Paul and all the barriers that they broke on Three Feet High & Rising",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Large Professor",
+      "context": "hearing Large Professor flip something a little bit out of the norm",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Premier",
+      "context": "Premier using Jean-Jacques Perrey, a French synthesizer pioneer",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Rick Rock",
+      "context": "being influenced by Rick Rock in the middle of the 2000s and wanting to express that in my music",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 4,
+    "sources_checked": 2
+  }
+}

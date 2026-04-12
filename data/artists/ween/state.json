@@ -1,0 +1,49 @@
+{
+  "artist_id": "ween",
+  "artist_name": "Ween",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:34:27.560526+00:00",
+      "result": "6 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:34:33.144087+00:00",
+      "result": "5/6 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:34:59.736073+00:00",
+      "result": "22 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:35:04.391172+00:00",
+      "result": "8 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:35:08.981316+00:00",
+      "result": "5/8 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:35:29.694114+00:00",
+      "result": "27 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:35:44.097586+00:00",
+      "result": "16 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:36:09.053211+00:00",
+      "result": "36 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-12T15:36:09.053306+00:00"
+}

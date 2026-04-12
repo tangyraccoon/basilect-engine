@@ -1,0 +1,33 @@
+{
+  "influences": [
+    {
+      "name": "Prince",
+      "context": "Prince was one of my favorites growing up. It was always public knowledge that he was the writer, the composer, produced everything, and played all the instruments. I loved that.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Todd Rundgren",
+      "context": "Todd Rundgren was another one of my favorites who did that. I wanted to learn it all and know how to do it all.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Thin Lizzy",
+      "context": "I listened to it and I felt like, 'Oh, there's a Thin Lizzy moment'... That's exactly a lot of the references that are there. Obviously, a lot of my influences as well.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Billy Joel",
+      "context": "I listened to it and I felt like... 'a Billy Joel Glass Houses bit'... That's exactly a lot of the references that are there. Obviously, a lot of my influences as well.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Mike Campbell",
+      "context": "I listened to it and I felt like... 'That reminds me of Mike Campbell with Don Henley.'... That's exactly a lot of the references that are there. Obviously, a lot of my influences as well.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 5,
+    "sources_checked": 3
+  }
+}

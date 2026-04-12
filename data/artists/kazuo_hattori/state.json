@@ -1,0 +1,49 @@
+{
+  "artist_id": "kazuo_hattori",
+  "artist_name": "Kazuo Hattori",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T14:36:31.004126+00:00",
+      "result": "0 urls"
+    },
+    "interview_scrape": {
+      "status": "skipped",
+      "timestamp": "2026-04-12T14:36:31.507694+00:00",
+      "result": "failed — skipping to unblock"
+    },
+    "interview_extract": {
+      "status": "skipped",
+      "timestamp": "2026-04-12T14:36:31.510257+00:00",
+      "result": "failed — skipping to unblock"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T14:36:35.255061+00:00",
+      "result": "2 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T14:36:35.920111+00:00",
+      "result": "0/2 scraped"
+    },
+    "review_extract": {
+      "status": "skipped",
+      "timestamp": "2026-04-12T14:36:36.426983+00:00",
+      "result": "failed — skipping to unblock"
+    },
+    "influence_extract": {
+      "status": "skipped",
+      "timestamp": "2026-04-12T14:36:36.427658+00:00",
+      "result": "no sources.json"
+    },
+    "tag_extract": {
+      "status": "skipped",
+      "timestamp": "2026-04-12T14:36:36.933715+00:00",
+      "result": "no text sources"
+    }
+  },
+  "error": "no sources",
+  "last_updated": "2026-04-12T14:36:36.933732+00:00"
+}

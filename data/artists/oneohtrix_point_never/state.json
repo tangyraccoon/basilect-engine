@@ -1,0 +1,49 @@
+{
+  "artist_id": "oneohtrix_point_never",
+  "artist_name": "Oneohtrix Point Never",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-11T21:42:32.477692+00:00",
+      "result": "7 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-11T21:43:48.072833+00:00",
+      "result": "5/7 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T21:44:13.175640+00:00",
+      "result": "32 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-11T21:44:17.606613+00:00",
+      "result": "10 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-11T21:44:18.867667+00:00",
+      "result": "5/10 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T21:44:43.587436+00:00",
+      "result": "33 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T21:45:00.824146+00:00",
+      "result": "14 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T21:45:29.005950+00:00",
+      "result": "42 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-11T21:45:29.006207+00:00"
+}

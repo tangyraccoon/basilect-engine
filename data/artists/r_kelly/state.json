@@ -1,0 +1,49 @@
+{
+  "artist_id": "r_kelly",
+  "artist_name": "R. Kelly",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:28:11.854227+00:00",
+      "result": "6 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:28:16.557568+00:00",
+      "result": "5/6 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:28:25.253305+00:00",
+      "result": "3 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:28:29.978201+00:00",
+      "result": "8 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:28:33.052642+00:00",
+      "result": "4/8 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:28:49.030866+00:00",
+      "result": "13 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:28:57.006384+00:00",
+      "result": "2 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:29:15.671779+00:00",
+      "result": "23 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-12T15:29:15.672072+00:00"
+}

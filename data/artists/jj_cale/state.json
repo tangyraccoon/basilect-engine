@@ -1,0 +1,49 @@
+{
+  "artist_id": "jj_cale",
+  "artist_name": "J.J. Cale",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:33:55.615148+00:00",
+      "result": "2 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:33:57.593061+00:00",
+      "result": "2/2 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:34:02.959159+00:00",
+      "result": "8 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:34:07.452331+00:00",
+      "result": "8 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:34:11.703525+00:00",
+      "result": "3/8 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:34:18.521760+00:00",
+      "result": "1 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:34:22.654940+00:00",
+      "result": "2 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:34:32.472741+00:00",
+      "result": "16 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-12T16:34:32.472885+00:00"
+}

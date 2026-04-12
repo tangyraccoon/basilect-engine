@@ -1,0 +1,48 @@
+{
+  "influences": [
+    {
+      "name": "King Krule's uncle",
+      "context": "My surroundings, my family have all had an influence. There are a bunch of musicians in the family. My uncle was in a band that played rocksteady and ska, and I used to go see them a lot.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Mount Kimbie",
+      "context": "Mount Kimbie have a really fucking good sound, man!",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "King Creole",
+      "context": "His moniker, King Krule, is inspired by the 1958 movie musical King Creole",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Mike Lee",
+      "context": "I was quite young when I started to write all this stuff that was socially real, talking about walking down the street, and Easy Easy was a song I wrote when I was very much into Mike Lee, Ken Loach and Shane Meadows, people like that.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Ken Loach",
+      "context": "I was quite young when I started to write all this stuff that was socially real, talking about walking down the street, and Easy Easy was a song I wrote when I was very much into Mike Lee, Ken Loach and Shane Meadows, people like that.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Shane Meadows",
+      "context": "I was quite young when I started to write all this stuff that was socially real, talking about walking down the street, and Easy Easy was a song I wrote when I was very much into Mike Lee, Ken Loach and Shane Meadows, people like that.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Ingmar Bergman",
+      "context": "I love Ingmar Bergman. I think the concept that he pulls out in The Seventh Seal is very interesting",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Kafka",
+      "context": "Yeah well I love Kafka. I've got family from Prague and the Czech Republic. Czech One is kind of a reference to that",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 8,
+    "sources_checked": 5
+  }
+}

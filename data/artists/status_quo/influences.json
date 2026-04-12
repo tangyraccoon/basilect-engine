@@ -1,0 +1,18 @@
+{
+  "influences": [
+    {
+      "name": "The Doors",
+      "context": "The transformative moment came when Rossi and Parfitt heard The Doors' \"Roadhouse Blues\" in Germany. \"That song is where the Quo twelve-bar boogie shuffle came from,\" Rossi explains.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Jimi Hendrix",
+      "context": "He plays the intro to Hendrix's \"Hey Joe\" before seamlessly transitioning into \"Pictures of Matchstick Men,\" underscoring how artists borrow from one another.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 2,
+    "sources_checked": 5
+  }
+}

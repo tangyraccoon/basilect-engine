@@ -1,0 +1,49 @@
+{
+  "artist_id": "clairo",
+  "artist_name": "Clairo",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:24:57.086810+00:00",
+      "result": "11 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:24:58.358412+00:00",
+      "result": "11/11 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:25:12.846620+00:00",
+      "result": "23 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:25:17.575075+00:00",
+      "result": "11 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:25:18.263667+00:00",
+      "result": "9/11 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:25:38.041042+00:00",
+      "result": "14 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:26:11.223996+00:00",
+      "result": "28 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:27:01.917698+00:00",
+      "result": "46 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-11T22:27:01.917753+00:00"
+}

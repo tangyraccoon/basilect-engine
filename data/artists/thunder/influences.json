@@ -1,0 +1,88 @@
+{
+  "influences": [
+    {
+      "name": "Robert Trujillo",
+      "context": "He calls Robert Trujillo, who he replaced in the thrash band Suicidal Tendencies and who now plays bass for Metallica, his big uncle.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Billy Cobham",
+      "context": "I remember playing Billy Cobham's Total Eclipse for Snoop Dogg.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Frank Zappa",
+      "context": "I also played him Frank Zappa, Apostrophe.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Flying Lotus",
+      "context": "The bass player was all over Lotus' 2010 album Cosmogramma, and especially present on the song 'Mmmhmm,' where Thundercat sings, too.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Austin Peralta",
+      "context": "'A Message For Austin / Praise the Lord / Enter the Void' is about jazz pianist Austin Peralta, who died suddenly of pneumonia when he was just 22. He was a dear friend of Thundercat and Flying Lotus",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Jaco Pastorius",
+      "context": "But Thundercat says he learned how to play bass when he was a little kid by listening to three musicians: 'I learned by listening to Jaco and Stanley Clarke and Marcus Miller.'",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Stanley Clarke",
+      "context": "But Thundercat says he learned how to play bass when he was a little kid by listening to three musicians: 'I learned by listening to Jaco and Stanley Clarke and Marcus Miller.'",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Marcus Miller",
+      "context": "But Thundercat says he learned how to play bass when he was a little kid by listening to three musicians: 'I learned by listening to Jaco and Stanley Clarke and Marcus Miller.'",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Manhattan Transfer",
+      "context": "I would be listening to Manhattan Transfer and Cream. Mahavishnu and Jan Hammer, Andraé Crouch — and there's gospel music",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Cream",
+      "context": "I would be listening to Manhattan Transfer and Cream. Mahavishnu and Jan Hammer, Andraé Crouch — and there's gospel music",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Mahavishnu",
+      "context": "I would be listening to Manhattan Transfer and Cream. Mahavishnu and Jan Hammer, Andraé Crouch — and there's gospel music",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Jan Hammer",
+      "context": "I would be listening to Manhattan Transfer and Cream. Mahavishnu and Jan Hammer, Andraé Crouch — and there's gospel music",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Andraé Crouch",
+      "context": "I would be listening to Manhattan Transfer and Cream. Mahavishnu and Jan Hammer, Andraé Crouch — and there's gospel music",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Joe Henderson",
+      "context": "I would listen to all kinds of stuff. Joe Henderson and John Coltrane.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "John Coltrane",
+      "context": "I would listen to all kinds of stuff. Joe Henderson and John Coltrane.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Reggie Andrews",
+      "context": "He was in church groups and mentored by Reggie Andrews, a legendary teacher at Locke High School in Los Angeles.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 16,
+    "sources_checked": 2
+  }
+}

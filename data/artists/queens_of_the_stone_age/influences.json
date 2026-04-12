@@ -1,0 +1,28 @@
+{
+  "influences": [
+    {
+      "name": "Kyuss",
+      "context": "The first one kind of needed to distance itself from Kyuss, my previous band, without losing anybody and establishing a new sound.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Black Flag",
+      "context": "In interviews, Grohl confessed he stole a drum intro from Black Flag",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "ZZ Top",
+      "context": "Homme talked about achieving 'the dry old ZZ Top drum sound.'",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Alain Johannes",
+      "context": "Like 'Hangin' Tree' – I just wrote a few words, the rest of it was written by Alain [Johannes]. And it's a song in 5/4 and I never would have naturally played a song in 5/4. And now I'd actually mess with 5/4, which is a real – dare I say – intellectual time frame.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 4,
+    "sources_checked": 4
+  }
+}

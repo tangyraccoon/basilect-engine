@@ -1,0 +1,49 @@
+{
+  "artist_id": "the_isley_brothers",
+  "artist_name": "The Isley Brothers",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T18:25:48.810512+00:00",
+      "result": "6 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T18:25:52.967337+00:00",
+      "result": "5/6 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T18:26:04.725538+00:00",
+      "result": "6 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T18:26:09.337955+00:00",
+      "result": "8 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T18:26:13.026325+00:00",
+      "result": "6/8 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T18:26:25.563535+00:00",
+      "result": "9 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T18:26:35.112932+00:00",
+      "result": "2 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T18:26:58.962236+00:00",
+      "result": "27 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-12T18:26:58.962325+00:00"
+}

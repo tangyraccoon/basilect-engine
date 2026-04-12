@@ -1,0 +1,23 @@
+{
+  "influences": [
+    {
+      "name": "Nino Tempo & April Stevens",
+      "context": "a group of talented British musicians came together under the name Roundabout before quickly changing it to Deep Purple, inspired by the song of the same name by Nino Tempo & April Stevens",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Bach",
+      "context": "His classical guitar training and love of Bach would heavily influence his playing style, combining technical precision with aggressive rock sensibilities",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Sweet",
+      "context": "I got turned on to the band just before I joined by the Sweet. Remember the Sweet? Brian Connelly and I were friends. And he said, 'Listen to this band, Deep Purple.'",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 3,
+    "sources_checked": 5
+  }
+}

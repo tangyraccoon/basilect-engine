@@ -1,0 +1,83 @@
+{
+  "influences": [
+    {
+      "name": "Prince",
+      "context": "An '80s-tinged record that pays subtle homage to Prince, Sade, Phil Collins, and other musicians that shaped Scott's musical upbringing",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Sade",
+      "context": "An '80s-tinged record that pays subtle homage to Prince, Sade, Phil Collins, and other musicians that shaped Scott's musical upbringing",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Phil Collins",
+      "context": "An '80s-tinged record that pays subtle homage to Prince, Sade, Phil Collins, and other musicians that shaped Scott's musical upbringing",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Janet Jackson",
+      "context": "I also think of all the stuff I was listening to in my dad's Windows Media Player growing up, from Janet Jackson, Kate Bush, Phil Collins",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Kate Bush",
+      "context": "I also think of all the stuff I was listening to in my dad's Windows Media Player growing up, from Janet Jackson, Kate Bush, Phil Collins",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Blood Orange",
+      "context": "and then as a teenager discovering artists like Blood Orange, Jessie Ware, Ariana—my girl—Grande, Robyn, Christine and the Queens",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Jessie Ware",
+      "context": "and then as a teenager discovering artists like Blood Orange, Jessie Ware, Ariana—my girl—Grande, Robyn, Christine and the Queens",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Ariana Grande",
+      "context": "and then as a teenager discovering artists like Blood Orange, Jessie Ware, Ariana—my girl—Grande, Robyn, Christine and the Queens",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Robyn",
+      "context": "and then as a teenager discovering artists like Blood Orange, Jessie Ware, Ariana—my girl—Grande, Robyn, Christine and the Queens",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Christine and the Queens",
+      "context": "and then as a teenager discovering artists like Blood Orange, Jessie Ware, Ariana—my girl—Grande, Robyn, Christine and the Queens",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Solange",
+      "context": "Like Solange famously once said, do nothing without intention. A Seat at the Table is probably one of my favorite albums ever.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Dev Hynes",
+      "context": "Dev of course worked on that, and whenever his music comes up—because it's always playing everywhere—I act like a proud auntie and have to tell him. What's so brilliant about what Dev does is at the end of the day, the song is a simple pop song, but it's fantastic songwriting with simple production.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Black Sabbath",
+      "context": "They were the background of my youth in a way. Obviously I looked for something else. Probably partly because I'm black, I looked for somewhere where I felt I belonged a bit more. The Last Poets (a pioneering 1960s collective of African-American poets and musicians) and Gil Scott-Heron were my Black Sabbath. It's in there somewhere, even a bit of Sabbath.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Gil Scott-Heron",
+      "context": "The Last Poets (a pioneering 1960s collective of African-American poets and musicians) and Gil Scott-Heron were my Black Sabbath. It's in there somewhere, even a bit of Sabbath.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Last Poets",
+      "context": "The Last Poets (a pioneering 1960s collective of African-American poets and musicians) and Gil Scott-Heron were my Black Sabbath. It's in there somewhere, even a bit of Sabbath.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 15,
+    "sources_checked": 5
+  }
+}

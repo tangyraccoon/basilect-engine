@@ -1,0 +1,49 @@
+{
+  "artist_id": "johnny_winter",
+  "artist_name": "Johnny Winter",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T18:25:04.177066+00:00",
+      "result": "1 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T18:25:05.007834+00:00",
+      "result": "0/1 scraped"
+    },
+    "interview_extract": {
+      "status": "skipped",
+      "timestamp": "2026-04-12T18:25:05.524266+00:00",
+      "result": "failed — skipping to unblock"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T18:25:09.556739+00:00",
+      "result": "8 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T18:25:17.571144+00:00",
+      "result": "4/8 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T18:25:34.834553+00:00",
+      "result": "19 passages"
+    },
+    "influence_extract": {
+      "status": "skipped",
+      "timestamp": "2026-04-12T18:25:35.343581+00:00",
+      "result": "no scraped text"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T18:25:44.744968+00:00",
+      "result": "23 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-12T18:25:44.745010+00:00"
+}

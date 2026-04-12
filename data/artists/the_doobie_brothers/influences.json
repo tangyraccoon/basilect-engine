@@ -1,0 +1,123 @@
+{
+  "influences": [
+    {
+      "name": "Albert King",
+      "context": "The 'Three Kings': Albert, B.B. and Freddie, were huge in my repertoire",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "B.B. King",
+      "context": "The 'Three Kings': Albert, B.B. and Freddie, were huge in my repertoire",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Freddie King",
+      "context": "The 'Three Kings': Albert, B.B. and Freddie, were huge in my repertoire",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Little Richard",
+      "context": "Little Richard, James Brown, and Otis Redding were huge",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "James Brown",
+      "context": "Little Richard, James Brown, and Otis Redding were huge",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Otis Redding",
+      "context": "Little Richard, James Brown, and Otis Redding were huge",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Allman Brothers",
+      "context": "I was a big fan of the Allman brothers, and we played with them a lot — great guys, great band, great music",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Steely Dan",
+      "context": "Most pronounced, I think in my life, it was being with Steely Dan and then with the Doobie Brothers that really afforded me any kind of profile as an artist myself",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Queen",
+      "context": "in 1981, Queen were touring for their album The Game when they made a pit stop in Brazil where he and his brother Igor witnessed the British rock band for the first time. He says the concert was life-changing, and it immediately introduced Cavalera and his brother to other hard rock and metal bands.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Kiss",
+      "context": "We bought cassette tapes of Queen and Kiss, and then we just wanted to know more bands like that",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Judas Priest",
+      "context": "so we got into Judas Priest, Van Halen, and got more into other bands",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Van Halen",
+      "context": "so we got into Judas Priest, Van Halen, and got more into other bands",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Black Sabbath",
+      "context": "The origins of metal can be traced back to the late 1960s when English bands like Black Sabbath and Deep Purple fused blues and rock to create a more aggressive and heavier sound.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Deep Purple",
+      "context": "The origins of metal can be traced back to the late 1960s when English bands like Black Sabbath and Deep Purple fused blues and rock to create a more aggressive and heavier sound.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Iron Maiden",
+      "context": "by the mid-'70s, a new class of metal bands known as the new wave of British heavy metal (NWOBHM) had been birthed, with bands like Iron Maiden, Venom, Diamond Head, and others leading the sound",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Metallica",
+      "context": "By the '80s, metal continued to evolve, and subgenres like thrash came to fruition, powered by the fast sounds of American bands like Metallica and Megadeth.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Megadeth",
+      "context": "By the '80s, metal continued to evolve, and subgenres like thrash came to fruition, powered by the fast sounds of American bands like Metallica and Megadeth.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Carlinhos Brown",
+      "context": "Cavalera amalgamated his own culture with metal when he connected with his Brazilian heritage for Sepultura's 1996 seminal album Roots, which incorporated traditional elements from famed Brazilian percussionist Carlinhos Brown",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Leprous",
+      "context": "Crisálida, a metal and progressive rock band from Chile, say they merge their influences from bands like Leprous and Teserract with the musical traditions of Chilean folk artists",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Teserract",
+      "context": "Crisálida, a metal and progressive rock band from Chile, say they merge their influences from bands like Leprous and Teserract with the musical traditions of Chilean folk artists",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Victor Jara",
+      "context": "they merge their influences from bands like Leprous and Teserract with the musical traditions of Chilean folk artists like Victor Jara, Violeta Parra, and Quilapayún",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Violeta Parra",
+      "context": "they merge their influences from bands like Leprous and Teserract with the musical traditions of Chilean folk artists like Victor Jara, Violeta Parra, and Quilapayún",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Quilapayún",
+      "context": "they merge their influences from bands like Leprous and Teserract with the musical traditions of Chilean folk artists like Victor Jara, Violeta Parra, and Quilapayún",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 23,
+    "sources_checked": 3
+  }
+}

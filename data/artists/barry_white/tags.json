@@ -1,0 +1,140 @@
+{
+  "tags": [
+    {
+      "tag": "emotional",
+      "category": "philosophy",
+      "weight": 1.0,
+      "raw_score": 13
+    },
+    {
+      "tag": "orchestration",
+      "category": "process",
+      "weight": 0.923,
+      "raw_score": 12
+    },
+    {
+      "tag": "vocal_processing",
+      "category": "process",
+      "weight": 0.769,
+      "raw_score": 10
+    },
+    {
+      "tag": "vocal_focused",
+      "category": "approach",
+      "weight": 0.692,
+      "raw_score": 9
+    },
+    {
+      "tag": "layering",
+      "category": "process",
+      "weight": 0.615,
+      "raw_score": 8
+    },
+    {
+      "tag": "hi_fi",
+      "category": "approach",
+      "weight": 0.615,
+      "raw_score": 8
+    },
+    {
+      "tag": "maximalism",
+      "category": "process",
+      "weight": 0.615,
+      "raw_score": 8
+    },
+    {
+      "tag": "long_form",
+      "category": "approach",
+      "weight": 0.462,
+      "raw_score": 6
+    },
+    {
+      "tag": "autobiographical",
+      "category": "philosophy",
+      "weight": 0.462,
+      "raw_score": 6
+    },
+    {
+      "tag": "studio_as_instrument",
+      "category": "approach",
+      "weight": 0.385,
+      "raw_score": 5
+    },
+    {
+      "tag": "intuitive",
+      "category": "philosophy",
+      "weight": 0.385,
+      "raw_score": 5
+    },
+    {
+      "tag": "collaborative",
+      "category": "philosophy",
+      "weight": 0.385,
+      "raw_score": 5
+    },
+    {
+      "tag": "collaborative_production",
+      "category": "approach",
+      "weight": 0.231,
+      "raw_score": 3
+    },
+    {
+      "tag": "bedroom_soul",
+      "category": "process",
+      "weight": 0.231,
+      "raw_score": 3
+    },
+    {
+      "tag": "narrative",
+      "category": "philosophy",
+      "weight": 0.231,
+      "raw_score": 3
+    },
+    {
+      "tag": "intellectual",
+      "category": "philosophy",
+      "weight": 0.231,
+      "raw_score": 3
+    },
+    {
+      "tag": "community_driven",
+      "category": "philosophy",
+      "weight": 0.231,
+      "raw_score": 3
+    },
+    {
+      "tag": "romantic",
+      "category": "philosophy",
+      "weight": 0.231,
+      "raw_score": 3
+    },
+    {
+      "tag": "hybrid_production",
+      "category": "approach",
+      "weight": 0.154,
+      "raw_score": 2
+    },
+    {
+      "tag": "cinematic",
+      "category": "philosophy",
+      "weight": 0.154,
+      "raw_score": 2
+    },
+    {
+      "tag": "commercial",
+      "category": "philosophy",
+      "weight": 0.154,
+      "raw_score": 2
+    },
+    {
+      "tag": "immersive",
+      "category": "approach",
+      "weight": 0.154,
+      "raw_score": 2
+    }
+  ],
+  "meta": {
+    "count": 22,
+    "sources_checked": 5
+  }
+}

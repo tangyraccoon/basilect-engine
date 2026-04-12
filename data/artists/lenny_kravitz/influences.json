@@ -1,0 +1,33 @@
+{
+  "influences": [
+    {
+      "name": "Maya Angelou",
+      "context": "his mother, \"The Jeffersons\" actress Roxie Roker, was a peer to pivotal Black artists like Maya Angelou, Nikki Giovanni, Miles Davis, Ella Fitzgerald, and Duke Ellington, meaning Kravitz grew up surrounded by those that \"were using their art, in so many cases, to push the cause\"",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Nikki Giovanni",
+      "context": "his mother, \"The Jeffersons\" actress Roxie Roker, was a peer to pivotal Black artists like Maya Angelou, Nikki Giovanni, Miles Davis, Ella Fitzgerald, and Duke Ellington, meaning Kravitz grew up surrounded by those that \"were using their art, in so many cases, to push the cause\"",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Miles Davis",
+      "context": "his mother, \"The Jeffersons\" actress Roxie Roker, was a peer to pivotal Black artists like Maya Angelou, Nikki Giovanni, Miles Davis, Ella Fitzgerald, and Duke Ellington, meaning Kravitz grew up surrounded by those that \"were using their art, in so many cases, to push the cause\"",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Ella Fitzgerald",
+      "context": "his mother, \"The Jeffersons\" actress Roxie Roker, was a peer to pivotal Black artists like Maya Angelou, Nikki Giovanni, Miles Davis, Ella Fitzgerald, and Duke Ellington, meaning Kravitz grew up surrounded by those that \"were using their art, in so many cases, to push the cause\"",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Duke Ellington",
+      "context": "his mother, \"The Jeffersons\" actress Roxie Roker, was a peer to pivotal Black artists like Maya Angelou, Nikki Giovanni, Miles Davis, Ella Fitzgerald, and Duke Ellington, meaning Kravitz grew up surrounded by those that \"were using their art, in so many cases, to push the cause\"",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 5,
+    "sources_checked": 4
+  }
+}

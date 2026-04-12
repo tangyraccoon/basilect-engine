@@ -1,0 +1,49 @@
+{
+  "artist_id": "antônio_carlos_jobim",
+  "artist_name": "Antônio Carlos Jobim",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:07:37.517444+00:00",
+      "result": "0 urls"
+    },
+    "interview_scrape": {
+      "status": "skipped",
+      "timestamp": "2026-04-12T15:07:38.024446+00:00",
+      "result": "failed — skipping to unblock"
+    },
+    "interview_extract": {
+      "status": "skipped",
+      "timestamp": "2026-04-12T15:07:38.025647+00:00",
+      "result": "failed — skipping to unblock"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:07:41.983249+00:00",
+      "result": "8 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:07:45.494398+00:00",
+      "result": "4/8 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:07:56.225316+00:00",
+      "result": "5 passages"
+    },
+    "influence_extract": {
+      "status": "skipped",
+      "timestamp": "2026-04-12T15:07:56.731833+00:00",
+      "result": "no sources.json"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:08:05.037892+00:00",
+      "result": "12 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-12T15:08:05.037990+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "influences": [
+    {
+      "name": "Paul Valéry",
+      "context": "CHAPTER 17 of composer Pierre Schaeffer's In Search of a Concrete Music, titled \"From the Object to Language,\" opens with a quote from the poet and critic Paul Valéry",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Maurice Blanchot",
+      "context": "In an essay published around the same time as Schaeffer's book, \"Literature and the Right to Death\" (in The Work of Fire, 1949), Maurice Blanchot wrote... Schaeffer's constant interrogation of the adequacy of \"the language of music\" — or any language at all — to his \"little sound creatures\" reflects preoccupations similar to Blanchot's.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 2,
+    "sources_checked": 1
+  }
+}

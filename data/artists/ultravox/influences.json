@@ -1,0 +1,68 @@
+{
+  "influences": [
+    {
+      "name": "The Third Man (film)",
+      "context": "Inspired by the film noir The Third Man (1949), the music video for \"Vienna\" was directed by Russell Mulcahy",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Tom Rush",
+      "context": "In June 1982 Ure released his first solo single, a cover version of the 1968 Tom Rush song \"No Regrets\"",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "David Bowie",
+      "context": "Ure also recorded the David Bowie track \"The Man Who Sold the World\" for the soundtrack to the British comedy film Party Party (1983)",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The New York Dolls",
+      "context": "The band were influenced heavily by the New York Dolls and dressed like them.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Velvet Underground",
+      "context": "At that moment, I was drawing lines into New York and the Velvets, European avant garde and electronic music, previous generation's Brit Psychedelia plus a ragged sort of insulting glam.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Brian Eno",
+      "context": "We dropped in to Conny Plank's studio when we were touring Germany as Brian [Eno] was there working on Music For Airports, and also working with Holger Czukay. It was interesting to see how great Conny was.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Conny Plank",
+      "context": "It was interesting to see how great Conny was. He had chairs with tubular legs around the room and was running tape loops around them. He took infinite pains and I thought, this is the guy. I was starstuck.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Charlie Watts",
+      "context": "My favourite drummers were all classic players from the great days of British rock & pop such as Charlie Watts, Ringo Starr, Keith Moon, John Bonham, Kenny Jones...†I'd always been captivated by technology",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Ringo Starr",
+      "context": "My favourite drummers were all classic players from the great days of British rock & pop such as Charlie Watts, Ringo Starr, Keith Moon, John Bonham, Kenny Jones...†I'd always been captivated by technology",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Keith Moon",
+      "context": "My favourite drummers were all classic players from the great days of British rock & pop such as Charlie Watts, Ringo Starr, Keith Moon, John Bonham, Kenny Jones...†I'd always been captivated by technology",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "John Bonham",
+      "context": "My favourite drummers were all classic players from the great days of British rock & pop such as Charlie Watts, Ringo Starr, Keith Moon, John Bonham, Kenny Jones...†I'd always been captivated by technology",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Kenny Jones",
+      "context": "My favourite drummers were all classic players from the great days of British rock & pop such as Charlie Watts, Ringo Starr, Keith Moon, John Bonham, Kenny Jones...†I'd always been captivated by technology",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 12,
+    "sources_checked": 5
+  }
+}

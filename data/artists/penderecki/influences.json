@@ -1,0 +1,93 @@
+{
+  "influences": [
+    {
+      "name": "Pink Floyd",
+      "context": "In my high school years it was all about Pink Floyd and Talking Heads",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Talking Heads",
+      "context": "In my high school years it was all about Pink Floyd and Talking Heads",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Kraftwerk",
+      "context": "in my college years I really latched on to Kraftwerk, the David Byrne / Brian Eno stuff, Killing Joke, Joy Division, Cabaret Voltaire, and stuff like that",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "David Byrne",
+      "context": "in my college years I really latched on to Kraftwerk, the David Byrne / Brian Eno stuff, Killing Joke, Joy Division, Cabaret Voltaire, and stuff like that",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Brian Eno",
+      "context": "in my college years I really latched on to Kraftwerk, the David Byrne / Brian Eno stuff, Killing Joke, Joy Division, Cabaret Voltaire, and stuff like that",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Killing Joke",
+      "context": "in my college years I really latched on to Kraftwerk, the David Byrne / Brian Eno stuff, Killing Joke, Joy Division, Cabaret Voltaire, and stuff like that",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Joy Division",
+      "context": "in my college years I really latched on to Kraftwerk, the David Byrne / Brian Eno stuff, Killing Joke, Joy Division, Cabaret Voltaire, and stuff like that",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Cabaret Voltaire",
+      "context": "in my college years I really latched on to Kraftwerk, the David Byrne / Brian Eno stuff, Killing Joke, Joy Division, Cabaret Voltaire, and stuff like that",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Ligeti",
+      "context": "It was the Ligeti, Bartok, and Penderecki music in Kubrick's The Shining and 2001:A Space Odyssey that sparked my interest in film music in high school",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Bartok",
+      "context": "It was the Ligeti, Bartok, and Penderecki music in Kubrick's The Shining and 2001:A Space Odyssey that sparked my interest in film music in high school",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Penderecki",
+      "context": "It was the Ligeti, Bartok, and Penderecki music in Kubrick's The Shining and 2001:A Space Odyssey that sparked my interest in film music in high school",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Bernard Hermann",
+      "context": "I'd say Bernard Hermann and Jerry Goldsmith are two of my favorite mainstream film composers",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Jerry Goldsmith",
+      "context": "I'd say Bernard Hermann and Jerry Goldsmith are two of my favorite mainstream film composers",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Cliff Martinez",
+      "context": "Lately I seem to prefer scores that are a little more minimalist and atmospheric rather than thematic, like Cliff Martinez's work",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Johan Johansson",
+      "context": "I really loved Johan Johansson's scores to Prisoners and Sicario",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Hildur Guðnadóttir",
+      "context": "Hildur's scores for Chernobyl and Joker are favorites of mine as well",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Harry Gregson-Williams",
+      "context": "I'd love a VI that could do the kind of filtered pulses you hear all over Harry Gregson-Williams' scores",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 17,
+    "sources_checked": 2
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "artist_id": "soundgarden",
+  "artist_name": "Soundgarden",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:01:06.755179+00:00",
+      "result": "6 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:01:12.708120+00:00",
+      "result": "4/6 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:01:24.725045+00:00",
+      "result": "9 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:01:29.585182+00:00",
+      "result": "8 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:01:33.942884+00:00",
+      "result": "3/8 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:01:43.248268+00:00",
+      "result": "7 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:01:52.782904+00:00",
+      "result": "3 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:02:07.672280+00:00",
+      "result": "27 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-12T17:02:07.672411+00:00"
+}

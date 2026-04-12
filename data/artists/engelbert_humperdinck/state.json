@@ -1,0 +1,49 @@
+{
+  "artist_id": "engelbert_humperdinck",
+  "artist_name": "Engelbert Humperdinck",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:10:34.522623+00:00",
+      "result": "2 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:10:36.340925+00:00",
+      "result": "2/2 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:10:42.290460+00:00",
+      "result": "5 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:10:46.800276+00:00",
+      "result": "8 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:10:52.522491+00:00",
+      "result": "8/8 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:11:08.515813+00:00",
+      "result": "16 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:11:11.784363+00:00",
+      "result": "1 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:11:31.721336+00:00",
+      "result": "25 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-12T15:11:31.721488+00:00"
+}

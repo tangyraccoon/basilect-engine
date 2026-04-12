@@ -1,0 +1,28 @@
+{
+  "influences": [
+    {
+      "name": "Carole King",
+      "context": "My first records were Carole King and James Taylor, and they felt like lifelines for me.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "James Taylor",
+      "context": "My first records were Carole King and James Taylor, and they felt like lifelines for me. Tapestry and Mud Slide Slim and the Blue Horizon.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Don Henley",
+      "context": "That was when Don Henley said, 'You need to quit giving your songs away. And if you're serious about this, you need to hold on to your songs for yourself.'",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Carly Simon",
+      "context": "It's sort of like my version of Carly Simon's 'You're So Vain.'",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 4,
+    "sources_checked": 4
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "influences": [
+    {
+      "name": "Steven Spielberg",
+      "context": "Steven Spielberg borrowed his dad's 8mm camera and wrecked his Lionel train set to make his first film at age 12... Don't Wait. When Steven Spielberg began, he had all the experience of a twelve-year-old boy.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "J. J. Abrams",
+      "context": "Super 8 wasn't actually about Spielberg. It was written by film great J. J. Abrams about his own teen filmmaking. Maybe we should call it the Abrams Method.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Trevor Horn",
+      "context": "Yes were Trevor's favourite band",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Yes (themselves - Relayer album)",
+      "context": "Relayer was my favourite album for the journey",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 4,
+    "sources_checked": 6
+  }
+}

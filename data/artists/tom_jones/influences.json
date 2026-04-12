@@ -1,0 +1,18 @@
+{
+  "influences": [
+    {
+      "name": "Andy Fairweather-Low",
+      "context": "\"I used to see him playing in London at the same time I was, with his band, The Amen Corner.\"",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "gospel, country and blues artists",
+      "context": "\"Ethan knew I love gospel, country and blues,\" says Jones",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 2,
+    "sources_checked": 3
+  }
+}

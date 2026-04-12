@@ -1,0 +1,58 @@
+{
+  "influences": [
+    {
+      "name": "Chopin",
+      "context": "Chopin, Bach and Beethoven. Every day she played piano beside my bed.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Bach",
+      "context": "Chopin, Bach and Beethoven. Every day she played piano beside my bed.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Beethoven",
+      "context": "Chopin, Bach and Beethoven. Every day she played piano beside my bed.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Masahiko Satoh",
+      "context": "Masahiko Satoh is a very excellent jazz piano player and a composer and he was involved in free jazz from the '60s",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Kang Tae Hwan",
+      "context": "Kang Tae Hwan is a saxophonist from Korea and he has circular breath",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Joe Hisaishi",
+      "context": "After that, Joe Hisaishi arranged it for a trio, then Nippon Columbia recorded it and made a binaural.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Steve Reich",
+      "context": "Takada drew from African drumming traditions, Asian gamelan and koto elements, and Western minimalists like Steve Reich and Terry Riley",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Terry Riley",
+      "context": "Takada drew from African drumming traditions, Asian gamelan and koto elements, and Western minimalists like Steve Reich and Terry Riley",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Kakraba Lobi",
+      "context": "A pivotal collaboration occurred in 1990 with Ghanaian gyil (xylophone) master Kakraba Lobi, resulting in the album African Percussion Meeting, which juxtaposed Japanese marimba techniques against West African polyrhythms in improvisational duets emphasizing timbre and repetition",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Tadashi Suzuki",
+      "context": "Domestically, Takada composed original scores and performed live for theater productions directed by Tadashi Suzuki, beginning in the mid-1980s and continuing through the 1990s with his Suzuki Company of Toga; these works adapted her repetitive motifs to dramatic pacing, influencing her shift toward more performative, site-specific minimalism",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 10,
+    "sources_checked": 3
+  }
+}

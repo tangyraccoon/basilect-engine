@@ -1,0 +1,38 @@
+{
+  "influences": [
+    {
+      "name": "Prince",
+      "context": "the \"chic cheekiness\" of Prince",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Kate Bush",
+      "context": "the \"wildness\" of Kate Bush",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Tania Maria",
+      "context": "Brazilian singer Tania Maria's scat-infused sounds",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Adam Ant",
+      "context": "citing artists such as Adam Ant and Siouxsie and the Banshees as key influences",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Siouxsie and the Banshees",
+      "context": "citing artists such as Adam Ant and Siouxsie and the Banshees as key influences",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "FKA twigs",
+      "context": "That's when I discovered you and when I first heard about Arca, who you've been working with. At the time, I was not sleeping. I was spending my nights on Logic and trying to recreate what I was hearing.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 6,
+    "sources_checked": 5
+  }
+}

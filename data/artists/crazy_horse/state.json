@@ -1,0 +1,49 @@
+{
+  "artist_id": "crazy_horse",
+  "artist_name": "Crazy Horse",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T14:47:13.010960+00:00",
+      "result": "2 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T14:48:59.775657+00:00",
+      "result": "0/2 scraped"
+    },
+    "interview_extract": {
+      "status": "skipped",
+      "timestamp": "2026-04-12T14:49:00.282681+00:00",
+      "result": "failed — skipping to unblock"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T14:49:04.290494+00:00",
+      "result": "8 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T14:49:23.023006+00:00",
+      "result": "6/8 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T14:49:44.277781+00:00",
+      "result": "19 passages"
+    },
+    "influence_extract": {
+      "status": "skipped",
+      "timestamp": "2026-04-12T14:49:44.784275+00:00",
+      "result": "no scraped text"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T14:49:59.653709+00:00",
+      "result": "35 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-12T14:49:59.653826+00:00"
+}

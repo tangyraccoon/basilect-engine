@@ -1,0 +1,33 @@
+{
+  "influences": [
+    {
+      "name": "Joni Mitchell",
+      "context": "During her pre-teen years, Morissette drew musical inspiration from artists such as Joni Mitchell, whose confessional style resonated with her emerging songwriting.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Aretha Franklin",
+      "context": "She later cited additional influences like Aretha Franklin from her early listening experiences, shaping her appreciation for emotive and powerful female voices in music.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Glen Ballard",
+      "context": "In 1994, after moving to Los Angeles and seeking a new creative direction following her early Canadian pop recordings, Alanis Morissette partnered with producer Glen Ballard, known for his work with artists like Michael Jackson and Wilson Phillips. The collaboration began with intensive songwriting sessions at Ballard's home studio in Encino, California, where the duo co-wrote and demoed tracks in a stripped-down environment featuring just Morissette's vocals and Ballard's guitar and keyboards.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Guy Sigsworth",
+      "context": "Flavors of Entanglement (2008) features Morissette embracing the electronica influence that began to creep into pop music around this time, as shown by her selection of Guy Sigsworth as producer, who is known for helping artists integrate those sounds.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Madison Cunningham",
+      "context": "On Buzz, I was inspired by a lot of artists. Obviously Joni Mitchell, and a current artist that I really love that I feel like echoes Joni Mitchell is Madison Cunningham. I am so inspired by her musicianship and guitar playing specifically.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 5,
+    "sources_checked": 5
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "artist_id": "karlheinz_stockhausen",
+  "artist_name": "Karlheinz Stockhausen",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:51:18.228307+00:00",
+      "result": "8 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:51:19.507697+00:00",
+      "result": "6/8 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:51:34.069645+00:00",
+      "result": "9 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:51:38.589882+00:00",
+      "result": "9 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:51:39.651093+00:00",
+      "result": "7/9 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:51:53.580952+00:00",
+      "result": "17 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:52:08.841068+00:00",
+      "result": "11 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:52:40.516053+00:00",
+      "result": "44 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-11T22:52:40.516147+00:00"
+}

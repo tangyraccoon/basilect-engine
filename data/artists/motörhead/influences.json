@@ -1,0 +1,43 @@
+{
+  "influences": [
+    {
+      "name": "The Beatles",
+      "context": "Growing up, Johnston took piano and trumpet lessons but gravitated toward playing guitar in part because of his love for The Beatles.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "James Taylor",
+      "context": "Some of his favorite musicians include James Taylor, Sting, Joni Mitchell, Billy Joel, Jimi Hendrix, and Led Zeppelin.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Sting",
+      "context": "Some of his favorite musicians include James Taylor, Sting, Joni Mitchell, Billy Joel, Jimi Hendrix, and Led Zeppelin.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Joni Mitchell",
+      "context": "Some of his favorite musicians include James Taylor, Sting, Joni Mitchell, Billy Joel, Jimi Hendrix, and Led Zeppelin.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Billy Joel",
+      "context": "Some of his favorite musicians include James Taylor, Sting, Joni Mitchell, Billy Joel, Jimi Hendrix, and Led Zeppelin.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Jimi Hendrix",
+      "context": "Some of his favorite musicians include James Taylor, Sting, Joni Mitchell, Billy Joel, Jimi Hendrix, and Led Zeppelin.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Led Zeppelin",
+      "context": "Some of his favorite musicians include James Taylor, Sting, Joni Mitchell, Billy Joel, Jimi Hendrix, and Led Zeppelin.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 7,
+    "sources_checked": 2
+  }
+}

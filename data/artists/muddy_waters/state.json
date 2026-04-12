@@ -1,0 +1,49 @@
+{
+  "artist_id": "muddy_waters",
+  "artist_name": "Muddy Waters",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:59:46.353228+00:00",
+      "result": "4 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:59:48.412266+00:00",
+      "result": "3/4 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:59:53.847640+00:00",
+      "result": "0 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:59:58.392646+00:00",
+      "result": "8 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:00:02.423212+00:00",
+      "result": "6/8 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:00:17.236726+00:00",
+      "result": "18 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:00:22.280012+00:00",
+      "result": "3 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:00:45.482649+00:00",
+      "result": "37 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-12T17:00:45.482760+00:00"
+}

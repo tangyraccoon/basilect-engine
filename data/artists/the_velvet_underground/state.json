@@ -1,0 +1,49 @@
+{
+  "artist_id": "the_velvet_underground",
+  "artist_name": "The Velvet Underground",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:38:40.237714+00:00",
+      "result": "4 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:38:42.890313+00:00",
+      "result": "4/4 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:38:59.356757+00:00",
+      "result": "9 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:39:04.092433+00:00",
+      "result": "8 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:39:08.893666+00:00",
+      "result": "5/8 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:39:31.018169+00:00",
+      "result": "35 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:39:37.851717+00:00",
+      "result": "1 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:40:00.288364+00:00",
+      "result": "36 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-12T15:40:00.288526+00:00"
+}

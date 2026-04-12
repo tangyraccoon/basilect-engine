@@ -1,0 +1,28 @@
+{
+  "influences": [
+    {
+      "name": "Whitney Houston",
+      "context": "I remember Whitney Houston, Aerosmith and James Taylor records.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Aerosmith",
+      "context": "I remember Whitney Houston, Aerosmith and James Taylor records.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "James Taylor",
+      "context": "I remember Whitney Houston, Aerosmith and James Taylor records.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Radiohead",
+      "context": "I remember standing in front of the mirror with my yellow tinted fosters sunglasses singing along to OK computer before my maths GCSE.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 4,
+    "sources_checked": 3
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "tags": [
+    {
+      "tag": "emotional",
+      "category": "philosophy",
+      "weight": 1.0,
+      "raw_score": 15
+    },
+    {
+      "tag": "vocal_focused",
+      "category": "approach",
+      "weight": 1.0,
+      "raw_score": 15
+    },
+    {
+      "tag": "narrative",
+      "category": "philosophy",
+      "weight": 0.733,
+      "raw_score": 11
+    },
+    {
+      "tag": "collaborative",
+      "category": "philosophy",
+      "weight": 0.667,
+      "raw_score": 10
+    },
+    {
+      "tag": "autobiographical",
+      "category": "philosophy",
+      "weight": 0.533,
+      "raw_score": 8
+    },
+    {
+      "tag": "intuitive",
+      "category": "philosophy",
+      "weight": 0.467,
+      "raw_score": 7
+    },
+    {
+      "tag": "multi_instrumental",
+      "category": "approach",
+      "weight": 0.4,
+      "raw_score": 6
+    },
+    {
+      "tag": "hybrid_production",
+      "category": "approach",
+      "weight": 0.4,
+      "raw_score": 6
+    },
+    {
+      "tag": "acoustic",
+      "category": "approach",
+      "weight": 0.267,
+      "raw_score": 4
+    },
+    {
+      "tag": "traditional",
+      "category": "philosophy",
+      "weight": 0.267,
+      "raw_score": 4
+    },
+    {
+      "tag": "blues-tinged",
+      "category": "philosophy",
+      "weight": 0.2,
+      "raw_score": 3
+    },
+    {
+      "tag": "orchestration",
+      "category": "process",
+      "weight": 0.2,
+      "raw_score": 3
+    },
+    {
+      "tag": "eclectic_curation",
+      "category": "philosophy",
+      "weight": 0.2,
+      "raw_score": 3
+    },
+    {
+      "tag": "guitar_driven",
+      "category": "approach",
+      "weight": 0.2,
+      "raw_score": 3
+    },
+    {
+      "tag": "accessible",
+      "category": "philosophy",
+      "weight": 0.2,
+      "raw_score": 3
+    },
+    {
+      "tag": "unpretentious",
+      "category": "philosophy",
+      "weight": 0.2,
+      "raw_score": 3
+    },
+    {
+      "tag": "collaborative_production",
+      "category": "approach",
+      "weight": 0.133,
+      "raw_score": 2
+    },
+    {
+      "tag": "ballad_focused",
+      "category": "approach",
+      "weight": 0.133,
+      "raw_score": 2
+    },
+    {
+      "tag": "folk_influenced",
+      "category": "process",
+      "weight": 0.133,
+      "raw_score": 2
+    }
+  ],
+  "meta": {
+    "count": 19,
+    "sources_checked": 6
+  }
+}

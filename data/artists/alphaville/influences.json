@@ -1,0 +1,28 @@
+{
+  "influences": [
+    {
+      "name": "Soft Cell",
+      "context": "Originally intended as a dance track inspired by Soft Cell's Torch, the song began to take shape when Marian Gold added lyrics over a demo played by Bernard Lloyd and Frank.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "David Bowie",
+      "context": "Gold standard was Bowie. But I never tried to imitate him or anyone else of my idols.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "OMD",
+      "context": "In that phase we were probably closest comparable to bands like OMD or Blancmange.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Blancmange",
+      "context": "In that phase we were probably closest comparable to bands like OMD or Blancmange.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 4,
+    "sources_checked": 3
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "artist_id": "miles_davis",
+  "artist_name": "Miles Davis",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:08:16.462460+00:00",
+      "result": "6 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:08:20.627557+00:00",
+      "result": "4/6 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:08:37.894241+00:00",
+      "result": "13 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:08:42.714448+00:00",
+      "result": "8 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:09:05.555100+00:00",
+      "result": "6/8 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:09:22.945798+00:00",
+      "result": "25 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:09:45.705660+00:00",
+      "result": "23 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:10:16.467653+00:00",
+      "result": "33 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-12T16:10:16.467816+00:00"
+}

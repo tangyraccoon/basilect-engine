@@ -1,0 +1,49 @@
+{
+  "artist_id": "simple_minds",
+  "artist_name": "Simple Minds",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T14:55:48.492974+00:00",
+      "result": "5 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T14:55:51.285177+00:00",
+      "result": "5/5 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T14:56:13.281692+00:00",
+      "result": "30 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T14:56:17.899678+00:00",
+      "result": "8 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T14:56:27.494237+00:00",
+      "result": "7/8 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T14:56:42.441234+00:00",
+      "result": "20 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T14:57:08.776144+00:00",
+      "result": "13 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T14:57:41.136286+00:00",
+      "result": "39 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-12T14:57:41.136423+00:00"
+}

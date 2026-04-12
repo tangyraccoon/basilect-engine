@@ -1,0 +1,49 @@
+{
+  "artist_id": "kazuo_yamada",
+  "artist_name": "Kazuo Yamada",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:01:59.860262+00:00",
+      "result": "0 urls"
+    },
+    "interview_scrape": {
+      "status": "skipped",
+      "timestamp": "2026-04-12T15:02:00.367199+00:00",
+      "result": "failed — skipping to unblock"
+    },
+    "interview_extract": {
+      "status": "skipped",
+      "timestamp": "2026-04-12T15:02:00.368266+00:00",
+      "result": "failed — skipping to unblock"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:02:04.124134+00:00",
+      "result": "8 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:02:22.833048+00:00",
+      "result": "6/8 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:02:33.632584+00:00",
+      "result": "0 passages"
+    },
+    "influence_extract": {
+      "status": "skipped",
+      "timestamp": "2026-04-12T15:02:34.138834+00:00",
+      "result": "no sources.json"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:02:43.804899+00:00",
+      "result": "8 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-12T15:02:43.805038+00:00"
+}

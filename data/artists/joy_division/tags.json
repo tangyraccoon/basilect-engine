@@ -1,0 +1,206 @@
+{
+  "tags": [
+    {
+      "tag": "emotional",
+      "category": "philosophy",
+      "weight": 1.0,
+      "raw_score": 14
+    },
+    {
+      "tag": "intuitive",
+      "category": "philosophy",
+      "weight": 0.714,
+      "raw_score": 10
+    },
+    {
+      "tag": "collaborative",
+      "category": "philosophy",
+      "weight": 0.643,
+      "raw_score": 9
+    },
+    {
+      "tag": "vocal_processing",
+      "category": "process",
+      "weight": 0.643,
+      "raw_score": 9
+    },
+    {
+      "tag": "studio_as_instrument",
+      "category": "approach",
+      "weight": 0.643,
+      "raw_score": 9
+    },
+    {
+      "tag": "minimalism",
+      "category": "process",
+      "weight": 0.643,
+      "raw_score": 9
+    },
+    {
+      "tag": "sparse",
+      "category": "approach",
+      "weight": 0.643,
+      "raw_score": 9
+    },
+    {
+      "tag": "collaborative_production",
+      "category": "approach",
+      "weight": 0.571,
+      "raw_score": 8
+    },
+    {
+      "tag": "multi_instrumental",
+      "category": "approach",
+      "weight": 0.5,
+      "raw_score": 7
+    },
+    {
+      "tag": "experimental",
+      "category": "philosophy",
+      "weight": 0.5,
+      "raw_score": 7
+    },
+    {
+      "tag": "layering",
+      "category": "process",
+      "weight": 0.5,
+      "raw_score": 7
+    },
+    {
+      "tag": "autobiographical",
+      "category": "philosophy",
+      "weight": 0.5,
+      "raw_score": 7
+    },
+    {
+      "tag": "improvisation",
+      "category": "process",
+      "weight": 0.429,
+      "raw_score": 6
+    },
+    {
+      "tag": "analog",
+      "category": "approach",
+      "weight": 0.429,
+      "raw_score": 6
+    },
+    {
+      "tag": "atmospheric",
+      "category": "process",
+      "weight": 0.429,
+      "raw_score": 6
+    },
+    {
+      "tag": "serious",
+      "category": "philosophy",
+      "weight": 0.357,
+      "raw_score": 5
+    },
+    {
+      "tag": "hybrid_production",
+      "category": "approach",
+      "weight": 0.357,
+      "raw_score": 5
+    },
+    {
+      "tag": "live_performance",
+      "category": "approach",
+      "weight": 0.286,
+      "raw_score": 4
+    },
+    {
+      "tag": "anti_commercial",
+      "category": "philosophy",
+      "weight": 0.286,
+      "raw_score": 4
+    },
+    {
+      "tag": "jam-based",
+      "category": "process",
+      "weight": 0.214,
+      "raw_score": 3
+    },
+    {
+      "tag": "conceptual",
+      "category": "philosophy",
+      "weight": 0.214,
+      "raw_score": 3
+    },
+    {
+      "tag": "synthesis",
+      "category": "process",
+      "weight": 0.214,
+      "raw_score": 3
+    },
+    {
+      "tag": "meditative",
+      "category": "philosophy",
+      "weight": 0.214,
+      "raw_score": 3
+    },
+    {
+      "tag": "texture",
+      "category": "process",
+      "weight": 0.214,
+      "raw_score": 3
+    },
+    {
+      "tag": "intellectual",
+      "category": "philosophy",
+      "weight": 0.214,
+      "raw_score": 3
+    },
+    {
+      "tag": "vulnerability",
+      "category": "philosophy",
+      "weight": 0.214,
+      "raw_score": 3
+    },
+    {
+      "tag": "vocal_focused",
+      "category": "approach",
+      "weight": 0.214,
+      "raw_score": 3
+    },
+    {
+      "tag": "immersive",
+      "category": "approach",
+      "weight": 0.143,
+      "raw_score": 2
+    },
+    {
+      "tag": "playful",
+      "category": "philosophy",
+      "weight": 0.143,
+      "raw_score": 2
+    },
+    {
+      "tag": "diy",
+      "category": "philosophy",
+      "weight": 0.143,
+      "raw_score": 2
+    },
+    {
+      "tag": "lo_fi",
+      "category": "approach",
+      "weight": 0.143,
+      "raw_score": 2
+    },
+    {
+      "tag": "literary",
+      "category": "philosophy",
+      "weight": 0.143,
+      "raw_score": 2
+    },
+    {
+      "tag": "noise",
+      "category": "process",
+      "weight": 0.143,
+      "raw_score": 2
+    }
+  ],
+  "meta": {
+    "count": 33,
+    "sources_checked": 6
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "artist_id": "elgato",
+  "artist_name": "Elgato",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T14:38:33.169595+00:00",
+      "result": "6 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T14:38:33.975884+00:00",
+      "result": "2/6 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T14:38:39.374427+00:00",
+      "result": "0 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T14:38:43.850154+00:00",
+      "result": "10 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T14:38:45.089083+00:00",
+      "result": "5/10 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T14:38:56.315125+00:00",
+      "result": "7 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T14:38:59.464719+00:00",
+      "result": "0 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T14:39:13.760210+00:00",
+      "result": "29 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-12T14:39:13.760357+00:00"
+}

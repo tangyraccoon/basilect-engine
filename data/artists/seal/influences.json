@@ -1,0 +1,28 @@
+{
+  "influences": [
+    {
+      "name": "Stephen Schwartz",
+      "context": "The workshop is the brainchild of legendary composer Stephen Schwartz (Wicked, Godspell), and his insights about the creative process were profoundly helpful. He became a great mentor and friend to the show and, I am honored to say, to me personally.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Marvin Gaye",
+      "context": "Seal's dense rhythms and soulful melodies have been compared to those of such soul and rock legends as Marvin Gaye, Jimi Hendrix, and Peter Gabriel.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Jimi Hendrix",
+      "context": "Seal's dense rhythms and soulful melodies have been compared to those of such soul and rock legends as Marvin Gaye, Jimi Hendrix, and Peter Gabriel.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Peter Gabriel",
+      "context": "Seal's dense rhythms and soulful melodies have been compared to those of such soul and rock legends as Marvin Gaye, Jimi Hendrix, and Peter Gabriel.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 4,
+    "sources_checked": 4
+  }
+}

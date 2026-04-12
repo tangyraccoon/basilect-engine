@@ -1,0 +1,53 @@
+{
+  "influences": [
+    {
+      "name": "Itzhak Pearlman",
+      "context": "Do they actually know that Itzhak Pearlman is a fantastic violinist or are they just sold that quantity?",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Leonard Slatkin",
+      "context": "Leonard Slatkin is very unusual in that respect. He really has very definite opinions about what he likes in new music and what he doesn't like.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Louise Talma",
+      "context": "I know Louise and Miriam very well and I've done a lot of their music for the simple reason that they're talented composers and that they needed encouragement.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Miriam Gideon",
+      "context": "I know Louise and Miriam very well and I've done a lot of their music for the simple reason that they're talented composers and that they needed encouragement.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Aaron Copland",
+      "context": "I'm a great admirer of Copland. I wrote Fanfare for the Uncommon Woman, which is a takeoff on his Fanfare for the Common Man.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Steve Reich",
+      "context": "I was just wondering how it started because Steve Reich did the same thing, only his group started in school.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Bach",
+      "context": "I think Bach would just flip if he could hear what we've been doing with his music...I think the piano is perfect for him. It's just perfect.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Chopin",
+      "context": "Chopin, if you took his piano music and played it on any other instrument, would die immediately because the music is written only for the piano.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Berlioz",
+      "context": "You can't reduce Berlioz's orchestrations to the piano. It just dies immediately because the action is so located in the color of the orchestra.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 9,
+    "sources_checked": 3
+  }
+}

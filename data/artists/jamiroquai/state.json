@@ -1,0 +1,49 @@
+{
+  "artist_id": "jamiroquai",
+  "artist_name": "Jamiroquai",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:06:14.668451+00:00",
+      "result": "5 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:06:18.049917+00:00",
+      "result": "3/5 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:06:29.255341+00:00",
+      "result": "15 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:06:34.021446+00:00",
+      "result": "8 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:06:41.338416+00:00",
+      "result": "6/8 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:07:05.313226+00:00",
+      "result": "25 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:07:13.316222+00:00",
+      "result": "2 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:07:33.561974+00:00",
+      "result": "32 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-12T15:07:33.562137+00:00"
+}

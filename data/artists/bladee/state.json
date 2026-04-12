@@ -1,0 +1,49 @@
+{
+  "artist_id": "bladee",
+  "artist_name": "Bladee",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:22:37.629165+00:00",
+      "result": "13 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:22:38.897808+00:00",
+      "result": "12/13 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:22:51.792905+00:00",
+      "result": "17 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:22:56.335606+00:00",
+      "result": "9 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:22:56.847994+00:00",
+      "result": "9/9 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:23:17.443517+00:00",
+      "result": "32 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:23:57.402619+00:00",
+      "result": "18 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:24:53.096542+00:00",
+      "result": "63 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-11T22:24:53.096590+00:00"
+}

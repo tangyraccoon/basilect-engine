@@ -1,0 +1,49 @@
+{
+  "artist_id": "yes",
+  "artist_name": "Yes",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:43:46.888009+00:00",
+      "result": "6 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:43:50.082006+00:00",
+      "result": "6/6 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:44:04.649972+00:00",
+      "result": "15 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:44:09.543616+00:00",
+      "result": "8 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:44:12.615926+00:00",
+      "result": "5/8 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:44:25.766995+00:00",
+      "result": "14 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:44:37.082886+00:00",
+      "result": "4 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:45:01.229475+00:00",
+      "result": "37 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-12T16:45:01.229838+00:00"
+}

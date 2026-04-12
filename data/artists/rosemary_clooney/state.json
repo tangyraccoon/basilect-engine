@@ -1,0 +1,49 @@
+{
+  "artist_id": "rosemary_clooney",
+  "artist_name": "Rosemary Clooney",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T14:34:20.574161+00:00",
+      "result": "2 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T14:34:23.466086+00:00",
+      "result": "2/2 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T14:34:37.165364+00:00",
+      "result": "0 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T14:34:41.570656+00:00",
+      "result": "8 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T14:34:48.229449+00:00",
+      "result": "6/8 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T14:34:58.100848+00:00",
+      "result": "3 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T14:35:02.413466+00:00",
+      "result": "1 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T14:35:17.612539+00:00",
+      "result": "17 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-12T14:35:17.612610+00:00"
+}

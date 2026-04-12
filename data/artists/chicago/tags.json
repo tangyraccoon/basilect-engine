@@ -1,0 +1,296 @@
+{
+  "tags": [
+    {
+      "tag": "collaborative",
+      "category": "philosophy",
+      "weight": 1.0,
+      "raw_score": 20
+    },
+    {
+      "tag": "multi_instrumental",
+      "category": "approach",
+      "weight": 0.6,
+      "raw_score": 12
+    },
+    {
+      "tag": "conceptual",
+      "category": "philosophy",
+      "weight": 0.55,
+      "raw_score": 11
+    },
+    {
+      "tag": "intellectual",
+      "category": "philosophy",
+      "weight": 0.55,
+      "raw_score": 11
+    },
+    {
+      "tag": "long_form",
+      "category": "approach",
+      "weight": 0.5,
+      "raw_score": 10
+    },
+    {
+      "tag": "narrative",
+      "category": "philosophy",
+      "weight": 0.45,
+      "raw_score": 9
+    },
+    {
+      "tag": "orchestration",
+      "category": "process",
+      "weight": 0.45,
+      "raw_score": 9
+    },
+    {
+      "tag": "diy",
+      "category": "philosophy",
+      "weight": 0.45,
+      "raw_score": 9
+    },
+    {
+      "tag": "emotional",
+      "category": "philosophy",
+      "weight": 0.4,
+      "raw_score": 8
+    },
+    {
+      "tag": "community_building",
+      "category": "approach",
+      "weight": 0.4,
+      "raw_score": 8
+    },
+    {
+      "tag": "electronic",
+      "category": "approach",
+      "weight": 0.4,
+      "raw_score": 8
+    },
+    {
+      "tag": "live_performance",
+      "category": "approach",
+      "weight": 0.4,
+      "raw_score": 8
+    },
+    {
+      "tag": "political",
+      "category": "philosophy",
+      "weight": 0.35,
+      "raw_score": 7
+    },
+    {
+      "tag": "autobiographical",
+      "category": "philosophy",
+      "weight": 0.35,
+      "raw_score": 7
+    },
+    {
+      "tag": "hybrid_production",
+      "category": "approach",
+      "weight": 0.3,
+      "raw_score": 6
+    },
+    {
+      "tag": "sampling",
+      "category": "process",
+      "weight": 0.25,
+      "raw_score": 5
+    },
+    {
+      "tag": "repetition",
+      "category": "process",
+      "weight": 0.25,
+      "raw_score": 5
+    },
+    {
+      "tag": "analog",
+      "category": "approach",
+      "weight": 0.25,
+      "raw_score": 5
+    },
+    {
+      "tag": "studio_as_instrument",
+      "category": "approach",
+      "weight": 0.2,
+      "raw_score": 4
+    },
+    {
+      "tag": "layering",
+      "category": "process",
+      "weight": 0.2,
+      "raw_score": 4
+    },
+    {
+      "tag": "sonic_exploration",
+      "category": "process",
+      "weight": 0.15,
+      "raw_score": 3
+    },
+    {
+      "tag": "formal_structure",
+      "category": "process",
+      "weight": 0.15,
+      "raw_score": 3
+    },
+    {
+      "tag": "tension_and_release",
+      "category": "process",
+      "weight": 0.15,
+      "raw_score": 3
+    },
+    {
+      "tag": "immersive",
+      "category": "approach",
+      "weight": 0.15,
+      "raw_score": 3
+    },
+    {
+      "tag": "self_produced",
+      "category": "approach",
+      "weight": 0.15,
+      "raw_score": 3
+    },
+    {
+      "tag": "independent",
+      "category": "philosophy",
+      "weight": 0.15,
+      "raw_score": 3
+    },
+    {
+      "tag": "synthesis",
+      "category": "process",
+      "weight": 0.15,
+      "raw_score": 3
+    },
+    {
+      "tag": "transparent_process",
+      "category": "philosophy",
+      "weight": 0.15,
+      "raw_score": 3
+    },
+    {
+      "tag": "hybrid",
+      "category": "philosophy",
+      "weight": 0.15,
+      "raw_score": 3
+    },
+    {
+      "tag": "improvisation",
+      "category": "process",
+      "weight": 0.15,
+      "raw_score": 3
+    },
+    {
+      "tag": "community_focused",
+      "category": "philosophy",
+      "weight": 0.15,
+      "raw_score": 3
+    },
+    {
+      "tag": "historical_documentation",
+      "category": "approach",
+      "weight": 0.15,
+      "raw_score": 3
+    },
+    {
+      "tag": "oral_history",
+      "category": "approach",
+      "weight": 0.15,
+      "raw_score": 3
+    },
+    {
+      "tag": "archival",
+      "category": "approach",
+      "weight": 0.15,
+      "raw_score": 3
+    },
+    {
+      "tag": "cultural_preservation",
+      "category": "philosophy",
+      "weight": 0.15,
+      "raw_score": 3
+    },
+    {
+      "tag": "advocacy",
+      "category": "philosophy",
+      "weight": 0.15,
+      "raw_score": 3
+    },
+    {
+      "tag": "theatrical",
+      "category": "approach",
+      "weight": 0.1,
+      "raw_score": 2
+    },
+    {
+      "tag": "character-driven",
+      "category": "process",
+      "weight": 0.1,
+      "raw_score": 2
+    },
+    {
+      "tag": "found_sound",
+      "category": "process",
+      "weight": 0.1,
+      "raw_score": 2
+    },
+    {
+      "tag": "vocal_processing",
+      "category": "process",
+      "weight": 0.1,
+      "raw_score": 2
+    },
+    {
+      "tag": "intuitive",
+      "category": "philosophy",
+      "weight": 0.1,
+      "raw_score": 2
+    },
+    {
+      "tag": "playful",
+      "category": "philosophy",
+      "weight": 0.1,
+      "raw_score": 2
+    },
+    {
+      "tag": "jazz_oriented",
+      "category": "process",
+      "weight": 0.1,
+      "raw_score": 2
+    },
+    {
+      "tag": "experimental",
+      "category": "philosophy",
+      "weight": 0.1,
+      "raw_score": 2
+    },
+    {
+      "tag": "acoustic",
+      "category": "approach",
+      "weight": 0.1,
+      "raw_score": 2
+    },
+    {
+      "tag": "interconnected",
+      "category": "philosophy",
+      "weight": 0.1,
+      "raw_score": 2
+    },
+    {
+      "tag": "grassroots",
+      "category": "philosophy",
+      "weight": 0.1,
+      "raw_score": 2
+    },
+    {
+      "tag": "anti_commercial",
+      "category": "philosophy",
+      "weight": 0.1,
+      "raw_score": 2
+    }
+  ],
+  "meta": {
+    "count": 48,
+    "sources_checked": 14
+  }
+}

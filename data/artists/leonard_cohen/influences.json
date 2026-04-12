@@ -1,0 +1,48 @@
+{
+  "influences": [
+    {
+      "name": "Garcia Lorca",
+      "context": "start about 6 paragraphs down when he talks about Garcia Lorca",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Young Spanish flamenco guitar player",
+      "context": "Cohen recalls visiting his mother in Montreal and happening upon a young Spanish flamenco guitar player. He convinced the guitarist to give him lessons, and the young man showed up at Cohen's home for three consecutive days. For three days they worked on the same six-chord progression... the six chords he was taught that summer went on to be the foundation of all of his songs.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Bible",
+      "context": "The kind of language that I'd like to have been influenced by the Bible and Cervantes, by the old masters.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Cervantes",
+      "context": "The kind of language that I'd like to have been influenced by the Bible and Cervantes, by the old masters.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Albert Camus",
+      "context": "The kind of sensibility I've been influenced [by], of course, [is] a great deal by the French writers — Camus, Sartre",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Jean-Paul Sartre",
+      "context": "The kind of sensibility I've been influenced [by], of course, [is] a great deal by the French writers — Camus, Sartre",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "William Butler Yeats",
+      "context": "the Irish poets — Yeats — the English poets",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Irving Layton",
+      "context": "we had our own little group of poets in Montreal years back, all very fine, one man especially standing out — I think one of the finest writers in the language — Irving Leighton",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 8,
+    "sources_checked": 5
+  }
+}

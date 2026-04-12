@@ -1,0 +1,23 @@
+{
+  "influences": [
+    {
+      "name": "Bob Dylan",
+      "context": "We knew that Lou had a strong Dylan influence from when he was at Syracuse in college and his band played Dylan songs",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "John Cale",
+      "context": "This is the bridge where John's influence is in there.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "La Monte Young",
+      "context": "Obviously, John Cale was doing all sorts of stuff in that vein with La Monte Young, so it wasn't surprising that it existed",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 3,
+    "sources_checked": 4
+  }
+}

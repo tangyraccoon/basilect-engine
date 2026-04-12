@@ -1,0 +1,23 @@
+{
+  "influences": [
+    {
+      "name": "Classic rock, new wave, and punk artists",
+      "context": "He grew up listening to a wide range of music, including classic rock, new wave, and punk, which would later influence his songwriting style.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Phil Quartararo",
+      "context": "I really only had one man in the music business in my entire history in the music business that was that man for me. It was Phil Quartararo, who I'm still friends with even though he's only tangentially still in the business... He was the only man who would give me his word and follow through on his word and not inconsequentially he was at the helm of my most productive and successful period, because I needed someone to be that person.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Rick Rubin",
+      "context": "That's what a producer like Rick Rubin afforded me on the last record. He had a clear vision of what I was trying to say and did it in a way that is instantly recognizable. I bow down to that because I haven't sorted that out in myself—where I can both be a vicious raconteur at a cellular DNA level and then four steps down the road flip and be a populist.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 3,
+    "sources_checked": 4
+  }
+}

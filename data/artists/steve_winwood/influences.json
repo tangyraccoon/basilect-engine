@@ -1,0 +1,33 @@
+{
+  "influences": [
+    {
+      "name": "Eric Clapton",
+      "context": "Eric and I had met in the early days when he was playing with John Mayall and I was playing with the Spencer Davis Group. He took me under his wing; he introduced me to his mates and we listened to records together",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "T-Bone Walker",
+      "context": "before Steve Winwood was 15 (having played guitar in his dad's band when he was nine) he'd played keyboards with some of the pillars of blues, including T-Bone Walker, Sonny Boy Williamson, Memphis Slim and John Lee Hooker",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Sonny Boy Williamson",
+      "context": "before Steve Winwood was 15 (having played guitar in his dad's band when he was nine) he'd played keyboards with some of the pillars of blues, including T-Bone Walker, Sonny Boy Williamson, Memphis Slim and John Lee Hooker",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Memphis Slim",
+      "context": "before Steve Winwood was 15 (having played guitar in his dad's band when he was nine) he'd played keyboards with some of the pillars of blues, including T-Bone Walker, Sonny Boy Williamson, Memphis Slim and John Lee Hooker",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "John Lee Hooker",
+      "context": "before Steve Winwood was 15 (having played guitar in his dad's band when he was nine) he'd played keyboards with some of the pillars of blues, including T-Bone Walker, Sonny Boy Williamson, Memphis Slim and John Lee Hooker",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 5,
+    "sources_checked": 5
+  }
+}

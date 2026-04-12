@@ -1,0 +1,49 @@
+{
+  "artist_id": "maroon_5",
+  "artist_name": "Maroon 5",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T18:17:35.600534+00:00",
+      "result": "6 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T18:17:40.588140+00:00",
+      "result": "6/6 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T18:17:52.568429+00:00",
+      "result": "10 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T18:17:57.294971+00:00",
+      "result": "8 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T18:18:14.595941+00:00",
+      "result": "6/8 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T18:18:30.054882+00:00",
+      "result": "19 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T18:18:39.538778+00:00",
+      "result": "0 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T18:19:06.803974+00:00",
+      "result": "32 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-12T18:19:06.804042+00:00"
+}

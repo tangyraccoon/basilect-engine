@@ -1,0 +1,28 @@
+{
+  "influences": [
+    {
+      "name": "Blink-182",
+      "context": "My first concert ever was a co-headlining show with Blink-182 and No Doubt. I was obsessed with Blink. I knew how to play the majority of their catalog, dressed like them, got my ears pierced, and grew out some emo bangs.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Kid Koala",
+      "context": "My cousin is a multi-versed artist named Kid Koala. He helped me realize that I have all the tools to make music, and release it independently. He helped me understand the power of deadlines, and encouraged me that my best work is always ahead of me, so I just need to keep moving forward. Instilling these values into my psyche, led to me getting the job done.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Beatles",
+      "context": "Childhood Music: Beatles, Dylan, and Irish Trad Influences",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Bob Dylan",
+      "context": "Childhood Music: Beatles, Dylan, and Irish Trad Influences",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 4,
+    "sources_checked": 4
+  }
+}

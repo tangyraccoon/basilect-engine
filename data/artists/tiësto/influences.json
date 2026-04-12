@@ -1,0 +1,28 @@
+{
+  "influences": [
+    {
+      "name": "Fisher",
+      "context": "Guys like Fisher, they put uplifting House on the map.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Kanye West",
+      "context": "I was a little starstruck when I met Kanye West. One time he had just done an award show in Vegas and after we went to his dressing room. He sat down and he played some new tracks. He played me the whole [Life of] Pablo album, from start to finish.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Iron Maiden",
+      "context": "He mentions classic rockers Iron Maiden, whom Tiësto calls a \"childhood favorite\"",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Elvis Presley",
+      "context": "notes his love for Elvis Presley. \"Perhaps because of my connection to Las Vegas, I love the music of Elvis,\" says the producer, who has played several Vegas nightclubs throughout his career. \"He's one of my all time favorites.\"",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 4,
+    "sources_checked": 5
+  }
+}

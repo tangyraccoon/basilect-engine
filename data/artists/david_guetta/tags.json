@@ -1,0 +1,146 @@
+{
+  "tags": [
+    {
+      "tag": "collaborative",
+      "category": "philosophy",
+      "weight": 1.0,
+      "raw_score": 17
+    },
+    {
+      "tag": "hybrid_production",
+      "category": "approach",
+      "weight": 0.882,
+      "raw_score": 15
+    },
+    {
+      "tag": "collaborative_production",
+      "category": "approach",
+      "weight": 0.824,
+      "raw_score": 14
+    },
+    {
+      "tag": "playful",
+      "category": "philosophy",
+      "weight": 0.706,
+      "raw_score": 12
+    },
+    {
+      "tag": "vocal_focused",
+      "category": "approach",
+      "weight": 0.647,
+      "raw_score": 11
+    },
+    {
+      "tag": "emotional",
+      "category": "philosophy",
+      "weight": 0.588,
+      "raw_score": 10
+    },
+    {
+      "tag": "digital",
+      "category": "approach",
+      "weight": 0.529,
+      "raw_score": 9
+    },
+    {
+      "tag": "intuitive",
+      "category": "philosophy",
+      "weight": 0.529,
+      "raw_score": 9
+    },
+    {
+      "tag": "live_performance",
+      "category": "approach",
+      "weight": 0.471,
+      "raw_score": 8
+    },
+    {
+      "tag": "studio_as_instrument",
+      "category": "approach",
+      "weight": 0.412,
+      "raw_score": 7
+    },
+    {
+      "tag": "hi_fi",
+      "category": "approach",
+      "weight": 0.353,
+      "raw_score": 6
+    },
+    {
+      "tag": "electronic",
+      "category": "approach",
+      "weight": 0.353,
+      "raw_score": 6
+    },
+    {
+      "tag": "synthesis",
+      "category": "process",
+      "weight": 0.235,
+      "raw_score": 4
+    },
+    {
+      "tag": "soul_infusion",
+      "category": "philosophy",
+      "weight": 0.176,
+      "raw_score": 3
+    },
+    {
+      "tag": "genre_fusion",
+      "category": "approach",
+      "weight": 0.176,
+      "raw_score": 3
+    },
+    {
+      "tag": "sampling",
+      "category": "process",
+      "weight": 0.176,
+      "raw_score": 3
+    },
+    {
+      "tag": "found_sound",
+      "category": "process",
+      "weight": 0.176,
+      "raw_score": 3
+    },
+    {
+      "tag": "tempo_manipulation",
+      "category": "process",
+      "weight": 0.176,
+      "raw_score": 3
+    },
+    {
+      "tag": "short_form",
+      "category": "approach",
+      "weight": 0.118,
+      "raw_score": 2
+    },
+    {
+      "tag": "layering",
+      "category": "process",
+      "weight": 0.118,
+      "raw_score": 2
+    },
+    {
+      "tag": "maximalism",
+      "category": "process",
+      "weight": 0.118,
+      "raw_score": 2
+    },
+    {
+      "tag": "orchestration",
+      "category": "process",
+      "weight": 0.118,
+      "raw_score": 2
+    },
+    {
+      "tag": "vocal_processing",
+      "category": "process",
+      "weight": 0.059,
+      "raw_score": 1
+    }
+  ],
+  "meta": {
+    "count": 23,
+    "sources_checked": 9
+  }
+}

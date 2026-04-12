@@ -1,0 +1,18 @@
+{
+  "influences": [
+    {
+      "name": "The Beatles",
+      "context": "It was the Beatles on the Jack Paar Show, before Ed Sullivan, that changed his life.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Elvis Presley",
+      "context": "Whether snarling like Elvis on \"Don't Be Cruel\" or channeling Beatles-esque melancholy, he treated each track like a role.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 2,
+    "sources_checked": 1
+  }
+}

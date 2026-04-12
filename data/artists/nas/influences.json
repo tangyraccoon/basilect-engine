@@ -1,0 +1,38 @@
+{
+  "influences": [
+    {
+      "name": "Rakim",
+      "context": "you've been open about your inspirations, like Rakim, MC Shan, Kool G Rap, and more. Who are some of the first people who helped you hone your craft as a lyricist",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "MC Shan",
+      "context": "you've been open about your inspirations, like Rakim, MC Shan, Kool G Rap, and more. Who are some of the first people who helped you hone your craft as a lyricist",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Kool G Rap",
+      "context": "you've been open about your inspirations, like Rakim, MC Shan, Kool G Rap, and more. Who are some of the first people who helped you hone your craft as a lyricist",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Berry Gordy",
+      "context": "Since I was a kid, I was looking up Motown. Berry Gordy owns Motown. What type of person is he? What makes him tick? I wanted to know how a lot of things work in music",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Rakim, MC Shan, Kool G Rap",
+      "context": "It was all of those guys. It was all of those guys who were showing me where to go with it until I found my voice.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Kanye West",
+      "context": "We both grew up idolizing so many of Kanye's iconic albums and so many of his moves within those. Being able to be a part of something that Kanye has touched is just…the middle school me is just like…it's just one of those things that's truly a dream come true.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 6,
+    "sources_checked": 4
+  }
+}

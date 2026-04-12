@@ -1,0 +1,53 @@
+{
+  "influences": [
+    {
+      "name": "A.G. Cook",
+      "context": "like A.G. Cook [the producer who heads PC Music] is one of those people. He is on and creating all the time and doesn't stop, but, like, we're on the same page, you know?",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Various rave performers",
+      "context": "I learned how to perform from all the people who were playing at those raves. I think I'm a really fucking good performer and I don't think I would be without those other artists and people who I was watching feverously.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Jack Antonoff",
+      "context": "She's also partnering with producer Jack Antonoff to score the Anne Hathaway movie Mother Mary.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Grimes",
+      "context": "With musical influences such as Grimes, Niki & the Dove, The Spice Girls, Uffie, and Britney Spears, Charli XCX began releasing her music on MySpace as a teenager.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Niki & the Dove",
+      "context": "With musical influences such as Grimes, Niki & the Dove, The Spice Girls, Uffie, and Britney Spears, Charli XCX began releasing her music on MySpace as a teenager.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Spice Girls",
+      "context": "With musical influences such as Grimes, Niki & the Dove, The Spice Girls, Uffie, and Britney Spears, Charli XCX began releasing her music on MySpace as a teenager.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Uffie",
+      "context": "With musical influences such as Grimes, Niki & the Dove, The Spice Girls, Uffie, and Britney Spears, Charli XCX began releasing her music on MySpace as a teenager.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Britney Spears",
+      "context": "With musical influences such as Grimes, Niki & the Dove, The Spice Girls, Uffie, and Britney Spears, Charli XCX began releasing her music on MySpace as a teenager.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "George Daniel",
+      "context": "Now that I'm in a relationship with another musician he's influenced me a lot with his process and how he and his band work… I used to be very, 'Quick, quick, quick, album a month, let's go.' Now I'm like, 'Oh, maybe it's cool to take some time and live in the music that you create.'",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 9,
+    "sources_checked": 4
+  }
+}

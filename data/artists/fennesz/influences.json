@@ -1,0 +1,43 @@
+{
+  "influences": [
+    {
+      "name": "Miles Davis",
+      "context": "I have the biggest admiration for jazz musicians like Miles Davis or Wes Montgomery who sometimes played just a few notes – and these worked so well because of the quality of sound.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Wes Montgomery",
+      "context": "I have the biggest admiration for jazz musicians like Miles Davis or Wes Montgomery who sometimes played just a few notes – and these worked so well because of the quality of sound.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Klaus Filip",
+      "context": "What he was able to do with Max and the sampler was incredible.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Neil Young",
+      "context": "I hear you are a Neil Young fan. \"Everybody Knows This is Nowhere\" or \"Harvest\"? Everybody Knows This is Nowhere. I think my favorite Neil Young albums are the self titled \"Neil Young\", the one with Joni Mitchel's portrait painting on the cover, and On the Beach.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Mike Patton",
+      "context": "I learn so much from working with other artists. With Mike Patton for example … we're touring together in Europe and we're doing live shows, completely improvised. There's so much energy.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Ryiuchi Sakamoto",
+      "context": "Fennesz's work with Ryiuchi Sakamoto has taught the value of silence.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Christian Fennesz",
+      "context": "Christian Fennesz, you are the straw that broke this camel's back.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 7,
+    "sources_checked": 3
+  }
+}

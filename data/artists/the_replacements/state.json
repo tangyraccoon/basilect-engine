@@ -1,0 +1,49 @@
+{
+  "artist_id": "the_replacements",
+  "artist_name": "The Replacements",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T14:41:37.541659+00:00",
+      "result": "1 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T14:41:38.573164+00:00",
+      "result": "0/1 scraped"
+    },
+    "interview_extract": {
+      "status": "skipped",
+      "timestamp": "2026-04-12T14:41:39.081501+00:00",
+      "result": "failed — skipping to unblock"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T14:41:43.163587+00:00",
+      "result": "8 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T14:41:48.527518+00:00",
+      "result": "5/8 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T14:42:01.452423+00:00",
+      "result": "20 passages"
+    },
+    "influence_extract": {
+      "status": "skipped",
+      "timestamp": "2026-04-12T14:42:01.959942+00:00",
+      "result": "no scraped text"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T14:42:12.276781+00:00",
+      "result": "25 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-12T14:42:12.276851+00:00"
+}

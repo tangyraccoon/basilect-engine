@@ -1,0 +1,49 @@
+{
+  "artist_id": "boa",
+  "artist_name": "BoA",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T14:36:38.527135+00:00",
+      "result": "6 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T14:36:46.692325+00:00",
+      "result": "3/6 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T14:37:00.386348+00:00",
+      "result": "13 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T14:37:04.852414+00:00",
+      "result": "8 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T14:37:07.172433+00:00",
+      "result": "5/8 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T14:37:30.271778+00:00",
+      "result": "33 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T14:37:40.015711+00:00",
+      "result": "19 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T14:37:59.659514+00:00",
+      "result": "32 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-12T14:37:59.659589+00:00"
+}

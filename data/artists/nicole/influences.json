@@ -1,0 +1,73 @@
+{
+  "influences": [
+    {
+      "name": "his father",
+      "context": "under the guidance of his father, found his lifelong voice in the bass",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "JLo",
+      "context": "Some of the biggest influences in my early musical life were artists like JLo, Britney, Ariana Grande and Demi Lovato. I admired their ability to tell stories through music, their energy in the music, the quality of their voice tones and how they connect with fans.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Britney",
+      "context": "Some of the biggest influences in my early musical life were artists like JLo, Britney, Ariana Grande and Demi Lovato. I admired their ability to tell stories through music, their energy in the music, the quality of their voice tones and how they connect with fans.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Ariana Grande",
+      "context": "Some of the biggest influences in my early musical life were artists like JLo, Britney, Ariana Grande and Demi Lovato. I admired their ability to tell stories through music, their energy in the music, the quality of their voice tones and how they connect with fans.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Demi Lovato",
+      "context": "Some of the biggest influences in my early musical life were artists like JLo, Britney, Ariana Grande and Demi Lovato. I admired their ability to tell stories through music, their energy in the music, the quality of their voice tones and how they connect with fans.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "R&B style artists",
+      "context": "I started listening to a lot of R&B style music when I was in my later teens and so listening to this for years and years is very similar to practicing them years and years in your head.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Aaron Dessner and Bryce Dessner",
+      "context": "When did Aaron and Byrce [Dessner] get involved? Was that collaboration always in place? NR: They were my first creative collaborators on the film.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Elliot Smith",
+      "context": "I love Elliot Smith, but I've seen that article so many times, the 22 year-old wunderkind guy who's this young, straight, white guy who's such a genius.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Mon Laferte",
+      "context": "I became obsessed with everything she said. I said, 'she's talking about me.' Like when you hear a song and it says exactly what you always wanted to hear, what you always wanted to say",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Bizarrap",
+      "context": "Something I learned from him – without him telling me, just by knowing him – is that sometimes if you don't plan things, they don't work out the same way. When I met Biza, he had already planned what was going to happen this year, and the next.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Christina Aguilera",
+      "context": "I grew up seeing Xtina on MTV",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Eladio Carrión",
+      "context": "she's always admired his music. What I noticed about him, which I actually like, is that he takes his time. I think I learned a lot from that.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Los Ángeles Azules",
+      "context": "They don't know it, but they are part of me, because, my family, we have always listened to them at parties",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 13,
+    "sources_checked": 5
+  }
+}

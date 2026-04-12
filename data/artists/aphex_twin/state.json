@@ -1,0 +1,49 @@
+{
+  "artist_id": "aphex_twin",
+  "artist_name": "Aphex Twin",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-11T19:21:46.970687+00:00",
+      "result": "7 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-11T19:21:49.097209+00:00",
+      "result": "4/7 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T19:22:06.763406+00:00",
+      "result": "10 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-11T19:22:11.741242+00:00",
+      "result": "10 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-11T19:22:13.982554+00:00",
+      "result": "9/10 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T19:25:01.429818+00:00",
+      "result": "128 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T19:25:08.069443+00:00",
+      "result": "0 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T19:25:42.057284+00:00",
+      "result": "53 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-11T19:25:42.057409+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "quotes": [
+    {
+      "text": "Music will be a great part of it, because that's what our lives have been about. During some of the most politically transitional moments in history, we were there.",
+      "publication": "Variety",
+      "date": "July 31"
+    }
+  ],
+  "corpus_meta": {
+    "quote_count": 1,
+    "source_count": 1,
+    "date_range": [
+      "July",
+      "July"
+    ],
+    "corpus_valid": false
+  }
+}

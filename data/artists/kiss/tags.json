@@ -1,0 +1,248 @@
+{
+  "tags": [
+    {
+      "tag": "live_performance",
+      "category": "approach",
+      "weight": 1.0,
+      "raw_score": 18
+    },
+    {
+      "tag": "playful",
+      "category": "philosophy",
+      "weight": 0.778,
+      "raw_score": 14
+    },
+    {
+      "tag": "collaborative",
+      "category": "philosophy",
+      "weight": 0.667,
+      "raw_score": 12
+    },
+    {
+      "tag": "collaborative_production",
+      "category": "approach",
+      "weight": 0.667,
+      "raw_score": 12
+    },
+    {
+      "tag": "multi_instrumental",
+      "category": "approach",
+      "weight": 0.611,
+      "raw_score": 11
+    },
+    {
+      "tag": "conceptual",
+      "category": "philosophy",
+      "weight": 0.444,
+      "raw_score": 8
+    },
+    {
+      "tag": "theatrical",
+      "category": "approach",
+      "weight": 0.444,
+      "raw_score": 8
+    },
+    {
+      "tag": "emotional",
+      "category": "philosophy",
+      "weight": 0.389,
+      "raw_score": 7
+    },
+    {
+      "tag": "commercial",
+      "category": "philosophy",
+      "weight": 0.333,
+      "raw_score": 6
+    },
+    {
+      "tag": "vocal_focused",
+      "category": "approach",
+      "weight": 0.333,
+      "raw_score": 6
+    },
+    {
+      "tag": "synthesis",
+      "category": "process",
+      "weight": 0.333,
+      "raw_score": 6
+    },
+    {
+      "tag": "hi_fi",
+      "category": "approach",
+      "weight": 0.333,
+      "raw_score": 6
+    },
+    {
+      "tag": "intuitive",
+      "category": "philosophy",
+      "weight": 0.278,
+      "raw_score": 5
+    },
+    {
+      "tag": "immersive",
+      "category": "approach",
+      "weight": 0.278,
+      "raw_score": 5
+    },
+    {
+      "tag": "studio_as_instrument",
+      "category": "approach",
+      "weight": 0.278,
+      "raw_score": 5
+    },
+    {
+      "tag": "maximalism",
+      "category": "process",
+      "weight": 0.222,
+      "raw_score": 4
+    },
+    {
+      "tag": "confrontational",
+      "category": "philosophy",
+      "weight": 0.222,
+      "raw_score": 4
+    },
+    {
+      "tag": "image-driven",
+      "category": "philosophy",
+      "weight": 0.167,
+      "raw_score": 3
+    },
+    {
+      "tag": "lo_fi",
+      "category": "approach",
+      "weight": 0.167,
+      "raw_score": 3
+    },
+    {
+      "tag": "diy",
+      "category": "philosophy",
+      "weight": 0.167,
+      "raw_score": 3
+    },
+    {
+      "tag": "autobiographical",
+      "category": "philosophy",
+      "weight": 0.167,
+      "raw_score": 3
+    },
+    {
+      "tag": "attention_to_detail",
+      "category": "philosophy",
+      "weight": 0.167,
+      "raw_score": 3
+    },
+    {
+      "tag": "traditional",
+      "category": "philosophy",
+      "weight": 0.167,
+      "raw_score": 3
+    },
+    {
+      "tag": "hybrid_production",
+      "category": "approach",
+      "weight": 0.167,
+      "raw_score": 3
+    },
+    {
+      "tag": "image_driven",
+      "category": "philosophy",
+      "weight": 0.167,
+      "raw_score": 3
+    },
+    {
+      "tag": "fun-focused",
+      "category": "philosophy",
+      "weight": 0.167,
+      "raw_score": 3
+    },
+    {
+      "tag": "catchy",
+      "category": "process",
+      "weight": 0.167,
+      "raw_score": 3
+    },
+    {
+      "tag": "guitar-heavy",
+      "category": "approach",
+      "weight": 0.167,
+      "raw_score": 3
+    },
+    {
+      "tag": "texture",
+      "category": "process",
+      "weight": 0.167,
+      "raw_score": 3
+    },
+    {
+      "tag": "electronic",
+      "category": "approach",
+      "weight": 0.167,
+      "raw_score": 3
+    },
+    {
+      "tag": "aesthetic_driven",
+      "category": "philosophy",
+      "weight": 0.167,
+      "raw_score": 3
+    },
+    {
+      "tag": "experimental",
+      "category": "philosophy",
+      "weight": 0.111,
+      "raw_score": 2
+    },
+    {
+      "tag": "analog",
+      "category": "approach",
+      "weight": 0.111,
+      "raw_score": 2
+    },
+    {
+      "tag": "therapeutic",
+      "category": "philosophy",
+      "weight": 0.111,
+      "raw_score": 2
+    },
+    {
+      "tag": "narrative",
+      "category": "philosophy",
+      "weight": 0.111,
+      "raw_score": 2
+    },
+    {
+      "tag": "populist",
+      "category": "philosophy",
+      "weight": 0.111,
+      "raw_score": 2
+    },
+    {
+      "tag": "straightforward",
+      "category": "philosophy",
+      "weight": 0.111,
+      "raw_score": 2
+    },
+    {
+      "tag": "accessible",
+      "category": "philosophy",
+      "weight": 0.111,
+      "raw_score": 2
+    },
+    {
+      "tag": "layering",
+      "category": "process",
+      "weight": 0.111,
+      "raw_score": 2
+    },
+    {
+      "tag": "instrumental_focused",
+      "category": "approach",
+      "weight": 0.111,
+      "raw_score": 2
+    }
+  ],
+  "meta": {
+    "count": 40,
+    "sources_checked": 10
+  }
+}

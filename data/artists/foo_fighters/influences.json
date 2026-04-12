@@ -1,0 +1,43 @@
+{
+  "influences": [
+    {
+      "name": "Husker Du",
+      "context": "The track also finds Grohl offering a nod to one of his favorite bands, Husker Du, with the lyric, 'I'm a new day rising.'",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Surfaris",
+      "context": "The middle section sounded like 'Wipe Out' [by the Surfaris].",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Stewart Copeland",
+      "context": "When I was young, someone played me the Klark Kent record that Stewart Copeland had done. I thought how cool that he could make a record and people can listen to it objectively because it wasn't Stewart Copeland from The Police, it was Klark Kent. That's kind of what I wanted to do.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Gil Norton",
+      "context": "We hired Gil Norton to produce. He'd produced some of our favourite records: Pixies and Echo & The Bunnymen, stuff like that. Gil is awesome in that he fucking wrings you out. He wants every last drop of performance and song. It was intense. I learnt more from that guy than anyone.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Tom Petty",
+      "context": "Inspired by Tom Petty's solo work on She's The One, Grohl considered doing a soundtrack.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Naked Raygun",
+      "context": "Dave Grohl still remembers the first punk show he ever saw: Naked Raygun, in Chicago around 1982, at a little corner bar across from Wrigley Field called The Cubby Bear. 'They knew four chords and the singer was, like, on top of my head, and I was against the stage, and it was life-affirming, because I thought ... \"Oh my God! This is what I want to do,\"'",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Beatles",
+      "context": "I know how I felt when I listened to a Beatles song. Something about connecting to the music that made me feel great.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 7,
+    "sources_checked": 5
+  }
+}

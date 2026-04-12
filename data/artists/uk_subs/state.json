@@ -1,0 +1,49 @@
+{
+  "artist_id": "uk_subs",
+  "artist_name": "UK Subs",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:08:03.885362+00:00",
+      "result": "0 urls"
+    },
+    "interview_scrape": {
+      "status": "skipped",
+      "timestamp": "2026-04-12T17:08:04.391816+00:00",
+      "result": "failed — skipping to unblock"
+    },
+    "interview_extract": {
+      "status": "skipped",
+      "timestamp": "2026-04-12T17:08:04.395551+00:00",
+      "result": "failed — skipping to unblock"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:08:08.473443+00:00",
+      "result": "8 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:08:14.431056+00:00",
+      "result": "5/8 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:08:31.672753+00:00",
+      "result": "20 passages"
+    },
+    "influence_extract": {
+      "status": "skipped",
+      "timestamp": "2026-04-12T17:08:32.186772+00:00",
+      "result": "no sources.json"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:08:44.683384+00:00",
+      "result": "21 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-12T17:08:44.683472+00:00"
+}

@@ -1,0 +1,49 @@
+{
+  "artist_id": "george_harrison",
+  "artist_name": "George Harrison",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:20:21.379578+00:00",
+      "result": "6 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:20:27.509855+00:00",
+      "result": "6/6 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:20:39.616371+00:00",
+      "result": "7 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:20:44.385001+00:00",
+      "result": "8 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:20:46.828821+00:00",
+      "result": "4/8 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:21:08.263323+00:00",
+      "result": "21 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:21:20.914338+00:00",
+      "result": "8 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:21:44.423139+00:00",
+      "result": "33 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-12T16:21:44.423237+00:00"
+}

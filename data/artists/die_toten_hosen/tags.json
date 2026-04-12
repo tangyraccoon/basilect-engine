@@ -1,0 +1,116 @@
+{
+  "tags": [
+    {
+      "tag": "live_performance",
+      "category": "approach",
+      "weight": 1.0,
+      "raw_score": 13
+    },
+    {
+      "tag": "collaborative",
+      "category": "philosophy",
+      "weight": 0.615,
+      "raw_score": 8
+    },
+    {
+      "tag": "playful",
+      "category": "philosophy",
+      "weight": 0.615,
+      "raw_score": 8
+    },
+    {
+      "tag": "conceptual",
+      "category": "philosophy",
+      "weight": 0.462,
+      "raw_score": 6
+    },
+    {
+      "tag": "diy",
+      "category": "philosophy",
+      "weight": 0.385,
+      "raw_score": 5
+    },
+    {
+      "tag": "multi_instrumental",
+      "category": "approach",
+      "weight": 0.385,
+      "raw_score": 5
+    },
+    {
+      "tag": "vocal_focused",
+      "category": "approach",
+      "weight": 0.385,
+      "raw_score": 5
+    },
+    {
+      "tag": "confrontational",
+      "category": "philosophy",
+      "weight": 0.308,
+      "raw_score": 4
+    },
+    {
+      "tag": "hybrid",
+      "category": "philosophy",
+      "weight": 0.308,
+      "raw_score": 4
+    },
+    {
+      "tag": "political",
+      "category": "philosophy",
+      "weight": 0.308,
+      "raw_score": 4
+    },
+    {
+      "tag": "collaborative_production",
+      "category": "approach",
+      "weight": 0.231,
+      "raw_score": 3
+    },
+    {
+      "tag": "self_produced",
+      "category": "approach",
+      "weight": 0.231,
+      "raw_score": 3
+    },
+    {
+      "tag": "hybrid_production",
+      "category": "approach",
+      "weight": 0.231,
+      "raw_score": 3
+    },
+    {
+      "tag": "acoustic",
+      "category": "approach",
+      "weight": 0.154,
+      "raw_score": 2
+    },
+    {
+      "tag": "cover_based",
+      "category": "process",
+      "weight": 0.154,
+      "raw_score": 2
+    },
+    {
+      "tag": "anti_commercial",
+      "category": "philosophy",
+      "weight": 0.154,
+      "raw_score": 2
+    },
+    {
+      "tag": "narrative",
+      "category": "philosophy",
+      "weight": 0.154,
+      "raw_score": 2
+    },
+    {
+      "tag": "collage",
+      "category": "process",
+      "weight": 0.154,
+      "raw_score": 2
+    }
+  ],
+  "meta": {
+    "count": 18,
+    "sources_checked": 7
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "influences": [
+    {
+      "name": "George Duke",
+      "context": "He credits Duke with teaching him how to swing. 'George was one of the swingingest keyboard players that has ever touched the keyboard. I went to 'Duke university' to study swing!'",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Julio Martinez",
+      "context": "After his work with Duke, Jarreau launched into what he refers to as the next most important period in the development of his unique vocal style. 'I found this guitar player, Julio Martinez, and he and I became a duo,' says Jarreau, who began to feed his 'insane craving' to explore Brazilian music.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Billie Holiday",
+      "context": "Schooled in the jazz tradition that produced such scat singers as Billie Holiday and Nat \"King\" Cole",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Nat King Cole",
+      "context": "Schooled in the jazz tradition that produced such scat singers as Billie Holiday and Nat \"King\" Cole",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Patti Page",
+      "context": "He listened to everything from country music to the then-popular tunes of entertainers such as Patti Page, Frankie Lane, and the Four Freshmen",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Frankie Lane",
+      "context": "He listened to everything from country music to the then-popular tunes of entertainers such as Patti Page, Frankie Lane, and the Four Freshmen",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Four Freshmen",
+      "context": "He listened to everything from country music to the then-popular tunes of entertainers such as Patti Page, Frankie Lane, and the Four Freshmen, whose harmonizing ability he particularly admired",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "John Hendricks",
+      "context": "Jarreau is credited with both continuing and adapting the tradition of such greats as Billie Holiday, Nat \"King\" Cole, John Hendricks, and Dave Lambert",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Dave Lambert",
+      "context": "Jarreau is credited with both continuing and adapting the tradition of such greats as Billie Holiday, Nat \"King\" Cole, John Hendricks, and Dave Lambert",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Jon Hendricks",
+      "context": "Jon Hendricks and Dave Lambert have most often been identified as Jarreau's primary influences",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Dave Brubeck",
+      "context": "it included a song that would become one of his trademarks, a vocal version of the Dave Brubeck standard \"Take Five\"",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Tommy LiPuma",
+      "context": "Jarreau was reunited with his old friend and producer Tommy LiPuma when he signed on with GRP Records at the close of the twentieth century...Jarreau seemed delighted to be working again with the man who had produced his 1970s recordings Glow and Look to the Rainbow",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 12,
+    "sources_checked": 4
+  }
+}

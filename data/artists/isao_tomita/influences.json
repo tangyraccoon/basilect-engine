@@ -1,0 +1,48 @@
+{
+  "influences": [
+    {
+      "name": "Isao Tomita",
+      "context": "I heard and loved the theme song for a special effects TV show. It was performed by a children's choir, and there was a very strange sound in the interlude. The sound left a stronger impression on me than the melody. I later learned that the song was composed by Isao Tomita and that the strange sound was made by slide guitar.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "New York Dolls",
+      "context": "Rather than people, I would not have started music without the NY punk scene from around 1975 and the London punk scene that followed. The New York Dolls concert I saw in Japan in 1975 was my first punk experience.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Tina Weymouth",
+      "context": "But Tina Weymouth of Talking Heads was significant. Her bass was the core of Talking Heads' music, and her image as an artist was very new to me at the time.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Ikue Mori",
+      "context": "Then there is Ikue Mori, the drummer of DNA. Her playing set me free from the stereotype that drums are for rhythm.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Kenji Miyazawa",
+      "context": "Tomita, as a child, was greatly influenced by the works of Miyazawa.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Wendy Carlos",
+      "context": "On the website tomitaisao.net, you credit Switched On Bach, by Wendy Carlos as the catalyst that drove you toward wanting to create synthesizer oriented music.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Gustav Holst",
+      "context": "Would you credit Holst's, Planets, composed between 1914, and 1916, as the inspiration that moved you into the direction of this new futuristic medium? It was most definitely The Planets.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Rick Wakeman",
+      "context": "Rick Wakeman's synthesizer work on the Yes, And You and I album was one of the pieces of music that drew me into the world of synthesizers.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 8,
+    "sources_checked": 4
+  }
+}

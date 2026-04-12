@@ -1,0 +1,49 @@
+{
+  "artist_id": "hvob",
+  "artist_name": "HVOB",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T14:40:49.250181+00:00",
+      "result": "3 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T14:40:49.762476+00:00",
+      "result": "3/3 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T14:41:01.656571+00:00",
+      "result": "13 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T14:41:06.012181+00:00",
+      "result": "9 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T14:41:27.199693+00:00",
+      "result": "4/9 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T14:41:38.791890+00:00",
+      "result": "11 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T14:41:46.187503+00:00",
+      "result": "7 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T14:42:01.534045+00:00",
+      "result": "26 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-12T14:42:01.534206+00:00"
+}

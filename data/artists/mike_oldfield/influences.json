@@ -1,0 +1,28 @@
+{
+  "influences": [
+    {
+      "name": "Mike Oldfield",
+      "context": "I've always been a huge Mike Oldfield fan from a very early age, it's why I got into making music, and learning to play all these instruments.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Paul Kossof",
+      "context": "The same as Mike was influenced by Paul Kossof from Free and Randy California from Spirit.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Randy California",
+      "context": "The same as Mike was influenced by Paul Kossof from Free and Randy California from Spirit.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "David Bedford",
+      "context": "I have also recorded a few shorter pieces, one is another HORROR film theme from the 60's, the other is a David Bedford track, which I love.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 4,
+    "sources_checked": 4
+  }
+}

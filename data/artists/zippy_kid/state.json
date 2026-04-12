@@ -1,0 +1,49 @@
+{
+  "artist_id": "zippy_kid",
+  "artist_name": "Zippy Kid",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:36:13.811652+00:00",
+      "result": "0 urls"
+    },
+    "interview_scrape": {
+      "status": "skipped",
+      "timestamp": "2026-04-12T16:36:14.323130+00:00",
+      "result": "failed — skipping to unblock"
+    },
+    "interview_extract": {
+      "status": "skipped",
+      "timestamp": "2026-04-12T16:36:14.324815+00:00",
+      "result": "failed — skipping to unblock"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:36:18.105071+00:00",
+      "result": "6 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:36:21.439532+00:00",
+      "result": "4/6 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:36:31.619594+00:00",
+      "result": "0 passages"
+    },
+    "influence_extract": {
+      "status": "skipped",
+      "timestamp": "2026-04-12T16:36:32.132516+00:00",
+      "result": "no sources.json"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:36:39.453554+00:00",
+      "result": "10 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-12T16:36:39.453640+00:00"
+}

@@ -1,0 +1,33 @@
+{
+  "influences": [
+    {
+      "name": "Bob Moore",
+      "context": "Part of this work mentality perhaps came from his father, Bob Moore, a Nashville session musician who was featured on countless country and early rock recordings. R. Stevie witnessed a massive quantity of recording early on in his life and later went on to produce his own impressive volume of work.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Jad Fair",
+      "context": "We met at Maxwell's in Hoboken at one of my gigs because he was friends with Jad Fair of Half Japanese.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Robert Fripp",
+      "context": "Robert Fripp of King Crimson and Brian Eno were big on that as a way of creating art itself — of spontaneity and happy accidents.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Brian Eno",
+      "context": "Robert Fripp of King Crimson and Brian Eno were big on that as a way of creating art itself — of spontaneity and happy accidents.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Joe Zinkan",
+      "context": "This interview has a special meaning to me since it helped me discover one of my favorite slap bassists of all time, Joe Zinkan.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 5,
+    "sources_checked": 5
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "influences": [
+    {
+      "name": "Spiritualized",
+      "context": "At this time we were listening to [Spiritualized's] Lazer Guided Melodies, and Ride, and the first two Verve albums. That kind of stuff.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Ride",
+      "context": "At this time we were listening to [Spiritualized's] Lazer Guided Melodies, and Ride, and the first two Verve albums. That kind of stuff.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Verve",
+      "context": "At this time we were listening to [Spiritualized's] Lazer Guided Melodies, and Ride, and the first two Verve albums. That kind of stuff.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "My Bloody Valentine",
+      "context": "And Loveless, My Bloody Valentine.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Smashing Pumpkins",
+      "context": "Then for one year after that, we were trying to get back to that sound, but we were playing just like Smashing Pumpkins.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Duran Duran",
+      "context": "he babbles enthusiastically about his teenage obsession with Duran Duran ('I had a big poster of Andy Taylor on my wall!')",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 6,
+    "sources_checked": 3
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "artist_id": "crowded_house",
+  "artist_name": "Crowded House",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:56:16.033326+00:00",
+      "result": "3 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:56:18.261488+00:00",
+      "result": "2/3 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:56:25.363327+00:00",
+      "result": "6 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:56:29.993340+00:00",
+      "result": "8 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:56:34.045437+00:00",
+      "result": "3/8 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:56:51.360382+00:00",
+      "result": "15 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:56:56.279206+00:00",
+      "result": "2 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:57:08.846028+00:00",
+      "result": "22 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-12T17:57:08.846075+00:00"
+}

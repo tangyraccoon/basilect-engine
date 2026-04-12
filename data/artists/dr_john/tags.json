@@ -1,0 +1,146 @@
+{
+  "tags": [
+    {
+      "tag": "spiritual",
+      "category": "philosophy",
+      "weight": 1.0,
+      "raw_score": 8
+    },
+    {
+      "tag": "playful",
+      "category": "philosophy",
+      "weight": 0.75,
+      "raw_score": 6
+    },
+    {
+      "tag": "orchestration",
+      "category": "process",
+      "weight": 0.75,
+      "raw_score": 6
+    },
+    {
+      "tag": "multi_instrumental",
+      "category": "approach",
+      "weight": 0.625,
+      "raw_score": 5
+    },
+    {
+      "tag": "collaborative_production",
+      "category": "approach",
+      "weight": 0.625,
+      "raw_score": 5
+    },
+    {
+      "tag": "theatrical",
+      "category": "approach",
+      "weight": 0.375,
+      "raw_score": 3
+    },
+    {
+      "tag": "hybrid",
+      "category": "philosophy",
+      "weight": 0.375,
+      "raw_score": 3
+    },
+    {
+      "tag": "live_performance",
+      "category": "approach",
+      "weight": 0.375,
+      "raw_score": 3
+    },
+    {
+      "tag": "layering",
+      "category": "process",
+      "weight": 0.375,
+      "raw_score": 3
+    },
+    {
+      "tag": "polyrhythm",
+      "category": "process",
+      "weight": 0.375,
+      "raw_score": 3
+    },
+    {
+      "tag": "vocal_processing",
+      "category": "process",
+      "weight": 0.375,
+      "raw_score": 3
+    },
+    {
+      "tag": "ritualistic",
+      "category": "philosophy",
+      "weight": 0.375,
+      "raw_score": 3
+    },
+    {
+      "tag": "political",
+      "category": "philosophy",
+      "weight": 0.375,
+      "raw_score": 3
+    },
+    {
+      "tag": "experimental",
+      "category": "philosophy",
+      "weight": 0.375,
+      "raw_score": 3
+    },
+    {
+      "tag": "emotional",
+      "category": "philosophy",
+      "weight": 0.375,
+      "raw_score": 3
+    },
+    {
+      "tag": "maximalism",
+      "category": "process",
+      "weight": 0.25,
+      "raw_score": 2
+    },
+    {
+      "tag": "acoustic",
+      "category": "approach",
+      "weight": 0.25,
+      "raw_score": 2
+    },
+    {
+      "tag": "instrumental_focused",
+      "category": "approach",
+      "weight": 0.25,
+      "raw_score": 2
+    },
+    {
+      "tag": "long_form",
+      "category": "approach",
+      "weight": 0.25,
+      "raw_score": 2
+    },
+    {
+      "tag": "hybrid_production",
+      "category": "approach",
+      "weight": 0.25,
+      "raw_score": 2
+    },
+    {
+      "tag": "confrontational",
+      "category": "philosophy",
+      "weight": 0.25,
+      "raw_score": 2
+    },
+    {
+      "tag": "traditional",
+      "category": "philosophy",
+      "weight": 0.25,
+      "raw_score": 2
+    },
+    {
+      "tag": "autobiographical",
+      "category": "philosophy",
+      "weight": 0.125,
+      "raw_score": 1
+    }
+  ],
+  "meta": {
+    "count": 23,
+    "sources_checked": 4
+  }
+}

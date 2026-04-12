@@ -1,0 +1,53 @@
+{
+  "influences": [
+    {
+      "name": "Jack Harlow",
+      "context": "Lopez recruited Chahayed after hearing Jack Harlow's GRAMMY-nominated No. 1 hit \"First Class,\" which he co-produced in 2022.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Babyface",
+      "context": "The Germany-born, Georgia-raised artist is influenced by singer/songwriters like Babyface, Tony Henry, Creedence Clearwater Revival, Lauryn Hill, and Sister Rosetta Tharpe.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Tony Henry",
+      "context": "The Germany-born, Georgia-raised artist is influenced by singer/songwriters like Babyface, Tony Henry, Creedence Clearwater Revival, Lauryn Hill, and Sister Rosetta Tharpe.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Creedence Clearwater Revival",
+      "context": "The Germany-born, Georgia-raised artist is influenced by singer/songwriters like Babyface, Tony Henry, Creedence Clearwater Revival, Lauryn Hill, and Sister Rosetta Tharpe.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Lauryn Hill",
+      "context": "The Germany-born, Georgia-raised artist is influenced by singer/songwriters like Babyface, Tony Henry, Creedence Clearwater Revival, Lauryn Hill, and Sister Rosetta Tharpe.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Sister Rosetta Tharpe",
+      "context": "The Germany-born, Georgia-raised artist is influenced by singer/songwriters like Babyface, Tony Henry, Creedence Clearwater Revival, Lauryn Hill, and Sister Rosetta Tharpe.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Trae Tha Truth",
+      "context": "It was her deep connection to the South — specifically, through Houston rapper Trae Tha Truth — that truly shaped her musical identity. \"He's one of the reasons that I'm how I am today,\"",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "James Fauntleroy",
+      "context": "She also counts GRAMMY-winning singer/songwriter/producer James Fauntleroy — who has worked with the likes of Bruno Mars, Justin Timberlake, and Rihanna — as a mentor, noting that he's shown support since they became Facebook friends in the late 2000s. \"[He gave me the confidence to say, 'I can do this,'\"",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Alton Ellis",
+      "context": "The funky and frisky \"Can't Get Enough\" includes a telling sample of Alton Ellis' \"I'm Still In Love With You.\"",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 9,
+    "sources_checked": 6
+  }
+}

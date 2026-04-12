@@ -1,0 +1,49 @@
+{
+  "artist_id": "peter_gabriel",
+  "artist_name": "Peter Gabriel",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:52:37.255995+00:00",
+      "result": "6 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:52:43.464216+00:00",
+      "result": "6/6 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:53:05.231534+00:00",
+      "result": "17 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:53:09.870034+00:00",
+      "result": "8 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:53:13.386253+00:00",
+      "result": "6/8 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:53:31.465129+00:00",
+      "result": "27 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:54:00.446272+00:00",
+      "result": "31 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:54:35.461211+00:00",
+      "result": "47 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-12T17:54:35.461372+00:00"
+}

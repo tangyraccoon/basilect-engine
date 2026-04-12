@@ -1,0 +1,49 @@
+{
+  "artist_id": "yoko_ono",
+  "artist_name": "Yoko Ono",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T14:33:31.856395+00:00",
+      "result": "8 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T14:33:33.784361+00:00",
+      "result": "4/8 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T14:33:53.085224+00:00",
+      "result": "20 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T14:34:01.066958+00:00",
+      "result": "12 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T14:34:04.119937+00:00",
+      "result": "10/12 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T14:34:18.478781+00:00",
+      "result": "18 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T14:34:27.358316+00:00",
+      "result": "9 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T14:35:04.441743+00:00",
+      "result": "45 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-12T14:35:04.441826+00:00"
+}

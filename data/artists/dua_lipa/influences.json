@@ -1,0 +1,18 @@
+{
+  "influences": [
+    {
+      "name": "Tame Impala",
+      "context": "As a massive fan of the Australian psych act Tame Impala, Lipa also tapped bandleader Kevin Parker to join her crew in London.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Kevin Parker",
+      "context": "As a massive fan of the Australian psych act Tame Impala, Lipa also tapped bandleader Kevin Parker to join her crew in London.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 2,
+    "sources_checked": 4
+  }
+}

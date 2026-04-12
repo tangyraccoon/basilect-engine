@@ -1,0 +1,48 @@
+{
+  "influences": [
+    {
+      "name": "Bernard Purdy",
+      "context": "And then you go listen to the old soul record and then you find out who the drummer was who played that drum break. And it's like, oh, it's Bernard Purdy or whatever. And then you look on Wikipedia and check out all the other records he made.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Arthur Baker",
+      "context": "There was Arthur Baker heard Fridge for the first time on your show and got in contact, and I ended up going to my first ever time in a recording studio, like a proper one was at Rack Studios with him",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Quick Space, Super Sport, Tortoise",
+      "context": "We'd go and see Quick Space Super Sport or Tortoise or something like this. And we'd come back and be like, hang on, what if we play the Smashing Pumpkins song for like 25 minutes?",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Medicine",
+      "context": "I was so into this band, Medicine, at the time. And I loved them and I like, really, I'd probably seen them around at the time, I was trying to make this sort of fierce of guitar noise that they did.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Underworld",
+      "context": "I was thinking about like Underworld and things like that where they do these tracks, they've got this like quite, this sort of pounding sort of tribal, just driving force going all the way through.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Burial",
+      "context": "I've always done it, but then working on the Burial Records, for instance, working on stuff with him where he invented so many levels of doing that in ways that people had never thought, like tons of subliminal little sounds and textures all the time.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Miles Davis",
+      "context": "I hear about Miles Davis or whatever and all these people just kept moving, you know? Like, and I really look back at people like that and the sort of music they left behind.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Nick Drake",
+      "context": "loads of my favorite recordings ever, like acoustic instruments, you know, to hear, to just hear like an acoustic, hear Nick Drake do Pink Moon. It's like an acoustic guitar and a voice. I'm like, this is the pinnacle.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 8,
+    "sources_checked": 6
+  }
+}

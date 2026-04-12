@@ -1,0 +1,58 @@
+{
+  "influences": [
+    {
+      "name": "Nietzsche",
+      "context": "Which philosophers did you study? I wasn't much of a Grecian but definitely Nietzsche, Heidegger and onwards was definitely pending touchstones.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Heidegger",
+      "context": "Which philosophers did you study? I wasn't much of a Grecian but definitely Nietzsche, Heidegger and onwards was definitely pending touchstones.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Kanye West",
+      "context": "Something that's industrial formations of the voice that is just eviscerated in auto-tune, destroyed and imploded. It became inspired by Kanye West and then inspired by Yeezus and it just slowly conflates and becomes so ridiculous",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Rezzett",
+      "context": "I've probably listened to Rezzett the most out of anyone over the past year. I put on their tapes, driving around LA and it works so well. I got into Rezzett through their Live In Japan mix tape.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Bones",
+      "context": "I have weird tastes, there's this rapper from LA called Bones who I listen to quite a bit.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Gucci Mane",
+      "context": "What you create into the world is different to what you consume, they satisfy different needs. It could be Gucci Mane one day and Rezzett the other.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Sonic Youth",
+      "context": "I grew up in Vancouver around the time when Nirvana was just cusping formative shows, things like Sonic Youth with Nirvana opening and the Bleach album era.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Nirvana",
+      "context": "I grew up in Vancouver around the time when Nirvana was just cusping formative shows, things like Sonic Youth with Nirvana opening and the Bleach album era.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Johan Johansen",
+      "context": "I sent it to Johan Johansen who wrote some choral arrangements – very small, tight motifs and we took that back to Iceland and recorded it there",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "grandmother",
+      "context": "My grandmother had an old piano I was drawn to.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 10,
+    "sources_checked": 2
+  }
+}

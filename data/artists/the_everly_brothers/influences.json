@@ -1,0 +1,23 @@
+{
+  "influences": [
+    {
+      "name": "Andre Kostelanetz",
+      "context": "Musically the song was influenced by the chord progression and arrangement by conductor Andre Kostelanetz's version of the orchestral piece the Grand Canyon Suite",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Felice and Boudleaux Bryant",
+      "context": "The early hits for the brothers came via the songwriting powerhouse of Felice and Boudleaux Bryant, the New-Orleans-based husband and wife team who wrote the Everlys first six hit songs between 1956-58",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "old-time country music",
+      "context": "They also brought sensitivity, the result of their having been weaned on old-time country music.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 3,
+    "sources_checked": 5
+  }
+}

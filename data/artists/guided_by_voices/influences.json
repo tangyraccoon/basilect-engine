@@ -1,0 +1,38 @@
+{
+  "influences": [
+    {
+      "name": "The Beatles",
+      "context": "They kind of forged the path for everyone, artistically. Not only were they the greatest songwriters, and were their songs beautiful and magical, they were a step ahead of everyone else, as far as where rock was going. To me, they invented rock. They invented pop rock, and then they invented psychedelic rock.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "John Lennon",
+      "context": "especially John Lennon, and Paul McCartney also, they wrote these songs that I don't think will ever die out.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Paul McCartney",
+      "context": "especially John Lennon, and Paul McCartney also, they wrote these songs that I don't think will ever die out.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Peter Gabriel",
+      "context": "I was absorbed into the world of early Genesis, with Peter Gabriel – that's all I listened to. I can get that stuff out now, and it just conjures back this magical time when I used to listen to Genesis, and it was my own band.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Who",
+      "context": "Live At Leeds – that's fuckin' awesome!",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Kiss",
+      "context": "Kiss Alive! and a couple of others",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 6,
+    "sources_checked": 3
+  }
+}

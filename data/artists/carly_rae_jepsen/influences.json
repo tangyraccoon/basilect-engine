@@ -1,0 +1,48 @@
+{
+  "influences": [
+    {
+      "name": "Bob Dylan",
+      "context": "my influences from my family life were very much like, Bob Dylan, Joni Mitchell, Leonard Cohen – very folk inspired artists",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Joni Mitchell",
+      "context": "my influences from my family life were very much like, Bob Dylan, Joni Mitchell, Leonard Cohen – very folk inspired artists",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Leonard Cohen",
+      "context": "my influences from my family life were very much like, Bob Dylan, Joni Mitchell, Leonard Cohen – very folk inspired artists",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Spice Girls",
+      "context": "Something changed for me [laughs] when The Spice Girls came out, and something in that joy and in the simplicity",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Cyndi Lauper",
+      "context": "I heard Cyndi Lauper play at a couple festivals, and there was something timeless in not only her performance, but also in the songs and the writing, and I got excited – came home inspired!",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Belinda Carlisle",
+      "context": "full of delicious modern beats that wink at corny Belinda Carlisle confections and Jimmy Jam & Terry Lewis masterpieces",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Jimmy Jam & Terry Lewis",
+      "context": "full of delicious modern beats that wink at corny Belinda Carlisle confections and Jimmy Jam & Terry Lewis masterpieces",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Sinéad O'Connor",
+      "context": "I remember I had a cassette of it, actually, and I would play it over and over. I played it so much. I can remember listening to that on repeat and deciding then that I wanted to be a singer.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 8,
+    "sources_checked": 5
+  }
+}

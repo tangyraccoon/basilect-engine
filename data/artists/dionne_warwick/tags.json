@@ -1,0 +1,140 @@
+{
+  "tags": [
+    {
+      "tag": "collaborative_production",
+      "category": "approach",
+      "weight": 1.0,
+      "raw_score": 18
+    },
+    {
+      "tag": "collaborative",
+      "category": "philosophy",
+      "weight": 0.944,
+      "raw_score": 17
+    },
+    {
+      "tag": "vocal_focused",
+      "category": "approach",
+      "weight": 0.944,
+      "raw_score": 17
+    },
+    {
+      "tag": "emotional",
+      "category": "philosophy",
+      "weight": 0.833,
+      "raw_score": 15
+    },
+    {
+      "tag": "orchestration",
+      "category": "process",
+      "weight": 0.833,
+      "raw_score": 15
+    },
+    {
+      "tag": "hi_fi",
+      "category": "approach",
+      "weight": 0.556,
+      "raw_score": 10
+    },
+    {
+      "tag": "intuitive",
+      "category": "philosophy",
+      "weight": 0.5,
+      "raw_score": 9
+    },
+    {
+      "tag": "narrative",
+      "category": "philosophy",
+      "weight": 0.5,
+      "raw_score": 9
+    },
+    {
+      "tag": "hybrid_production",
+      "category": "approach",
+      "weight": 0.278,
+      "raw_score": 5
+    },
+    {
+      "tag": "live_performance",
+      "category": "approach",
+      "weight": 0.278,
+      "raw_score": 5
+    },
+    {
+      "tag": "vocal_processing",
+      "category": "process",
+      "weight": 0.222,
+      "raw_score": 4
+    },
+    {
+      "tag": "studio_as_instrument",
+      "category": "approach",
+      "weight": 0.222,
+      "raw_score": 4
+    },
+    {
+      "tag": "multi_instrumental",
+      "category": "approach",
+      "weight": 0.167,
+      "raw_score": 3
+    },
+    {
+      "tag": "spiritual",
+      "category": "philosophy",
+      "weight": 0.167,
+      "raw_score": 3
+    },
+    {
+      "tag": "playful",
+      "category": "philosophy",
+      "weight": 0.167,
+      "raw_score": 3
+    },
+    {
+      "tag": "hybrid",
+      "category": "philosophy",
+      "weight": 0.167,
+      "raw_score": 3
+    },
+    {
+      "tag": "sonic_exploration",
+      "category": "process",
+      "weight": 0.167,
+      "raw_score": 3
+    },
+    {
+      "tag": "restraint",
+      "category": "philosophy",
+      "weight": 0.167,
+      "raw_score": 3
+    },
+    {
+      "tag": "self_produced",
+      "category": "approach",
+      "weight": 0.111,
+      "raw_score": 2
+    },
+    {
+      "tag": "traditional",
+      "category": "philosophy",
+      "weight": 0.111,
+      "raw_score": 2
+    },
+    {
+      "tag": "layering",
+      "category": "process",
+      "weight": 0.111,
+      "raw_score": 2
+    },
+    {
+      "tag": "sparse",
+      "category": "approach",
+      "weight": 0.111,
+      "raw_score": 2
+    }
+  ],
+  "meta": {
+    "count": 22,
+    "sources_checked": 9
+  }
+}

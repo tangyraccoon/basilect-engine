@@ -1,0 +1,18 @@
+{
+  "influences": [
+    {
+      "name": "Kraftwerk",
+      "context": "I like Kraftwerk. The song´s chorus has echoes of Joy Division and Joy Division were big fans of Kraftwerk, too.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Joy Division",
+      "context": "The song´s chorus has echoes of Joy Division and Joy Division were big fans of Kraftwerk, too.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 2,
+    "sources_checked": 2
+  }
+}

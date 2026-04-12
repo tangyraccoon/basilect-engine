@@ -1,0 +1,48 @@
+{
+  "influences": [
+    {
+      "name": "Josh White",
+      "context": "Two artists that would be at the head of the pack would be Josh White, whose recordings really turned me around. I was very much into the Rock n Roll scene of the late fifties, and then I heard a Josh White recording and thought, 'Wow! I've never heard a guitar played like that; I've never heard songs like that. This is wonderful,' and it really got me more focused on folk music.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Eric Von Schmidt",
+      "context": "The other one would be Eric Von Schmidt, who was, in my mind, kind of the keystone of the whole Cambridge/Boston folk scene. He was a little bit older than most of us. He was a graphic artist, but he was also a consummate finder and writer of songs. I just adored his music, his style, everything, and I mimicked him in every way I could.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Blues musicians at Club 47",
+      "context": "You learned some things from other musicians. On one of the episodes of Rockport Sundays, you talked about how the blues musicians would come to the original Club 47, and you had a chance to talk to them and learn how they did certain things. Yea, that was such a treat, and that was a really pivotal time in my life... Club 47 brought in the legends—the folk legends, the blues and bluegrass players, the Irish/Scottish balladeers—and you could hang out and talk to these people, and they turned out to be actual people—not just legends. You could ask them, 'How do you do that thing you do?' and, very often, they would show you.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Tom Paxton",
+      "context": "It works well for Tom Paxton and a lot of my friends who I respect a lot, but I just sit down with a guitar.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Police",
+      "context": "reflected the music they were listening to at the time (The Police, Talking Heads etc)",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Simon And Garfunkel",
+      "context": "Also included in the song is a tip of the cap to Simon And Garfunkel's 60s classic The Sound Of Silence",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Alex Lifeson",
+      "context": "Alex Lifeson is the chameleon of rock guitar. He's got so much feeling. He brings me to tears when he plays",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "David Campbell",
+      "context": "We did a full-on string session with a composer named David Campbell. An incredible experience.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 8,
+    "sources_checked": 4
+  }
+}

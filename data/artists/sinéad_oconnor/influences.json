@@ -1,0 +1,28 @@
+{
+  "influences": [
+    {
+      "name": "Mahalia Jackson",
+      "context": "I like the fact that Mahalia embodied that certainty. Not just Mahalia but a lot of the artists of that time.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Chuck D",
+      "context": "the trigger for me was when Public Enemy released their single \"State of the Union\". Chuck D did a number of interviews wherein he pretty much called upon all kinds of artists to get up and start making music about this. He talked about the importance of musical artists contributing creatively to the whole situation, so that triggered me to do it.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Curtis Mayfield",
+      "context": "Some of the civil rights artists like Curtis Mayfield used to say that even if all a person can do is get up and dance to a record, that's something.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Peter Tosh",
+      "context": "All \"Oh baby, please don't leave me. I can't live with you\" bomboclaat, as Peter Tosh would say.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 4,
+    "sources_checked": 2
+  }
+}

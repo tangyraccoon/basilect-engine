@@ -1,0 +1,38 @@
+{
+  "influences": [
+    {
+      "name": "David Bowie",
+      "context": "Being a fan of Bowie, of Prince, Alice Cooper of course, and even Madonna",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Prince",
+      "context": "Being a fan of Bowie, of Prince, Alice Cooper of course, and even Madonna",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Alice Cooper",
+      "context": "Being a fan of Bowie, of Prince, Alice Cooper of course, and even Madonna",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Madonna",
+      "context": "Being a fan of Bowie, of Prince, Alice Cooper of course, and even Madonna",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Salvador Dali",
+      "context": "One of my favorite heroes is Dali, Salvador Dali... his whole, he just decided to express himself, whatever he wanted to do, and I, I like that",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Lewis Carroll",
+      "context": "I wrote a screen play to, was intended to make called Phantasmagoria it's one of Lewis Carroll's books and a, it's about him and his photography and sort of his split personality and uh, I think it sort of rubbed off on me too much",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 6,
+    "sources_checked": 1
+  }
+}

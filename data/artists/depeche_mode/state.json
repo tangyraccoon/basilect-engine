@@ -1,0 +1,49 @@
+{
+  "artist_id": "depeche_mode",
+  "artist_name": "Depeche Mode",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:03:56.592260+00:00",
+      "result": "6 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:04:00.794100+00:00",
+      "result": "2/6 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:04:07.160057+00:00",
+      "result": "5 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:04:12.191130+00:00",
+      "result": "8 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:04:19.336985+00:00",
+      "result": "7/8 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:04:35.145733+00:00",
+      "result": "16 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:04:40.794516+00:00",
+      "result": "2 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:05:03.187908+00:00",
+      "result": "37 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-12T16:05:03.187989+00:00"
+}

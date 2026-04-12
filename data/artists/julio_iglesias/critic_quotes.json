@@ -1,0 +1,33 @@
+{
+  "quotes": [
+    {
+      "text": "When he moved into the English-language market, Enrique pushed the Latin thing as hard and as shamelessly as he possibly could. The end result is a song that embraces the whole Latin-lover stereotype as hard as Rudolph Valentino in a Zorro mask with a rose clamped between his teeth -- a song so over-the-top in its sexy theatricality that I can't help but admire it.",
+      "publication": "The Number Ones",
+      "date": "September 4, 1999"
+    },
+    {
+      "text": "He recorded in Spanish, Italian, French, Portuguese, German, even Russian.",
+      "publication": "The Number Ones",
+      "date": "September 4, 1999"
+    },
+    {
+      "text": "The romance and passion that Iglesias brings with his music is unparalleled.",
+      "publication": "Renownedforsound",
+      "date": ""
+    },
+    {
+      "text": "With such a strong and identifiable voice, Iglesias has been releasing albums since 1969 on a regular basis and scores well with this new effort.",
+      "publication": "Renownedforsound",
+      "date": ""
+    }
+  ],
+  "corpus_meta": {
+    "quote_count": 4,
+    "source_count": 2,
+    "date_range": [
+      "Sept",
+      "Sept"
+    ],
+    "corpus_valid": false
+  }
+}

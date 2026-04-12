@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+.venv/
+venv/
+env/
+
+# Env / secrets
+.env
+*.env.local
+
+# Large binary data (regenerable — run scripts/rebuild_pipeline.py)
+data/embeddings.npy
+data/critic_embeddings.npy
+data/similarity.npy
+data/critic_similarity.npy
+
+# Large derived JSON (regenerable)
+data/discoveries.json
+data/critic_discoveries.json
+
+# Batch runtime state (not source of truth — per-artist state.json is canonical)
+data/batch_progress*.json
+data/batch_progress*.json.tmp
+data/batch_checkpoint.json
+data/batch_full_log.json
+data/batch_state.json
+
+# Large caches
+data/mb_artist_cache.json
+
+# Logs
+logs/
+*.log
+
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo

@@ -1,0 +1,28 @@
+{
+  "influences": [
+    {
+      "name": "First wave of Death and Thrash metal",
+      "context": "We were always very passionate about the first wave of Death and Thrash metal",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Early influences (unnamed)",
+      "context": "we basically copied our early influences, but we were also aware that bands who sound like other bands don't stick around too long",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "John Milton",
+      "context": "It's a double concept album based on John Milton's epic poem \"Paradise Lost\"",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "William S. Burroughs",
+      "context": "and is also inspired by a treatment of the poem by William S. Burroughs, who was a personal friend of Hart",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 4,
+    "sources_checked": 4
+  }
+}

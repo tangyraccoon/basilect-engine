@@ -1,0 +1,38 @@
+{
+  "influences": [
+    {
+      "name": "The Beatles",
+      "context": "Over COVID, having a lot of downtime, I started examining my record collection and started examining the history of music that I fell in love with. I got back into music listening more over COVID. And quite specifically, it rekindled my love of The Beatles. And I have to say, talk about writing on a deadline. The worst deadline of my life was just like any day of their career. And their work ethic was just so…Everything about The Beatles was extra amazing to me. They're so stylish and so smart, and then all their songs are great.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Cole Porter",
+      "context": "It's hard enough writing a song and not bumping into a much better song by Cole Porter.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Prince",
+      "context": "Nobody wants to be in a competition with Prince. If you're in a competition with Prince, you are going to lose.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Dr. Seuss",
+      "context": "When we were doing the first kids record, we were probably at our most idealistic about what a kids record could be. We would think of references like Dr. Seuss or Bugs Bunny, things that were straight up great in their own specific way and don't have the weird aftertaste of a lot of stuff that's made for kids.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Breeders",
+      "context": "do you remember… when the Breeders started properly, when they were doing their first full-length album and actually becoming the band, they did this crazy thing where they went on tour with a bunch of songs that didn't really have the words finished... That seems slightly crazy, but the thing that's funny, when you think about then versus now...",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Steely Dan",
+      "context": "I do think it would be interesting to do some iPhone sessions where we just record a bunch of songs on an iPhone and not have there be any changing or tweaking or anything. I love the Steely Dan impulse, but I just don't want to go totally periscope down on the tweaking.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 6,
+    "sources_checked": 5
+  }
+}

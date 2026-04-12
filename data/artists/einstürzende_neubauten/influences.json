@@ -1,0 +1,28 @@
+{
+  "influences": [
+    {
+      "name": "Bertolt Brecht",
+      "context": "Are there any poets that really influence you? Not much, maybe only Bertold Brecht.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "La La La Human Steps",
+      "context": "We always had German lyrics until we started working with the Montreal dance troupe La La La Human Steps, who asked us if we could have more than just German lyrics. So we tried, especially with the album Tabula Rasa (1993), which was largely designed for this dance troupe.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Friedrich Nietzsche",
+      "context": "I woke up in the middle of the night with the words, wältz die Wogen ('roll the waves') in my head, and I thought it was a strange sentence in German, so I googled to see if anyone had ever written it and I came across Friedrich Nietzsche. So I figured, if Nietzsche wrote it, I can, too",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Abwärts",
+      "context": "Another German band, Abwärts, of which Bargeld and Unruh were fans, featured F. M. \"Mufti\" Einheit and Mark Chung, who both eventually became members of Einstürzende Neubauten.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 4,
+    "sources_checked": 4
+  }
+}

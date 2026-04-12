@@ -1,0 +1,23 @@
+{
+  "influences": [
+    {
+      "name": "Lee Perry",
+      "context": "He visited Jamaica, and met Lee Perry. Perry was a music producer, and worked with Martyn to make new music.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Nick Drake",
+      "context": "The traditional song All My Trials came through Nick Drake, whose autobiography she'd recently devoured... I've always loved Nick Drake, and he was the first kind of, I'm sure everyone feels this with musicians but sometimes there's a synergy that you have with them",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "John Martyn",
+      "context": "And then there's John Martyn's Couldn't Love You More, which she calls: 'One of the greatest love songs of all time. He was my dad's favourite, so that's actually why I'm called Billie Marten. I just stole his name, and I changed a letter.' Despite Martyn's troubled personal reputation his musical legacy remains untouchable for Marten. 'His music's great. He's my favourite.'",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 3,
+    "sources_checked": 2
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "influences": [
+    {
+      "name": "Jane Mayer",
+      "context": "Jane Mayer and her book Dark Money was a huge push. It became necessary reading for people that would ask me what book they should be reading at the time.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Björk",
+      "context": "I have a real affinity for her and her work.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 2,
+    "sources_checked": 5
+  }
+}

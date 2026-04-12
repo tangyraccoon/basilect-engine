@@ -1,0 +1,88 @@
+{
+  "influences": [
+    {
+      "name": "Prince",
+      "context": "It kind of came to me when Prince started putting out so many albums within a couple months that it had started to cheapen itself to me, when I had waited for a year after Sign 'O' The Times for Lovesexy.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Parliament Funkadelic",
+      "context": "Up against The Beatles, Parliament Funkadelic has been my favorite band since I was a teenager. I started buying the Funkadelic records when they were still a quarter.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Andrew Weiss",
+      "context": "Andrew turned me onto them.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Beatles",
+      "context": "We were trying to go for a more Beatle-y thing. It's very melodic.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Jethro Tull",
+      "context": "That's all of us, actually. We call it the 'regal factor', you know, Fairport Convention, Steel eye Span, Tull, even the more foul shit like Gentle Giant, ELP. We've listened to tons and tons of prog rock.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Fairport Convention",
+      "context": "We call it the 'regal factor', you know, Fairport Convention, Steel eye Span, Tull, even the more foul shit like Gentle Giant, ELP. We've listened to tons and tons of prog rock.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Steeleye Span",
+      "context": "We call it the 'regal factor', you know, Fairport Convention, Steel eye Span, Tull, even the more foul shit like Gentle Giant, ELP. We've listened to tons and tons of prog rock.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Gentle Giant",
+      "context": "We call it the 'regal factor', you know, Fairport Convention, Steel eye Span, Tull, even the more foul shit like Gentle Giant, ELP. We've listened to tons and tons of prog rock.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "ELP",
+      "context": "We call it the 'regal factor', you know, Fairport Convention, Steel eye Span, Tull, even the more foul shit like Gentle Giant, ELP. We've listened to tons and tons of prog rock.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Wings",
+      "context": "It sounds like Wings, basically. It's like the Beatles but not quite as good and with more distorted guitars.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Ween",
+      "context": "I think you guys have mentioned Ween a couple of times in interviews.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "King Gizzard",
+      "context": "Like, 'Who do you guys listen to?' Like, King Gizzard and Black Midi and Led Zeppelin and shit.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Black Midi",
+      "context": "Like, 'Who do you guys listen to?' Like, King Gizzard and Black Midi and Led Zeppelin and shit.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Led Zeppelin",
+      "context": "Like, 'Who do you guys listen to?' Like, King Gizzard and Black Midi and Led Zeppelin and shit.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Miles Davis",
+      "context": "But, we're just — more of an emphasis on, like, live music. Like, stuff that's especially older, like the one-take stuff from the '50s and blues and stuff like that. And a lot of Miles Davis.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Velvet Underground",
+      "context": "Like Velvet Underground.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 16,
+    "sources_checked": 5
+  }
+}

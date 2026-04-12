@@ -1,0 +1,236 @@
+{
+  "tags": [
+    {
+      "tag": "multi_instrumental",
+      "category": "approach",
+      "weight": 1.0,
+      "raw_score": 25
+    },
+    {
+      "tag": "orchestration",
+      "category": "process",
+      "weight": 0.96,
+      "raw_score": 24
+    },
+    {
+      "tag": "vocal_focused",
+      "category": "approach",
+      "weight": 0.72,
+      "raw_score": 18
+    },
+    {
+      "tag": "collaborative",
+      "category": "philosophy",
+      "weight": 0.72,
+      "raw_score": 18
+    },
+    {
+      "tag": "conceptual",
+      "category": "philosophy",
+      "weight": 0.64,
+      "raw_score": 16
+    },
+    {
+      "tag": "hybrid",
+      "category": "philosophy",
+      "weight": 0.6,
+      "raw_score": 15
+    },
+    {
+      "tag": "intellectual",
+      "category": "philosophy",
+      "weight": 0.44,
+      "raw_score": 11
+    },
+    {
+      "tag": "narrative",
+      "category": "philosophy",
+      "weight": 0.44,
+      "raw_score": 11
+    },
+    {
+      "tag": "layering",
+      "category": "process",
+      "weight": 0.4,
+      "raw_score": 10
+    },
+    {
+      "tag": "intuitive",
+      "category": "philosophy",
+      "weight": 0.4,
+      "raw_score": 10
+    },
+    {
+      "tag": "hybrid_production",
+      "category": "approach",
+      "weight": 0.4,
+      "raw_score": 10
+    },
+    {
+      "tag": "studio_as_instrument",
+      "category": "approach",
+      "weight": 0.4,
+      "raw_score": 10
+    },
+    {
+      "tag": "live_performance",
+      "category": "approach",
+      "weight": 0.28,
+      "raw_score": 7
+    },
+    {
+      "tag": "playful",
+      "category": "philosophy",
+      "weight": 0.24,
+      "raw_score": 6
+    },
+    {
+      "tag": "analog",
+      "category": "approach",
+      "weight": 0.24,
+      "raw_score": 6
+    },
+    {
+      "tag": "classical_integration",
+      "category": "process",
+      "weight": 0.24,
+      "raw_score": 6
+    },
+    {
+      "tag": "abstract",
+      "category": "philosophy",
+      "weight": 0.24,
+      "raw_score": 6
+    },
+    {
+      "tag": "experimental",
+      "category": "philosophy",
+      "weight": 0.2,
+      "raw_score": 5
+    },
+    {
+      "tag": "serious",
+      "category": "philosophy",
+      "weight": 0.2,
+      "raw_score": 5
+    },
+    {
+      "tag": "sampling",
+      "category": "process",
+      "weight": 0.12,
+      "raw_score": 3
+    },
+    {
+      "tag": "collage",
+      "category": "process",
+      "weight": 0.12,
+      "raw_score": 3
+    },
+    {
+      "tag": "mood-driven",
+      "category": "philosophy",
+      "weight": 0.12,
+      "raw_score": 3
+    },
+    {
+      "tag": "classical",
+      "category": "philosophy",
+      "weight": 0.12,
+      "raw_score": 3
+    },
+    {
+      "tag": "philosophical",
+      "category": "philosophy",
+      "weight": 0.12,
+      "raw_score": 3
+    },
+    {
+      "tag": "lyrical_sophistication",
+      "category": "philosophy",
+      "weight": 0.12,
+      "raw_score": 3
+    },
+    {
+      "tag": "collaborative_production",
+      "category": "approach",
+      "weight": 0.12,
+      "raw_score": 3
+    },
+    {
+      "tag": "composition-focused",
+      "category": "approach",
+      "weight": 0.12,
+      "raw_score": 3
+    },
+    {
+      "tag": "idiosyncratic",
+      "category": "philosophy",
+      "weight": 0.12,
+      "raw_score": 3
+    },
+    {
+      "tag": "classical_influenced",
+      "category": "process",
+      "weight": 0.12,
+      "raw_score": 3
+    },
+    {
+      "tag": "romantic",
+      "category": "philosophy",
+      "weight": 0.08,
+      "raw_score": 2
+    },
+    {
+      "tag": "vocal_processing",
+      "category": "process",
+      "weight": 0.08,
+      "raw_score": 2
+    },
+    {
+      "tag": "anti_commercial",
+      "category": "philosophy",
+      "weight": 0.08,
+      "raw_score": 2
+    },
+    {
+      "tag": "political",
+      "category": "philosophy",
+      "weight": 0.08,
+      "raw_score": 2
+    },
+    {
+      "tag": "long_form",
+      "category": "approach",
+      "weight": 0.08,
+      "raw_score": 2
+    },
+    {
+      "tag": "emotional",
+      "category": "philosophy",
+      "weight": 0.08,
+      "raw_score": 2
+    },
+    {
+      "tag": "hi_fi",
+      "category": "approach",
+      "weight": 0.08,
+      "raw_score": 2
+    },
+    {
+      "tag": "meditative",
+      "category": "philosophy",
+      "weight": 0.08,
+      "raw_score": 2
+    },
+    {
+      "tag": "timeless",
+      "category": "philosophy",
+      "weight": 0.08,
+      "raw_score": 2
+    }
+  ],
+  "meta": {
+    "count": 38,
+    "sources_checked": 11
+  }
+}

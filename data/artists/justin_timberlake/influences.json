@@ -1,0 +1,18 @@
+{
+  "influences": [
+    {
+      "name": "David Bowie",
+      "context": "I was listening to Bowie. And I was listening to 'Rebel Rebel,'",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Talking Heads",
+      "context": "Tim was on a Talking Heads trip as well. That's why, he's basically doing his David Byrne.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 2,
+    "sources_checked": 3
+  }
+}

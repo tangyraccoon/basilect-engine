@@ -1,0 +1,230 @@
+{
+  "tags": [
+    {
+      "tag": "intellectual",
+      "category": "philosophy",
+      "weight": 1.0,
+      "raw_score": 28
+    },
+    {
+      "tag": "orchestration",
+      "category": "process",
+      "weight": 1.0,
+      "raw_score": 28
+    },
+    {
+      "tag": "instrumental_focused",
+      "category": "approach",
+      "weight": 0.821,
+      "raw_score": 23
+    },
+    {
+      "tag": "acoustic",
+      "category": "approach",
+      "weight": 0.786,
+      "raw_score": 22
+    },
+    {
+      "tag": "intuitive",
+      "category": "philosophy",
+      "weight": 0.643,
+      "raw_score": 18
+    },
+    {
+      "tag": "collaborative",
+      "category": "philosophy",
+      "weight": 0.607,
+      "raw_score": 17
+    },
+    {
+      "tag": "texture",
+      "category": "process",
+      "weight": 0.536,
+      "raw_score": 15
+    },
+    {
+      "tag": "experimental",
+      "category": "philosophy",
+      "weight": 0.5,
+      "raw_score": 14
+    },
+    {
+      "tag": "long_form",
+      "category": "approach",
+      "weight": 0.464,
+      "raw_score": 13
+    },
+    {
+      "tag": "abstract",
+      "category": "philosophy",
+      "weight": 0.357,
+      "raw_score": 10
+    },
+    {
+      "tag": "multi_instrumental",
+      "category": "approach",
+      "weight": 0.357,
+      "raw_score": 10
+    },
+    {
+      "tag": "hybrid",
+      "category": "philosophy",
+      "weight": 0.321,
+      "raw_score": 9
+    },
+    {
+      "tag": "playful",
+      "category": "philosophy",
+      "weight": 0.286,
+      "raw_score": 8
+    },
+    {
+      "tag": "collaborative_production",
+      "category": "approach",
+      "weight": 0.214,
+      "raw_score": 6
+    },
+    {
+      "tag": "conceptual",
+      "category": "philosophy",
+      "weight": 0.179,
+      "raw_score": 5
+    },
+    {
+      "tag": "emotional",
+      "category": "philosophy",
+      "weight": 0.179,
+      "raw_score": 5
+    },
+    {
+      "tag": "layering",
+      "category": "process",
+      "weight": 0.143,
+      "raw_score": 4
+    },
+    {
+      "tag": "polyrhythm",
+      "category": "process",
+      "weight": 0.143,
+      "raw_score": 4
+    },
+    {
+      "tag": "traditional",
+      "category": "philosophy",
+      "weight": 0.143,
+      "raw_score": 4
+    },
+    {
+      "tag": "educational_advocacy",
+      "category": "philosophy",
+      "weight": 0.107,
+      "raw_score": 3
+    },
+    {
+      "tag": "autobiographical",
+      "category": "philosophy",
+      "weight": 0.107,
+      "raw_score": 3
+    },
+    {
+      "tag": "chamber_music_focused",
+      "category": "approach",
+      "weight": 0.107,
+      "raw_score": 3
+    },
+    {
+      "tag": "rhythmic_exploration",
+      "category": "process",
+      "weight": 0.107,
+      "raw_score": 3
+    },
+    {
+      "tag": "live_performance",
+      "category": "approach",
+      "weight": 0.107,
+      "raw_score": 3
+    },
+    {
+      "tag": "collage",
+      "category": "process",
+      "weight": 0.107,
+      "raw_score": 3
+    },
+    {
+      "tag": "memory_based",
+      "category": "philosophy",
+      "weight": 0.107,
+      "raw_score": 3
+    },
+    {
+      "tag": "studio_as_instrument",
+      "category": "approach",
+      "weight": 0.071,
+      "raw_score": 2
+    },
+    {
+      "tag": "improvisation",
+      "category": "process",
+      "weight": 0.071,
+      "raw_score": 2
+    },
+    {
+      "tag": "confrontational",
+      "category": "philosophy",
+      "weight": 0.071,
+      "raw_score": 2
+    },
+    {
+      "tag": "anti_commercial",
+      "category": "philosophy",
+      "weight": 0.071,
+      "raw_score": 2
+    },
+    {
+      "tag": "short_form",
+      "category": "approach",
+      "weight": 0.071,
+      "raw_score": 2
+    },
+    {
+      "tag": "hybrid_production",
+      "category": "approach",
+      "weight": 0.071,
+      "raw_score": 2
+    },
+    {
+      "tag": "serious",
+      "category": "philosophy",
+      "weight": 0.071,
+      "raw_score": 2
+    },
+    {
+      "tag": "meditative",
+      "category": "philosophy",
+      "weight": 0.071,
+      "raw_score": 2
+    },
+    {
+      "tag": "narrative",
+      "category": "philosophy",
+      "weight": 0.071,
+      "raw_score": 2
+    },
+    {
+      "tag": "maximalism",
+      "category": "process",
+      "weight": 0.071,
+      "raw_score": 2
+    },
+    {
+      "tag": "found_sound",
+      "category": "process",
+      "weight": 0.071,
+      "raw_score": 2
+    }
+  ],
+  "meta": {
+    "count": 37,
+    "sources_checked": 11
+  }
+}

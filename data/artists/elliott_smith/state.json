@@ -1,0 +1,49 @@
+{
+  "artist_id": "elliott_smith",
+  "artist_name": "Elliott Smith",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:52:19.919274+00:00",
+      "result": "6 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:52:21.820719+00:00",
+      "result": "3/6 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:52:41.611786+00:00",
+      "result": "29 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:52:46.338774+00:00",
+      "result": "8 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:52:51.578108+00:00",
+      "result": "8/8 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:53:17.116217+00:00",
+      "result": "34 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:53:29.115364+00:00",
+      "result": "8 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:53:55.526150+00:00",
+      "result": "38 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-12T16:53:55.526411+00:00"
+}

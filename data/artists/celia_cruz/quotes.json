@@ -1,0 +1,23 @@
+{
+  "quotes": [
+    {
+      "text": "I can't go out there and pretend. In Cuba, I worked with a man named Rodrigo Neira, who was the choreographer of the Tropicana. He wanted a singer to sing and a dancer to dance.",
+      "publication": "Billboard",
+      "date": "2000"
+    },
+    {
+      "text": "First of all, I take good care of myself. I rest. Second, I plan my shows well. I always try to shape my repertoire around a particular audience. And finally, I'm always changing my outfits, my look onstage.",
+      "publication": "Billboard",
+      "date": ""
+    }
+  ],
+  "corpus_meta": {
+    "quote_count": 2,
+    "source_count": 1,
+    "date_range": [
+      "2000",
+      "2000"
+    ],
+    "corpus_valid": false
+  }
+}

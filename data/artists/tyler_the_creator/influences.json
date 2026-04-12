@@ -1,0 +1,48 @@
+{
+  "influences": [
+    {
+      "name": "Pharrell Williams",
+      "context": "A friend of mine by the name of Pharrel Williams, was like 'Yo! Lil bro, how's the shoe thing going?' and I'm like, 'We're figuring it out, we just got a few samples, they're horrible. This is going to be a long-winded process.' He's like 'Hold on, I'm going to put you in contact with someone named Paul that works at Converse.'",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Brian Wilson",
+      "context": "At times, it sounds like a hip-hop take on a Brian Wilson‑produced Beach Boys record.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Pusha T",
+      "context": "Tyler described it in a recent interview as sounding like Pusha T and Stevie Wonder got together — hard-ass 808 beats with lots of chords.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Stevie Wonder",
+      "context": "Tyler described it in a recent interview as sounding like Pusha T and Stevie Wonder got together — hard-ass 808 beats with lots of chords.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Mick Guzuaski",
+      "context": "I got turned onto sub-harmonic processors back in 2015 when Mick Guzuaski mixed part of Tyler's Cherry Bomb album, which I'd engineered.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Charlie Wilson",
+      "context": "He usually lays down reference tracks for guest rappers or singers that he has in mind, be it Charlie Wilson from the Gap Band",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Wanya Morris",
+      "context": "He usually lays down reference tracks for guest rappers or singers that he has in mind, be it Wanya Morris from Boyz II Men",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Cee-Lo Green",
+      "context": "He usually lays down reference tracks for guest rappers or singers that he has in mind, or Cee‑Lo Green.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 8,
+    "sources_checked": 3
+  }
+}

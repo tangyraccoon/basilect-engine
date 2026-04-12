@@ -1,0 +1,49 @@
+{
+  "artist_id": "earl_sweatshirt",
+  "artist_name": "Earl Sweatshirt",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-11T20:07:56.130965+00:00",
+      "result": "8 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-11T20:07:57.365758+00:00",
+      "result": "6/8 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T20:08:41.561583+00:00",
+      "result": "34 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-11T20:08:46.116936+00:00",
+      "result": "11 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-11T20:08:47.263798+00:00",
+      "result": "7/11 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T20:09:29.544753+00:00",
+      "result": "50 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T20:09:47.663400+00:00",
+      "result": "19 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T20:10:22.620985+00:00",
+      "result": "41 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-11T20:10:22.621188+00:00"
+}

@@ -1,0 +1,63 @@
+{
+  "influences": [
+    {
+      "name": "Nina Simone",
+      "context": "My mum then introduced me to loads of female singers. We used to play a game called 'Who's singing?', where she'd play me voices and I'd have to guess 'Nina Simone' or 'Ella Fitzgerald' or 'Mahalia Jackson'. That's how I got into those real soulful, strong female voices.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Ella Fitzgerald",
+      "context": "My mum then introduced me to loads of female singers. We used to play a game called 'Who's singing?', where she'd play me voices and I'd have to guess 'Nina Simone' or 'Ella Fitzgerald' or 'Mahalia Jackson'. That's how I got into those real soulful, strong female voices.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Joni Mitchell",
+      "context": "I fell in love with songwriters like Joni Mitchell, Carole King, and Dolly Parton",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Carole King",
+      "context": "I fell in love with songwriters like Joni Mitchell, Carole King, and Dolly Parton",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Dolly Parton",
+      "context": "I fell in love with songwriters like Joni Mitchell, Carole King, and Dolly Parton",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Gil Scott-Heron",
+      "context": "my dad fed me Gil Scott-Heron, Marvin Gaye, and Bob Marley",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Marvin Gaye",
+      "context": "my dad fed me Gil Scott-Heron, Marvin Gaye, and Bob Marley",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Bob Marley",
+      "context": "my dad fed me Gil Scott-Heron, Marvin Gaye, and Bob Marley",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Dre",
+      "context": "My brother would play Dre and Lupe Fiasco around the house. It all just fed into my style.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Lupe Fiasco",
+      "context": "My brother would play Dre and Lupe Fiasco around the house. It all just fed into my style.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Kate Nash",
+      "context": "I tried to sing like Kate Nash until my mum told me to stop",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 11,
+    "sources_checked": 2
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "influences": [
+    {
+      "name": "2Pac",
+      "context": "2pac is my biggest influence.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Heavy D",
+      "context": "Others include Heavy D, MC Hammer, Nas, Eminem & Outkast in no particular order.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "MC Hammer",
+      "context": "Others include Heavy D, MC Hammer, Nas, Eminem & Outkast in no particular order.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Nas",
+      "context": "Others include Heavy D, MC Hammer, Nas, Eminem & Outkast in no particular order.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Eminem",
+      "context": "Others include Heavy D, MC Hammer, Nas, Eminem & Outkast in no particular order.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Outkast",
+      "context": "Others include Heavy D, MC Hammer, Nas, Eminem & Outkast in no particular order.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 6,
+    "sources_checked": 2
+  }
+}

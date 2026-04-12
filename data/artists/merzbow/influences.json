@@ -1,0 +1,163 @@
+{
+  "influences": [
+    {
+      "name": "Cream",
+      "context": "I was playing drums, in a kind of blues rock band influenced by Cream, Jimi Hendrix, etc",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Jimi Hendrix",
+      "context": "I was playing drums, in a kind of blues rock band influenced by Cream, Jimi Hendrix, etc",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "King Crimson",
+      "context": "We were profoundly affected by King Crimson's Earthbound, Albert Ayler's Bells and Velvet Underground's White Light/White Heat.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Albert Ayler",
+      "context": "We were profoundly affected by King Crimson's Earthbound, Albert Ayler's Bells and Velvet Underground's White Light/White Heat.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Velvet Underground",
+      "context": "We were profoundly affected by King Crimson's Earthbound, Albert Ayler's Bells and Velvet Underground's White Light/White Heat.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Pierre Schaeffer",
+      "context": "At that time, I was struck by Pierre Schaeffer's Symphonie pour un Homme Seul",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Lou Reed",
+      "context": "also influenced by Lou Reed's Metal Machine Music",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Xenakis",
+      "context": "influenced by Lou Reed's Metal Machine Music, Xenakis' Electro-Acoustic Music",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Walter Marchetti",
+      "context": "Xenakis' Electro-Acoustic Music, Walter Marchetti's Homemade Electric Music",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "death-metal and grind-core",
+      "context": "the body performance got important, due to the effects of death-metal and grind-core",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Throbbing Gristle",
+      "context": "The members of Throbbing Gristle had a theory about the fact that in the context of the genre, any person can become a performer.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Cosey Fanni Tutti",
+      "context": "Cosey Fanni Tutti was the first who used the term \"anti-music\" while talking with me.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Kiyoshi Mizutani",
+      "context": "In 1987 I was invited to \"Amour Jazz Festival\" – I came there with Kiyoshi Mizutani.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Black Sabbath",
+      "context": "I'm of the generation that grew up listening to Black Sabbath, Deep Purple, etc. in the 70s",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Deep Purple",
+      "context": "I'm of the generation that grew up listening to Black Sabbath, Deep Purple, etc. in the 70s",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "German thrash metal artists",
+      "context": "Since the rise of German thrash metal, I listened to a lot of thrash metal, grind core and death metal, and was influenced by them",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Napalm Death",
+      "context": "The fact that grind core bands like Napalm Death, Carcass and Cattle Decapitation are involved in animal rights and veganism is what makes me evaluate their music and projects highly",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Carcass",
+      "context": "The fact that grind core bands like Napalm Death, Carcass and Cattle Decapitation are involved in animal rights and veganism is what makes me evaluate their music and projects highly",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Cattle Decapitation",
+      "context": "The fact that grind core bands like Napalm Death, Carcass and Cattle Decapitation are involved in animal rights and veganism is what makes me evaluate their music and projects highly",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Dodheimsgard",
+      "context": "Dodheimsgard's 'Satanic Art' was the first album that shocked me, and this inspired me to listen to Norwegian black metal bands like Satyricon and bands from label Moonfog",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Satyricon",
+      "context": "this inspired me to listen to Norwegian black metal bands like Satyricon and bands from label Moonfog",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "ICP",
+      "context": "I was heavily influenced by European free music of ICP, FMP, INCUS, etc. at the time",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "FMP",
+      "context": "I was heavily influenced by European free music of ICP, FMP, INCUS, etc. at the time",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "INCUS",
+      "context": "I was heavily influenced by European free music of ICP, FMP, INCUS, etc. at the time",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "SUN RA",
+      "context": "I would also listen to free jazz of ESP DISK, BYG and SUN RA",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Brian Eno",
+      "context": "I got inspiration and sympathy with the ideas of Brian Eno and Captain Beefheart, in the way of their doing music. They're both \"Non Musician\". They taught me there's no mistake or error, if you can improve it and make it into something interesting.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Captain Beefheart",
+      "context": "I got inspiration and sympathy with the ideas of Brian Eno and Captain Beefheart, in the way of their doing music. They're both \"Non Musician\". They taught me there's no mistake or error, if you can improve it and make it into something interesting.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Beatles",
+      "context": "The Beatles and Pink Floyd showed me music can be ART, not just entertainment.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Pink Floyd",
+      "context": "The Beatles and Pink Floyd showed me music can be ART, not just entertainment. When I was 19 years old I went to London to see the WALL show by Pink Floyd and that totally changed my life.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Fred Frith",
+      "context": "A couple of years later I saw Fred Frith playing guitar improvisation in Tokyo, that changed my conventional perspective about music. I shouted to myself, \"Yes, this is IT! This is what I want to do!\". He did unleash me to uncharted terrain of music and sound.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Miles Davis",
+      "context": "Miles Davis showed me complexity of rhythms and multiple sound layers and dimensional structure make coolest harmony in space and time.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 31,
+    "sources_checked": 7
+  }
+}

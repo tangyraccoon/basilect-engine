@@ -1,0 +1,28 @@
+{
+  "influences": [
+    {
+      "name": "Disney/Lucasfilm's Star Tours",
+      "context": "channeling the recollections of his Dead & Company bandmates Bob Weir and Mickey Hart and his own memories of immersive thrill rides like Disney/Lucasfilm's '80s spaceflight simulator Star Tours",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Adam Smith",
+      "context": "The first thing I ever did was a documentary, with a man called Adam Smith who did visuals for the Chemical Brothers.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Chemical Brothers",
+      "context": "The first thing I ever did was a documentary, with a man called Adam Smith who did visuals for the Chemical Brothers.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Willie Williams",
+      "context": "The first big concert I ever went to was in 1992—the 'Outside Broadcast' leg of U2's Zoo TV tour, a show your partner Willie Williams designed. I'd never seen anything like it",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 4,
+    "sources_checked": 2
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "influences": [
+    {
+      "name": "Frank Sinatra",
+      "context": "Frank Sinatra is my favourite in the world, and Johnny Mathis and Peggy Lee and Julie London and Etta James and Sarah Vaughan and Ella Fitzgerald",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Johnny Mathis",
+      "context": "Frank Sinatra is my favourite in the world, and Johnny Mathis and Peggy Lee and Julie London and Etta James and Sarah Vaughan and Ella Fitzgerald",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Peggy Lee",
+      "context": "Frank Sinatra is my favourite in the world, and Johnny Mathis and Peggy Lee and Julie London and Etta James and Sarah Vaughan and Ella Fitzgerald",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Julie London",
+      "context": "Frank Sinatra is my favourite in the world, and Johnny Mathis and Peggy Lee and Julie London and Etta James and Sarah Vaughan and Ella Fitzgerald",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Etta James",
+      "context": "Frank Sinatra is my favourite in the world, and Johnny Mathis and Peggy Lee and Julie London and Etta James and Sarah Vaughan and Ella Fitzgerald",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Sarah Vaughan",
+      "context": "Frank Sinatra is my favourite in the world, and Johnny Mathis and Peggy Lee and Julie London and Etta James and Sarah Vaughan and Ella Fitzgerald",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Ella Fitzgerald",
+      "context": "Frank Sinatra is my favourite in the world, and Johnny Mathis and Peggy Lee and Julie London and Etta James and Sarah Vaughan and Ella Fitzgerald",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Beatles",
+      "context": "Her parents, both in the entertainment industry, and her brother Finneas, played pivotal roles in nurturing her talents. Billie's early exposure to a wide range of music genres, from the Beatles to Green Day, shaped her eclectic taste and laid the foundation for her distinctive sound.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Green Day",
+      "context": "Billie's early exposure to a wide range of music genres, from the Beatles to Green Day, shaped her eclectic taste and laid the foundation for her distinctive sound.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Finneas",
+      "context": "One of the most significant influences on Billie's music is her brother Finneas. The siblings have a close-knit relationship and have been writing and recording music together since they were children. Finneas's background in music production and songwriting has been instrumental in shaping Billie's sound, blending his technical expertise with her raw talent.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 10,
+    "sources_checked": 4
+  }
+}

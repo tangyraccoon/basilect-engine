@@ -1,0 +1,43 @@
+{
+  "influences": [
+    {
+      "name": "The Beatles",
+      "context": "The Beatles had made every kid in the world want to be in a rock and roll band",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Youngbloods",
+      "context": "their loud and raucous live performances, filled with covers of songs by the Youngbloods and Moby Grape",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Moby Grape",
+      "context": "their loud and raucous live performances, filled with covers of songs by the Youngbloods and Moby Grape",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Rolling Stones",
+      "context": "playing a mix of popular British Invasion songs by the Beatles and the Rolling Stones",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Doors",
+      "context": "West Coast rock that hadn't yet broken through in the Midwest by bands such as the Doors and the Jimi Hendrix Experience",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Jimi Hendrix",
+      "context": "West Coast rock that hadn't yet broken through in the Midwest by bands such as the Doors and the Jimi Hendrix Experience",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Chuck Berry",
+      "context": "there was never a wilder scene than when Speedwagon covered Chuck Berry's 'Johnny B. Goode'",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 7,
+    "sources_checked": 5
+  }
+}

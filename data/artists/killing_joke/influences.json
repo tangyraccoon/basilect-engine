@@ -1,0 +1,28 @@
+{
+  "influences": [
+    {
+      "name": "Lawrence Durrell",
+      "context": "It was Lawrence Durrell who said, \"When the mob becomes an artist, we will enter the golden age.\"",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Plato",
+      "context": "And if you think that Plato said that all knowledge is remembering, and then if you add to that my fervent conviction that each one of us possesses the genetic history of mankind within us",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Napoleon",
+      "context": "Napoleon said, \"Beware of the man who dreams with his eyes open.\" And that is somebody like me",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Orson Welles",
+      "context": "My mum told me I looked like Orson Welles so it was time to change.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 4,
+    "sources_checked": 4
+  }
+}

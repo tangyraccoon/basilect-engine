@@ -1,0 +1,182 @@
+{
+  "tags": [
+    {
+      "tag": "traditional",
+      "category": "philosophy",
+      "weight": 1.0,
+      "raw_score": 20
+    },
+    {
+      "tag": "repetition",
+      "category": "process",
+      "weight": 0.6,
+      "raw_score": 12
+    },
+    {
+      "tag": "collaborative",
+      "category": "philosophy",
+      "weight": 0.4,
+      "raw_score": 8
+    },
+    {
+      "tag": "minimalism",
+      "category": "process",
+      "weight": 0.35,
+      "raw_score": 7
+    },
+    {
+      "tag": "vocal_focused",
+      "category": "approach",
+      "weight": 0.35,
+      "raw_score": 7
+    },
+    {
+      "tag": "intuitive",
+      "category": "philosophy",
+      "weight": 0.3,
+      "raw_score": 6
+    },
+    {
+      "tag": "collaborative_production",
+      "category": "approach",
+      "weight": 0.3,
+      "raw_score": 6
+    },
+    {
+      "tag": "live_performance",
+      "category": "approach",
+      "weight": 0.25,
+      "raw_score": 5
+    },
+    {
+      "tag": "playful",
+      "category": "philosophy",
+      "weight": 0.25,
+      "raw_score": 5
+    },
+    {
+      "tag": "multi_instrumental",
+      "category": "approach",
+      "weight": 0.25,
+      "raw_score": 5
+    },
+    {
+      "tag": "confrontational",
+      "category": "philosophy",
+      "weight": 0.2,
+      "raw_score": 4
+    },
+    {
+      "tag": "analog",
+      "category": "approach",
+      "weight": 0.2,
+      "raw_score": 4
+    },
+    {
+      "tag": "energy_driven",
+      "category": "philosophy",
+      "weight": 0.15,
+      "raw_score": 3
+    },
+    {
+      "tag": "signature_sound",
+      "category": "approach",
+      "weight": 0.15,
+      "raw_score": 3
+    },
+    {
+      "tag": "straightforward_songwriting",
+      "category": "philosophy",
+      "weight": 0.15,
+      "raw_score": 3
+    },
+    {
+      "tag": "album_oriented",
+      "category": "approach",
+      "weight": 0.15,
+      "raw_score": 3
+    },
+    {
+      "tag": "consistent",
+      "category": "philosophy",
+      "weight": 0.15,
+      "raw_score": 3
+    },
+    {
+      "tag": "riff-based",
+      "category": "approach",
+      "weight": 0.15,
+      "raw_score": 3
+    },
+    {
+      "tag": "maximalism",
+      "category": "process",
+      "weight": 0.15,
+      "raw_score": 3
+    },
+    {
+      "tag": "straightforward",
+      "category": "philosophy",
+      "weight": 0.1,
+      "raw_score": 2
+    },
+    {
+      "tag": "simplicity",
+      "category": "approach",
+      "weight": 0.1,
+      "raw_score": 2
+    },
+    {
+      "tag": "anti_commercial",
+      "category": "philosophy",
+      "weight": 0.1,
+      "raw_score": 2
+    },
+    {
+      "tag": "theatrical",
+      "category": "approach",
+      "weight": 0.1,
+      "raw_score": 2
+    },
+    {
+      "tag": "short_form",
+      "category": "approach",
+      "weight": 0.1,
+      "raw_score": 2
+    },
+    {
+      "tag": "conceptual",
+      "category": "philosophy",
+      "weight": 0.1,
+      "raw_score": 2
+    },
+    {
+      "tag": "serious",
+      "category": "philosophy",
+      "weight": 0.1,
+      "raw_score": 2
+    },
+    {
+      "tag": "layering",
+      "category": "process",
+      "weight": 0.1,
+      "raw_score": 2
+    },
+    {
+      "tag": "vocal_processing",
+      "category": "process",
+      "weight": 0.1,
+      "raw_score": 2
+    },
+    {
+      "tag": "hybrid",
+      "category": "philosophy",
+      "weight": 0.1,
+      "raw_score": 2
+    }
+  ],
+  "meta": {
+    "count": 29,
+    "sources_checked": 8
+  }
+}

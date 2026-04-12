@@ -1,0 +1,122 @@
+{
+  "tags": [
+    {
+      "tag": "multi_instrumental",
+      "category": "approach",
+      "weight": 1.0,
+      "raw_score": 15
+    },
+    {
+      "tag": "emotional",
+      "category": "philosophy",
+      "weight": 0.733,
+      "raw_score": 11
+    },
+    {
+      "tag": "live_performance",
+      "category": "approach",
+      "weight": 0.6,
+      "raw_score": 9
+    },
+    {
+      "tag": "vocal_focused",
+      "category": "approach",
+      "weight": 0.6,
+      "raw_score": 9
+    },
+    {
+      "tag": "hybrid_production",
+      "category": "approach",
+      "weight": 0.533,
+      "raw_score": 8
+    },
+    {
+      "tag": "collaborative_production",
+      "category": "approach",
+      "weight": 0.467,
+      "raw_score": 7
+    },
+    {
+      "tag": "playful",
+      "category": "philosophy",
+      "weight": 0.467,
+      "raw_score": 7
+    },
+    {
+      "tag": "narrative",
+      "category": "philosophy",
+      "weight": 0.467,
+      "raw_score": 7
+    },
+    {
+      "tag": "traditional",
+      "category": "philosophy",
+      "weight": 0.4,
+      "raw_score": 6
+    },
+    {
+      "tag": "collaborative",
+      "category": "philosophy",
+      "weight": 0.333,
+      "raw_score": 5
+    },
+    {
+      "tag": "acoustic",
+      "category": "approach",
+      "weight": 0.333,
+      "raw_score": 5
+    },
+    {
+      "tag": "autobiographical",
+      "category": "philosophy",
+      "weight": 0.267,
+      "raw_score": 4
+    },
+    {
+      "tag": "orchestration",
+      "category": "process",
+      "weight": 0.267,
+      "raw_score": 4
+    },
+    {
+      "tag": "serious",
+      "category": "philosophy",
+      "weight": 0.2,
+      "raw_score": 3
+    },
+    {
+      "tag": "vocal_processing",
+      "category": "process",
+      "weight": 0.133,
+      "raw_score": 2
+    },
+    {
+      "tag": "synthesis",
+      "category": "process",
+      "weight": 0.133,
+      "raw_score": 2
+    },
+    {
+      "tag": "intuitive",
+      "category": "philosophy",
+      "weight": 0.133,
+      "raw_score": 2
+    },
+    {
+      "tag": "hi_fi",
+      "category": "approach",
+      "weight": 0.133,
+      "raw_score": 2
+    },
+    {
+      "tag": "political",
+      "category": "philosophy",
+      "weight": 0.133,
+      "raw_score": 2
+    }
+  ],
+  "meta": {
+    "count": 19,
+    "sources_checked": 6
+  }
+}

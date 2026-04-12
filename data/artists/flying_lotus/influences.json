@@ -1,0 +1,103 @@
+{
+  "influences": [
+    {
+      "name": "Alice Coltrane",
+      "context": "he's the grandnephew of jazz great Alice Coltrane",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Herbie Hancock",
+      "context": "has collaborated with everyone from Kendrick Lamar and Thom Yorke to Herbie Hancock",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "MF DOOM",
+      "context": "Open playlists he's been listening to for inspiration (MF DOOM is next in the queue)",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Taika Waititi",
+      "context": "One person who was really unexpected was Taika Waititi. He is a friend of Beulah Koale, who's in the film. I had had a particularly rough day of shooting and for whatever reason, Taika had time and wanted to get dinner. It was the best thing that could have happened to the production.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Miguel Atwood-Ferguson",
+      "context": "There's a lot more from [multi-instrumentalist] Miguel Atwood-Ferguson on this one. I think he's on every track. It's really beautiful and he was a super big inspiration.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Ryuichi Sakamoto",
+      "context": "There's some stuff with Ryuichi Sakamoto that we recorded a long time ago and I'm super excited for that to come out. We had sampled his music for a Thundercat album and we just stayed in touch.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Strangeloop",
+      "context": "I was at film school with my buddy Strangeloop and he was making a lot of music on his computer.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Dorm mate (unnamed)",
+      "context": "But there was this guy who lived in the dorm, he was a great friend and an awesome artist and he actually made cool music with the computer, and it was like… 'wait, you can do that?' He started showing me stuff",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Little Snake",
+      "context": "My buddy Little Snake, he really got me on to the granular stuff. He works with straight audio, and I've always been more of a programming person, so it was an opportunity to start playing with audio.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Marilyn McLeod",
+      "context": "Technically, no – I did have access to some of my grandmother's [Motown songwriter Marilyn McLeod] drum machines, like the Roland TR-626.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Carlos Santana",
+      "context": "he has fond memories of watching Carlos Santana and Branford Marsalis play the Coltrane festivals that his family helped organize in L.A.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Branford Marsalis",
+      "context": "he has fond memories of watching Carlos Santana and Branford Marsalis play the Coltrane festivals that his family helped organize in L.A.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Aphex Twin",
+      "context": "soaking up left-field sounds – everything from electronic tricksters like Aphex Twin and Squarepusher",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Squarepusher",
+      "context": "soaking up left-field sounds – everything from electronic tricksters like Aphex Twin and Squarepusher",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "J Dilla",
+      "context": "soaking up left-field sounds – everything from electronic tricksters like Aphex Twin and Squarepusher to underground-rap lords like J Dilla and Madlib",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Madlib",
+      "context": "soaking up left-field sounds – everything from electronic tricksters like Aphex Twin and Squarepusher to underground-rap lords like J Dilla and Madlib",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Miles Davis",
+      "context": "Ellison would then digitally distort, edit and elaborate into a future-fusion bitches' brew potent enough to fry Miles Davis' brain.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Trent Reznor",
+      "context": "Someone like Trent Reznor is a guy whose footsteps I would love to follow in, the way he kinda infiltrated the film industry with music.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Ludwig Göransson",
+      "context": "Ludwig Göransson, who did \"Redbone\" for Childish Gambino and now he's doing The Mandalorian and Tenet and a lot of other stuff. I could see myself going in that direction more",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 19,
+    "sources_checked": 6
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "influences": [
+    {
+      "name": "Andy Warhol",
+      "context": "Well, I always love Andy Warhol. He was a good friend, and I always loved him and his stuff. His stuff I loved not only because it looks amazing, but it was different than everyone else's and had an idea behind it. To this day I love Warhol, I loved Pop Art more than classic.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Kandinsky",
+      "context": "I do a lot of drawings, more on the abstract side, more like the Kandinsky side.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Jonathan Richman / The Modern Lovers",
+      "context": "Richman's band the Modern Lovers had a formative effect on The Cars: drummer David Robinson teamed up with Ocasek in the mid-'70s after leaving the Modern Lovers.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Roy Thomas Baker",
+      "context": "Roy taught me a lot about handling band personalities. He was an electronics whiz, a sound guy with a classical background for mic-ing the room's sound. He got harmony.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Bob Dylan",
+      "context": "Dylan was my favorite.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Lou Reed",
+      "context": "My second favorite was Lou Reed.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Beatles",
+      "context": "he came to my house and sang the Beatles' \"Yesterday\" in the sweetest voice I ever heard",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Folk musicians",
+      "context": "studied at Berklee College of Music and brought influences ranging from folk to Bakersfield country, blues, the British Invasion, Muscle Shoals soul and classic rockers such as Cream",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Bakersfield country artists",
+      "context": "studied at Berklee College of Music and brought influences ranging from folk to Bakersfield country, blues, the British Invasion, Muscle Shoals soul and classic rockers such as Cream",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Blues artists",
+      "context": "studied at Berklee College of Music and brought influences ranging from folk to Bakersfield country, blues, the British Invasion, Muscle Shoals soul and classic rockers such as Cream",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "British Invasion artists",
+      "context": "studied at Berklee College of Music and brought influences ranging from folk to Bakersfield country, blues, the British Invasion, Muscle Shoals soul and classic rockers such as Cream",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Muscle Shoals soul artists",
+      "context": "studied at Berklee College of Music and brought influences ranging from folk to Bakersfield country, blues, the British Invasion, Muscle Shoals soul and classic rockers such as Cream",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Cream",
+      "context": "studied at Berklee College of Music and brought influences ranging from folk to Bakersfield country, blues, the British Invasion, Muscle Shoals soul and classic rockers such as Cream",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 13,
+    "sources_checked": 5
+  }
+}

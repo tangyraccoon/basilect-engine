@@ -1,0 +1,49 @@
+{
+  "artist_id": "astrid_sonne",
+  "artist_name": "Astrid Sonne",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:15:50.061565+00:00",
+      "result": "12 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:15:50.568598+00:00",
+      "result": "12/12 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:16:17.817082+00:00",
+      "result": "46 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:16:22.280545+00:00",
+      "result": "11 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:16:23.199517+00:00",
+      "result": "6/11 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:16:37.027359+00:00",
+      "result": "18 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:17:45.365136+00:00",
+      "result": "28 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:18:30.422557+00:00",
+      "result": "55 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-11T22:18:30.422592+00:00"
+}

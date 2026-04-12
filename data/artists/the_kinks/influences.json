@@ -1,0 +1,23 @@
+{
+  "influences": [
+    {
+      "name": "Carl Jung",
+      "context": "I'm a big fan of Carl Jung when he talked about the collective unconscious.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Eddie Cochran",
+      "context": "I'd like to sit at a table for dinner with Eddie Cochran, Carl Jung and Swami Vivekananda … music, mind and spirituality.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Lead Belly",
+      "context": "listen to Lead Belly records and figure out with the musician how to play the blues on guitar",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 3,
+    "sources_checked": 3
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "artist_id": "mitski",
+  "artist_name": "Mitski",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-11T21:33:49.063367+00:00",
+      "result": "8 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-11T21:33:50.460874+00:00",
+      "result": "5/8 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T21:34:05.833959+00:00",
+      "result": "13 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-11T21:34:10.424634+00:00",
+      "result": "10 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-11T21:34:11.132565+00:00",
+      "result": "8/10 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T21:34:30.251161+00:00",
+      "result": "26 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T21:34:43.318394+00:00",
+      "result": "3 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T21:35:16.475766+00:00",
+      "result": "39 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-11T21:35:16.475803+00:00"
+}

@@ -1,0 +1,18 @@
+{
+  "influences": [
+    {
+      "name": "Aldous Huxley",
+      "context": "The band even took their name from Aldous Huxley's book 'The Doors of Perception'",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Bach",
+      "context": "For example, the intro to 'Light My Fire' sounds a bit like Bach",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 2,
+    "sources_checked": 4
+  }
+}

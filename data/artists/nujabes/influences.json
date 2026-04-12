@@ -1,0 +1,93 @@
+{
+  "influences": [
+    {
+      "name": "old soul and jazz artists (unspecified)",
+      "context": "The reason I started making tracks again was because I wanted to hear music which sampled all the old soul and jazz that I liked.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "old soul and jazz musicians",
+      "context": "he \"started making tracks because [he] wanted to hear music that sampled the old soul and jazz [he] liked.\"",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Miles Davis",
+      "context": "he was able to craft new records that built on the melodic explorations of jazz masters like Miles Davis and Pharoah Sanders",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Pharoah Sanders",
+      "context": "he was able to craft new records that built on the melodic explorations of jazz masters like Miles Davis and Pharoah Sanders",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Luiz Bonfá",
+      "context": "he was able to craft new records that built on the melodic explorations of jazz masters like Miles Davis and Pharoah Sanders and Brazilian artists such as Luiz Bonfá and Toquinho",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Toquinho",
+      "context": "he was able to craft new records that built on the melodic explorations of jazz masters like Miles Davis and Pharoah Sanders and Brazilian artists such as Luiz Bonfá and Toquinho",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Duke Ellington",
+      "context": "Jazz greats like Duke Ellington and Herbie Hancock regularly played massive concert halls in the Japan capital",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Herbie Hancock",
+      "context": "Jazz greats like Duke Ellington and Herbie Hancock regularly played massive concert halls in the Japan capital",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Friends of Distinction",
+      "context": "Some of the songs he responded to while I played in Free Soul Underground included Friends of Distinction's When A Little Love Began To Die, which he would later sample in Funky DL's Don't Even Try It",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Yusef Latif",
+      "context": "Yusef Latif's Love Theme From Spartacus, which would become his song The Final View. As you can see from these two songs, the two main pillars of his music were mellow soul music and spiritual jazz.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Uyama Hiroto",
+      "context": "Under the influence of musician/producer Uyama Hiroto, who had already participated in Metaphorical Music, the emphasis on live music gradually increased.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "KZA",
+      "context": "Nujabes had a lot of respect for KZA, a Force of Nature member who was in Libyus Music, as a fellow record collector.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "soul/jazz records",
+      "context": "When I really started making music I would take out and and listen to my favorite soul/jazz records, select tracks from them I really liked",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Nujabes",
+      "context": "I really wanted to make sounds like Nujabes (my phone had the full Nujabes discography and I was really into Japanese Hip-hop at the time), so I started messing around with Ableton and here we are now!",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Yoko Kanno",
+      "context": "Artists like Yoko Kanno, Shiro Sagisu, Yuji Ohno and Nujabes are my all time favorites.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Shiro Sagisu",
+      "context": "Artists like Yoko Kanno, Shiro Sagisu, Yuji Ohno and Nujabes are my all time favorites.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Yuji Ohno",
+      "context": "Artists like Yoko Kanno, Shiro Sagisu, Yuji Ohno and Nujabes are my all time favorites.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 17,
+    "sources_checked": 7
+  }
+}

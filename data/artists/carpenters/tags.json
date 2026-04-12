@@ -1,0 +1,188 @@
+{
+  "tags": [
+    {
+      "tag": "vocal_focused",
+      "category": "approach",
+      "weight": 1.0,
+      "raw_score": 18
+    },
+    {
+      "tag": "orchestration",
+      "category": "process",
+      "weight": 0.833,
+      "raw_score": 15
+    },
+    {
+      "tag": "collaborative",
+      "category": "philosophy",
+      "weight": 0.667,
+      "raw_score": 12
+    },
+    {
+      "tag": "hi_fi",
+      "category": "approach",
+      "weight": 0.556,
+      "raw_score": 10
+    },
+    {
+      "tag": "multi_instrumental",
+      "category": "approach",
+      "weight": 0.556,
+      "raw_score": 10
+    },
+    {
+      "tag": "studio_as_instrument",
+      "category": "approach",
+      "weight": 0.389,
+      "raw_score": 7
+    },
+    {
+      "tag": "vocal_processing",
+      "category": "process",
+      "weight": 0.333,
+      "raw_score": 6
+    },
+    {
+      "tag": "emotional",
+      "category": "philosophy",
+      "weight": 0.333,
+      "raw_score": 6
+    },
+    {
+      "tag": "polished_production",
+      "category": "approach",
+      "weight": 0.333,
+      "raw_score": 6
+    },
+    {
+      "tag": "layering",
+      "category": "process",
+      "weight": 0.278,
+      "raw_score": 5
+    },
+    {
+      "tag": "traditional",
+      "category": "philosophy",
+      "weight": 0.278,
+      "raw_score": 5
+    },
+    {
+      "tag": "melodic_sensibility",
+      "category": "philosophy",
+      "weight": 0.167,
+      "raw_score": 3
+    },
+    {
+      "tag": "arranging",
+      "category": "process",
+      "weight": 0.167,
+      "raw_score": 3
+    },
+    {
+      "tag": "composition",
+      "category": "process",
+      "weight": 0.167,
+      "raw_score": 3
+    },
+    {
+      "tag": "melodic",
+      "category": "process",
+      "weight": 0.167,
+      "raw_score": 3
+    },
+    {
+      "tag": "harmonizing",
+      "category": "process",
+      "weight": 0.167,
+      "raw_score": 3
+    },
+    {
+      "tag": "craftsmanship",
+      "category": "philosophy",
+      "weight": 0.167,
+      "raw_score": 3
+    },
+    {
+      "tag": "cover_based",
+      "category": "philosophy",
+      "weight": 0.167,
+      "raw_score": 3
+    },
+    {
+      "tag": "nostalgic",
+      "category": "philosophy",
+      "weight": 0.167,
+      "raw_score": 3
+    },
+    {
+      "tag": "safe_commercial",
+      "category": "philosophy",
+      "weight": 0.167,
+      "raw_score": 3
+    },
+    {
+      "tag": "arrangement_focused",
+      "category": "process",
+      "weight": 0.167,
+      "raw_score": 3
+    },
+    {
+      "tag": "hybrid_production",
+      "category": "approach",
+      "weight": 0.111,
+      "raw_score": 2
+    },
+    {
+      "tag": "hybrid",
+      "category": "philosophy",
+      "weight": 0.111,
+      "raw_score": 2
+    },
+    {
+      "tag": "experimental",
+      "category": "philosophy",
+      "weight": 0.111,
+      "raw_score": 2
+    },
+    {
+      "tag": "varied_arrangement",
+      "category": "process",
+      "weight": 0.111,
+      "raw_score": 2
+    },
+    {
+      "tag": "conceptual",
+      "category": "philosophy",
+      "weight": 0.111,
+      "raw_score": 2
+    },
+    {
+      "tag": "meditative",
+      "category": "philosophy",
+      "weight": 0.111,
+      "raw_score": 2
+    },
+    {
+      "tag": "collaborative_production",
+      "category": "approach",
+      "weight": 0.111,
+      "raw_score": 2
+    },
+    {
+      "tag": "background_music",
+      "category": "philosophy",
+      "weight": 0.111,
+      "raw_score": 2
+    },
+    {
+      "tag": "anti_commercial",
+      "category": "philosophy",
+      "weight": 0.056,
+      "raw_score": 1
+    }
+  ],
+  "meta": {
+    "count": 30,
+    "sources_checked": 6
+  }
+}

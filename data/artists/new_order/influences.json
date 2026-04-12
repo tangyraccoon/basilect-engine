@@ -1,0 +1,23 @@
+{
+  "influences": [
+    {
+      "name": "Joy Division",
+      "context": "Their early stuff, the the first stuff that they do, the first album is kind of like Joy Division lite almost, really kind of follows the path that Joy Division sat down.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Arthur Baker",
+      "context": "a seminal moment form was when they meet the producer Arthur Baker, who helps him, record confusion and several other songs, some of the danceier stuff there.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Kraftwerk",
+      "context": "But they're, you know, into craft work at this time and several other kind of electronic dancey bands. And so that those elements start, making their way in",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 3,
+    "sources_checked": 1
+  }
+}

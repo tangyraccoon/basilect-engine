@@ -1,0 +1,103 @@
+{
+  "influences": [
+    {
+      "name": "Stefan Wolpe",
+      "context": "My teacher Stefan Wolpe was a Marxist and he felt my music was too esoteric at the time.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Jackson Pollock",
+      "context": "At that moment . . . Jackson Pollock was crossing the street. The crazy artist of my generation was crossing the street at that moment.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "John Cage",
+      "context": "I came to Feldman's music through his association with John Cage",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Morton Feldman",
+      "context": "People would tell me the stuff needed more space and I'd tell them to go and listen to Morton Feldman or Panasonic, both of whom I love, or better still nothing at all.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Phil Spector",
+      "context": "With music, even hearing the most extraordinary, mind-blowing thing, whether it's a Phil Spector tune or a piece by Bartok, tends to inspire rather than intimidate me.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Bartok",
+      "context": "With music, even hearing the most extraordinary, mind-blowing thing, whether it's a Phil Spector tune or a piece by Bartok, tends to inspire rather than intimidate me.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Mark Rothko",
+      "context": "Feldman was very often inspired by non-musical sources, including Persian rugs, abstract expressionist paintings by Mark Rothko, Willem de Kooning and Philip Guston, and texts of Samuel Beckett, John Ashbery and Frank O'Hara.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Willem de Kooning",
+      "context": "Feldman was very often inspired by non-musical sources, including Persian rugs, abstract expressionist paintings by Mark Rothko, Willem de Kooning and Philip Guston, and texts of Samuel Beckett, John Ashbery and Frank O'Hara.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Philip Guston",
+      "context": "Feldman was very often inspired by non-musical sources, including Persian rugs, abstract expressionist paintings by Mark Rothko, Willem de Kooning and Philip Guston, and texts of Samuel Beckett, John Ashbery and Frank O'Hara.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Samuel Beckett",
+      "context": "Feldman was very often inspired by non-musical sources, including Persian rugs, abstract expressionist paintings by Mark Rothko, Willem de Kooning and Philip Guston, and texts of Samuel Beckett, John Ashbery and Frank O'Hara.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "John Ashbery",
+      "context": "Feldman was very often inspired by non-musical sources, including Persian rugs, abstract expressionist paintings by Mark Rothko, Willem de Kooning and Philip Guston, and texts of Samuel Beckett, John Ashbery and Frank O'Hara.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Frank O'Hara",
+      "context": "Feldman was very often inspired by non-musical sources, including Persian rugs, abstract expressionist paintings by Mark Rothko, Willem de Kooning and Philip Guston, and texts of Samuel Beckett, John Ashbery and Frank O'Hara.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Boulez",
+      "context": "And I think that's essentially what impressed Boulez. That he heard a sound, not an attack, emerging and disappearing without attack and decay, almost like an electronic medium.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Rothko",
+      "context": "I prefer the Rothko edges of the canvas--you can't make them disappear--you can't make it go into nothing.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Mahler",
+      "context": "The way Mahler could go on and on and on and on... I would say that if the tenet for creating alleged masterpieces, if you live in the 19th century, you couldn't make it unless you manipulated time, the way Picasso manipulated the right angle",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Beethoven",
+      "context": "In a Beethoven Quartet/ you only have so much time to get it and if you don't get it you loose it... if you would listed to the Hammerklavier, er... the late Beethoven piano sonata, you would see that it's almost insane with its manipulation of time",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Mondrian",
+      "context": "Well, I think you're very close to first principles with Mondrian... His virtuosity is in developing the wealth, the richness, the associations with these minimal techniques... I'm like Mondrian. How many moves, can I make?",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Proust",
+      "context": "I'm very involved in that. That's also a part of First Principles... It's like Proust. The fact that he can cover a period of his life--forget the incidents, right?--the fact that he could present those memories of all those years... time is their canvas.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "De Kooning",
+      "context": "Brian O'Doherty recently wrote in an article on De Kooning where he went off to talk about my music to explain, something about De Kooning, he talked about my work as having an almost equal quantity of both enigma and a maddening logic... De Kooning once said, 'It's the last STROKE that ends the painting.'",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 19,
+    "sources_checked": 7
+  }
+}

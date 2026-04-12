@@ -1,0 +1,83 @@
+{
+  "influences": [
+    {
+      "name": "Édith Piaf",
+      "context": "She widened her repertoire to include her favourite performers, such as Édith Piaf and Miles Davis, at age 18.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Miles Davis",
+      "context": "She widened her repertoire to include her favourite performers, such as Édith Piaf and Miles Davis, at age 18.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Lambert, Hendricks and Ross",
+      "context": "Mitchell said, \"My jazz background began with one of the early Lambert, Hendricks and Ross albums.\" That album, The Hottest New Group in Jazz, was hard to find in Canada, she says, \"so I saved up and bought it at a bootleg price. I considered that album to be my Beatles. I learned every song off of it, and I don't think there is another album anywhere—including my own—on which I know every note and word of every song.\"",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Arthur Kratzmann",
+      "context": "One unconventional teacher, Arthur Kratzmann, made an impact on her, stimulating her to write poetry; her first album includes a dedication to him.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Pete Seeger",
+      "context": "Eventually she taught herself guitar from a Pete Seeger songbook.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Buffy Sainte-Marie",
+      "context": "She stopped at the Mariposa Folk Festival to see Buffy Sainte-Marie, an American folk singer who had inspired her.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Eric Andersen",
+      "context": "She began playing and composing songs in alternative guitar tunings taught to her by a fellow musician, Eric Andersen, in Detroit.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "David Crosby",
+      "context": "While Mitchell was playing one night in 1967 in the Gaslight South, a club in Coconut Grove, Florida, David Crosby walked in and was immediately struck by her ability and her appeal as an artist. She accompanied him back to Los Angeles, where he set about introducing her and her music to his friends.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Jaco Pastorius",
+      "context": "Starting in the mid-1970s, she began working with noted jazz musicians including Jaco Pastorius, Tom Scott, Wayne Shorter, Herbie Hancock, and Pat Metheny as well as Charles Mingus, who asked her to collaborate on his final recordings.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Charles Mingus",
+      "context": "A few months after the release of Don Juan's Reckless Daughter, Mitchell was contacted by the esteemed jazz composer, bandleader and bassist Charles Mingus, who had heard the orchestrated song \"Paprika Plains\", and wanted her to work with him.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Rachmaninov",
+      "context": "One we saw was The Story of Three Loves [1953] with Kirk Douglas, which was made up of three stories, with the piece \"Rhapsody on a Theme of Paganini\" by Rachmaninov. The music made me swoon.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Van Gogh",
+      "context": "I'm going to go back to where my heart is: I'm going to paint as they did during the period of Van Gogh and Gauguin-post-impressionism. So I paint like that, although those artists were formed by their religions.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Gauguin",
+      "context": "I'm going to go back to where my heart is: I'm going to paint as they did during the period of Van Gogh and Gauguin-post-impressionism. So I paint like that, although those artists were formed by their religions.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Picasso",
+      "context": "But like Picasso, I never know when they're done. I live with them. I'll go, \"That part is not quite right.\"",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Stephen Stills",
+      "context": "I thought that slap came purely from the dulcimer until I saw a television show [recently] that I did the day after Woodstock, where Crosby, Nash, and Stills showed up. Stephen slapped his guitar, which is a kind of flamenco way of playing it, so I would have to cite Stephen Stills also as an influence in that department. But it was latent and not conscious. It wasn't like I studied him and tried to play like him, but I admired the way he played.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 15,
+    "sources_checked": 5
+  }
+}

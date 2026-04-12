@@ -1,0 +1,49 @@
+{
+  "artist_id": "demis_roussos",
+  "artist_name": "Demis Roussos",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:18:13.533012+00:00",
+      "result": "3 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:18:15.927907+00:00",
+      "result": "3/3 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:18:22.412415+00:00",
+      "result": "1 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:18:26.849678+00:00",
+      "result": "8 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:18:29.363055+00:00",
+      "result": "4/8 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:18:39.050001+00:00",
+      "result": "1 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:18:44.242441+00:00",
+      "result": "2 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:18:55.864834+00:00",
+      "result": "13 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-12T15:18:55.864931+00:00"
+}

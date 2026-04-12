@@ -1,0 +1,78 @@
+{
+  "influences": [
+    {
+      "name": "Elliott Smith",
+      "context": "He is frequently compared to singer-songwriter Elliott Smith, who is an influence of his.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Bob Dylan",
+      "context": "inspired as much by Bob Dylan and Gillian Welch as he is by Aphex Twin and Boards of Canada",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Gillian Welch",
+      "context": "inspired as much by Bob Dylan and Gillian Welch as he is by Aphex Twin and Boards of Canada",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Aphex Twin",
+      "context": "inspired as much by Bob Dylan and Gillian Welch as he is by Aphex Twin and Boards of Canada",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Boards of Canada",
+      "context": "inspired as much by Bob Dylan and Gillian Welch as he is by Aphex Twin and Boards of Canada",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Knife",
+      "context": "my sister showed me this band, The Knife. Their vocals were pitch-shifted really aggressively; super high, super low, and they'd just sing the whole song like that. I really loved their music and that opened the door for me to experiment with that sound",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Frank Sinatra",
+      "context": "Initially inspired by Frank Sinatra's Over the Rainbow",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "his siblings",
+      "context": "my siblings were into it, and my mom always played the good stuff—so I grew up appreciating good music",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "his mom",
+      "context": "my siblings were into it, and my mom always played the good stuff—so I grew up appreciating good music",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "his older brother",
+      "context": "my older brother played saxophone in the band",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "his sister Rachel",
+      "context": "she's eight years older, and when I was a kid, she basically dictated my taste in music",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "peers in the DIY scene",
+      "context": "Hearing something a peer made that was so impressive—it floored me. And I just wanted to emulate that",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Rolling Stones",
+      "context": "I was listening to the Rolling Stones – there's something about their recordings that feels haphazard, but they are so easy to listen to at the same time.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Neil Young",
+      "context": "The title track on Headlights has a deep guitar tone that is inspired by \"Unknown Legend\" by Neil Young. I come back to the 1992 Neil Young album Harvest Moon, too.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 14,
+    "sources_checked": 6
+  }
+}

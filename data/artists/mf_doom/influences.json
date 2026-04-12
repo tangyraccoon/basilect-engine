@@ -1,0 +1,138 @@
+{
+  "influences": [
+    {
+      "name": "KRS-One",
+      "context": "Taking a page from KRS-One and his reaction to Scott La Rock's untimely death, DOOM completed their sophomore album and submitted it to the label.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Bambaataa",
+      "context": "If I want to go to '83, I'll put on some Bambaataa shit.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Gil Scott-Heron",
+      "context": "If I want to go to '71, Gil Scott-Heron and those dudes back then.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "De La Soul",
+      "context": "The last couple records I remember listening to before that was De La's 3 Feet High and Rising and all that, Nas's Illmatic kinda shit…",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Nas",
+      "context": "The last couple records I remember listening to before that was De La's 3 Feet High and Rising and all that, Nas's Illmatic kinda shit…",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Gang Starr",
+      "context": "If I went a little bit into more detail with that kind of feel—Gang Starr, Primo, and them.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "DJ Premier",
+      "context": "If I went a little bit into more detail with that kind of feel—Gang Starr, Primo, and them.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Busy Bee",
+      "context": "There's a whole bragging and boasting aspect to rhyming, like Busy Bee and all them.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Madlib",
+      "context": "He put me up on it—the way it felt, and the way you can chop shit up and change it with the twist of a finger, without having to go too much into the parameters.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Murdoc",
+      "context": "I was really into the Wake Up Show, that's where I first found out about one of my favorite MC's Murdoc, the winner of their 100k Battle. I downloaded all his albums from Myspace and listened to em everyday before high school. His work really got me into lyricism and all that.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "J Dilla",
+      "context": "I eventually got into J Dilla through listening to the Alchemist and hearing him shout him out.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "MF Doom",
+      "context": "I started buying any MF Doom album I could find. I bought an 'Operation: Doomsday' with the original art from Best Buy one day, and from there on I knew what type of music I wanted to make. Doom is my hero, he's the greatest ever.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Spits",
+      "context": "Through record shopping I got more into Punk and Progressive Rock, like The Spits and Oingo Boingo, that's what mainly influences my music these days more than any rap.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Oingo Boingo",
+      "context": "Through record shopping I got more into Punk and Progressive Rock, like The Spits and Oingo Boingo, that's what mainly influences my music these days more than any rap.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Frank Zappa",
+      "context": "Artists like Frank Zappa, who I believe to be the greatest musician of all time, that's who inspire me.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Beck",
+      "context": "I write very abstract lyrics, mostly inspired by Beck.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Bill Hicks",
+      "context": "Bill Hicks is my lord and savior, he's my spiritual leader.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "El-P",
+      "context": "Some producers who have influenced me are J Dilla, Madlib, MF Doom, El-P, and Del The Funky Homosapien.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Del The Funky Homosapien",
+      "context": "Some producers who have influenced me are J Dilla, Madlib, MF Doom, El-P, and Del The Funky Homosapien.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Kurt Cobain",
+      "context": "Like the song God Is Gay is an ode to my love for Kurt Cobain.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Johnny Mathis",
+      "context": "Chances Are (which is the title of my favorite Johnny Mathis song)",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Frankie Crocker",
+      "context": "My first experience with the sound we now call hip hop was listening to the radio. Back then, it was WBLS, with Frankie Crocker, playing songs like Grover Washington Jr. and others that had that vibe.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Grover Washington Jr.",
+      "context": "My first experience with the sound we now call hip hop was listening to the radio. Back then, it was WBLS, with Frankie Crocker, playing songs like Grover Washington Jr. and others that had that vibe.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Charles Bukowski",
+      "context": "For writing, Bukowski is, surprisingly, his main reference... His writing style always surprised me. I'd read thinking I knew where he was going, and he would turn left and flip everything upside down.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Marvel's Doctor Doom",
+      "context": "For him, MF DOOM is inspired by the villains of comic books, especially Marvel's Doctor Doom.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Godzilla",
+      "context": "King Geedorah is from another world: inspired by the three-headed monster from Godzilla movies.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 26,
+    "sources_checked": 7
+  }
+}

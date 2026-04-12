@@ -1,0 +1,49 @@
+{
+  "artist_id": "sophie",
+  "artist_name": "SOPHIE",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-11T19:59:52.104810+00:00",
+      "result": "6 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-11T19:59:53.167572+00:00",
+      "result": "5/6 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T20:01:36.234316+00:00",
+      "result": "90 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-11T20:01:41.189960+00:00",
+      "result": "10 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-11T20:01:43.687053+00:00",
+      "result": "8/10 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T20:02:22.500703+00:00",
+      "result": "54 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T20:02:36.942982+00:00",
+      "result": "16 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T20:03:09.936061+00:00",
+      "result": "36 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-11T20:03:09.936172+00:00"
+}

@@ -1,0 +1,28 @@
+{
+  "influences": [
+    {
+      "name": "Peter Green",
+      "context": "taking inspiration from players associated with the British blues boom, most notably Peter Green and Eric Clapton",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Eric Clapton",
+      "context": "taking inspiration from players associated with the British blues boom, most notably Peter Green and Eric Clapton",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "John Mayall",
+      "context": "with John Mayall's Bluesbreakers",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Albert King",
+      "context": "This concept was drilled in to Gary by way of advice from none other than Albert King, who recommended that the guitar play every other lick, stressing the importance of not overplaying.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 4,
+    "sources_checked": 1
+  }
+}

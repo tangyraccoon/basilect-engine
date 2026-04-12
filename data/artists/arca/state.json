@@ -1,0 +1,49 @@
+{
+  "artist_id": "arca",
+  "artist_name": "Arca",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-11T19:56:36.487509+00:00",
+      "result": "6 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-11T19:56:37.349705+00:00",
+      "result": "4/6 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T19:58:06.475320+00:00",
+      "result": "58 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-11T19:58:11.054791+00:00",
+      "result": "10 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-11T19:58:11.851920+00:00",
+      "result": "6/10 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T19:59:08.649126+00:00",
+      "result": "71 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T19:59:19.045438+00:00",
+      "result": "10 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T19:59:48.084714+00:00",
+      "result": "38 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-11T19:59:48.084909+00:00"
+}

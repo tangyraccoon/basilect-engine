@@ -1,0 +1,49 @@
+{
+  "artist_id": "the_white_stripes",
+  "artist_name": "The White Stripes",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:04:41.706535+00:00",
+      "result": "5 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:04:45.552576+00:00",
+      "result": "5/5 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:05:01.847369+00:00",
+      "result": "12 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:05:06.412520+00:00",
+      "result": "8 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:05:09.928992+00:00",
+      "result": "6/8 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:05:30.135242+00:00",
+      "result": "28 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:05:48.295670+00:00",
+      "result": "11 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:06:15.184346+00:00",
+      "result": "48 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-12T16:06:15.184558+00:00"
+}

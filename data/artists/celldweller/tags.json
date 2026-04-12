@@ -1,0 +1,188 @@
+{
+  "tags": [
+    {
+      "tag": "studio_as_instrument",
+      "category": "approach",
+      "weight": 1.0,
+      "raw_score": 19
+    },
+    {
+      "tag": "synthesis",
+      "category": "process",
+      "weight": 0.947,
+      "raw_score": 18
+    },
+    {
+      "tag": "self_produced",
+      "category": "approach",
+      "weight": 0.947,
+      "raw_score": 18
+    },
+    {
+      "tag": "experimental",
+      "category": "philosophy",
+      "weight": 0.737,
+      "raw_score": 14
+    },
+    {
+      "tag": "layering",
+      "category": "process",
+      "weight": 0.684,
+      "raw_score": 13
+    },
+    {
+      "tag": "hybrid_production",
+      "category": "approach",
+      "weight": 0.632,
+      "raw_score": 12
+    },
+    {
+      "tag": "digital",
+      "category": "approach",
+      "weight": 0.632,
+      "raw_score": 12
+    },
+    {
+      "tag": "multi_instrumental",
+      "category": "approach",
+      "weight": 0.579,
+      "raw_score": 11
+    },
+    {
+      "tag": "diy",
+      "category": "philosophy",
+      "weight": 0.579,
+      "raw_score": 11
+    },
+    {
+      "tag": "hi_fi",
+      "category": "approach",
+      "weight": 0.526,
+      "raw_score": 10
+    },
+    {
+      "tag": "sampling",
+      "category": "process",
+      "weight": 0.474,
+      "raw_score": 9
+    },
+    {
+      "tag": "vocal_processing",
+      "category": "process",
+      "weight": 0.421,
+      "raw_score": 8
+    },
+    {
+      "tag": "intellectual",
+      "category": "philosophy",
+      "weight": 0.368,
+      "raw_score": 7
+    },
+    {
+      "tag": "conceptual",
+      "category": "philosophy",
+      "weight": 0.316,
+      "raw_score": 6
+    },
+    {
+      "tag": "electronic",
+      "category": "approach",
+      "weight": 0.316,
+      "raw_score": 6
+    },
+    {
+      "tag": "instrumental_focused",
+      "category": "approach",
+      "weight": 0.263,
+      "raw_score": 5
+    },
+    {
+      "tag": "collaborative_production",
+      "category": "approach",
+      "weight": 0.263,
+      "raw_score": 5
+    },
+    {
+      "tag": "emotional",
+      "category": "philosophy",
+      "weight": 0.263,
+      "raw_score": 5
+    },
+    {
+      "tag": "maximalism",
+      "category": "process",
+      "weight": 0.263,
+      "raw_score": 5
+    },
+    {
+      "tag": "collaborative",
+      "category": "philosophy",
+      "weight": 0.211,
+      "raw_score": 4
+    },
+    {
+      "tag": "detailed_sound_design",
+      "category": "process",
+      "weight": 0.158,
+      "raw_score": 3
+    },
+    {
+      "tag": "anti_commercial",
+      "category": "philosophy",
+      "weight": 0.158,
+      "raw_score": 3
+    },
+    {
+      "tag": "remix_culture",
+      "category": "approach",
+      "weight": 0.158,
+      "raw_score": 3
+    },
+    {
+      "tag": "genre_blending",
+      "category": "philosophy",
+      "weight": 0.158,
+      "raw_score": 3
+    },
+    {
+      "tag": "remixing",
+      "category": "process",
+      "weight": 0.158,
+      "raw_score": 3
+    },
+    {
+      "tag": "independent",
+      "category": "philosophy",
+      "weight": 0.158,
+      "raw_score": 3
+    },
+    {
+      "tag": "isolation",
+      "category": "philosophy",
+      "weight": 0.105,
+      "raw_score": 2
+    },
+    {
+      "tag": "confrontational",
+      "category": "philosophy",
+      "weight": 0.105,
+      "raw_score": 2
+    },
+    {
+      "tag": "autobiographical",
+      "category": "philosophy",
+      "weight": 0.105,
+      "raw_score": 2
+    },
+    {
+      "tag": "loop_based",
+      "category": "process",
+      "weight": 0.105,
+      "raw_score": 2
+    }
+  ],
+  "meta": {
+    "count": 30,
+    "sources_checked": 9
+  }
+}

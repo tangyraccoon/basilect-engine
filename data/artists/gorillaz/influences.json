@@ -1,0 +1,48 @@
+{
+  "influences": [
+    {
+      "name": "Daffy Duck",
+      "context": "I grew up obsessed with animation and watching cartoons, and I was a huge fan of Daffy Duck and Bugs Bunny and all the early Bob Clampett and then Chuck Jones stuff.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Bugs Bunny",
+      "context": "I grew up obsessed with animation and watching cartoons, and I was a huge fan of Daffy Duck and Bugs Bunny and all the early Bob Clampett and then Chuck Jones stuff.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Bob Clampett",
+      "context": "I grew up obsessed with animation and watching cartoons, and I was a huge fan of Daffy Duck and Bugs Bunny and all the early Bob Clampett and then Chuck Jones stuff.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Chuck Jones",
+      "context": "I grew up obsessed with animation and watching cartoons, and I was a huge fan of Daffy Duck and Bugs Bunny and all the early Bob Clampett and then Chuck Jones stuff.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Bobby Womack",
+      "context": "growing up, he was one of my favorite voices with Nina Simone and people like that. Just - voices I just lost myself in.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Nina Simone",
+      "context": "growing up, he was one of my favorite voices with Nina Simone and people like that. Just - voices I just lost myself in.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Ibrahim Ferrer",
+      "context": "a myriad collaborations with artists as disparate as Ibrahim Ferrer and Talking Heads' Tina Weymouth",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Talking Heads",
+      "context": "a myriad collaborations with artists as disparate as Ibrahim Ferrer and Talking Heads' Tina Weymouth",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 8,
+    "sources_checked": 4
+  }
+}

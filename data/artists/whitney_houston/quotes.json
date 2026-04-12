@@ -1,0 +1,38 @@
+{
+  "quotes": [
+    {
+      "text": "Well, it's a little intense watching yourself that large and for that long.",
+      "publication": "Los Angeles Times",
+      "date": "1992"
+    },
+    {
+      "text": "When you reach a certain height, you will stand out and you will always be criticized. My mother told me this would happen: 'You think you're a success? You have seven No. 1 songs? They're gonna (mess) you up.'",
+      "publication": "Los Angeles Times",
+      "date": "1992"
+    },
+    {
+      "text": "Oh, my agency is saying, 'Whitney, don't you want to look at this and that?' No, I just want to be pregnant and have my baby.",
+      "publication": "Los Angeles Times",
+      "date": "1992"
+    },
+    {
+      "text": "I could give up acting as long as I am singing and making records.",
+      "publication": "Los Angeles Times",
+      "date": "1992"
+    },
+    {
+      "text": "When I first started, I loved to sing. I loved the joy of making music, making harmonies, all that creative stuff. But I certainly don't want to do it for the fun of it anymore. I enjoy it, but it isn't fun.",
+      "publication": "Los Angeles Times",
+      "date": "1992"
+    }
+  ],
+  "corpus_meta": {
+    "quote_count": 5,
+    "source_count": 1,
+    "date_range": [
+      "1992",
+      "1992"
+    ],
+    "corpus_valid": false
+  }
+}

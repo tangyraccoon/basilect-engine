@@ -1,0 +1,48 @@
+{
+  "influences": [
+    {
+      "name": "Motown and Stax",
+      "context": "\"I was a sort of Motown and Stax specialist when I was a studio musician, and I brought that groove into Led Zeppelin\"",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "R&B",
+      "context": "\"Bonzo was also a big R&B fan, so there's a lot of it in the Zeppelin rhythm section.\"",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "B. B. King",
+      "context": "I learned a lot from B. B. King, Otis Rush, and Buddy Guy: I used to listen to their records over and over, and then try to play exactly like that",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Otis Rush",
+      "context": "I learned a lot from B. B. King, Otis Rush, and Buddy Guy: I used to listen to their records over and over, and then try to play exactly like that",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Buddy Guy",
+      "context": "I learned a lot from B. B. King, Otis Rush, and Buddy Guy: I used to listen to their records over and over, and then try to play exactly like that",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Bob Dylan",
+      "context": "The first music that appealed to me, when I was at school even, was stuff like [Bob] Dylan's 'Corrina, Corrina'",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Leadbelly",
+      "context": "when you look deeper into that sort of thing you find there's a lot of the same feelings that are in blues music, like Leadbelly's stuff",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Bukka White",
+      "context": "all the old guys, such as Bukka White, who originally recorded in the late '20s",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 8,
+    "sources_checked": 5
+  }
+}

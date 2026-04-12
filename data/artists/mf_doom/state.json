@@ -1,0 +1,49 @@
+{
+  "artist_id": "mf_doom",
+  "artist_name": "MF DOOM",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-11T21:53:20.278376+00:00",
+      "result": "7 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-11T21:53:21.263617+00:00",
+      "result": "7/7 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T21:53:33.400325+00:00",
+      "result": "11 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-11T21:53:37.916573+00:00",
+      "result": "8 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-11T21:53:39.563109+00:00",
+      "result": "6/8 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T21:53:59.759950+00:00",
+      "result": "21 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T21:54:24.830795+00:00",
+      "result": "26 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T21:54:58.082332+00:00",
+      "result": "44 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-11T21:54:58.082372+00:00"
+}

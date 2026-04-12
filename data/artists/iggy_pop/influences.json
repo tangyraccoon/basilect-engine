@@ -1,0 +1,48 @@
+{
+  "influences": [
+    {
+      "name": "David Bowie",
+      "context": "a solo career he launched 46 years ago with a pair of David Bowie co-produced albums, The Idiot and Lust For Life",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Link Wray",
+      "context": "I like Link Wray a lot better than Yngwie Malmsteen, put it that way. I think that influences the producers I work with to stop short of polishing the project too much.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Doors",
+      "context": "DS: What's your favorite Doors song? Iggy: All of 'em. Especially \"The Spy\" whatever the official title is and \"The End.\" They're all great.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "ELP",
+      "context": "You see, the music we used to play was like a cross between ELP and ELO. No kidding. Really, it was. The majesties, not the instruments. I was on organ.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "ELO",
+      "context": "You see, the music we used to play was like a cross between ELP and ELO. No kidding. Really, it was. The majesties, not the instruments. I was on organ.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Miles Davis",
+      "context": "Suddenly, I'm listening to lots of Miles Davis again",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Bill Laswell",
+      "context": "whether it was with the Stooges, David Bowie, Bill Laswell – I would have contributed two or three of the musical backups myself",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Josh Homme",
+      "context": "The last thing I wrote [musically] was \"Paraguay\", on the album I did with Josh Homme [in 2016, Post Pop Depression]",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 8,
+    "sources_checked": 4
+  }
+}

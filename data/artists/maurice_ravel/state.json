@@ -1,0 +1,49 @@
+{
+  "artist_id": "maurice_ravel",
+  "artist_name": "Maurice Ravel",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:18:39.000241+00:00",
+      "result": "6 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:18:40.738733+00:00",
+      "result": "2/6 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:18:47.302045+00:00",
+      "result": "3 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:18:51.927536+00:00",
+      "result": "10 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:18:53.880227+00:00",
+      "result": "9/10 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:19:09.013769+00:00",
+      "result": "19 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:19:15.966790+00:00",
+      "result": "8 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:19:41.107504+00:00",
+      "result": "41 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-12T15:19:41.107629+00:00"
+}

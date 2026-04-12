@@ -1,0 +1,28 @@
+{
+  "quotes": [
+    {
+      "text": "Take another little piece of my heart now, baby!",
+      "publication": "ad-hoc-news.de",
+      "date": "08.04.2026"
+    },
+    {
+      "text": "Freedom's just another word for nothing left to lose",
+      "publication": "ad-hoc-news.de",
+      "date": "08.04.2026"
+    },
+    {
+      "text": "liberated chick",
+      "publication": "ad-hoc-news.de",
+      "date": "08.04.2026"
+    }
+  ],
+  "corpus_meta": {
+    "quote_count": 3,
+    "source_count": 1,
+    "date_range": [
+      "08.0",
+      "08.0"
+    ],
+    "corpus_valid": false
+  }
+}

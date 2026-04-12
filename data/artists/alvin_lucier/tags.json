@@ -1,0 +1,236 @@
+{
+  "tags": [
+    {
+      "tag": "experimental",
+      "category": "philosophy",
+      "weight": 1.0,
+      "raw_score": 45
+    },
+    {
+      "tag": "conceptual",
+      "category": "philosophy",
+      "weight": 0.933,
+      "raw_score": 42
+    },
+    {
+      "tag": "intellectual",
+      "category": "philosophy",
+      "weight": 0.8,
+      "raw_score": 36
+    },
+    {
+      "tag": "acoustic",
+      "category": "approach",
+      "weight": 0.556,
+      "raw_score": 25
+    },
+    {
+      "tag": "studio_as_instrument",
+      "category": "approach",
+      "weight": 0.444,
+      "raw_score": 20
+    },
+    {
+      "tag": "hybrid_production",
+      "category": "approach",
+      "weight": 0.422,
+      "raw_score": 19
+    },
+    {
+      "tag": "generative",
+      "category": "process",
+      "weight": 0.378,
+      "raw_score": 17
+    },
+    {
+      "tag": "immersive",
+      "category": "approach",
+      "weight": 0.356,
+      "raw_score": 16
+    },
+    {
+      "tag": "electronic",
+      "category": "approach",
+      "weight": 0.356,
+      "raw_score": 16
+    },
+    {
+      "tag": "vocal_processing",
+      "category": "process",
+      "weight": 0.333,
+      "raw_score": 15
+    },
+    {
+      "tag": "collaborative",
+      "category": "philosophy",
+      "weight": 0.289,
+      "raw_score": 13
+    },
+    {
+      "tag": "found_sound",
+      "category": "process",
+      "weight": 0.267,
+      "raw_score": 12
+    },
+    {
+      "tag": "meditative",
+      "category": "philosophy",
+      "weight": 0.2,
+      "raw_score": 9
+    },
+    {
+      "tag": "field_recording",
+      "category": "process",
+      "weight": 0.178,
+      "raw_score": 8
+    },
+    {
+      "tag": "playful",
+      "category": "philosophy",
+      "weight": 0.156,
+      "raw_score": 7
+    },
+    {
+      "tag": "live_performance",
+      "category": "approach",
+      "weight": 0.156,
+      "raw_score": 7
+    },
+    {
+      "tag": "algorithmic",
+      "category": "process",
+      "weight": 0.133,
+      "raw_score": 6
+    },
+    {
+      "tag": "long_form",
+      "category": "approach",
+      "weight": 0.133,
+      "raw_score": 6
+    },
+    {
+      "tag": "chance_operations",
+      "category": "process",
+      "weight": 0.111,
+      "raw_score": 5
+    },
+    {
+      "tag": "repetition",
+      "category": "process",
+      "weight": 0.111,
+      "raw_score": 5
+    },
+    {
+      "tag": "synthesis",
+      "category": "process",
+      "weight": 0.111,
+      "raw_score": 5
+    },
+    {
+      "tag": "minimalism",
+      "category": "process",
+      "weight": 0.111,
+      "raw_score": 5
+    },
+    {
+      "tag": "anti_commercial",
+      "category": "philosophy",
+      "weight": 0.089,
+      "raw_score": 4
+    },
+    {
+      "tag": "bio-sonic",
+      "category": "process",
+      "weight": 0.067,
+      "raw_score": 3
+    },
+    {
+      "tag": "scientific_inquiry",
+      "category": "philosophy",
+      "weight": 0.067,
+      "raw_score": 3
+    },
+    {
+      "tag": "instrumental_focused",
+      "category": "approach",
+      "weight": 0.067,
+      "raw_score": 3
+    },
+    {
+      "tag": "spatial_acoustics",
+      "category": "process",
+      "weight": 0.067,
+      "raw_score": 3
+    },
+    {
+      "tag": "drone",
+      "category": "process",
+      "weight": 0.067,
+      "raw_score": 3
+    },
+    {
+      "tag": "sonic_investigation",
+      "category": "process",
+      "weight": 0.067,
+      "raw_score": 3
+    },
+    {
+      "tag": "intuitive",
+      "category": "philosophy",
+      "weight": 0.067,
+      "raw_score": 3
+    },
+    {
+      "tag": "resonance_based_composition",
+      "category": "process",
+      "weight": 0.067,
+      "raw_score": 3
+    },
+    {
+      "tag": "psychoacoustic_phenomena",
+      "category": "process",
+      "weight": 0.067,
+      "raw_score": 3
+    },
+    {
+      "tag": "loop_based",
+      "category": "process",
+      "weight": 0.067,
+      "raw_score": 3
+    },
+    {
+      "tag": "thought_provoking",
+      "category": "philosophy",
+      "weight": 0.044,
+      "raw_score": 2
+    },
+    {
+      "tag": "abstract",
+      "category": "philosophy",
+      "weight": 0.044,
+      "raw_score": 2
+    },
+    {
+      "tag": "sampling",
+      "category": "process",
+      "weight": 0.044,
+      "raw_score": 2
+    },
+    {
+      "tag": "confrontational",
+      "category": "philosophy",
+      "weight": 0.044,
+      "raw_score": 2
+    },
+    {
+      "tag": "feedback_generation",
+      "category": "process",
+      "weight": 0.044,
+      "raw_score": 2
+    }
+  ],
+  "meta": {
+    "count": 38,
+    "sources_checked": 15
+  }
+}

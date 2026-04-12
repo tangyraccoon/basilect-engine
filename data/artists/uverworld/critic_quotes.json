@@ -1,0 +1,20 @@
+{
+  "quotes": [
+    {
+      "text": "While based in rock music, their sound incorporates elements of hip-hop such as rapping, scratching, and beatboxing, as well as heavy guitar riffs.",
+      "publication": "En.Wikipedia.Org",
+      "date": ""
+    },
+    {
+      "text": "\"Uverworld\" is a term coined by the band, combining the German word \"über\" (meaning \"over\") with the English word \"world\" to form a phrase that means \"crossing above the world\".",
+      "publication": "En.Wikipedia.Org",
+      "date": ""
+    }
+  ],
+  "corpus_meta": {
+    "quote_count": 2,
+    "source_count": 1,
+    "date_range": [],
+    "corpus_valid": false
+  }
+}

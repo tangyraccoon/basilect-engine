@@ -1,0 +1,176 @@
+{
+  "tags": [
+    {
+      "tag": "vocal_focused",
+      "category": "approach",
+      "weight": 1.0,
+      "raw_score": 22
+    },
+    {
+      "tag": "commercial",
+      "category": "philosophy",
+      "weight": 0.818,
+      "raw_score": 18
+    },
+    {
+      "tag": "vocal_processing",
+      "category": "process",
+      "weight": 0.773,
+      "raw_score": 17
+    },
+    {
+      "tag": "playful",
+      "category": "philosophy",
+      "weight": 0.727,
+      "raw_score": 16
+    },
+    {
+      "tag": "collaborative",
+      "category": "philosophy",
+      "weight": 0.545,
+      "raw_score": 12
+    },
+    {
+      "tag": "collaborative_production",
+      "category": "approach",
+      "weight": 0.409,
+      "raw_score": 9
+    },
+    {
+      "tag": "short_form",
+      "category": "approach",
+      "weight": 0.409,
+      "raw_score": 9
+    },
+    {
+      "tag": "hi_fi",
+      "category": "approach",
+      "weight": 0.318,
+      "raw_score": 7
+    },
+    {
+      "tag": "lyrical_adaptation",
+      "category": "process",
+      "weight": 0.273,
+      "raw_score": 6
+    },
+    {
+      "tag": "multi_instrumental",
+      "category": "approach",
+      "weight": 0.227,
+      "raw_score": 5
+    },
+    {
+      "tag": "collage",
+      "category": "process",
+      "weight": 0.227,
+      "raw_score": 5
+    },
+    {
+      "tag": "family_friendly_adaptation",
+      "category": "process",
+      "weight": 0.136,
+      "raw_score": 3
+    },
+    {
+      "tag": "cover_based",
+      "category": "approach",
+      "weight": 0.136,
+      "raw_score": 3
+    },
+    {
+      "tag": "hybrid_production",
+      "category": "approach",
+      "weight": 0.136,
+      "raw_score": 3
+    },
+    {
+      "tag": "artist_vision_focused",
+      "category": "philosophy",
+      "weight": 0.136,
+      "raw_score": 3
+    },
+    {
+      "tag": "live_performance",
+      "category": "approach",
+      "weight": 0.136,
+      "raw_score": 3
+    },
+    {
+      "tag": "child_centered",
+      "category": "philosophy",
+      "weight": 0.136,
+      "raw_score": 3
+    },
+    {
+      "tag": "long_form",
+      "category": "approach",
+      "weight": 0.136,
+      "raw_score": 3
+    },
+    {
+      "tag": "lyric_modification",
+      "category": "process",
+      "weight": 0.136,
+      "raw_score": 3
+    },
+    {
+      "tag": "lo_fi",
+      "category": "approach",
+      "weight": 0.136,
+      "raw_score": 3
+    },
+    {
+      "tag": "commercial_adaptation",
+      "category": "philosophy",
+      "weight": 0.136,
+      "raw_score": 3
+    },
+    {
+      "tag": "studio_as_instrument",
+      "category": "approach",
+      "weight": 0.091,
+      "raw_score": 2
+    },
+    {
+      "tag": "emotional",
+      "category": "philosophy",
+      "weight": 0.091,
+      "raw_score": 2
+    },
+    {
+      "tag": "intuitive",
+      "category": "philosophy",
+      "weight": 0.091,
+      "raw_score": 2
+    },
+    {
+      "tag": "synthesis",
+      "category": "process",
+      "weight": 0.091,
+      "raw_score": 2
+    },
+    {
+      "tag": "orchestration",
+      "category": "process",
+      "weight": 0.091,
+      "raw_score": 2
+    },
+    {
+      "tag": "sampling",
+      "category": "process",
+      "weight": 0.091,
+      "raw_score": 2
+    },
+    {
+      "tag": "anti_commercial",
+      "category": "philosophy",
+      "weight": 0.045,
+      "raw_score": 1
+    }
+  ],
+  "meta": {
+    "count": 28,
+    "sources_checked": 9
+  }
+}

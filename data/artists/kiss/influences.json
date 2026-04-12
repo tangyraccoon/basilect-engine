@@ -1,0 +1,68 @@
+{
+  "influences": [
+    {
+      "name": "The Beatles",
+      "context": "Paul Stanley admitted in an interview that one of the things the band hated about the music industry in the 1970s was that bands didn't look like bands anymore. \"Those '60s British groups all looked like real bands,\" he said. \"No member of The Beatles could have fit into The Stones. No member of The Who could have been in the Dave Clark Five. You had unified images of those bands, and at the same time, there was an emphasis on the individual members.\" Kiss wanted to try to recreate that mindset by using their makeup.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Orchid Mantis",
+      "context": "It reminded me a lot of orchid mantis, which has been my favorite music project for a long time.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Explosions in the Sky",
+      "context": "Which artists have influenced your music the most? Explosions in the Sky, Daughter, Bon Iver, Volcano Choir, Fionn Regan, Orchid Mantis, Beach Vacation, Cathedral Bells",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Daughter",
+      "context": "Which artists have influenced your music the most? Explosions in the Sky, Daughter, Bon Iver, Volcano Choir, Fionn Regan, Orchid Mantis, Beach Vacation, Cathedral Bells",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Bon Iver",
+      "context": "Which artists have influenced your music the most? Explosions in the Sky, Daughter, Bon Iver, Volcano Choir, Fionn Regan, Orchid Mantis, Beach Vacation, Cathedral Bells",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Volcano Choir",
+      "context": "Which artists have influenced your music the most? Explosions in the Sky, Daughter, Bon Iver, Volcano Choir, Fionn Regan, Orchid Mantis, Beach Vacation, Cathedral Bells",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Fionn Regan",
+      "context": "Which artists have influenced your music the most? Explosions in the Sky, Daughter, Bon Iver, Volcano Choir, Fionn Regan, Orchid Mantis, Beach Vacation, Cathedral Bells",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Beach Vacation",
+      "context": "Which artists have influenced your music the most? Explosions in the Sky, Daughter, Bon Iver, Volcano Choir, Fionn Regan, Orchid Mantis, Beach Vacation, Cathedral Bells",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Cathedral Bells",
+      "context": "Which artists have influenced your music the most? Explosions in the Sky, Daughter, Bon Iver, Volcano Choir, Fionn Regan, Orchid Mantis, Beach Vacation, Cathedral Bells",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Cat Stevens",
+      "context": "The first album that I remember that glued me to my parent's stereo console was Cat Stevens's \"Catch Bull At Four.\"",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Peter Frampton",
+      "context": "Soon after that, I heard the album Frampton Comes Alive and that was it. I would listen to that over and over and even recall coming home from Sunday morning mass and laying on the floor next to that same stereo console and listening to those songs.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Jerry",
+      "context": "As I mentioned my older brother Jerry began playing guitar so his love of the instrument permeated my senses around 1976.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 12,
+    "sources_checked": 5
+  }
+}

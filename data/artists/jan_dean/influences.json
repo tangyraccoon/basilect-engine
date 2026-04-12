@@ -1,0 +1,28 @@
+{
+  "influences": [
+    {
+      "name": "Brian Wilson",
+      "context": "After meeting Brian Wilson in 1963 and 1964, Jan and Dean achieved the pinnacle of their commercial success. Berry and Wilson worked together on a dozen songs and album cuts for Jan and Dean, including 'Surf City,' which was co-written by Jan Berry and Brian Wilson",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "the Beach Boys",
+      "context": "They met and performed with the Beach Boys while playing local venues, and they found the appeal of the latter's 'surf sound.'",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Beatles",
+      "context": "Of course, The Beatles helped. The Beatles finally had control over their graphic design, and then of course once that happened, all artists wanted control.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Peter, Paul and Mary",
+      "context": "I enjoyed folk music, and I liked Peter, Paul and Mary's stuff, and I noticed they were using the same font, the same lettering, on multiple covers, and I went, boy that's interesting. They're treating their career as a real business, with real branding, and they're doing their branding by using that type style, which was kind of a folk, hippie type style. I thought that was really brilliant.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 4,
+    "sources_checked": 3
+  }
+}

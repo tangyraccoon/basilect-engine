@@ -1,0 +1,88 @@
+{
+  "influences": [
+    {
+      "name": "The Band",
+      "context": "Originally from Minneapolis, lead singer Craig Finn and lead guitarist Tad Kubler formed The Hold Steady In 2003 when watching The Band concert film The Last Waltz. Finn asked Kubler, \"Dude, why aren't there any bands like this anymore?\" and they realised something had to be done.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Bruce Springsteen",
+      "context": "Picture Finn as a non-creepy Woody Allen figure singing Springsteen songs, and you have the right idea.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Thin Lizzy",
+      "context": "There's power, the crunch and the sheer volume of twin guitars – for example in the Thin Lizzy style guitars of Southtown Girls.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Iggy Pop",
+      "context": "Did you see that Stooges documentary? When Iggy's talking about the difference between Ron [Asheton] and James Williamson, he's like 'James is like a rabid animal who gets into a room and gets into every little corner.' I play guitar like that.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Steve Selvidge",
+      "context": "Steve is much more tasteful. I always call it 'the sprinkles'. He's definitely inspired me to try and play more like that, in a less-is-more kind of way.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Chris Osgood",
+      "context": "I walked into my first day of lessons and my guitar teacher was Chris Osgood from The Suicide Commandos. So he taught me a lot about guitar and a lot about life.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Wire",
+      "context": "I was certainly more into Wire and The Fall and things like that in my 20s. And that might reflect more on the Lifter Puller sound, and then there was this embrace of classic rock.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Fall",
+      "context": "I was certainly more into Wire and The Fall and things like that in my 20s. And that might reflect more on the Lifter Puller sound, and then there was this embrace of classic rock.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Mark E. Smith",
+      "context": "And did listening to Mark E. Smith help you figure out, like, I could do it like this? Yeah, those kind of barking vocals made more sense in what I could do with my voice.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Rolling Stones",
+      "context": "Man, Let It Bleed is a way better record than all those other records that we were listening to!",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Clash",
+      "context": "I think about The Clash: you'd always hear about these legendary shows, stories of Joe Strummer sneaking in their fans who couldn't afford it through the upstairs bathroom to get into the show.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Tom Ruprecht",
+      "context": "A friend of mine, Tom Ruprecht, was a writer om Letterman. He told me how he hates movies that depict a writer with writer's block, just sitting there with a blank cursor or a blank page. He says, 'That would be nice, but my show is going on the air at 11:30, so I need to write a show, and then I need to make it good.' That really stuck with me",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Bob Dylan",
+      "context": "That's exactly what I do. I read. Read and pay attention to other artists, which might include listening to music. What does Bob Dylan do?",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Philip Roth",
+      "context": "That's exactly what I do. I read. Read and pay attention to other artists, which might include listening to music. What does Philip Roth say? Having another voice in my head gives me a spark.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Jack Kerouac",
+      "context": "What literary figures inspire you as a songwriter? Kerouac, for one. I love reading him aloud; his words pop when you read them in the way a good set of lyrics should.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Raymond Carver",
+      "context": "The other one is Raymond Carver, the way he can tell a story in such a minimalist style. For a songwriter, that's a huge thing.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 16,
+    "sources_checked": 5
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "influences": [
+    {
+      "name": "Moody Blues",
+      "context": "My dad had this big home stereo with an 8-track player, and even though he wasn't a country fan at all, he loved music. I remember him putting on the Moody Blues, Pink Floyd, and the Eagles while he was working around the house. Those sounds filled the whole place.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Pink Floyd",
+      "context": "I remember him putting on the Moody Blues, Pink Floyd, and the Eagles while he was working around the house. Those sounds filled the whole place. I didn't know who any of those bands were at the time, but I remember the feeling of it.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Eagles",
+      "context": "I remember him putting on the Moody Blues, Pink Floyd, and the Eagles while he was working around the house. Those sounds filled the whole place.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Johnny Cash",
+      "context": "He had a way of telling dark, honest stories without losing the humanity in them. That balance is something I really respect. A lot of my music leans into the shadows and the weight of what people carry, and he was a master at that long before anybody called it 'dark' anything.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Lacuna Coil",
+      "context": "At the time I was really into Gothic Metal like Lacuna Coil, L'ame Imortelle, Dimmu Borgir",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "L'ame Imortelle",
+      "context": "At the time I was really into Gothic Metal like Lacuna Coil, L'ame Imortelle, Dimmu Borgir",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Dimmu Borgir",
+      "context": "At the time I was really into Gothic Metal like Lacuna Coil, L'ame Imortelle, Dimmu Borgir",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "KoRn",
+      "context": "as well as the gothier side of Numetal, bands like KoRn, Spineshank, Dry Kill Logic",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Spineshank",
+      "context": "as well as the gothier side of Numetal, bands like KoRn, Spineshank, Dry Kill Logic",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Dry Kill Logic",
+      "context": "as well as the gothier side of Numetal, bands like KoRn, Spineshank, Dry Kill Logic",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Chino Moreno",
+      "context": "I am such a massive fan of Chino Moreno and his melodic tendency and style. Successfully achieving even a small portion of that Chino magic is often a measurement of how much I'll enjoy my own music.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Deftones",
+      "context": "I would absolutely LOVE to hear a Crosses or Deftones remix of pretty much any of the tracks on the album.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Marc Bolan",
+      "context": "There was of course that early tour with Marc Bolan, which was a real highlight.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "ZZ Top",
+      "context": "For Big Trouble in Little China, the sound designer used a temporary score in the beginning. He used a ZZ Top song, \"Just Got Paid.\" I loved it, so with that inspiring me, I copied the beat, and added my own stuff.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 14,
+    "sources_checked": 4
+  }
+}

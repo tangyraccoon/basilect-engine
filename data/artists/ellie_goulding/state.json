@@ -1,0 +1,49 @@
+{
+  "artist_id": "ellie_goulding",
+  "artist_name": "Ellie Goulding",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:30:34.968593+00:00",
+      "result": "5 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:30:37.753467+00:00",
+      "result": "3/5 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:30:51.301335+00:00",
+      "result": "10 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:30:56.079993+00:00",
+      "result": "8 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:31:01.004351+00:00",
+      "result": "5/8 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:31:19.645892+00:00",
+      "result": "29 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:31:27.979932+00:00",
+      "result": "6 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:31:46.731053+00:00",
+      "result": "27 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-12T15:31:46.731120+00:00"
+}

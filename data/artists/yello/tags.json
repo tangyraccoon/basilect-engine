@@ -1,0 +1,188 @@
+{
+  "tags": [
+    {
+      "tag": "collaborative_production",
+      "category": "approach",
+      "weight": 1.0,
+      "raw_score": 10
+    },
+    {
+      "tag": "playful",
+      "category": "philosophy",
+      "weight": 0.9,
+      "raw_score": 9
+    },
+    {
+      "tag": "experimental",
+      "category": "philosophy",
+      "weight": 0.9,
+      "raw_score": 9
+    },
+    {
+      "tag": "studio_as_instrument",
+      "category": "approach",
+      "weight": 0.9,
+      "raw_score": 9
+    },
+    {
+      "tag": "electronic",
+      "category": "approach",
+      "weight": 0.9,
+      "raw_score": 9
+    },
+    {
+      "tag": "sampling",
+      "category": "process",
+      "weight": 0.8,
+      "raw_score": 8
+    },
+    {
+      "tag": "vocal_processing",
+      "category": "process",
+      "weight": 0.7,
+      "raw_score": 7
+    },
+    {
+      "tag": "layering",
+      "category": "process",
+      "weight": 0.6,
+      "raw_score": 6
+    },
+    {
+      "tag": "intuitive",
+      "category": "philosophy",
+      "weight": 0.6,
+      "raw_score": 6
+    },
+    {
+      "tag": "synthesis",
+      "category": "process",
+      "weight": 0.6,
+      "raw_score": 6
+    },
+    {
+      "tag": "found_sound",
+      "category": "process",
+      "weight": 0.5,
+      "raw_score": 5
+    },
+    {
+      "tag": "collaborative",
+      "category": "philosophy",
+      "weight": 0.5,
+      "raw_score": 5
+    },
+    {
+      "tag": "intellectual",
+      "category": "philosophy",
+      "weight": 0.4,
+      "raw_score": 4
+    },
+    {
+      "tag": "hi_fi",
+      "category": "approach",
+      "weight": 0.4,
+      "raw_score": 4
+    },
+    {
+      "tag": "conceptual",
+      "category": "philosophy",
+      "weight": 0.4,
+      "raw_score": 4
+    },
+    {
+      "tag": "repetition",
+      "category": "process",
+      "weight": 0.4,
+      "raw_score": 4
+    },
+    {
+      "tag": "field_recording",
+      "category": "process",
+      "weight": 0.3,
+      "raw_score": 3
+    },
+    {
+      "tag": "collage",
+      "category": "process",
+      "weight": 0.3,
+      "raw_score": 3
+    },
+    {
+      "tag": "digital",
+      "category": "approach",
+      "weight": 0.3,
+      "raw_score": 3
+    },
+    {
+      "tag": "self_produced",
+      "category": "approach",
+      "weight": 0.3,
+      "raw_score": 3
+    },
+    {
+      "tag": "honest",
+      "category": "philosophy",
+      "weight": 0.3,
+      "raw_score": 3
+    },
+    {
+      "tag": "vulnerability",
+      "category": "philosophy",
+      "weight": 0.3,
+      "raw_score": 3
+    },
+    {
+      "tag": "serious",
+      "category": "philosophy",
+      "weight": 0.3,
+      "raw_score": 3
+    },
+    {
+      "tag": "place_based",
+      "category": "philosophy",
+      "weight": 0.3,
+      "raw_score": 3
+    },
+    {
+      "tag": "hybrid",
+      "category": "philosophy",
+      "weight": 0.3,
+      "raw_score": 3
+    },
+    {
+      "tag": "texture",
+      "category": "process",
+      "weight": 0.2,
+      "raw_score": 2
+    },
+    {
+      "tag": "isolation",
+      "category": "philosophy",
+      "weight": 0.2,
+      "raw_score": 2
+    },
+    {
+      "tag": "multi_instrumental",
+      "category": "approach",
+      "weight": 0.2,
+      "raw_score": 2
+    },
+    {
+      "tag": "instrumental_focused",
+      "category": "approach",
+      "weight": 0.2,
+      "raw_score": 2
+    },
+    {
+      "tag": "minimalism",
+      "category": "process",
+      "weight": 0.2,
+      "raw_score": 2
+    }
+  ],
+  "meta": {
+    "count": 30,
+    "sources_checked": 6
+  }
+}

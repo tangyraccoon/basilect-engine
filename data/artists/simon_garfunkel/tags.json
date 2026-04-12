@@ -1,0 +1,230 @@
+{
+  "tags": [
+    {
+      "tag": "collaborative",
+      "category": "philosophy",
+      "weight": 1.0,
+      "raw_score": 25
+    },
+    {
+      "tag": "vocal_focused",
+      "category": "approach",
+      "weight": 0.76,
+      "raw_score": 19
+    },
+    {
+      "tag": "orchestration",
+      "category": "process",
+      "weight": 0.68,
+      "raw_score": 17
+    },
+    {
+      "tag": "emotional",
+      "category": "philosophy",
+      "weight": 0.56,
+      "raw_score": 14
+    },
+    {
+      "tag": "narrative",
+      "category": "philosophy",
+      "weight": 0.44,
+      "raw_score": 11
+    },
+    {
+      "tag": "hybrid_production",
+      "category": "approach",
+      "weight": 0.44,
+      "raw_score": 11
+    },
+    {
+      "tag": "traditional",
+      "category": "philosophy",
+      "weight": 0.32,
+      "raw_score": 8
+    },
+    {
+      "tag": "collaborative_production",
+      "category": "approach",
+      "weight": 0.32,
+      "raw_score": 8
+    },
+    {
+      "tag": "vocal_processing",
+      "category": "process",
+      "weight": 0.32,
+      "raw_score": 8
+    },
+    {
+      "tag": "autobiographical",
+      "category": "philosophy",
+      "weight": 0.28,
+      "raw_score": 7
+    },
+    {
+      "tag": "intuitive",
+      "category": "philosophy",
+      "weight": 0.28,
+      "raw_score": 7
+    },
+    {
+      "tag": "harmony",
+      "category": "process",
+      "weight": 0.24,
+      "raw_score": 6
+    },
+    {
+      "tag": "acoustic",
+      "category": "approach",
+      "weight": 0.24,
+      "raw_score": 6
+    },
+    {
+      "tag": "live_performance",
+      "category": "approach",
+      "weight": 0.24,
+      "raw_score": 6
+    },
+    {
+      "tag": "layering",
+      "category": "process",
+      "weight": 0.24,
+      "raw_score": 6
+    },
+    {
+      "tag": "political",
+      "category": "philosophy",
+      "weight": 0.16,
+      "raw_score": 4
+    },
+    {
+      "tag": "intellectual",
+      "category": "philosophy",
+      "weight": 0.16,
+      "raw_score": 4
+    },
+    {
+      "tag": "harmonies",
+      "category": "process",
+      "weight": 0.12,
+      "raw_score": 3
+    },
+    {
+      "tag": "poetic_lyricism",
+      "category": "process",
+      "weight": 0.12,
+      "raw_score": 3
+    },
+    {
+      "tag": "harmony_based",
+      "category": "process",
+      "weight": 0.12,
+      "raw_score": 3
+    },
+    {
+      "tag": "electronic",
+      "category": "approach",
+      "weight": 0.12,
+      "raw_score": 3
+    },
+    {
+      "tag": "experimental",
+      "category": "philosophy",
+      "weight": 0.12,
+      "raw_score": 3
+    },
+    {
+      "tag": "restless",
+      "category": "philosophy",
+      "weight": 0.12,
+      "raw_score": 3
+    },
+    {
+      "tag": "world_music_fusion",
+      "category": "approach",
+      "weight": 0.12,
+      "raw_score": 3
+    },
+    {
+      "tag": "meticulous",
+      "category": "approach",
+      "weight": 0.08,
+      "raw_score": 2
+    },
+    {
+      "tag": "multi_instrumental",
+      "category": "approach",
+      "weight": 0.08,
+      "raw_score": 2
+    },
+    {
+      "tag": "intimate",
+      "category": "approach",
+      "weight": 0.08,
+      "raw_score": 2
+    },
+    {
+      "tag": "evolution",
+      "category": "philosophy",
+      "weight": 0.08,
+      "raw_score": 2
+    },
+    {
+      "tag": "literary",
+      "category": "philosophy",
+      "weight": 0.08,
+      "raw_score": 2
+    },
+    {
+      "tag": "studio_as_instrument",
+      "category": "approach",
+      "weight": 0.08,
+      "raw_score": 2
+    },
+    {
+      "tag": "hi_fi",
+      "category": "approach",
+      "weight": 0.08,
+      "raw_score": 2
+    },
+    {
+      "tag": "unfinished_aesthetic",
+      "category": "philosophy",
+      "weight": 0.08,
+      "raw_score": 2
+    },
+    {
+      "tag": "sparse",
+      "category": "approach",
+      "weight": 0.08,
+      "raw_score": 2
+    },
+    {
+      "tag": "conceptual",
+      "category": "philosophy",
+      "weight": 0.08,
+      "raw_score": 2
+    },
+    {
+      "tag": "percussive_innovation",
+      "category": "process",
+      "weight": 0.08,
+      "raw_score": 2
+    },
+    {
+      "tag": "adventurous",
+      "category": "philosophy",
+      "weight": 0.08,
+      "raw_score": 2
+    },
+    {
+      "tag": "anti_commercial",
+      "category": "philosophy",
+      "weight": 0.04,
+      "raw_score": 1
+    }
+  ],
+  "meta": {
+    "count": 37,
+    "sources_checked": 11
+  }
+}

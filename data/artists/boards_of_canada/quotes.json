@@ -1,0 +1,28 @@
+{
+  "quotes": [
+    {
+      "text": "The idea of the perfect album is this amorphous thing that we're always aiming at. For us it can mean something that's full of imperfection, because part of our aim has always been to destroy the sound in a beautiful way. It doesn't mean that we expect everyone would like it. I'm not sure that we will ever get there, to make the perfect record. But the whole point of making music is at least to aim at your own idea of perfection.",
+      "publication": "OOR",
+      "date": "2002"
+    },
+    {
+      "text": "I think you can trigger emotion much more easily with a melody than you can with a rhythm, although it can be done with a rhythm, listen to Jerry Goldsmith or The Incredible String Band… I'm personally more interested in melody than sound, although the effectiveness of a Boards of Canada melody probably depends on it's context. And that'll be why we have a reputation for downgrading the sound.",
+      "publication": "Age of Aquarius",
+      "date": ""
+    },
+    {
+      "text": "[One] could read into the references a bit more and perhaps connect with that … and if it works the listener might go 'Yeah this is familiar but I don't know why'. We just see these as forms of communication which can be used to affect the listener in an attractive and maybe even addictive way",
+      "publication": "Age of Aquarius",
+      "date": ""
+    }
+  ],
+  "corpus_meta": {
+    "quote_count": 3,
+    "source_count": 2,
+    "date_range": [
+      "2002",
+      "2002"
+    ],
+    "corpus_valid": false
+  }
+}

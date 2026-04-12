@@ -1,0 +1,43 @@
+{
+  "influences": [
+    {
+      "name": "Michio Ito",
+      "context": "his uncle Michio Ito was a charismatic dancer, choreographer, and theatre director who performed throughout Germany, England and the USA",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Tamekichi Ito",
+      "context": "His grandfather, Tamekichi Ito, was an architect and inventor",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Yuji Ito",
+      "context": "Teiji's father Yuji was an opera singer and costume designer",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Teiko Ito",
+      "context": "his mother Teiko was a Japanese-American dancer",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Maya Deren",
+      "context": "Ito's encounter with Maya Deren brought not only artistic opportunities, but also a significant spiritual component into his life: namely voodoo. Maya was already deeply initiated to this world: she was a Voodoo priest when they met. When Teiji and Maya started living together, they began to share everything in life, including Maya's strong interest in voodoo, for which they traveled together to Haiti several times.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Haitian drum master",
+      "context": "There, Teiji learned Haitian Drums from an indigenous Haitian drum master.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Levi-Strauss",
+      "context": "I was also very influenced by Levi-Strauss' writings around bricolage, and I think in order to enter Teiji's spirit one does need to have the attitude of the bricoleur.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 7,
+    "sources_checked": 2
+  }
+}

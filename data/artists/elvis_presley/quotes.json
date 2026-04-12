@@ -1,0 +1,23 @@
+{
+  "quotes": [
+    {
+      "text": "Roll the tape",
+      "publication": "Elvis Australia",
+      "date": "December 19, 2020"
+    },
+    {
+      "text": "And the stage is bare, and I'm standing there ...",
+      "publication": "Elvis Australia",
+      "date": "December 19, 2020"
+    }
+  ],
+  "corpus_meta": {
+    "quote_count": 2,
+    "source_count": 1,
+    "date_range": [
+      "Dece",
+      "Dece"
+    ],
+    "corpus_valid": false
+  }
+}

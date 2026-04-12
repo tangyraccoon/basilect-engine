@@ -1,0 +1,218 @@
+{
+  "tags": [
+    {
+      "tag": "experimental",
+      "category": "philosophy",
+      "weight": 1.0,
+      "raw_score": 20
+    },
+    {
+      "tag": "conceptual",
+      "category": "philosophy",
+      "weight": 0.75,
+      "raw_score": 15
+    },
+    {
+      "tag": "intuitive",
+      "category": "philosophy",
+      "weight": 0.75,
+      "raw_score": 15
+    },
+    {
+      "tag": "self_produced",
+      "category": "approach",
+      "weight": 0.7,
+      "raw_score": 14
+    },
+    {
+      "tag": "studio_as_instrument",
+      "category": "approach",
+      "weight": 0.65,
+      "raw_score": 13
+    },
+    {
+      "tag": "diy",
+      "category": "philosophy",
+      "weight": 0.6,
+      "raw_score": 12
+    },
+    {
+      "tag": "vocal_processing",
+      "category": "process",
+      "weight": 0.55,
+      "raw_score": 11
+    },
+    {
+      "tag": "layering",
+      "category": "process",
+      "weight": 0.5,
+      "raw_score": 10
+    },
+    {
+      "tag": "hybrid_production",
+      "category": "approach",
+      "weight": 0.45,
+      "raw_score": 9
+    },
+    {
+      "tag": "sampling",
+      "category": "process",
+      "weight": 0.45,
+      "raw_score": 9
+    },
+    {
+      "tag": "synthesis",
+      "category": "process",
+      "weight": 0.45,
+      "raw_score": 9
+    },
+    {
+      "tag": "isolation",
+      "category": "philosophy",
+      "weight": 0.4,
+      "raw_score": 8
+    },
+    {
+      "tag": "political",
+      "category": "philosophy",
+      "weight": 0.35,
+      "raw_score": 7
+    },
+    {
+      "tag": "maximalism",
+      "category": "process",
+      "weight": 0.35,
+      "raw_score": 7
+    },
+    {
+      "tag": "anti_commercial",
+      "category": "philosophy",
+      "weight": 0.35,
+      "raw_score": 7
+    },
+    {
+      "tag": "immersive",
+      "category": "approach",
+      "weight": 0.3,
+      "raw_score": 6
+    },
+    {
+      "tag": "emotional",
+      "category": "philosophy",
+      "weight": 0.3,
+      "raw_score": 6
+    },
+    {
+      "tag": "digital",
+      "category": "approach",
+      "weight": 0.3,
+      "raw_score": 6
+    },
+    {
+      "tag": "multi_instrumental",
+      "category": "approach",
+      "weight": 0.25,
+      "raw_score": 5
+    },
+    {
+      "tag": "collage",
+      "category": "process",
+      "weight": 0.25,
+      "raw_score": 5
+    },
+    {
+      "tag": "vocal_focused",
+      "category": "approach",
+      "weight": 0.25,
+      "raw_score": 5
+    },
+    {
+      "tag": "control",
+      "category": "philosophy",
+      "weight": 0.15,
+      "raw_score": 3
+    },
+    {
+      "tag": "meditative",
+      "category": "philosophy",
+      "weight": 0.15,
+      "raw_score": 3
+    },
+    {
+      "tag": "electronic",
+      "category": "approach",
+      "weight": 0.15,
+      "raw_score": 3
+    },
+    {
+      "tag": "character_driven",
+      "category": "philosophy",
+      "weight": 0.15,
+      "raw_score": 3
+    },
+    {
+      "tag": "playful",
+      "category": "philosophy",
+      "weight": 0.15,
+      "raw_score": 3
+    },
+    {
+      "tag": "spiritual",
+      "category": "philosophy",
+      "weight": 0.15,
+      "raw_score": 3
+    },
+    {
+      "tag": "feminist",
+      "category": "philosophy",
+      "weight": 0.15,
+      "raw_score": 3
+    },
+    {
+      "tag": "collaborative",
+      "category": "philosophy",
+      "weight": 0.1,
+      "raw_score": 2
+    },
+    {
+      "tag": "visual_world_building",
+      "category": "philosophy",
+      "weight": 0.1,
+      "raw_score": 2
+    },
+    {
+      "tag": "intellectual",
+      "category": "philosophy",
+      "weight": 0.1,
+      "raw_score": 2
+    },
+    {
+      "tag": "confrontational",
+      "category": "philosophy",
+      "weight": 0.1,
+      "raw_score": 2
+    },
+    {
+      "tag": "abstract",
+      "category": "philosophy",
+      "weight": 0.1,
+      "raw_score": 2
+    },
+    {
+      "tag": "hybrid",
+      "category": "philosophy",
+      "weight": 0.1,
+      "raw_score": 2
+    },
+    {
+      "tag": "subconscious_channeling",
+      "category": "philosophy",
+      "weight": 0.1,
+      "raw_score": 2
+    }
+  ],
+  "meta": {
+    "count": 35,
+    "sources_checked": 10
+  }
+}

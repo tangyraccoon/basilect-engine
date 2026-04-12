@@ -1,0 +1,58 @@
+{
+  "influences": [
+    {
+      "name": "Kurt Vonnegut",
+      "context": "I can sum that up in two words, and those two words are \"Kurt Vonnegut.\" If you read Kurt Vonnegut, and you don't immediately want to write like that, then I don't fucking want to know you, you know? Who wouldn't want to be silly but tap into the mysteries of the human spirit in this really economical way",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "God Machine",
+      "context": "I remember, 21 years ago, coming down to Cardiff from where I'm from, and reading in Melody Maker a review of an album by a band called God Machine, the album is called Scenes from the Second Storey... I bought the tape... And I listened to it on a seven-hour train journey back home, and it was perfect.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Klaus Prünster",
+      "context": "Later, I was signed to work with the best Austrian artists, including Klaus Prünster, Waterloo Studio Session, Falco, Andy Gebauer, Diana Jirkuf, Tröbinger Superfeucht, and Manfred Puchner Git from the One of a Kind Project 1979.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Gerry Verano",
+      "context": "I'm glad I spoke with Gerry Verano. He introduced me to Sarah B, and I had the most beautiful collaborations.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Jesus Lizard",
+      "context": "lots of bands who maybe would have, certainly heard us, like we did with The Jesus Lizard, and stuff like that, taking that as an influence",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Talking Heads",
+      "context": "Talking Heads, Happy Mondays, Television Personalities, Buzzcocks were influences for Harmony Avenue",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Happy Mondays",
+      "context": "Talking Heads, Happy Mondays, Television Personalities, Buzzcocks were influences for Harmony Avenue",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Television Personalities",
+      "context": "Talking Heads, Happy Mondays, Television Personalities, Buzzcocks were influences for Harmony Avenue",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Buzzcocks",
+      "context": "Talking Heads, Happy Mondays, Television Personalities, Buzzcocks were influences for Harmony Avenue",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "New Order",
+      "context": "the revealed shape was a kind of New Order synth extended play sort of thing",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 10,
+    "sources_checked": 5
+  }
+}

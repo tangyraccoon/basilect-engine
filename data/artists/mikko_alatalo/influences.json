@@ -1,0 +1,43 @@
+{
+  "influences": [
+    {
+      "name": "Iron Maiden",
+      "context": "Mikko, who writes most of our music, draws a lot of inspiration from older bands like Iron Maiden, Manowar and Led Zeppelin",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Manowar",
+      "context": "Mikko, who writes most of our music, draws a lot of inspiration from older bands like Iron Maiden, Manowar and Led Zeppelin",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Led Zeppelin",
+      "context": "Mikko, who writes most of our music, draws a lot of inspiration from older bands like Iron Maiden, Manowar and Led Zeppelin",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Stitches",
+      "context": "yeah, like this one time when me and Antti were trying to come up with some ideas, we ended up listening to Stitches after browsing Spotify, and I think it was his song 'Brick in yo face' that somehow gave us an idea of a riff that spawn one of the central pieces of the album",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Cradle of Filth",
+      "context": "The more evident influences by looking from writing and production standpoint are perhaps Cradle of Filth, Behemoth, and Tool to name a few",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Behemoth",
+      "context": "The more evident influences by looking from writing and production standpoint are perhaps Cradle of Filth, Behemoth, and Tool to name a few",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Tool",
+      "context": "The more evident influences by looking from writing and production standpoint are perhaps Cradle of Filth, Behemoth, and Tool to name a few",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 7,
+    "sources_checked": 2
+  }
+}

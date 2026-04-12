@@ -1,0 +1,58 @@
+{
+  "quotes": [
+    {
+      "text": "I literally never entertained any other thought in my entire childhood and adolescence after that",
+      "publication": "Rolling Stone",
+      "date": ""
+    },
+    {
+      "text": "I totally threw away my personal credibility for a year and a half in order to make sure my music got into so many people's homes. It was a calculated risk, and I knew I would have to fight my way back from it.",
+      "publication": "Rolling Stone",
+      "date": ""
+    },
+    {
+      "text": "I wanted to move away from the idea that parents could buy my records for their kids and I think I did that very well with Faith",
+      "publication": "VH1 Behind The Music",
+      "date": ""
+    },
+    {
+      "text": "I decided that the thing I really enjoy . . . the thing I really needed was my songwriting. I didn't need the celebrity.",
+      "publication": "Los Angeles Times",
+      "date": "1990"
+    },
+    {
+      "text": "I'm sure a lot of people are going to believe all this is just some sort of gimmick . . . just another way to stir interest",
+      "publication": "Los Angeles Times",
+      "date": "1990"
+    },
+    {
+      "text": "But I'm also sure that most people find it hard to believe that stardom can make you miserable. After all, everybody wants to be a star. I certainly did, and I worked hard to get it. But I was miserable, and I don't want to feel that way again.",
+      "publication": "Los Angeles Times",
+      "date": "1990"
+    },
+    {
+      "text": "I used to just sit out in the sun all the time because I loved it, so I always did have a tan",
+      "publication": "Los Angeles Times",
+      "date": "1990"
+    },
+    {
+      "text": "But now I get bored doing that. I start getting restless . . . and, besides, I'm starting to burn. That's something that never used to happen.",
+      "publication": "Los Angeles Times",
+      "date": "1990"
+    },
+    {
+      "text": "I think it was important, not really for the people who have always doubted me, because they'll still doubt me",
+      "publication": "Los Angeles Times",
+      "date": "1990"
+    }
+  ],
+  "corpus_meta": {
+    "quote_count": 9,
+    "source_count": 3,
+    "date_range": [
+      "1990",
+      "1990"
+    ],
+    "corpus_valid": false
+  }
+}

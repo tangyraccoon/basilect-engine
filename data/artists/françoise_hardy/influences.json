@@ -1,0 +1,38 @@
+{
+  "influences": [
+    {
+      "name": "Elvis Presley",
+      "context": "I listened to a British radio station called Radio Luxembourg. Radio Luxembourg, your station of the stars, And so I heard for the first time Elvis Presley, Cliff Richards, The Shadows, Brenda Lee, young artists like that. Neil Sedaka. And I had no interest for anything else than this kind of music.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Cliff Richard",
+      "context": "I listened to a British radio station called Radio Luxembourg. Radio Luxembourg, your station of the stars, And so I heard for the first time Elvis Presley, Cliff Richards, The Shadows, Brenda Lee, young artists like that. Neil Sedaka. And I had no interest for anything else than this kind of music.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Shadows",
+      "context": "I listened to a British radio station called Radio Luxembourg. Radio Luxembourg, your station of the stars, And so I heard for the first time Elvis Presley, Cliff Richards, The Shadows, Brenda Lee, young artists like that. Neil Sedaka. And I had no interest for anything else than this kind of music.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Brenda Lee",
+      "context": "I listened to a British radio station called Radio Luxembourg. Radio Luxembourg, your station of the stars, And so I heard for the first time Elvis Presley, Cliff Richards, The Shadows, Brenda Lee, young artists like that. Neil Sedaka. And I had no interest for anything else than this kind of music.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Neil Sedaka",
+      "context": "I listened to a British radio station called Radio Luxembourg. Radio Luxembourg, your station of the stars, And so I heard for the first time Elvis Presley, Cliff Richards, The Shadows, Brenda Lee, young artists like that. Neil Sedaka. And I had no interest for anything else than this kind of music.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Jacques Dutronc",
+      "context": "Their relationship faced challenges, including Dutronc's infidelities and their eventual separation, it deeply influenced her music.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 6,
+    "sources_checked": 2
+  }
+}

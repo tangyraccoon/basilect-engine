@@ -1,0 +1,23 @@
+{
+  "influences": [
+    {
+      "name": "Taka (ONE OK ROCK)",
+      "context": "That really impressed me, and I actually studied how they sing as part of my preparation for recording our own vocals.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Kenta (WANIMA)",
+      "context": "He'd point out our unique qualities and tell us how to get more resonance. And so through discussions with him we developed our own vocal sound.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Skrillex",
+      "context": "At the time, Skrillex was blowing up. I saw that. He just had all these crazy videos [of him] coming on stage and jumping around, he was just him being himself. And that was really shocking to me. That was pretty much why I was really into music.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 3,
+    "sources_checked": 2
+  }
+}

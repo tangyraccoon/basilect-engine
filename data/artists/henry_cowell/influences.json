@@ -1,0 +1,23 @@
+{
+  "influences": [
+    {
+      "name": "Roger Smalley",
+      "context": "Smalley was influential in Henry Cow's early development. He exposed them to a variety of new music from bands and musicians like Soft Machine, Captain Beefheart and Frank Zappa. Smalley also introduced them to the idea of writing long and complex musical pieces for rock groups.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Derek Bailey",
+      "context": "Improvisers Bailey and Coxhill became 'enthusiastic supporters' of Henry Cow and attended many of their concerts; Frith later stated that he was 'strongly affected by their critical engagement and encouragement'.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Lol Coxhill",
+      "context": "Improvisers Bailey and Coxhill became 'enthusiastic supporters' of Henry Cow and attended many of their concerts; Frith later stated that he was 'strongly affected by their critical engagement and encouragement'.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 3,
+    "sources_checked": 1
+  }
+}

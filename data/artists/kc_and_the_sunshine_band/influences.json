@@ -1,0 +1,28 @@
+{
+  "influences": [
+    {
+      "name": "The Beatles",
+      "context": "While he appreciated the music of The Beatles, he said he was more taken by how they composed songs. This was something that gave him confidence as an emerging songwriter himself.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Motown",
+      "context": "KC shared his love for a wide variety of music; he loved everything from the Motown classics to Grand Funk Railroad and Led Zeppelin.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Grand Funk Railroad",
+      "context": "KC shared his love for a wide variety of music; he loved everything from the Motown classics to Grand Funk Railroad and Led Zeppelin.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Led Zeppelin",
+      "context": "KC shared his love for a wide variety of music; he loved everything from the Motown classics to Grand Funk Railroad and Led Zeppelin.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 4,
+    "sources_checked": 3
+  }
+}

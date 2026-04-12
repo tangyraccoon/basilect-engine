@@ -1,0 +1,78 @@
+{
+  "influences": [
+    {
+      "name": "David Johansen",
+      "context": "Andy Partridge just wanted to be David Johansen.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Brian Eno",
+      "context": "We had asked Eno to produce Go2, because he had said that we were the only band he felt like joining since Roxy Music.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Ray Davies",
+      "context": "It's gonne seem very pretentious, but I'd like to. . . help Ray Davies. I have a feeling he's somewhat drifting away. It's a childhood dream, he's been a hero to us",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Jonathan King",
+      "context": "Moulding is clearly embarrassed when he admits that 'Too Many Cooks' was somewhat inspired by [scandal-plagued British producer] Jonathan King. 'We were coming to the end of an album, I think it was Black Sea, and I thought I really wouldn't mind having a stab at that overtly sugary pop [like King].'",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Paul McCartney",
+      "context": "It's been rumored that like Paul McCartney, Moulding would leave the bass 'till last... 'With XTC, we usually left the bass until last.' He says he likes the 'McCartney, hooky sound' that emanates through his bass.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Beatles",
+      "context": "It's been rumored that like Paul McCartney, Moulding would leave the bass 'till last. 'The Beatles had to due to the confines of the four-track.'",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Led Zeppelin",
+      "context": "the first being as an 11-year-old when my older brother Declan brought home Led Zeppelin II. I was totally fascinated by the sound of that album",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "David Bowie",
+      "context": "that sparked my interest in The Beatles, Bowie and a lot of British glam rock and pop",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Motown artists",
+      "context": "My eldest brother Dermot was into Motown, Stax, Burt Bacharach and The Beach Boys, so all of these were sonic environments that thrilled me",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Stax artists",
+      "context": "My eldest brother Dermot was into Motown, Stax, Burt Bacharach and The Beach Boys, so all of these were sonic environments that thrilled me",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Burt Bacharach",
+      "context": "My eldest brother Dermot was into Motown, Stax, Burt Bacharach and The Beach Boys, so all of these were sonic environments that thrilled me",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Beach Boys",
+      "context": "My eldest brother Dermot was into Motown, Stax, Burt Bacharach and The Beach Boys, so all of these were sonic environments that thrilled me",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Steve Lillywhite",
+      "context": "watching a documentary about the making of an \"XTC\" album that Steve Lillywhite and Hugh Padgham were making at The Manor Studios in Oxfordshire, UK. It had never occurred to me that there was a formal and creative process in recording and producing music",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Hugh Padgham",
+      "context": "watching a documentary about the making of an \"XTC\" album that Steve Lillywhite and Hugh Padgham were making at The Manor Studios in Oxfordshire, UK. It had never occurred to me that there was a formal and creative process in recording and producing music",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 14,
+    "sources_checked": 4
+  }
+}

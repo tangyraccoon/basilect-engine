@@ -1,0 +1,146 @@
+{
+  "tags": [
+    {
+      "tag": "collaborative",
+      "category": "philosophy",
+      "weight": 1.0,
+      "raw_score": 13
+    },
+    {
+      "tag": "multi_instrumental",
+      "category": "approach",
+      "weight": 1.0,
+      "raw_score": 13
+    },
+    {
+      "tag": "orchestration",
+      "category": "process",
+      "weight": 0.923,
+      "raw_score": 12
+    },
+    {
+      "tag": "emotional",
+      "category": "philosophy",
+      "weight": 0.615,
+      "raw_score": 8
+    },
+    {
+      "tag": "hybrid",
+      "category": "philosophy",
+      "weight": 0.462,
+      "raw_score": 6
+    },
+    {
+      "tag": "long_form",
+      "category": "approach",
+      "weight": 0.385,
+      "raw_score": 5
+    },
+    {
+      "tag": "live_performance",
+      "category": "approach",
+      "weight": 0.308,
+      "raw_score": 4
+    },
+    {
+      "tag": "hybrid_production",
+      "category": "approach",
+      "weight": 0.308,
+      "raw_score": 4
+    },
+    {
+      "tag": "vocal_focused",
+      "category": "approach",
+      "weight": 0.308,
+      "raw_score": 4
+    },
+    {
+      "tag": "collaborative_production",
+      "category": "approach",
+      "weight": 0.231,
+      "raw_score": 3
+    },
+    {
+      "tag": "passion_driven",
+      "category": "philosophy",
+      "weight": 0.231,
+      "raw_score": 3
+    },
+    {
+      "tag": "experimental",
+      "category": "philosophy",
+      "weight": 0.231,
+      "raw_score": 3
+    },
+    {
+      "tag": "eclectic",
+      "category": "philosophy",
+      "weight": 0.231,
+      "raw_score": 3
+    },
+    {
+      "tag": "intuitive",
+      "category": "philosophy",
+      "weight": 0.154,
+      "raw_score": 2
+    },
+    {
+      "tag": "isolation",
+      "category": "philosophy",
+      "weight": 0.154,
+      "raw_score": 2
+    },
+    {
+      "tag": "conceptual",
+      "category": "philosophy",
+      "weight": 0.154,
+      "raw_score": 2
+    },
+    {
+      "tag": "confrontational",
+      "category": "philosophy",
+      "weight": 0.154,
+      "raw_score": 2
+    },
+    {
+      "tag": "studio_as_instrument",
+      "category": "approach",
+      "weight": 0.154,
+      "raw_score": 2
+    },
+    {
+      "tag": "narrative",
+      "category": "philosophy",
+      "weight": 0.154,
+      "raw_score": 2
+    },
+    {
+      "tag": "hi_fi",
+      "category": "approach",
+      "weight": 0.154,
+      "raw_score": 2
+    },
+    {
+      "tag": "playful",
+      "category": "philosophy",
+      "weight": 0.154,
+      "raw_score": 2
+    },
+    {
+      "tag": "serious",
+      "category": "philosophy",
+      "weight": 0.154,
+      "raw_score": 2
+    },
+    {
+      "tag": "spiritual",
+      "category": "philosophy",
+      "weight": 0.077,
+      "raw_score": 1
+    }
+  ],
+  "meta": {
+    "count": 23,
+    "sources_checked": 5
+  }
+}

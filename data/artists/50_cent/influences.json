@@ -1,0 +1,18 @@
+{
+  "influences": [
+    {
+      "name": "Dr. Dre",
+      "context": "50 Cent described his creative process as bringing his best work to Dre to inspire further collaboration, a strategy that has been successful for him in the past.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Eminem",
+      "context": "he and mentor Eminem are working on a TV adaptation of the latter's 2002 semi-autobiographical film, 8 Mile",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 2,
+    "sources_checked": 6
+  }
+}

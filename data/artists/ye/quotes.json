@@ -1,0 +1,23 @@
+{
+  "quotes": [
+    {
+      "text": "You can hear my signature style in Vultures 1 and 2",
+      "publication": "Studio Talks",
+      "date": "November 27th, 2024"
+    },
+    {
+      "text": "there are no limits to your craft. You can be anything you want as long as it feels authentic to you.",
+      "publication": "Studio Talks",
+      "date": "November 27th, 2024"
+    }
+  ],
+  "corpus_meta": {
+    "quote_count": 2,
+    "source_count": 1,
+    "date_range": [
+      "Nove",
+      "Nove"
+    ],
+    "corpus_valid": false
+  }
+}

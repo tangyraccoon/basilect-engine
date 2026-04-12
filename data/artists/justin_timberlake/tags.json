@@ -1,0 +1,200 @@
+{
+  "tags": [
+    {
+      "tag": "collaborative_production",
+      "category": "approach",
+      "weight": 1.0,
+      "raw_score": 17
+    },
+    {
+      "tag": "hi_fi",
+      "category": "approach",
+      "weight": 0.765,
+      "raw_score": 13
+    },
+    {
+      "tag": "collaborative",
+      "category": "philosophy",
+      "weight": 0.706,
+      "raw_score": 12
+    },
+    {
+      "tag": "vocal_processing",
+      "category": "process",
+      "weight": 0.588,
+      "raw_score": 10
+    },
+    {
+      "tag": "vocal_focused",
+      "category": "approach",
+      "weight": 0.588,
+      "raw_score": 10
+    },
+    {
+      "tag": "intuitive",
+      "category": "philosophy",
+      "weight": 0.471,
+      "raw_score": 8
+    },
+    {
+      "tag": "experimental",
+      "category": "philosophy",
+      "weight": 0.471,
+      "raw_score": 8
+    },
+    {
+      "tag": "playful",
+      "category": "philosophy",
+      "weight": 0.471,
+      "raw_score": 8
+    },
+    {
+      "tag": "hybrid_production",
+      "category": "approach",
+      "weight": 0.353,
+      "raw_score": 6
+    },
+    {
+      "tag": "studio_as_instrument",
+      "category": "approach",
+      "weight": 0.294,
+      "raw_score": 5
+    },
+    {
+      "tag": "conceptual",
+      "category": "philosophy",
+      "weight": 0.294,
+      "raw_score": 5
+    },
+    {
+      "tag": "orchestration",
+      "category": "process",
+      "weight": 0.235,
+      "raw_score": 4
+    },
+    {
+      "tag": "multi_instrumental",
+      "category": "approach",
+      "weight": 0.235,
+      "raw_score": 4
+    },
+    {
+      "tag": "narrative",
+      "category": "philosophy",
+      "weight": 0.235,
+      "raw_score": 4
+    },
+    {
+      "tag": "emotional",
+      "category": "philosophy",
+      "weight": 0.235,
+      "raw_score": 4
+    },
+    {
+      "tag": "autobiographical",
+      "category": "philosophy",
+      "weight": 0.235,
+      "raw_score": 4
+    },
+    {
+      "tag": "synthesis",
+      "category": "process",
+      "weight": 0.176,
+      "raw_score": 3
+    },
+    {
+      "tag": "introspective",
+      "category": "philosophy",
+      "weight": 0.176,
+      "raw_score": 3
+    },
+    {
+      "tag": "long_form",
+      "category": "approach",
+      "weight": 0.176,
+      "raw_score": 3
+    },
+    {
+      "tag": "professional",
+      "category": "philosophy",
+      "weight": 0.176,
+      "raw_score": 3
+    },
+    {
+      "tag": "live_performance",
+      "category": "approach",
+      "weight": 0.176,
+      "raw_score": 3
+    },
+    {
+      "tag": "entertainer",
+      "category": "approach",
+      "weight": 0.176,
+      "raw_score": 3
+    },
+    {
+      "tag": "technically_proficient",
+      "category": "approach",
+      "weight": 0.176,
+      "raw_score": 3
+    },
+    {
+      "tag": "electronic",
+      "category": "approach",
+      "weight": 0.176,
+      "raw_score": 3
+    },
+    {
+      "tag": "identity_crisis",
+      "category": "philosophy",
+      "weight": 0.176,
+      "raw_score": 3
+    },
+    {
+      "tag": "self_aware",
+      "category": "philosophy",
+      "weight": 0.176,
+      "raw_score": 3
+    },
+    {
+      "tag": "unfocused",
+      "category": "philosophy",
+      "weight": 0.176,
+      "raw_score": 3
+    },
+    {
+      "tag": "minimalism",
+      "category": "process",
+      "weight": 0.118,
+      "raw_score": 2
+    },
+    {
+      "tag": "sampling",
+      "category": "process",
+      "weight": 0.118,
+      "raw_score": 2
+    },
+    {
+      "tag": "maximalism",
+      "category": "process",
+      "weight": 0.118,
+      "raw_score": 2
+    },
+    {
+      "tag": "layering",
+      "category": "process",
+      "weight": 0.059,
+      "raw_score": 1
+    },
+    {
+      "tag": "hybrid",
+      "category": "philosophy",
+      "weight": 0.059,
+      "raw_score": 1
+    }
+  ],
+  "meta": {
+    "count": 32,
+    "sources_checked": 10
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "influences": [
+    {
+      "name": "The Rolling Stones",
+      "context": "The music from the Stones agreed with me better because Jagger was singing more Rhythm & Blues-like and that was more my thing.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Mick Jagger",
+      "context": "The music from the Stones agreed with me better because Jagger was singing more Rhythm & Blues-like and that was more my thing.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "John Lennon",
+      "context": "Later on Lennon also sang a bit bluesier.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "George Harrison",
+      "context": "Completely underrated guitar playing, fantastic guitarist actually. In Clapton's 'Badge' there's an amazing guitar break (mimics the sound) and that's Harrison, he just plays something which is immediately absolutely great!",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Little Richard",
+      "context": "Before we listened to Little Richard or others we liked, we didn't think about writing songs. It was a kind of revelation.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Ringo Starr",
+      "context": "Every time I heard something new from Ringo I tried to play exactly like him, that's how I learned how to play the drums.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Charlie Watts",
+      "context": "Of course you understand that I learned from Ringo and Charlie Watts.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Eddie Cochran",
+      "context": "When we heard 'Twist and Shout' we immediately made the connection to what we liked (Little Richard, Eddie Cochran, Isley Brothers etc.).",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Isley Brothers",
+      "context": "When we heard 'Twist and Shout' we immediately made the connection to what we liked (Little Richard, Eddie Cochran, Isley Brothers etc.).",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Paul McCartney",
+      "context": "Actually Paul McCartney was a very musical bass player, like I like to play. Not just the basics but also the musical melodies.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 10,
+    "sources_checked": 2
+  }
+}

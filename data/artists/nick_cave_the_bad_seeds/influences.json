@@ -1,0 +1,123 @@
+{
+  "influences": [
+    {
+      "name": "Leonard Cohen",
+      "context": "a cover of Leonard Cohen's Avalanche",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "John Lee Hooker",
+      "context": "epic opener and first single Tupelo loosely based on Tupelo Blues, John Lee Hooker's menacing account of the great Mississippi flood of 1936",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Johnny Cash",
+      "context": "Arcane blues spectres Johnny Cash's The Folk Singer (from 1972's International Superstar album) as a menacing sneer. The Man In Black is represented again on Muddy Water, from 1979's Silver album",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Muddy Waters",
+      "context": "The Man In Black is represented again on Muddy Water, from 1979's Silver album",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Jim Webb",
+      "context": "Other highlights include Jim Webb's By The Time I Get To Phoenix",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Billy Roberts",
+      "context": "Billy Roberts' Hey Joe murder ballad transformed into a slab of pure malevolence",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Seekers",
+      "context": "Homage is payed to 60s pop on The Seekers' The Carnival Is Over",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Tom Jones",
+      "context": "Tom Jones' Weeping Annaleah",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Gene Pitney",
+      "context": "Gene Pitney's Something's Gotten Hold Of My Heart",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Roy Orbison",
+      "context": "Roy Orbison's Running Scared graced The Singer's B-side",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Saints",
+      "context": "Out-takes include The Saints' Know Your Product",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Frankie Laine",
+      "context": "out-takes include Frankie Laine's Cry Of The Wild Goose",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Leadbelly",
+      "context": "and Leadbelly's John Henry",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Tim Rose",
+      "context": "Tim Rose is revisited with a heaving Long Time Man building to a wailing climax",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Edwin Hawkins Singers",
+      "context": "The Satanic garage-pop of second single Deanna was ironically built on the Edwin Hawkins' Singers' Oh Happy Day",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Patricia Roberts",
+      "context": "somnambulant ballad Watching Alice was inspired by Patricia Roberts' 1983 novel Tender Prey",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Neil Young",
+      "context": "For the first time the group, who'd lost Kid Congo but gained bassist Martyn Casey, brought in a producer in David Briggs, who'd worked with Neil Young",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Nina Simone",
+      "context": "September 1993 saw the Live Seeds album – initially to 'do justice' to songs on the previous album – energetically straddling the back catalogue, plus a gripping cover of Nina Simone's Plain Gold Ring",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Mississippi John Hurt",
+      "context": "The profanity-strewn Stagger Lee 'Caves-up' the eternal blues legend told many times since Mississippi John Hurt's definitive 1928 version",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "John Betjeman",
+      "context": "The album came with understated backdrops (inspired by John Betjeman, Samuel Barber and the minimalist devotional music of Estonian composer Avro Part)",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Samuel Barber",
+      "context": "The album came with understated backdrops (inspired by John Betjeman, Samuel Barber and the minimalist devotional music of Estonian composer Avro Part)",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Arvo Pärt",
+      "context": "The album came with understated backdrops (inspired by John Betjeman, Samuel Barber and the minimalist devotional music of Estonian composer Avro Part)",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Bob Dylan",
+      "context": "the whole gore-splattered knees-up ends with a singalong on Dylan's Death Is Not The End",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 23,
+    "sources_checked": 2
+  }
+}

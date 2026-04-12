@@ -1,0 +1,28 @@
+{
+  "quotes": [
+    {
+      "text": "I had just got my first electric guitar. As soon as they launched into Hey Bo Diddley, with Robbie Robertson using a pick between thumb and first finger and steel finger picks on the next two, playing a Telecaster run through an amp with distortion, I knew I'd heard the guitar sound of my dreams!",
+      "publication": "Classic Rock",
+      "date": "September 2018"
+    },
+    {
+      "text": "I had been kicked out of my previous apartment for playing my guitar amplified, and had already got complaints in my new apartment, so I did the demo singing quietly and using an unamplified Telecaster. Luckily, when Steppenwolf agreed to do it, their guitar player Michael Wilk gave it the big guitar sound that I was dreaming of.",
+      "publication": "Classic Rock",
+      "date": "September 2018"
+    },
+    {
+      "text": "I got to be a staff writer for Universal Music. I had a regular income and could afford to buy my first car. I drove out to the beach, then I drove out to the desert and up to the mountains, and I had a sudden realisation that the area around Los Angeles was really stunning. It's very dramatic. So that's what caused me to come up with 'Get your motor running, head out on the highway'. At one point I was in the mountains during a thunderstorm. It was so heavy I had to pull aside and park. And that's when the phrase 'heavy metal thunder' came to me.",
+      "publication": "Classic Rock",
+      "date": "September 2018"
+    }
+  ],
+  "corpus_meta": {
+    "quote_count": 3,
+    "source_count": 1,
+    "date_range": [
+      "Sept",
+      "Sept"
+    ],
+    "corpus_valid": false
+  }
+}

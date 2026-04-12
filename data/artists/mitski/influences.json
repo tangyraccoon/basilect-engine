@@ -1,0 +1,23 @@
+{
+  "influences": [
+    {
+      "name": "Drake",
+      "context": "I think it's \"Own It\" because it might not be his objectively best song, but it's the one I always go back to for some reason, and I've cried to a few times, and I don't even know why I'm crying, it just feels so beautiful. It's so soothing to listen to it.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Lana Del Rey",
+      "context": "I feel this way about Lana del Rey too, where I'm very attracted to her music and her message and her brand",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Peter Denenberg",
+      "context": "He really helped me out, mostly outside of college. I recorded my next upcoming record at his studio. He's let me stay over at his studio when I didn't have a place to sleep, and he's been a really good guiding figure outside of college.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 3,
+    "sources_checked": 5
+  }
+}

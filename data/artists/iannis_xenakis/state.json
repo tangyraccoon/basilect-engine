@@ -1,0 +1,49 @@
+{
+  "artist_id": "iannis_xenakis",
+  "artist_name": "Iannis Xenakis",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:49:51.950817+00:00",
+      "result": "7 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:49:52.459628+00:00",
+      "result": "7/7 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:50:00.044542+00:00",
+      "result": "1 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:50:04.526135+00:00",
+      "result": "10 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:50:05.940293+00:00",
+      "result": "7/10 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:50:24.595793+00:00",
+      "result": "28 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:50:40.176122+00:00",
+      "result": "4 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:51:14.037358+00:00",
+      "result": "43 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-11T22:51:14.037438+00:00"
+}

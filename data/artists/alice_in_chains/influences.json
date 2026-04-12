@@ -1,0 +1,33 @@
+{
+  "influences": [
+    {
+      "name": "Led Zeppelin",
+      "context": "People know that you grew up on Zeppelin and Sabbath and Pink Floyd",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Black Sabbath",
+      "context": "People know that you grew up on Zeppelin and Sabbath and Pink Floyd",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Pink Floyd",
+      "context": "People know that you grew up on Zeppelin and Sabbath and Pink Floyd",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Guns N' Roses",
+      "context": "I was a big fan of Guns N' Roses, and it had to be the late eighties/early nineties when we met",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Trent Reznor",
+      "context": "I meant more like what Trent Reznor does, scoring a whole film or TV show.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 5,
+    "sources_checked": 4
+  }
+}

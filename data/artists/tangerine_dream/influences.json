@@ -1,0 +1,38 @@
+{
+  "influences": [
+    {
+      "name": "Edgar",
+      "context": "In Tangerine Dream we have ideas and sonic guideposts from Edgar and a very good team when it comes to combine sounds.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Ulrich",
+      "context": "Ulrich is unbelievably good at creating shimmering and airy sounds – meanwhile I'm used to making huge and bassy sounds, and catchy melodies.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "J.S. Bach",
+      "context": "during my training as an organist in Delmenhorst, I had become acquainted with the music of old masters, baroque compositions by Italian composers and, of course, the fugues and preludes of J.S. Bach",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Gustav Mahler",
+      "context": "I listen to classical composers such as Gustav Mahler, whose movements of a symphony last more than 40 minutes or longer and sound as one",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Kurt Ader",
+      "context": "I met Kurt in June 2017 at the electronic festival Synthfest in Nantes. Here he introduced me to his sound design specifically for the Korg Kronos 2 workstation, as well as his KApro Sound Libraries... So inspiring were Kurt's sounds for me that I was able to finish this album so quickly",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Christoph Franke",
+      "context": "this piece reminds me of the performance, how Christoph Franke and I during my time with Tangerine Dream had produced this music in his studio in Berlin-Spandau, in a night session around 1982. Each of us knew exactly what to do, each had shared his talent with the other without much explanation or discussion. Such moments are very rare and there are only a few people with whom such a thing is possible. Christoph and I could",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 6,
+    "sources_checked": 3
+  }
+}

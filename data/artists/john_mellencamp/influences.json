@@ -1,0 +1,68 @@
+{
+  "influences": [
+    {
+      "name": "Bob Dylan",
+      "context": "He drew inspiration from a mix of folks – the storytelling of Bob Dylan and Woody Guthrie, but also the raw energy of James Brown and The Rolling Stones.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Woody Guthrie",
+      "context": "He drew inspiration from a mix of folks – the storytelling of Bob Dylan and Woody Guthrie, but also the raw energy of James Brown and The Rolling Stones.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "James Brown",
+      "context": "He drew inspiration from a mix of folks – the storytelling of Bob Dylan and Woody Guthrie, but also the raw energy of James Brown and The Rolling Stones.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Rolling Stones",
+      "context": "He drew inspiration from a mix of folks – the storytelling of Bob Dylan and Woody Guthrie, but also the raw energy of James Brown and The Rolling Stones.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Johnny Cash",
+      "context": "It's got this mournful, melodic feel that mixes a bit of that Stones swagger with something a little more downbeat, almost like Johnny Cash.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Lucinda Williams",
+      "context": "He also included a track by Lucinda Williams, \"Lafayette,\" which has this haunting, Appalachian vibe.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Bruce Springsteen",
+      "context": "It was Bruce's melodies that left a lasting impression on John, who called some of Springsteen's tunes \"jaw-dropping.\" \"How could a guy make such beautiful melodies out of three chords? And he could do it,\" John said.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "William Faulkner",
+      "context": "My inspirations in the last ten, fifteen years aren't drawn from rock'n'roll; I'm looking at William Faulkner, Tennessee Williams, John Steinbeck, these great American authors and what they wrote about.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Tennessee Williams",
+      "context": "My inspirations in the last ten, fifteen years aren't drawn from rock'n'roll; I'm looking at William Faulkner, Tennessee Williams, John Steinbeck, these great American authors and what they wrote about.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "John Steinbeck",
+      "context": "My inspirations in the last ten, fifteen years aren't drawn from rock'n'roll; I'm looking at William Faulkner, Tennessee Williams, John Steinbeck, these great American authors and what they wrote about.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Dylan",
+      "context": "Look at Dylan, Willie Nelson, Johnny Cash. All these guys started playing so much the older they got because they knew that time was running out",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "T Bone Burnett",
+      "context": "Both were produced by T Bone Burnett, who had piloted Robert Plant and Alison Krauss's Grammy-winning collaboration on Raising Sand, and he likewise stripped Mellencamp's music of artifice and affectation, paring it down to its heart and soul.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 12,
+    "sources_checked": 6
+  }
+}

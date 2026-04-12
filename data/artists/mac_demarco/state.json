@@ -1,0 +1,49 @@
+{
+  "artist_id": "mac_demarco",
+  "artist_name": "Mac DeMarco",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-11T20:10:26.632078+00:00",
+      "result": "6 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-11T20:10:27.251226+00:00",
+      "result": "5/6 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T20:11:36.576361+00:00",
+      "result": "16 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-11T20:11:41.229160+00:00",
+      "result": "8 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-11T20:11:42.571770+00:00",
+      "result": "8/8 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T20:12:22.152438+00:00",
+      "result": "62 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T20:12:33.424628+00:00",
+      "result": "8 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T20:13:04.345266+00:00",
+      "result": "40 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-11T20:13:04.345372+00:00"
+}

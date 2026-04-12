@@ -1,0 +1,224 @@
+{
+  "tags": [
+    {
+      "tag": "political",
+      "category": "philosophy",
+      "weight": 1.0,
+      "raw_score": 15
+    },
+    {
+      "tag": "confrontational",
+      "category": "philosophy",
+      "weight": 1.0,
+      "raw_score": 15
+    },
+    {
+      "tag": "collaborative",
+      "category": "philosophy",
+      "weight": 0.933,
+      "raw_score": 14
+    },
+    {
+      "tag": "hybrid_production",
+      "category": "approach",
+      "weight": 0.933,
+      "raw_score": 14
+    },
+    {
+      "tag": "studio_as_instrument",
+      "category": "approach",
+      "weight": 0.867,
+      "raw_score": 13
+    },
+    {
+      "tag": "experimental",
+      "category": "philosophy",
+      "weight": 0.867,
+      "raw_score": 13
+    },
+    {
+      "tag": "synthesis",
+      "category": "process",
+      "weight": 0.8,
+      "raw_score": 12
+    },
+    {
+      "tag": "conceptual",
+      "category": "philosophy",
+      "weight": 0.733,
+      "raw_score": 11
+    },
+    {
+      "tag": "spiritual",
+      "category": "philosophy",
+      "weight": 0.6,
+      "raw_score": 9
+    },
+    {
+      "tag": "vocal_focused",
+      "category": "approach",
+      "weight": 0.6,
+      "raw_score": 9
+    },
+    {
+      "tag": "sampling",
+      "category": "process",
+      "weight": 0.6,
+      "raw_score": 9
+    },
+    {
+      "tag": "layering",
+      "category": "process",
+      "weight": 0.6,
+      "raw_score": 9
+    },
+    {
+      "tag": "anti_commercial",
+      "category": "philosophy",
+      "weight": 0.6,
+      "raw_score": 9
+    },
+    {
+      "tag": "electronic",
+      "category": "approach",
+      "weight": 0.6,
+      "raw_score": 9
+    },
+    {
+      "tag": "vocal_processing",
+      "category": "process",
+      "weight": 0.533,
+      "raw_score": 8
+    },
+    {
+      "tag": "multi_instrumental",
+      "category": "approach",
+      "weight": 0.533,
+      "raw_score": 8
+    },
+    {
+      "tag": "diy",
+      "category": "philosophy",
+      "weight": 0.467,
+      "raw_score": 7
+    },
+    {
+      "tag": "noise",
+      "category": "process",
+      "weight": 0.4,
+      "raw_score": 6
+    },
+    {
+      "tag": "intuitive",
+      "category": "philosophy",
+      "weight": 0.333,
+      "raw_score": 5
+    },
+    {
+      "tag": "self_produced",
+      "category": "approach",
+      "weight": 0.333,
+      "raw_score": 5
+    },
+    {
+      "tag": "maximalism",
+      "category": "process",
+      "weight": 0.333,
+      "raw_score": 5
+    },
+    {
+      "tag": "intellectual",
+      "category": "philosophy",
+      "weight": 0.267,
+      "raw_score": 4
+    },
+    {
+      "tag": "digital",
+      "category": "approach",
+      "weight": 0.2,
+      "raw_score": 3
+    },
+    {
+      "tag": "serious",
+      "category": "philosophy",
+      "weight": 0.2,
+      "raw_score": 3
+    },
+    {
+      "tag": "reinterpretation",
+      "category": "process",
+      "weight": 0.2,
+      "raw_score": 3
+    },
+    {
+      "tag": "repetition",
+      "category": "process",
+      "weight": 0.2,
+      "raw_score": 3
+    },
+    {
+      "tag": "prolific",
+      "category": "approach",
+      "weight": 0.2,
+      "raw_score": 3
+    },
+    {
+      "tag": "drum_machine",
+      "category": "process",
+      "weight": 0.2,
+      "raw_score": 3
+    },
+    {
+      "tag": "collage",
+      "category": "process",
+      "weight": 0.2,
+      "raw_score": 3
+    },
+    {
+      "tag": "community_focused",
+      "category": "philosophy",
+      "weight": 0.2,
+      "raw_score": 3
+    },
+    {
+      "tag": "meditative",
+      "category": "philosophy",
+      "weight": 0.133,
+      "raw_score": 2
+    },
+    {
+      "tag": "hi_fi",
+      "category": "approach",
+      "weight": 0.133,
+      "raw_score": 2
+    },
+    {
+      "tag": "short_form",
+      "category": "approach",
+      "weight": 0.133,
+      "raw_score": 2
+    },
+    {
+      "tag": "hybrid",
+      "category": "philosophy",
+      "weight": 0.133,
+      "raw_score": 2
+    },
+    {
+      "tag": "autobiographical",
+      "category": "philosophy",
+      "weight": 0.133,
+      "raw_score": 2
+    },
+    {
+      "tag": "collaborative_production",
+      "category": "approach",
+      "weight": 0.133,
+      "raw_score": 2
+    }
+  ],
+  "meta": {
+    "count": 36,
+    "sources_checked": 11
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "tags": [
+    {
+      "tag": "vocal_focused",
+      "category": "approach",
+      "weight": 1.0,
+      "raw_score": 19
+    },
+    {
+      "tag": "emotional",
+      "category": "philosophy",
+      "weight": 0.947,
+      "raw_score": 18
+    },
+    {
+      "tag": "orchestration",
+      "category": "process",
+      "weight": 0.789,
+      "raw_score": 15
+    },
+    {
+      "tag": "collaborative_production",
+      "category": "approach",
+      "weight": 0.737,
+      "raw_score": 14
+    },
+    {
+      "tag": "hi_fi",
+      "category": "approach",
+      "weight": 0.579,
+      "raw_score": 11
+    },
+    {
+      "tag": "multi_instrumental",
+      "category": "approach",
+      "weight": 0.526,
+      "raw_score": 10
+    },
+    {
+      "tag": "narrative",
+      "category": "philosophy",
+      "weight": 0.474,
+      "raw_score": 9
+    },
+    {
+      "tag": "synthesis",
+      "category": "process",
+      "weight": 0.368,
+      "raw_score": 7
+    },
+    {
+      "tag": "commercial",
+      "category": "philosophy",
+      "weight": 0.368,
+      "raw_score": 7
+    },
+    {
+      "tag": "melodic",
+      "category": "process",
+      "weight": 0.316,
+      "raw_score": 6
+    },
+    {
+      "tag": "layering",
+      "category": "process",
+      "weight": 0.263,
+      "raw_score": 5
+    },
+    {
+      "tag": "vocal_processing",
+      "category": "process",
+      "weight": 0.211,
+      "raw_score": 4
+    },
+    {
+      "tag": "hybrid_production",
+      "category": "approach",
+      "weight": 0.211,
+      "raw_score": 4
+    },
+    {
+      "tag": "traditional",
+      "category": "philosophy",
+      "weight": 0.211,
+      "raw_score": 4
+    },
+    {
+      "tag": "romantic",
+      "category": "philosophy",
+      "weight": 0.158,
+      "raw_score": 3
+    },
+    {
+      "tag": "playful",
+      "category": "philosophy",
+      "weight": 0.158,
+      "raw_score": 3
+    },
+    {
+      "tag": "harmonic_complexity",
+      "category": "process",
+      "weight": 0.158,
+      "raw_score": 3
+    },
+    {
+      "tag": "collaborative",
+      "category": "philosophy",
+      "weight": 0.158,
+      "raw_score": 3
+    },
+    {
+      "tag": "short_form",
+      "category": "approach",
+      "weight": 0.158,
+      "raw_score": 3
+    }
+  ],
+  "meta": {
+    "count": 19,
+    "sources_checked": 7
+  }
+}

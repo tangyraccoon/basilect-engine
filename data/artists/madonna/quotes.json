@@ -1,0 +1,38 @@
+{
+  "quotes": [
+    {
+      "text": "It's my celebration of other girls in pop music.",
+      "publication": "Grammy",
+      "date": "2000"
+    },
+    {
+      "text": "I think they're the cutest.",
+      "publication": "Grammy",
+      "date": "2000"
+    },
+    {
+      "text": "Working on new music with Stuart Price. these past few months has been medicine for my SOUL. Songwriting and making music is the one area where I don't need to ask anyone for their permission.. i'm so excited to share it with you. Who wants to hear new music in 2025!",
+      "publication": "Billboard",
+      "date": "2024-12-16"
+    },
+    {
+      "text": "I'm working on new music with Stuart Price. These last few months have been medicine for my soul. Writing songs and making music is the only area where I don't need to ask anyone's permission",
+      "publication": "",
+      "date": ""
+    },
+    {
+      "text": "I'm so excited to share it with you. Who wants to hear new music in 2025?",
+      "publication": "",
+      "date": ""
+    }
+  ],
+  "corpus_meta": {
+    "quote_count": 5,
+    "source_count": 2,
+    "date_range": [
+      "2000",
+      "2024"
+    ],
+    "corpus_valid": false
+  }
+}

@@ -1,0 +1,248 @@
+{
+  "tags": [
+    {
+      "tag": "vocal_focused",
+      "category": "approach",
+      "weight": 1.0,
+      "raw_score": 21
+    },
+    {
+      "tag": "autobiographical",
+      "category": "philosophy",
+      "weight": 0.952,
+      "raw_score": 20
+    },
+    {
+      "tag": "emotional",
+      "category": "philosophy",
+      "weight": 0.952,
+      "raw_score": 20
+    },
+    {
+      "tag": "collaborative_production",
+      "category": "approach",
+      "weight": 0.524,
+      "raw_score": 11
+    },
+    {
+      "tag": "narrative",
+      "category": "philosophy",
+      "weight": 0.429,
+      "raw_score": 9
+    },
+    {
+      "tag": "introspective",
+      "category": "philosophy",
+      "weight": 0.381,
+      "raw_score": 8
+    },
+    {
+      "tag": "collaborative",
+      "category": "philosophy",
+      "weight": 0.381,
+      "raw_score": 8
+    },
+    {
+      "tag": "hybrid_production",
+      "category": "approach",
+      "weight": 0.381,
+      "raw_score": 8
+    },
+    {
+      "tag": "confrontational",
+      "category": "philosophy",
+      "weight": 0.381,
+      "raw_score": 8
+    },
+    {
+      "tag": "intuitive",
+      "category": "philosophy",
+      "weight": 0.333,
+      "raw_score": 7
+    },
+    {
+      "tag": "acoustic",
+      "category": "approach",
+      "weight": 0.19,
+      "raw_score": 4
+    },
+    {
+      "tag": "confessional",
+      "category": "philosophy",
+      "weight": 0.143,
+      "raw_score": 3
+    },
+    {
+      "tag": "sparse",
+      "category": "approach",
+      "weight": 0.143,
+      "raw_score": 3
+    },
+    {
+      "tag": "evolution",
+      "category": "philosophy",
+      "weight": 0.143,
+      "raw_score": 3
+    },
+    {
+      "tag": "thematic_conceptual",
+      "category": "philosophy",
+      "weight": 0.143,
+      "raw_score": 3
+    },
+    {
+      "tag": "minimalism",
+      "category": "process",
+      "weight": 0.143,
+      "raw_score": 3
+    },
+    {
+      "tag": "self_produced",
+      "category": "approach",
+      "weight": 0.143,
+      "raw_score": 3
+    },
+    {
+      "tag": "stream_of_consciousness",
+      "category": "process",
+      "weight": 0.143,
+      "raw_score": 3
+    },
+    {
+      "tag": "piano",
+      "category": "process",
+      "weight": 0.143,
+      "raw_score": 3
+    },
+    {
+      "tag": "playful",
+      "category": "philosophy",
+      "weight": 0.143,
+      "raw_score": 3
+    },
+    {
+      "tag": "live_performance",
+      "category": "approach",
+      "weight": 0.143,
+      "raw_score": 3
+    },
+    {
+      "tag": "studio_as_instrument",
+      "category": "approach",
+      "weight": 0.095,
+      "raw_score": 2
+    },
+    {
+      "tag": "stripped_down",
+      "category": "process",
+      "weight": 0.095,
+      "raw_score": 2
+    },
+    {
+      "tag": "vulnerable",
+      "category": "philosophy",
+      "weight": 0.095,
+      "raw_score": 2
+    },
+    {
+      "tag": "spiritual",
+      "category": "philosophy",
+      "weight": 0.095,
+      "raw_score": 2
+    },
+    {
+      "tag": "organic",
+      "category": "approach",
+      "weight": 0.095,
+      "raw_score": 2
+    },
+    {
+      "tag": "meditative",
+      "category": "philosophy",
+      "weight": 0.095,
+      "raw_score": 2
+    },
+    {
+      "tag": "processing",
+      "category": "philosophy",
+      "weight": 0.095,
+      "raw_score": 2
+    },
+    {
+      "tag": "orchestration",
+      "category": "process",
+      "weight": 0.095,
+      "raw_score": 2
+    },
+    {
+      "tag": "electronic",
+      "category": "approach",
+      "weight": 0.095,
+      "raw_score": 2
+    },
+    {
+      "tag": "sampling",
+      "category": "process",
+      "weight": 0.095,
+      "raw_score": 2
+    },
+    {
+      "tag": "layering",
+      "category": "process",
+      "weight": 0.095,
+      "raw_score": 2
+    },
+    {
+      "tag": "polyrhythm",
+      "category": "process",
+      "weight": 0.095,
+      "raw_score": 2
+    },
+    {
+      "tag": "multi_instrumental",
+      "category": "approach",
+      "weight": 0.095,
+      "raw_score": 2
+    },
+    {
+      "tag": "sarcastic",
+      "category": "philosophy",
+      "weight": 0.095,
+      "raw_score": 2
+    },
+    {
+      "tag": "vocal_processing",
+      "category": "process",
+      "weight": 0.095,
+      "raw_score": 2
+    },
+    {
+      "tag": "political",
+      "category": "philosophy",
+      "weight": 0.095,
+      "raw_score": 2
+    },
+    {
+      "tag": "articulate_vulnerability",
+      "category": "philosophy",
+      "weight": 0.095,
+      "raw_score": 2
+    },
+    {
+      "tag": "storytelling",
+      "category": "process",
+      "weight": 0.095,
+      "raw_score": 2
+    },
+    {
+      "tag": "experimental",
+      "category": "philosophy",
+      "weight": 0.048,
+      "raw_score": 1
+    }
+  ],
+  "meta": {
+    "count": 40,
+    "sources_checked": 10
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "tags": [
+    {
+      "tag": "playful",
+      "category": "philosophy",
+      "weight": 1.0,
+      "raw_score": 2
+    }
+  ],
+  "meta": {
+    "count": 1,
+    "sources_checked": 1
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "influences": [
+    {
+      "name": "Neil Young",
+      "context": "Like Neil Young before him, White deals in aural extremes — both Godzilla-scaled rock songs and tender, innocent balladry.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Cramps",
+      "context": "featuring a characteristically harebrained solo from a tangle-headed, Cramps-shirted White",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Roger Daltrey",
+      "context": "he lets loose a Roger Daltrey-style, full-chested, life-affirming \"Yeeeeeeeeeah!!!\"",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Paul McCartney",
+      "context": "The tender, solitary \"You've Got Her in Your Pocket\" displays White's mastery of McCartney-style sentimentality.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Robert Johnson",
+      "context": "Therein, originals like \"The Big Three Killed My Baby\" and \"Astro\" stand toe-to-toe with the traditional tunes \"John the Revelator\" (interpolated into \"Cannon\") and \"St. James Infirmary Blues,\" Robert Johnson's \"Stop Breaking Down\"",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Bob Dylan",
+      "context": "Therein, originals like \"The Big Three Killed My Baby\" and \"Astro\" stand toe-to-toe with the traditional tunes \"John the Revelator\" (interpolated into \"Cannon\") and \"St. James Infirmary Blues,\" Robert Johnson's \"Stop Breaking Down\" and Bob Dylan's \"One More Cup of Coffee.\"",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Ray Davies",
+      "context": "White indulged his inner Ray Davies in the sunshiney \"Apple Blossom\"",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Blind Willie McTell",
+      "context": "It all ends with \"Your Southern Can is Mine,\" one of many casual, tongue-in-cheek album closers for the Stripes — this one borrowed from White's hero Blind Willie McTell.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Rolling Stones",
+      "context": "It's no wonder White previously joined the Stones onstage for \"Loving Cup.\"",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Nicki Minaj",
+      "context": "inspired by rappers like Nicki Minaj, White made the album in an isolated frenzy",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Mitch Easter",
+      "context": "Joshua V Smith discovered Fidelitorium Recordings, owned and run by Mitch Easter, who worked on REM's early albums. Observing and assisting Easter for a number of years awakened a love of analogue gear and working methods in Smith.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 11,
+    "sources_checked": 5
+  }
+}

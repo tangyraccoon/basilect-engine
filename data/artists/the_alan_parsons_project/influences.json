@@ -1,0 +1,28 @@
+{
+  "influences": [
+    {
+      "name": "Eric Clapton",
+      "context": "I played lead guitar with a blues band during the blues boom of the late '60s. I was just another guitar player trying to sound like Eric Clapton.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "George Martin",
+      "context": "Under producer George Martin's tutelage he worked with the Beatles on their albums Let it Be and Abbey Road. The recording and production techniques he learned from Martin and the Beatles would serve as the foundation for his later endeavors. 'I was just an assistant who made tea and pushed buttons,' Parsons later explained. 'But I did get to watch how he [Martin] works.'",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Beatles",
+      "context": "The recording and production techniques he learned from Martin and the Beatles would serve as the foundation for his later endeavors.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Roy Wood",
+      "context": "English musician Roy Wood first taught Parsons this concept, and he learned to love it in the days when analog tapes were the go-to method of studio recording.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 4,
+    "sources_checked": 3
+  }
+}

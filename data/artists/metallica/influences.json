@@ -1,0 +1,43 @@
+{
+  "influences": [
+    {
+      "name": "Greg Fidelman",
+      "context": "Greg Fidelman, who engineered this record, who co-produced it with James and I, who was responsible for all the sonics and the mixing and all that. He's been with METALLICA now for over ten years. He knows us, and he knows how to make us sound the way we should sound and maximize kind of our thing. And I think that he's a significant reason for all the goodwill that's coming back our way",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "New Wave of British Heavy Metal",
+      "context": "a nod to the band's oft-talked about influence from the New Wave of British Heavy Metal",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Master of Puppets (Metallica's own album)",
+      "context": "Looking to get more of a Master of Puppet-sy thing in there, with echo",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "He Ain't Heavy, He's My Brother (song/reference)",
+      "context": "Even like the 'He Ain't Heavy, He's My Brother.' So that's where that came from",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Slayer",
+      "context": "At that time there was an underlying thing about ability and, 'What's Slayer doing? What's Megadeth doing?'",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Megadeth",
+      "context": "At that time there was an underlying thing about ability and, 'What's Slayer doing? What's Megadeth doing?'",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Bob Rock",
+      "context": "It wasn't really until Bob Rock showed up a couple of years later and started challenging us in the way we were writing, recording and arranging.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 7,
+    "sources_checked": 5
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "influences": [
+    {
+      "name": "Oasis",
+      "context": "While we were living in London, my father would listen to a lot of Oasis and he introduced me to Amy Winehouse",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Amy Winehouse",
+      "context": "While we were living in London, my father would listen to a lot of Oasis and he introduced me to Amy Winehouse",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Grandfather (violinist)",
+      "context": "I grew up being around my Grandpa a lot—he was a violinist and my favorite person in the entire world. I was like this tiny baby following him around everywhere and doing everything that he did until I was like, Oh I want to start playing the violin.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Mother (musician)",
+      "context": "my mum is also a musician; she majored in the flute and minored in the piccolo. I grew up in a household of music.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Billie Eilish",
+      "context": "I think I was heavily influenced by Billie Eilish's new album while making Hi-Fi. With her and her brother, it's so interesting and inspiring to know they created a Grammy-winning fucking award album in their bedroom.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Banks",
+      "context": "The music is significantly different, like you have artists like Banks and Billie Eilish. I think I want to emulate that sort of music rather than kpop, and so I think in that sense it's affected my artistry.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "BTS",
+      "context": "I am a huge fan of BTS. I still try to stay into those groups and make sure that I continue to listen to K-pop because it's something that I enjoyed as a kid and it's a part of my culture that I think is really empowering.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "My grandpa",
+      "context": "My grandpa, who was a violinist, was my absolute hero growing up. I followed him everywhere, doing everything that he did…we were inseparable! Watching him play the violin with such passion is what sparked my love for music.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Seventeen",
+      "context": "Number 2 is Seventeen. They have such a dynamic and unique sound! I truly think they've created their own special corner of the K-pop industry…I'm so proud of them for finally receiving their well deserved Artist of the Year at MAMA this year!",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "MEENOI",
+      "context": "Number 3 is MEENOI. First of all, I absolutely adore her voice and music in general.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 10,
+    "sources_checked": 4
+  }
+}

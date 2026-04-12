@@ -1,0 +1,18 @@
+{
+  "quotes": [
+    {
+      "text": "Do you have anything else?",
+      "publication": "Not specified",
+      "date": "Not specified"
+    }
+  ],
+  "corpus_meta": {
+    "quote_count": 1,
+    "source_count": 1,
+    "date_range": [
+      "Not ",
+      "Not "
+    ],
+    "corpus_valid": false
+  }
+}

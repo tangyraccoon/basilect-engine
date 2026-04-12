@@ -1,0 +1,48 @@
+{
+  "quotes": [
+    {
+      "text": "We represented total excess. We were up for ridicule.",
+      "publication": "Los Angeles Times",
+      "date": ""
+    },
+    {
+      "text": "It was a hard album to make because it was a very accurate album. A lot of time went into it – a lot of care. In many ways, it's one of the best albums we've done.",
+      "publication": "Hit Parader",
+      "date": "1974"
+    },
+    {
+      "text": "Although very young at the time, I sometimes had moments of reflection and maybe also perhaps a feeling that I could be a better person. I think this was just one of those.",
+      "publication": "",
+      "date": ""
+    },
+    {
+      "text": "I can spend three or four months working on my own music and after this, it is kind of a break – a refreshing change – to play something like 'Hoedown,' which incidentally is a lot of fun.",
+      "publication": "The New York Times",
+      "date": "1973"
+    },
+    {
+      "text": "I suppose if you're looking for a description of what ELP is about, it's progressive rock with a lot of regard for the past.",
+      "publication": "",
+      "date": ""
+    },
+    {
+      "text": "At the time, mainly, what they were was Keith Emerson doing this sort of honky-tonk bar piano. He does a lot of those interpretations, and some of them are good. Sometimes, he'll come up with one that's really nice – and those were the things that were too good to pass by, really.",
+      "publication": "",
+      "date": "2012"
+    },
+    {
+      "text": "That's when the band really secured its own identity. Technology was moving forward at an astounding pace as we made that record. The whole thing came together in one recording.",
+      "publication": "",
+      "date": "2016"
+    }
+  ],
+  "corpus_meta": {
+    "quote_count": 7,
+    "source_count": 3,
+    "date_range": [
+      "1973",
+      "2016"
+    ],
+    "corpus_valid": true
+  }
+}

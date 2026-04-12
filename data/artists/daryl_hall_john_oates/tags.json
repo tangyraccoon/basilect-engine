@@ -1,0 +1,170 @@
+{
+  "tags": [
+    {
+      "tag": "vocal_focused",
+      "category": "approach",
+      "weight": 1.0,
+      "raw_score": 16
+    },
+    {
+      "tag": "collaborative",
+      "category": "philosophy",
+      "weight": 0.812,
+      "raw_score": 13
+    },
+    {
+      "tag": "collaborative_production",
+      "category": "approach",
+      "weight": 0.625,
+      "raw_score": 10
+    },
+    {
+      "tag": "intuitive",
+      "category": "philosophy",
+      "weight": 0.625,
+      "raw_score": 10
+    },
+    {
+      "tag": "hybrid",
+      "category": "philosophy",
+      "weight": 0.562,
+      "raw_score": 9
+    },
+    {
+      "tag": "synthesis",
+      "category": "process",
+      "weight": 0.562,
+      "raw_score": 9
+    },
+    {
+      "tag": "playful",
+      "category": "philosophy",
+      "weight": 0.562,
+      "raw_score": 9
+    },
+    {
+      "tag": "hybrid_production",
+      "category": "approach",
+      "weight": 0.5,
+      "raw_score": 8
+    },
+    {
+      "tag": "emotional",
+      "category": "philosophy",
+      "weight": 0.5,
+      "raw_score": 8
+    },
+    {
+      "tag": "layering",
+      "category": "process",
+      "weight": 0.5,
+      "raw_score": 8
+    },
+    {
+      "tag": "hi_fi",
+      "category": "approach",
+      "weight": 0.5,
+      "raw_score": 8
+    },
+    {
+      "tag": "electronic",
+      "category": "approach",
+      "weight": 0.375,
+      "raw_score": 6
+    },
+    {
+      "tag": "album_oriented",
+      "category": "approach",
+      "weight": 0.375,
+      "raw_score": 6
+    },
+    {
+      "tag": "vocal_processing",
+      "category": "process",
+      "weight": 0.375,
+      "raw_score": 6
+    },
+    {
+      "tag": "short_form",
+      "category": "approach",
+      "weight": 0.25,
+      "raw_score": 4
+    },
+    {
+      "tag": "narrative",
+      "category": "philosophy",
+      "weight": 0.25,
+      "raw_score": 4
+    },
+    {
+      "tag": "studio_as_instrument",
+      "category": "approach",
+      "weight": 0.25,
+      "raw_score": 4
+    },
+    {
+      "tag": "live_performance",
+      "category": "approach",
+      "weight": 0.188,
+      "raw_score": 3
+    },
+    {
+      "tag": "melodic_craftsmanship",
+      "category": "process",
+      "weight": 0.188,
+      "raw_score": 3
+    },
+    {
+      "tag": "melodic",
+      "category": "process",
+      "weight": 0.188,
+      "raw_score": 3
+    },
+    {
+      "tag": "minimalism",
+      "category": "process",
+      "weight": 0.188,
+      "raw_score": 3
+    },
+    {
+      "tag": "maximalism",
+      "category": "process",
+      "weight": 0.188,
+      "raw_score": 3
+    },
+    {
+      "tag": "commercial",
+      "category": "philosophy",
+      "weight": 0.188,
+      "raw_score": 3
+    },
+    {
+      "tag": "traditional",
+      "category": "philosophy",
+      "weight": 0.125,
+      "raw_score": 2
+    },
+    {
+      "tag": "orchestration",
+      "category": "process",
+      "weight": 0.125,
+      "raw_score": 2
+    },
+    {
+      "tag": "craft_focused",
+      "category": "philosophy",
+      "weight": 0.125,
+      "raw_score": 2
+    },
+    {
+      "tag": "conceptual",
+      "category": "philosophy",
+      "weight": 0.125,
+      "raw_score": 2
+    }
+  ],
+  "meta": {
+    "count": 27,
+    "sources_checked": 7
+  }
+}

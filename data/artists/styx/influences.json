@@ -1,0 +1,53 @@
+{
+  "influences": [
+    {
+      "name": "Neil Peart",
+      "context": "I remember Rush joked that Neil Peart was the new guy pretty much their entire career.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Elton John",
+      "context": "the albums that I grew up loving, that's how it is. \"Goodbye Yellow Brick Road\" means as much to me today as it did when I first got it.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Beatles",
+      "context": "We used side two of \"Abbey Road\" as a little bit of a roadmap of how to do that in an effective way.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Animals",
+      "context": "his original band was called The Destinations and they covered British Invasion bands like The Animals and The Kinks",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Kinks",
+      "context": "his original band was called The Destinations and they covered British Invasion bands like The Animals and The Kinks",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Neil Young",
+      "context": "Later, he got into Neil Young",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Brian May",
+      "context": "with its exuberant vocal and Brian May-esque harmony guitar solo, sounds like it would feel right at home on Side II of Queen's A Night at the Opera",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Who",
+      "context": "could easily be a leftover track from Who's Next by The Who",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Queen",
+      "context": "We're not afraid to show our influences... I like the fact that we're such products of that entire era of classic rock that we don't try to necessarily mask in any way what we're inspired by from that era",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 9,
+    "sources_checked": 4
+  }
+}

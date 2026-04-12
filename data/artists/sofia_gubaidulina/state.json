@@ -1,0 +1,49 @@
+{
+  "artist_id": "sofia_gubaidulina",
+  "artist_name": "Sofia Gubaidulina",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T14:49:44.502314+00:00",
+      "result": "6 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T14:49:45.113198+00:00",
+      "result": "4/6 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T14:49:55.540403+00:00",
+      "result": "3 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T14:49:59.984276+00:00",
+      "result": "9 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T14:50:01.351655+00:00",
+      "result": "7/9 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T14:50:12.036121+00:00",
+      "result": "9 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T14:50:24.113387+00:00",
+      "result": "6 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T14:50:46.887711+00:00",
+      "result": "28 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-12T14:50:46.887751+00:00"
+}

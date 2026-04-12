@@ -1,0 +1,18 @@
+{
+  "influences": [
+    {
+      "name": "Keith Richards",
+      "context": "Guitarists Langlois and Baker prove worthy graduates of both the Keith Richards School of Choppy Rhythms and Billy Gibbons Academy of Liquid Leads.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Billy Gibbons",
+      "context": "Guitarists Langlois and Baker prove worthy graduates of both the Keith Richards School of Choppy Rhythms and Billy Gibbons Academy of Liquid Leads.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 2,
+    "sources_checked": 3
+  }
+}

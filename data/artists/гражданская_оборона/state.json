@@ -1,0 +1,49 @@
+{
+  "artist_id": "гражданская_оборона",
+  "artist_name": "Гражданская оборона",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:46:27.338916+00:00",
+      "result": "0 urls"
+    },
+    "interview_scrape": {
+      "status": "skipped",
+      "timestamp": "2026-04-12T15:46:27.851840+00:00",
+      "result": "failed — skipping to unblock"
+    },
+    "interview_extract": {
+      "status": "skipped",
+      "timestamp": "2026-04-12T15:46:27.854222+00:00",
+      "result": "failed — skipping to unblock"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:46:31.531434+00:00",
+      "result": "6 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:46:34.452499+00:00",
+      "result": "1/6 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:46:37.101562+00:00",
+      "result": "0 passages"
+    },
+    "influence_extract": {
+      "status": "skipped",
+      "timestamp": "2026-04-12T15:46:37.614500+00:00",
+      "result": "no sources.json"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:46:39.745871+00:00",
+      "result": "0 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-12T15:46:39.745968+00:00"
+}

@@ -1,0 +1,53 @@
+{
+  "influences": [
+    {
+      "name": "Genesis",
+      "context": "That's a funny analogy because there are similarities between the beginning of \"Do It All Again\" and the beginning of \"Dance on a Volcano\", the first song on Trick of the Tail.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Steely Dan",
+      "context": "\"Not Afraid I & II\" is sort of like Steely Dan's \"Your Gold Teeth, I & II\", they're just two different songs that happen to have the same lyric in them.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Yes",
+      "context": "Then so it was kind of like, let's approach \"Bridge Over Troubled Water\" like Yes' \"America\". So if you think about it that way, you're like, \"Oh, yeah, yeah\", you can hear some influences there for sure.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Beatles",
+      "context": "I read about The Beatles in the old days; they were all living around London, some of them only ten minutes from the studio.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Mahavishnu Orchestra",
+      "context": "those musicians: they might be playing country cause that's what pays, but secretly they love Mahavishnu Orchestra or something!",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Transatlantic",
+      "context": "One thing I really liked that Transatlantic did was that they would stretch out parts and really get into a long solo section that starts off small and builds up. I've always really liked that",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Queen",
+      "context": "I tried a bunch of things; I finally went into a 6/8 thing... I was very happy with that; it sounded kind of like Queen.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Crosby Stills and Nash",
+      "context": "I'm a big Beatles and Crosby Stills and Nash fan.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Spock's Beard",
+      "context": "Some of what I wrote, I would say that's got some of the most Spock's Beard-type stuff in it. Some of it's quite reminiscent of Spock's Beard – even the sounds.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 9,
+    "sources_checked": 4
+  }
+}

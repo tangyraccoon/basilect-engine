@@ -1,0 +1,48 @@
+{
+  "influences": [
+    {
+      "name": "Igor Stravinsky",
+      "context": "as he was exposed to the experimental works of Igor Stravinsky and Edgar Varese in the 1920s, Carter began to contemplate composing as a possible career",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Edgar Varese",
+      "context": "as he was exposed to the experimental works of Igor Stravinsky and Edgar Varese in the 1920s, Carter began to contemplate composing as a possible career",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Charles Ives",
+      "context": "He asked Ives, an acquaintance who would evolve into a close friend and teacher, to pen a few laudatory words",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Leopold Stokowski",
+      "context": "seeing Stokowski conduct Wozzeck",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Alban Berg",
+      "context": "seeing Stokowski conduct Wozzeck",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Nadia Boulanger",
+      "context": "I went off to study with Nadia Boulanger in France, who at that time was the only person besides Arnold Schoenberg who really took contemporary music seriously and would provide intelligent criticism about it.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Arnold Schoenberg",
+      "context": "I went off to study with Nadia Boulanger in France, who at that time was the only person besides Arnold Schoenberg who really took contemporary music seriously and would provide intelligent criticism about it.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Debussy",
+      "context": "no matter what I will always find the work of men like Debussy, Stravinsky and Charles Ives sticking with me",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 8,
+    "sources_checked": 1
+  }
+}

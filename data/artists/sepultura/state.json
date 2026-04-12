@@ -1,0 +1,49 @@
+{
+  "artist_id": "sepultura",
+  "artist_name": "Sepultura",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:05:57.349803+00:00",
+      "result": "4 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:06:00.462460+00:00",
+      "result": "4/4 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:06:22.578606+00:00",
+      "result": "23 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:06:27.080279+00:00",
+      "result": "8 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:06:35.015359+00:00",
+      "result": "4/8 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:06:56.399444+00:00",
+      "result": "27 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:07:09.583561+00:00",
+      "result": "10 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:07:29.455789+00:00",
+      "result": "38 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-12T16:07:29.455924+00:00"
+}

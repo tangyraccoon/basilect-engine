@@ -1,0 +1,28 @@
+{
+  "quotes": [
+    {
+      "text": "The first time we flew to Australia by prop (ie propeller driven airplane) it took thirty-two hours, you shaved twice, it was ridiculous.",
+      "publication": "",
+      "date": ""
+    },
+    {
+      "text": "I wrote it about a girl I met on that trip. Her name was Lillian, and she was very, very inspirational. I was married, but… you know.",
+      "publication": "",
+      "date": "1998"
+    },
+    {
+      "text": "I'd fallen in love with her and was afraid that I was never going to see her again, in those days Australia seemed like the end of the world.",
+      "publication": "",
+      "date": ""
+    }
+  ],
+  "corpus_meta": {
+    "quote_count": 3,
+    "source_count": 0,
+    "date_range": [
+      "1998",
+      "1998"
+    ],
+    "corpus_valid": false
+  }
+}

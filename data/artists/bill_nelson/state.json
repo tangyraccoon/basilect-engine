@@ -1,0 +1,49 @@
+{
+  "artist_id": "bill_nelson",
+  "artist_name": "Bill Nelson",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:04:47.648978+00:00",
+      "result": "6 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:04:51.614232+00:00",
+      "result": "6/6 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:05:10.975836+00:00",
+      "result": "20 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:05:15.899530+00:00",
+      "result": "8 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:05:20.020833+00:00",
+      "result": "5/8 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:05:42.899697+00:00",
+      "result": "31 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:06:07.790470+00:00",
+      "result": "21 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:06:37.722055+00:00",
+      "result": "40 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-12T17:06:37.722335+00:00"
+}

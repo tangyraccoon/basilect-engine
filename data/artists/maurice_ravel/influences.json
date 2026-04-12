@@ -1,0 +1,48 @@
+{
+  "influences": [
+    {
+      "name": "Keith Jarrett",
+      "context": "From the age of 12, I would fall asleep listening to Keith Jarrett's solo piano albums, including 'The Köln Concert' and 'La Scala'.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Chopin",
+      "context": "After having studied the Romantics (and Chopin's rubato), I was captivated by impressionist music",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Vangelis",
+      "context": "I think the first film score that dazzled me is 'Blade Runner' by Vangelis",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Hans Zimmer",
+      "context": "after listening to a lot of horror film scores, I heard the music of the feature film 'The Thin Red Line' by Hans Zimmer, which remains one of my favorites",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Philip Glass",
+      "context": "I constantly listen to Philip Glass, Hania Rani, Max Richter, and more generally, all those who emerge in this musical vein.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Hania Rani",
+      "context": "I constantly listen to Philip Glass, Hania Rani, Max Richter, and more generally, all those who emerge in this musical vein.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Max Richter",
+      "context": "I constantly listen to Philip Glass, Hania Rani, Max Richter, and more generally, all those who emerge in this musical vein.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Massenet",
+      "context": "Pour savoir son metier, il faut apprendre le metier des autres. Ravel's favorite apothegm, attributed to Massenet.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 8,
+    "sources_checked": 2
+  }
+}

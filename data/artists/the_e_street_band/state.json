@@ -1,0 +1,49 @@
+{
+  "artist_id": "the_e_street_band",
+  "artist_name": "The E Street Band",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:24:37.586621+00:00",
+      "result": "5 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:24:42.065636+00:00",
+      "result": "4/5 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:24:53.928305+00:00",
+      "result": "12 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:24:58.624430+00:00",
+      "result": "8 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:25:03.204006+00:00",
+      "result": "6/8 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:25:15.505307+00:00",
+      "result": "8 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:25:21.402347+00:00",
+      "result": "1 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:25:43.642661+00:00",
+      "result": "24 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-12T15:25:43.642732+00:00"
+}

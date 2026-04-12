@@ -1,0 +1,73 @@
+{
+  "influences": [
+    {
+      "name": "Ben Allen",
+      "context": "In the few weeks working with him I learned a lot about, you know, making records and songs and stuff like that.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Jonathan Wilson",
+      "context": "I think Richard and I have a real fondness for Jonathan's approach to music, you know? The kind of organic thing that you get and I think we would be keen on doing something like that",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Steely Dan",
+      "context": "I might load up a Steely Dan tune on the computer and try and work out all of the minutia of the keyboard part on it",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Go-Betweens",
+      "context": "One of my favourite albums is The Go-Betweens' 'Tallulah' and it starts in a similar way.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Sundays",
+      "context": "After I came out of hospital, I wanted to take it one song at a time. Can't Be Sure by the Sundays was the only song I wanted to hear.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Felt",
+      "context": "Then I went on to Felt, and Victorialand by Cocteau Twins.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Cocteau Twins",
+      "context": "Then I went on to Felt, and Victorialand by Cocteau Twins. Because I was lying down resting, music felt like a meal or intravenous drip.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Love",
+      "context": "The big blueprint for Belle and Sebastian was Love's Forever Changes.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Nick Drake",
+      "context": "After our second record came out, everyone started talking about Nick Drake, especially Bryter Later, and I came to grudgingly admit that it was great.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Alan Rankine",
+      "context": "He was comradely and friendly, but he didn't stick to any kind of curriculum. Kids in their early 20s were there [at Stow's college, in Glasgow] to learn about the music business and he would kinda look at his watch and take the whole class to the pub. To me that was quite genuine training for the music business.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Prince",
+      "context": "it's been more like the way Prince recorded. Whenever you get an idea, you can record.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Stevie Jackson",
+      "context": "the records that followed have found room for the influence of everything from Stevie Jackson's love of 60s pop and rock",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Sarah Martin",
+      "context": "the records that followed have found room for the influence of everything from Stevie Jackson's love of 60s pop and rock to Sarah Martin's preoccupations with synth",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 13,
+    "sources_checked": 5
+  }
+}

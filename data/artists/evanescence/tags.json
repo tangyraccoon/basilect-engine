@@ -1,0 +1,224 @@
+{
+  "tags": [
+    {
+      "tag": "emotional",
+      "category": "philosophy",
+      "weight": 1.0,
+      "raw_score": 25
+    },
+    {
+      "tag": "orchestration",
+      "category": "process",
+      "weight": 0.84,
+      "raw_score": 21
+    },
+    {
+      "tag": "hybrid_production",
+      "category": "approach",
+      "weight": 0.72,
+      "raw_score": 18
+    },
+    {
+      "tag": "vocal_focused",
+      "category": "approach",
+      "weight": 0.6,
+      "raw_score": 15
+    },
+    {
+      "tag": "autobiographical",
+      "category": "philosophy",
+      "weight": 0.52,
+      "raw_score": 13
+    },
+    {
+      "tag": "layering",
+      "category": "process",
+      "weight": 0.52,
+      "raw_score": 13
+    },
+    {
+      "tag": "synthesis",
+      "category": "process",
+      "weight": 0.52,
+      "raw_score": 13
+    },
+    {
+      "tag": "collaborative_production",
+      "category": "approach",
+      "weight": 0.48,
+      "raw_score": 12
+    },
+    {
+      "tag": "vocal_processing",
+      "category": "process",
+      "weight": 0.44,
+      "raw_score": 11
+    },
+    {
+      "tag": "hybrid",
+      "category": "philosophy",
+      "weight": 0.36,
+      "raw_score": 9
+    },
+    {
+      "tag": "conceptual",
+      "category": "philosophy",
+      "weight": 0.36,
+      "raw_score": 9
+    },
+    {
+      "tag": "studio_as_instrument",
+      "category": "approach",
+      "weight": 0.32,
+      "raw_score": 8
+    },
+    {
+      "tag": "multi_instrumental",
+      "category": "approach",
+      "weight": 0.28,
+      "raw_score": 7
+    },
+    {
+      "tag": "introspective",
+      "category": "philosophy",
+      "weight": 0.24,
+      "raw_score": 6
+    },
+    {
+      "tag": "narrative",
+      "category": "philosophy",
+      "weight": 0.24,
+      "raw_score": 6
+    },
+    {
+      "tag": "collaborative",
+      "category": "philosophy",
+      "weight": 0.24,
+      "raw_score": 6
+    },
+    {
+      "tag": "intuitive",
+      "category": "philosophy",
+      "weight": 0.24,
+      "raw_score": 6
+    },
+    {
+      "tag": "confrontational",
+      "category": "philosophy",
+      "weight": 0.24,
+      "raw_score": 6
+    },
+    {
+      "tag": "live_performance",
+      "category": "approach",
+      "weight": 0.2,
+      "raw_score": 5
+    },
+    {
+      "tag": "hi_fi",
+      "category": "approach",
+      "weight": 0.16,
+      "raw_score": 4
+    },
+    {
+      "tag": "classically_trained",
+      "category": "approach",
+      "weight": 0.12,
+      "raw_score": 3
+    },
+    {
+      "tag": "genre_fusion",
+      "category": "process",
+      "weight": 0.12,
+      "raw_score": 3
+    },
+    {
+      "tag": "cinematic_influence",
+      "category": "philosophy",
+      "weight": 0.12,
+      "raw_score": 3
+    },
+    {
+      "tag": "electronic",
+      "category": "approach",
+      "weight": 0.12,
+      "raw_score": 3
+    },
+    {
+      "tag": "acoustic",
+      "category": "approach",
+      "weight": 0.12,
+      "raw_score": 3
+    },
+    {
+      "tag": "dynamic_contrast",
+      "category": "process",
+      "weight": 0.12,
+      "raw_score": 3
+    },
+    {
+      "tag": "emotional_catharsis",
+      "category": "philosophy",
+      "weight": 0.12,
+      "raw_score": 3
+    },
+    {
+      "tag": "maximalism",
+      "category": "process",
+      "weight": 0.12,
+      "raw_score": 3
+    },
+    {
+      "tag": "theatrical",
+      "category": "philosophy",
+      "weight": 0.12,
+      "raw_score": 3
+    },
+    {
+      "tag": "spiritual",
+      "category": "philosophy",
+      "weight": 0.08,
+      "raw_score": 2
+    },
+    {
+      "tag": "isolation",
+      "category": "philosophy",
+      "weight": 0.08,
+      "raw_score": 2
+    },
+    {
+      "tag": "cinematic",
+      "category": "philosophy",
+      "weight": 0.08,
+      "raw_score": 2
+    },
+    {
+      "tag": "cathartic",
+      "category": "philosophy",
+      "weight": 0.08,
+      "raw_score": 2
+    },
+    {
+      "tag": "commercial",
+      "category": "philosophy",
+      "weight": 0.08,
+      "raw_score": 2
+    },
+    {
+      "tag": "political",
+      "category": "philosophy",
+      "weight": 0.08,
+      "raw_score": 2
+    },
+    {
+      "tag": "serious",
+      "category": "philosophy",
+      "weight": 0.08,
+      "raw_score": 2
+    }
+  ],
+  "meta": {
+    "count": 36,
+    "sources_checked": 9
+  }
+}

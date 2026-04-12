@@ -1,0 +1,33 @@
+{
+  "influences": [
+    {
+      "name": "W. C. Handy",
+      "context": "Getting ready to record 12 Handy numbers, maybe more... W. C. Handy, that is.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Bessie Smith",
+      "context": "Armstrong had been performing for decades, recording seminal versions with Bessie Smith in 1925",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Fats Waller",
+      "context": "Armstrong responding with a politically incorrect chorus he originally sang on a Martin Block jam session with Fats Waller and Jack Teagarden in 1938",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Jack Teagarden",
+      "context": "Armstrong responding with a politically incorrect chorus he originally sang on a Martin Block jam session with Fats Waller and Jack Teagarden in 1938",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Kid Ory",
+      "context": "It was the first song Kid Ory remembered the teenaged Armstrong playing with his band in his apprenticeship days in New Orleans",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 5,
+    "sources_checked": 2
+  }
+}

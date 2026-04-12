@@ -1,0 +1,48 @@
+{
+  "influences": [
+    {
+      "name": "Bill Nelson",
+      "context": "his playing style owed less to the power chords of Johnny Ramone than it did the mercurial lead lines of Be Bop Deluxe's Bill Nelson",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Nils Lofgren",
+      "context": "his playing style owed less to the power chords of Johnny Ramone than it did the mercurial lead lines of Be Bop Deluxe's Bill Nelson (who produced the Skids' second album), the jerky rhythms of Nils Lofgren",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Steve Hunter",
+      "context": "the jerky rhythms of Nils Lofgren, or the steely solos of Steve Hunter and Dick Wagner (Alice Cooper, Lou Reed)",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Dick Wagner",
+      "context": "the jerky rhythms of Nils Lofgren, or the steely solos of Steve Hunter and Dick Wagner (Alice Cooper, Lou Reed)",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "John Bonham",
+      "context": "Mark Brzezicki was inspired by drumming's unique stylists – John Bonham, Mitch Mitchell, Phil Collins",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Mitch Mitchell",
+      "context": "Mark Brzezicki was inspired by drumming's unique stylists – John Bonham, Mitch Mitchell, Phil Collins",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Phil Collins",
+      "context": "Mark Brzezicki was inspired by drumming's unique stylists – John Bonham, Mitch Mitchell, Phil Collins ('I went to see Boxer at the Roundhouse in 1975/76, when I'd just started playing. The support band blew my socks off – Brand X, with Phil Collins playing the drums. I'd liked Genesis anyway, but when I saw Phil come out in his dungarees, with a big beard and this monstrously brilliant drum kit…')",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Steve Gadd",
+      "context": "A fan of Steve Gadd's drumming, particularly the military style he used for Paul Simon's 50 Ways To Leave Your Lover, Brzezicki began to blend it with his own style",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 8,
+    "sources_checked": 1
+  }
+}

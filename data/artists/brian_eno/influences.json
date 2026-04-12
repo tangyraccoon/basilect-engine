@@ -1,0 +1,48 @@
+{
+  "influences": [
+    {
+      "name": "John Cage",
+      "context": "Eno had long been influenced by minimalism—a highly tonal genre of music represented by repetition, simple patterns, and spatiality—and the innovators John Cage, La Monte Young, Terry Reilly, and Steve Reich.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "La Monte Young",
+      "context": "Eno had long been influenced by minimalism—a highly tonal genre of music represented by repetition, simple patterns, and spatiality—and the innovators John Cage, La Monte Young, Terry Reilly, and Steve Reich.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Terry Reilly",
+      "context": "Eno had long been influenced by minimalism—a highly tonal genre of music represented by repetition, simple patterns, and spatiality—and the innovators John Cage, La Monte Young, Terry Reilly, and Steve Reich.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Steve Reich",
+      "context": "Eno had long been influenced by minimalism—a highly tonal genre of music represented by repetition, simple patterns, and spatiality—and the innovators John Cage, La Monte Young, Terry Reilly, and Steve Reich.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Peter Schmidt",
+      "context": "In fact, Eno invented 'Oblique Strategies' specifically to avoid habits and ingrained ways of thinking. Developed in partnership with painter Peter Schmidt and 'modelled philosophically on the ancient Chinese I Ching or Book of Changes,' Oblique Strategies is a deck of cards each presenting an aphorism to assist in the creative process.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Fred Again..",
+      "context": "I think of Fred as my mentor as well. In that I learned so much about contemporary music from watching him working...I didn't really understand a lot of what he was doing. It took me quite a while to think, 'Oh my gosh this is really a new idea about how you can make music.' So I learned a lot from him...I started listening to music differently when I watched how Fred was making it.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "David Bowie",
+      "context": "Eno has used the creativity tool throughout his career, most notably when producing David Bowie's 1977 album Heroes.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Klaus Dinger",
+      "context": "One of these tricks he calls the Klaus Dinger beat, also known as the motorik beat. Named after the drummer from Neu!, it effectively doubles the tempo of a song.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 8,
+    "sources_checked": 6
+  }
+}

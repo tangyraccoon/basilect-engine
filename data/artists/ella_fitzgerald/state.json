@@ -1,0 +1,49 @@
+{
+  "artist_id": "ella_fitzgerald",
+  "artist_name": "Ella Fitzgerald",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:56:14.188915+00:00",
+      "result": "3 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:56:15.731857+00:00",
+      "result": "3/3 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:56:23.422000+00:00",
+      "result": "4 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:56:28.373533+00:00",
+      "result": "8 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:56:31.358769+00:00",
+      "result": "6/8 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:56:45.503518+00:00",
+      "result": "19 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:56:54.858672+00:00",
+      "result": "7 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:57:18.610519+00:00",
+      "result": "33 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-12T15:57:18.610581+00:00"
+}

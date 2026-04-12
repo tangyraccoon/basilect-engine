@@ -1,0 +1,38 @@
+{
+  "influences": [
+    {
+      "name": "BB King",
+      "context": "I was still pulling out albums from my parents collection of vinyl and listening to BB King, Stan Kenton and Tommy Dorsey.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Stan Kenton",
+      "context": "I was still pulling out albums from my parents collection of vinyl and listening to BB King, Stan Kenton and Tommy Dorsey.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Tommy Dorsey",
+      "context": "I was still pulling out albums from my parents collection of vinyl and listening to BB King, Stan Kenton and Tommy Dorsey.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Cure",
+      "context": "I started going more indie (e.g. the Cure, Depeche Mode, Yaz, etc.).",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Depeche Mode",
+      "context": "I started going more indie (e.g. the Cure, Depeche Mode, Yaz, etc.).",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Yaz",
+      "context": "I started going more indie (e.g. the Cure, Depeche Mode, Yaz, etc.).",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 6,
+    "sources_checked": 1
+  }
+}

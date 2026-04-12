@@ -1,0 +1,33 @@
+{
+  "influences": [
+    {
+      "name": "Mungo Jerry",
+      "context": "a delightful, tropical reimagining of Mungo Jerry's 1970 hit",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "King Floyd",
+      "context": "It sampled King Floyd's 1971 funk stunner \"Baby Let Me Kiss You\"",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Marvin Gaye",
+      "context": "Sting International, the Brooklyn born and raised producer of several of Shaggy's biggest hits including \"Big Up\" \"Oh Carolina,\" \"Boombastic\" and \"It Wasn't Me\") sampled Marvin Gaye's \"Let's Get It On\" into a Boombastic remix released in January 1996.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Bob Marley",
+      "context": "I consider myself in good company because the great Bob Marley's music was also criticized for not being authentic (overdubs by non-Jamaican musicians, suggested by Chris Blackwell, were used in Marley's music to appeal to rock audiences).",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Police",
+      "context": "I did grow up with the early Police stuff, there was a lot of reggae involved there. They were like a gateway into reggae music.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 5,
+    "sources_checked": 4
+  }
+}

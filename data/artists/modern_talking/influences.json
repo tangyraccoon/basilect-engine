@@ -1,0 +1,18 @@
+{
+  "influences": [
+    {
+      "name": "Talk Talk",
+      "context": "The group name was an inspiration of \"Talk Talk\" and \"Modern Romance\". Both groups were very influential in the New Romantics genre.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Modern Romance",
+      "context": "The group name was an inspiration of \"Talk Talk\" and \"Modern Romance\". Both groups were very influential in the New Romantics genre.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 2,
+    "sources_checked": 1
+  }
+}

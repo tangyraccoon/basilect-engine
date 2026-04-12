@@ -1,0 +1,236 @@
+{
+  "tags": [
+    {
+      "tag": "collaborative_production",
+      "category": "approach",
+      "weight": 1.0,
+      "raw_score": 32
+    },
+    {
+      "tag": "collaborative",
+      "category": "philosophy",
+      "weight": 0.719,
+      "raw_score": 23
+    },
+    {
+      "tag": "political",
+      "category": "philosophy",
+      "weight": 0.625,
+      "raw_score": 20
+    },
+    {
+      "tag": "hybrid_production",
+      "category": "approach",
+      "weight": 0.594,
+      "raw_score": 19
+    },
+    {
+      "tag": "conceptual",
+      "category": "philosophy",
+      "weight": 0.562,
+      "raw_score": 18
+    },
+    {
+      "tag": "vocal_focused",
+      "category": "approach",
+      "weight": 0.562,
+      "raw_score": 18
+    },
+    {
+      "tag": "autobiographical",
+      "category": "philosophy",
+      "weight": 0.531,
+      "raw_score": 17
+    },
+    {
+      "tag": "hi_fi",
+      "category": "approach",
+      "weight": 0.438,
+      "raw_score": 14
+    },
+    {
+      "tag": "emotional",
+      "category": "philosophy",
+      "weight": 0.375,
+      "raw_score": 12
+    },
+    {
+      "tag": "vocal_processing",
+      "category": "process",
+      "weight": 0.312,
+      "raw_score": 10
+    },
+    {
+      "tag": "live_performance",
+      "category": "approach",
+      "weight": 0.281,
+      "raw_score": 9
+    },
+    {
+      "tag": "electronic",
+      "category": "approach",
+      "weight": 0.25,
+      "raw_score": 8
+    },
+    {
+      "tag": "sampling",
+      "category": "process",
+      "weight": 0.219,
+      "raw_score": 7
+    },
+    {
+      "tag": "studio_as_instrument",
+      "category": "approach",
+      "weight": 0.219,
+      "raw_score": 7
+    },
+    {
+      "tag": "layering",
+      "category": "process",
+      "weight": 0.188,
+      "raw_score": 6
+    },
+    {
+      "tag": "immersive",
+      "category": "approach",
+      "weight": 0.156,
+      "raw_score": 5
+    },
+    {
+      "tag": "maximalism",
+      "category": "process",
+      "weight": 0.156,
+      "raw_score": 5
+    },
+    {
+      "tag": "narrative",
+      "category": "philosophy",
+      "weight": 0.125,
+      "raw_score": 4
+    },
+    {
+      "tag": "synthesis",
+      "category": "process",
+      "weight": 0.125,
+      "raw_score": 4
+    },
+    {
+      "tag": "serious",
+      "category": "philosophy",
+      "weight": 0.094,
+      "raw_score": 3
+    },
+    {
+      "tag": "iteration",
+      "category": "process",
+      "weight": 0.094,
+      "raw_score": 3
+    },
+    {
+      "tag": "intuitive",
+      "category": "philosophy",
+      "weight": 0.094,
+      "raw_score": 3
+    },
+    {
+      "tag": "empowerment-focused",
+      "category": "philosophy",
+      "weight": 0.094,
+      "raw_score": 3
+    },
+    {
+      "tag": "artist-centered",
+      "category": "philosophy",
+      "weight": 0.094,
+      "raw_score": 3
+    },
+    {
+      "tag": "playful",
+      "category": "philosophy",
+      "weight": 0.094,
+      "raw_score": 3
+    },
+    {
+      "tag": "socially_conscious",
+      "category": "philosophy",
+      "weight": 0.094,
+      "raw_score": 3
+    },
+    {
+      "tag": "innovative",
+      "category": "philosophy",
+      "weight": 0.094,
+      "raw_score": 3
+    },
+    {
+      "tag": "reinvention",
+      "category": "philosophy",
+      "weight": 0.094,
+      "raw_score": 3
+    },
+    {
+      "tag": "visual_artistry",
+      "category": "approach",
+      "weight": 0.094,
+      "raw_score": 3
+    },
+    {
+      "tag": "theatrical_production",
+      "category": "philosophy",
+      "weight": 0.094,
+      "raw_score": 3
+    },
+    {
+      "tag": "visual_spectacle",
+      "category": "process",
+      "weight": 0.094,
+      "raw_score": 3
+    },
+    {
+      "tag": "choreography_focused",
+      "category": "approach",
+      "weight": 0.094,
+      "raw_score": 3
+    },
+    {
+      "tag": "genre_fusion",
+      "category": "process",
+      "weight": 0.094,
+      "raw_score": 3
+    },
+    {
+      "tag": "sexual_expression",
+      "category": "philosophy",
+      "weight": 0.094,
+      "raw_score": 3
+    },
+    {
+      "tag": "eclectic",
+      "category": "philosophy",
+      "weight": 0.094,
+      "raw_score": 3
+    },
+    {
+      "tag": "self_produced",
+      "category": "approach",
+      "weight": 0.062,
+      "raw_score": 2
+    },
+    {
+      "tag": "experimental",
+      "category": "philosophy",
+      "weight": 0.062,
+      "raw_score": 2
+    },
+    {
+      "tag": "percussion_driven",
+      "category": "process",
+      "weight": 0.062,
+      "raw_score": 2
+    }
+  ],
+  "meta": {
+    "count": 38,
+    "sources_checked": 11
+  }
+}

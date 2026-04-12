@@ -1,0 +1,49 @@
+{
+  "artist_id": "radiohead",
+  "artist_name": "Radiohead",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-11T19:07:51.839523+00:00",
+      "result": "13 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-11T19:07:53.765285+00:00",
+      "result": "11/13 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T19:10:23.832612+00:00",
+      "result": "88 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-11T19:10:28.617842+00:00",
+      "result": "11 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-11T19:10:29.799114+00:00",
+      "result": "11/11 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T19:13:29.081900+00:00",
+      "result": "137 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T19:13:57.502923+00:00",
+      "result": "14 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T19:14:54.079804+00:00",
+      "result": "60 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-11T19:14:54.080008+00:00"
+}

@@ -1,0 +1,25 @@
+{
+  "quotes": [
+    {
+      "text": "They initially performed hit singles by other artists, but the CBC producers encouraged them to develop more of their own music as well.",
+      "publication": "En.Wikipedia.Org",
+      "date": ""
+    },
+    {
+      "text": "Formed as a garage rock band, their best-known works are in the pop rock and psychedelic rock genres.",
+      "publication": "The Guess Who discography",
+      "date": ""
+    },
+    {
+      "text": "They were most successful from 1969 to 1975, under the leadership of singer/keyboardist Burton Cummings. During that period they released eleven studio albums, all of which reached the charts in Canada and the United States.",
+      "publication": "The Guess Who discography",
+      "date": ""
+    }
+  ],
+  "corpus_meta": {
+    "quote_count": 3,
+    "source_count": 2,
+    "date_range": [],
+    "corpus_valid": false
+  }
+}

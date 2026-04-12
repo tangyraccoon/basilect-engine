@@ -1,0 +1,53 @@
+{
+  "influences": [
+    {
+      "name": "The Clash",
+      "context": "I said, \"I think about The Clash when they were at their most experimental, like Sandinista!. Let's get into that world, but still have it be songs.\" So I think they were a huge influence.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Suicide",
+      "context": "I think the band Suicide was a big influence.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Devo",
+      "context": "Some of the more experimental aspects of Devo.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Romeo Void",
+      "context": "post-punk like Romeo Void came up because we were talking about adding saxophone, but I didn't want the saxophone to be rock and roll-y; I wanted it to be sort of atonal and more of the John Lurie, James Chance kind of New York \"no wave\" vibe.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "John Lurie",
+      "context": "I wanted it to be sort of atonal and more of the John Lurie, James Chance kind of New York \"no wave\" vibe.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "James Chance",
+      "context": "I wanted it to be sort of atonal and more of the John Lurie, James Chance kind of New York \"no wave\" vibe.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Eddie Vedder",
+      "context": "\"I write every song for Eddie, ultimately. He's my muse.\"",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Black Flag",
+      "context": "Growing up in a small town in Montana, he describes how discovering bands like Black Flag and Minor Threat was a revelation.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Minor Threat",
+      "context": "Growing up in a small town in Montana, he describes how discovering bands like Black Flag and Minor Threat was a revelation.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 9,
+    "sources_checked": 4
+  }
+}

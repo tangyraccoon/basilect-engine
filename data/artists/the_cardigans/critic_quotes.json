@@ -1,0 +1,43 @@
+{
+  "quotes": [
+    {
+      "text": "The Cardigans make really smart pop music dosed with contradictory textural choices — crunchy guitars, moody electronics, seemingly intentional tape warping.",
+      "publication": "",
+      "date": ""
+    },
+    {
+      "text": "Swedish pop group fronted by Nina Persson, who flirted successfully with many styles in the '90s but remained best known for the hit \"Lovefool.\"",
+      "publication": "AllMusic",
+      "date": ""
+    },
+    {
+      "text": "Here was an album that demonstrated that not only did they have the multi-faceted writing skills to put them in the charts, but also they had the studio smarts to back the songs up as well.",
+      "publication": "Bbc.Co.Uk",
+      "date": "2007"
+    },
+    {
+      "text": "The singing by non-professional Nina Persson and the music theory and jazz background of Svensson. This allowed them to be one of the first truly 'ironic' pop acts that could turn out saccharine, sunshiney hits that still had enough intelligence to appeal to a broader audience.",
+      "publication": "Bbc.Co.Uk",
+      "date": "2007"
+    },
+    {
+      "text": "What's more, as a cheeky nod to their founders' pasts they even managed to include a popped-up version of Sabbath's \"Sabbath Bloody Sabbath\". Talk about dextrous.",
+      "publication": "Bbc.Co.Uk",
+      "date": "2007"
+    },
+    {
+      "text": "Subsequent, darker albums like Super Extra Gravity and Long Gone before Daylight would prove them to be far deeper than that.",
+      "publication": "Bbc.Co.Uk",
+      "date": "2007"
+    }
+  ],
+  "corpus_meta": {
+    "quote_count": 6,
+    "source_count": 2,
+    "date_range": [
+      "2007",
+      "2007"
+    ],
+    "corpus_valid": true
+  }
+}

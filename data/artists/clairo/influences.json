@@ -1,0 +1,148 @@
+{
+  "influences": [
+    {
+      "name": "Weezer",
+      "context": "She started copying the hand movements in the videos she studied until she could figure out how to play along with bands like Weezer.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Vampire Weekend",
+      "context": "I remember listening to 'California English' for the first time and being like, Whaaaat?!... That whole era was so important for music and so important for my upbringing with music. It's so funny to think about how important Vampire Weekend is to me",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Lauryn Hill",
+      "context": "The song also features a choir of nine-year-olds, inspired both by her mum's aforementioned wisdom and how 'The Miseducation Of Lauryn Hill' incorporated children's voices.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Karen Carpenter",
+      "context": "finding comfort in 1970s folk artists like Karen Carpenter and Joni Mitchell",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Joni Mitchell",
+      "context": "finding comfort in 1970s folk artists like Karen Carpenter and Joni Mitchell",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Harry Nilsson",
+      "context": "when she starts talking about Harry Nilsson's work on it, you know she's sincere",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Cocteau Twins",
+      "context": "learning about the Cocteau Twins on Tumblr",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Cat Power",
+      "context": "covers, like Sea of Love by Phil Phillips, which was made famous by Cat Power",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Frankie Cosmos",
+      "context": "The song sounds close to Frankie Cosmos in its folksy earnestness",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Strokes",
+      "context": "Sofia, about an imaginary hot girl, sounds like a song by The Strokes with its baroque guitar and drums filtered through lo-fi noise",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Sofia Coppola",
+      "context": "partially inspired by the director Sofia Coppola",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Carole King",
+      "context": "It's less like The Strokes and more like Carole King or even Karen Dalton – a record of expansive and ornate soft rock",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Karen Dalton",
+      "context": "It's less like The Strokes and more like Carole King or even Karen Dalton – a record of expansive and ornate soft rock",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Vashti Bunyan",
+      "context": "I fell in love with her because of how much I love Vashti. I was so taken by those album covers",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Rostam",
+      "context": "My first record [Immunity] was with Rostam, and I was always a huge fan of Vampire Weekend and all of his stuff with Discovery.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Jack Antonoff",
+      "context": "Then with Sling, I met Jack [Antonoff] before [we worked together], and I had told him about my second record, which was very different from the first. I always loved his work, too.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Chordettes",
+      "context": "I watched a video about The Chordettes and learned about the musicians' strike in the 40s.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Margo Guryan",
+      "context": "I lean into influences on my record. Margo Guryan is a really good example of someone who's sexy without you knowing anything. Her vocals are very close to the microphone and she's talking about love, but it's never explicit.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Blossom Dearie",
+      "context": "Well, I know we have talked about Blossom Dearie in the past. I have this record of hers and on the back it says, 'Blossom Dearie sings like she's sitting in your lap.' And that changed the trajectory of my record completely, because that's so hot and so sensual and charming and mysterious, but it's still so sweet and simple.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Geoff Cottrill",
+      "context": "My dad is the reason why I...",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Diana Ross",
+      "context": "her voice...evoking Diana Ross as much as Joni Mitchell",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Elliott Smith",
+      "context": "recalling Elliott Smith, Karen Dalton, Vashti Bunyan, and Fleetwood Mac's 'Landslide'",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Rostam Batmanglij",
+      "context": "I love his work, he's a legend... they booked studio time together... Rostam ended up co-writing some of, and co-producing all of Immunity",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Dave Fridmann",
+      "context": "One of my favorite moments was hearing the first Dave Fridmann mix. He's known for 'producing as he mixes.' He went crazy on this song, and gave it this Tame Impala vibe, it was so cool... That was one of the biggest things I learned on this record.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Danielle Haim",
+      "context": "Danielle Haim plays drums on several tracks",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Chaz Bear",
+      "context": "Mentees without album credits include Toro y Moi's Chaz Bear, who Claire met in an Austin studio and picked his brain about autotune... His answer — that 'it's easy to make autotune sound cool and distant, but challenging to make it sound emotional, to find the human in it' — shaped the musical language of Immunity.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Robyn",
+      "context": "Claire can pair most songs on Immunity with a direct inspiration... Robyn",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Tame Impala",
+      "context": "Claire can pair most songs on Immunity with a direct inspiration... Tame Impala",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 28,
+    "sources_checked": 11
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "influences": [
+    {
+      "name": "Andy Warhol",
+      "context": "Growing up, I saw artists and musicians I admired doing all sorts of things. Andy Warhol made movies and a magazine.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Jean Cocteau",
+      "context": "Growing up, I saw artists and musicians I admired doing all sorts of things... Jean Cocteau, John and Yoko, my friend Terry Allen and David Lee Roth became an emergency medical technician—for all of them exploring, and sometimes failing, was celebrated.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "John and Yoko",
+      "context": "Growing up, I saw artists and musicians I admired doing all sorts of things... Jean Cocteau, John and Yoko, my friend Terry Allen and David Lee Roth became an emergency medical technician—for all of them exploring, and sometimes failing, was celebrated.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Terry Allen",
+      "context": "Growing up, I saw artists and musicians I admired doing all sorts of things... Jean Cocteau, John and Yoko, my friend Terry Allen and David Lee Roth became an emergency medical technician—for all of them exploring, and sometimes failing, was celebrated.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "David Lee Roth",
+      "context": "Growing up, I saw artists and musicians I admired doing all sorts of things... Jean Cocteau, John and Yoko, my friend Terry Allen and David Lee Roth became an emergency medical technician—for all of them exploring, and sometimes failing, was celebrated.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Brian Eno",
+      "context": "with Brian's encouragement we discovered that we could improvise stuff in the studio, make a structure out of that",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Tosca String Quartet",
+      "context": "Having worked with those guys I decided, 'I will do a record with that kind of sound.'",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Stephen Barber",
+      "context": "Stephen Barber did most if not all of the string arranging stuff... Even Stephen can do some pretty unusual stuff, but it's always in service of the song.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Mauro Refosco",
+      "context": "Mauro [Refosco] is an incredibly tasteful percussion player... given the people involved — they are all respectful of what's important in a song",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Andre Malraux",
+      "context": "In his book The Voices Of Silence, Andre Malraux points out that paintings became the dominant art form for many centuries because you could carry them around.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "John Philip Sousa",
+      "context": "The John Phillips Sousa quotes in his essay \"The Menace of Mechanical Music.\" As a bandleader you can imagine how he felt about encroaching recording technology—that recorded music is \"like eating canned salmon by a trout stream.\"",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 11,
+    "sources_checked": 3
+  }
+}

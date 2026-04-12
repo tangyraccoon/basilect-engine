@@ -1,0 +1,23 @@
+{
+  "influences": [
+    {
+      "name": "Peter Gabriel",
+      "context": "McLachlan also shares the influence of Peter Gabriel on her sound",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Edith Piaf",
+      "context": "everybody just assumes I'm sitting in the dark, listening to Edith Piaf, drinking red wine at two in the morning",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Randy Newman",
+      "context": "Randy is an amazing writer, and I was super honored to have been asked to sing that song. I got to hang out in the studio with him and record it.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 3,
+    "sources_checked": 5
+  }
+}

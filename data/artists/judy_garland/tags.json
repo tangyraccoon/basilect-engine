@@ -1,0 +1,128 @@
+{
+  "tags": [
+    {
+      "tag": "vocal_focused",
+      "category": "approach",
+      "weight": 1.0,
+      "raw_score": 20
+    },
+    {
+      "tag": "emotional",
+      "category": "philosophy",
+      "weight": 0.85,
+      "raw_score": 17
+    },
+    {
+      "tag": "live_performance",
+      "category": "approach",
+      "weight": 0.65,
+      "raw_score": 13
+    },
+    {
+      "tag": "narrative",
+      "category": "philosophy",
+      "weight": 0.6,
+      "raw_score": 12
+    },
+    {
+      "tag": "autobiographical",
+      "category": "philosophy",
+      "weight": 0.5,
+      "raw_score": 10
+    },
+    {
+      "tag": "intuitive",
+      "category": "philosophy",
+      "weight": 0.45,
+      "raw_score": 9
+    },
+    {
+      "tag": "collaborative_production",
+      "category": "approach",
+      "weight": 0.35,
+      "raw_score": 7
+    },
+    {
+      "tag": "orchestration",
+      "category": "process",
+      "weight": 0.3,
+      "raw_score": 6
+    },
+    {
+      "tag": "playful",
+      "category": "philosophy",
+      "weight": 0.2,
+      "raw_score": 4
+    },
+    {
+      "tag": "self_produced",
+      "category": "approach",
+      "weight": 0.15,
+      "raw_score": 3
+    },
+    {
+      "tag": "hybrid_production",
+      "category": "approach",
+      "weight": 0.15,
+      "raw_score": 3
+    },
+    {
+      "tag": "eclectic",
+      "category": "philosophy",
+      "weight": 0.15,
+      "raw_score": 3
+    },
+    {
+      "tag": "hybrid",
+      "category": "philosophy",
+      "weight": 0.15,
+      "raw_score": 3
+    },
+    {
+      "tag": "versatile_interpreter",
+      "category": "philosophy",
+      "weight": 0.15,
+      "raw_score": 3
+    },
+    {
+      "tag": "hi_fi",
+      "category": "approach",
+      "weight": 0.15,
+      "raw_score": 3
+    },
+    {
+      "tag": "serious",
+      "category": "philosophy",
+      "weight": 0.1,
+      "raw_score": 2
+    },
+    {
+      "tag": "collaborative",
+      "category": "philosophy",
+      "weight": 0.1,
+      "raw_score": 2
+    },
+    {
+      "tag": "multi_instrumental",
+      "category": "approach",
+      "weight": 0.1,
+      "raw_score": 2
+    },
+    {
+      "tag": "commanding_presence",
+      "category": "approach",
+      "weight": 0.1,
+      "raw_score": 2
+    },
+    {
+      "tag": "studio_as_instrument",
+      "category": "approach",
+      "weight": 0.05,
+      "raw_score": 1
+    }
+  ],
+  "meta": {
+    "count": 20,
+    "sources_checked": 9
+  }
+}

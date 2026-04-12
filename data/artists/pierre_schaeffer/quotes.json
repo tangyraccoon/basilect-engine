@@ -1,0 +1,38 @@
+{
+  "quotes": [
+    {
+      "text": "I have coined the term Musique Concrète for this commitment to compose with materials taken from \"given\" experimental sound in order to emphasize our dependence, no longer on preconceived sound abstractions, but on sound fragments that exist in reality and that are considered as discrete and complete sound objects, even if and above all when they do not fit in with the elementary definitions of music theory.",
+      "publication": "In Search of a Concrete Music",
+      "date": "1952"
+    },
+    {
+      "text": "I explain this object through my own means, I make it for the first time every time I listen, therefore it is made by man.",
+      "publication": "In Search of a Concrete Music",
+      "date": "1952"
+    },
+    {
+      "text": "We are craftsmen. I am seeking direct contact with sound material […] I am first and foremost a technician.",
+      "publication": "In Search of a Concrete Music",
+      "date": "1952"
+    },
+    {
+      "text": "I can feel, as if it were quivering in my memory, the whole drama of these last three years of experimentation […] The miracle of concrete music is […] things begin to speak by themselves, as if they were bringing a message from a world unknown to us and outside us.",
+      "publication": "In Search of a Concrete Music",
+      "date": "1952"
+    },
+    {
+      "text": "Sometimes when I write I am envious of more intense modes of expression. Writing is always making explicit at the expense of other things. Mystery is sacrificed, and consequently truth, and so everything.",
+      "publication": "In Search of a Concrete Music",
+      "date": "1952"
+    }
+  ],
+  "corpus_meta": {
+    "quote_count": 5,
+    "source_count": 1,
+    "date_range": [
+      "1952",
+      "1952"
+    ],
+    "corpus_valid": false
+  }
+}

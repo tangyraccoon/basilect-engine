@@ -1,0 +1,58 @@
+{
+  "influences": [
+    {
+      "name": "Willard Palmer",
+      "context": "I had a really fine teacher Willard Palmer who I studied with for 6 or 7 years. He was trying to have the accordion be an academically acceptable instrument, and helped to build a repertoire for it, and he made transcriptions for it.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Ruth Crawford",
+      "context": "I'm really, what should I say, a little resentful that, for example, I didn't get to hear music by Ruth Crawford.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Charles Ives",
+      "context": "I had heard of Charles Ives, but I didn't get to hear his music.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Varèse",
+      "context": "if you listen to earlier dissonant pieces by Ives or Varèse... And it coheres to the ear in a way that an equally dissonant piece that might be structural along all sorts of rational visual systems does not because all of these composers were writing what they heard.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Schoenberg",
+      "context": "I heard a little bit of Schoenberg, but that was the most recent music that I'd heard by 1949, or 1950.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "John Cage",
+      "context": "Well, we have live music, and we have recorded music. And as John Cage said, you need a lifetime to listen to live music and a lifetime to listen to recorded music.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Richard Maxfield",
+      "context": "I first became familiar with Pauline's work I of IV as a teenager in the late 1960s from the LP release on Columbia's Odyssey label that also included Richard Maxfield's Night Music and Steve Reich's Come Out. This disc (along with Terry Riley's In C) changed my life.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Steve Reich",
+      "context": "I first became familiar with Pauline's work I of IV as a teenager in the late 1960s from the LP release on Columbia's Odyssey label that also included Richard Maxfield's Night Music and Steve Reich's Come Out. This disc (along with Terry Riley's In C) changed my life.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Terry Riley",
+      "context": "I first became familiar with Pauline's work I of IV as a teenager in the late 1960s from the LP release on Columbia's Odyssey label that also included Richard Maxfield's Night Music and Steve Reich's Come Out. This disc (along with Terry Riley's In C) changed my life.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Robert Erickson",
+      "context": "my decision to select UC San Diego for graduate school was made in large part because Pauline was on the faculty there along with composer Robert Erickson, whom I had seen listed as both Pauline's and Terry Riley's teacher.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 10,
+    "sources_checked": 5
+  }
+}

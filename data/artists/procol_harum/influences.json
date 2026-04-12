@@ -1,0 +1,48 @@
+{
+  "influences": [
+    {
+      "name": "Procol Harum",
+      "context": "the sound was this sound... Which is a very very sixties just like Procol Harum or something like that. Very, very sixties sound.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Ray Charles",
+      "context": "classical music being one of mine, Ray Charles being another. Everything you've heard and liked comes into your mind and comes back out mixed up with something different into a new piece.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "J.S. Bach",
+      "context": "When you think of J.S. Bach, he wrote one little tune for every Sunday morning—there's \"Sunday Morning\" come up again. Bach really did though, he wrote them to be sung by the choir and played by the organist.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Band",
+      "context": "when they weren't being the UK's answer to The Band, they were crafting melancholy existentialist diatribes",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Richard Manuel",
+      "context": "Gary Brooker, a sliver-tongued pianist who really is the UK's version of Richard Manuel, albeit more polished",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Jimi Hendrix",
+      "context": "fiery lead guitarist Robin Trower, steeped in the blues and later to establish a long solo career as a cosmic Hendrix-influenced blues-rocker",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Bach",
+      "context": "The band's legendary first single, \"A Whiter Shade of Pale,\" which borrowed from Bach",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Pete Brown",
+      "context": "For the first time ever, the lyrics were written by Pete Brown – best known for his Cream collaborations – instead of former lyricist Keith Reid.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 8,
+    "sources_checked": 5
+  }
+}

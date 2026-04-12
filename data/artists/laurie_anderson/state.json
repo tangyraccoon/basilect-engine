@@ -1,0 +1,49 @@
+{
+  "artist_id": "laurie_anderson",
+  "artist_name": "Laurie Anderson",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:44:52.983937+00:00",
+      "result": "6 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:44:53.657927+00:00",
+      "result": "5/6 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:45:06.128974+00:00",
+      "result": "18 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:45:10.775688+00:00",
+      "result": "12 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:45:16.536822+00:00",
+      "result": "9/12 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:45:36.740697+00:00",
+      "result": "27 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:45:45.471789+00:00",
+      "result": "8 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:46:20.157767+00:00",
+      "result": "44 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-11T22:46:20.157883+00:00"
+}

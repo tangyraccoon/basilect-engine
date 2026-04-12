@@ -1,0 +1,33 @@
+{
+  "influences": [
+    {
+      "name": "Shakespeare",
+      "context": "By the time I finished reading poems by Shakespeare, Spenser, Sidney and others, I was hooked. On the sonnet, especially.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Spenser",
+      "context": "By the time I finished reading poems by Shakespeare, Spenser, Sidney and others, I was hooked. On the sonnet, especially.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Sidney",
+      "context": "By the time I finished reading poems by Shakespeare, Spenser, Sidney and others, I was hooked. On the sonnet, especially.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Anaïs Mitchell",
+      "context": "There is one other thought I would like to share on this point, and it comes from poet and songwriter Anaïs Mitchell, who wrote the Broadway musical, 'Hadestown.' Mitchell said in an interview with the 'New York Times' that every time she sets out to write a song, she reminds herself of the difference between wordplay and poetry.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "H.R. Giger",
+      "context": "Jonathan Davis showcased a microphone stand by Swiss artist H.R. Giger, famous for Ridley Scott's Alien in the 80s (as you can see in the music video for \"Here To Stay\" in the main player). This dark realm of heavy music and dark art has followed me from a teenager to my mid-30s, influencing the clothes I wear, the creations I make, and the words I write.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 5,
+    "sources_checked": 3
+  }
+}

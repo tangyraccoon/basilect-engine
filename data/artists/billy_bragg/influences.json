@@ -1,0 +1,38 @@
+{
+  "influences": [
+    {
+      "name": "The Clash",
+      "context": "I was politicized by Rock Against Racism in 1977 during punk rock. You know, I went along to the first big Rock Against Racism gig. The Clash were playing, Tom Robinson, Steel Pulse, X Ray Spex, and that kind of politicized me in that sense.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Tom Robinson",
+      "context": "I was politicized by Rock Against Racism in 1977 during punk rock. You know, I went along to the first big Rock Against Racism gig. The Clash were playing, Tom Robinson, Steel Pulse, X Ray Spex, and that kind of politicized me in that sense.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Woody Guthrie",
+      "context": "And that introduced me to, oddly, Woody Guthrie, because you couldn't really buy Woody's records in the UK, I mean, I knew who he was and I knew his songs. I'd known them through cover versions and I was finally able to buy Woody's records",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Joe Hill",
+      "context": "I was also introduced to the songs of Joe Hill, a Swedish-American union songwriter for the International Workers of the World, the IWW from the first decade or second decade of the 20th century. And I'd never heard of Joe. And I got an album of his songs by Utah Phillips and bought it and took that home. And that kind of plugged me in to that tradition of union song.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Utah Phillips",
+      "context": "And I got an album of his songs by Utah Phillips and bought it and took that home. And that kind of plugged me in to that tradition of union song.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "John Peel",
+      "context": "During a link with John Peel, whose own show followed Jensen's, the veteran broadcaster told the listeners that he'd 'do anything' for a mushroom biryani. Observing the first rule of punk rock – Make Something Happen – Billy Bragg returned to the BBC, this time equipped with a takeaway. Peel himself took receipt of the dish in reception, and that night played Life's A Riot's… opening track, The Milkman Of Human Kindness",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 6,
+    "sources_checked": 5
+  }
+}

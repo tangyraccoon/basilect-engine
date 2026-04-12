@@ -1,0 +1,53 @@
+{
+  "influences": [
+    {
+      "name": "Eddie Floyd",
+      "context": "Eddie Floyd's Knock on Wood has been number 1 since I can remember. Killer tune.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "King Tubby",
+      "context": "It's a reference to old dub recs like King Tubby Meets Rockers Uptown but ultimately it came to represent how our thoughts on recording evolved in order to make the best rec possible.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Woody Guthrie",
+      "context": "Donovan's initial interest in Woody Guthrie, the Beat poets, and the itinerant lifestyle they led is an obvious parallel to Dylan.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Beat poets",
+      "context": "Donovan's initial interest in Woody Guthrie, the Beat poets, and the itinerant lifestyle they led is an obvious parallel to Dylan.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Elvis Costello",
+      "context": "In high school, I was a big Elvis Costello fan - I knew all his stuff backwards and forwards.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Wedding Present",
+      "context": "The Wedding Present and The Velvet Underground were the two big influences.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Velvet Underground",
+      "context": "The Wedding Present and The Velvet Underground were the two big influences.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Adam Stonehouse",
+      "context": "Teaming up with Adam Stonehouse of The Hospitals in the first incarnation of Sic Alps was very educational in terms of learning how to make it happen by just recording it yourself.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Dead C",
+      "context": "I was blatantly trying to write a Dead C rocker.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 9,
+    "sources_checked": 5
+  }
+}

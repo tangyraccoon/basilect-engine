@@ -1,0 +1,49 @@
+{
+  "artist_id": "suzi_quatro",
+  "artist_name": "Suzi Quatro",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:39:17.192668+00:00",
+      "result": "1 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:39:18.005199+00:00",
+      "result": "0/1 scraped"
+    },
+    "interview_extract": {
+      "status": "skipped",
+      "timestamp": "2026-04-12T17:39:18.790766+00:00",
+      "result": "failed — skipping to unblock"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:39:22.775290+00:00",
+      "result": "8 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:39:29.601200+00:00",
+      "result": "6/8 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:39:45.328207+00:00",
+      "result": "16 passages"
+    },
+    "influence_extract": {
+      "status": "skipped",
+      "timestamp": "2026-04-12T17:39:45.834673+00:00",
+      "result": "no scraped text"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:39:58.906036+00:00",
+      "result": "24 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-12T17:39:58.906213+00:00"
+}

@@ -1,0 +1,23 @@
+{
+  "influences": [
+    {
+      "name": "Charley Patton",
+      "context": "He was exposed to the blues from an early age through such performers as Charley Patton and Willie Brown, who performed at plantation picnics and local juke joints.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Willie Brown",
+      "context": "He was exposed to the blues from an early age through such performers as Charley Patton and Willie Brown, who performed at plantation picnics and local juke joints.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Howlin' Wolf",
+      "context": "Big influences for us are of course Pink Floyd, Kyuss, Black Sabbath, Joy Division, the early Genesis with Peter Gabriel, Tool, The Machine, Sungrazer, Dead Meadow, Brant Björk, Mars Red Sky, 1000 Mods, Somali Yacht Club, Queens Of The Stone Age, Rage Against The Machine, Rory Gallagher, Howlin' Wolf, Nirvana, The Doors, Funkadelic, Parliament, Frank Zappa and many more.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 3,
+    "sources_checked": 2
+  }
+}

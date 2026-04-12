@@ -1,0 +1,43 @@
+{
+  "influences": [
+    {
+      "name": "Donovan",
+      "context": "in reference to their psychedelic pal Donovan",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Norman Smith",
+      "context": "Alongside famed producer Norman Smith – engineer of many Beatles sessions, and instrumental in helping create The Pink Floyd's monumental debut, The Piper At The Gates Of Dawn – The Pretty Things conjured up some incredible sounds",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Bo Diddley",
+      "context": "The first incarnation of The Pretty Things, named after a Bo Diddley tune",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Jimmy Reed",
+      "context": "From the outset they offered a surly, pugnacious take on the music they loved – namely the holy trinity of Diddley, Jimmy Reed and Chuck Berry",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Chuck Berry",
+      "context": "From the outset they offered a surly, pugnacious take on the music they loved – namely the holy trinity of Diddley, Jimmy Reed and Chuck Berry",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Sun Ra",
+      "context": "May draws the blues into freeform patterns that owe more to Sun Ra than Son House",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Ornette Coleman",
+      "context": "I had my Sun Ra albums and Ornette Coleman. The trippy music was as much of a factor as the acid.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 7,
+    "sources_checked": 3
+  }
+}

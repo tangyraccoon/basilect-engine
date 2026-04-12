@@ -1,0 +1,49 @@
+{
+  "artist_id": "bon_iver",
+  "artist_name": "Bon Iver",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-11T19:35:07.047377+00:00",
+      "result": "8 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-11T19:35:08.368151+00:00",
+      "result": "6/8 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T19:35:40.800627+00:00",
+      "result": "36 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-11T19:35:45.547587+00:00",
+      "result": "13 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-11T19:35:48.166372+00:00",
+      "result": "13/13 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T19:36:54.046800+00:00",
+      "result": "93 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T19:37:03.698784+00:00",
+      "result": "3 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T19:37:52.636681+00:00",
+      "result": "50 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-11T19:37:52.636814+00:00"
+}

@@ -1,0 +1,182 @@
+{
+  "tags": [
+    {
+      "tag": "collaborative",
+      "category": "philosophy",
+      "weight": 1.0,
+      "raw_score": 27
+    },
+    {
+      "tag": "emotional",
+      "category": "philosophy",
+      "weight": 0.593,
+      "raw_score": 16
+    },
+    {
+      "tag": "collaborative_production",
+      "category": "approach",
+      "weight": 0.556,
+      "raw_score": 15
+    },
+    {
+      "tag": "playful",
+      "category": "philosophy",
+      "weight": 0.519,
+      "raw_score": 14
+    },
+    {
+      "tag": "multi_instrumental",
+      "category": "approach",
+      "weight": 0.444,
+      "raw_score": 12
+    },
+    {
+      "tag": "serious",
+      "category": "philosophy",
+      "weight": 0.444,
+      "raw_score": 12
+    },
+    {
+      "tag": "hi_fi",
+      "category": "approach",
+      "weight": 0.444,
+      "raw_score": 12
+    },
+    {
+      "tag": "vocal_focused",
+      "category": "approach",
+      "weight": 0.444,
+      "raw_score": 12
+    },
+    {
+      "tag": "confrontational",
+      "category": "philosophy",
+      "weight": 0.37,
+      "raw_score": 10
+    },
+    {
+      "tag": "live_performance",
+      "category": "approach",
+      "weight": 0.333,
+      "raw_score": 9
+    },
+    {
+      "tag": "intuitive",
+      "category": "philosophy",
+      "weight": 0.333,
+      "raw_score": 9
+    },
+    {
+      "tag": "studio_as_instrument",
+      "category": "approach",
+      "weight": 0.296,
+      "raw_score": 8
+    },
+    {
+      "tag": "experimental",
+      "category": "philosophy",
+      "weight": 0.222,
+      "raw_score": 6
+    },
+    {
+      "tag": "hybrid",
+      "category": "philosophy",
+      "weight": 0.222,
+      "raw_score": 6
+    },
+    {
+      "tag": "layering",
+      "category": "process",
+      "weight": 0.222,
+      "raw_score": 6
+    },
+    {
+      "tag": "narrative",
+      "category": "philosophy",
+      "weight": 0.185,
+      "raw_score": 5
+    },
+    {
+      "tag": "long_form",
+      "category": "approach",
+      "weight": 0.185,
+      "raw_score": 5
+    },
+    {
+      "tag": "political",
+      "category": "philosophy",
+      "weight": 0.185,
+      "raw_score": 5
+    },
+    {
+      "tag": "traditional",
+      "category": "philosophy",
+      "weight": 0.148,
+      "raw_score": 4
+    },
+    {
+      "tag": "hybrid_production",
+      "category": "approach",
+      "weight": 0.148,
+      "raw_score": 4
+    },
+    {
+      "tag": "perfectionism",
+      "category": "philosophy",
+      "weight": 0.111,
+      "raw_score": 3
+    },
+    {
+      "tag": "jam_based",
+      "category": "process",
+      "weight": 0.111,
+      "raw_score": 3
+    },
+    {
+      "tag": "instrumental_focused",
+      "category": "approach",
+      "weight": 0.111,
+      "raw_score": 3
+    },
+    {
+      "tag": "raw_expression",
+      "category": "philosophy",
+      "weight": 0.111,
+      "raw_score": 3
+    },
+    {
+      "tag": "passionate",
+      "category": "philosophy",
+      "weight": 0.074,
+      "raw_score": 2
+    },
+    {
+      "tag": "orchestration",
+      "category": "process",
+      "weight": 0.074,
+      "raw_score": 2
+    },
+    {
+      "tag": "polyrhythm",
+      "category": "process",
+      "weight": 0.074,
+      "raw_score": 2
+    },
+    {
+      "tag": "autobiographical",
+      "category": "philosophy",
+      "weight": 0.074,
+      "raw_score": 2
+    },
+    {
+      "tag": "maximalism",
+      "category": "process",
+      "weight": 0.074,
+      "raw_score": 2
+    }
+  ],
+  "meta": {
+    "count": 29,
+    "sources_checked": 11
+  }
+}

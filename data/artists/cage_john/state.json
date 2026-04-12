@@ -1,0 +1,49 @@
+{
+  "artist_id": "cage_john",
+  "artist_name": "Cage John",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:09:33.996812+00:00",
+      "result": "0 urls"
+    },
+    "interview_scrape": {
+      "status": "skipped",
+      "timestamp": "2026-04-12T15:09:34.501644+00:00",
+      "result": "failed — skipping to unblock"
+    },
+    "interview_extract": {
+      "status": "skipped",
+      "timestamp": "2026-04-12T15:09:34.502910+00:00",
+      "result": "failed — skipping to unblock"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:09:38.348508+00:00",
+      "result": "1 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:09:39.183272+00:00",
+      "result": "1/1 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:09:43.476008+00:00",
+      "result": "7 passages"
+    },
+    "influence_extract": {
+      "status": "skipped",
+      "timestamp": "2026-04-12T15:09:43.983896+00:00",
+      "result": "no sources.json"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T15:09:46.954599+00:00",
+      "result": "14 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-12T15:09:46.954661+00:00"
+}

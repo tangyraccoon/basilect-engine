@@ -1,0 +1,224 @@
+{
+  "tags": [
+    {
+      "tag": "collaborative_production",
+      "category": "approach",
+      "weight": 1.0,
+      "raw_score": 26
+    },
+    {
+      "tag": "emotional",
+      "category": "philosophy",
+      "weight": 0.692,
+      "raw_score": 18
+    },
+    {
+      "tag": "vocal_focused",
+      "category": "approach",
+      "weight": 0.692,
+      "raw_score": 18
+    },
+    {
+      "tag": "intuitive",
+      "category": "philosophy",
+      "weight": 0.5,
+      "raw_score": 13
+    },
+    {
+      "tag": "hybrid_production",
+      "category": "approach",
+      "weight": 0.5,
+      "raw_score": 13
+    },
+    {
+      "tag": "collaborative",
+      "category": "philosophy",
+      "weight": 0.423,
+      "raw_score": 11
+    },
+    {
+      "tag": "autobiographical",
+      "category": "philosophy",
+      "weight": 0.308,
+      "raw_score": 8
+    },
+    {
+      "tag": "orchestration",
+      "category": "process",
+      "weight": 0.308,
+      "raw_score": 8
+    },
+    {
+      "tag": "hi_fi",
+      "category": "approach",
+      "weight": 0.269,
+      "raw_score": 7
+    },
+    {
+      "tag": "playful",
+      "category": "philosophy",
+      "weight": 0.269,
+      "raw_score": 7
+    },
+    {
+      "tag": "studio_as_instrument",
+      "category": "approach",
+      "weight": 0.154,
+      "raw_score": 4
+    },
+    {
+      "tag": "spiritual",
+      "category": "philosophy",
+      "weight": 0.154,
+      "raw_score": 4
+    },
+    {
+      "tag": "narrative",
+      "category": "philosophy",
+      "weight": 0.154,
+      "raw_score": 4
+    },
+    {
+      "tag": "live_performance",
+      "category": "approach",
+      "weight": 0.154,
+      "raw_score": 4
+    },
+    {
+      "tag": "electronic",
+      "category": "approach",
+      "weight": 0.154,
+      "raw_score": 4
+    },
+    {
+      "tag": "immersive",
+      "category": "approach",
+      "weight": 0.115,
+      "raw_score": 3
+    },
+    {
+      "tag": "experimental",
+      "category": "philosophy",
+      "weight": 0.115,
+      "raw_score": 3
+    },
+    {
+      "tag": "spatial_audio",
+      "category": "process",
+      "weight": 0.115,
+      "raw_score": 3
+    },
+    {
+      "tag": "vulnerability",
+      "category": "philosophy",
+      "weight": 0.115,
+      "raw_score": 3
+    },
+    {
+      "tag": "organic",
+      "category": "philosophy",
+      "weight": 0.115,
+      "raw_score": 3
+    },
+    {
+      "tag": "versatile",
+      "category": "philosophy",
+      "weight": 0.115,
+      "raw_score": 3
+    },
+    {
+      "tag": "layering",
+      "category": "process",
+      "weight": 0.115,
+      "raw_score": 3
+    },
+    {
+      "tag": "vocal_processing",
+      "category": "process",
+      "weight": 0.077,
+      "raw_score": 2
+    },
+    {
+      "tag": "meditative",
+      "category": "philosophy",
+      "weight": 0.077,
+      "raw_score": 2
+    },
+    {
+      "tag": "political",
+      "category": "philosophy",
+      "weight": 0.077,
+      "raw_score": 2
+    },
+    {
+      "tag": "lo_fi",
+      "category": "approach",
+      "weight": 0.077,
+      "raw_score": 2
+    },
+    {
+      "tag": "introspective",
+      "category": "philosophy",
+      "weight": 0.077,
+      "raw_score": 2
+    },
+    {
+      "tag": "percussion_focused",
+      "category": "process",
+      "weight": 0.077,
+      "raw_score": 2
+    },
+    {
+      "tag": "multi_instrumental",
+      "category": "approach",
+      "weight": 0.077,
+      "raw_score": 2
+    },
+    {
+      "tag": "hybrid",
+      "category": "philosophy",
+      "weight": 0.077,
+      "raw_score": 2
+    },
+    {
+      "tag": "synthesis",
+      "category": "process",
+      "weight": 0.077,
+      "raw_score": 2
+    },
+    {
+      "tag": "commercial",
+      "category": "philosophy",
+      "weight": 0.077,
+      "raw_score": 2
+    },
+    {
+      "tag": "polyrhythm",
+      "category": "process",
+      "weight": 0.077,
+      "raw_score": 2
+    },
+    {
+      "tag": "sampling",
+      "category": "process",
+      "weight": 0.077,
+      "raw_score": 2
+    },
+    {
+      "tag": "acoustic",
+      "category": "approach",
+      "weight": 0.077,
+      "raw_score": 2
+    },
+    {
+      "tag": "spontaneous",
+      "category": "philosophy",
+      "weight": 0.038,
+      "raw_score": 1
+    }
+  ],
+  "meta": {
+    "count": 36,
+    "sources_checked": 10
+  }
+}

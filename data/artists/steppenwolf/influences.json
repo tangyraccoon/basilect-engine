@@ -1,0 +1,23 @@
+{
+  "influences": [
+    {
+      "name": "Ronnie Hawkins And The Hawks",
+      "context": "The young Mars Bonfire (born Dennis McCrohan) is taken by his father to see a matinee show by Ronnie Hawkins And The Hawks (who later evolved into The Band) in a Toronto club. 'I had just got my first electric guitar,' Bonfire recalls. 'As soon as they launched into Hey Bo Diddley, with Robbie Robertson using a pick between thumb and first finger and steel finger picks on the next two, playing a Telecaster run through an amp with distortion, I knew I'd heard the guitar sound of my dreams!'",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Robbie Robertson",
+      "context": "'As soon as they launched into Hey Bo Diddley, with Robbie Robertson using a pick between thumb and first finger and steel finger picks on the next two, playing a Telecaster run through an amp with distortion, I knew I'd heard the guitar sound of my dreams!'",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Michael Wilk",
+      "context": "'Luckily, when Steppenwolf agreed to do it, their guitar player Michael Wilk gave it the big guitar sound that I was dreaming of.'",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 3,
+    "sources_checked": 3
+  }
+}

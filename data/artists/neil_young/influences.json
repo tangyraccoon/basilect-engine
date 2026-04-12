@@ -1,0 +1,48 @@
+{
+  "influences": [
+    {
+      "name": "The Rolling Stones",
+      "context": "In 1969, for instance, he said the Beatles are \"not nearly as good as the Stones…. The Stones are incredibly talented.\"",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Jimi Hendrix",
+      "context": "In a 2009 interview with Richard Bienstock of Guitar World, he names his favorite guitarists as Jimi Hendrix, J.J. Cale and Jimmy Paige.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "J.J. Cale",
+      "context": "In a 2009 interview with Richard Bienstock of Guitar World, he names his favorite guitarists as Jimi Hendrix, J.J. Cale and Jimmy Paige.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Jimmy Page",
+      "context": "In a 2009 interview with Richard Bienstock of Guitar World, he names his favorite guitarists as Jimi Hendrix, J.J. Cale and Jimmy Paige.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Danny Whitten",
+      "context": "he talks about working with the late rhythm guitarist Danny Whitten during the Crazy Horse period; he was a phenomenal player, Young says.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Nils Lofgren",
+      "context": "He also expressed his appreciation for Nils Lofgren, who was 18 when he joined Young for After the Gold Rush. \"I just loved his guitar playing. When we matched up and played dual guitars on 'Tell Me Why,' it's fantastic!\"",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Phil Ochs",
+      "context": "Wrote this for a city girl on peeling pavement coming at me thru Phil Ochs eyes playing finger cymbals.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Bert Jansch",
+      "context": "Purportedly, inspired by the song 'The Needle of Death' by the musical genius Bert Jansch.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 8,
+    "sources_checked": 5
+  }
+}

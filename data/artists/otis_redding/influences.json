@@ -1,0 +1,18 @@
+{
+  "influences": [
+    {
+      "name": "Chris Cornell",
+      "context": "I loved Chris Cornell's voice so much and the passion and energy he sings with. I also liked the poetic lyrics and the anxt of the music.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Otis Redding",
+      "context": "He's a genius at taking sad lyrics and sad subject matters and making them so fun and happy and upbeat. I've been really into him in recent years.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 2,
+    "sources_checked": 3
+  }
+}

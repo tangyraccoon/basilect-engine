@@ -1,0 +1,68 @@
+{
+  "influences": [
+    {
+      "name": "Brandi Carlile",
+      "context": "I find it takes artists like Brandi Carlisle, who does write her own music and does write lyrics [that] are more unique. She uses different chord changes, things that I find interesting.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Alison Krauss",
+      "context": "in the '90s, I think there was more of a variety of artists in the industry, too, because you had more of a bluegrass influence. Then there was a wider, broader range of sounds. I was getting rock, pop-country and then Alison Krauss was getting more bluegrass.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Alan Jackson",
+      "context": "And we had some really down-home country artists, like Alan Jackson.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Celine Dion",
+      "context": "There's close to perfect, Celine Dion does close to perfect.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Tyler Joseph",
+      "context": "you just have to have an open mind and work with people that you admire. It's not even really about deliberately making that record. It's seeing people that you think are super talented",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Beatles",
+      "context": "The weirdest connection that Ozzy and I have is that both of us said exactly the same thing about our backgrounds. We were both so affected by the Beatles. If you listen to Ozzy records, all of them have melody lines. Same with mine. We don't do songs that don't have melody lines. And that was because of the Beatles — we wanted to write songs that you could remember.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Syd Barrett",
+      "context": "Syd Barrett was so brilliant. There were two Pink Floyds. There was Syd Barrett's Pink Floyd, and then Dave Gilmour's Pink Floyd. Syd Barrett's Pink Floyd was so much more inventive, I think... When we played with Pink Floyd, before anybody had ever heard of Pink Floyd, in the Cheetah Club [in Los Angeles]... I'd wake up at 7 in the morning, walk in the kitchen, and there was Syd Barrett staring at a box of corn flakes.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Marvin Gaye",
+      "context": "At Motown, Richie learned from legends like Marvin Gaye and Smokey Robinson",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Smokey Robinson",
+      "context": "At Motown, Richie learned from legends like Marvin Gaye and Smokey Robinson",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Prince",
+      "context": "Richie emphasizes the importance of artistic autonomy, referencing artists like Prince and Madonna whose bold decisions shaped their careers",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Madonna",
+      "context": "Richie emphasizes the importance of artistic autonomy, referencing artists like Prince and Madonna whose bold decisions shaped their careers",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Tina Turner",
+      "context": "I had Tina Turner for a whole tour. Two tours. The first tour, when she first left Ike, and the second tour, when we just toured together, and I saw a broken person, but I saw her crawl back up on that stage and walk out as the divine Ms. Turner.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 12,
+    "sources_checked": 5
+  }
+}

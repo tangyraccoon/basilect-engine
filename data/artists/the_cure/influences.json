@@ -1,0 +1,28 @@
+{
+  "influences": [
+    {
+      "name": "Nick Drake",
+      "context": "centering Nick Drake's Five Leaves Left, David Bowie's Low and Van Morrison's Astral Weeks on Robert Smith's mood board",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "David Bowie",
+      "context": "centering Nick Drake's Five Leaves Left, David Bowie's Low and Van Morrison's Astral Weeks on Robert Smith's mood board",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Van Morrison",
+      "context": "centering Nick Drake's Five Leaves Left, David Bowie's Low and Van Morrison's Astral Weeks on Robert Smith's mood board",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Jimi Hendrix",
+      "context": "Robert Smith later blamed the pretentious sleeve art and the inclusion of anaemic Jimi Hendrix cover Foxy Lady on label boss Chris Parry",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 4,
+    "sources_checked": 4
+  }
+}

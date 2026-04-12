@@ -1,0 +1,28 @@
+{
+  "influences": [
+    {
+      "name": "Roy Orbison",
+      "context": "what it was like collaborating with his heroes, including Roy Orbison, Tom Petty, and George Harrison",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Tom Petty",
+      "context": "what it was like collaborating with his heroes, including Roy Orbison, Tom Petty, and George Harrison",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "George Harrison",
+      "context": "what it was like collaborating with his heroes, including Roy Orbison, Tom Petty, and George Harrison",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Jeff Lynne's father",
+      "context": "how the music his father played around the house influenced his early work",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 4,
+    "sources_checked": 2
+  }
+}

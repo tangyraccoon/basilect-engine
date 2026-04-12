@@ -1,0 +1,18 @@
+{
+  "influences": [
+    {
+      "name": "Final Fantasy 7 (composer: Nobuo Uematsu)",
+      "context": "perhaps the first was just simply my experience playing the game Final Fantasy 7 as a freshman in high school. It was a technical marvel at the time, and I'd never played a role-playing game before so its breadth and complexity blew me away, but most significantly it was the soundtrack that had an effect on me. I'd never considered how I'd make music a career before – I only had vague notions that somehow I'd do it, perhaps as a concert pianist. But the FF7 score showed me exactly how I would make that dream a reality.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Game scores of the Playstation-1 era",
+      "context": "writing pieces heavily influenced by the game scores of the time, way back in the Playstation-1 era",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 2,
+    "sources_checked": 2
+  }
+}

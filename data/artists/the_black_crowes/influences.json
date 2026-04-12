@@ -1,0 +1,78 @@
+{
+  "influences": [
+    {
+      "name": "Furry Lewis",
+      "context": "There's other songs, there's a Furry Lewis song called \"Falling Down Blues,\" and it just reminds me of a field in August or something",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Neil Young",
+      "context": "After the Gold Rush is a pretty damn good record... That's just someone where it's like, \"Wow,\" just to look into somebody who's still making great records... We got to do a European tour with him and Crazy Horse, and Bob Dylan came to one of the shows, which was amazing, I was standing on the side of the stage with Bob watching Neil Young",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "R.E.M.",
+      "context": "we grew up liking R.E.M., we grew up liking Let's Active and the dB's and all these underground alternative bands. I remember when R.E.M. first came out and we heard \"Radio Free Europe,\" there was a huge contingent of people in the South who, when Murmur came out... it really meant something to us... For three years we just listened to Murmur over and over, all the R.E.M. records, but especially Murmur.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Let's Active",
+      "context": "we grew up liking R.E.M., we grew up liking Let's Active and the dB's and all these underground alternative bands",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "the dB's",
+      "context": "we grew up liking R.E.M., we grew up liking Let's Active and the dB's and all these underground alternative bands",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Sly & the Family Stone",
+      "context": "When we were kids, my dad loved Sly & the Family Stone, Joe Cocker, he loved Irish folk music, Bob Dylan, Crosby, Stills & Nash, we grew up listening to all that, that was our bed.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Joe Cocker",
+      "context": "When we were kids, my dad loved Sly & the Family Stone, Joe Cocker, he loved Irish folk music, Bob Dylan, Crosby, Stills & Nash, we grew up listening to all that, that was our bed.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Bob Dylan",
+      "context": "When we were kids, my dad loved Sly & the Family Stone, Joe Cocker, he loved Irish folk music, Bob Dylan, Crosby, Stills & Nash, we grew up listening to all that, that was our bed.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Crosby, Stills & Nash",
+      "context": "When we were kids, my dad loved Sly & the Family Stone, Joe Cocker, he loved Irish folk music, Bob Dylan, Crosby, Stills & Nash, we grew up listening to all that, that was our bed.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "the Replacements",
+      "context": "we loved punk rock, we loved alternative, we loved the Replacements, we loved Rain Parade and all of these bands that were on the east coast",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Rain Parade",
+      "context": "we loved punk rock, we loved alternative, we loved the Replacements, we loved Rain Parade and all of these bands that were on the east coast",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "X",
+      "context": "we loved X and Black Flag",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Black Flag",
+      "context": "we loved X and Black Flag",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "the Rolling Stones",
+      "context": "Another one of those records for me was Exile on Main St. I've heard that record more than any record, hands down.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 14,
+    "sources_checked": 3
+  }
+}

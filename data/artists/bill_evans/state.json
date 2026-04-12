@@ -1,0 +1,49 @@
+{
+  "artist_id": "bill_evans",
+  "artist_name": "Bill Evans",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:20:37.677695+00:00",
+      "result": "11 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:20:38.923130+00:00",
+      "result": "10/11 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:20:56.194604+00:00",
+      "result": "12 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:21:00.699186+00:00",
+      "result": "11 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:21:02.034912+00:00",
+      "result": "10/11 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:21:18.660386+00:00",
+      "result": "24 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:21:46.215215+00:00",
+      "result": "18 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:22:33.596752+00:00",
+      "result": "53 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-11T22:22:33.596872+00:00"
+}

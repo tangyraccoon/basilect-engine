@@ -1,0 +1,28 @@
+{
+  "quotes": [
+    {
+      "text": "When I brought the album in, I said, 'This is the first single.' Everybody told me I was crazy. They're like, 'It's too fast.' I'm like, 'OK.' Like, 'It doesn't sound like you.' I'm like, 'OK.' They're like, 'It doesn't have your signature falsetto.' I'm like, 'OK.' And I say, 'Every reason why you think that that's why it's wrong, I think it's right.'",
+      "publication": "Billboard",
+      "date": "October 5"
+    },
+    {
+      "text": "If I give you the references, they won't make sense. I was listening to Bowie. And I was listening to 'Rebel Rebel,' and Tim was on a Talking Heads trip as well. That's why, he's basically doing his David Byrne.",
+      "publication": "Billboard",
+      "date": "October 5"
+    },
+    {
+      "text": "When I was writing that song, I wanted it to be … I was listening to 'Rebel Rebel,' which essentially is about a cross-dresser, right? And so I was picturing guys, girls, all iterations of that, in a club, singing this to each other. And I said, 'This has to be so simple and a vibe and just, like, an attitude.' And I was like, 'What's the most audacious thing you could possibly say?' You know what I mean? And that was the first line of the song.",
+      "publication": "Billboard",
+      "date": "October 5"
+    }
+  ],
+  "corpus_meta": {
+    "quote_count": 3,
+    "source_count": 1,
+    "date_range": [
+      "Octo",
+      "Octo"
+    ],
+    "corpus_valid": false
+  }
+}

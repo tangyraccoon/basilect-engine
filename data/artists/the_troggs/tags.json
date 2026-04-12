@@ -1,0 +1,92 @@
+{
+  "tags": [
+    {
+      "tag": "vocal_focused",
+      "category": "approach",
+      "weight": 1.0,
+      "raw_score": 8
+    },
+    {
+      "tag": "short_form",
+      "category": "approach",
+      "weight": 1.0,
+      "raw_score": 8
+    },
+    {
+      "tag": "intuitive",
+      "category": "philosophy",
+      "weight": 0.875,
+      "raw_score": 7
+    },
+    {
+      "tag": "playful",
+      "category": "philosophy",
+      "weight": 0.75,
+      "raw_score": 6
+    },
+    {
+      "tag": "minimalism",
+      "category": "process",
+      "weight": 0.75,
+      "raw_score": 6
+    },
+    {
+      "tag": "lo_fi",
+      "category": "approach",
+      "weight": 0.625,
+      "raw_score": 5
+    },
+    {
+      "tag": "emotional",
+      "category": "philosophy",
+      "weight": 0.375,
+      "raw_score": 3
+    },
+    {
+      "tag": "simplicity",
+      "category": "process",
+      "weight": 0.375,
+      "raw_score": 3
+    },
+    {
+      "tag": "primitive",
+      "category": "approach",
+      "weight": 0.375,
+      "raw_score": 3
+    },
+    {
+      "tag": "confrontational",
+      "category": "philosophy",
+      "weight": 0.25,
+      "raw_score": 2
+    },
+    {
+      "tag": "analog",
+      "category": "approach",
+      "weight": 0.25,
+      "raw_score": 2
+    },
+    {
+      "tag": "primal",
+      "category": "philosophy",
+      "weight": 0.25,
+      "raw_score": 2
+    },
+    {
+      "tag": "spontaneous",
+      "category": "philosophy",
+      "weight": 0.25,
+      "raw_score": 2
+    },
+    {
+      "tag": "repetition",
+      "category": "process",
+      "weight": 0.25,
+      "raw_score": 2
+    }
+  ],
+  "meta": {
+    "count": 14,
+    "sources_checked": 4
+  }
+}

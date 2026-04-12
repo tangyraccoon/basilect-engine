@@ -1,0 +1,103 @@
+{
+  "influences": [
+    {
+      "name": "Bernard Purdy",
+      "context": "I grew up with him musically in New York and he is a personal friend. If I were a drummer, I would play just like him.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "James Jamerson",
+      "context": "I included a passage that I played on the bridge of 'Peg' for a Jamerson style study in improvisation",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Duke Ellington",
+      "context": "Their musical influences break down to essentially three categories. Firstly, there are the 20th century classical composers, probably from 1890 on, that would include Stravinsky, Debussy, Ravel and Hindemith; then in rock and roll the Beatles, Byrds, Stones, Chuck Berry, Johnny Rivers, Tony Orlando and Van Morrison (a very rough count). But mainly it's jazz: the Duke, Parker, and Miles Davis pre-eminently.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Charlie Parker",
+      "context": "Their musical influences break down to essentially three categories. Firstly, there are the 20th century classical composers, probably from 1890 on, that would include Stravinsky, Debussy, Ravel and Hindemith; then in rock and roll the Beatles, Byrds, Stones, Chuck Berry, Johnny Rivers, Tony Orlando and Van Morrison (a very rough count). But mainly it's jazz: the Duke, Parker, and Miles Davis pre-eminently.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Miles Davis",
+      "context": "Their musical influences break down to essentially three categories. Firstly, there are the 20th century classical composers, probably from 1890 on, that would include Stravinsky, Debussy, Ravel and Hindemith; then in rock and roll the Beatles, Byrds, Stones, Chuck Berry, Johnny Rivers, Tony Orlando and Van Morrison (a very rough count). But mainly it's jazz: the Duke, Parker, and Miles Davis pre-eminently.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Stravinsky",
+      "context": "Their musical influences break down to essentially three categories. Firstly, there are the 20th century classical composers, probably from 1890 on, that would include Stravinsky, Debussy, Ravel and Hindemith",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Debussy",
+      "context": "Their musical influences break down to essentially three categories. Firstly, there are the 20th century classical composers, probably from 1890 on, that would include Stravinsky, Debussy, Ravel and Hindemith",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Ravel",
+      "context": "Their musical influences break down to essentially three categories. Firstly, there are the 20th century classical composers, probably from 1890 on, that would include Stravinsky, Debussy, Ravel and Hindemith",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Hindemith",
+      "context": "Their musical influences break down to essentially three categories. Firstly, there are the 20th century classical composers, probably from 1890 on, that would include Stravinsky, Debussy, Ravel and Hindemith",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Beatles",
+      "context": "then in rock and roll the Beatles, Byrds, Stones, Chuck Berry, Johnny Rivers, Tony Orlando and Van Morrison (a very rough count)",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Byrds",
+      "context": "then in rock and roll the Beatles, Byrds, Stones, Chuck Berry, Johnny Rivers, Tony Orlando and Van Morrison (a very rough count)",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Rolling Stones",
+      "context": "then in rock and roll the Beatles, Byrds, Stones, Chuck Berry, Johnny Rivers, Tony Orlando and Van Morrison (a very rough count)",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Chuck Berry",
+      "context": "then in rock and roll the Beatles, Byrds, Stones, Chuck Berry, Johnny Rivers, Tony Orlando and Van Morrison (a very rough count)",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Johnny Rivers",
+      "context": "then in rock and roll the Beatles, Byrds, Stones, Chuck Berry, Johnny Rivers, Tony Orlando and Van Morrison (a very rough count)",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Van Morrison",
+      "context": "then in rock and roll the Beatles, Byrds, Stones, Chuck Berry, Johnny Rivers, Tony Orlando and Van Morrison (a very rough count)",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Bubber Miley",
+      "context": "Becker's wah wah reproduction of Bubber Miley's trumpet solo on \"East St. Louis Toodle-Oo,\" the Ellington song... when wah wah pedal started to come into vogue for guitar, that was a very fun piece to play on the wah wah guitar. Immediately the simile between wah wah guitar and Bubber Miley's wah wah trumpet playing came to mind.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Mongo Santamaria",
+      "context": "Both of us heard a lot of Latin music in New York. The old jazz stations, in order to survive, played a lot of Latin jazz in the late Fifties and Sixties — Mongo Santamaria, Tito Puente, and things like that. So we heard a lotta that music.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Tito Puente",
+      "context": "Both of us heard a lot of Latin music in New York. The old jazz stations, in order to survive, played a lot of Latin jazz in the late Fifties and Sixties — Mongo Santamaria, Tito Puente, and things like that. So we heard a lotta that music.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Bob Dylan",
+      "context": "Bob Dylan had it covered a long time ago... he did work in a literary way... he copped a lotta things. He read a lotta French poetry... I think a lot of his singing style comes from that very popular way of reading poetry in the Sixties.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 19,
+    "sources_checked": 5
+  }
+}

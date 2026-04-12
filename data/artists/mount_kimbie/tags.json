@@ -1,0 +1,248 @@
+{
+  "tags": [
+    {
+      "tag": "hybrid_production",
+      "category": "approach",
+      "weight": 1.0,
+      "raw_score": 30
+    },
+    {
+      "tag": "studio_as_instrument",
+      "category": "approach",
+      "weight": 0.9,
+      "raw_score": 27
+    },
+    {
+      "tag": "experimental",
+      "category": "philosophy",
+      "weight": 0.9,
+      "raw_score": 27
+    },
+    {
+      "tag": "synthesis",
+      "category": "process",
+      "weight": 0.833,
+      "raw_score": 25
+    },
+    {
+      "tag": "collaborative",
+      "category": "philosophy",
+      "weight": 0.8,
+      "raw_score": 24
+    },
+    {
+      "tag": "intuitive",
+      "category": "philosophy",
+      "weight": 0.733,
+      "raw_score": 22
+    },
+    {
+      "tag": "multi_instrumental",
+      "category": "approach",
+      "weight": 0.733,
+      "raw_score": 22
+    },
+    {
+      "tag": "layering",
+      "category": "process",
+      "weight": 0.7,
+      "raw_score": 21
+    },
+    {
+      "tag": "collaborative_production",
+      "category": "approach",
+      "weight": 0.367,
+      "raw_score": 11
+    },
+    {
+      "tag": "vocal_processing",
+      "category": "process",
+      "weight": 0.333,
+      "raw_score": 10
+    },
+    {
+      "tag": "texture",
+      "category": "process",
+      "weight": 0.3,
+      "raw_score": 9
+    },
+    {
+      "tag": "electronic",
+      "category": "approach",
+      "weight": 0.3,
+      "raw_score": 9
+    },
+    {
+      "tag": "conceptual",
+      "category": "philosophy",
+      "weight": 0.233,
+      "raw_score": 7
+    },
+    {
+      "tag": "sampling",
+      "category": "process",
+      "weight": 0.233,
+      "raw_score": 7
+    },
+    {
+      "tag": "meditative",
+      "category": "philosophy",
+      "weight": 0.233,
+      "raw_score": 7
+    },
+    {
+      "tag": "instrumental_focused",
+      "category": "approach",
+      "weight": 0.233,
+      "raw_score": 7
+    },
+    {
+      "tag": "isolation",
+      "category": "philosophy",
+      "weight": 0.2,
+      "raw_score": 6
+    },
+    {
+      "tag": "intellectual",
+      "category": "philosophy",
+      "weight": 0.2,
+      "raw_score": 6
+    },
+    {
+      "tag": "live_performance",
+      "category": "approach",
+      "weight": 0.2,
+      "raw_score": 6
+    },
+    {
+      "tag": "abstract",
+      "category": "philosophy",
+      "weight": 0.2,
+      "raw_score": 6
+    },
+    {
+      "tag": "anti_commercial",
+      "category": "philosophy",
+      "weight": 0.167,
+      "raw_score": 5
+    },
+    {
+      "tag": "lo_fi",
+      "category": "approach",
+      "weight": 0.133,
+      "raw_score": 4
+    },
+    {
+      "tag": "iterative",
+      "category": "process",
+      "weight": 0.1,
+      "raw_score": 3
+    },
+    {
+      "tag": "improvisation",
+      "category": "process",
+      "weight": 0.1,
+      "raw_score": 3
+    },
+    {
+      "tag": "spontaneity",
+      "category": "philosophy",
+      "weight": 0.1,
+      "raw_score": 3
+    },
+    {
+      "tag": "minimalism",
+      "category": "process",
+      "weight": 0.1,
+      "raw_score": 3
+    },
+    {
+      "tag": "playful",
+      "category": "philosophy",
+      "weight": 0.1,
+      "raw_score": 3
+    },
+    {
+      "tag": "environmental_influence",
+      "category": "process",
+      "weight": 0.1,
+      "raw_score": 3
+    },
+    {
+      "tag": "guitar_driven",
+      "category": "process",
+      "weight": 0.1,
+      "raw_score": 3
+    },
+    {
+      "tag": "cultural_fusion",
+      "category": "philosophy",
+      "weight": 0.1,
+      "raw_score": 3
+    },
+    {
+      "tag": "location_inspired",
+      "category": "philosophy",
+      "weight": 0.1,
+      "raw_score": 3
+    },
+    {
+      "tag": "hybrid",
+      "category": "philosophy",
+      "weight": 0.1,
+      "raw_score": 3
+    },
+    {
+      "tag": "digital",
+      "category": "approach",
+      "weight": 0.1,
+      "raw_score": 3
+    },
+    {
+      "tag": "analog",
+      "category": "approach",
+      "weight": 0.067,
+      "raw_score": 2
+    },
+    {
+      "tag": "found_sound",
+      "category": "process",
+      "weight": 0.067,
+      "raw_score": 2
+    },
+    {
+      "tag": "acoustic",
+      "category": "approach",
+      "weight": 0.067,
+      "raw_score": 2
+    },
+    {
+      "tag": "maximalism",
+      "category": "process",
+      "weight": 0.067,
+      "raw_score": 2
+    },
+    {
+      "tag": "hi_fi",
+      "category": "approach",
+      "weight": 0.067,
+      "raw_score": 2
+    },
+    {
+      "tag": "juxtapositional",
+      "category": "process",
+      "weight": 0.067,
+      "raw_score": 2
+    },
+    {
+      "tag": "loop_based",
+      "category": "process",
+      "weight": 0.067,
+      "raw_score": 2
+    }
+  ],
+  "meta": {
+    "count": 40,
+    "sources_checked": 12
+  }
+}

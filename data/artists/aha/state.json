@@ -1,0 +1,49 @@
+{
+  "artist_id": "aha",
+  "artist_name": "a‐ha",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T18:23:44.099033+00:00",
+      "result": "0 urls"
+    },
+    "interview_scrape": {
+      "status": "skipped",
+      "timestamp": "2026-04-12T18:23:44.611213+00:00",
+      "result": "failed — skipping to unblock"
+    },
+    "interview_extract": {
+      "status": "skipped",
+      "timestamp": "2026-04-12T18:23:44.612161+00:00",
+      "result": "failed — skipping to unblock"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T18:23:48.611585+00:00",
+      "result": "0 urls"
+    },
+    "review_scrape": {
+      "status": "skipped",
+      "timestamp": "2026-04-12T18:23:49.123494+00:00",
+      "result": "failed — skipping to unblock"
+    },
+    "review_extract": {
+      "status": "skipped",
+      "timestamp": "2026-04-12T18:23:49.124272+00:00",
+      "result": "failed — skipping to unblock"
+    },
+    "influence_extract": {
+      "status": "skipped",
+      "timestamp": "2026-04-12T18:23:49.124764+00:00",
+      "result": "no sources.json"
+    },
+    "tag_extract": {
+      "status": "skipped",
+      "timestamp": "2026-04-12T18:23:49.636889+00:00",
+      "result": "no text sources"
+    }
+  },
+  "error": "no sources",
+  "last_updated": "2026-04-12T18:23:49.636994+00:00"
+}

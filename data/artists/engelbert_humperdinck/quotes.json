@@ -1,0 +1,35 @@
+{
+  "quotes": [
+    {
+      "text": "My favourite thing about making music is hearing what is going on in my head come out and given the musicians treatment.",
+      "publication": "BANG Showbiz",
+      "date": ""
+    },
+    {
+      "text": "It's a strange process that I used to tape on an old fashioned recorder but the faces that go with me trying to imitate the sound of each instrument are worth the price of a good laugh over a bag of crisps.",
+      "publication": "BANG Showbiz",
+      "date": ""
+    },
+    {
+      "text": "I love the layers of music and how when it's just right…one layer never covers another and each musician adds their magic to the making of something new.",
+      "publication": "BANG Showbiz",
+      "date": ""
+    },
+    {
+      "text": "The seasons of my life added weight and meaning to this song. It's such an emotional song about a universal theme that hits us all at some point between the beats of our hearts.",
+      "publication": "BANG Showbiz",
+      "date": ""
+    },
+    {
+      "text": "This country version gives it a gentle treatment. The original is one of my favourite Bee Gee songs.",
+      "publication": "BANG Showbiz",
+      "date": ""
+    }
+  ],
+  "corpus_meta": {
+    "quote_count": 5,
+    "source_count": 1,
+    "date_range": [],
+    "corpus_valid": false
+  }
+}

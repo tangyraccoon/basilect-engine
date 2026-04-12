@@ -1,0 +1,98 @@
+{
+  "influences": [
+    {
+      "name": "Bruce Springsteen",
+      "context": "performing a cover of Bruce Springsteen's The Promised Land, when an audience member jumps on stage, grabs the mic and begins singing the second verse",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Aerosmith",
+      "context": "I remember buying the first Aerosmith record",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Thin Lizzy",
+      "context": "by the mid-seventies it was Thin Lizzy, Lynyrd Skynyrd, Queen, Zeppelin, Alice Cooper, Elton… mainstream, heavily English-influenced rock'n'roll",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Lynyrd Skynyrd",
+      "context": "by the mid-seventies it was Thin Lizzy, Lynyrd Skynyrd, Queen, Zeppelin, Alice Cooper, Elton… mainstream, heavily English-influenced rock'n'roll",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Queen",
+      "context": "by the mid-seventies it was Thin Lizzy, Lynyrd Skynyrd, Queen, Zeppelin, Alice Cooper, Elton… mainstream, heavily English-influenced rock'n'roll",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Led Zeppelin",
+      "context": "by the mid-seventies it was Thin Lizzy, Lynyrd Skynyrd, Queen, Zeppelin, Alice Cooper, Elton… mainstream, heavily English-influenced rock'n'roll",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Alice Cooper",
+      "context": "by the mid-seventies it was Thin Lizzy, Lynyrd Skynyrd, Queen, Zeppelin, Alice Cooper, Elton… mainstream, heavily English-influenced rock'n'roll",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Elton John",
+      "context": "by the mid-seventies it was Thin Lizzy, Lynyrd Skynyrd, Queen, Zeppelin, Alice Cooper, Elton… mainstream, heavily English-influenced rock'n'roll",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Kiss",
+      "context": "I sang Strutter by Kiss, Johnny B. Goode, and Taking Care Of Business by Bachman Turner Overdrive",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Southside Johnny",
+      "context": "Southside Johnny produced the second set of demos that The Rest ever did",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Roy Bittan",
+      "context": "Roy Bittan, from the E Street Band, first played that keyboard riff you know today in Runaway",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "David Bowie",
+      "context": "You were there when Queen and David Bowie recorded Under Pressure",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Bad Company",
+      "context": "And he says: 'I like Bad Company, and Zeppelin, and I've got my own band, and we're putting out an EP.'",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Phil Lynott",
+      "context": "One of our roadies had worked with Phil Lynott in Grand Slam, and I was so excited about that",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Bryan Adams",
+      "context": "I saw from afar Bryan Adams, who I considered a peer, break to a different level when he did a song [It's Only Love on 1984's Reckless album] with Tina Turner",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Joan Jett",
+      "context": "To me, Bad Name had more of the anthemic, radio-friendly sound of the time, like Joan Jett's cover of I Love Rock 'N' Roll, or Robert Palmer's Addicted To Love, or Twisted Sister's We're Not Gonna Take It",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Robert Palmer",
+      "context": "To me, Bad Name had more of the anthemic, radio-friendly sound of the time, like Joan Jett's cover of I Love Rock 'N' Roll, or Robert Palmer's Addicted To Love, or Twisted Sister's We're Not Gonna Take It",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Twisted Sister",
+      "context": "To me, Bad Name had more of the anthemic, radio-friendly sound of the time, like Joan Jett's cover of I Love Rock 'N' Roll, or Robert Palmer's Addicted To Love, or Twisted Sister's We're Not Gonna Take It",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 18,
+    "sources_checked": 2
+  }
+}

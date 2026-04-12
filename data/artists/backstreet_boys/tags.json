@@ -1,0 +1,158 @@
+{
+  "tags": [
+    {
+      "tag": "vocal_focused",
+      "category": "approach",
+      "weight": 1.0,
+      "raw_score": 29
+    },
+    {
+      "tag": "collaborative",
+      "category": "philosophy",
+      "weight": 0.759,
+      "raw_score": 22
+    },
+    {
+      "tag": "collaborative_production",
+      "category": "approach",
+      "weight": 0.724,
+      "raw_score": 21
+    },
+    {
+      "tag": "hi_fi",
+      "category": "approach",
+      "weight": 0.586,
+      "raw_score": 17
+    },
+    {
+      "tag": "playful",
+      "category": "philosophy",
+      "weight": 0.517,
+      "raw_score": 15
+    },
+    {
+      "tag": "hybrid_production",
+      "category": "approach",
+      "weight": 0.448,
+      "raw_score": 13
+    },
+    {
+      "tag": "emotional",
+      "category": "philosophy",
+      "weight": 0.414,
+      "raw_score": 12
+    },
+    {
+      "tag": "orchestration",
+      "category": "process",
+      "weight": 0.31,
+      "raw_score": 9
+    },
+    {
+      "tag": "commercial",
+      "category": "philosophy",
+      "weight": 0.31,
+      "raw_score": 9
+    },
+    {
+      "tag": "short_form",
+      "category": "approach",
+      "weight": 0.276,
+      "raw_score": 8
+    },
+    {
+      "tag": "layering",
+      "category": "process",
+      "weight": 0.276,
+      "raw_score": 8
+    },
+    {
+      "tag": "mature",
+      "category": "philosophy",
+      "weight": 0.172,
+      "raw_score": 5
+    },
+    {
+      "tag": "synthesis",
+      "category": "process",
+      "weight": 0.172,
+      "raw_score": 5
+    },
+    {
+      "tag": "intuitive",
+      "category": "philosophy",
+      "weight": 0.103,
+      "raw_score": 3
+    },
+    {
+      "tag": "harmony_arrangement",
+      "category": "process",
+      "weight": 0.103,
+      "raw_score": 3
+    },
+    {
+      "tag": "harmonies",
+      "category": "process",
+      "weight": 0.103,
+      "raw_score": 3
+    },
+    {
+      "tag": "experimental",
+      "category": "philosophy",
+      "weight": 0.103,
+      "raw_score": 3
+    },
+    {
+      "tag": "vocal_processing",
+      "category": "process",
+      "weight": 0.103,
+      "raw_score": 3
+    },
+    {
+      "tag": "sampling",
+      "category": "process",
+      "weight": 0.103,
+      "raw_score": 3
+    },
+    {
+      "tag": "studio_as_instrument",
+      "category": "approach",
+      "weight": 0.069,
+      "raw_score": 2
+    },
+    {
+      "tag": "multi_instrumental",
+      "category": "approach",
+      "weight": 0.069,
+      "raw_score": 2
+    },
+    {
+      "tag": "narrative",
+      "category": "philosophy",
+      "weight": 0.069,
+      "raw_score": 2
+    },
+    {
+      "tag": "polished",
+      "category": "philosophy",
+      "weight": 0.069,
+      "raw_score": 2
+    },
+    {
+      "tag": "adaptive",
+      "category": "philosophy",
+      "weight": 0.069,
+      "raw_score": 2
+    },
+    {
+      "tag": "formulaic",
+      "category": "philosophy",
+      "weight": 0.069,
+      "raw_score": 2
+    }
+  ],
+  "meta": {
+    "count": 25,
+    "sources_checked": 11
+  }
+}

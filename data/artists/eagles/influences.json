@@ -1,0 +1,88 @@
+{
+  "influences": [
+    {
+      "name": "B.B. King",
+      "context": "Bill's first big break into the business as a producer would come courtesy of his late 1960's collaboration with blues legend B.B. King.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Jimmy Guercio",
+      "context": "He actually moved up to Nederland, Colorado. We'd heard [producer] Jimmy Guercio — who I had met a couple times, but not gotten to know very well — was living just outside Nederland on a huge ranch and building a studio.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Glyn Johns",
+      "context": "Glenn Frey had the opportunity to play lead guitar, which [former producer] Glyn Johns would never let him do, because it was always Bernie [Leadon].",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Pete Townshend",
+      "context": "Pete was the reason I did that album. He's the one that wanted to hire me.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Flying Burrito Brothers",
+      "context": "from his early years with genre-defying groups like The Flying Burrito Brothers and Dillard & Clark to his generation-defining work with the Eagles",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Dillard & Clark",
+      "context": "from his early years with genre-defying groups like The Flying Burrito Brothers and Dillard & Clark to his generation-defining work with the Eagles",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Stephen Foster",
+      "context": "Its style was largely based on the old songs of Stephen Foster, sometimes known as the Father of American Music, who wrote over 200 songs and was the subject of much controversy.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Glenn Frey",
+      "context": "In the following years, I would learn that Glenn had an encyclopedic knowledge of the canon of American popular music – everything from the Great American Songbook through the Delta bluesmen, through jazz and folk and rockabilly, early rhythm and blues, Sixties soul, folk rock, country rock, modern R&B... I learned a lot from him and, I think, he from me.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Neil Young",
+      "context": "I think that Neil Young had a lot of influence on us in that way, and Bob Dylan, too, because they were always doing the counterintuitive thing, taking the road less traveled.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Bob Dylan",
+      "context": "I think that Neil Young had a lot of influence on us in that way, and Bob Dylan, too, because they were always doing the counterintuitive thing, taking the road less traveled.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Willie Mitchell",
+      "context": "Glenn and I had always been fans of the records that were produced in Memphis by Willie Mitchell, especially the Al Green records where the drummer, Al Jackson Jr., would hit the snare and the ride tom-tom at the same time on the backbeat. So, that was a big influence on the title track",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Al Green",
+      "context": "Glenn and I had always been fans of the records that were produced in Memphis by Willie Mitchell, especially the Al Green records where the drummer, Al Jackson Jr., would hit the snare and the ride tom-tom at the same time on the backbeat. So, that was a big influence on the title track",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Bob Seger",
+      "context": "Possibly through the influence of his friend and mentor, Bob Seger.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Chuck Berry",
+      "context": "Glenn became an avid student of the rhythm-guitar style of Chuck Berry and, with the possible exception of Keith Richards (also a Berry disciple) and a couple of others, Glenn was one of the best rhythm guitarists I ever heard.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Beatles",
+      "context": "The Beatles had made it acceptable.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Bee Gees",
+      "context": "there was also a little nod to disco (we had shared a studio in Miami with the Bee Gees) with the \"four-on-the-floor\" bass-drum pattern.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 16,
+    "sources_checked": 4
+  }
+}

@@ -1,0 +1,254 @@
+{
+  "tags": [
+    {
+      "tag": "autobiographical",
+      "category": "philosophy",
+      "weight": 1.0,
+      "raw_score": 31
+    },
+    {
+      "tag": "emotional",
+      "category": "philosophy",
+      "weight": 0.935,
+      "raw_score": 29
+    },
+    {
+      "tag": "introspective",
+      "category": "philosophy",
+      "weight": 0.806,
+      "raw_score": 25
+    },
+    {
+      "tag": "intellectual",
+      "category": "philosophy",
+      "weight": 0.742,
+      "raw_score": 23
+    },
+    {
+      "tag": "sampling",
+      "category": "process",
+      "weight": 0.742,
+      "raw_score": 23
+    },
+    {
+      "tag": "experimental",
+      "category": "philosophy",
+      "weight": 0.71,
+      "raw_score": 22
+    },
+    {
+      "tag": "sparse",
+      "category": "approach",
+      "weight": 0.677,
+      "raw_score": 21
+    },
+    {
+      "tag": "layering",
+      "category": "process",
+      "weight": 0.581,
+      "raw_score": 18
+    },
+    {
+      "tag": "vocal_processing",
+      "category": "process",
+      "weight": 0.548,
+      "raw_score": 17
+    },
+    {
+      "tag": "minimalism",
+      "category": "process",
+      "weight": 0.516,
+      "raw_score": 16
+    },
+    {
+      "tag": "abstract",
+      "category": "philosophy",
+      "weight": 0.452,
+      "raw_score": 14
+    },
+    {
+      "tag": "self_produced",
+      "category": "approach",
+      "weight": 0.419,
+      "raw_score": 13
+    },
+    {
+      "tag": "lo_fi",
+      "category": "approach",
+      "weight": 0.419,
+      "raw_score": 13
+    },
+    {
+      "tag": "meditative",
+      "category": "philosophy",
+      "weight": 0.387,
+      "raw_score": 12
+    },
+    {
+      "tag": "isolation",
+      "category": "philosophy",
+      "weight": 0.355,
+      "raw_score": 11
+    },
+    {
+      "tag": "short_form",
+      "category": "approach",
+      "weight": 0.355,
+      "raw_score": 11
+    },
+    {
+      "tag": "anti_commercial",
+      "category": "philosophy",
+      "weight": 0.355,
+      "raw_score": 11
+    },
+    {
+      "tag": "loop_based",
+      "category": "process",
+      "weight": 0.355,
+      "raw_score": 11
+    },
+    {
+      "tag": "collaborative",
+      "category": "philosophy",
+      "weight": 0.29,
+      "raw_score": 9
+    },
+    {
+      "tag": "collaborative_production",
+      "category": "approach",
+      "weight": 0.29,
+      "raw_score": 9
+    },
+    {
+      "tag": "collage",
+      "category": "process",
+      "weight": 0.258,
+      "raw_score": 8
+    },
+    {
+      "tag": "confrontational",
+      "category": "philosophy",
+      "weight": 0.258,
+      "raw_score": 8
+    },
+    {
+      "tag": "vocal_focused",
+      "category": "approach",
+      "weight": 0.226,
+      "raw_score": 7
+    },
+    {
+      "tag": "intuitive",
+      "category": "philosophy",
+      "weight": 0.161,
+      "raw_score": 5
+    },
+    {
+      "tag": "studio_as_instrument",
+      "category": "approach",
+      "weight": 0.161,
+      "raw_score": 5
+    },
+    {
+      "tag": "diy",
+      "category": "philosophy",
+      "weight": 0.129,
+      "raw_score": 4
+    },
+    {
+      "tag": "instrumental_focused",
+      "category": "approach",
+      "weight": 0.129,
+      "raw_score": 4
+    },
+    {
+      "tag": "immersive",
+      "category": "approach",
+      "weight": 0.129,
+      "raw_score": 4
+    },
+    {
+      "tag": "conceptual",
+      "category": "philosophy",
+      "weight": 0.129,
+      "raw_score": 4
+    },
+    {
+      "tag": "long_form",
+      "category": "approach",
+      "weight": 0.097,
+      "raw_score": 3
+    },
+    {
+      "tag": "found_sound",
+      "category": "process",
+      "weight": 0.097,
+      "raw_score": 3
+    },
+    {
+      "tag": "honest",
+      "category": "philosophy",
+      "weight": 0.097,
+      "raw_score": 3
+    },
+    {
+      "tag": "stream_of_consciousness",
+      "category": "process",
+      "weight": 0.097,
+      "raw_score": 3
+    },
+    {
+      "tag": "associative_thinking",
+      "category": "philosophy",
+      "weight": 0.097,
+      "raw_score": 3
+    },
+    {
+      "tag": "repetition",
+      "category": "process",
+      "weight": 0.097,
+      "raw_score": 3
+    },
+    {
+      "tag": "digital",
+      "category": "approach",
+      "weight": 0.065,
+      "raw_score": 2
+    },
+    {
+      "tag": "political",
+      "category": "philosophy",
+      "weight": 0.065,
+      "raw_score": 2
+    },
+    {
+      "tag": "hypnotic",
+      "category": "philosophy",
+      "weight": 0.065,
+      "raw_score": 2
+    },
+    {
+      "tag": "noise",
+      "category": "process",
+      "weight": 0.065,
+      "raw_score": 2
+    },
+    {
+      "tag": "playful",
+      "category": "philosophy",
+      "weight": 0.065,
+      "raw_score": 2
+    },
+    {
+      "tag": "bass_heavy",
+      "category": "process",
+      "weight": 0.065,
+      "raw_score": 2
+    }
+  ],
+  "meta": {
+    "count": 41,
+    "sources_checked": 13
+  }
+}

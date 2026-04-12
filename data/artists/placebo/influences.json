@@ -1,0 +1,78 @@
+{
+  "influences": [
+    {
+      "name": "Sonic Youth",
+      "context": "Sonic Youth is by far the band that had the biggest impact on us. I like their authenticity and their taste for experimentation. They revolutionised the classic way of understanding rock n' roll, that backward vision with the masturbatory solos and one or two leaders showing off at the front of the stage.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Robert Smith",
+      "context": "It's true that Robert Smith is the most famous user of this instrument, but he uses it in a much more sophisticated way than we do, creating very melodic riffs.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Tortoise",
+      "context": "We saw a Tortoise show a long time ago. They were using this instrument and it immediately appealed to us.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "PJ Harvey",
+      "context": "I would really like to do something with PJ Harvey. I'm into her music and her voice. She really represents the artist as I see it.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Perry Farrell",
+      "context": "As far as singers are concerned, the people who appeal to me are those who have personalities, a specific and immediately identifiable grain. I can mention Perry Farrel from Jane's Addiction",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Black Francis",
+      "context": "As far as singers are concerned, the people who appeal to me are those who have personalities, a specific and immediately identifiable grain. I can mention Perry Farrel from Jane's Addiction, Black Francis from The Pixies or Janis Joplin.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Janis Joplin",
+      "context": "As far as singers are concerned, the people who appeal to me are those who have personalities, a specific and immediately identifiable grain. I can mention Perry Farrel from Jane's Addiction, Black Francis from The Pixies or Janis Joplin.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Depeche Mode",
+      "context": "Having taken up guitar as a teen, inspired by the sordid sounds of Depeche Mode and Sonic Youth",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Michael Stipe",
+      "context": "Brian mentions The Cure's Robert Smith and Michael Stipe of R.E.M., who he duetted with on 'Broken Promise' in 2006, as guiding forces in his life, both in and outside of music.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "David Bowie",
+      "context": "We started touring with him even before we put out our first record. We'd do our half-hour set and then every night we'd get to smoke a joint and watch Bowie and learn stagecraft. Learn what it really is to perform.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "William Burroughs",
+      "context": "Brian utilised the 'cut up' writing technique popularised by author William Burroughs (and later Bowie, too) to create disturbing fragments of social commentary",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Pavement",
+      "context": "The university's New Cross location was only a 20-minute bus ride from Brixton Academy, thereby providing drama student Brian with easy access to gigs from artists breaking out from the underground – from PJ Harvey and Pavement, to Fugazi and Sonic Youth.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Fugazi",
+      "context": "The university's New Cross location was only a 20-minute bus ride from Brixton Academy, thereby providing drama student Brian with easy access to gigs from artists breaking out from the underground – from PJ Harvey and Pavement, to Fugazi and Sonic Youth.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Beatles",
+      "context": "The finished version is more reminiscent of Eleanor Rigby, bringing Brian and Stefan's shared love of The Beatles to the fore.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 14,
+    "sources_checked": 4
+  }
+}

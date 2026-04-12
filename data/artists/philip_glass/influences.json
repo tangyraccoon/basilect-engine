@@ -1,0 +1,63 @@
+{
+  "influences": [
+    {
+      "name": "Indian music/musicians",
+      "context": "a country whose music influenced Glass in his formative years",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "William Schuman",
+      "context": "The string symphony has to do with a particular kind of writing for string orchestras that I grew up with. I decided to contribute to that literature. The kind of symphonies by people like William Schuman – pieces I new very well when growing up that for me it was to go back to that period.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Gustav Mahler",
+      "context": "At the same time there was definitely a reference to Mahler's symphonies like his Fourth Symphony or Das Lied von der Erde – I got interested in a symphonic piece with voice. The idea of my Sixth Symphony had more to do with Mahler than anybody else.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Dmitri Shostakovich",
+      "context": "Symphony No.2 has a lot to do with Shostakovich. For me, I don't see how you can hear it any other way.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Franz Schubert",
+      "context": "I can talk about that and Shostakovich, I can talk about Schubert, about Mahler, Beethoven, Vincent Persichetti, William Schuman. I can say that about Hans Werner Henze.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Ludwig van Beethoven",
+      "context": "Well, you think about Beethoven, he comes up. It really has nothing to do with Beethoven.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Vincent Persichetti",
+      "context": "I can talk about that and Shostakovich, I can talk about Schubert, about Mahler, Beethoven, Vincent Persichetti, William Schuman.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Hans Werner Henze",
+      "context": "I can say that about Hans Werner Henze. I think he was a really good composer whose music I don't like. Whether I like a piece or not has nothing to do with whether it influences me.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Dennis Russell Davies",
+      "context": "In regards to the symphonies you have said many times simply that Dennis Russell Davies 'forced you to write them.'",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "David Bowie",
+      "context": "Symphony No.1 (Low Symphony) was an adaptation of music by David Bowie and Brian Eno.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Brian Eno",
+      "context": "Symphony No.1 (Low Symphony) was an adaptation of music by David Bowie and Brian Eno.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 11,
+    "sources_checked": 2
+  }
+}

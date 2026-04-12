@@ -1,0 +1,13 @@
+{
+  "influences": [
+    {
+      "name": "Paul McCartney",
+      "context": "Paul McCartney was recording an album with his brother Mike McGear at the time, they were coming in at night and we were in during the day, so there was a crossover going on and we were listening to each other's records.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 1,
+    "sources_checked": 2
+  }
+}

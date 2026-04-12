@@ -1,0 +1,108 @@
+{
+  "influences": [
+    {
+      "name": "Kendrick Lamar",
+      "context": "I have listened to the music that is out there and I love Kendrick's 'Poetic Justice.' There are artists, true performers that have come before me who have been a big inspiration to me.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Time",
+      "context": "She was a big fan of The Time, so I think she was excited that we were going to be working on her record.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Jesse Johnson",
+      "context": "I thought Jesse Johnson and Foster Sylvers actually brought out the kind of sexiness and attitude that we felt was there, but it wasn't really shown on her other records. I thought Foster and Jesse did a really good job of doing that.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Foster Sylvers",
+      "context": "I thought Jesse Johnson and Foster Sylvers actually brought out the kind of sexiness and attitude that we felt was there, but it wasn't really shown on her other records. I thought Foster and Jesse did a really good job of doing that.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Prince",
+      "context": "One of the things we learned from Prince is he would record everything looking at the sound meter and every track would always be in the red, meaning that it was being recorded too loud.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "KC and The Sunshine Band",
+      "context": "My inspiration for the beat on this song came from KC and The Sunshine Band.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Maya Angelou",
+      "context": "When I wrote the album, I was still in a poetic frame of mind, inspired by Maya's beautiful language. You can hear that inspiration or the interludes and especially on the song 'New Agenda'.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Marvin Gaye",
+      "context": "just as Gaye moved from What's Going On to Let's Get It On, from the austere to the ecstatic, Janet, every bit as serious-minded as Marvin, moved from Rhythm Nation to Janet, her statement of sexual liberation",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Lena Horne",
+      "context": "Jackson describes Lena Horne as a profound inspiration, for entertainers of several generations as well as herself. Upon Horne's death, she stated '[Horne] brought much joy into everyone's lives—even the younger generations, younger than myself. She was such a great talent. She opened up such doors for artists like myself.'",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Dorothy Dandridge",
+      "context": "Similarly, she considers Dorothy Dandridge to be one of her idols.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Joni Mitchell",
+      "context": "Jackson has declared herself 'a very big Joni Mitchell fan', explaining: 'As a kid I was drawn to Joni Mitchell records [...] Joni's songs spoke to me in an intimate, personal way.'",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Tina Turner",
+      "context": "She holds reverence for Tina Turner, stating 'Tina has become a heroic figure for many people, especially women, because of her tremendous strength. Personally, Tina doesn't seem to have a beginning or an end in my life. I felt her music was always there, and I feel like it always will be.'",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Tracy Chapman",
+      "context": "She has also named other socially conscious acts, such as Tracy Chapman, Sly and the Family Stone, U2, and Bob Dylan as sources of inspiration.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Sly and the Family Stone",
+      "context": "She has also named other socially conscious acts, such as Tracy Chapman, Sly and the Family Stone, U2, and Bob Dylan as sources of inspiration.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "U2",
+      "context": "She has also named other socially conscious acts, such as Tracy Chapman, Sly and the Family Stone, U2, and Bob Dylan as sources of inspiration.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Bob Dylan",
+      "context": "She has also named other socially conscious acts, such as Tracy Chapman, Sly and the Family Stone, U2, and Bob Dylan as sources of inspiration.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Michael Jackson",
+      "context": "In her early career, Jackson credited her brothers Michael and Jermaine Jackson as musical influences.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Jermaine Jackson",
+      "context": "In her early career, Jackson credited her brothers Michael and Jermaine Jackson as musical influences.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Fred Astaire",
+      "context": "Jackson drew inspiration for her music videos and performances from musicals she watched in her youth, and was heavily influenced by the choreography of Fred Astaire and Michael Kidd, among others.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Michael Kidd",
+      "context": "Jackson drew inspiration for her music videos and performances from musicals she watched in her youth, and was heavily influenced by the choreography of Fred Astaire and Michael Kidd, among others.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 20,
+    "sources_checked": 5
+  }
+}

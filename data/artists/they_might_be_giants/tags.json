@@ -1,0 +1,230 @@
+{
+  "tags": [
+    {
+      "tag": "playful",
+      "category": "philosophy",
+      "weight": 1.0,
+      "raw_score": 28
+    },
+    {
+      "tag": "conceptual",
+      "category": "philosophy",
+      "weight": 0.857,
+      "raw_score": 24
+    },
+    {
+      "tag": "experimental",
+      "category": "philosophy",
+      "weight": 0.821,
+      "raw_score": 23
+    },
+    {
+      "tag": "intellectual",
+      "category": "philosophy",
+      "weight": 0.75,
+      "raw_score": 21
+    },
+    {
+      "tag": "collaborative",
+      "category": "philosophy",
+      "weight": 0.714,
+      "raw_score": 20
+    },
+    {
+      "tag": "multi_instrumental",
+      "category": "approach",
+      "weight": 0.679,
+      "raw_score": 19
+    },
+    {
+      "tag": "hybrid_production",
+      "category": "approach",
+      "weight": 0.464,
+      "raw_score": 13
+    },
+    {
+      "tag": "short_form",
+      "category": "approach",
+      "weight": 0.464,
+      "raw_score": 13
+    },
+    {
+      "tag": "diy",
+      "category": "philosophy",
+      "weight": 0.321,
+      "raw_score": 9
+    },
+    {
+      "tag": "intuitive",
+      "category": "philosophy",
+      "weight": 0.25,
+      "raw_score": 7
+    },
+    {
+      "tag": "vocal_focused",
+      "category": "approach",
+      "weight": 0.25,
+      "raw_score": 7
+    },
+    {
+      "tag": "layering",
+      "category": "process",
+      "weight": 0.214,
+      "raw_score": 6
+    },
+    {
+      "tag": "orchestration",
+      "category": "process",
+      "weight": 0.214,
+      "raw_score": 6
+    },
+    {
+      "tag": "narrative",
+      "category": "philosophy",
+      "weight": 0.214,
+      "raw_score": 6
+    },
+    {
+      "tag": "collage",
+      "category": "process",
+      "weight": 0.214,
+      "raw_score": 6
+    },
+    {
+      "tag": "anti_commercial",
+      "category": "philosophy",
+      "weight": 0.179,
+      "raw_score": 5
+    },
+    {
+      "tag": "hybrid",
+      "category": "philosophy",
+      "weight": 0.179,
+      "raw_score": 5
+    },
+    {
+      "tag": "abstract",
+      "category": "philosophy",
+      "weight": 0.143,
+      "raw_score": 4
+    },
+    {
+      "tag": "multimedia",
+      "category": "approach",
+      "weight": 0.107,
+      "raw_score": 3
+    },
+    {
+      "tag": "prolific_output",
+      "category": "philosophy",
+      "weight": 0.107,
+      "raw_score": 3
+    },
+    {
+      "tag": "absurdist_humor",
+      "category": "philosophy",
+      "weight": 0.107,
+      "raw_score": 3
+    },
+    {
+      "tag": "live_performance",
+      "category": "approach",
+      "weight": 0.107,
+      "raw_score": 3
+    },
+    {
+      "tag": "digital",
+      "category": "approach",
+      "weight": 0.107,
+      "raw_score": 3
+    },
+    {
+      "tag": "self_produced",
+      "category": "approach",
+      "weight": 0.107,
+      "raw_score": 3
+    },
+    {
+      "tag": "artist_advocacy",
+      "category": "philosophy",
+      "weight": 0.107,
+      "raw_score": 3
+    },
+    {
+      "tag": "quirky",
+      "category": "philosophy",
+      "weight": 0.107,
+      "raw_score": 3
+    },
+    {
+      "tag": "absurdist",
+      "category": "philosophy",
+      "weight": 0.107,
+      "raw_score": 3
+    },
+    {
+      "tag": "long_form",
+      "category": "approach",
+      "weight": 0.107,
+      "raw_score": 3
+    },
+    {
+      "tag": "album_as_unified_experience",
+      "category": "approach",
+      "weight": 0.107,
+      "raw_score": 3
+    },
+    {
+      "tag": "genre_subversion",
+      "category": "philosophy",
+      "weight": 0.107,
+      "raw_score": 3
+    },
+    {
+      "tag": "emotional",
+      "category": "philosophy",
+      "weight": 0.107,
+      "raw_score": 3
+    },
+    {
+      "tag": "minimalism",
+      "category": "process",
+      "weight": 0.071,
+      "raw_score": 2
+    },
+    {
+      "tag": "studio_as_instrument",
+      "category": "approach",
+      "weight": 0.071,
+      "raw_score": 2
+    },
+    {
+      "tag": "audience_aware",
+      "category": "philosophy",
+      "weight": 0.071,
+      "raw_score": 2
+    },
+    {
+      "tag": "vocal_processing",
+      "category": "process",
+      "weight": 0.071,
+      "raw_score": 2
+    },
+    {
+      "tag": "collaborative_production",
+      "category": "approach",
+      "weight": 0.071,
+      "raw_score": 2
+    },
+    {
+      "tag": "serious",
+      "category": "philosophy",
+      "weight": 0.036,
+      "raw_score": 1
+    }
+  ],
+  "meta": {
+    "count": 37,
+    "sources_checked": 10
+  }
+}

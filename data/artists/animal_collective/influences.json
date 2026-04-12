@@ -1,0 +1,273 @@
+{
+  "influences": [
+    {
+      "name": "Calexico",
+      "context": "We recorded Strawberry Jam in a studio in the desert that a lot of country bands use, like Calexico and Iron and Wine",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Iron and Wine",
+      "context": "We recorded Strawberry Jam in a studio in the desert that a lot of country bands use, like Calexico and Iron and Wine",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Techno",
+      "context": "The repetition of techno has influenced all our records, but we're not like, 'let's make our techno song'. It comes out in little ways.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Pavement",
+      "context": "For example we're all big Pavement fans and I love that album Crooked Rain, Crooked Rain. But if you compare that to later albums they, to us, sound a little more compressed and little more flat and we never really got into those albums as much as the raw, live sounding early ones. And that's how we want our records to sound; to keep that live, raw sound.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Noah/Panda Bear",
+      "context": "It was kind of in a way like Noah's solo album was, sample based but not around other people's music and this one was sort of a similar sort of process.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Colin Stetson",
+      "context": "We're all big fans of Colin's stuff, I think it was during Centipede Hz we first heard some of his solo stuff. His style is so unique and it doesn't necessarily sound like traditional saxophone and he can achieve trancier stuff that we like, similar to Terry Riley.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Terry Riley",
+      "context": "His style is so unique and it doesn't necessarily sound like traditional saxophone and he can achieve trancier stuff that we like, similar to Terry Riley.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Ramones",
+      "context": "We used early Ramones as a touchstone – really direct, succinct songs",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Phil Spector",
+      "context": "In older rock I can get into it, like Phil Spector where it's just this little rhythmic add-on to songs here and there.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Incredible String Band",
+      "context": "In high school, we used to sit around listening to music in the dark. We'd listen to a whole record like [The Incredible String Band's] The Hangman's Beautiful Daughter or some [Krzysztof] Penderecki piece and talk about the images it brought to mind. This influenced me in terms of wanting a visual element to play a crucial role in the presentation of our music.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Krzysztof Penderecki",
+      "context": "In high school, we used to sit around listening to music in the dark. We'd listen to a whole record like [The Incredible String Band's] The Hangman's Beautiful Daughter or some [Krzysztof] Penderecki piece and talk about the images it brought to mind. This influenced me in terms of wanting a visual element to play a crucial role in the presentation of our music.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Wendy Carlos",
+      "context": "He had Wendy Carlos's Switched-On Bach",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Isao Tomita",
+      "context": "He had Wendy Carlos's Switched-On Bach, Isao Tomita, the Residents",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Residents",
+      "context": "He had Wendy Carlos's Switched-On Bach, Isao Tomita, the Residents – I loved listening to \"Constantinople\" on repeat when I was a toddler.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Jean-Michel Jarre",
+      "context": "Jean-Michel Jarre and Tangerine Dream are pretty etched in my brain from cross-country car trips.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Tangerine Dream",
+      "context": "Jean-Michel Jarre and Tangerine Dream are pretty etched in my brain from cross-country car trips.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Tobe Hooper",
+      "context": "Tobe Hooper's soundtrack to The Texas Chainsaw Massacre was another. It was just noise, but it had an emotional quality to us.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Stereolab",
+      "context": "Around the same time, '93 or '94, we were also super into Stereolab, Pink Floyd, the Grateful Dead – but particularly Pavement.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Pink Floyd",
+      "context": "Around the same time, '93 or '94, we were also super into Stereolab, Pink Floyd, the Grateful Dead – but particularly Pavement.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Grateful Dead",
+      "context": "Around the same time, '93 or '94, we were also super into Stereolab, Pink Floyd, the Grateful Dead – but particularly Pavement.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Brian Eno",
+      "context": "Brian Eno's Music For Airports is something that really made an impression upon me as a teenager, as far as what you might call psych-electronic music.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Aphex Twin",
+      "context": "That and Aphex Twin really changed the course of my musical life.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Kompakt",
+      "context": "The dubby quality of a bunch of stuff from Germany – Kompakt, Basic Channel, Chain Reaction – drew me further in.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Basic Channel",
+      "context": "The dubby quality of a bunch of stuff from Germany – Kompakt, Basic Channel, Chain Reaction – drew me further in.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Chain Reaction",
+      "context": "The dubby quality of a bunch of stuff from Germany – Kompakt, Basic Channel, Chain Reaction – drew me further in.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Joe Boyd",
+      "context": "We read about Joe Boyd, who produced the early Pink Floyd singles, in a magazine. He was talking about working with Syd Barrett, and the Incredible String Band, and Vashti Bunyan, and AMM, who were this hyper-experimental collective in the '60s. That he could work across all these things, from twangy folk to grating abstract noise, and hear them as part of the same continuum, was so inspiring to us age 17.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Syd Barrett",
+      "context": "He was talking about working with Syd Barrett, and the Incredible String Band, and Vashti Bunyan, and AMM, who were this hyper-experimental collective in the '60s.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Vashti Bunyan",
+      "context": "He was talking about working with Syd Barrett, and the Incredible String Band, and Vashti Bunyan, and AMM, who were this hyper-experimental collective in the '60s.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "AMM",
+      "context": "He was talking about working with Syd Barrett, and the Incredible String Band, and Vashti Bunyan, and AMM, who were this hyper-experimental collective in the '60s.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Can",
+      "context": "A group like Can made us realize ways existed to improvise, to hold onto the potential in that moment, while avoiding being academic about it.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Silver Apples",
+      "context": "We were dropping acid, listening to Silver Apples and \"Interstellar Overdrive.\"",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Orb",
+      "context": "Noah's interest in the Orb and Daft Punk didn't mesh with the rest of us right away.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Daft Punk",
+      "context": "Noah's interest in the Orb and Daft Punk didn't mesh with the rest of us right away.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Public Enemy",
+      "context": "But I think the single biggest influence on what we were trying to do was [Public Enemy's] It Takes a Nation of Millions to Hold Us Back.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Eric Dolphy",
+      "context": "I like Eric Dolphy a lot, Charles Mingus, Louis Armstrong.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Charles Mingus",
+      "context": "I like Eric Dolphy a lot, Charles Mingus, Louis Armstrong.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Louis Armstrong",
+      "context": "I like Eric Dolphy a lot, Charles Mingus, Louis Armstrong.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Sun Ra",
+      "context": "I've always loved Sun Ra. The nature and the freedom of free jazz and improvisation has always been something that inspires Animal Collective.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Four Tops",
+      "context": "like The Four Tops on a song like 'Bernadette,' the vocal delivery is so intense.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Otis Redding",
+      "context": "Otis Redding as well.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "John Lennon",
+      "context": "I know I mentioned not being influenced by John Lennon earlier, but he actually is a big influence on me. His first solo record is a big influence on me lyrically, and his screaming and vocal style has been very influential.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Kurt Cobain",
+      "context": "Kurt Cobain as well. His voice sounds crazy to me sometimes when it's in that broken apart, scream-y range. Those are the people I've taken notes from.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Burial",
+      "context": "In the past we could say we were all [into] Burial or something, I don't know if there was one thing we were taken with.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Kendrick Lamar",
+      "context": "Other than the Kendrick record, but even that was something we listened to while we were recording.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Robert Ashley",
+      "context": "When we were attracted to that in high school we were getting into experimental music, and things like Automatic Writing by Robert Ashley a little later",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Alvin Lucier",
+      "context": "When we were attracted to that in high school we were getting into experimental music, and things like Automatic Writing by Robert Ashley a little later, and I Am Sitting In A Room by Alvin Lucier.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Gabriel Fauré",
+      "context": "We did Gabriel Fauré's \"Requiem.\" It's still one of my favorite pieces of music.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Caetano Veloso",
+      "context": "The more electronic music that I was into, I'm still into. Caetano Veloso, I'm still into.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "James Brown",
+      "context": "I'm a huge fan of James Brown, and that got me into thinking about everything in the arrangement serving or pointing toward the rhythm. James Brown was the forefather of rhythm-centric pop music.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Beach Boys",
+      "context": "You can hear this in the sampled \"Ha ha ha ha!\" of The Beach Boys' intro to \"Wipe Out\", jump out at you as if from nowhere on \"FloriDada\"",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Beatles",
+      "context": "Taking influence from the discipline of the short, concise pop song – The Beatles, The Ramones",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "John Cale",
+      "context": "The Velvet Undeground's John Cale recorded drones for \"Hocus Pocus\"",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Bill Putnam",
+      "context": "I think [EastWest's original constructor] Bill Putnam was a genius.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 53,
+    "sources_checked": 10
+  }
+}

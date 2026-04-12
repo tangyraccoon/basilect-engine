@@ -1,0 +1,48 @@
+{
+  "influences": [
+    {
+      "name": "Glenn Miller Orchestra",
+      "context": "Mancini's work with the Glenn Miller Orchestra was transformative for him both professionally and personally. The band included a thirteen-piece string section as well as a strong brass section, which challenged him to create balanced sounds and develop new techniques for orchestrating finely-crafted works for full ensembles.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "post-war jazz music",
+      "context": "He was also introduced to post-war jazz music. This influence is found in his works of the 1950s and 1960s, including his themes for The Pink Panther and the television series Peter Gunn (1958–1961), which exhibit the use of jazz harmonies and popular styles of the time.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Max Adkins",
+      "context": "His versatility can likely be attributed to his extensive on-the-job education in orchestrating and arranging during his early years with Max Adkins",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Tex Beneke",
+      "context": "His versatility can likely be attributed to his extensive on-the-job education in orchestrating and arranging during his early years with Max Adkins, the Glenn Miller Orchestra under Tex Beneke",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Mario Castelnuovo-Tedesco",
+      "context": "His versatility can likely be attributed to his extensive on-the-job education in orchestrating and arranging during his early years with Max Adkins, the Glenn Miller Orchestra under Tex Beneke, and later with Mario Castelnuovo-Tedesco",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Victor Young",
+      "context": "Other important early influences were the classic film composers, among them Victor Young, Miklos Rozsa, and Alfred Newman. I was always curious about what they were doing, and I saw most all of the movies of those days.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Miklos Rozsa",
+      "context": "Other important early influences were the classic film composers, among them Victor Young, Miklos Rozsa, and Alfred Newman. I was always curious about what they were doing, and I saw most all of the movies of those days.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Alfred Newman",
+      "context": "Other important early influences were the classic film composers, among them Victor Young, Miklos Rozsa, and Alfred Newman. I was always curious about what they were doing, and I saw most all of the movies of those days.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 8,
+    "sources_checked": 3
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "influences": [
+    {
+      "name": "Suicide",
+      "context": "You also had sound poetry and on the synth side, bands influenced by the likes of Suicide, very minimal.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Joy Division",
+      "context": "We were influenced by industrial rock, Joy Division, with aspirations towards Can and we liked Magazine as well; we liked Wire a lot.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Can",
+      "context": "We were influenced by industrial rock, Joy Division, with aspirations towards Can and we liked Magazine as well; we liked Wire a lot.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Magazine",
+      "context": "We were influenced by industrial rock, Joy Division, with aspirations towards Can and we liked Magazine as well; we liked Wire a lot.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Wire",
+      "context": "We were influenced by industrial rock, Joy Division, with aspirations towards Can and we liked Magazine as well; we liked Wire a lot.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Robin Guthrie",
+      "context": "Robin from Cocteau Twins really helped us out a lot. We were doing support tours with them and got on well and Robin felt sorry for me 'cos I was using a cheap, black, Tokai Les Paul copy guitar. He said, 'Here, I'm going to give you a guitar because I feel sorry for you having to play that. I don't use this one anymore.' And it was a Kawai with DiMarzio pickups so I thought, 'This is really sweet.' And that was my guitar for touring the first album and a good few years after.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "JJ Fowkes",
+      "context": "I was starting to do musical theory. I learned counterpoint and I was reading this book called 'The Road To Parnassus' by JJ Fowkes from around 1600 and something.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Friedrich Nietzsche",
+      "context": "During the seed of the idea for this concept album, it occurred a few years ago after I read Friedrich Nietzsche's The Birth of Tragedy from the Spirit of Music. He kind of talks about these two current strands of energies and ways of thinking, being the Apollonian and the Dionysian. That was a real revelation for me, and it set me off on a journey.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Paul Gauguin",
+      "context": "In a global sense, we look for what is universal in these different cultures, in an existential context. \"Who are we,\" you know, and as Gauguin said, \"where are we going?\"",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Maria Callas",
+      "context": "Lisa had her love of opera (Maria Callas in particular)",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "John Barry",
+      "context": "Brendan also has the Irish roots, was exploring African and Middle Eastern musics, and had long been drawn to dramatic orchestral arrangements from John Barry to Nino Rota",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Nino Rota",
+      "context": "Brendan also has the Irish roots, was exploring African and Middle Eastern musics, and had long been drawn to dramatic orchestral arrangements from John Barry to Nino Rota",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Hans Zimmer",
+      "context": "It's also been fascinating to hear Hans Zimmer subsequently talk about working with Lisa – those moments when you're in the same room or studio with her and you can't quite believe what you're hearing!",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 13,
+    "sources_checked": 4
+  }
+}

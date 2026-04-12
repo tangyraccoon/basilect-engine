@@ -1,0 +1,23 @@
+{
+  "influences": [
+    {
+      "name": "Kanye West",
+      "context": "Hopefully somewhere, someone along the way… hopefully Kanye.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Cannonball Adderley",
+      "context": "My dad, whom I got my name from… when he died he was like 70 years old. I was always raised by a person who was much older. His values were from a different generation, and he would listen to a lot of jazz, like Cannonball Adderley.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Rudy Ray Moore",
+      "context": "If you look up Rudy Ray Moore, he's an old comedian, really vulgar, based around story telling. So I'll come onto stage and I'll tell people and I tell them what I'm going to do before everything song, and where I was when I wrote the song.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 3,
+    "sources_checked": 1
+  }
+}

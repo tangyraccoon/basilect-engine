@@ -1,0 +1,40 @@
+{
+  "quotes": [
+    {
+      "text": "Once I understood Bach's music, I wanted to be a concert pianist",
+      "publication": "Faroutmagazine.Co.Uk",
+      "date": ""
+    },
+    {
+      "text": "Bach made me dedicate my life to music, and it was that teacher who introduced me to his world",
+      "publication": "Faroutmagazine.Co.Uk",
+      "date": ""
+    },
+    {
+      "text": "At six months old, my mom says that I knew what notes were, and of course, on paper, and it scared her",
+      "publication": "Faroutmagazine.Co.Uk",
+      "date": ""
+    },
+    {
+      "text": "I was born a child prodigy",
+      "publication": "Faroutmagazine.Co.Uk",
+      "date": ""
+    },
+    {
+      "text": "I was born a genius",
+      "publication": "Faroutmagazine.Co.Uk",
+      "date": ""
+    },
+    {
+      "text": "It's this close to God as I know, this cleanliness of classical music – not all of it, it's too cold – but Bach was a master",
+      "publication": "Faroutmagazine.Co.Uk",
+      "date": ""
+    }
+  ],
+  "corpus_meta": {
+    "quote_count": 6,
+    "source_count": 1,
+    "date_range": [],
+    "corpus_valid": false
+  }
+}

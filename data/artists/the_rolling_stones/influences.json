@@ -1,0 +1,23 @@
+{
+  "influences": [
+    {
+      "name": "William Burroughs",
+      "context": "Mick Jagger was \"heavily influenced by William Burroughs' \"Cities Of The Red Night\", a freewheeling novel about political and sexual repression.\" The book would inspire both the music and the dance club politics of Undercover of the Night not to mention the controversial video to accompany it. Ultimately, the book influenced the album's title.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Muddy Waters",
+      "context": "I looked at what he was carrying, which was two albums: One was The Best of Muddy Waters, and the other was Rockin' at the Hops by Chuck Berry. I had never seen anybody possessing such treasures in my life",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Chuck Berry",
+      "context": "I looked at what he was carrying, which was two albums: One was The Best of Muddy Waters, and the other was Rockin' at the Hops by Chuck Berry. I had never seen anybody possessing such treasures in my life",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 3,
+    "sources_checked": 4
+  }
+}

@@ -1,0 +1,83 @@
+{
+  "influences": [
+    {
+      "name": "Allman Brothers",
+      "context": "Their music, which blends blues, soul and Southern rock, is grounded in tradition but shaped by the present. It's a sound that echoes their musical influences from bands like the Allman Brothers and Lynyrd Skynyrd",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Bill Monroe",
+      "context": "His grandfather was a championship-winning bluegrass fiddler, and his father a honky-tonk guitarist, filling his early years with music from Bill Monroe, Merle Haggard and Buck Owens.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Merle Haggard",
+      "context": "His grandfather was a championship-winning bluegrass fiddler, and his father a honky-tonk guitarist, filling his early years with music from Bill Monroe, Merle Haggard and Buck Owens.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Buck Owens",
+      "context": "His grandfather was a championship-winning bluegrass fiddler, and his father a honky-tonk guitarist, filling his early years with music from Bill Monroe, Merle Haggard and Buck Owens.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "B.B. King",
+      "context": "I was going through my dad's cassette tape collection, and I came across B.B. King and The Fabulous Thunderbirds. As soon as I heard B.B. King play the first note, that set me on a path. I'm like, 'This is what I want to do. If I could just play that one note like B.B., that's where I want to be.'",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Fabulous Thunderbirds",
+      "context": "I was going through my dad's cassette tape collection, and I came across B.B. King and The Fabulous Thunderbirds.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "T-Bone Walker",
+      "context": "If you look at the Allman Brothers' debut album or Led Zeppelin's debut album, and you go through who wrote the songs, it's all original blues guys. It's T-Bone Walker, Willie Dixon, Muddy Waters.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Willie Dixon",
+      "context": "If you look at the Allman Brothers' debut album or Led Zeppelin's debut album, and you go through who wrote the songs, it's all original blues guys. It's T-Bone Walker, Willie Dixon, Muddy Waters.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Muddy Waters",
+      "context": "If you look at the Allman Brothers' debut album or Led Zeppelin's debut album, and you go through who wrote the songs, it's all original blues guys. It's T-Bone Walker, Willie Dixon, Muddy Waters.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Stevie Ray Vaughan",
+      "context": "I think people our age probably listened to the blues backwards. Like, we heard Stevie Ray Vaughan and The Fabulous Thunderbirds first, and then we worked back to John Mayall, Clapton and Cream, and all the British stuff that was going on back in the 1960s.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "John Mayall",
+      "context": "we heard Stevie Ray Vaughan and The Fabulous Thunderbirds first, and then we worked back to John Mayall, Clapton and Cream, and all the British stuff that was going on back in the 1960s.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Eric Clapton",
+      "context": "we heard Stevie Ray Vaughan and The Fabulous Thunderbirds first, and then we worked back to John Mayall, Clapton and Cream, and all the British stuff that was going on back in the 1960s.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Cream",
+      "context": "we heard Stevie Ray Vaughan and The Fabulous Thunderbirds first, and then we worked back to John Mayall, Clapton and Cream, and all the British stuff that was going on back in the 1960s.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Robert Johnson",
+      "context": "Then you keep going back and keep going back until you get to Robert Johnson and Son House and those guys.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Son House",
+      "context": "Then you keep going back and keep going back until you get to Robert Johnson and Son House and those guys.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 15,
+    "sources_checked": 3
+  }
+}

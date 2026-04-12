@@ -1,0 +1,49 @@
+{
+  "artist_id": "oren_ambarchi",
+  "artist_name": "Oren Ambarchi",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:39:15.922873+00:00",
+      "result": "6 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:39:17.998995+00:00",
+      "result": "4/6 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:39:34.552367+00:00",
+      "result": "9 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:39:39.274051+00:00",
+      "result": "13 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:39:41.130006+00:00",
+      "result": "11/13 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:39:58.616640+00:00",
+      "result": "21 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:40:07.656859+00:00",
+      "result": "7 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:40:44.076648+00:00",
+      "result": "58 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-11T22:40:44.076686+00:00"
+}

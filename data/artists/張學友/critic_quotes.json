@@ -1,0 +1,23 @@
+{
+  "quotes": [
+    {
+      "text": "In 2009, Cheung released his first jazz album for which he coined the phrase \"Canto-jazz\".",
+      "publication": "Music Story",
+      "date": "April 2023"
+    },
+    {
+      "text": "近乎完美的深厚唱功真情再現JACKY屹立樂壇的不老的傳奇",
+      "publication": "Archive.org",
+      "date": "2012"
+    }
+  ],
+  "corpus_meta": {
+    "quote_count": 2,
+    "source_count": 2,
+    "date_range": [
+      "2012",
+      "Apri"
+    ],
+    "corpus_valid": false
+  }
+}

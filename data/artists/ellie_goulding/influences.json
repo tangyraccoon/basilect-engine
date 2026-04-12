@@ -1,0 +1,38 @@
+{
+  "influences": [
+    {
+      "name": "Skrillex",
+      "context": "working with Skrillex and the music she grew up listening to",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Björk",
+      "context": "Loving Skrillex & Björk & Growing Up On Electronic Music",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Granddad",
+      "context": "I've always had an affinity for classical music since my granddad gave me a classical 2d when I was ten or eleven.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Mother and Uncle",
+      "context": "I'd only really listened to electronic music growing up, because my mum and my uncle were just into rave and electronic music growing up, a lot of mixtapes.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Jack Rochon",
+      "context": "Produced by Jack Rochon and co-written with Kurtis Wells and Livvi Franc",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Jack Rusch",
+      "context": "The sound is shaped by my collaboration with Jack Rusch, who I first found on Instagram when he was making trap beats in Toronto. Now he's working with Beyoncé. We've both evolved so much, and this album feels like the culmination of that shared growth.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 6,
+    "sources_checked": 3
+  }
+}

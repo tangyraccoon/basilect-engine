@@ -1,0 +1,49 @@
+{
+  "artist_id": "govt_mule",
+  "artist_name": "Gov’t Mule",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:42:59.583468+00:00",
+      "result": "5 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:43:03.167884+00:00",
+      "result": "5/5 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:43:25.183801+00:00",
+      "result": "26 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:43:29.563014+00:00",
+      "result": "8 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:43:40.322307+00:00",
+      "result": "7/8 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:44:05.784994+00:00",
+      "result": "30 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:44:34.064986+00:00",
+      "result": "19 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T17:45:05.060904+00:00",
+      "result": "51 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-12T17:45:05.061016+00:00"
+}

@@ -1,0 +1,146 @@
+{
+  "tags": [
+    {
+      "tag": "collaborative",
+      "category": "philosophy",
+      "weight": 1.0,
+      "raw_score": 12
+    },
+    {
+      "tag": "live_performance",
+      "category": "approach",
+      "weight": 0.75,
+      "raw_score": 9
+    },
+    {
+      "tag": "intuitive",
+      "category": "philosophy",
+      "weight": 0.583,
+      "raw_score": 7
+    },
+    {
+      "tag": "long_form",
+      "category": "approach",
+      "weight": 0.583,
+      "raw_score": 7
+    },
+    {
+      "tag": "hybrid_production",
+      "category": "approach",
+      "weight": 0.5,
+      "raw_score": 6
+    },
+    {
+      "tag": "acoustic",
+      "category": "approach",
+      "weight": 0.5,
+      "raw_score": 6
+    },
+    {
+      "tag": "studio_as_instrument",
+      "category": "approach",
+      "weight": 0.5,
+      "raw_score": 6
+    },
+    {
+      "tag": "multi_instrumental",
+      "category": "approach",
+      "weight": 0.5,
+      "raw_score": 6
+    },
+    {
+      "tag": "vocal_focused",
+      "category": "approach",
+      "weight": 0.333,
+      "raw_score": 4
+    },
+    {
+      "tag": "playful",
+      "category": "philosophy",
+      "weight": 0.25,
+      "raw_score": 3
+    },
+    {
+      "tag": "electronic",
+      "category": "approach",
+      "weight": 0.25,
+      "raw_score": 3
+    },
+    {
+      "tag": "prolific",
+      "category": "philosophy",
+      "weight": 0.25,
+      "raw_score": 3
+    },
+    {
+      "tag": "conversational_interplay",
+      "category": "philosophy",
+      "weight": 0.25,
+      "raw_score": 3
+    },
+    {
+      "tag": "improvisation",
+      "category": "process",
+      "weight": 0.25,
+      "raw_score": 3
+    },
+    {
+      "tag": "analog",
+      "category": "approach",
+      "weight": 0.25,
+      "raw_score": 3
+    },
+    {
+      "tag": "minimal_instrumentation",
+      "category": "approach",
+      "weight": 0.25,
+      "raw_score": 3
+    },
+    {
+      "tag": "interpretive_depth",
+      "category": "philosophy",
+      "weight": 0.25,
+      "raw_score": 3
+    },
+    {
+      "tag": "emotional",
+      "category": "philosophy",
+      "weight": 0.25,
+      "raw_score": 3
+    },
+    {
+      "tag": "sparse",
+      "category": "approach",
+      "weight": 0.167,
+      "raw_score": 2
+    },
+    {
+      "tag": "meditative",
+      "category": "philosophy",
+      "weight": 0.167,
+      "raw_score": 2
+    },
+    {
+      "tag": "intellectual",
+      "category": "philosophy",
+      "weight": 0.167,
+      "raw_score": 2
+    },
+    {
+      "tag": "traditional",
+      "category": "philosophy",
+      "weight": 0.167,
+      "raw_score": 2
+    },
+    {
+      "tag": "hybrid",
+      "category": "philosophy",
+      "weight": 0.167,
+      "raw_score": 2
+    }
+  ],
+  "meta": {
+    "count": 23,
+    "sources_checked": 7
+  }
+}

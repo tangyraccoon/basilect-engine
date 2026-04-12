@@ -1,0 +1,38 @@
+{
+  "quotes": [
+    {
+      "text": "I always say this is the birth of Beyoncé. She didn't need [the writers] there to hold her hand.",
+      "publication": "2001: Destiny's Child, Suvivor",
+      "date": ""
+    },
+    {
+      "text": "We had no idea that The Writing's on the Wall would be as big a record as it was. Especially worldwide.",
+      "publication": "The Guardian",
+      "date": "2006"
+    },
+    {
+      "text": "It was a neo-soul record and we were 15 years old. It was way too mature for us.",
+      "publication": "The Guardian",
+      "date": ""
+    },
+    {
+      "text": "it comes from us.",
+      "publication": "MTV",
+      "date": ""
+    },
+    {
+      "text": "For me, it is about amplifying the beauty in all of us.",
+      "publication": "Elle",
+      "date": "2019"
+    }
+  ],
+  "corpus_meta": {
+    "quote_count": 5,
+    "source_count": 4,
+    "date_range": [
+      "2006",
+      "2019"
+    ],
+    "corpus_valid": true
+  }
+}

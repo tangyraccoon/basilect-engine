@@ -1,0 +1,146 @@
+{
+  "tags": [
+    {
+      "tag": "vocal_focused",
+      "category": "approach",
+      "weight": 1.0,
+      "raw_score": 26
+    },
+    {
+      "tag": "autobiographical",
+      "category": "philosophy",
+      "weight": 0.923,
+      "raw_score": 24
+    },
+    {
+      "tag": "collaborative",
+      "category": "philosophy",
+      "weight": 0.692,
+      "raw_score": 18
+    },
+    {
+      "tag": "collaborative_production",
+      "category": "approach",
+      "weight": 0.692,
+      "raw_score": 18
+    },
+    {
+      "tag": "live_performance",
+      "category": "approach",
+      "weight": 0.692,
+      "raw_score": 18
+    },
+    {
+      "tag": "emotional",
+      "category": "philosophy",
+      "weight": 0.654,
+      "raw_score": 17
+    },
+    {
+      "tag": "narrative",
+      "category": "philosophy",
+      "weight": 0.615,
+      "raw_score": 16
+    },
+    {
+      "tag": "intuitive",
+      "category": "philosophy",
+      "weight": 0.308,
+      "raw_score": 8
+    },
+    {
+      "tag": "hybrid_production",
+      "category": "approach",
+      "weight": 0.308,
+      "raw_score": 8
+    },
+    {
+      "tag": "confrontational",
+      "category": "philosophy",
+      "weight": 0.231,
+      "raw_score": 6
+    },
+    {
+      "tag": "orchestration",
+      "category": "process",
+      "weight": 0.154,
+      "raw_score": 4
+    },
+    {
+      "tag": "electronic",
+      "category": "approach",
+      "weight": 0.115,
+      "raw_score": 3
+    },
+    {
+      "tag": "reinvention",
+      "category": "philosophy",
+      "weight": 0.115,
+      "raw_score": 3
+    },
+    {
+      "tag": "political",
+      "category": "philosophy",
+      "weight": 0.077,
+      "raw_score": 2
+    },
+    {
+      "tag": "studio_as_instrument",
+      "category": "approach",
+      "weight": 0.077,
+      "raw_score": 2
+    },
+    {
+      "tag": "conceptual",
+      "category": "philosophy",
+      "weight": 0.077,
+      "raw_score": 2
+    },
+    {
+      "tag": "independent_artistic_vision",
+      "category": "philosophy",
+      "weight": 0.077,
+      "raw_score": 2
+    },
+    {
+      "tag": "spiritual",
+      "category": "philosophy",
+      "weight": 0.077,
+      "raw_score": 2
+    },
+    {
+      "tag": "minimalism",
+      "category": "process",
+      "weight": 0.077,
+      "raw_score": 2
+    },
+    {
+      "tag": "hi_fi",
+      "category": "approach",
+      "weight": 0.077,
+      "raw_score": 2
+    },
+    {
+      "tag": "resilience",
+      "category": "philosophy",
+      "weight": 0.077,
+      "raw_score": 2
+    },
+    {
+      "tag": "charismatic_performance",
+      "category": "philosophy",
+      "weight": 0.077,
+      "raw_score": 2
+    },
+    {
+      "tag": "multi_instrumental",
+      "category": "approach",
+      "weight": 0.038,
+      "raw_score": 1
+    }
+  ],
+  "meta": {
+    "count": 23,
+    "sources_checked": 10
+  }
+}

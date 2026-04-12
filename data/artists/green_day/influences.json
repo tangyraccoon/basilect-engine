@@ -1,0 +1,123 @@
+{
+  "influences": [
+    {
+      "name": "The Kinks",
+      "context": "Some of my favorite music of all time has come out of England—The Kinks, The Beatles, Buzzcocks, Generation X, bands like The Libertines",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Beatles",
+      "context": "Some of my favorite music of all time has come out of England—The Kinks, The Beatles, Buzzcocks, Generation X, bands like The Libertines",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Buzzcocks",
+      "context": "Some of my favorite music of all time has come out of England—The Kinks, The Beatles, Buzzcocks, Generation X, bands like The Libertines",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Generation X",
+      "context": "Some of my favorite music of all time has come out of England—The Kinks, The Beatles, Buzzcocks, Generation X, bands like The Libertines",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Libertines",
+      "context": "Some of my favorite music of all time has come out of England—The Kinks, The Beatles, Buzzcocks, Generation X, bands like The Libertines",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Taylor Swift",
+      "context": "when I was nine, I started taking guitar lessons because I was obsessed with Taylor Swift and Miley Cyrus, and I just wanted to be exactly like them",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Miley Cyrus",
+      "context": "when I was nine, I started taking guitar lessons because I was obsessed with Taylor Swift and Miley Cyrus, and I just wanted to be exactly like them",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Noah Kahan",
+      "context": "I'm inspired by Noah Kahan – if he can do it from Vermont or from Watertown, Massachusetts, you can do it from anywhere",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Sabrina Carpenter",
+      "context": "That song was also very much inspired by Slim Pickins by Sabrina Carpenter – just that goofy, silly, carefree energy",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Maggie Antone",
+      "context": "One of my best friends, Maggie Antone, is an incredible country-Americana artist. I just love her so much, and her music is amazing",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Ole 60",
+      "context": "The band Ole 60, they're incredible as well. I really gravitate toward the writing",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Red Clay Strays",
+      "context": "The Red Clay Strays, too. I saw them live at a festival I played at, and I was like, 'I need to see them again.' They were just the most incredible live",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Michael Marcagi",
+      "context": "Michael Marcagi is a huge influence as well. I was lucky enough to support him last summer and he's just an incredible person, and his writing is so raw and authentic",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Shania Twain",
+      "context": "I love listening to Shania Twain when I want to hype myself up",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Fleetwood Mac",
+      "context": "I'm a huge Fleetwood Mac fan – that's what I grew up listening to, a ton of Fleetwood Mac",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Stevie Nicks",
+      "context": "I love Stevie Nicks; she's my idol",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Lori McKenna",
+      "context": "a writer I've really been wanting to work with is Lori McKenna. She lives in Massachusetts, and she's just so incredible",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Lumineers",
+      "context": "Aside from Noah Kahan and The Lumineers, who are you currently inspired by?",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Little Richard",
+      "context": "let's find a new direction we haven't gone into. So we were just talking about the influences and things that we'd grown up listening to that maybe people don't know so much about. So that's what started the idea of doing the history of rock and roll music, whether it's Little Richard or Motown Martha and the Vandellas to glam like T. Rex and Mott the Hoople and stuff like that.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Martha and the Vandellas",
+      "context": "So that's what started the idea of doing the history of rock and roll music, whether it's Little Richard or Motown Martha and the Vandellas to glam like T. Rex and Mott the Hoople and stuff like that.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "T. Rex",
+      "context": "So that's what started the idea of doing the history of rock and roll music, whether it's Little Richard or Motown Martha and the Vandellas to glam like T. Rex and Mott the Hoople and stuff like that.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Mott the Hoople",
+      "context": "So that's what started the idea of doing the history of rock and roll music, whether it's Little Richard or Motown Martha and the Vandellas to glam like T. Rex and Mott the Hoople and stuff like that.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Ramones",
+      "context": "The first thing honestly that comes to mind is probably 'Blitzkrieg Bop' by The Ramones.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 23,
+    "sources_checked": 5
+  }
+}

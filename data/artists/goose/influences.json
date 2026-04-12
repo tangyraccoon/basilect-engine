@@ -1,0 +1,88 @@
+{
+  "influences": [
+    {
+      "name": "Elvis Presley",
+      "context": "Watching Elvis Presley movies at the age of 6 or so.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Nick Cave",
+      "context": "As I'm answering this questionnaire I'm listening to Nick Cave's Ghosteen album.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Thom Yorke",
+      "context": "I've been listening to Atoms for Peace a lot, which is a Thom Yorke side project. I didn't know about that record until a few months ago, so I've been listening to that a lot recently.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Dan",
+      "context": "especially working with Dan on the last set of recordings. Because that was the first time we worked with someone who really kind of pushed us to make decisions that we wouldn't have on our own, so that's like a process of, of trust. And I really do trust Dan, which is an awesome thing.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Beatles",
+      "context": "And even before that I was glued in front of the TV, watching Elvis Presley movies and The Beatles documentaries.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "AC/DC",
+      "context": "We used to play blues, rock'n roll, minutes and minutes of guitar solos, then we discovered AC/DC and our sound was just that. We wrote songs like them, copied their stage act, we even won a talent show covering 'Whole lotta Rosie'!",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Daft Punk",
+      "context": "'Discovery', Daft Punk's second album had an big impact on how we make music. Definitely when writing our first album 'Bring It On'.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Sebastian",
+      "context": "We used to be surrounded by a group of producers that really were game changers: Sebastian, Erol Alkan, Justice, Surkin, Les Rhytmes Digitales, Air, Daft Punk.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Erol Alkan",
+      "context": "We used to be surrounded by a group of producers that really were game changers: Sebastian, Erol Alkan, Justice, Surkin, Les Rhytmes Digitales, Air, Daft Punk.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Justice",
+      "context": "We used to be surrounded by a group of producers that really were game changers: Sebastian, Erol Alkan, Justice, Surkin, Les Rhytmes Digitales, Air, Daft Punk.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Surkin",
+      "context": "We used to be surrounded by a group of producers that really were game changers: Sebastian, Erol Alkan, Justice, Surkin, Les Rhytmes Digitales, Air, Daft Punk.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Les Rhytmes Digitales",
+      "context": "We used to be surrounded by a group of producers that really were game changers: Sebastian, Erol Alkan, Justice, Surkin, Les Rhytmes Digitales, Air, Daft Punk.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Air",
+      "context": "We used to be surrounded by a group of producers that really were game changers: Sebastian, Erol Alkan, Justice, Surkin, Les Rhytmes Digitales, Air, Daft Punk.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Philippe Zdar",
+      "context": "Philippe Zdar of Cassius—one of the most important contributors to the 'French touch' sound and, understandably, a huge influence on the band.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Lil Peep",
+      "context": "I discovered my passion for music when my grandpa died and the girl I thought I was in love with me left me at the same time. A little before that, I started listening to lil peep and then after all that, I got into some things and started listening to Peep a lot more then started writing songs",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Travis Scott",
+      "context": "White Girl came about when I made this preset somewhat mixed with Travis Scott and Lil Peep it sounded great and then that was the first song I made with the preset",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 16,
+    "sources_checked": 5
+  }
+}

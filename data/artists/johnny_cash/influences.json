@@ -1,0 +1,18 @@
+{
+  "influences": [
+    {
+      "name": "Bob Dylan",
+      "context": "I became aware of Bob Dylan when the Freewheelin' album came out in 1963. I thought he was one of the best country singers I had ever heard. I always felt a lot in common with him. I knew a lot about him before we had ever met. I knew he had heard and listened to country music. I heard a lot of inflections from country artists I was familiar with.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Kris Kristofferson",
+      "context": "In concert I sing 'Sunday Morning Coming Down,' the Kris Kristofferson tune. That's so much of me that sometimes I feel like I wrote it.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 2,
+    "sources_checked": 6
+  }
+}

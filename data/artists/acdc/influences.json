@@ -1,0 +1,28 @@
+{
+  "influences": [
+    {
+      "name": "The Rolling Stones",
+      "context": "If we're having a party, we won't be sticking on an AC/DC record, it'll be the Stones, Chuck Berry, Little Richard, that kinda bag.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Chuck Berry",
+      "context": "If we're having a party, we won't be sticking on an AC/DC record, it'll be the Stones, Chuck Berry, Little Richard, that kinda bag.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Little Richard",
+      "context": "If we're having a party, we won't be sticking on an AC/DC record, it'll be the Stones, Chuck Berry, Little Richard, that kinda bag.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Elvis",
+      "context": "I'm not trying to compare myself to Elvis, and I never saw him live, but if I had done I'd have wanted to remember him being young and wearing one of his rock'n'roll outfits.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 4,
+    "sources_checked": 3
+  }
+}

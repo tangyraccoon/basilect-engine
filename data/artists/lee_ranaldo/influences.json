@@ -1,0 +1,88 @@
+{
+  "influences": [
+    {
+      "name": "John Fahey",
+      "context": "I was playing acoustic guitars again seriously for the first time in ages so I guess that really took me back to certain things I listened to when I was much younger, when I was predominately an acoustic guitar player – whether it was John Fahey or Leo Kottke or David Crosby, Joni Mitchell, Neil Young, Velvet Underground and Reverend Gary Davis – all kinds of people that were working with open guitar tunings.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Leo Kottke",
+      "context": "I was playing acoustic guitars again seriously for the first time in ages so I guess that really took me back to certain things I listened to when I was much younger, when I was predominately an acoustic guitar player – whether it was John Fahey or Leo Kottke or David Crosby, Joni Mitchell, Neil Young, Velvet Underground and Reverend Gary Davis – all kinds of people that were working with open guitar tunings.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "David Crosby",
+      "context": "I was playing acoustic guitars again seriously for the first time in ages so I guess that really took me back to certain things I listened to when I was much younger, when I was predominately an acoustic guitar player – whether it was John Fahey or Leo Kottke or David Crosby, Joni Mitchell, Neil Young, Velvet Underground and Reverend Gary Davis – all kinds of people that were working with open guitar tunings.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Joni Mitchell",
+      "context": "I was playing acoustic guitars again seriously for the first time in ages so I guess that really took me back to certain things I listened to when I was much younger, when I was predominately an acoustic guitar player – whether it was John Fahey or Leo Kottke or David Crosby, Joni Mitchell, Neil Young, Velvet Underground and Reverend Gary Davis – all kinds of people that were working with open guitar tunings.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Neil Young",
+      "context": "I was playing acoustic guitars again seriously for the first time in ages so I guess that really took me back to certain things I listened to when I was much younger, when I was predominately an acoustic guitar player – whether it was John Fahey or Leo Kottke or David Crosby, Joni Mitchell, Neil Young, Velvet Underground and Reverend Gary Davis – all kinds of people that were working with open guitar tunings.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Velvet Underground",
+      "context": "I was playing acoustic guitars again seriously for the first time in ages so I guess that really took me back to certain things I listened to when I was much younger, when I was predominately an acoustic guitar player – whether it was John Fahey or Leo Kottke or David Crosby, Joni Mitchell, Neil Young, Velvet Underground and Reverend Gary Davis – all kinds of people that were working with open guitar tunings.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Reverend Gary Davis",
+      "context": "I was playing acoustic guitars again seriously for the first time in ages so I guess that really took me back to certain things I listened to when I was much younger, when I was predominately an acoustic guitar player – whether it was John Fahey or Leo Kottke or David Crosby, Joni Mitchell, Neil Young, Velvet Underground and Reverend Gary Davis – all kinds of people that were working with open guitar tunings.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Jack Kerouac",
+      "context": "named after a book by Jack Kerouac, who is Ranaldo's favourite writer",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Sylvia Plath",
+      "context": "The lyrics are written by Lee Ranaldo and are inspired by Sylvia Plath's poem The Eye-Mote.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Leonard Cohen",
+      "context": "Lee Ronaldo stated that for these songs he pulled inspiration from the likes of Neil Young, Joni Mitchell and Leonard Cohen.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "His mother",
+      "context": "My mom played classical piano, so there was always a piano and someone making music in the house. She was also a seamstress and there is a definite creative process there as well. I learned how to sew at an early age.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Gerhard Richter",
+      "context": "If one would look closer into the album covers of the Sonic Youth back catalogue, one could find a lot of important artists: Gerhard Richter (Daydream Nation)",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Raymond Pettibon",
+      "context": "If one would look closer into the album covers of the Sonic Youth back catalogue, one could find a lot of important artists: ... Raymond Pettibon (Goo)",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Richard Prince",
+      "context": "If one would look closer into the album covers of the Sonic Youth back catalogue, one could find a lot of important artists: ... Richard Prince (Sonic Nurse)",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Jeff Wall",
+      "context": "If one would look closer into the album covers of the Sonic Youth back catalogue, one could find a lot of important artists: ... Jeff Wall (The destroyed Room)",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Mike Kelley",
+      "context": "If one would look closer into the album covers of the Sonic Youth back catalogue, one could find a lot of important artists: ... Mike Kelley (Dirty)",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 16,
+    "sources_checked": 5
+  }
+}

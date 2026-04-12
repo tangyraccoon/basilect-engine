@@ -1,0 +1,33 @@
+{
+  "influences": [
+    {
+      "name": "Michael Jackson",
+      "context": "I grew up listening to funk, from Michael Jackson to Stevie Wonder and Marvin Gaye.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Stevie Wonder",
+      "context": "I grew up listening to funk, from Michael Jackson to Stevie Wonder and Marvin Gaye.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Marvin Gaye",
+      "context": "I grew up listening to funk, from Michael Jackson to Stevie Wonder and Marvin Gaye.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Chris Willis",
+      "context": "I wanted to keep Chris Willis on there because I've been working with him since the beginning.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "will.i.am",
+      "context": "working with will.i.am was such a revolution for me",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 5,
+    "sources_checked": 5
+  }
+}

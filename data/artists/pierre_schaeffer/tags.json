@@ -1,0 +1,140 @@
+{
+  "tags": [
+    {
+      "tag": "found_sound",
+      "category": "process",
+      "weight": 1.0,
+      "raw_score": 15
+    },
+    {
+      "tag": "experimental",
+      "category": "philosophy",
+      "weight": 1.0,
+      "raw_score": 15
+    },
+    {
+      "tag": "studio_as_instrument",
+      "category": "approach",
+      "weight": 0.933,
+      "raw_score": 14
+    },
+    {
+      "tag": "intellectual",
+      "category": "philosophy",
+      "weight": 0.867,
+      "raw_score": 13
+    },
+    {
+      "tag": "sampling",
+      "category": "process",
+      "weight": 0.8,
+      "raw_score": 12
+    },
+    {
+      "tag": "collaborative",
+      "category": "philosophy",
+      "weight": 0.8,
+      "raw_score": 12
+    },
+    {
+      "tag": "analog",
+      "category": "approach",
+      "weight": 0.8,
+      "raw_score": 12
+    },
+    {
+      "tag": "conceptual",
+      "category": "philosophy",
+      "weight": 0.733,
+      "raw_score": 11
+    },
+    {
+      "tag": "collage",
+      "category": "process",
+      "weight": 0.6,
+      "raw_score": 9
+    },
+    {
+      "tag": "electronic",
+      "category": "approach",
+      "weight": 0.6,
+      "raw_score": 9
+    },
+    {
+      "tag": "field_recording",
+      "category": "process",
+      "weight": 0.4,
+      "raw_score": 6
+    },
+    {
+      "tag": "intuitive",
+      "category": "philosophy",
+      "weight": 0.4,
+      "raw_score": 6
+    },
+    {
+      "tag": "collaborative_production",
+      "category": "approach",
+      "weight": 0.4,
+      "raw_score": 6
+    },
+    {
+      "tag": "noise",
+      "category": "process",
+      "weight": 0.4,
+      "raw_score": 6
+    },
+    {
+      "tag": "sonic_object_focus",
+      "category": "process",
+      "weight": 0.2,
+      "raw_score": 3
+    },
+    {
+      "tag": "loop_based",
+      "category": "process",
+      "weight": 0.2,
+      "raw_score": 3
+    },
+    {
+      "tag": "sound_object_focus",
+      "category": "philosophy",
+      "weight": 0.2,
+      "raw_score": 3
+    },
+    {
+      "tag": "abstract",
+      "category": "philosophy",
+      "weight": 0.2,
+      "raw_score": 3
+    },
+    {
+      "tag": "acoustic",
+      "category": "approach",
+      "weight": 0.133,
+      "raw_score": 2
+    },
+    {
+      "tag": "political",
+      "category": "philosophy",
+      "weight": 0.133,
+      "raw_score": 2
+    },
+    {
+      "tag": "diy",
+      "category": "philosophy",
+      "weight": 0.133,
+      "raw_score": 2
+    },
+    {
+      "tag": "vocal_processing",
+      "category": "process",
+      "weight": 0.133,
+      "raw_score": 2
+    }
+  ],
+  "meta": {
+    "count": 22,
+    "sources_checked": 6
+  }
+}

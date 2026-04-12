@@ -1,0 +1,33 @@
+{
+  "quotes": [
+    {
+      "text": "If you don't learn new songs, you're lost",
+      "publication": "The New York Times",
+      "date": "1967"
+    },
+    {
+      "text": "Unless you sing today's songs, all there is is the standards, the old show tunes. What new show tunes are there? \"Hello, Dolly\"? It has that old beat, it's an old type song. Can you think of anything else that's come off Broadway? Or out of the movies? Would the average kid want to sing \"The Shadow of Your Smile\"? It's an old type song. No matter where we play, we have some of the younger generation coming to the club. It's a drag if you don't have anything to offer them.",
+      "publication": "Amacad.Org",
+      "date": "1967"
+    },
+    {
+      "text": "We'd like to, and it's all in fun, ladies and gentlemen, we'd like to give you our interpretations of the new sounds, and we hope you enjoy them as much as we enjoy trying to sing them. The new rock and soul.",
+      "publication": "Amacad.Org",
+      "date": "1967-06-30"
+    },
+    {
+      "text": "She was very humble, very shy and generous. But when she walked on stage she was hardcore and didn't know how to sing unless it was coming from her heart",
+      "publication": "Grammy",
+      "date": ""
+    }
+  ],
+  "corpus_meta": {
+    "quote_count": 4,
+    "source_count": 3,
+    "date_range": [
+      "1967",
+      "1967"
+    ],
+    "corpus_valid": false
+  }
+}

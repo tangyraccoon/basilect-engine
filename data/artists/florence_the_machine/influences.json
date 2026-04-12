@@ -1,0 +1,33 @@
+{
+  "influences": [
+    {
+      "name": "Grace Slick",
+      "context": "During an interview, Welch cited Grace Slick of Jefferson Airplane as her influence and \"hero\".",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Kate Bush",
+      "context": "My icons were always women like Kate Bush, Stevie Nicks and Siouxsie Sioux. Who wouldn't be proud to carry on that tradition?",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Stevie Nicks",
+      "context": "My icons were always women like Kate Bush, Stevie Nicks and Siouxsie Sioux. Who wouldn't be proud to carry on that tradition?",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Siouxsie Sioux",
+      "context": "My icons were always women like Kate Bush, Stevie Nicks and Siouxsie Sioux. Who wouldn't be proud to carry on that tradition?",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Patti Smith",
+      "context": "It would be me dancing in a gay nightclub in Berlin with Patti Smith and Kate Bush. I was like, \"This is amazing!\"",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 5,
+    "sources_checked": 4
+  }
+}

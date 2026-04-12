@@ -1,0 +1,103 @@
+{
+  "influences": [
+    {
+      "name": "Jimmy Hendrix",
+      "context": "In the beginning our influences were Jimmy Hendrix and Cream and bands that were a power trio.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Cream",
+      "context": "In the beginning our influences were Jimmy Hendrix and Cream and bands that were a power trio.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "B.B. King",
+      "context": "many attribute Haynes' affinity for Gibson guitars to the influence of the late Duane Allman, who alongside names like B.B. King and Elmore James, had a profound impact on him as a teen.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Elmore James",
+      "context": "many attribute Haynes' affinity for Gibson guitars to the influence of the late Duane Allman, who alongside names like B.B. King and Elmore James, had a profound impact on him as a teen.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Duane Allman",
+      "context": "many attribute Haynes' affinity for Gibson guitars to the influence of the late Duane Allman, who alongside names like B.B. King and Elmore James, had a profound impact on him as a teen.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Led Zeppelin",
+      "context": "they are also discovering Led Zeppelin or Pink Floyd or Hendrix or the Allman Brothers and that music is having the same impact on them as it did for us because it's timeless music.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Pink Floyd",
+      "context": "they are also discovering Led Zeppelin or Pink Floyd or Hendrix or the Allman Brothers and that music is having the same impact on them as it did for us because it's timeless music.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Allman Brothers",
+      "context": "they are also discovering Led Zeppelin or Pink Floyd or Hendrix or the Allman Brothers and that music is having the same impact on them as it did for us because it's timeless music.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Willie Dixon",
+      "context": "features sit-down interviews with members of Gov't Mule overlayed atop audio of the band playing Willie Dixon's \"You Know My Love\"",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Junior Wells",
+      "context": "Gov't Mule Jams Out Junior Wells' \"Snatch It Back And Hold It\" For New Blues Album",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Miles Davis",
+      "context": "Warren Haynes' all-time favorite group is the second great Miles Davis Quintet with Wayne Shorter, Herbie Hancock, Tony Williams and Ron Carter... Haynes' enthusiasm is driven less by the instrumentation than by the intent... He developed his own musical philosophy around it.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Van Morrison",
+      "context": "You can trace that back to a lot of rock bands from late '60s and early '70s who took that approach to varying degrees. If you listen to Van Morrison's Astral Weeks, that's what that is in its own way.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "John Coltrane",
+      "context": "I think for a lot of those bands, Coltrane's My Favorite Things was a heavy influence in that department as well.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Sly Stone",
+      "context": "I quote myself several times on this record. There are a lot of references to song titles or individual lyrics from previous works in the same way that Sly Stone used to do that.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Billy Cobham",
+      "context": "We were starting to listen to fusion, so we did some instrumental stuff—songs off Billy Cobham records",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Allman Brothers Band",
+      "context": "Gov't Mule came together in 1994, when Haynes and bassist Allen Woody— who were then in The Allman Brothers Band",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Mr. Bungle",
+      "context": "My first band, when I was 13, was basically a funk-metal thing called Kevin Wang and the Skinflutes. It was inspired by Mr. Bungle, Primus and DVDA",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Primus",
+      "context": "My first band, when I was 13, was basically a funk-metal thing called Kevin Wang and the Skinflutes. It was inspired by Mr. Bungle, Primus and DVDA",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Col. Bruce Hampton",
+      "context": "His connection with Hampton came about in the typical mystical way that things happened with the Col. It began at age 15 when Scott was gifted a copy of Hampton's The Late Bronze Age",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 19,
+    "sources_checked": 5
+  }
+}

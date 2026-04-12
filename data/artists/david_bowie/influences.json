@@ -1,0 +1,38 @@
+{
+  "influences": [
+    {
+      "name": "Lindsay Kemp",
+      "context": "of course, Lindsay Kemp, whose influence can be seen so strongly in Bowie's physical performances",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Kurt Weill",
+      "context": "Bowie's discovery of the catalogue of German-American composer Kurt Weill (1900-50) 'was made not as part of a university syllabus…but as an intrigued, self-motivated adult.'",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Marc Bolan",
+      "context": "Marc has been a great influence on me, not so much with his music, but with his attitude to the pop scene. He shuts himself off from the destructive elements, and prefers to get on with his work.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Tony Newley",
+      "context": "He says he copped it off Tony Newley, because he was mad about \"Stop the World\" and \"Gurney Slade\": \"He used to make his points with this broad Cockney accent and I decided that I'd use that now and again to drive a point home.\"",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Erich Heckel",
+      "context": "Three albums he contributed to have cover art influenced by German artist, Erich Heckel.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Bob Dylan",
+      "context": "I'm trying to think if there's anyone who truly has honed his craft to a point that you are really, really glad that he stayed with one thing all the way through his life. Of course there is. How stupid of me! Bob Dylan.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 6,
+    "sources_checked": 5
+  }
+}

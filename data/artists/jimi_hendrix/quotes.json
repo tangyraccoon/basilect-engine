@@ -1,0 +1,38 @@
+{
+  "quotes": [
+    {
+      "text": "I feel guilty when people say I'm the greatest guitarist on the scene",
+      "publication": "Los Angeles Times",
+      "date": "September 7, 1969"
+    },
+    {
+      "text": "What's good or bad doesn't matter to me, what does matter is feeling and not feeling. If only people would take more of a true view and think in terms of feeling. Your name doesn't mean a damn, it's your talent and feeling that matters. You've got to know much more than just the technicalities of notes, you've got to know sounds and what goes between the notes.",
+      "publication": "Los Angeles Times",
+      "date": "September 7, 1969"
+    },
+    {
+      "text": "What it all comes down to is that albums are nothing but personal diaries. When you hear somebody making music, they are baring a naked part of their soul to you. Are You Experienced? was one of the most direct albums we've done. What it was saying was 'Let us through the wall, man, we want you to dig it.'",
+      "publication": "Los Angeles Times",
+      "date": "September 7, 1969"
+    },
+    {
+      "text": "Sure albums come out different. You can't go on doing the same thing. Every day you find out this and that and it adds to the total you have. Are You Experienced? was where my head was at a couple of years ago. Now I'm into different things.",
+      "publication": "Los Angeles Times",
+      "date": "September 7, 1969"
+    },
+    {
+      "text": "A couple of years ago, all I wanted was to be heard. 'Let me in' was the thing. Now I'm trying to figure out the wisest way to be heard.",
+      "publication": "Los Angeles Times",
+      "date": "September 7, 1969"
+    }
+  ],
+  "corpus_meta": {
+    "quote_count": 5,
+    "source_count": 1,
+    "date_range": [
+      "Sept",
+      "Sept"
+    ],
+    "corpus_valid": false
+  }
+}

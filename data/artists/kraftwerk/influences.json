@@ -1,0 +1,78 @@
+{
+  "influences": [
+    {
+      "name": "The Beatles",
+      "context": "Born in 1952, Karlheinz Bartos (Kraftwerk shortened his name to save money on lettering) was turned onto music the moment he heard the opening chord of The Beatles' A Hard Day's Night as a 12-year-old.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Can",
+      "context": "Later he played in bands, took acid while listening to Can and pursued a career as a classical percussionist",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Claudio Monteverdi",
+      "context": "When I started in Kraftwerk, one of my typical days looked like this: in the morning we listened to and discussed Claudio Monteverdi's 1607 opera L'Orfeo in music history",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Benjamin Britten",
+      "context": "Ear training and piano lessons followed. Then we would perhaps rehearse a few bars on the vibraphone for a concert of new music over the weekend, and in the evening we'd go to the Opera House for a performance of Benjamin Britten's 1973 score for Death In Venice.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Karlheinz Stockhausen",
+      "context": "The next day I was rehearsing music from Karlheinz Stockhausen.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Stravinsky",
+      "context": "At that time, Stravinsky's Sacre Du Printemps was on the repertoire of the Deutsche Oper Am Rhein.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Bob Dylan",
+      "context": "You can't get rid of Bob Dylan and The Beatles and the black music from America, and all the music from London, as it's all too close.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Richard Wright",
+      "context": "From my point of view, Richard Wright's setup and his way of playing the keyboard was a great template for my former partner.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Ray Manzarek",
+      "context": "Ray Manzarek was also an important figure.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Brian Bennett",
+      "context": "Cliff had a really good band, The Shadows, and a good drummer, Brian Bennett. He did the intro to this wonderful song called Do You Want To Dance?, originally a Bobby Freeman song. So my subconscious brain from when I was a kid transferred this sequence by an English drummer into the song Numbers",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Elvis Presley",
+      "context": "When I was growing up, I was listening to the songs my sister was playing on her stereo player. She was in love with Elvis Presley and Cliff Richard too for some reason",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Cliff Richard",
+      "context": "She was in love with Elvis Presley and Cliff Richard too for some reason",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Jaki Liebezeit",
+      "context": "One of my favourite drummers is Jaki Liebezeit from Can, just a total, monstrous clockwork machine.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Kraftwerk",
+      "context": "Yeah, but only in the later phase of their career. When I was 13 they played at a rave called Tribal Gathering. They were just this myth really and I remember begging my mum to let me go. I heard the live set on the radio. At the time I was already into Electronic music - I had a drum machine and synths - but the sound they were creating was kind of otherworldly, yet incredibly mechanical and human.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 14,
+    "sources_checked": 4
+  }
+}

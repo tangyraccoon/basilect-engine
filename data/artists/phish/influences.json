@@ -1,0 +1,23 @@
+{
+  "influences": [
+    {
+      "name": "David Lynch",
+      "context": "Lately, as Gordon's been knee-deep in writing material for the follow-up album to 2017's proggy and delightful wacky \"OGOGO,\" he's drawn inspiration from unexpected sources including David Lynch's autobiography, \"Room To Dream\"",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Bill Murray",
+      "context": "Lately, as Gordon's been knee-deep in writing material for the follow-up album to 2017's proggy and delightful wacky \"OGOGO,\" he's drawn inspiration from unexpected sources including David Lynch's autobiography, \"Room To Dream\" and \"The Tao of Bill Murray.\"",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Butch Allen",
+      "context": "Recently Butch Allen came and saw a show, and his first comment was, 'That's next level, I don't even know how you do that.'",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 3,
+    "sources_checked": 5
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "influences": [
+    {
+      "name": "R.H. Harris",
+      "context": "Sam Cooke has called his fellow Soul Stirrers groupmate R.H. Harris his \"major stylistic influence.\"",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Bob Dylan",
+      "context": "Another artist Cooke openly cited as an influence was Bob Dylan. He heard Dylan's song \"Blowin' In the Wind,\" released in 1963, and was impressed at Dylan's lyricism and ability to sing poignantly about social change as someone who wasn't a person of color.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Sam Cooke",
+      "context": "Sam Cooke has always inspired me for his silky, smooth, sweet and soulful singing.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The National",
+      "context": "When it comes to lyrics I really draw inspiration from bands like The National, I love their nuanced imagery and the way they don't really say anything explicit, but it conjures up a picture and it sounds really cool.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Kings of Leon",
+      "context": "I started off in a band with some of my friends when I was about 15, we were called Jammy and the Dodger and very much wanted to be just like Kings of Leon.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 5,
+    "sources_checked": 3
+  }
+}

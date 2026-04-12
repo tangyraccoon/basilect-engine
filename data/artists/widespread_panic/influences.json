@@ -1,0 +1,48 @@
+{
+  "influences": [
+    {
+      "name": "The Band",
+      "context": "We played before The Band early on in Virginia. They had Billy Preston playing with them... They were one of the greatest influences on everybody—that entire era was.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Garth Hudson",
+      "context": "At one point, when I was playing with Gov't Mule, we played in Woodstock, N.Y... I remember Garth in a wheelchair—just meeting him and not wanting to take up too much of his time. It was really one of those cases where I thanked him for tightening my view on what's allowed in rock music.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Rolling Stones",
+      "context": "These guys are some of the reasons that people like JB, Jimmy, me and Warren Haynes wanted to play in the first place.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Grateful Dead",
+      "context": "It's like how I learned a lot of music history— I learned a lot from the Good Ol' Grateful Dead.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Grateful Dead",
+      "context": "Like the Grateful Dead before them, Panic developed its calluses and fan base through relentless touring and a swashbuckling improvisational approach imbued with multiple dimensions of sound and style – rock, jazz, country, blues.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Col. Bruce Hampton",
+      "context": "Lead guitarist Jimmy Herring, weaned on jazz and the free-style tonality of Col. Bruce Hampton, plays faster than thought or instinct.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Ken Kesey",
+      "context": "Cochran says the band, 'evokes a gypsy feeling for me, a feeling of the road that reminds me of Ken Kesey and Neal Cassady, that reminds me of the bus.'",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Neal Cassady",
+      "context": "Cochran says the band, 'evokes a gypsy feeling for me, a feeling of the road that reminds me of Ken Kesey and Neal Cassady, that reminds me of the bus.'",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 8,
+    "sources_checked": 2
+  }
+}

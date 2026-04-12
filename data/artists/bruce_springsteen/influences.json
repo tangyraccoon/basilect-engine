@@ -1,0 +1,18 @@
+{
+  "influences": [
+    {
+      "name": "Bob Dylan",
+      "context": "\"The first time that I heard Bob Dylan I was in the car with my mother, and we were listening to, I think, maybe WMCA, and on came that snare shot that sounded like somebody kicked open the door to your mind, from 'Like a Rolling Stone,'\" he said, \"And my mother, who was – she was no stiff with rock and roll, she liked the music, she listened – she sat there for a minute, she looked at me, and she said, 'That guy can't sing.' But I knew she was wrong. I sat there, I didn't say nothin', but I knew that I was listening to the toughest voice that I had ever heard.\"",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "1973 film 'Badlands'",
+      "context": "The use of the movies that influenced Bruce, including the catalyst for the entire album, the 1973 film \"Badlands,\" a picture loosely based on Charles Starkweather's mass murder spree",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 2,
+    "sources_checked": 4
+  }
+}

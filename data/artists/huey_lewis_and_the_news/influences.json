@@ -1,0 +1,38 @@
+{
+  "influences": [
+    {
+      "name": "Peter Wolf",
+      "context": "I had the idea of cutting \"I Want A New Drug\" with a drum machine, because next door at the Record Plant was [producer] Peter Wolf... I'm listening to that coming through the door—Austrian Peter Wolf, the producer... So I got Peter to come into our studio and hook it up",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Bill Schnee",
+      "context": "Our first record, Bill Schnee produced it and it died... I really bullied Schnee—it was really my fault to be honest... I learned a lot from [the experience of working] with Schnee.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Mutt Lange",
+      "context": "Clive Calder came out of South Africa with Mutt Lange, who is a good buddy of mine because he produced Clover back in the day and we've stayed friends since that time... Mutt and I are pals, but we have sort of different philosophies of making records",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Bob Clearmountain",
+      "context": "we finished the record and mixed it up with Bob Clearmountain... I kept apologizing to him and I said 'It's just not groovin', Bob'",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Marvin Gaye",
+      "context": "You know, you go listen to Marvin Gaye or whatever and some of those old vocals, there's something charming about them not being spot on... I like a certain [looseness]",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Stan Getz",
+      "context": "Small World was the worst album of the year in Rolling Stone... And it's got a solo on it by Stan Getz that's off the charts, man, by the great Stan Getz... It was unbelievable. That cat is unbelievable... One of my best career things was Getz [playing on] \"Small World.\" Fantastic.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 6,
+    "sources_checked": 2
+  }
+}

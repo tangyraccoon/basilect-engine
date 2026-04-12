@@ -1,0 +1,38 @@
+{
+  "influences": [
+    {
+      "name": "Phil Spector",
+      "context": "Wilson was inspired by the concept of extrasensory perception, Phil Spector's production of \"You've Lost That Lovin' Feelin'\", and recreational drugs, possibly including LSD, in creating the song.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "George Gershwin",
+      "context": "Biographer Peter Ames Carlin believed Wilson viewed the song as \"a smaller, psychedelic version\" of George Gershwin's Rhapsody in Blue.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "the Crystals",
+      "context": "Wilson likened the cello triplets to a similar effect in the Crystals' \"Da Doo Ron Ron\" (1963).",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "the Dell-Vikings",
+      "context": "Wilson likened Love's singing to the bass vocal on the Dell-Vikings' \"Come Go with Me\"",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Wilson Pickett",
+      "context": "Mike Love's first impression of \"Good Vibrations\" was that it sounded like the \"very heavy R&B\" associated with singer Wilson Pickett.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Chuck Berry",
+      "context": "The song, heavily influenced by Chuck Berry's \"Sweet Little Sixteen,\" became an anthem for the surf rock genre.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 6,
+    "sources_checked": 4
+  }
+}

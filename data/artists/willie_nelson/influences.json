@@ -1,0 +1,28 @@
+{
+  "influences": [
+    {
+      "name": "Bobbie Nelson",
+      "context": "Nelson frequently writes songs with his sister Bobbie, who plays piano in his band. Their lifelong musical partnership has produced numerous hits and fan favorites.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Lukas Nelson",
+      "context": "His children, including Lukas and Micah Nelson, have also contributed to his songwriting process. These collaborations blend generational perspectives and musical styles.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Micah Nelson",
+      "context": "His children, including Lukas and Micah Nelson, have also contributed to his songwriting process. These collaborations blend generational perspectives and musical styles.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Kris Kristofferson",
+      "context": "He recalls the late Kris Kristofferson, calling him \"the greatest songwriter alive\" and reflects on their shared memories of music and friendship. \"Kris was a great friend of mine. I hated to lose him. That was a sad time,\" he says.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 4,
+    "sources_checked": 4
+  }
+}

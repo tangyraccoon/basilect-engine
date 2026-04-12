@@ -1,0 +1,18 @@
+{
+  "influences": [
+    {
+      "name": "Slim Dusty",
+      "context": "we've done all kinds of music over the years and worked with legends like Slim Dusty, John Fogerty, Tim Finn, and John Williamson",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Lucky Oceans",
+      "context": "we brought in some pros like Lucky Oceans from Asleep at the Wheel who played steel guitar on most of the album",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 2,
+    "sources_checked": 1
+  }
+}

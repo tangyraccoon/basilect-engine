@@ -1,0 +1,140 @@
+{
+  "tags": [
+    {
+      "tag": "multi_instrumental",
+      "category": "approach",
+      "weight": 1.0,
+      "raw_score": 16
+    },
+    {
+      "tag": "collaborative_production",
+      "category": "approach",
+      "weight": 0.812,
+      "raw_score": 13
+    },
+    {
+      "tag": "vocal_focused",
+      "category": "approach",
+      "weight": 0.625,
+      "raw_score": 10
+    },
+    {
+      "tag": "hybrid",
+      "category": "philosophy",
+      "weight": 0.562,
+      "raw_score": 9
+    },
+    {
+      "tag": "acoustic",
+      "category": "approach",
+      "weight": 0.5,
+      "raw_score": 8
+    },
+    {
+      "tag": "intuitive",
+      "category": "philosophy",
+      "weight": 0.438,
+      "raw_score": 7
+    },
+    {
+      "tag": "emotional",
+      "category": "philosophy",
+      "weight": 0.375,
+      "raw_score": 6
+    },
+    {
+      "tag": "collaborative",
+      "category": "philosophy",
+      "weight": 0.375,
+      "raw_score": 6
+    },
+    {
+      "tag": "accessible",
+      "category": "approach",
+      "weight": 0.25,
+      "raw_score": 4
+    },
+    {
+      "tag": "traditional",
+      "category": "philosophy",
+      "weight": 0.25,
+      "raw_score": 4
+    },
+    {
+      "tag": "autobiographical",
+      "category": "philosophy",
+      "weight": 0.188,
+      "raw_score": 3
+    },
+    {
+      "tag": "orchestration",
+      "category": "process",
+      "weight": 0.188,
+      "raw_score": 3
+    },
+    {
+      "tag": "arrangement_focused",
+      "category": "process",
+      "weight": 0.188,
+      "raw_score": 3
+    },
+    {
+      "tag": "cover_interpretation",
+      "category": "philosophy",
+      "weight": 0.188,
+      "raw_score": 3
+    },
+    {
+      "tag": "live_performance",
+      "category": "approach",
+      "weight": 0.188,
+      "raw_score": 3
+    },
+    {
+      "tag": "repetition",
+      "category": "process",
+      "weight": 0.188,
+      "raw_score": 3
+    },
+    {
+      "tag": "cultural_fusion",
+      "category": "process",
+      "weight": 0.188,
+      "raw_score": 3
+    },
+    {
+      "tag": "simplicity",
+      "category": "philosophy",
+      "weight": 0.188,
+      "raw_score": 3
+    },
+    {
+      "tag": "unifying_message",
+      "category": "philosophy",
+      "weight": 0.188,
+      "raw_score": 3
+    },
+    {
+      "tag": "minimalism",
+      "category": "process",
+      "weight": 0.125,
+      "raw_score": 2
+    },
+    {
+      "tag": "strategic",
+      "category": "philosophy",
+      "weight": 0.125,
+      "raw_score": 2
+    },
+    {
+      "tag": "hi_fi",
+      "category": "approach",
+      "weight": 0.125,
+      "raw_score": 2
+    }
+  ],
+  "meta": {
+    "count": 22,
+    "sources_checked": 7
+  }
+}

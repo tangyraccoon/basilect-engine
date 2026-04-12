@@ -1,0 +1,28 @@
+{
+  "influences": [
+    {
+      "name": "Stevie Wonder",
+      "context": "I remember Stevie [Wonder's] song, I always loved the harmonica. So I started it, but there were things on it that I couldn't do... Stevie things. That's why I called him. I said, 'Stevie, I've done this song and there are parts that I just can't do. I only hear you and I need you to come do it.'",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Bernadette Peters",
+      "context": "Bernadette Peters said, 'I've got a genius teacher,' and she was and she is and she's one of my closest, dearest friends.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Etta James",
+      "context": "There are people that I admire, like Etta James, and a lot of times you carry these people from your childhood.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Georgia Allman (Cher's mother)",
+      "context": "My mother introduced me to old movies, there was one channel and that's what they played, so my mother taught me how to appreciate things from a past that I couldn't know.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 4,
+    "sources_checked": 3
+  }
+}

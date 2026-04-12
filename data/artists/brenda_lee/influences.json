@@ -1,0 +1,38 @@
+{
+  "influences": [
+    {
+      "name": "Elvis Presley",
+      "context": "Her musical journey was shaped by the profound influence of legendary figures like Elvis Presley, Patsy Cline, and Hank Williams, whose brilliance left an indelible mark on her artistry.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Patsy Cline",
+      "context": "Her musical journey was shaped by the profound influence of legendary figures like Elvis Presley, Patsy Cline, and Hank Williams, whose brilliance left an indelible mark on her artistry.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Hank Williams",
+      "context": "Her musical journey was shaped by the profound influence of legendary figures like Elvis Presley, Patsy Cline, and Hank Williams, whose brilliance left an indelible mark on her artistry.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Owen Bradley",
+      "context": "Lee gives much of the credit for her commercial breakthrough to legendary producer Owen Bradley, who employed Nashville's \"A-Team\"—pianist Floyd Cramer, saxman Boots Randolph, drummer Buddy Harman, bassist Bob Moore, and guitarists Grady Martin and Hank Garland.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Ink Spots",
+      "context": "I was a big fan [of the Ink Spots] because of my producer, Owen Bradley. And they used to recite words in their songs. So I said, 'Why not do a recitation [to lengthen the song]?' And so that's where the recitation in 'I'm Sorry' came from.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Red Foley",
+      "context": "it was country star Red Foley who ultimately helped her get her start in the music industry.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 6,
+    "sources_checked": 5
+  }
+}

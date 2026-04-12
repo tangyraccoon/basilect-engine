@@ -1,0 +1,49 @@
+{
+  "artist_id": "animal_collective",
+  "artist_name": "Animal Collective",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:12:16.859802+00:00",
+      "result": "11 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:12:32.375918+00:00",
+      "result": "10/11 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:12:52.603868+00:00",
+      "result": "20 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:12:57.121121+00:00",
+      "result": "9 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:12:57.933271+00:00",
+      "result": "6/9 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:13:11.876030+00:00",
+      "result": "13 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:13:53.954930+00:00",
+      "result": "53 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:14:36.342442+00:00",
+      "result": "45 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-11T22:14:36.342521+00:00"
+}

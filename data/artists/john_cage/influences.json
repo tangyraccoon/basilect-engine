@@ -1,0 +1,28 @@
+{
+  "influences": [
+    {
+      "name": "Henry Cowell",
+      "context": "He regarded Henry Cowell as \"the open sesame for new music,\" acknowledging Cowell's contributions to aleatory music and his pioneering work with the \"string piano,\" which encouraged manipulation of piano strings in innovative ways.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "D. T. Suzuki",
+      "context": "During one of his lectures, Suzuki encouraged Cage to \"let the sounds be themselves,\" urging him to create music that expanded the audience's worldview. This encouragement resonated with Cage's profound appreciation for noise.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Huang Po",
+      "context": "Perhaps he was thinking of Huang Po and the buddha-nature of stones and cigarette butts.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "An artist friend",
+      "context": "inspired by a bird's wing brush an artist friend had given him",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 4,
+    "sources_checked": 4
+  }
+}

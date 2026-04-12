@@ -1,0 +1,43 @@
+{
+  "influences": [
+    {
+      "name": "Blues and Jazz musicians",
+      "context": "Davies grew up on blues and jazz while Hodgson leaned towards an artier strain of pop.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Pink Floyd",
+      "context": "A plea for intuition rather than regimented education, perhaps comparable to that later advocated by Pink Floyd in The Wall",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Platters",
+      "context": "the call-and-response coda, which feels like The Platters or The Inkspots if they'd been directed by David Lynch",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Inkspots",
+      "context": "the call-and-response coda, which feels like The Platters or The Inkspots if they'd been directed by David Lynch",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Elton John",
+      "context": "Davies' vocal and piano bear a marked resemblance to the Captain Fantastic era of Elton John",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Phil Collins",
+      "context": "There's a hint of Phil Collins to Davies' ruddy-cheeked vocal.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Count Basie",
+      "context": "the rhythm is bolstered by handclaps and a Count Basie citation",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 7,
+    "sources_checked": 4
+  }
+}

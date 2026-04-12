@@ -1,0 +1,43 @@
+{
+  "quotes": [
+    {
+      "text": "Compared to the prior two albums, Real Things is incredibly slick and polished, all hints of Belgian rave roots completely varnished away. Instead, they've adopted the sounds of Germany and Italy, though did so in their own way.",
+      "publication": "Quality Music",
+      "date": "2015-02-27"
+    },
+    {
+      "text": "Even at the height of euro-dance's glut, you couldn't mistake a 2 Unlimited cut for any other, Ray and Anita among the most distinctive rap-and-singer combos that scene ever produced.",
+      "publication": "Quality Music",
+      "date": "2015-02-27"
+    },
+    {
+      "text": "It's as though being original is a good thing!",
+      "publication": "Quality Music",
+      "date": "2015-02-27"
+    },
+    {
+      "text": "Jean-Paul De Coster and Phil Wilde met in their hometown of Antwerp, Belgium, and created 2 Unlimited in their studio, initially without any performers or vocalists.",
+      "publication": "En.Wikipedia.Org",
+      "date": ""
+    },
+    {
+      "text": "De Coster and Wilde had initially created an instrumental track called \"Get Ready for This\" in May 1991, but they wanted to try out some rap vocals on it.",
+      "publication": "En.Wikipedia.Org",
+      "date": ""
+    },
+    {
+      "text": "The repetitive nature of the song helped it become their most successful single to date and by far the best remembered by the general public.",
+      "publication": "En.Wikipedia.Org",
+      "date": ""
+    }
+  ],
+  "corpus_meta": {
+    "quote_count": 6,
+    "source_count": 2,
+    "date_range": [
+      "2015",
+      "2015"
+    ],
+    "corpus_valid": true
+  }
+}

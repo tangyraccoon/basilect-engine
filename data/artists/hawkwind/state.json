@@ -1,0 +1,49 @@
+{
+  "artist_id": "hawkwind",
+  "artist_name": "Hawkwind",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:16:07.602266+00:00",
+      "result": "5 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:16:14.840988+00:00",
+      "result": "4/5 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:16:26.971894+00:00",
+      "result": "11 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:16:31.710860+00:00",
+      "result": "8 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:16:38.965572+00:00",
+      "result": "5/8 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:16:55.457398+00:00",
+      "result": "30 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:17:07.343921+00:00",
+      "result": "6 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:17:31.924553+00:00",
+      "result": "36 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-12T16:17:31.924918+00:00"
+}

@@ -1,0 +1,58 @@
+{
+  "influences": [
+    {
+      "name": "Queen",
+      "context": "It wasn't until we actually went to a concert of a Brazilian metal band called Dorsal Atlântica... Soccer was my only passion until we saw Queen. That Queen concert changed our lives. Me and my brother Iggor became rock and rollers the next day.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Black Sabbath",
+      "context": "A little bit later, we met some older guys that were wearing Black Sabbath and Deep Purple t-shirts... I remember learning Black Sabbath's 'Heaven and Hell'—that's probably the first riff I ever learned.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Deep Purple",
+      "context": "A little bit later, we met some older guys that were wearing Black Sabbath and Deep Purple t-shirts... I remember getting Deep Purple's 'Smoke on the Water'",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "AC/DC",
+      "context": "One of them took us to see the AC/DC movie, Let There Be Rock. We saw that in a movie theater, and it was awesome.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Led Zeppelin",
+      "context": "Then I also went to see the Led Zeppelin movie, The Song Remains The Same, which was really cool... then Zeppelin's 'Whole Lotta Love.'",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Dorsal Atlântica",
+      "context": "We went to a concert of a Brazilian metal band called Dorsal Atlântica, about eight hours drive from our city... Seeing Brazilian guys doing that made me and Iggor realize, 'If they can do it, we can do it.' They sounded awesome, like Venom and Hellhammer, so we jumped on that.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Roger Taylor",
+      "context": "Roger Taylor from Queen had a solo record, Fun In Space. I loved that record, and still do. So, I went and wrote a rocking song similar to that.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Possessed",
+      "context": "I loved the band Possessed, but it was also referring to the state I would get in when I played those shows... That's why my nickname became Max Possessed.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "U2",
+      "context": "'Beneath the Remains' is an anti-war song, very influenced by U2. I was listening a lot to their War album at that time.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Dante Alighieri",
+      "context": "the inspiration behind their unique take on Dante Alighieri's The Divine Comedy",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 10,
+    "sources_checked": 4
+  }
+}

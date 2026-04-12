@@ -1,0 +1,43 @@
+{
+  "influences": [
+    {
+      "name": "The Beatles",
+      "context": "I grew up in the 60s, so I listened to a lot of Beatles.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Alice Cooper",
+      "context": "the first albums I bought were during the glam rock period. That was times with Alice Cooper and David Bowie and T. Rex and Sweet",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "David Bowie",
+      "context": "the first albums I bought were during the glam rock period. That was times with Alice Cooper and David Bowie and T. Rex and Sweet",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "T. Rex",
+      "context": "the first albums I bought were during the glam rock period. That was times with Alice Cooper and David Bowie and T. Rex and Sweet",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Sweet",
+      "context": "the first albums I bought were during the glam rock period. That was times with Alice Cooper and David Bowie and T. Rex and Sweet",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Rainbow",
+      "context": "When I think back of my favorite album is those days, must be like Rainbow Rising with songs like 'Stargazer.' That really shaped me in my formative years.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "John Lennon",
+      "context": "I told you I grew up listening to the Beatles, so yeah someone like John Lennon would have been amazing.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 7,
+    "sources_checked": 3
+  }
+}

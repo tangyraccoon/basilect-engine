@@ -1,0 +1,73 @@
+{
+  "influences": [
+    {
+      "name": "Kraftwerk",
+      "context": "The whole band had been listening to Kraftwerk at the time, which had them all inspired to add a little 'electronic flavour' into their creative process.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Shangri-Las",
+      "context": "The Blondie sound is eclectic, to say the least, ranging from the Shangri-Las to surf music, to sci-fi acid rock fusing with the mambo.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Dylan",
+      "context": "I always liked Dylan, the Stones, the Beatles, the usual shit.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Stones",
+      "context": "I always liked Dylan, the Stones, the Beatles, the usual shit. I still like the Stones.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Beatles",
+      "context": "I always liked Dylan, the Stones, the Beatles, the usual shit.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Dave Brubeck",
+      "context": "I used to like Dave Brubeck a lot.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Henry Mancini",
+      "context": "I liked Henry Mancini a lot too. And soundtracks.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Runaways",
+      "context": "I like the Runaways. They're a big influence on me.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Doja Cat",
+      "context": "I really like Doja Cat",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Sabrina Carpenter",
+      "context": "'Espresso' by Sabrina Carpenter I've been playing to death",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Napalm Death",
+      "context": "There's Napalm Death and Slipknot, and Amyl And The Sniffers who are some of my favourites",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Slipknot",
+      "context": "There's Napalm Death and Slipknot, and Amyl And The Sniffers who are some of my favourites",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Amyl And The Sniffers",
+      "context": "There's Napalm Death and Slipknot, and Amyl And The Sniffers who are some of my favourites",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 13,
+    "sources_checked": 3
+  }
+}

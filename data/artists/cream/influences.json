@@ -1,0 +1,28 @@
+{
+  "influences": [
+    {
+      "name": "Jack Bruce",
+      "context": "I grew up around my father, collaborated with him, and learned from him.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Jimi Hendrix",
+      "context": "Hendrix had a positive effect on everybody, especially guitar players. He came to the sessions when we [Cream] did White Room in New York and was very encouraging about the song.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "George Harrison",
+      "context": "I met George during the session Cream did for Badge, and I was very impressed with his playing [under the pseudonym L'Angelo Mysterioso]... when you actually play with George you could see what an amazing guitar player he was, doing things that I hadn't even thought of.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "John McLaughlin",
+      "context": "When I first knew him he was a good guitar player, but I wouldn't put him any higher than that. Then I think he got into his meditation, Sri Chimnoy, and it seemed to really work for him. He became very turned on musically.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 4,
+    "sources_checked": 3
+  }
+}

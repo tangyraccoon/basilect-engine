@@ -1,0 +1,33 @@
+{
+  "influences": [
+    {
+      "name": "Bessie Smith",
+      "context": "Joplin's Texas roots connected her to blues legends like Bessie Smith, whom she idolized.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Lead Belly",
+      "context": "Blues roots: Lead Belly fan.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Aretha",
+      "context": "Inspo: Aretha, Odetta.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Odetta",
+      "context": "Inspo: Aretha, Odetta.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Kris Kristofferson",
+      "context": "'Me and Bobby McGee' – with the famous line 'Freedom's just another word for nothing left to lose' – topped charts posthumously. Written by Kris Kristofferson, it became an anthem for anyone chasing dreams.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 5,
+    "sources_checked": 1
+  }
+}

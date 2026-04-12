@@ -1,0 +1,43 @@
+{
+  "influences": [
+    {
+      "name": "Phil Collins",
+      "context": "On his initial solo albums, he partnered with Phil Collins -- the man with the golden touch when it came to early '80s mainstream rock that could be ground-breaking and massively popular simultaneously",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Soundgarden",
+      "context": "A song like \"Calling To You\" at once sounds almost like something Soundgarden themselves could've written for 1994's Superunknown and also lets you imagine what a '90s Zeppelin record could've been like",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Jeff Buckley",
+      "context": "there are songs on Walking Into Clarksdale that sound like Page and Plant filtering themselves through people they inspired, like Soundgarden or Jeff Buckley",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Alison Krauss",
+      "context": "On some of these albums, he dove headlong into one thing, like 2007's collaboration with Alison Krauss, the acclaimed roots album Raising Sand",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "T Bone Burnett",
+      "context": "the two of them, with the guiding hand of T Bone Burnett, made a great album together",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Everly Brothers",
+      "context": "Originally a sunny '60s pop track by the Everly Brothers, the rendition on Raising Sand was consistent with the atmosphere of the record",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Leadbelly",
+      "context": "What started as a casual invitation to sing Leadbelly at a tribute turned into the Grammy-stacking Raising Sand",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 7,
+    "sources_checked": 4
+  }
+}

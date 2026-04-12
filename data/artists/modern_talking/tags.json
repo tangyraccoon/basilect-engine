@@ -1,0 +1,104 @@
+{
+  "tags": [
+    {
+      "tag": "vocal_focused",
+      "category": "approach",
+      "weight": 1.0,
+      "raw_score": 11
+    },
+    {
+      "tag": "collaborative_production",
+      "category": "approach",
+      "weight": 0.818,
+      "raw_score": 9
+    },
+    {
+      "tag": "synthesis",
+      "category": "process",
+      "weight": 0.818,
+      "raw_score": 9
+    },
+    {
+      "tag": "commercial",
+      "category": "philosophy",
+      "weight": 0.818,
+      "raw_score": 9
+    },
+    {
+      "tag": "electronic",
+      "category": "approach",
+      "weight": 0.727,
+      "raw_score": 8
+    },
+    {
+      "tag": "hi_fi",
+      "category": "approach",
+      "weight": 0.636,
+      "raw_score": 7
+    },
+    {
+      "tag": "short_form",
+      "category": "approach",
+      "weight": 0.636,
+      "raw_score": 7
+    },
+    {
+      "tag": "playful",
+      "category": "philosophy",
+      "weight": 0.545,
+      "raw_score": 6
+    },
+    {
+      "tag": "catchy",
+      "category": "philosophy",
+      "weight": 0.273,
+      "raw_score": 3
+    },
+    {
+      "tag": "accessible",
+      "category": "philosophy",
+      "weight": 0.273,
+      "raw_score": 3
+    },
+    {
+      "tag": "vocal_processing",
+      "category": "process",
+      "weight": 0.273,
+      "raw_score": 3
+    },
+    {
+      "tag": "melodic_composition",
+      "category": "process",
+      "weight": 0.273,
+      "raw_score": 3
+    },
+    {
+      "tag": "pop_sensibility",
+      "category": "philosophy",
+      "weight": 0.273,
+      "raw_score": 3
+    },
+    {
+      "tag": "collaborative",
+      "category": "philosophy",
+      "weight": 0.273,
+      "raw_score": 3
+    },
+    {
+      "tag": "layering",
+      "category": "process",
+      "weight": 0.182,
+      "raw_score": 2
+    },
+    {
+      "tag": "intellectual",
+      "category": "philosophy",
+      "weight": 0.182,
+      "raw_score": 2
+    }
+  ],
+  "meta": {
+    "count": 16,
+    "sources_checked": 5
+  }
+}

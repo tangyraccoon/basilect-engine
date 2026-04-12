@@ -1,0 +1,123 @@
+{
+  "influences": [
+    {
+      "name": "Louis Armstrong",
+      "context": "\"You can't play anything on a horn that Louis hasn't played.\" and \"I love Pops\" (Louis' nickname) … Louis has been through all kinds of styles. That's good tuba, by the way. You know you can't play anything on a horn that Louis hasn't played — I mean even modern. I love his approach to the trumpet; he never sounds bad. He plays on the beat — with feeling.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Coleman Hawkins",
+      "context": "Coleman Hawkins told me never to play with someone older than me, and I never have. With older players, there's no force, no drive. With younger players, it's not that you know it all, or I know it all—it's I'm trying to learn it all.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Roy Eldridge",
+      "context": "I know what the power of silence is. When I used to play in clubs, everybody was loud; there was a lot of noise. So I would take my mute off the microphone, and I would play something so soft that you could hardly hear it... and you talk about listening. Roy Eldridge did that. He's one of my favorites.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Gil Evans",
+      "context": "He never wasted a melody. He never wasted a phrase. He and Duke Ellington changed the whole sound. There is no way to describe it because there's nobody on this earth that can do that anymore. What he did to the texture of an orchestration, what he did with a pop song is like writing an original piece.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Lee Konitz",
+      "context": "I remember one time when I hired Lee Konitz, some colored cats bitched a lot about me hiring an ofay in my band when Negroes didn't have work. I said if a cat could play like Lee, I would hire him",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Joe Zawinul",
+      "context": "I think the first time was when I heard Cannonball [Adderley, saxophonist] play \"Mercy, Mercy, Mercy\" with Joe Zawinul. I think Joe probably turned me onto that.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Herbie Hancock",
+      "context": "But then Herbie [Hancock] played so good on the Rhodes.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Keith Jarrett",
+      "context": "You know, they guys who can play piano that I like — Keith Jarrett, Chick Corea, Herbie — they get that sound out of the piano.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Fats Navarro",
+      "context": "You know, Keith can do anything he wants to do or play any instrument he wants to play — guitar, drums, saxophone. [Trumpeter] Fats Navarro used to do that.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Mabel",
+      "context": "A woman named Mabel showed me how to voice my first chords.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Sarah Vaughan",
+      "context": "Sarah Vaughan showed me things like \"Embraceable You\"",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Dizzy Gillespie",
+      "context": "Dizzy and Monk showed me stuff. I asked Dizzy and Monk so many questions. Dizzy used to show me those minor sixths in the bass.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Thelonious Monk",
+      "context": "Dizzy and Monk showed me stuff. I asked Dizzy and Monk so many questions... I'd say, \"Monk, what is that chord?\" And he would always tell me.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Prince",
+      "context": "I'm crazy about the way Prince sounds, and the way Jimmy Jam and Terry Lewis do things, and Cameo.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Jimmy Jam",
+      "context": "I'm crazy about the way Prince sounds, and the way Jimmy Jam and Terry Lewis do things, and Cameo.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Terry Lewis",
+      "context": "I'm crazy about the way Prince sounds, and the way Jimmy Jam and Terry Lewis do things, and Cameo.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Bill Evans",
+      "context": "Well, Bill had this thing for Ravel. We were both crazy about Ravel. He used to show me different things that Ravel did.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Ravel",
+      "context": "Well, Bill had this thing for Ravel. We were both crazy about Ravel. He used to show me different things that Ravel did. He'd play me that Concerto for the Left Hand and show me the modulations that Ravel did.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Red Garland",
+      "context": "I like the way Red feeds the soloist. Also, I was in love with the way Ahmad Jamal plays, and Red used to play something like that.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Ahmad Jamal",
+      "context": "Also, I was in love with the way Ahmad Jamal plays, and Red used to play something like that.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Marcus Miller",
+      "context": "Well, all of my bass lines, the ones I like, come from Marcus [Miller], when he was with the band. It's just the way he plays.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Wayne Shorter",
+      "context": "If you want a model of a musician, I would pick Marcus and Herbie and Wayne [Shorter].",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Charlie Parker",
+      "context": "You know, I tried to get [Charles] Mingus in the band when I was with Bird [Charlie Parker] and Max [Roach]",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 23,
+    "sources_checked": 4
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "influences": [
+    {
+      "name": "Sam James",
+      "context": "I actually just had this conversation with Sam James last night. He's a very accomplished blues musician and writer around here, and we were literally talking about how, no, there isn't a moment where you stop feeling like that [art kid].",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Rossini",
+      "context": "I think it was Rossini who rented a room and refused to get out of bed, choosing instead to write musical scores all day until he drifted off into sleep... I imagined Ryan working in a similar way, writing on average, one or two songs per day.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Bruce Springsteen",
+      "context": "At times he sounds very like a young Bruce Springsteen. Many of the themes he uses have been explored on other albums to much greater effect.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 3,
+    "sources_checked": 4
+  }
+}

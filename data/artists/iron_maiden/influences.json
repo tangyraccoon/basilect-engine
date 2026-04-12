@@ -1,0 +1,43 @@
+{
+  "influences": [
+    {
+      "name": "Beethoven",
+      "context": "Roy got to see Immortal Beloved, the movie about Beethoven with Gary Oldman as Beethoven, come home feeling inspired, decided to pull an all nighter, just put a drum machine down and a sample of Beethoven's \"Moonlight Sonata,\" a load of guitars and keyboards over it.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "David Bowie",
+      "context": "somebody turned around and said, \"That sounds a bit almost like David Bowie-ish.\" I went, \"Well, I didn't think that, but okay, all right.\"",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Screaming Lord Sutch",
+      "context": "\"Rain on the Graves,\" which is just a riot. I mean, it's just, you know, Screaming Lord Sutch meets, you know, like the bastard son of Johnny Cash in the graveyard",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Johnny Cash",
+      "context": "Screaming Lord Sutch meets, you know, like the bastard son of Johnny Cash in the graveyard",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Ennio Morricone",
+      "context": "I aspire towards, you know, a bit of Ennio Morricone on the beginning of one or two songs",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Deep Purple",
+      "context": "It reminded me of discovering Deep Purple when I was 15 years old, except updated. It had the same energy.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Rainbow",
+      "context": "Suddenly, we're at Musicland Studios in Munich. This is where Rainbow did Rainbow Rising.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 7,
+    "sources_checked": 4
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "influences": [
+    {
+      "name": "Chas Konnecki",
+      "context": "Chas taught me all about it. Things that make ninety families happy. I learned about drills and lathes, and grinding wheels and electricity, and switches, all kinds of switches. Chas taught me about fuses and the \"new\" circuit breakers and how to prime galvanized aluminum for paint preparation. He supervised my customized, built from iron bed frames and wheelbarrow wheels and door hinges and tractor steering mechanisms",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Sam Levinson",
+      "context": "And there was also Sam the TV repairman, whom I hovered over when he came to repair our ever breaking Dumont black and white TV. He'd describe the parts in the TV to me as he repaired away",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Great Aunt Helen",
+      "context": "Early piano lessons from 6 years old became my musical foundation, and my Great Aunt Helen's perpetual harmonizing in my ear led to my vocal involvement in my Doo Wop group at 13 years old",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Dave Sarser",
+      "context": "But, when I finally got the job working for the guy who built Les Paul and Mary Ford's home studio in the '40's, Dave Sarser",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Grant Ellerbach",
+      "context": "as a result of my technical tutoring from inspirational mentors and knowledge givers, Dave Sarser-Studio 3, Grant Ellerbach of Kapp Records",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Penn Stevens",
+      "context": "as a result of my technical tutoring from inspirational mentors and knowledge givers, Dave Sarser-Studio 3, Grant Ellerbach of Kapp Records, Penn Stevens and Paul Prestipino at the Record Plant",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Paul Prestipino",
+      "context": "as a result of my technical tutoring from inspirational mentors and knowledge givers, Dave Sarser-Studio 3, Grant Ellerbach of Kapp Records, Penn Stevens and Paul Prestipino at the Record Plant",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Eric Porterfield",
+      "context": "as a result of my technical tutoring from inspirational mentors and knowledge givers, Dave Sarser-Studio 3, Grant Ellerbach of Kapp Records, Penn Stevens and Paul Prestipino at the Record Plant and Eric Porterfield of Columbia Records",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 8,
+    "sources_checked": 2
+  }
+}

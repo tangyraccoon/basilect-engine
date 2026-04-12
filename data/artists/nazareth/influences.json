@@ -1,0 +1,53 @@
+{
+  "influences": [
+    {
+      "name": "Young Jean Lee",
+      "context": "I always return back to Young Jean Lee. In my opinion she is the epitome of American theater, in all the very fraught and brilliant ways that she works. I worked with her for some time and I appreciated the way that she makes a performance.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "OutKast",
+      "context": "OutKast. Outkast is very inspiring to me. I think they are just amazing. Musically they are very inspiring, and they have these skits inside their albums that are like, crazy, and so complex and really shape the story of the album.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Amiri Baraka",
+      "context": "Amiri Baraka, he's also a fraught, dangerous man.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Toshiki Okada",
+      "context": "I like Toshiki Okada. He's a Japanese writer and director working now. He works a lot in Germany. He similarly writes these texts that are fuckin bonkers.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Moon Bo Young",
+      "context": "There's a poet, Moon Bo Young, who's Korean, love her.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Nina Simone",
+      "context": "Nina Simone, also! Nina Simone, amazing. She's deeply inspiring to me.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Band",
+      "context": "The band Nazareth took their name from the song \"The Weight\" by The Band, which contains the lyrics, \"I pulled into Nazareth, was feelin' about half-past dead.\" The band members felt that the name had a strong and memorable impact, perfectly representing their music.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Nazareth Hassan's dad",
+      "context": "my dad and my grandma were musicians. I started playing piano and training as a singer",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Nazareth Hassan's grandma",
+      "context": "my dad and my grandma were musicians. I started playing piano and training as a singer",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 9,
+    "sources_checked": 4
+  }
+}

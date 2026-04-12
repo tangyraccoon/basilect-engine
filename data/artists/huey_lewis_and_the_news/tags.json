@@ -1,0 +1,122 @@
+{
+  "tags": [
+    {
+      "tag": "collaborative",
+      "category": "philosophy",
+      "weight": 1.0,
+      "raw_score": 13
+    },
+    {
+      "tag": "vocal_focused",
+      "category": "approach",
+      "weight": 0.923,
+      "raw_score": 12
+    },
+    {
+      "tag": "playful",
+      "category": "philosophy",
+      "weight": 0.846,
+      "raw_score": 11
+    },
+    {
+      "tag": "multi_instrumental",
+      "category": "approach",
+      "weight": 0.846,
+      "raw_score": 11
+    },
+    {
+      "tag": "short_form",
+      "category": "approach",
+      "weight": 0.692,
+      "raw_score": 9
+    },
+    {
+      "tag": "commercial",
+      "category": "philosophy",
+      "weight": 0.692,
+      "raw_score": 9
+    },
+    {
+      "tag": "hi_fi",
+      "category": "approach",
+      "weight": 0.615,
+      "raw_score": 8
+    },
+    {
+      "tag": "live_performance",
+      "category": "approach",
+      "weight": 0.538,
+      "raw_score": 7
+    },
+    {
+      "tag": "intuitive",
+      "category": "philosophy",
+      "weight": 0.538,
+      "raw_score": 7
+    },
+    {
+      "tag": "collaborative_production",
+      "category": "approach",
+      "weight": 0.462,
+      "raw_score": 6
+    },
+    {
+      "tag": "narrative",
+      "category": "philosophy",
+      "weight": 0.385,
+      "raw_score": 5
+    },
+    {
+      "tag": "hybrid_production",
+      "category": "approach",
+      "weight": 0.308,
+      "raw_score": 4
+    },
+    {
+      "tag": "digital",
+      "category": "approach",
+      "weight": 0.308,
+      "raw_score": 4
+    },
+    {
+      "tag": "tight_band",
+      "category": "approach",
+      "weight": 0.231,
+      "raw_score": 3
+    },
+    {
+      "tag": "economical_precision",
+      "category": "process",
+      "weight": 0.231,
+      "raw_score": 3
+    },
+    {
+      "tag": "memorable_hooks",
+      "category": "process",
+      "weight": 0.231,
+      "raw_score": 3
+    },
+    {
+      "tag": "traditional",
+      "category": "philosophy",
+      "weight": 0.154,
+      "raw_score": 2
+    },
+    {
+      "tag": "hybrid",
+      "category": "philosophy",
+      "weight": 0.154,
+      "raw_score": 2
+    },
+    {
+      "tag": "emotional",
+      "category": "philosophy",
+      "weight": 0.077,
+      "raw_score": 1
+    }
+  ],
+  "meta": {
+    "count": 19,
+    "sources_checked": 6
+  }
+}

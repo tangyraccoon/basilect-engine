@@ -1,0 +1,18 @@
+{
+  "influences": [
+    {
+      "name": "Marvin Gaye",
+      "context": "There are a lot of influences but Marvin Gaye and Whitney Houston will always be at the very top of my list. They are just part of my musical DNA.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Whitney Houston",
+      "context": "There are a lot of influences but Marvin Gaye and Whitney Houston will always be at the very top of my list. They are just part of my musical DNA.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 2,
+    "sources_checked": 3
+  }
+}

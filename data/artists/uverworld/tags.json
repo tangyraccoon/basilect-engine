@@ -1,0 +1,50 @@
+{
+  "tags": [
+    {
+      "tag": "collaborative",
+      "category": "philosophy",
+      "weight": 1.0,
+      "raw_score": 9
+    },
+    {
+      "tag": "multi_instrumental",
+      "category": "approach",
+      "weight": 1.0,
+      "raw_score": 9
+    },
+    {
+      "tag": "conceptual",
+      "category": "philosophy",
+      "weight": 0.444,
+      "raw_score": 4
+    },
+    {
+      "tag": "hybrid_production",
+      "category": "approach",
+      "weight": 0.333,
+      "raw_score": 3
+    },
+    {
+      "tag": "vocal_processing",
+      "category": "process",
+      "weight": 0.222,
+      "raw_score": 2
+    },
+    {
+      "tag": "live_performance",
+      "category": "approach",
+      "weight": 0.222,
+      "raw_score": 2
+    },
+    {
+      "tag": "ambitious",
+      "category": "philosophy",
+      "weight": 0.222,
+      "raw_score": 2
+    }
+  ],
+  "meta": {
+    "count": 7,
+    "sources_checked": 4
+  }
+}

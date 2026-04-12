@@ -1,0 +1,33 @@
+{
+  "influences": [
+    {
+      "name": "Rory Gallagher",
+      "context": "The day I first heard Rory Gallagher play on record was one of the most defining moments early on for me. It felt like his guitar was almost bursting through the speakers, and it changed my life forever. That was when I knew I was destined to play the guitar.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Eric Clapton",
+      "context": "A Clapton geek and self-confessed \"student of the students\" of the blues",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "B.B. King",
+      "context": "given the opportunity to open for B.B. King one day before his 12th birthday",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Stevie Ray Vaughan",
+      "context": "As a kid I had a picture of Stevie Ray Vaughan in my room",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Kevin Shirley",
+      "context": "[Producer] Kevin Shirley comes in the second ten years, he starts preaching songs",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 5,
+    "sources_checked": 6
+  }
+}

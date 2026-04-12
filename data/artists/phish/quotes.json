@@ -1,0 +1,25 @@
+{
+  "quotes": [
+    {
+      "text": "We're pushing a lot of technical boundaries, and we're doing a lot of things that are somewhat new … but never done for its own sake, all done very specifically to achieve what we want to do creatively.",
+      "publication": "Billboard",
+      "date": ""
+    },
+    {
+      "text": "You should just walk in and think that it was amazing, and you had a great time. If you're sitting there thinking about what it took for us to build it, then that's probably not right.",
+      "publication": "Billboard",
+      "date": ""
+    },
+    {
+      "text": "We're going to use all of the opportunities of this building — the audio, the visuals — and do it while supporting Phish truly playing music the way Phish plays music. That became really the guiding star for everything that we thought about creatively. How do we create visuals and use all the technology of this space — and not impede Phish being able to play anything they want any way they want on the night?",
+      "publication": "Billboard",
+      "date": ""
+    }
+  ],
+  "corpus_meta": {
+    "quote_count": 3,
+    "source_count": 1,
+    "date_range": [],
+    "corpus_valid": false
+  }
+}

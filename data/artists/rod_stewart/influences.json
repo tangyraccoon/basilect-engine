@@ -1,0 +1,23 @@
+{
+  "influences": [
+    {
+      "name": "Sam Cooke",
+      "context": "My inspiration still remains with some of the great black singers of our time, whether it's Sam Cooke, Billie Holiday, Otis Redding",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Billie Holiday",
+      "context": "My inspiration still remains with some of the great black singers of our time, whether it's Sam Cooke, Billie Holiday, Otis Redding",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Otis Redding",
+      "context": "My inspiration still remains with some of the great black singers of our time, whether it's Sam Cooke, Billie Holiday, Otis Redding",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 3,
+    "sources_checked": 1
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "influences": [
+    {
+      "name": "West Side Story",
+      "context": "When I was probably about 7 or 8, my parents took me to see a local production of West Side Story. The minute that Tony opened up his mouth and sang Something's Coming, I just fell in love. It just showed me in that one afternoon that there is such power in music",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "George Crumb",
+      "context": "So, if you look at something like Voice of the Whale by George Crumb, that piece is tremendous for flute, cello, and piano. Very otherworldly. So much of that is not about pitch and rhythm, although those are important to him, too.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "T.S. Eliot",
+      "context": "Her Grammy-winning composition Rounds was inspired by imagery and themes from T.S. Eliot's epic poem, Four Quartets",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Stevie Wonder",
+      "context": "Some of them are popular songs, like 'Que Sera Sera' and 'I Just Called to Say, I Love You' by Stevie Wonder. It's the length of the messages of each song.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Robbie McCauley",
+      "context": "Montgomery grew up in New York City as the daughter of the late Robbie McCauley, a prominent actor, playwright, director, and professor... Being immersed in their creative worlds from a young age has continued to shape her approach to composition.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Ed Montgomery",
+      "context": "Montgomery grew up in New York City as the daughter of... Ed Montgomery, a composer, jazz musician, and independent film maker. Being immersed in their creative worlds from a young age has continued to shape her approach to composition.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Frankie Knuckles",
+      "context": "In the 1970s, Frankie Knuckles moved from NYC to Chicago from NYC to DJ at a new club called the Warehouse. Knuckles helped innovate the genre by blending disco, funk and German electronic pop, playing obscure records, sound effects and drum machines.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "J Dilla",
+      "context": "J Dilla. I fell in love with him and all the other producers that come from that umbrella. There's a lot of that vibe in the album too, mixed with pop stuff.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Frank Ocean",
+      "context": "Frank Ocean is an all-time inspiration.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 9,
+    "sources_checked": 6
+  }
+}

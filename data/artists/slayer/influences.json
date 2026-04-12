@@ -1,0 +1,43 @@
+{
+  "influences": [
+    {
+      "name": "Alan Silvestri",
+      "context": "During his teens, he was a waiter at a local burger joint and met composer Alan Silvestri (Back to the Future, Avengers: Endgame) who frequented the spot. Silvestri invited Roberts to his studio, and it influenced Roberts to pursue a career in film composing.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Motorhead",
+      "context": "Over the years, that search never led the quartet astray from a purity of sound that shared something of the directness and consistency of Motorhead and the Ramones.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Ramones",
+      "context": "Over the years, that search never led the quartet astray from a purity of sound that shared something of the directness and consistency of Motorhead and the Ramones.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Angus Young",
+      "context": "But I just do what I've done since I was a kid: Angus Young on methamphetamines and steroids.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Jeff Hanneman",
+      "context": "He went through his punk phase, and I never gave punk a chance because I was into great singers like [Ronnie James] Dio and Halford. Thanks to Jeff, I got punk, and I've known how to incorporate that in my music ever since.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Ronnie James Dio",
+      "context": "I never gave punk a chance because I was into great singers like [Ronnie James] Dio and Halford.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Halford",
+      "context": "I never gave punk a chance because I was into great singers like [Ronnie James] Dio and Halford.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 7,
+    "sources_checked": 5
+  }
+}

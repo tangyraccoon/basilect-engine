@@ -1,0 +1,33 @@
+{
+  "influences": [
+    {
+      "name": "The Comedian Harmonists",
+      "context": "I started by studying what they did. They only had about 20 recordings at the time. And they were great, they knocked me out.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Sheldon Harnick",
+      "context": "Bruce and I need that before we start…what we're writing about. [In context of discussion about Fiddler on the Roof and Sheldon Harnick's work as lyricist]",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Jerome Robbins",
+      "context": "It was Jerome Robbins who said, 'Ah, I know what this show is about', and the show was already up at that point. [In context of Barry and Bruce discussing how they approach their work]",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Oscar Hammerstein",
+      "context": "And…what did Oscar Hammerstein say? [Referencing Hammerstein's philosophy about writing for oneself and the audience]",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Clive Davis",
+      "context": "But I'm not really good at this; it's Clive Davis' brainchild.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 5,
+    "sources_checked": 5
+  }
+}

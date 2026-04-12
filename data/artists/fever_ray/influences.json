@@ -1,0 +1,78 @@
+{
+  "influences": [
+    {
+      "name": "Marianne Faithfull",
+      "context": "In my mind they're by Marianne Faithful but writing this I've found it's actually Shel Silverstein",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Jeanette Winterson",
+      "context": "I was re-reading Jeanette Winterson's Frankissstein and so the first read went through me like a dream",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Mary Shelley",
+      "context": "This sent me down a Mary Shelley rabbit hole and gave me a whole new perspective on mother-daughter relationships and graveyards. I also did my reading on the year without summer that took place the year Mary wrote Frankenstein",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "bell hooks",
+      "context": "Radical Romantics – a rumination on love and idealism, influenced by bell hooks' 2000 tome All About Love: New Visions.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Trent Reznor and Atticus Ross",
+      "context": "Dreijer connected with Nine Inch Nails stalwarts, and now Oscar-winning soundtrack composers, Trent Reznor and Atticus Ross – the Swede admired their score for HBO's superhero drama Watchmen.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Charles Darwin",
+      "context": "The Knife composed music for the Danish Hotel Pro Forma's \"electro-opera\" Tomorrow, In A Year, adapting Charles Darwin's 1859 work On The Origin Of Species... \"I remember something that I still am thinking about a lot is the idea of that evolution,\" Dreijer says.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Sonic Youth",
+      "context": "When I was in my twenties, I listened a lot to like, Sonic Youth, and back then it was magical, how they tuned their guitars and stuff. You didn't really understand how they could make all these sounds, but now one of my kids showed me a website where you could see all the Sonic Youth tunings for every track. We have been tuning guitars in different ways and playing and then you come up with totally new ways of making sounds.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "John Waters",
+      "context": "The \"Mona Lisa\" character in their video for \"Even It Out,\" a song from Radical Romantics about a parent's violent retribution against the bully of their child, is a hyperbolic psychotic femme directly inspired by John Waters.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Robert Mapplethorpe",
+      "context": "This was one of the first art books that I got when I was young. It's Robert Mapplethorpe's photos of [first ever World Women's Bodybuilding Champion] Lisa Lyon.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Kathy Acker",
+      "context": "Then I started reading [experimental novelist] Kathy Acker, who was also into weightlifting.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Kjell Hoglund",
+      "context": "There's one man called Kjell Hoglund. He was an early synthesizer musician. This was in the '80s.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Bo Hannson",
+      "context": "There was also Bo Hannson, but I think I was drawn to music that felt queer, that used instrumentations and lyrics and vocals that were something else than the mainstream.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Cyndi Lauper",
+      "context": "When I was a kid, I listened to Cyndi Lauper and Kate Bush. That very high-pitched, girly screaming voice is an interesting place to tell stories from",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Kate Bush",
+      "context": "When I was a kid, I listened to Cyndi Lauper and Kate Bush. That very high-pitched, girly screaming voice is an interesting place to tell stories from",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 14,
+    "sources_checked": 6
+  }
+}

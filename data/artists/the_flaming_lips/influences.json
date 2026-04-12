@@ -1,0 +1,23 @@
+{
+  "influences": [
+    {
+      "name": "Jimi Hendrix",
+      "context": "I would say people talk about even a genius musician on the caliber of Jimi Hendrix or Pete Townsend -- but their stellar moments that you see are really about spectacle. I mean, Jimi Hendrix is a crazy looking dude to begin with, wore insane clothes, catches his guitar on fire.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Pete Townsend",
+      "context": "I would say people talk about even a genius musician on the caliber of Jimi Hendrix or Pete Townsend -- but their stellar moments that you see are really about spectacle. Pete Townsend's already this amazing performer, and he smashes his guitar and does all these acrobatic jumps and everything.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Butthole Surfers",
+      "context": "I ran into a friend of ours, Jeff Pinkus, from the group Butthole Surfers just over the weekend. And there was a time when we were opening up for the Butthole Surfers thinking they were one of the most creative, weirdo groups out there. We would look at them and think when they're in their 60s, they're still gonna be in flying saucers running around making music in outer space or whatever.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 3,
+    "sources_checked": 2
+  }
+}

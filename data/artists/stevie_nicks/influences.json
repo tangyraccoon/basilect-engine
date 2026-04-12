@@ -1,0 +1,103 @@
+{
+  "influences": [
+    {
+      "name": "The Shirelles",
+      "context": "I listened to lots of Top 40 R&B radio. I loved the Shirelles and Martha Reeves and the Vandellas",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Martha Reeves and the Vandellas",
+      "context": "I listened to lots of Top 40 R&B radio. I loved the Shirelles and Martha Reeves and the Vandellas",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Shangri-Las",
+      "context": "stuff like \"(Remember) Walking in the Sand\" by the Shangri-Las",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Aaron Jess Nicks (A.J.)",
+      "context": "Yeah, we'd duet on songs like [Dorsey Burnette's] \"It's Late,\" and AJ picked up that I was a good harmony singer.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Janis Joplin",
+      "context": "I learned that, small or not, you could walk on-stage with a big attitude.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Jimi Hendrix",
+      "context": "Flamboyance with humility I got from Jimi Hendrix when Fritz opened for him around 1969",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Grace Slick",
+      "context": "and then from Grace Slick of Jefferson Airplane I took slinky and floaty. I liked her look a lot.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Jimmy Page",
+      "context": "\"If Jimmy Page would play guitar with me I'd put a band around us tomorrow,\" she says.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Kate Bush",
+      "context": "I adore Kate Bush. She and I are kindred spirits.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Fleetwood Mac",
+      "context": "I love Fleetwood Mac.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Stevie Nicks",
+      "context": "Of course, Stevie Nicks. We channeled a lot of 80s and 90s on our record.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Phil Collins",
+      "context": "We'd go in and out of listening to Phil Collins, Portishead, Massive Attack.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Portishead",
+      "context": "We'd go in and out of listening to Phil Collins, Portishead, Massive Attack.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Massive Attack",
+      "context": "We'd go in and out of listening to Phil Collins, Portishead, Massive Attack.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Björk",
+      "context": "Working with someone like Kate Bush or Björk or Bono or someone who has been making their art for forever, that would be so amazing.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Bono",
+      "context": "Working with someone like Kate Bush or Björk or Bono or someone who has been making their art for forever, that would be so amazing.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Moses Sumney",
+      "context": "I'd also love to work with Moses Sumney in the near future. He's amazing to watch live and I love his recordings.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Aaron Jess Nicks",
+      "context": "Was AJ an influence? Yeah, we'd duet on songs like [Dorsey Burnette's] It's Late, and AJ picked up that I was a good harmony singer",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Mamas and the Papas",
+      "context": "a bunch of teens gathered there for a youth group social, where they'd play music on Wednesday nights. A dark-haired, blue-eyed junior from the nearby Menlo-Atherton High School sat down at the piano and played the Mamas and the Papas' 1965 counterculture anthem",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 19,
+    "sources_checked": 5
+  }
+}

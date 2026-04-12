@@ -1,0 +1,63 @@
+{
+  "influences": [
+    {
+      "name": "Pierre Schaeffer",
+      "context": "While Stockhausen was influenced by musique concrète and pioneers like Pierre Schaeffer, his approach was more systematic and controlled.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Karlheinz Stockhausen",
+      "context": "Love Stockhausen. I can see many overlapping ideas between moment form and my approach to writing electronic music",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Yuki Kaneko",
+      "context": "Yuki Kaneko's high-end detail is incredible—there are entire compositions hidden above 10 kHz! He's able to synthesize remarkably physical textures reminiscent of glass and water and carefully place them atop of a bed of lush guitars. What I love most is how these sounds come together to create such an intimate environment; you really feel like you're sitting in his apartment when listening to tracks like \"room,\" \"cu,\" or \"sii.\" I tried my best to explore these ideas in my own way on \"aperture, for meadow.\"",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Bon Iver",
+      "context": "both inspired by Bon Iver",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Shuta Hasunuma",
+      "context": "artists & groups like Shuta Hasunuma, Asa-Chang & Junray, Haruka Nakamura, U-zhaan, Visible Cloaks, Ichiko Aoba, and many, many others have had a significant impact on me",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Asa-Chang & Junray",
+      "context": "artists & groups like Shuta Hasunuma, Asa-Chang & Junray, Haruka Nakamura, U-zhaan, Visible Cloaks, Ichiko Aoba, and many, many others have had a significant impact on me",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Haruka Nakamura",
+      "context": "artists & groups like Shuta Hasunuma, Asa-Chang & Junray, Haruka Nakamura, U-zhaan, Visible Cloaks, Ichiko Aoba, and many, many others have had a significant impact on me",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "U-zhaan",
+      "context": "artists & groups like Shuta Hasunuma, Asa-Chang & Junray, Haruka Nakamura, U-zhaan, Visible Cloaks, Ichiko Aoba, and many, many others have had a significant impact on me",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Visible Cloaks",
+      "context": "artists & groups like Shuta Hasunuma, Asa-Chang & Junray, Haruka Nakamura, U-zhaan, Visible Cloaks, Ichiko Aoba, and many, many others have had a significant impact on me",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Ichiko Aoba",
+      "context": "artists & groups like Shuta Hasunuma, Asa-Chang & Junray, Haruka Nakamura, U-zhaan, Visible Cloaks, Ichiko Aoba, and many, many others have had a significant impact on me",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Porter Robinson",
+      "context": "overlapping visual languages (both inspired by Bon Iver)",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 11,
+    "sources_checked": 6
+  }
+}

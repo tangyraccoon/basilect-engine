@@ -1,0 +1,23 @@
+{
+  "influences": [
+    {
+      "name": "Dan Lanois",
+      "context": "The Roadside Attraction tour was a brilliant experience, with Dan Lanois, Tragically Hip, Crash Vegas and the Hothouse Flowers. We even all made a Greenpeace benefit record called \"Land\" with them all one night in a Calgary studio, and getting to know these great artists as people was a top ten experience.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Living End",
+      "context": "The Living End we know from Australia, and these guys take no prisoners live. I've worked with them in the studio too and they were hands down one of the best bands I've ever recorded",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Warne Livesey",
+      "context": "Bones, our bass player, has worked with Matt Good as well as our erstwhile producer Warne Livesey, an English producer now relocated to Canada, so we have heard great things about him too.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 3,
+    "sources_checked": 4
+  }
+}

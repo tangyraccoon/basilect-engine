@@ -1,0 +1,78 @@
+{
+  "influences": [
+    {
+      "name": "Nigel Godrich",
+      "context": "The production I was aiming for was like big indie records, *Nigel Godrich*-style production.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Aphex Twin",
+      "context": "like how an Aphex Twin song can give you an ambient feeling, that's achieved more through production than playing.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Radiohead",
+      "context": "I don't know, maybe I was subconsciously inspired by how some Radiohead songs feel like they were made to be in a movie.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "William Basinski",
+      "context": "I've been inspired by loop-based artists like William Basinski or Brian Eno, the way a simple, repetitive loop can make you feel something without changing much.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Brian Eno",
+      "context": "I've been inspired by loop-based artists like William Basinski or Brian Eno, the way a simple, repetitive loop can make you feel something without changing much.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Dinosaur Jr.",
+      "context": "I really blossomed when I heard Dinosaur Jr. for the first time. I was 17. That changed everything.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "T-Bone Walker",
+      "context": "By early 1953, influenced by the guitar riffs and showmanship techniques of the blues musician T-Bone Walker, Berry began performing with the Johnnie Johnson Trio.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Ira Harris",
+      "context": "He also took guitar lessons from his friend Ira Harris, which laid the foundation for his guitar style.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Nat King Cole",
+      "context": "Berry's showmanship, along with a mix of country tunes and R&B tunes, sung in the style of Nat King Cole set to the music of Muddy Waters brought in a wider audience, particularly affluent white people.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Muddy Waters",
+      "context": "Berry's showmanship, along with a mix of country tunes and R&B tunes, sung in the style of Nat King Cole set to the music of Muddy Waters brought in a wider audience, particularly affluent white people.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Louis Jordan",
+      "context": "The opening guitar riff of \"Johnny B. Goode\" is similar to the one used by Louis Jordan in his \"Ain't That Just Like a Woman\" (1946). Berry acknowledged the debt to Jordan and several sources have indicated that his work was influenced by Jordan in general.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Carl Hogan",
+      "context": "he incorporated electronic effects to mimic the sound of bottleneck blues guitarists and drew on the influence of guitar players such as Carl Hogan, and T-Bone Walker to produce a clear and exciting sound that many later guitarists would acknowledge as an influence in their own style.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Chet Atkins",
+      "context": "Howe's own path to guitar virtuosity started when he was 13 and first heard Chet Atkins. \"I'd bought a record called 'Teensville,' because it had a guitar hanging on the front in the picture and I just happened to notice who this guy was. Chet Atkins? And that was it,\" he said.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Joe Meek",
+      "context": "\"Basically, Joe was my introduction to production,\" Howe said. \"Music is subtle and things get inside of you that you don't know and production did. I noticed what he was doing and I hear it now in his sound. He was the first guy—it was kind of loopy. What's the first experience like with your first girlfriend? You just don't know. Joe was the first producer. He got bossy occasionally and got mad. He got very creative. He added delays on my guitar and he was a designer of sound. I think it was a fair enough introduction.\"",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 14,
+    "sources_checked": 6
+  }
+}

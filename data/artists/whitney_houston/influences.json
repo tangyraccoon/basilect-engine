@@ -1,0 +1,48 @@
+{
+  "influences": [
+    {
+      "name": "Brandy",
+      "context": "\"If it wasn't for Whitney Houston, there would be no me, because she was the possibility for me,\" Brandy told The Columbus Dispatch in 2012. \"She was the vision of my dreams actually coming true, and she meant everything to me.\"",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Aretha Franklin",
+      "context": "Aretha Franklin, the first woman inducted into the Rock and Roll Hall of Fame, was known as \"Auntie Ree\" at the Houston household.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Dionne Warwick",
+      "context": "Dionne Warwick is her cousin",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Cissy Houston",
+      "context": "As the youngest child and only daughter of Emily (Cissy) Houston, a professional gospel singer...she had started as a child singing backup in her mother's choir",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Barbra Streisand",
+      "context": "pointing to her early role models \"Streisand, Ella Fitzgerald, Sarah Vaughan, Aretha\" as \"pure voices who needed no gimmick.\"",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Ella Fitzgerald",
+      "context": "pointing to her early role models \"Streisand, Ella Fitzgerald, Sarah Vaughan, Aretha\" as \"pure voices who needed no gimmick.\"",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Sarah Vaughan",
+      "context": "pointing to her early role models \"Streisand, Ella Fitzgerald, Sarah Vaughan, Aretha\" as \"pure voices who needed no gimmick.\"",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Dolly Parton",
+      "context": "the first single released from the \"Bodyguard\" soundtrack, \"I Will Always Love You,\" is a pop version of the country ballad written by Dolly Parton.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 8,
+    "sources_checked": 4
+  }
+}

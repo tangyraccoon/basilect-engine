@@ -1,0 +1,63 @@
+{
+  "influences": [
+    {
+      "name": "The Strokes",
+      "context": "The band has cited influential artists such as The Strokes, The Clash, and Oasis as inspirations for their sound.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Clash",
+      "context": "The band has cited influential artists such as The Strokes, The Clash, and Oasis as inspirations for their sound.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Oasis",
+      "context": "The band has cited influential artists such as The Strokes, The Clash, and Oasis as inspirations for their sound.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Leonard Cohen",
+      "context": "Artists like Leonard Cohen, Patti Smith, and Bob Dylan have been instrumental in shaping his lyrical approach, with their poetic and introspective songwriting serving as a source of inspiration.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Patti Smith",
+      "context": "Artists like Leonard Cohen, Patti Smith, and Bob Dylan have been instrumental in shaping his lyrical approach, with their poetic and introspective songwriting serving as a source of inspiration.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Bob Dylan",
+      "context": "Artists like Leonard Cohen, Patti Smith, and Bob Dylan have been instrumental in shaping his lyrical approach, with their poetic and introspective songwriting serving as a source of inspiration.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Beatles",
+      "context": "the band recall of a set where they played four covers and four original songs - opting to take on The White Stripes' 'Hotel Yorba', Buzzcocks' 'Teenage Kicks', The Datsuns' 'Harmonic Generator' and The Beatles' 'I'm Only Sleeping'",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The White Stripes",
+      "context": "the band recall of a set where they played four covers and four original songs - opting to take on The White Stripes' 'Hotel Yorba', Buzzcocks' 'Teenage Kicks', The Datsuns' 'Harmonic Generator' and The Beatles' 'I'm Only Sleeping'",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Buzzcocks",
+      "context": "the band recall of a set where they played four covers and four original songs - opting to take on The White Stripes' 'Hotel Yorba', Buzzcocks' 'Teenage Kicks', The Datsuns' 'Harmonic Generator' and The Beatles' 'I'm Only Sleeping'",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Datsuns",
+      "context": "the band recall of a set where they played four covers and four original songs - opting to take on The White Stripes' 'Hotel Yorba', Buzzcocks' 'Teenage Kicks', The Datsuns' 'Harmonic Generator' and The Beatles' 'I'm Only Sleeping'",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "John Lennon",
+      "context": "Speaking after the performance, Turner cited listening to John Lennon as a way of calming any nerves. 'We made a playlist to play before [the set]. We just put a load of tunes on it and the last one was 'Imagine' by John Lennon. The crowd was ready for us to go on before that song dropped. We were standing behind the curtain doing what everyone else in the crowd was doing - singing along to Lennon.'",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 11,
+    "sources_checked": 5
+  }
+}

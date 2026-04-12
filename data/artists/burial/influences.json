@@ -1,0 +1,43 @@
+{
+  "influences": [
+    {
+      "name": "Ce Ce Hennix",
+      "context": "But I'm inspired by Black Quantum Futurism, Ce Ce Hennix, Sun Ra, Eliane Radigue and many other artists who are all orbiting around these themes.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Sun Ra",
+      "context": "But I'm inspired by Black Quantum Futurism, Ce Ce Hennix, Sun Ra, Eliane Radigue and many other artists who are all orbiting around these themes.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Eliane Radigue",
+      "context": "But I'm inspired by Black Quantum Futurism, Ce Ce Hennix, Sun Ra, Eliane Radigue and many other artists who are all orbiting around these themes.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Caterina Barbieri",
+      "context": "Caterina Barbieri also did this for me for my first ever EP Old World | New Ruins during a mentorship with Amplify Berlin which was founded by my partner Shub Roy. It was the first time I had made music – I explained my vision and she showed me how to realise it.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Digital",
+      "context": "\"Special Mission\" by producer Digital (from the first Metalheadz box set released in 1997) helped him realise he didn't have to be a musician to start making music.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Source Direct",
+      "context": "\"It's basically a Source Direct thing: it's pure darkness but all the elements circle. You hear something and you know at another point in the tune it's going to circle back around\" he explains.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "his older brother",
+      "context": "He was around then and used to go to those raves, and used to make tunes when he was young. I wanted to recapture that lost sound for him.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 7,
+    "sources_checked": 5
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "influences": [
+    {
+      "name": "Nat King Cole",
+      "context": "I've been listening to a lot of things but it was Nat King Cole, Unforgettable. Like Sinatra, he always had the best of everything on his recordings, starting with the best songs.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Frank Sinatra",
+      "context": "Like Sinatra, he always had the best of everything on his recordings, starting with the best songs.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Charlie Parker",
+      "context": "I learned so much from it. My father had been telling me all about him when I was still Lil' Georgie Benson.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 3,
+    "sources_checked": 1
+  }
+}

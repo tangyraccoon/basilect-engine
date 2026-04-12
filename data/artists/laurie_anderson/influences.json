@@ -1,0 +1,48 @@
+{
+  "influences": [
+    {
+      "name": "William Burroughs",
+      "context": "the concluding one read by her close friend, William Burroughs",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Gene Tyranny",
+      "context": "piano from avant-garde composer Gene Tyranny",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Bobby McFerrin",
+      "context": "Anderson elicits vocal guest turns from Bobby McFerrin",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Meat Loaf",
+      "context": "Anderson elicits vocal guest turns from Meat Loaf",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "the Roches",
+      "context": "Anderson elicits vocal guest turns from NYC siblings the Roches",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Lou Reed",
+      "context": "Produced in collaboration with long time creative counterpart Roma Baran and husband Lou Reed",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "early painting teachers",
+      "context": "Anderson spoke with fondness of her early painting teachers, who taught her it's OK to break the rules and to find your own form of expression. \"One of my teachers told me that when you're really stuck, try to do your worst work and I think you'll find that it could become your best work, because you don't have all of those rules,\" she said.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Brian Eno",
+      "context": "Brian Eno: As a fellow pioneer of ambient and experimental music, Eno's partnership with Anderson has yielded fascinating explorations of soundscapes.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 8,
+    "sources_checked": 5
+  }
+}

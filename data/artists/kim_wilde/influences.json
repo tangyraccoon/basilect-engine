@@ -1,0 +1,18 @@
+{
+  "influences": [
+    {
+      "name": "Diana Ross and the Supremes",
+      "context": "This 40 year old song from Diana Ross and the Supremes is a highlight.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Madonna",
+      "context": "Yes, I was. I admire her, how she puts her spell on people.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 2,
+    "sources_checked": 2
+  }
+}

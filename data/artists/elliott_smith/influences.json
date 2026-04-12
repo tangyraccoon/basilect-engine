@@ -1,0 +1,48 @@
+{
+  "influences": [
+    {
+      "name": "Rob Schnapf",
+      "context": "Elliott: 'I learned a lot of things from Rob and Tom. They have a feel for the event of a song. They would always be zooming in and out. [They'd be] into the details of how the compressor was set, but then they'd zoom out and see how that fit into the song.'",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Tom Rothrock",
+      "context": "Elliott: 'I learned a lot of things from Rob and Tom. They have a feel for the event of a song. They would always be zooming in and out. [They'd be] into the details of how the compressor was set, but then they'd zoom out and see how that fit into the song.'",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Beatles",
+      "context": "I got extremely interested in the technical stuff in the last year. I read all this stuff about the Beatles' sessions, even though there's no way to recreate those kind of sounds now.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Nick Drake",
+      "context": "My manager bought Elliott's album, and I was like, \"Oh, it kind of sounds like Nick Drake or something.\"",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Left Banke",
+      "context": "He did six tracks of vocals. I was kinda like, \"That seems excessive, but this reminds me of the Left Banke.\" And he goes, \"You like the Left Banke?\"",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Zombies",
+      "context": "We'd listened to CDs all day, lots of Beatles, Zombies, and the Kinks. There was always Dylan hovering in the background.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Kinks",
+      "context": "We'd listened to CDs all day, lots of Beatles, Zombies, and the Kinks. There was always Dylan hovering in the background.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Bob Dylan",
+      "context": "There was always Dylan hovering in the background.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 8,
+    "sources_checked": 3
+  }
+}

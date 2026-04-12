@@ -1,0 +1,58 @@
+{
+  "influences": [
+    {
+      "name": "Brion Gysin",
+      "context": "Somehow in my imagination it connected up with Brion Gysin, and the CD \"Dreamachines\" is all, somehow revolves around the work of William Burroughs and Brion Gysin.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "William Burroughs",
+      "context": "the CD \"Dreamachines\" is all, somehow revolves around the work of William Burroughs and Brion Gysin.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Miklos Rozsa",
+      "context": "It's brilliant, Miklos Rozsa, brilliant. Amazing music.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Leonardo Balada",
+      "context": "I studied with Leonardo Balada, who was the music teacher at the U.N. School. He's a very great composer who lives in Barcelona.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Bach",
+      "context": "I was really interested in organ music through Bach and through \"The Phantom of the Opera.\"",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Louis Armstrong",
+      "context": "He had old 78s of Louis Armstrong, of Dizzy Gillespie, of the Mills Brothers.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Dizzy Gillespie",
+      "context": "He had old 78s of Louis Armstrong, of Dizzy Gillespie, of the Mills Brothers.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Mills Brothers",
+      "context": "He had old 78s of Louis Armstrong, of Dizzy Gillespie, of the Mills Brothers.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Doors",
+      "context": "I was really into The Doors because of the organ",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Webern",
+      "context": "So the idea of jingles to me is kind of like Webern.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 10,
+    "sources_checked": 2
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "artist_id": "yung_lean",
+  "artist_name": "Yung Lean",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:31:38.494997+00:00",
+      "result": "12 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:31:39.162086+00:00",
+      "result": "11/12 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:31:58.394554+00:00",
+      "result": "20 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:32:03.085330+00:00",
+      "result": "10 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:32:04.074764+00:00",
+      "result": "6/10 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:32:26.851359+00:00",
+      "result": "32 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:32:59.260939+00:00",
+      "result": "38 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:33:43.078097+00:00",
+      "result": "47 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-11T22:33:43.078163+00:00"
+}

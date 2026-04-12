@@ -1,0 +1,1249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basilect Engine — Music Discovery</title>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(135deg, #0e0e12 0%, #1a1a24 50%, #0f1419 100%);
+            color: #e8e8ed;
+            min-height: 100vh;
+            overflow-x: hidden;
+        }
+
+        /* ===== HEADER ===== */
+        header {
+            padding: 4rem 3rem;
+            text-align: center;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+            position: relative;
+            overflow: hidden;
+        }
+
+        header::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: linear-gradient(45deg, rgba(255, 97, 109, 0.1), rgba(255, 201, 58, 0.1), rgba(138, 43, 226, 0.1), transparent);
+            animation: gradientShift 8s ease infinite;
+        }
+
+        @keyframes gradientShift {
+            0%, 100% { transform: translate(0, 0); }
+            50% { transform: translate(-20px, -20px); }
+        }
+
+        header h1 {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 4rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, #ff616d, #ffc93a, #8a2be2);
+            background-size: 200% 200%;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 0.5rem;
+            position: relative;
+            z-index: 1;
+            letter-spacing: -2px;
+        }
+
+        header p {
+            font-size: 1.1rem;
+            color: #a8a8b5;
+            font-weight: 300;
+            position: relative;
+            z-index: 1;
+        }
+
+        /* ===== STATS BAR ===== */
+        .stats-bar {
+            display: flex;
+            justify-content: center;
+            gap: 3rem;
+            padding: 2rem 3rem;
+            background: rgba(30, 30, 40, 0.6);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+            flex-wrap: wrap;
+        }
+
+        .stat-item {
+            text-align: center;
+        }
+
+        .stat-value {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 2rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, #ff616d, #ffc93a);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .stat-label {
+            font-size: 0.85rem;
+            color: #808089;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            margin-top: 0.25rem;
+        }
+
+        /* ===== MAIN CONTAINER ===== */
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 3rem;
+        }
+
+        /* ===== CONTROLS ===== */
+        .controls {
+            margin-bottom: 3rem;
+            display: flex;
+            gap: 2rem;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .search-wrapper {
+            flex: 1;
+            min-width: 250px;
+        }
+
+        .search-wrapper input {
+            width: 100%;
+            padding: 1rem 1.5rem;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 97, 109, 0.3);
+            border-radius: 8px;
+            color: #e8e8ed;
+            font-family: 'Inter', sans-serif;
+            font-size: 1rem;
+            transition: all 0.3s ease;
+        }
+
+        .search-wrapper input:focus {
+            outline: none;
+            background: rgba(255, 255, 255, 0.08);
+            border-color: rgba(255, 97, 109, 0.8);
+            box-shadow: 0 0 20px rgba(255, 97, 109, 0.2);
+        }
+
+        .search-wrapper input::placeholder {
+            color: #6a6a76;
+        }
+
+        .filters {
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .filter-label {
+            font-size: 0.9rem;
+            color: #a8a8b5;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            font-weight: 500;
+        }
+
+        .tier-chips {
+            display: flex;
+            gap: 0.75rem;
+        }
+
+        .chip {
+            padding: 0.6rem 1.2rem;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 20px;
+            color: #a8a8b5;
+            cursor: pointer;
+            font-size: 0.85rem;
+            transition: all 0.3s ease;
+            font-weight: 500;
+        }
+
+        .chip:hover {
+            background: rgba(255, 97, 109, 0.2);
+            border-color: rgba(255, 97, 109, 0.5);
+            color: #ff616d;
+        }
+
+        .chip.active {
+            background: linear-gradient(135deg, rgba(255, 97, 109, 0.3), rgba(255, 201, 58, 0.3));
+            border-color: rgba(255, 97, 109, 0.8);
+            color: #ffc93a;
+        }
+
+        select {
+            padding: 0.6rem 1rem;
+            background: rgba(255, 255, 255, 0.05);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 6px;
+            color: #e8e8ed;
+            font-family: 'Inter', sans-serif;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        select:hover {
+            background: rgba(255, 255, 255, 0.08);
+            border-color: rgba(255, 97, 109, 0.5);
+        }
+
+        select:focus {
+            outline: none;
+            border-color: rgba(255, 97, 109, 0.8);
+        }
+
+        /* ===== PAGE SECTIONS ===== */
+        .page {
+            display: none;
+        }
+
+        .page.active {
+            display: block;
+            animation: fadeIn 0.4s ease;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        /* ===== NAVIGATION TABS ===== */
+        .nav-tabs {
+            display: flex;
+            gap: 0.5rem;
+            margin-bottom: 2rem;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+            padding-bottom: 1rem;
+        }
+
+        .nav-tab {
+            padding: 0.8rem 1.5rem;
+            background: transparent;
+            border: none;
+            color: #a8a8b5;
+            cursor: pointer;
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 0.95rem;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            position: relative;
+        }
+
+        .nav-tab:hover {
+            color: #ff616d;
+        }
+
+        .nav-tab.active {
+            color: #ffc93a;
+        }
+
+        .nav-tab.active::after {
+            content: '';
+            position: absolute;
+            bottom: -1rem;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background: linear-gradient(90deg, #ff616d, #ffc93a);
+        }
+
+        /* ===== DISCOVER PAGE ===== */
+        .pair-cards {
+            display: grid;
+            gap: 2rem;
+        }
+
+        .pair-card {
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.03), rgba(255, 255, 255, 0.01));
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 12px;
+            padding: 2rem;
+            transition: all 0.4s ease;
+            position: relative;
+            overflow: hidden;
+            cursor: pointer;
+        }
+
+        .pair-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg, transparent, rgba(255, 97, 109, 0.1), transparent);
+            transition: left 0.6s ease;
+        }
+
+        .pair-card:hover::before {
+            left: 100%;
+        }
+
+        .pair-card:hover {
+            background: linear-gradient(135deg, rgba(255, 97, 109, 0.08), rgba(138, 43, 226, 0.08));
+            border-color: rgba(255, 97, 109, 0.3);
+            box-shadow: 0 0 30px rgba(255, 97, 109, 0.15), inset 0 0 30px rgba(255, 97, 109, 0.05);
+            transform: translateY(-4px);
+        }
+
+        .pair-header {
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+            margin-bottom: 1.5rem;
+            position: relative;
+            z-index: 1;
+        }
+
+        .pair-rank {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 2.5rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, #ff616d, #8a2be2);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            min-width: 60px;
+        }
+
+        .pair-artists {
+            flex: 1;
+        }
+
+        .pair-artists-names {
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+            margin-bottom: 0.5rem;
+        }
+
+        .artist-name {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 1.4rem;
+            font-weight: 600;
+            color: #e8e8ed;
+        }
+
+        .artist-name.link {
+            color: #ffc93a;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .artist-name.link:hover {
+            text-decoration: underline;
+        }
+
+        .pair-separator {
+            color: #5a5a68;
+            font-weight: 300;
+            font-size: 1.2rem;
+        }
+
+        .pair-score-display {
+            text-align: right;
+        }
+
+        .pair-score-value {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 1.8rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, #ff616d, #ffc93a);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .pair-score-label {
+            font-size: 0.8rem;
+            color: #a8a8b5;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .score-bar-container {
+            background: rgba(255, 255, 255, 0.03);
+            height: 6px;
+            border-radius: 3px;
+            overflow: hidden;
+            margin: 1.5rem 0;
+            position: relative;
+            z-index: 1;
+        }
+
+        .score-bar {
+            height: 100%;
+            border-radius: 3px;
+            transition: width 0.5s ease;
+        }
+
+        .pair-card.expanded {
+            grid-column: 1 / -1;
+        }
+
+        .pair-details {
+            display: none;
+            position: relative;
+            z-index: 1;
+            margin-top: 1.5rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .pair-card.expanded .pair-details {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+        }
+
+        .artist-detail-block {
+            padding: 1rem;
+            background: rgba(255, 255, 255, 0.02);
+            border-radius: 8px;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+        }
+
+        .artist-detail-block h4 {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 1rem;
+            margin-bottom: 0.75rem;
+            color: #ffc93a;
+        }
+
+        .artist-meta {
+            font-size: 0.85rem;
+            color: #a8a8b5;
+            line-height: 1.6;
+        }
+
+        .meta-tag {
+            display: inline-block;
+            background: rgba(255, 97, 109, 0.15);
+            color: #ff616d;
+            padding: 0.3rem 0.75rem;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            margin-right: 0.5rem;
+            margin-top: 0.5rem;
+        }
+
+        /* ===== ARTISTS GRID PAGE ===== */
+        .artists-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 2rem;
+        }
+
+        .artist-card {
+            background: linear-gradient(135deg, rgba(255, 255, 255, 0.03), rgba(255, 255, 255, 0.01));
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            border-radius: 12px;
+            padding: 2rem;
+            cursor: pointer;
+            transition: all 0.4s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .artist-card::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: radial-gradient(circle at top right, rgba(138, 43, 226, 0.2), transparent);
+            opacity: 0;
+            transition: opacity 0.4s ease;
+        }
+
+        .artist-card:hover {
+            background: linear-gradient(135deg, rgba(138, 43, 226, 0.1), rgba(255, 201, 58, 0.05));
+            border-color: rgba(138, 43, 226, 0.4);
+            box-shadow: 0 0 30px rgba(138, 43, 226, 0.2), inset 0 0 20px rgba(138, 43, 226, 0.05);
+            transform: translateY(-4px);
+        }
+
+        .artist-card:hover::before {
+            opacity: 1;
+        }
+
+        .artist-card-title {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 1.6rem;
+            font-weight: 700;
+            color: #e8e8ed;
+            margin-bottom: 1rem;
+            position: relative;
+            z-index: 1;
+        }
+
+        .artist-card-meta {
+            font-size: 0.9rem;
+            color: #a8a8b5;
+            line-height: 1.8;
+            position: relative;
+            z-index: 1;
+            margin-bottom: 1rem;
+        }
+
+        .artist-card-meta strong {
+            color: #ffc93a;
+            font-weight: 600;
+        }
+
+        .artist-top-connection {
+            margin-top: 1.5rem;
+            padding-top: 1.5rem;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            position: relative;
+            z-index: 1;
+        }
+
+        .artist-top-connection-label {
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            color: #808089;
+            letter-spacing: 1px;
+            margin-bottom: 0.5rem;
+        }
+
+        .artist-top-connection-name {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 1.1rem;
+            font-weight: 600;
+            color: #ff616d;
+            margin-bottom: 0.25rem;
+        }
+
+        .artist-top-connection-score {
+            font-size: 0.85rem;
+            color: #a8a8b5;
+        }
+
+        /* ===== ARTIST DETAIL PAGE ===== */
+        .artist-detail-page {
+            max-width: 900px;
+        }
+
+        .artist-detail-header {
+            margin-bottom: 3rem;
+        }
+
+        .back-button {
+            display: inline-block;
+            padding: 0.6rem 1.2rem;
+            background: rgba(255, 97, 109, 0.15);
+            border: 1px solid rgba(255, 97, 109, 0.3);
+            border-radius: 6px;
+            color: #ff616d;
+            cursor: pointer;
+            font-family: 'Inter', sans-serif;
+            font-size: 0.9rem;
+            margin-bottom: 2rem;
+            transition: all 0.3s ease;
+        }
+
+        .back-button:hover {
+            background: rgba(255, 97, 109, 0.25);
+            border-color: rgba(255, 97, 109, 0.6);
+        }
+
+        .artist-detail-title {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 3rem;
+            font-weight: 700;
+            color: #e8e8ed;
+            margin-bottom: 1rem;
+            letter-spacing: -1px;
+        }
+
+        .artist-detail-tags {
+            display: flex;
+            gap: 0.75rem;
+            flex-wrap: wrap;
+            margin-bottom: 2rem;
+        }
+
+        .detail-tag {
+            padding: 0.5rem 1rem;
+            background: rgba(255, 201, 58, 0.15);
+            border: 1px solid rgba(255, 201, 58, 0.3);
+            border-radius: 6px;
+            font-size: 0.85rem;
+            color: #ffc93a;
+        }
+
+        .connections-section {
+            margin-bottom: 3rem;
+        }
+
+        .section-title {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: #e8e8ed;
+            margin-bottom: 1.5rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .connections-pills {
+            display: flex;
+            gap: 0.75rem;
+            flex-wrap: wrap;
+        }
+
+        .connection-pill {
+            padding: 0.8rem 1.5rem;
+            background: linear-gradient(135deg, rgba(138, 43, 226, 0.2), rgba(255, 97, 109, 0.2));
+            border: 1px solid rgba(138, 43, 226, 0.4);
+            border-radius: 20px;
+            color: #e8e8ed;
+            cursor: pointer;
+            font-size: 0.9rem;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+
+        .connection-pill:hover {
+            background: linear-gradient(135deg, rgba(138, 43, 226, 0.3), rgba(255, 97, 109, 0.3));
+            border-color: rgba(255, 97, 109, 0.6);
+            box-shadow: 0 0 15px rgba(138, 43, 226, 0.2);
+        }
+
+        .quotes-section {
+            margin-top: 2rem;
+        }
+
+        .quote-item {
+            padding: 1.5rem;
+            background: rgba(255, 255, 255, 0.02);
+            border-left: 3px solid #ff616d;
+            border-radius: 8px;
+            margin-bottom: 1.5rem;
+            transition: all 0.3s ease;
+        }
+
+        .quote-item:hover {
+            background: rgba(255, 97, 109, 0.05);
+            border-left-color: #ffc93a;
+        }
+
+        .quote-text {
+            font-size: 1rem;
+            color: #e8e8ed;
+            font-style: italic;
+            line-height: 1.6;
+            margin-bottom: 0.75rem;
+        }
+
+        .quote-source {
+            font-size: 0.85rem;
+            color: #a8a8b5;
+        }
+
+        /* ===== MATRIX PAGE ===== */
+        .matrix-container {
+            overflow-x: auto;
+            background: rgba(30, 30, 40, 0.4);
+            border-radius: 8px;
+            padding: 2rem;
+        }
+
+        .heatmap {
+            display: inline-block;
+            min-width: 100%;
+        }
+
+        .heatmap-row {
+            display: flex;
+            margin-bottom: 1px;
+        }
+
+        .heatmap-label {
+            width: 120px;
+            padding: 0.5rem;
+            font-size: 0.75rem;
+            color: #a8a8b5;
+            display: flex;
+            align-items: center;
+            word-break: break-word;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            font-weight: 500;
+        }
+
+        .heatmap-cell {
+            width: 40px;
+            height: 40px;
+            margin-right: 1px;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.65rem;
+            color: rgba(255, 255, 255, 0.6);
+            position: relative;
+        }
+
+        .heatmap-cell:hover {
+            transform: scale(1.2);
+            z-index: 10;
+            box-shadow: 0 0 15px rgba(255, 201, 58, 0.6);
+            color: rgba(255, 255, 255, 0.9);
+        }
+
+        .heatmap-header {
+            display: flex;
+            margin-bottom: 1rem;
+        }
+
+        .heatmap-header-spacer {
+            width: 120px;
+        }
+
+        .heatmap-header-cell {
+            width: 40px;
+            margin-right: 1px;
+            font-size: 0.65rem;
+            color: #a8a8b5;
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            padding: 0.25rem;
+        }
+
+        .tooltip {
+            position: absolute;
+            background: rgba(0, 0, 0, 0.9);
+            color: #ffc93a;
+            padding: 0.5rem 0.75rem;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            white-space: nowrap;
+            pointer-events: none;
+            bottom: 110%;
+            left: 50%;
+            transform: translateX(-50%);
+            opacity: 0;
+            transition: opacity 0.2s ease;
+            z-index: 100;
+        }
+
+        .heatmap-cell:hover .tooltip {
+            opacity: 1;
+        }
+
+        /* ===== RESPONSIVE ===== */
+        @media (max-width: 1200px) {
+            .artists-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 768px) {
+            .artists-grid {
+                grid-template-columns: 1fr;
+            }
+
+            header h1 {
+                font-size: 2.5rem;
+            }
+
+            .pair-header {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 1rem;
+            }
+
+            .pair-score-display {
+                text-align: left;
+            }
+
+            .pair-card.expanded .pair-details {
+                grid-template-columns: 1fr;
+            }
+
+            .controls {
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            .search-wrapper {
+                width: 100%;
+            }
+
+            .filters {
+                width: 100%;
+                flex-direction: column;
+                align-items: stretch;
+            }
+
+            .tier-chips {
+                width: 100%;
+                justify-content: space-between;
+            }
+
+            select {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <h1>BASILECT ENGINE</h1>
+        <p>Discover unexpected connections between artists through their production philosophies</p>
+    </header>
+
+    <!-- STATS BAR -->
+    <div class="stats-bar">
+        <div class="stat-item">
+            <div class="stat-value" id="stat-artists">14</div>
+            <div class="stat-label">Artists</div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-value" id="stat-pairs">0</div>
+            <div class="stat-label">Connections</div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-value" id="stat-quotes">0</div>
+            <div class="stat-label">Quotes Analyzed</div>
+        </div>
+        <div class="stat-item">
+            <div class="stat-value">0.52–0.89</div>
+            <div class="stat-label">Score Range</div>
+        </div>
+    </div>
+
+    <!-- MAIN CONTAINER -->
+    <div class="container">
+        <!-- NAVIGATION TABS -->
+        <div class="nav-tabs">
+            <button class="nav-tab active" onclick="showPage('discover')">Discover</button>
+            <button class="nav-tab" onclick="showPage('artists')">Artists</button>
+            <button class="nav-tab" onclick="showPage('matrix')">Matrix</button>
+        </div>
+
+        <!-- DISCOVER PAGE -->
+        <div id="discover" class="page active">
+            <div class="controls">
+                <div class="search-wrapper">
+                    <input type="text" id="searchInput" placeholder="Search artists, pairs...">
+                </div>
+                <div class="filters">
+                    <span class="filter-label">Tier:</span>
+                    <div class="tier-chips">
+                        <button class="chip active" onclick="filterTier('all')">All</button>
+                        <button class="chip" onclick="filterTier('high')">High (>0.83)</button>
+                        <button class="chip" onclick="filterTier('mid')">Mid (0.72-0.83)</button>
+                        <button class="chip" onclick="filterTier('low')">Low (<0.72)</button>
+                    </div>
+                </div>
+                <select id="artistFilter" onchange="filterArtist()">
+                    <option value="">All Artists</option>
+                </select>
+            </div>
+            <div class="pair-cards" id="pairCards"></div>
+        </div>
+
+        <!-- ARTISTS PAGE -->
+        <div id="artists" class="page">
+            <div class="artists-grid" id="artistsGrid"></div>
+        </div>
+
+        <!-- MATRIX PAGE -->
+        <div id="matrix" class="page">
+            <div class="matrix-container">
+                <div class="heatmap" id="heatmap"></div>
+            </div>
+        </div>
+
+        <!-- ARTIST DETAIL PAGE (hidden by default) -->
+        <div id="artist-detail" class="page artist-detail-page"></div>
+    </div>
+
+    <script>
+        // ===== DATA =====
+        const DISCOVERIES = [{"a":"animal_collective","b":"badbadnotgood","s":0.8896},{"a":"astrid_sonne","b":"tame_impala","s":0.8592},{"a":"bladee","b":"yung_lean","s":0.8566},{"a":"skrillex","b":"tame_impala","s":0.8522},{"a":"boy_harsher","b":"yung_lean","s":0.8451},{"a":"astrid_sonne","b":"bladee","s":0.8447},{"a":"animal_collective","b":"boy_harsher","s":0.8349},{"a":"astrid_sonne","b":"radiohead","s":0.8338},{"a":"animal_collective","b":"tame_impala","s":0.831},{"a":"astrid_sonne","b":"skrillex","s":0.8273},{"a":"bladee","b":"boy_harsher","s":0.8269},{"a":"astrid_sonne","b":"clairo","s":0.8153},{"a":"bladee","b":"clairo","s":0.8152},{"a":"skrillex","b":"yung_lean","s":0.8143},{"a":"astrid_sonne","b":"yung_lean","s":0.8136},{"a":"tame_impala","b":"yung_lean","s":0.8131},{"a":"bladee","b":"tame_impala","s":0.8112},{"a":"badbadnotgood","b":"boy_harsher","s":0.8099},{"a":"astrid_sonne","b":"boy_harsher","s":0.8091},{"a":"animal_collective","b":"astrid_sonne","s":0.8036},{"a":"astrid_sonne","b":"badbadnotgood","s":0.8034},{"a":"radiohead","b":"tame_impala","s":0.8005},{"a":"clairo","b":"tame_impala","s":0.7973},{"a":"badbadnotgood","b":"radiohead","s":0.7966},{"a":"clairo","b":"yung_lean","s":0.7961},{"a":"boy_harsher","b":"tame_impala","s":0.7952},{"a":"animal_collective","b":"radiohead","s":0.7907},{"a":"animal_collective","b":"yung_lean","s":0.7903},{"a":"badbadnotgood","b":"yung_lean","s":0.7872},{"a":"clairo","b":"skrillex","s":0.7866},{"a":"boy_harsher","b":"clairo","s":0.7847},{"a":"bladee","b":"radiohead","s":0.7844},{"a":"animal_collective","b":"skrillex","s":0.7814},{"a":"badbadnotgood","b":"tame_impala","s":0.7783},{"a":"astrid_sonne","b":"nujabes","s":0.7771},{"a":"bladee","b":"skrillex","s":0.7751},{"a":"radiohead","b":"skrillex","s":0.7734},{"a":"boy_harsher","b":"radiohead","s":0.7698},{"a":"radiohead","b":"yung_lean","s":0.7694},{"a":"animal_collective","b":"fishmans","s":0.7677},{"a":"animal_collective","b":"clairo","s":0.7661},{"a":"clairo","b":"radiohead","s":0.7648},{"a":"badbadnotgood","b":"bladee","s":0.7646},{"a":"animal_collective","b":"bladee","s":0.7628},{"a":"animal_collective","b":"nujabes","s":0.7575},{"a":"boy_harsher","b":"skrillex","s":0.7522},{"a":"bill_evans","b":"clairo","s":0.7429},{"a":"nujabes","b":"tame_impala","s":0.7426},{"a":"badbadnotgood","b":"skrillex","s":0.7408},{"a":"badbadnotgood","b":"nujabes","s":0.7339},{"a":"badbadnotgood","b":"clairo","s":0.732},{"a":"bladee","b":"nujabes","s":0.7309},{"a":"nujabes","b":"skrillex","s":0.7291},{"a":"animal_collective","b":"arthur_verocai","s":0.7209},{"a":"bill_evans","b":"yung_lean","s":0.7193},{"a":"astrid_sonne","b":"bill_evans","s":0.7181},{"a":"boy_harsher","b":"fishmans","s":0.718},{"a":"astrid_sonne","b":"fishmans","s":0.7179},{"a":"bill_evans","b":"bladee","s":0.7172},{"a":"fishmans","b":"tame_impala","s":0.7135},{"a":"arthur_verocai","b":"astrid_sonne","s":0.7122},{"a":"fishmans","b":"radiohead","s":0.7114},{"a":"bladee","b":"fishmans","s":0.7089},{"a":"fishmans","b":"yung_lean","s":0.7067},{"a":"clairo","b":"fishmans","s":0.7065},{"a":"arthur_verocai","b":"badbadnotgood","s":0.7049},{"a":"arthur_verocai","b":"tame_impala","s":0.7027},{"a":"boy_harsher","b":"nujabes","s":0.6964},{"a":"clairo","b":"nujabes","s":0.6963},{"a":"nujabes","b":"yung_lean","s":0.696},{"a":"badbadnotgood","b":"fishmans","s":0.6948},{"a":"nujabes","b":"radiohead","s":0.6831},{"a":"arthur_verocai","b":"clairo","s":0.6813},{"a":"fishmans","b":"skrillex","s":0.6804},{"a":"arthur_verocai","b":"nujabes","s":0.6786},{"a":"arthur_verocai","b":"radiohead","s":0.6715},{"a":"bill_evans","b":"skrillex","s":0.6687},{"a":"arthur_verocai","b":"skrillex","s":0.6673},{"a":"bill_evans","b":"radiohead","s":0.6665},{"a":"bill_evans","b":"tame_impala","s":0.666},{"a":"arthur_verocai","b":"bladee","s":0.6609},{"a":"arthur_verocai","b":"yung_lean","s":0.6527},{"a":"bill_evans","b":"boy_harsher","s":0.6453},{"a":"arthur_verocai","b":"boy_harsher","s":0.6447},{"a":"arthur_verocai","b":"fishmans","s":0.636},{"a":"bill_evans","b":"fishmans","s":0.6246},{"a":"fishmans","b":"nujabes","s":0.616},{"a":"badbadnotgood","b":"bill_evans","s":0.5844},{"a":"animal_collective","b":"bill_evans","s":0.5826},{"a":"arthur_verocai","b":"bill_evans","s":0.5219},{"a":"bill_evans","b":"nujabes","s":0.5198}];
+
+        const M = {
+            animal_collective:{q:48,src:3,r:"2009–2018",v:true},
+            arthur_verocai:{q:11,src:2,r:"—",v:false},
+            astrid_sonne:{q:38,src:4,r:"2019",v:false},
+            badbadnotgood:{q:43,src:5,r:"2016–2021",v:true},
+            bill_evans:{q:22,src:4,r:"—",v:false},
+            bladee:{q:39,src:5,r:"2019–2024",v:true},
+            boy_harsher:{q:27,src:4,r:"2019–2022",v:true},
+            clairo:{q:56,src:6,r:"2019–2025",v:true},
+            fishmans:{q:13,src:2,r:"2019–2021",v:false},
+            nujabes:{q:9,src:1,r:"2003",v:false},
+            radiohead:{q:18,src:4,r:"2003–2019",v:true},
+            skrillex:{q:19,src:4,r:"2011–2019",v:true},
+            tame_impala:{q:33,src:4,r:"2020",v:false},
+            yung_lean:{q:49,src:6,r:"2014–2025",v:true}
+        };
+
+        let Q = {"animal_collective": {"quotes": [{"t": "I think we relate more to the nature of Maryland in positive memories and any kind of violence or stress in our music comes more from time spent in urban environments.", "p": "The Quietus", "d": "2009"}, {"t": "I think we appreciate the unpredictability of nature. Brian and I have always been big winter fans and I've definitely had experiences in Baltimore, Maryland which is definitely good for its snowstorms. That definitely influenced us a lot when we were younger, being stuck in certain places during st", "p": "The Quietus", "d": "2009"}, {"t": "I guess weather is a good example of nature. I was thinking more like animals. Weather however is a good example of something where we appreciate the violence and unpredictability of nature. Especially on this record.", "p": "The Quietus", "d": "2009"}, {"t": "It's hard for us to judge accessible or not but everybody seems to have a different opinion on all of our records. I feel like you get one opinion and then you get the complete opposite, y'know. Like we thought Strawberry Jam was difficult and abrasive but people were like 'Oh, it's like the most po", "p": "The Quietus", "d": "2009"}, {"t": "I think we're very fortunate in a way with recording. We're very conscious of how our music is produced and we pretty much are the producers and we have a hand in everything. But also the people we work with – right down to mastering and mixing – has an old school… I don't really want to say anti-in", "p": "The Quietus", "d": "2009"}, {"t": "But when we play live we like to have the loud moments and we like to have the quiet moments and if we compress everything there is none of that and it doesn't feel natural. We like our music to feel natural basically.", "p": "The Quietus", "d": "2009"}, {"t": "Now basically all the engineers we work with mastering and recording are against the 'loudness war' as everyone seems to be calling it. Especially in the mainstream commercial radio where there seems to be a school of thought that the louder a piece of music is the bigger the impact it will have on ", "p": "The Quietus", "d": "2009"}, {"t": "We didn't really start out to be the type of people who are like 'Oh, it must be as loud as it can be – just crank it!' you know? We've always been more about having dynamics and quiet and acoustic stuff and stuff that's a little more crazy. We never really even thought we had the amplifiers to actu", "p": "The Quietus", "d": "2009"}, {"t": "It becomes obvious to us when you compare one album by a group to another. For example we're all big Pavement fans and I love that album Crooked Rain, Crooked Rain. But if you compare that to later albums they, to us, sound a little more compressed and little more flat and we never really got into t", "p": "The Quietus", "d": "2009"}, {"t": "Nah, I think they were difficult for other reasons, for personal reasons. Totally different reasons. Here Comes The Indian, just because of the nature of the times, trying to figure out where we were in our lives, we were at that age, you know, having to work full time at other jobs in New York. The", "p": "The Quietus", "d": "2009"}, {"t": "One thing we talked about was definitely trying to use a lot more acoustic sounds and samples for source material because especially for Strawberry Jam the sound was a lot more crispy, or sharp which wanted it to be. And we hadn't done anything in a while that utilized a lot of acoustic sounds and f", "p": "The Quietus", "d": "2009"}, {"t": "It was kind of in a way like Noah's solo album was, sample based but not around other people's music and this one was sort of a similar sort of process. We were the band that was being sampled for the record and then put back together for the record.", "p": "The Quietus", "d": "2009"}, {"t": "We're conscious of that fact that we might all have the same pedals and I think that we know when we're messing around with the sound and I don't know for those other people but for us we know pretty quickly if it's a sound that's unique to one of those other people then it's off limits. It's not ju", "p": "The Quietus", "d": "2009"}, {"t": "Anyone who knows the band will hear it and think 'this is an Animal Collective record', but its textures and arrangements feel like new territory to us. The biggest challenge was making short songs. We'd grown accustomed to drawn-out structures that turn into six-minute tracks. But we wanted to expe", "p": "AnOther Magazine", "d": ""}, {"t": "Painting With is the first time we've written and recorded an album before playing it live. Things that work in the studio might not work on stage and vice versa – it's a real journey to discover this new life of a song.", "p": "AnOther Magazine", "d": ""}, {"t": "The studio is much more controlled and, at times, lacks the energy of the stage. It's like living in a secluded cottage in the woods and then trying to recreate that lifestyle in Manhattan. For us it doesn't work so we give ourselves up to the chaotic atmosphere the stage can have. We want each show", "p": "AnOther Magazine", "d": ""}, {"t": "It's about creating a world that the music exists in. In high school, we used to sit around listening to music in the dark. We'd listen to a whole record like [The Incredible String Band's] The Hangman's Beautiful Daughter or some [Krzysztof] Penderecki piece and talk about the images it brought to ", "p": "AnOther Magazine", "d": ""}, {"t": "We're all creatively restless so we're always trying to figure out new ways of doing things – it feels like a creative wave and you just sort of ride it. You're always feeding the knowledge you pick up into the next project.", "p": "AnOther Magazine", "d": ""}, {"t": "Everything is part of a system that works together. What makes the Animal Collective sound is each person's personality shining through in the mix. We are apart to be together.", "p": "AnOther Magazine", "d": ""}, {"t": "Each of our records represents a certain time period in our lives. It's like getting a tattoo, because you're really passionate about something. We don't get tattoos, we make records and they'll be with us till we die. There is so much we have yet to explore that it makes it constantly exciting.", "p": "AnOther Magazine", "d": ""}, {"t": "I was really lucky that my dad had a record collection with a few choice things that fell outside of the Stones, Dylan and blah-blah-blah. He had Wendy Carlos's Switched-On Bach, Isao Tomita, the Residents – I loved listening to \"Constantinople\" on repeat when I was a toddler. Jean-Michel Jarre and ", "p": "Red Bull Music Academy Daily", "d": "2018"}, {"t": "Brian and I discovered really early on in our friendship that we had a mutual interest in horror films. We had this night where we got snowed in, and opted to watch The Shining, which Brian had never seen. We had also taken some mushrooms. The Wendy Carlos soundtrack, with dark synths and delay on t", "p": "Red Bull Music Academy Daily", "d": "2018"}, {"t": "That was one side of it. Around the same time, '93 or '94, we were also super into Stereolab, Pink Floyd, the Grateful Dead – but particularly Pavement. We would see them live a lot. The early records, like Westing (By Musket and Sextant), had a lot of strange textures that you just knew weren't com", "p": "Red Bull Music Academy Daily", "d": "2018"}, {"t": "The same thing happened again. I saw a Roland SH-2 in a music room while visiting my brother on summer camp, and they just let me take it for free. Finding the input on the back of that was a massive advance for us. We would use it to run guitars through, double up as a vocals box, feed whole songs ", "p": "Red Bull Music Academy Daily", "d": "2018"}, {"t": "Noah and I attended a progressive school with a lot of emphasis on art, emotion and feeling. All through our grade school years we were learning music in standard ways, but also experiencing the joy and ecstasy of singing in groups. Noah got an 8-track cassette early on, and that brought an awarenes", "p": "Red Bull Music Academy Daily", "d": "2018"}, {"t": "Brian Eno's Music For Airports is something that really made an impression upon me as a teenager, as far as what you might call psych-electronic music. That and Aphex Twin really changed the course of my musical life. The dubby quality of a bunch of stuff from Germany – Kompakt, Basic Channel, Chain", "p": "Red Bull Music Academy Daily", "d": "2018"}, {"t": "Noah's interest in the Orb and Daft Punk didn't mesh with the rest of us right away. We were dropping acid, listening to Silver Apples and \"Interstellar Overdrive.\" We read about Joe Boyd, who produced the early Pink Floyd singles, in a magazine. He was talking about working with Syd Barrett, and th", "p": "Red Bull Music Academy Daily", "d": "2018"}, {"t": "We would play music together every night in Josh's mom's basement. It wasn't, \"Oh, let's have a band.\" It was sort of like, \"Let's have a band that sounds like this tonight, and let's have a band that sounds like that tomorrow. Let's have many bands!\"", "p": "Red Bull Music Academy Daily", "d": "2018"}, {"t": "So much of what we were doing as the band took shape was improvising together: turning the lights down, starting a recorder and just going. A group like Can made us realize ways existed to improvise, to hold onto the potential in that moment, while avoiding being academic about it. To find songs wit", "p": "Red Bull Music Academy Daily", "d": "2018"}, {"t": "I worked at the record store Other Music in the late '90s and early '00s with Noah. While I was there I discovered a lot of indigenous music from Africa, from the Bosavi Rainforest, field recordings of specific rituals and whatnot. It really interested me that music permeates their daily life to tha", "p": "Red Bull Music Academy Daily", "d": "2018"}, {"t": "That is sort of my M.O., on a general basis. I enjoy taking things that I find exciting, but maybe don't seem to fit together, and almost trojan-horsing these ideas into popular awareness. Trying to find ways of translating them, or putting them in a costume that is more familiar to people's ears.", "p": "Red Bull Music Academy Daily", "d": "2018"}, {"t": "I got to the point where it was like, \"Jesus, I think I can actually have a family now while still being a musician. I don't have to bifurcate my life in between this and what's considered 'proper adulthood.'\"", "p": "Red Bull Music Academy Daily", "d": "2018"}, {"t": "[Strawberry Jam] was a struggle to get through. Josh especially was having a really hard time. That recording process was the first time we ran into a situation where we weren't completely satisfied with what was happening. It's strange for us because that record is looked at very fondly, and it's a", "p": "Red Bull Music Academy Daily", "d": "2018"}, {"t": "An easy process doesn't always produce better results but, certainly in my memory, Merriweather sticks out as one of those cases. The songwriting was done separately at the beginning, which was uncommon and pretty difficult for us then, but they seemed to match up in terms of ambition. We figured ou", "p": "Red Bull Music Academy Daily", "d": "2018"}, {"t": "There was a tornado and a big thunderstorm when we were recording Merriweather, and it also rained all through the period of mixing in Athens, Georgia. Because we were in a rainy atmosphere – and because we are all what Noah calls \"light drizzle\" kind of personalities – that had a big influence. On ", "p": "Red Bull Music Academy Daily", "d": "2018"}, {"t": "The nature of our music didn't call for it to be very low end-y. Maybe on Here Comes The Indian, but that aside, we didn't even have a kick drum in the kit.", "p": "Red Bull Music Academy Daily", "d": "2018"}, {"t": "We were predominantly mid-range; maybe some bass in our harsh-sounding stuff, but not a lot of it. But it's pretty common for us to go fully the opposite way to that which we've been going, just to keep things interesting.", "p": "Red Bull Music Academy Daily", "d": "2018"}, {"t": "Every instrument in old reggae and early dub sounds exactly the way I want an instrument to sound. Merriweather was really the first time we wanted to hint at those influences, but marry the organic with the electronic.", "p": "Red Bull Music Academy Daily", "d": "2018"}, {"t": "I remember at the time talking about dub productions, as far as the bass is concerned. But when you listen to dub now it seems like a higher register bass. Contemporary hip-hop features a much deeper sub-bass element. Those sub-frequencies really aren't to some people's tastes, but that's kind of my", "p": "Red Bull Music Academy Daily", "d": "2018"}, {"t": "I still can't believe we lugged around six QSC speakers the whole time. My friend that owns a club was like, \"Why do you have those speakers? You realize you have the entire PA that I have in my club?\" But we were convinced that that's what we needed to be able to hear ourselves, and have everything", "p": "Red Bull Music Academy Daily", "d": "2018"}, {"t": "We weren't sure if it was going to be too electronic. We have such a diverse catalog, and some of our early fans came to us for Josh's guitar side. We really didn't know.", "p": "Red Bull Music Academy Daily", "d": "2018"}, {"t": "We wanted to make something that felt pleasing and immediate, but repeated listens would reveal a whole bunch of different things going on. I do like that you can kind of choose your own adventure with some of the songs, so to speak. Your brain latches on to one part of it and just sort of hovers ar", "p": "Red Bull Music Academy Daily", "d": "2018"}, {"t": "I remember seeing reviews along the lines of, \"They played a couple of the hits, but in between each one was six minutes of noodly abstract textural synth droning. What the fuck was that? Just get to the next song!\" To us, those moments are where the interesting things happen, and they're still a bi", "p": "Red Bull Music Academy Daily", "d": "2018"}, {"t": "Some early fans lamented that we were mostly stuck behind our stations of keyboards and samplers; that there was some loss of energy. When I moved to New York, I would go see real underground performances like Christian Marclay. But it's easy to overlook that, you know, maybe there weren't a ton of ", "p": "Red Bull Music Academy Daily", "d": "2018"}, {"t": "In some ways it's not that different from the era of playing with masks on. We want people to feel like coming to see us play is entering another world. We realized the intimacy of interacting onstage has a more limited impact when you're trying to translate that to someone that's standing hundreds ", "p": "Red Bull Music Academy Daily", "d": "2018"}, {"t": "We committed to a three-month period of living in the same city, showing up to practice every day, and writing from scratch. I was champing at the bit, and just felt revived as a human to be in the same space with them again. Moving the group back to physical instruments, and away from samplers.", "p": "Red Bull Music Academy Daily", "d": "2018"}, {"t": "I'm a little scared to address it, because I have very little to complain about in life. But yes, people seemed to like Tomboy quite a bit less than Person Pitch, even though in a lot of ways I felt like Tomboy was the superior thing. I remember being really beat up about it. So I think I said somet", "p": "Red Bull Music Academy Daily", "d": "2018"}, {"t": "Noah and I have talked to each other about how we surpassed our biggest dream in music after the first tour. We just were kids that wanted to make some music and print up some CDRs with some cool artwork and get in a van and drive to California and play a show. If we could do that then we've done it", "p": "Red Bull Music Academy Daily", "d": "2018"}], "meta": {"quote_count": 48, "source_count": 3, "date_range": ["2009", "2018"], "corpus_valid": true}}, "arthur_verocai": {"quotes": [{"t": "There were frequently live music programmes on all day, a big band interpreting different styles of Brazilian music like samba, bolero, baião or foxtrot.", "p": "HHV Mag", "d": ""}, {"t": "I listened sometimes, fell in love with the music and started borrowing my sister's practice books.", "p": "HHV Mag", "d": ""}, {"t": "While I read the lines, I listened to how the notes written on the instruments sounded and how they were grouped. That's how I learned how this music worked.", "p": "HHV Mag", "d": ""}, {"t": "I already knew then: I wanted to become a musical arranger. However, there was not a single course available in the whole of Rio. So I decided to work towards my goal on my own.", "p": "HHV Mag", "d": ""}, {"t": "The record company people approached me and asked me if I wanted to record an album. I was thrilled, but wanted to have full control over the creative process, that was my only demand – besides twelve violins, four violas, various cellos, a trumpet and a saxophone, as well as a trombone, two drums, ", "p": "HHV Mag", "d": ""}, {"t": "A good arrangement is what makes the music grow and become bigger.", "p": "HHV Mag", "d": ""}, {"t": "However, it wasn't my intention to sell millions of copies anyway. I just wanted to make my music without anyone from the outside interfering.", "p": "HHV Mag", "d": ""}, {"t": "I was sad because my work was not recognised. By now I know I did what I was supposed to do. And I don't regret a thing.", "p": "HHV Mag", "d": ""}, {"t": "The money was good, but I knew that no one in that milieu was interested in the music I was making. I guess that's why I stayed there. I wanted to flee from myself.", "p": "HHV Mag", "d": ""}, {"t": "I'm still grateful to these people. They made my work known later on.", "p": "HHV Mag", "d": ""}, {"t": "It was made during tough times in Brazil, when many lyrics were censored by the dictatorship. So, to avoid problems, Vitor had to use a lot of metaphors in the lyrics. 'Presente de Grego' meant that the dictatorship was a Trojan horse to Brazil, a bad gift. And 'Pelas Sombras' was about the way the ", "p": "Steppin' into Tomorrow", "d": ""}], "meta": {"quote_count": 11, "source_count": 2, "date_range": [], "corpus_valid": false}}, "astrid_sonne": {"quotes": [{"t": "It's difficult to experience your own piece of work from another person's perspective and eventually also difficult to know precisely what your music will evoke in the listener, which is something I find really interesting. It's important for me to produce music that is open, music that doesn't conc", "p": "Truants", "d": "2019"}, {"t": "I came across the word through an article and just fell in love with the sound of it. Clio is the muse of history and dynamics is movement over time and I think that really sums up the release. All the tracks share an inner mediation on memories and awareness of temporality and at the same time focu", "p": "Truants", "d": "2019"}, {"t": "I don't see the tracks as being different in style, I see them more as maybe different moods with different intensities. Although the tracks have contrasting expressions they still share a common ground in terms of form, compositional approach, sound material, etc. That being said, the vocal piece w", "p": "Truants", "d": "2019"}, {"t": "When putting the tracks together, Agnete (who is a part of Escho) and I were very much focused on dynamics, but nothing has been altered for them to fit each other. I like to think of the tracks as small islands you can inhabit for a while and then leave as you please.", "p": "Truants", "d": "2019"}, {"t": "I think I have subconsciously, but not intentionally. Of course you learn a lot about form, harmonic and melodic expression from listening and interacting with classical music, but I don't think about it as such when I compose. But thank you for the comparison, that's a nice one!", "p": "Truants", "d": "2019"}, {"t": "To be honest, I don't feel like there's a category that I don't like to be put in as long as I express the things that I feel like expressing. I've just always been into such a broad variety of things, so I think that reflects in the music as well.", "p": "Ableton", "d": ""}, {"t": "Vocals and choir-ish pieces have been present in my work for years, and that's also very much my own background. I used to sing in church choirs when I was young. All my instrumental music for me holds the same personal expression, but obviously, using your voice and lyrics is a more direct form of ", "p": "Ableton", "d": ""}, {"t": "I was doing this score for a short film and they asked me to do a cover or a reinterpretation of that Mariah Carey track.", "p": "Ableton", "d": ""}, {"t": "I felt a lot of freedom and I felt like, okay, I can just go nuts now.", "p": "Ableton", "d": ""}, {"t": "It's almost like having an alias or something where you don't think too much about it, you just do something.", "p": "Ableton", "d": ""}, {"t": "I've never really listened to that music, but I really enjoyed working with these lyrics and that track opened up a new way of working for me. So it's very important in that sense.", "p": "Ableton", "d": ""}, {"t": "I was pursuing a classical career when I was younger, but then I stopped when I was 18 because I felt really restrained.", "p": "Ableton", "d": ""}, {"t": "I've had this tendency of really wanting to separate things – this is the synthesizer, this is the voice, this is the viola. Whereas on this album, the focus for me has been on orchestrating and pushing myself to combine more of those elements.", "p": "Ableton", "d": ""}, {"t": "We just recorded the drums from different mics, different positions around in the room and in the hallway. At the time, I had no idea what to do with that material. It was more like an experiment. Then later I made a sample bank in Ableton, and then I just slowly started using it. And the last bit o", "p": "Ableton", "d": ""}, {"t": "The process of making this album is processing and manipulating back and forth between audio and MIDI and trying to push the material, spread it out and kind of see what I can get out of that cool material.", "p": "Ableton", "d": ""}, {"t": "I was watching this tutorial with, maybe Bruce Springsteen? I can't remember. Or another guitarist. I sampled it and then I recorded it, and then I transformed it, converted it to MIDI. And then I put an arpeggiator on it and formed a rhythmical pattern.", "p": "Ableton", "d": ""}, {"t": "I do loads and loads of sampling, but then sometimes, for instance, with, \"Say you love me\", the original track is \"Overture\". So the guitar sample in \"Overture\", I was singing on top of that, but there was too much going on. So I made \"Overture\" as a separate track and then I did new chords, which ", "p": "Ableton", "d": ""}, {"t": "I moved to London one and a half years ago, and the first year I lived here I was ill all the time. So this is a fever session with me trying to get some sunlight in a park, and I did those lyrics. It was this feeling of coming out of something. I'm really fever-high, and I can't really understand w", "p": "Ableton", "d": ""}, {"t": "I want there to be space. When I'm writing music, I think a lot about trios or duos. So when I look at it, [I ask myself] what is going to be the duo? What is going to be the trio? Then I can kind of tell if elements stand the test. I don't want to put anything in it that doesn't really need to be t", "p": "Ableton", "d": ""}, {"t": "This is what I came up with in that process, and maybe in the next album it's going to sound completely different. I have no idea. Maybe I won't even use my voice. It's been really interesting and very difficult, but also really rewarding. It's an interesting place at the moment, for sure, I don't k", "p": "Ableton", "d": ""}, {"t": "I started composing in the beginning of my 20s. Early influences include listening to postmodernism and minimalism, the Copenhagen noise scene at that time, singing in a classical choir and playing in a jazz band. Searching for a place of belonging musically. When I was around 18, a person I was ver", "p": "15 Questions", "d": ""}, {"t": "Actually what drew me to making music myself, and especially electronic music, was a feeling of not having to create the same way that other people did. Of course I'm inspired by other people's music, but it felt really liberating to make music in this way and it felt like there was no specific scho", "p": "15 Questions", "d": ""}, {"t": "This is a challenge I think everyone faces in the beginning, but I wasn't technically skilled enough to execute my ideas. And I worked at a really slow pace, I still do. Of course I've gotten more technically skilled over time, but in a way that also influenced my creative process in a limiting way.", "p": "15 Questions", "d": ""}, {"t": "To me, working with time and changes over time is an intuitive thing that depends very much on the material you're working with, especially when you're not working with a fixed form like a pop song or a fugue. Sometimes it's material that wants to move forward very quickly and sometimes it wants to ", "p": "15 Questions", "d": ""}, {"t": "I don't think you can seperate the sound aspect from the composition aspect, to me they are inseparable and influence each other in various ways. Rather than working with sound and timbre in order for them to meet production ideas, I try to bring out different musical parameters from the material I'", "p": "15 Questions", "d": ""}, {"t": "Collaborations to me depend very much on a personal connection in order to create a safe and open space where you can be creative. I really like when you're able to put your own ego aside and create something equally together. For me personally, the circumstances are very important. I like when ther", "p": "15 Questions", "d": ""}, {"t": "When I'm able to just let go and have fun. When I'm not overthinking every choice I make but just do it. Music is only something because of the value you add to it. I have a tendency of being too much in my head, overthinking etc. That's really toxic for the creative mind. Now I focus a lot on havin", "p": "15 Questions", "d": ""}, {"t": "The way I approach my practice as an artist is tightly connected to transferring energies and to create some sort of emotional relatedness with the listener. I want to create rooms in my music for people to be in. A sonic world building or a strong sonic integrity. How these moods, rooms and energie", "p": "15 Questions", "d": ""}, {"t": "To me, music can express another dimension. It is communication beyond words. Something that you cannot point out or analyze. To me, music is a value within. It's abstract, it's untouchable, it's spiritual, mystical. And I think in that sense it can express things about life and death that we don't ", "p": "15 Questions", "d": ""}, {"t": "Audio processing is really close to how I work, and I like taking a piece of sound and trying to get something new out of it. In that sense, making a remix is quite natural. But then there's this thing where it needs to have some connection to the original track, so I'm just trying to find the right", "p": "Tone Glow", "d": ""}, {"t": "I could do my own thing without anyone else telling me how to do it. I think that was just a big release of finally finding this tool.", "p": "Tone Glow", "d": ""}, {"t": "The jazz band, especially, even though I wasn't really into the music (laughter), it was led by this old-school jazz saxophonist. I think he really wanted a string player as part of the band so he took me under his wing and taught me how to improvise. And playing classical viola never gave me the to", "p": "Tone Glow", "d": ""}, {"t": "I was only diving in, which meant that everything took so much longer but, in a sense, I felt like I made my own methods instead of copying techniques.", "p": "Tone Glow", "d": ""}, {"t": "My relationship to my viola was really difficult. I had to divide my practice and that's still something I struggle with. When I first started doing music, I'd be quite obsessed with one sound and I told myself that it'd be the only sound I'd use throughout a track. It's been difficult for me to orc", "p": "Tone Glow", "d": ""}, {"t": "I think the main thing I learned about collaborating is to give more freedom to the people I'm playing with. In general, it was about letting things go and experiencing their interpretation of the music instead of saying things like, 'This is how it's supposed to be.' I think that has something to d", "p": "Tone Glow", "d": ""}, {"t": "With the musicians that I work with now, when we started rehearsing for the live shows, I didn't give many instructions; I just wanted to give out the music and say, 'What can we do with this?' This wasn't about not taking responsibility—I'm happy to take the lead on things—but I would also like for", "p": "Tone Glow", "d": ""}, {"t": "I realized with outside of your lifetime that everything I was trying to get away from, I was actually reproducing it. When I did \"Strong, Calm, Slow,\" I was not very nice. I was really strict, saying, \"This is wrong, this is right.\" And it's good to be like that sometimes, but right now I'm very mu", "p": "Tone Glow", "d": ""}, {"t": "I was always way more afraid of it and now I feel I can embrace it. And in order to push yourself, you kind of need to go out there, in a way where you can't always trust yourself. Or to where it feels scary. You need to do something that doesn't always feel the best. You have to challenge yourself.", "p": "Tone Glow", "d": ""}, {"t": "This track is the most personal one. 'Say you love me' started off as being just the vocals on top of the guitar loop that you hear on the song before it, 'Overture.' Once I added the drums it became too much and I separated it into two tracks. There were things going on in my personal life; I had b", "p": "Tone Glow", "d": ""}], "meta": {"quote_count": 38, "source_count": 4, "date_range": ["2019", "2019"], "corpus_valid": false}}, "badbadnotgood": {"quotes": [{"t": "We just look at it as we make a smorgasbord of music. We sit in a weird pocket.", "p": "Vice", "d": "2016"}, {"t": "We're not trying to be a jazz band. We're just trying to make music.", "p": "Vice", "d": "2016"}, {"t": "When we work on music it's the most fun for us when we're not sticking to any one thing. We just try and be open.", "p": "Vice", "d": "2016"}, {"t": "When we started to look at it and see how different some of the songs would be between the most soulful groovy songs versus something that's much more crazy with an up-tempo jazz improv vibe. It was looking kind of weird. We were like \"I don't know if it makes a lot of sense.\" But I've grown to appr", "p": "Vice", "d": "2016"}, {"t": "It was definitely working on it track by track. We almost never have a unifying kind of idea or theme. We just work on the music that seems to come out of us at that time. For this one, especially since we put out III, we've broadened our horizons a lot in what we listen to and also gotten the chanc", "p": "Vice", "d": "2016"}, {"t": "I don't know. I can't really think of one thing because different collaborations have come at different times. But early on when we were doing rap covers it was just cohesiveness with being able to create familiar feelings of beats and then being able to add solo-y functionality to that. We don't re", "p": "Vice", "d": "2016"}, {"t": "Because of the internet and all this accessibility and promotion that you can have intentionally it just creates this crazy cohesive world. And then you play festivals and meet these people. Then you're at a show talking to a rapper you admire and being inspired and having your mind blown. It's just", "p": "Vice", "d": "2016"}, {"t": "We come from a music school background where we were learned jazz heavily, and to this day the approach to learning music that jazz musicians have and the approach to playing is a part of what we do. We try to keep that jazz spirit, but it's combined with so many other things. It's a lens that we lo", "p": "Vice", "d": "2016"}, {"t": "We look at what we do as approaching music with jazz training. We use the jazz language when we're writing, but we're not proficient. We're not the top musicians of the genre, so we don't try to assume ourselves as prolific innovators because jazz has this history of boundary-pushing limitless const", "p": "Vice", "d": "2016"}, {"t": "I think it's becoming more natural. I don't think it was at first. In terms of music school you don't really learn about that kind of a world being the predominant industry that we have now. I think early on—dating back to when Tyler, the Creator came into our space and we jammed—you just realize th", "p": "Vice", "d": "2016"}, {"t": "As a music fan myself, as soon as I hear something I do associate it with one artist or two artists because you want to somewhat log in your brain what familiar sounds or feelings you might be hearing. But at the same time that can be a stubborn way of approaching it and not reading into the depths ", "p": "Vice", "d": "2016"}, {"t": "Since we recorded and released III, we've been writing tons and tons of stuff inspired by all different sources. We were touring heavy after the release so we got exposed to a huge range of really talented artists at different festivals, and had many friends putting us on to great music from the pas", "p": "Howl & Echoes", "d": "2016"}, {"t": "It wasn't very conscious when we were writing everything. We didn't have any idea what the album would end up like, and I think the spread that happened is an honest reflection of where we are at musically. Making music is so fun for us it's impossible to stick to one sound!", "p": "Howl & Echoes", "d": "2016"}, {"t": "The song with Sam Herring came about because we did a remix of \"Seasons\" by Future Islands in 2014. As part of that agreement, us and Sam were supposed to get together at some point to work on original music. He came through our studio last fall and we spent three days in a magical creative journey!", "p": "Howl & Echoes", "d": "2016"}, {"t": "Hyssop of Love came about in much the same way. We had been fans of Mick's music because he's an incredibly talented rapper/lyricist, and got the chance to meet in the studio last summer through a Red Bull session. The song was again made in our studio, with all of us in the same room recording, whi", "p": "Howl & Echoes", "d": "2016"}, {"t": "Very difficult! I think we kept having the problem that we would like a few songs together, and then the rest as stand-alone tracks. Until we just committed to making it work we had no idea what the tracklist was going to be. Even then we were skeptical on it, but our final thoughts were basically t", "p": "Howl & Echoes", "d": "2016"}, {"t": "It's very spontaneous! For some songs they'll evolve from a little idea someone has, but they always go through a stage where all four of us play them in the room and try random ideas. It was great to write the feature songs with all the different artists, adding another mind to the process is reall", "p": "Howl & Echoes", "d": "2016"}, {"t": "You're totally on the mark! The vast majority of the music we listen to is from the 60's and 70's. We're obsessed with Brazilian music, which is where a lot of those elements come from. We also have a deep love for old soul, psych, and jazz music, and newer electronic and hip-hop stuff, but the over", "p": "Howl & Echoes", "d": "2016"}, {"t": "We just try to make the music we like that combines all our different influences! We wouldn't even call ourselves jazz musicians necessarily, although jazz determines how we write and play everything. It's such a valuable field of music and if you learn anything about jazz it's applicable in any sit", "p": "Howl & Echoes", "d": "2016"}, {"t": "This album is simultaneously our most accessible and inaccessible. There are so many different styles on it. Everything from Brazilian music to soul music.", "p": "Bandcamp Daily", "d": ""}, {"t": "If you discover it and don't know who we are, but you find something in there, that's one of the best feelings.", "p": "Bandcamp Daily", "d": ""}, {"t": "Music is getting wider and more creative. In hip-hop and in the world of production, you're getting new chord progressions. Things need to get fresh and stay fresh.", "p": "Bandcamp Daily", "d": ""}, {"t": "From our perspective, it went over fine, because it's what we like to do. I can't remember exactly what it was, but there was this disconnect over the music being something that the teachers hadn't heard.", "p": "Bandcamp Daily", "d": ""}, {"t": "Arthur Verocai is a legend. He's such an incredible arranger and composer, and part of so many important records coming out of Brazil. It was an honor to work with him. He's been such a big influence of ours, almost ever since we started the band, ever since someone showed us his music.", "p": "Complex", "d": "2021"}, {"t": "All these different factors of his music, we aspire to have as well—in the way we compose, in our production, and in our improvisation. The collab was done over the pandemic via email. But it would've been super magical to see his creative process in person.", "p": "Complex", "d": "2021"}, {"t": "Overall, half and half. Sometimes doing it via email makes more sense, especially if the artist lives far away. But we make an effort to go meet wherever they are, or get them to come to us in Toronto, when we can. Because it's nice to have that physical meeting. For this record, we were lucky enoug", "p": "Complex", "d": "2021"}, {"t": "It starts with him as a producer, and him as an instrumentalist. He's a direct inspiration for what we do. When we were on tour in 2019 we saw him perform six or seven times with Christian Scott and Robert Glasper in the band. The magic of seeing them perform live—not that it's something I've experi", "p": "Complex", "d": "2021"}, {"t": "The music is concise and there was a lot of improvisation. It was a very focused writing period, and we made a conscious effort to make the album flow as a unit. We're just excited for people to hear it, and see where we are now as musicians. It was an incredibly fun recording process and very creat", "p": "Complex", "d": "2021"}, {"t": "Since a lot of it was improvisation-based, it forced us to be more vulnerable and go deeper into the emotional aspects of each song.", "p": "Complex", "d": "2021"}, {"t": "I wasn't burned out from the band, but I was burned out from being on the road all the time. I felt really fortunate to tour so much, but it's really draining and hard to keep going forever. We each pursued different projects after the last tour and were able to enjoy life a bit more. That was more ", "p": "Complex", "d": "2021"}, {"t": "The past year and a half was the most productive we've ever had, musically. Because of the pandemic, we had nothing else to do but record. Apart from this album, each of us had been working on other stuff. It was a nice time to be able to be creative, and see where we can go next.", "p": "Complex", "d": "2021"}, {"t": "We're trying to work in more visual elements. And also when we were working on this album, our first thought was: \"This will be great live, and we can play each song in a row and make it flow together.\"", "p": "Complex", "d": "2021"}, {"t": "Definitely. When we recorded this new album, we could mimic what the live show does in terms of a true performance, with no editing. Having improvisation be such a big part of it led to a more raw and honest depiction of what the songs were trying to bring out of us.", "p": "Complex", "d": "2021"}, {"t": "We would record to tape, so not exactly. But we'd hyper analyze every part, and decide upon the perfect envelope for this synth, or listen intently to come up with the perfect phrase for that woodwind. Talk Memory is about trying to let the music breathe more.", "p": "Complex", "d": "2021"}, {"t": "For a lot of strong vocalists—and everyone we've been able to work with has been extremely strong—part of the process has been connecting who you are as a person to your art form. So I think there's virtuosic limitations with vocals that aren't as inherent as playing an instrument. But there's such ", "p": "Complex", "d": "2021"}, {"t": "And yet, we've had a bunch of sessions with Moses Sumney, and even as a vocalist and all the limitations that come with that compared to an instrument, he seemingly has no limitations. As a saxophonist, he's probably a better tactician with his voice than I am on an instrument where I can push butto", "p": "Complex", "d": "2021"}, {"t": "I guess people label it jazz but we don't really call it jazz because we use jazz as almost a tool when we're composing and writing songs. But there's also elements of rock music, Brazilian music, electronic music, soul music. It's all over the place. It's really hard to describe… it's very unique, ", "p": "Loud and Quiet", "d": "2021"}, {"t": "We're not really concerned about keeping the tradition. We spent a lot of time studying it and using a lot of the tools we learnt from studying it – the theoretical and harmonic aspects. It's stuff we use literally every day. But really, at the end of the day when we're writing, all we're really try", "p": "Loud and Quiet", "d": "2021"}, {"t": "We used the physical studio vibe to create a cohesion, to work on it step-by-step together and to get how it feels having the vocalist or musician play right there – to share a vision. It's really important and it's a totally different feeling on this record because of that.", "p": "Loud and Quiet", "d": "2021"}, {"t": "The only person on a hit list, so to speak, was Colin Stetson. I went to high school with Charlotte Day Wilson; Sam Herring we did a Future Islands remix of previously so we were in touch; Mick Jenkins we knew and Kaytranada is a good friend of ours who we've been doing music with for the last year ", "p": "Loud and Quiet", "d": "2021"}, {"t": "That was really amazing, for me. I've been listening to him his entire career; I'm a huge fan of his. He has just completely changed the approach of how he interprets the saxophone and it was really amazing to stand beside him and be there for his whole process. His general stamina to playing too, h", "p": "Loud and Quiet", "d": "2021"}, {"t": "It has to be someone we can get along with in a lot of different settings, to have a good time with them. There's a million super talented musicians out there but finding someone you resonate with, there's not. We've been lucky with everyone we've met. Sometimes it's intimidating when dealing with s", "p": "Loud and Quiet", "d": "2021"}, {"t": "I think we're really focusing on keeping things original at this point. The covers we have been doing are just a fun aspect of the live show that the audience can latch onto if they know the songs. From a production standpoint we're definitely focused on just coming up with new ideas right now.", "p": "Loud and Quiet", "d": "2021"}, {"t": "I feel like jazz seems to be on the rise right now in terms of popular music, especially through people like Kamasi Washington and the whole Brainfeeder family, and they've always been a huge inspiration for us, so I think working with anybody like that – Flying Lotus, Thundercat – would be really a", "p": "Loud and Quiet", "d": "2021"}], "meta": {"quote_count": 43, "source_count": 5, "date_range": ["2016", "2021"], "corpus_valid": true}}, "bill_evans": {"quotes": [{"t": "It was not like an ambition where you sit down and say, 'Well, I'm going to be a jazz musician and then I'll buy a book of hot licks.'", "p": "JazzProfiles", "d": ""}, {"t": "There's a particular attitude, I think, sort of an instantaneous response or something like that... In jazz it would all have a certain similarity because it has to be within a certain area of facility and knowledge, and that's the difference because your feeling sends out sort of a motivation and t", "p": "JazzProfiles", "d": ""}, {"t": "There's nothing more degrading to me than to think of 70 or 80 musicians who have become almost machines serving this one thing... you have got to have your own identity as well, in an expressive way.", "p": "JazzProfiles", "d": ""}, {"t": "It's a skill, it's not an intellectual thing at all. It's intellectual only in the sense that you use your mind to learn the skill, but it's not intellectual in conception.", "p": "JazzProfiles", "d": ""}, {"t": "I live my life for music, in a way. It's almost as if it's made me want to be a good person just for the sake of music.", "p": "JazzProfiles", "d": ""}, {"t": "I never really strive for that kind of originality — avoiding anything anybody's done — because that's the only way I've learned, in a way.", "p": "JazzProfiles", "d": ""}, {"t": "Like jazz, you can't explain it to anyone without losing the experience. It's got to be experienced, because it's feeling, not words. Words are the children of reason and, therefore, can't explain it. That's why it bugs me when people try to analyze jazz as an intellectual theorem. It's not. It's fe", "p": "JazzProfiles", "d": ""}, {"t": "I heard the fellows in his group building their lines with a design and general structure that was different from anything I'd ever heard in jazz.", "p": "JazzProfiles", "d": ""}, {"t": "I'm always looking to reflect something that's deeper than what I've been doing.", "p": "JazzProfiles", "d": ""}, {"t": "You try to express a simple emotion — love, excitement, sadness — and often your technique gets in the way. It becomes an end in itself when it should really be only the funnel through which your feelings and ideas are communicated. I've always had good facility, and that worries me. I hope it doesn", "p": "JazzProfiles", "d": ""}, {"t": "Now I'm back to where I was before I went in the army. I don't give much of a damn now what anybody thinks. I'll do what I think should be done.", "p": "JazzProfiles", "d": ""}, {"t": "I want to grow, but I don't want to force it. I want to play as good as I can, not necessarily as different.", "p": "JazzProfiles", "d": ""}, {"t": "I always like people who have developed long and hard, especially through introspection and a lot of dedication. I think what they arrive at is usually … deeper and more beautiful … than the person who seems to have all the ability and fluidity from the beginning.", "p": "JazzProfiles", "d": ""}, {"t": "All of it was more or less created out of the musicians themselves.", "p": "JazzProfiles", "d": ""}, {"t": "First take feelings are generally, if they're anywhere near right, they're generally the best.", "p": "JazzProfiles", "d": ""}, {"t": "In jazz, it's gotta be 'bing' and that's it... locking into an almost subconscious process... Speaking from some levels of yourself that you're not even aware of.", "p": "JazzProfiles", "d": ""}, {"t": "Those kind of people, when they finally do arrive at their own expressive level, to me, seem to contain so much more.", "p": "JazzProfiles", "d": ""}, {"t": "Style's the hardest thing to get, and it's not something you really strive for.", "p": "JazzProfiles", "d": ""}, {"t": "Being myself was the only place to be.", "p": "JazzProfiles", "d": ""}, {"t": "Intuition has to lead knowledge but it can't be out there on its own. If it's on its own, you're going to flounder sooner or later.", "p": "WordPress", "d": ""}, {"t": "Knowing the problem is 90% of solving it.", "p": "WordPress", "d": ""}, {"t": "The problem is to be clear and get down to basic structure.", "p": "WordPress", "d": ""}], "meta": {"quote_count": 22, "source_count": 4, "date_range": [], "corpus_valid": false}}, "bladee": {"quotes": [{"t": "When I was thinking this shit up in my head, it wasn't possible before us and Sad Boys. I don't even feel like there's a good genre to describe the music we're doing. I just want to make popular music.", "p": "The FADER", "d": "2019"}, {"t": "It's definitely a bit outdated. Now with the Internet, everything is one thing basically, and everything is inspired by another thing. All music today takes inspiration from hip-hop. Genre is limiting yourself. Just be yourself and let that be the genre, and you can do whatever you want.", "p": "The FADER", "d": "2019"}, {"t": "We did experiment, so at some point it was experimental. But now it's something concrete that exists. I have all the tools to do this Drain music. We created the whole universe and locked down the style, and now everything comes easy. I still want to experiment, though. I try not to get too comforta", "p": "The FADER", "d": "2019"}, {"t": "I see it, it's cool. I'm just happy to put out an energy. I always had this idea of creating something beautiful. Now, I'm making it into something real that you can see and hear, and I'm happy that people can fuck with it and make it their own, or just get inspired by it.", "p": "The FADER", "d": "2019"}, {"t": "Just going down YouTube recommendations is how I find so much music.", "p": "The FADER", "d": "2019"}, {"t": "I like to reinvent Bladee. When I get tired of something, I just want to move onto the next part of the saga.", "p": "The FADER", "d": "2019"}, {"t": "The more comfortable you get in yourself, the more your true light shines through. Once you stop taking in outside influences and trying to please other people, that's when you can really start going crazy with your craft. People need to listen to their inner voice, because it can't be wrong if it's", "p": "The FADER", "d": "2019"}, {"t": "Everything is poetry — music in general, pictures. But lately I've been trying to say less in my songs. Sometimes I think I said too much, and it's deeper if you can say less, because you really say more. When you've said too much, you're getting away from the point. When you can express a feeling i", "p": "The FADER", "d": "2019"}, {"t": "When I was making Eversince, I was always thinking lyrics in my head and writing them down. Lately I've been going off top, bar for bar, just punching in and going in the studio, listening to the beat and writing something right there. It's automatic. I'm better at English now, too, so I've got more", "p": "The FADER", "d": "2019"}, {"t": "When we started, I was like, No one's going to want to listen to my broken English. But people fuck with it, and now I got better. I lived in London for two years and [English] sounds more natural for me. When you're speaking a different language — or when I started, anyways — [it felt] like it wasn", "p": "The FADER", "d": "2019"}, {"t": "I created Bladee first as a character, and then I grew into it and found how to be the truest version of myself.", "p": "The FADER", "d": "2019"}, {"t": "Icedancer was over a summer and a winter where I was starting to be more positive. I was recording a lot of songs in between albums with whitearmor. Ripsquad was sending me a lot of beats, and it became a tape.", "p": "The FADER", "d": "2019"}, {"t": "I always like the new music we're making the most. It's always the songs I just made last week that I'm like, Yeah, that's my favorite song. I really like Eversince, I still play those songs live. There's also a lot of music that I wish I didn't put out that I find not great, but it's out and I can'", "p": "The FADER", "d": "2019"}, {"t": "Music was a really good way for me to vent, and it just sounded hard to talk about that shit. But now, I feel a little more responsible, because there's a lot of young people listening to my music, and I don't want to make it sound cool to be depressed or to dwell on these feelings. I put the worst ", "p": "The FADER", "d": "2019"}, {"t": "You listen to sad music to get out those feelings, and a lot of people can use it to get the sadness out, but you mustn't stay in the sadness and get even sadder. You should put your sadness out onto the song. Sing it out with me, and you feel better.", "p": "The FADER", "d": "2019"}, {"t": "That's something that I've always wanted to be able to do. You know how some pop songs are just one word, but it's enough to make a crazy song? I don't like to over-explain. Where I'm at now, I feel like this is a more universal language. You don't have to be able to exactly relate to the story I'm ", "p": "BOMB Magazine", "d": "2021"}, {"t": "I'm really into spiritual stuff, so that's obviously influenced my music-making.", "p": "BOMB Magazine", "d": "2021"}, {"t": "It's funny you say that because I'm super inspired by her. About a year ago I bought this book about her art, and another that's all her notes and philosophy. I was really into it; she's receiving images and using some spirit language to paint pictures.", "p": "BOMB Magazine", "d": "2021"}, {"t": "I'm trying to make it up myself. I take a little bit from things that I'm into, and the whole thing kind of came from the fact that I was able to build these worlds or universes in my music and to create within this kind of universe myself.", "p": "BOMB Magazine", "d": "2021"}, {"t": "What works for me is just following stuff that is beautiful and inspirational to me. These things that make me excited are what is divine to me, the shiny golden things that make the path you take.", "p": "BOMB Magazine", "d": "2021"}, {"t": "When I was coming up with lyrics for these songs, I felt like there was a hook, and a verse, and another verse; but as I was writing it down I realized, 'Wait, this is just kind of the same thing over and over.' It just changes slightly each time.", "p": "BOMB Magazine", "d": "2021"}, {"t": "With this really stupid, basic level you can put whatever meaning you want into it. It leaves space for the listener's own associations. When I wasn't as confident in my own music-creating, I had to say all this stuff in my lyrics and find themes to use in my music. But the more I do it, the more I ", "p": "BOMB Magazine", "d": "2021"}, {"t": "What really got me into spirituality was reading these Hilma af Klint texts. When I was reading about how she made her works, something clicked for me. She made systems of all this stuff, which was really inspiring to me, because I've always been into that kind of thing. I've always had colors that ", "p": "BOMB Magazine", "d": "2021"}, {"t": "My philosophy is that there are infinite ways of looking at this universal truth or wholeness, and every expression or way of looking is equally valid.", "p": "BOMB Magazine", "d": "2021"}, {"t": "In the world we live in, it's not possible to achieve this. Striving for the beauty or the glory is sometimes enough. Maybe that's the most important part.", "p": "BOMB Magazine", "d": "2021"}, {"t": "My YouTube algorithm at that time was pretty crazy. I had been looking at Russian ballet videos, and we were listening to some weird Dutch Italo-disco stuff. I was listening to a lot of binaural beats.", "p": "BOMB Magazine", "d": "2021"}, {"t": "That's part of why we worked together, because it's like, kind of a different sound from what I would normally do. I don't maybe think as much of the process and these aspects of what a song is.", "p": "The Harvard Crimson", "d": "2021"}, {"t": "The actual making of the song is very intuitive. We just made it in one go pretty much and then we would do this kind of exercise where we, by listening to it, try to decide, 'What's the best form?' Then we'd have the original vein of something that just kind of came to us without contemplating.", "p": "The Harvard Crimson", "d": "2021"}, {"t": "We definitely feel like we would have made this project or something that sounded like this at one point, anyway, because we both have been really into exploring these kinds of songs.", "p": "The Harvard Crimson", "d": "2021"}, {"t": "We wanted to do something that's actually like a real event so that it feels like this happened. Because otherwise, we would just release the album [and] it would be some numbers online.", "p": "The Harvard Crimson", "d": "2021"}, {"t": "You get tired of hearing yourself. Even if I'm not talking from my own perspective, or am talking about something that never happened, those feelings are still real. The lyrics are like painting a picture. You want to make it look nice—you want to decorate it.", "p": "032c", "d": "2023"}, {"t": "I can't do anything when I have to. I can't work in any other way. So, in that way, it's effortless. If I feel pressured to do something, then I won't do it!", "p": "032c", "d": "2023"}, {"t": "We always arrive at something interesting through the music that we didn't expect. We never set out to play huge shows or to have a cult fanbase, but there's always something fun and unexpected happening.", "p": "032c", "d": "2023"}, {"t": "I don't think about what the fans think. We have always done what we do, and the good thing that comes from that is we do it ourselves, and we don't let other people control what we're doing.", "p": "032c", "d": "2023"}, {"t": "There's always a core idea that's based in truth, but it's more about the feeling that it gives. I think you can always hear when something is true, like in its essence.", "p": "032c", "d": "2023"}, {"t": "What's the best thing you can make that you haven't been able to achieve? That's always the goal.", "p": "032c", "d": "2023"}, {"t": "So special. That time in London, it was just creation. A lot of stuff sprouted from what was going on there. Even if it was on a small scale in London, if it was just for the people involved mostly. But it inspired so much, and I feel like Benjy was definitely the key player. Benjy was the glue.", "p": "PAPER Magazine", "d": "2024"}, {"t": "I feel like that's also something with working with Benjy, things always take on epic proportions. We started out in Thailand and we were listening to one of your mixes. You're always in our minds, even when we don't talk. But then, we were like, 'Let's make a project.' It was a very last-minute thi", "p": "PAPER Magazine", "d": "2024"}, {"t": "That also felt like a full circle to get Daniel on board. I mean, the artwork was also kind of us just throwing out ideas first. We started with the cross imagery, and then the frog came in. But now since we dropped it, I feel like it got really deep and really represented the album in a good way, t", "p": "PAPER Magazine", "d": "2024"}, {"t": "Everything came together kind of last minute. I wasn't sure what this album was going to be or if it was good or not. Up until this last week. I knew we had something, but I didn't know how it was gonna hit.", "p": "PAPER Magazine", "d": "2024"}, {"t": "Me and Jonatan had been in Miami doing some work. I was going back to Sweden. I was in the airport. And Lucio texts me that Benjy had made this intro and wanted us to speak over it. And so I did that on a voice note in the airport. We just kind of freestyled it.", "p": "PAPER Magazine", "d": "2024"}], "meta": {"quote_count": 39, "source_count": 5, "date_range": ["2019", "2024"], "corpus_valid": true}}, "boy_harsher": {"quotes": [{"t": "It's hard to know how something I've made will access others, but people do tell me that our music evokes those feelings, maybe also provides kinship. Heartbreak is universal, right? I'm trying to touch feelings when I write, so I shy away from anything too literal or anecdotal. That way you can rep", "p": "Dazed", "d": "2019"}, {"t": "I like music that immediately transports you to a location or an idea or a narrative – some feeling. And that's what we are shooting for when we make our music, just something that takes you somewhere else immediately.", "p": "Dazed", "d": "2019"}, {"t": "For me, music is more of an exercise of accessing my emotions. That can be very therapeutic.", "p": "Dazed", "d": "2019"}, {"t": "Writing has always been a tool that has helped me express myself during extreme highs and lows. Writing is this challenge, you gotta translate what's going on in your brain or in your cosmic emotional indeterminate space. I've always tried to write as an exercise in explanation, because often I get ", "p": "Dazed", "d": "2019"}, {"t": "During the initial recording process at our friend's studio in Baltimore, I thought that a lot of the songs were super silly. I mean, there's a guitar solo in \"Country Girl\"! I thought, \"Okay, this release gonna be light,\" but then, after actually listening to the songs all together, I discovered th", "p": "Dazed", "d": "2019"}, {"t": "We focus on making sure our videos exist in the same world as our music. It's less about story then it is about aesthetic and vibe.", "p": "Dazed", "d": "2019"}, {"t": "The videos we've made we've always tried to run with an emotive keyword. When people make videos for us, we steer them in terms of the song's essence, and what we need the overall vibe to be.", "p": "Dazed", "d": "2019"}, {"t": "It's really important, I think. When you're writing music, you're envisioning where it's going to be performed and where it's supposed to exist. What we've been focusing on and what we've been feeding off of for the last few years is playing shows that are really dance-oriented. It's body music. We ", "p": "Dazed", "d": "2019"}, {"t": "I was in the studio every day trying to make something and nothing made sense. We just got done with two years of heavy touring and I felt like we were really starting to harness that energy. It felt like our next record, if Covid hadn't happened, would have been really club-ready. But suddenly, pla", "p": "Crack Magazine", "d": ""}, {"t": "We've always been obsessed with dance music and that kind of in-person engagement. We were writing during a moment when that was the ultimate danger: being in a public space and dancing.", "p": "Crack Magazine", "d": ""}, {"t": "Everything I write is kind of horror-based, because I do believe horror to be the best metaphor for grief. A lot about living is about trying to process the loss of life.", "p": "Crack Magazine", "d": ""}, {"t": "We had these songs that are all over the map, and we wanted to give the meaning, so we wrote this script together. It's important to us for our albums to have a narrative, a cohesion and a cinematic quality.", "p": "Crack Magazine", "d": ""}, {"t": "That is the dream. It's funny, we spent this whole time trying to find our space and figure out who we are, and we've realised that we're just never going to. That's one thing I wish people told you: you're never going to find your place, and no one's going to tell you where you fit in. We just want", "p": "Crack Magazine", "d": ""}, {"t": "I'd still be making this stuff if no one was listening. I can feel pretty broken sometimes, and there's something about sticking your hands in these sounds, and controlling them, that makes me feel normal, at least for a little while.", "p": "The Fader", "d": "2022"}, {"t": "It's a motif we return to because it's a fantasy everyone has. Part of the reason we love driving around is that the idea of disappearing is so alluring. For The Runner, we had the idea for this character who needs to flee all these disastrous situations she herself has created; she's the ultimate s", "p": "The Fader", "d": "2022"}, {"t": "It's always these same characters, who are maybe our alter egos. We just rearrange and make new scenarios for them.", "p": "The Fader", "d": "2022"}, {"t": "We're old now, and we're in a pretty locked life situation. You can no longer be the little monster that lives inside you. But you can write that little monster into any situation you'd like, when you're an artist.", "p": "The Fader", "d": "2022"}, {"t": "When we listened to the tracks that felt the most succinct together, it sounded like a soundtrack, and we love soundtracks. Then we realized, \"Wait a minute! We want to make the movie too!\"", "p": "The Fader", "d": "2022"}, {"t": "I call that my Jim Morrison moment. We knew at that point what the movie was, and we knew we needed something that had written-in catharsis. I was trying to do that '70s swagger.", "p": "The Fader", "d": "2022"}, {"t": "In the beginning I was really inspired by projects like Profligate and Delroy Edwards that could take club music and make it so raw and physical. Something just clicked with me and I realized synth and electronic music can have so much power and control.", "p": "Music and Riots", "d": ""}, {"t": "We started performing live in front of a lot of noise audiences – at regional underground festivals like INC in Miami. The performers were so confident and bold, a lot of intense power electronics. I just remember wanting to compete – like I can be aggressive too, which has stuck with me throughout ", "p": "Music and Riots", "d": ""}, {"t": "The idea of blending hard aggressive songs with vulnerable songs is something we were exploring with at our first shows. I find playing a string of hard tracks wears you down and primes you for the slower more emotional tracks.", "p": "Music and Riots", "d": ""}, {"t": "There's definitely vulnerability in aggression, in shame, in lust, in anger. We aren't commercially soft, but we explore helplessness and fear – which I think is liberating. Being able to get some authentically ugly feelings out there – is a release.", "p": "Music and Riots", "d": ""}, {"t": "The songs we're drawn to in the studio are always tracks we have a strong visual connection with. They can't just sound good. There needs to be a hallucinatory reaction.", "p": "Music and Riots", "d": ""}, {"t": "We love to generate music that evokes a sense of place and feeling. We are definitely chasing the ultimate score album – where all you need to do is close your eyes and you're watching the dark road through the windshield.", "p": "Music and Riots", "d": ""}, {"t": "Our songs are primarily melody and scale based. It's easy to hit a wall where everything is too perfect, too in harmony. There's enough instruments playing the same notes and it just becomes elevator music. I'm looking for a way to pervert the sound or scale a touch, so it breaks out of the comfort ", "p": "Music and Riots", "d": ""}, {"t": "I try to defy 'goth' performance tendencies – although I'm really scared (normal) and perhaps should just stand still, I have so much fun thrashing around like an idiot. I also don't stop myself from smiling, which according to many audience members is not common.", "p": "Music and Riots", "d": ""}], "meta": {"quote_count": 27, "source_count": 4, "date_range": ["2019", "2022"], "corpus_valid": true}}, "clairo": {"quotes": [{"t": "He helped me find the sound I've always wanted. When I listen to the records he's worked on, I don't know how he does it – I can't recognise anything, it all sounds so different.", "p": "Crack Magazine", "d": "2024"}, {"t": "I let a whole team of people just do what they do best rather than doing it all myself. I'd be like: keep going with that feeling.", "p": "Crack Magazine", "d": "2024"}, {"t": "I'm just letting people into the process and the music is better for it.", "p": "Crack Magazine", "d": "2024"}, {"t": "Yeah, I think the pendulum's swinging in terms of people craving something tactile, things that feel like a long-process-type experience.", "p": "Blackbird Spyplane", "d": "2024"}, {"t": "We've gotten to a point where you're being bombarded with so much new information and so many things that you wonder, What was happening before all this? I've tried to implement some of that in the way I make music now, studying records I love and trying to learn how they recorded them.", "p": "Blackbird Spyplane", "d": "2024"}, {"t": "My collection's not that crazy, I have maybe 60 or 70 of them. But even if it's a record ripped from 45 onto YouTube, I'll fall in love with imperfections in the way it was ripped, like a scratch on the record, or if something in the recording is way too loud.", "p": "Blackbird Spyplane", "d": "2024"}, {"t": "Tin whistles are underrated. I want to give them a new lease on life.", "p": "Blackbird Spyplane", "d": "2024"}, {"t": "To me, it's better to have a process where you've been working on it for so long, to where people's opinions are so far away that you just end up writing what you want.", "p": "The Creative Independent", "d": "2025"}, {"t": "It's really just about letting yourself have phases. Then you end up knowing so much music.", "p": "The Creative Independent", "d": "2025"}, {"t": "I think it's really important to look for nice people who have a huge amount of references, and who can also go as deep as you want or as surface as you want.", "p": "The Creative Independent", "d": "2025"}, {"t": "I do think that there's something on every album that still represents the current me.", "p": "The Creative Independent", "d": "2025"}, {"t": "I never really like to stay the same, anyway.", "p": "The Creative Independent", "d": "2025"}, {"t": "It's definitely more about getting to the source and the real sound.", "p": "The Creative Independent", "d": "2025"}, {"t": "I think talking about references and sending tracks back and forth is what gets everything flowing and everyone on the same wavelength.", "p": "The Creative Independent", "d": "2025"}, {"t": "It's not even performing. It's not even being in the studio all the time. It's music in general that has become, and has always been, the most important thing to me.", "p": "The Creative Independent", "d": "2025"}, {"t": "I'm feeling it first, then the words come second.", "p": "Interview Magazine", "d": ""}, {"t": "Well, the process is everything.", "p": "Interview Magazine", "d": ""}, {"t": "I also hate everything that comes with trying to explain your record or trying to make it a story.", "p": "Interview Magazine", "d": ""}, {"t": "Finding a narrative in your album can be kind of therapeutic after it's made. Right after I made this record I was like, 'I have no idea what this thing is.'", "p": "Interview Magazine", "d": ""}, {"t": "The more time I spent away from it, the more I understood exactly what it was about, and then I could talk about it.", "p": "Interview Magazine", "d": ""}, {"t": "Having to explain the overarching meaning of your record is so difficult, because at least for me, there's parts of myself that I literally cannot communicate unless it is through this medium.", "p": "Interview Magazine", "d": ""}, {"t": "Miserable? Oh. Probably revisiting something that was euphoric and in the moment. It's not authentic to the feeling.", "p": "Interview Magazine", "d": ""}, {"t": "Margo Guryan is a really good example of someone who's sexy without you knowing anything. Her vocals are very close to the microphone and she's talking about love, but it's never explicit.", "p": "Interview Magazine", "d": ""}, {"t": "There's something that's left to be desired, which really resonates with me. I want the audience to understand that, with me, it's never going to fully be given.", "p": "Interview Magazine", "d": ""}, {"t": "Totally. Well, I know we have talked about Blossom Dearie in the past. I have this record of hers and on the back it says, 'Blossom Dearie sings like she's sitting in your lap.'", "p": "Interview Magazine", "d": ""}, {"t": "That changed the trajectory of my record completely, because that's so hot and so sensual and charming and mysterious, but it's still so sweet and simple.", "p": "Interview Magazine", "d": ""}, {"t": "I want to do something like that. I want them to feel like I'm in their lap telling them things in their ear.", "p": "Interview Magazine", "d": ""}, {"t": "I think I'm a person who is recently discovering sensuality and femininity in myself. It's something I never fully tapped into.", "p": "Interview Magazine", "d": ""}, {"t": "I didn't understand my own strain of sexy. I didn't know how to lean into it, and I didn't know what it meant to me.", "p": "Interview Magazine", "d": ""}, {"t": "Yes. And 'She Don't Use Jelly' is a huge song for me. I'm obsessed with that song, but also Soundgarden. And I mean, Nirvana.", "p": "Interview Magazine", "d": ""}, {"t": "I could never write a record that wasn't about something I'd experienced.", "p": "NME", "d": "2019"}, {"t": "I didn't want to have to rely on anyone else. When it came to me wanting to sing a song and perform something, I was just like, 'Fuck it, I'm gonna do it.'", "p": "NME", "d": "2019"}, {"t": "I definitely did not know what the hell I was doing. I was just writing about relationships that I'd never had and pretending that I knew what that was like. For a while, I was scared about writing my own music. I was afraid it was going to be bad.", "p": "NME", "d": "2019"}, {"t": "Instead of wanting to learn the first songs you learn to play, I just automatically wanted to start playing songs that I knew.", "p": "NME", "d": "2019"}, {"t": "There's a mix of really calculated parts to reflect the calculated energy you have in a first experience with someone and moments where it feels really playful, like flirtiness.", "p": "NME", "d": "2019"}, {"t": "I'm not necessarily the most educated on how to do things, but I definitely have the ideas to execute.", "p": "NME", "d": "2019"}, {"t": "I remember listening to 'California English' for the first time and being like, Whaaaat?! That whole era was so important for music and so important for my upbringing with music. It's so funny to think about how important Vampire Weekend is to me and to be able to work with Rostam on my debut.", "p": "NME", "d": "2019"}, {"t": "I just want to maintain the relationship I have with the people who listen to my music and continue to make full records. I'm more inspired now than ever to make music.", "p": "NME", "d": "2019"}, {"t": "I was completely wrong. It's a really cool thing to be able to see how some of the slower songs or some of the songs that I thought people may not care as much about are sung back to me so loudly every night.", "p": "SPIN", "d": "2022"}, {"t": "When the record was first written, and when I was first talking about it, I did think a lot of it was about—and a lot of it is still about—growing pains into adulthood, raising my dog Joanie and finding new perspectives through my mom. But a lot of it, too, is about finding comfort wherever you find", "p": "SPIN", "d": "2022"}, {"t": "There are so many things I wanted to experiment with on Sling that he was all for. He's great at directing, but he's also great at making you feel and know that it's your record and your song. He was down to make something that he had never made before, which I think was really important for both of", "p": "SPIN", "d": "2022"}, {"t": "Turning the stage into this living room was really important to the sound because I wanted it to feel comfortable. I wanted the show to be surrounded by comfort, understanding and softness. The rugs that we added are all really beautiful, and playing the piano was a new thing for me, which feels rea", "p": "SPIN", "d": "2022"}, {"t": "I love making music and I think that's something I'm gonna always be doing, but I think 'being' or 'having' Clairo as a career is something that I don't know if I want forever. There's a lot of things I need to learn about myself in terms of what other things I'm good at or what other interests I ha", "p": "SPIN", "d": "2022"}, {"t": "I've always wanted to produce for other people see what that feels like or write songs from the people. I love the feeling of being collectively a part of something, I just don't always love being at the forefront of it.", "p": "SPIN", "d": "2022"}, {"t": "It was so amazing. I've only worked with two female engineers this whole time, and Laura was one of them. It was so wonderful to have another woman in the room. It made me feel understood. It made me feel closer to the work.", "p": "SPIN", "d": "2022"}, {"t": "Just her overall energy. She's really kind and understanding. It does help to have another woman in the room when you are writing about primarily female or female-identifying experiences. It just helps. She can nudge you along your own insecurities with it. She can help you feel more confident when ", "p": "SPIN", "d": "2022"}, {"t": "He is so funny. When we started working together, I was really intimidated, of course, by his track record and everything that he works on and his level of success. I was nervous that I wasn't gonna meet a certain standard. But he's so down to earth. He's very free and open about whichever way a son", "p": "SPIN", "d": "2022"}, {"t": "I mean, I say I'm taking a break and then I start writing again. So, I don't know when this break is ever gonna truly happen. But I have started, and it feels so good. I think it's gonna end up being a blend between the first two records, which feels right. But I'm also going to let this one simmer ", "p": "SPIN", "d": "2022"}], "meta": {"quote_count": 56, "source_count": 6, "date_range": ["2019", "2025"], "corpus_valid": true}}, "fishmans": {"quotes": [{"t": "I've been addicted to the sense of \"the music takes me somewhere else\" for 30 years. However, I reflect seriously on the fact that I haven't done anything realistic and I know too little about the world, so sometimes I even worry about myself. But as a musician, I can't help being attracted to the m", "p": "TOKION", "d": "2021"}, {"t": "Private studio was a great revolution. For us—especially for Sato-chan, it was a dream come true. We really got a place where we could always do recording as an extension of daily life.", "p": "TOKION", "d": "2021"}, {"t": "When we were using a big studio, there were a lot of people around us, and we had a lot of things to worry about besides music. The less such things we had, the better Fishmans became.", "p": "TOKION", "d": "2021"}, {"t": "I think it's like putting a part of everyday life into music. Fishmans music never draw conclusions, nor does it seek conclusions. A part of a certain life is cut out, and it continues endlessly. It's both kindness and rigor.", "p": "TOKION", "d": "2021"}, {"t": "I realized that everyday life is the most dramatic. The greatest treasure for me is the feeling of joy, sadness, and indescribable emotion when the sun is about to set. I think my own perspective on finding or not finding trivial things in everyday life changed through the encounter with Fishmans mu", "p": "TOKION", "d": "2021"}, {"t": "The trivial things are the most moving. That's why I feel happy and sad, then I have my life that continues.", "p": "TOKION", "d": "2021"}, {"t": "The written lyrics are not the only message in a song, but each sound with no words definitely has emotions.", "p": "TOKION", "d": "2021"}, {"t": "In my case, in terms of Fishmans songs, the importance of making sounds had increased over time. For example, at the exquisite moment of changing the mood of song, I hit the cymbal only once. The sound of the cymbal at the moment of the song's peak has a great influence. The responsibility for such ", "p": "TOKION", "d": "2021"}, {"t": "For the drum solo of \"LONG SEASON\", I tried to convert what came to my mind into sound as much as possible. The theme of my solo was \"fireworks I saw during a summer vacation.\" In response to the lyric: \"What do you remember?\", I answered with the drum solo, \"I remember the fireworks exploded by the", "p": "TOKION", "d": "2021"}, {"t": "If you look at the wavelength of sounds from Fishmans' recording, it's definitely random. But from my point of view, that's exactly the fluctuation of the band sounds that other people don't have, and that's why our band is called \"Fishmans\" isn't it?", "p": "TOKION", "d": "2021"}, {"t": "He showed us how to strip things back, and reduce our music to the bare essentials. I feel like Zak taught us a lot about how to generate a sense of tension. When you keep adding sounds, you lose that.", "p": "Tokyo Dross / Japan Times", "d": "2019"}, {"t": "To borrow a phrase from Sato, we were 'just doing it,' but 'just doing it' takes real single-mindedness. It's about devoting yourself completely to the task, and moving gradually forward, until eventually you end up with something like Long Season.", "p": "Tokyo Dross / Japan Times", "d": "2019"}, {"t": "I don't get nostalgic doing it at all. If the music felt like a throwback when we played it, I don't think I'd be as interested in doing shows.", "p": "Tokyo Dross / Japan Times", "d": "2019"}], "meta": {"quote_count": 13, "source_count": 2, "date_range": ["2019", "2021"], "corpus_valid": false}}, "nujabes": {"quotes": [{"t": "I used to make music back in high school, but I just couldn't get fully into it and so I stopped. The reason I started making tracks again was because I wanted to hear music which sampled all the old soul and jazz that I liked.", "p": "kumomi (transcription of Sound & Recording Magazine)", "d": "2003"}, {"t": "At first it wasn't so much me trying to make actual songs as it was just seeing what would happen when I took a sample from one record, made a loop out of it, and layered another sample over that one. I got so much pleasure even from just creating those phrase loops—when I made my first one I spent ", "p": "kumomi (transcription of Sound & Recording Magazine)", "d": "2003"}, {"t": "When I first learned of the Propellerhead ReCycle!, I was going, \"I can't believe something as useful as this exists.\" However, there's simply a clear as day difference between something that was calculated and split up by software, and something that's been cut by hand. It's like the sample loses t", "p": "kumomi (transcription of Sound & Recording Magazine)", "d": "2003"}, {"t": "Having been doing track making so far, I've finally began to see more clearly the coordinates of what exactly it is I want to express with my sound. If I had to put it into words, it's the things I think in my everyday life; the things I feel… So, as per the album title: \"music as a metaphor.\" There", "p": "kumomi (transcription of Sound & Recording Magazine)", "d": "2003"}, {"t": "Since I am myself an independent musician, I think it's important I work with MC's who share the same perspective and express the things I personally find important.", "p": "kumomi (transcription of Sound & Recording Magazine)", "d": "2003"}, {"t": "I could send the finished tracks overseas and just have them record their raps on top of them over there, but if I did that I wouldn't be able to give the MC's any direction on the spot and I wouldn't have any face-to-face contact with them. That's why I don't wish to do that. Sure, it's expensive a", "p": "kumomi (transcription of Sound & Recording Magazine)", "d": "2003"}, {"t": "Although for me the most important thing isn't sound quality, but rather the process of getting closer to that image of my ideal sound—including with the mixing which I also do myself.", "p": "kumomi (transcription of Sound & Recording Magazine)", "d": "2003"}, {"t": "While my work on Hydeout Productions will continue to be sample-based, the fact is that there aren't a lot of variables when it comes to programmed music. That's why I want to bring things like Cycling '74 Max/MSP to my work, and I'm now researching all that with Nao as URBAN FOREST. Utilizing softw", "p": "kumomi (transcription of Sound & Recording Magazine)", "d": "2003"}, {"t": "Everything at the store is stuff I went and bought overseas myself, and my hope is for people to come in, listen to old records at their leisure, and hopefully feel inspired by those records to make good tracks themselves.", "p": "kumomi (transcription of Sound & Recording Magazine)", "d": "2003"}], "meta": {"quote_count": 9, "source_count": 1, "date_range": ["2003", "2003"], "corpus_valid": false}}, "radiohead": {"quotes": [{"t": "We would really love to do stuff that's more throwaway, in the sense that it's not a big body of work making a big statement. It's like, \"This is what we're doing today.\" It's quite a difficult mindset to stay in for a long period.", "p": "Magnet Magazine", "d": "2003"}, {"t": "They've ended up like that, yeah. I think [Thief] is like that as well, but that's just [a result of] you sitting down with what you've got and you discover there's a trail running through it.", "p": "Magnet Magazine", "d": "2003"}, {"t": "Well, I'd like to see them sit down and calculate the songs as well. Because no cleverness ever comes unless the work itself is in some way convincing. That's the joke. It'd be impossible for me to calculate something before it happens and then make it happen. It would just be shit. It completely de", "p": "Magnet Magazine", "d": "2003"}, {"t": "I still make music and get involved with this band because the things that are really getting to me—whether they be making me miserable or angry or joyful—they always have to come out through the music. If you come to your art with this mood and just try to put it straight down, it's a longer and ha", "p": "Magnet Magazine", "d": "2003"}, {"t": "It's about actually catching yourself unawares rather than this whole thing of thinking, \"Here we start working on new material, in this new session\", which can sometimes feel a bit daunting. So we're trying to catch ourselves on the fly, and see what comes out of that.", "p": "Drowned in Sound", "d": "2007"}, {"t": "The songs themselves have always been paramount – we work as a group of five people, and with Nigel, in trying to find the best or most appropriate way to bring those songs out. That's your focus, rather than thinking about it too individually.", "p": "Drowned in Sound", "d": "2007"}, {"t": "We all tread lightly with each other, but at the same time you recognise that if you don't broach certain subjects then they're likely to trip the whole project up. Compromise is a good thing, isn't it? Every band is a compromise.", "p": "Drowned in Sound", "d": "2007"}, {"t": "[Composing] is more solitary, you're alone in a room with a paper and piano for months without seeing another human. Although it does make it difficult for [the rest of Radiohead] when I come back to them. I'm always over-keen and over-eager to do something social and communal.", "p": "The Quietus", "d": "2019"}, {"t": "That album was the first time I've managed to get my hands on a Radiohead song when it was just a drum machine and a vocal line. Usually strings are just decoration, there's not much room left for them, but it's taken me these many albums to get the confidence to say 'let's just leave this song here", "p": "The Quietus", "d": "2019"}, {"t": "When we're recording there's always lots of options about how to make reverbs and echoes. Some of them are mechanical, there's one that's called a palm speaker. It's a speaker inside a box with strings strung across it, and that resonates according to certain frequencies and sounds a bit like an ech", "p": "The Quietus", "d": "2019"}, {"t": "I always get to the end of this stage, a crazy and intense process of months and months of preparation, then one concert then it's all gone… I just feel the urge to instantly retreat back to the guitar and laptop.", "p": "The Quietus", "d": "2019"}, {"t": "As long as I'm surrounded by instruments, I'm happy, whatever it is I'm doing.", "p": "The Quietus", "d": "2019"}, {"t": "Almost every tune is like a collage, you know. Things we prerecorded, each of us, and then were flying at each other. It's like editing a film or something. It's quite interesting. The melodies were there but so much was implied so that when you did embellish, it was like, whoa, you know, it really ", "p": "NPR", "d": "2011"}, {"t": "Not really trying to necessarily be experimental or anything. You see, you're constantly learning from other music, right. And then there's that Lennon thing... it's not who you steal from, it's how you steal. You know, I'm constantly absorbing other music. And that's what stimulates me the most. An", "p": "NPR", "d": "2011"}, {"t": "What it forced you to do was you had to simplify what you were doing. You couldn't do loads of ideas. Probably the most important thing is you had to listen to one another. Believe it or not, that's also something that - in a band you can lose that. You can get so wrapped up in what you're doing, yo", "p": "NPR", "d": "2011"}, {"t": "The part of what you do is rejection. There's a big part of that. A lot of the time, it is like hitting your head against the wall and then you have breakthroughs. But I think what's great about the environment that we have is that no one ever says, well, you can't do that. You try it and then it's ", "p": "NPR", "d": "2011"}, {"t": "Our problem, I think, sometimes is you have a momentum thing when you're working and if you break the momentum, it's very much harder to go back to it.", "p": "NPR", "d": "2011"}, {"t": "We didn't have a clue how we were going to play a lot of it. And then, like, learning to play it allows you to back into it in another way as well, especially after the initial sort of what the hell is that thing? So, I mean, and in some ways that's one of the ways we move on musically. It's quite i", "p": "NPR", "d": "2011"}], "meta": {"quote_count": 18, "source_count": 4, "date_range": ["2003", "2019"], "corpus_valid": true}}, "skrillex": {"quotes": [{"t": "If you saw how I work, I think it's definitely quite unconventional just because it's all self-taught - I didn't learn conventional production methods. I'm kinda stubborn in some ways too in that, at one point, what I do would definitely not be considered 'production', it would just be considered no", "p": "MusicRadar", "d": "2011"}, {"t": "At the end of the day it's not so much the editing style that matters, it's more about having a real cool, concrete idea. Even if it's a whole line of bits and crazy parts, it still has to stick with you and have... almost like a phrase.", "p": "MusicRadar", "d": "2011"}, {"t": "It's usually about how I'm feeling at the time... I'll never abandon what I've done before but I want to keep growing. I'm always creating new synth sounds and samples when I work, which often take me off in a certain direction, but it's always about who I am.", "p": "MusicRadar", "d": "2011"}, {"t": "I started with Fruity Loops back in the day, then Reason and then I learnt Pro Tools but I kinda hated it so I got Ableton Live, which is just so incredibly intuitive.", "p": "MusicRadar", "d": "2011"}, {"t": "If someone reads something, and it's like 'CRAZY EMO KID TURNED DUBSTEP METAL GUY BLAH BLAH BLAH', then they really don't understand. I'm making all kinds of music, all BPMs. I'm using hip hop and techno and moombahton in my sets! People that experience it will see that I'm not trying to back any so", "p": "Dazed", "d": ""}, {"t": "When people say I 'JUMPED ON THE DUBSTEP BANDWAGON', I just want to say, 'Whoa, whoa, rewind' – there was no fucking wagon when I was making dubstep.", "p": "Dazed", "d": ""}, {"t": "I made that record in my bedroom not really knowing what I was doing, but it just kind of came out.", "p": "NPR", "d": "2014"}, {"t": "I always think it's fun to make sounds that almost sound human — even though they come from a computer, there's something organic-sounding about it. That's where the 'monster' thing comes from, I think: It sounds like someone's actually talking, but every one of those vowel sounds is just a lot of d", "p": "NPR", "d": "2014"}, {"t": "It's funny — when you make music, you don't really think about how you're going to explain it at the end. People are really, really into the idea of, 'What were you thinking of when you made that?' And I don't really think of anything; it just happens, and it's hard to explain.", "p": "NPR", "d": "2014"}, {"t": "I feel like with a lot of records made for DJing, there's always some sort of buildup. Even in techno, where it's really simple, it'll be the same loop over and over again, but then the 'drop' comes... It's a similar, dynamic way of approaching how to write music, but taken in so many different ways", "p": "NPR", "d": "2014"}, {"t": "I always loved electronic music growing up. Bjork was always one of my favorite vocalists and I loved how involved she was with the production, how she took elements of IDM and drum 'n' bass and created something really awesome and melodic.", "p": "NPR", "d": "2014"}, {"t": "The computer was just the way I could express myself, basically. It was just another instrument.", "p": "NPR", "d": "2014"}, {"t": "When I did the record with Chance the Rapper... I recorded his entire band, The Social Experiment — live horns and keyboard solos and all that stuff. I wrote some chord progressions out, had them replay it, reinterpret it. Chance started toasting over it, and it happened really quickly in the sort o", "p": "NPR", "d": "2014"}, {"t": "I feel like people don't take you as seriously unless you've done a 'studio record' — which is OK, but I think it's also important to not limit yourself to that, and show that you can release music and be successful in other ways. Especially in the world of electronic music, kids are so fast and pro", "p": "NPR", "d": "2014"}, {"t": "I feel like anybody that's mixing and mastering alone, it's always hard. When I was in a band, you would write the songs, your producer would record it and that was it. When you're mixing yourself and it's all in the box, in the same place where you've made the record, it's easy to start changing st", "p": "NPR", "d": "2014"}, {"t": "I knew my biggest asset was my mind and my creativity. If that means spending four months scoring a movie called Spring Breakers, an indie film that maybe my main fanbase doesn't care about, it's still my journey. And it might plant seeds for ten years from now – I got GarageBand one day and started", "p": "Dazed", "d": "2019"}, {"t": "It's explosive, but still restrained. There's energy. I wanted something that complemented the sweetness and melancholy of the vocal, but wasn't safe, that still went somewhere.", "p": "Dazed", "d": "2019"}, {"t": "There's something really similar about all creative people, whether it's Mariah Carey or a young person who has no hits but they're on fire with the creative language that we're all speaking. When I first walked into the studio with Mariah Carey – and she's an incredible songwriter, a lot of people ", "p": "Dazed", "d": "2019"}, {"t": "You saw Avicii doing a record that's country. You saw rappers mimicking screamo artists. You heard electronic music and rap music. I don't think we've ever been in a decade that takes other elements like we have.", "p": "Dazed", "d": "2019"}], "meta": {"quote_count": 19, "source_count": 4, "date_range": ["2011", "2019"], "corpus_valid": true}}, "tame_impala": {"quotes": [{"t": "When I was 12 my brother was recording himself on a boom box playing drums, because he wanted to hear what he sounded like. When he was finished I walked in and recorded myself playing drums for 30 seconds. I realized if I played that back into a new tape deck, whilst also playing a keyboard along w", "p": "Tape Op", "d": ""}, {"t": "The first time I went to a studio was in Perth, Australia, and I didn't find it very enjoyable. All of a sudden I was out of this world where I was able to do everything for myself. I was in this time-constrained environment where there were other professionals walking around telling me how to do th", "p": "Tape Op", "d": ""}, {"t": "I didn't have a good first few studio experiences — it felt like as soon as another professional got involved they assumed they knew how things should sound more than me. I believed them for a while, like maybe they did know better, but then I just retreated back to my bedroom. I eventually decided ", "p": "Tape Op", "d": ""}, {"t": "Using an electronic recording platform to make psychedelic rock music just seemed to work. Electronic producers want to have easy access to things like filter sweeps and other ways of fucking with the sound like a DJ would. I'm always trying to find ways to make the psych rock sound less rock.", "p": "Tape Op", "d": ""}, {"t": "I think that most of the magic happens in the first few hours of working on a song. By the time I get to the mixing stage, I'm terrified to change anything. There's this intangible thing that happened in the first few hours of recording, and I feel like I have to hold on to that. If I change somethi", "p": "Tape Op", "d": ""}, {"t": "One day I put my finger on one of the keys and I went fucking insane. He had the portamento/glide on; I played a lead line and I thought it was the most amazing sound I had ever heard. It had emotion, but it wasn't a guitar or anything organic; it was totally synthetic. I realized that it's a total ", "p": "Tape Op", "d": ""}, {"t": "You never finish it, you just run out of time. So I went back; he spent an hour doing the recall, and we bumped down the drums. That was it. At one point I was sitting there pulling my teeth out because I was frustrated. I asked him, 'Maybe turn down the top snare a little bit? Can you hear the diff", "p": "Tape Op", "d": ""}, {"t": "The way I see it, I drink to escape the pressure and I smoke weed to escape overthinking things. At about 5pm, I'll have a drink and a spliff and keep recording. I try to enjoy myself and wait until something comes to me, recording until I fall asleep—going deeper and deeper into that process. Becau", "p": "Vice", "d": ""}, {"t": "I couldn't even think about new Tame Impala music for a long time. Those things were just… they didn't have that pressure. They didn't have the weight of responsibility that Tame Impala has.", "p": "Vice", "d": ""}, {"t": "It's everything to me. Something I can call my baby. Because nothing else that I do in music is my baby as much as Tame Impala music. In a way, it's what my entire sense of self and purpose rests on. I realised that there's something I get out of making Tame Impala music that nothing else can give m", "p": "Vice", "d": ""}, {"t": "I don't expect people to be on the journey with me the whole way. I expect people to get on the train and get off the next station. It sounds like I don't care about my fans, but in a way, I'd be slightly disappointed if everyone that liked the first album liked every album after that. It's one of t", "p": "Uproxx", "d": "2020"}, {"t": "My scope has just widened. Back then, I was terrified of doing anything other than what I knew how to do and what I liked listening to. I guess I wasn't as brave as I am now. Just by attempting things that I'm not fully confident with, or things that seemingly belong to a different world of music th", "p": "Uproxx", "d": "2020"}, {"t": "I was a shy person. I was shy personally and musically. The fact that everyone thought it was a band is an example of how shy I was musically. I didn't even want to tell people that I made the whole thing by myself.", "p": "Uproxx", "d": "2020"}, {"t": "I listen to it and I just think it sounds cute because it's like, \"Oh my God. This kid doesn't know what he's doing.\" But the best kinds of music are like that, right? You're just like, \"This artist doesn't know what they're doing,\" and that's what makes music exciting sometimes.", "p": "Uproxx", "d": "2020"}, {"t": "I had just this sudden bolt of confidence, and ambition, and boldness. I just felt fearless. There are more pop songs on Lonerism than the first one or anything I'd done before. Even though the sound is totally gnarled and blown out, to me it sounded like Backstreet Boys in some of it, or it sounded", "p": "Uproxx", "d": "2020"}, {"t": "Usually, the first half is amazing and new, and I feel on top of the world. Then the second half of making the album is when I feel underneath the world. I feel the world's weight. Making Lonerism was probably one of the most creatively fertile times of my life. Then, of course, putting it all toget", "p": "Uproxx", "d": "2020"}, {"t": "I just wanted to make a high fidelity album as a way of the pendulum swinging from Lonerism. I was listening to a lot of R&B at that time, really clean, impactful sounds. So I just wanted to make a silky album. I wanted to embrace being a producer more because I started to idolize hip-hop producers ", "p": "Uproxx", "d": "2020"}, {"t": "When I was making this one, I had to embody a bit of a Kanye West perspective on it, which is like, it's finished when it's finished. Don't f*cking rush me. No one can rush me. Not the record label, not my fans, not even myself. It'll be finished when it's finished. I just had to take on that attitu", "p": "Uproxx", "d": "2020"}, {"t": "One of the things about the way I make Tame Impala albums is there's literally no one else involved in it until it gets mastered. There's no one else they can ask other than me, 'How is progress going?' And because I was just lost in my own head, I thought I could finish it in a month. Turns out it ", "p": "Uproxx", "d": "2020"}, {"t": "I wanted to try and use things from totally different worlds in the way that a hip-hop producer would. To be almost collage-y. Make a soundscape and build a song from there. When I first started putting 'It Might Be Time' together, I was like, \"This is going to be unlistenable.\" Because I didn't kno", "p": "Uproxx", "d": "2020"}, {"t": "Rhythms have always been something that's so important to me. I don't sing rhythmically, but the actual timing of how I sing, I almost consider more important than the melodic aspect. Take a song like \"Elephant\" — most of the parts are one note. For this album, I just wanted to do that even more, ju", "p": "Uproxx", "d": "2020"}, {"t": "I want to be more liberal with myself creatively because I'm so inspired these days by the idea of just being like, \"F*ck it,\" and not being precious, and not overthinking things in the way that I probably did early on. InnerSpeaker, I overthought it. Lonerism, I labored over it. I don't want to lab", "p": "Uproxx", "d": "2020"}, {"t": "I started out my career with that kind of anti-synthesizers mentality. It took me a while to embrace them. I liked to think that whatever sound you could get with synthesizers, you could get using a guitar. I kind of got off on making sounds that you couldn't tell were a guitar, that sounded like a ", "p": "Synth History", "d": ""}, {"t": "I must have leaned on it or something and I hit a key. It's a monophonic synth and was set to portamento, I'd just hit a few keys and it had this gliding sawtooth sound. I just thought it sounded incredible, you know? The Pro One to this day is still one of my favorite synths. It had this sound that", "p": "Synth History", "d": ""}, {"t": "Once I started playing the Pro One, I was obsessed. The first few things that I wrote on that ended up being songs on Lonerism. That album, my second album, was basically the sound of me discovering synths. I didn't go crazy, but all the synths kind of define the sound of whatever song they're on.", "p": "Synth History", "d": ""}, {"t": "Getting into Air was the first time that I appreciated synthesizers as something that could be part of a craft, rather than synths being a sort of tool to get the most laser-beam-like present sound. I always just appreciated Air for having all these amazingly lush sounds.", "p": "Synth History", "d": ""}, {"t": "I try not to have a go-to. I've got a rack of keyboards close to where I sit and whatever is on that rack gets used. If I have to think too much about what synth I have to use for a part I'm recording, then the inspiration is gone. It's part laziness, but also momentum in the studio is so important ", "p": "Synth History", "d": ""}, {"t": "It always changes. I'd get bored if I did it the same way every time. I love the idea of approaching a song not knowing how it's going to start. Usually I like to have an idea, a motif, something I sang in my head when I was waking up or falling asleep. It's always changing.", "p": "Synth History", "d": ""}, {"t": "I love analog synths, it's a whole experience, but I'll never argue that they sound better than a digital clone. It's all about the process. The process of using an old synth just sort of makes you feel a certain way and that leads you to different things for better or for worse.", "p": "Synth History", "d": ""}, {"t": "All my greatest memories and musical discoveries have been made - just me, alone in a room, late at night, but they've been magical times. When I'm deep in the zone, it's like I'm in a room full of people, but it's all just me.", "p": "Synth History", "d": ""}, {"t": "I think I'm one of those people whose brain switches on at night. I've always been more creative at night and I don't know what it is. Maybe it's because the world is asleep. There's something about night time, my brain turns on, comes alive, ideas are just amplified or something. The day is clutter", "p": "Synth History", "d": ""}, {"t": "To me, inspiration is crucial. If you're not inspired, then whatever you're making is not going to be good. Being inspired can have many meanings and it means something different for everyone. To me, it's just a feeling. It's a feeling where a desire to make something overpowers everything else. You", "p": "Synth History", "d": ""}, {"t": "Officially, my answer is nothing, because everything can add something that something else can, you just have to find another way there. That's a big part of my approach and philosophy in music. You don't need something to get something, you can get there some other way. You just have to look.", "p": "Synth History", "d": ""}], "meta": {"quote_count": 33, "source_count": 4, "date_range": ["2020", "2020"], "corpus_valid": false}}, "yung_lean": {"quotes": [{"t": "Sometimes you don't speak to each other, and you go in the studio and you just make songs. It's our way of hanging out; we talk about music and make music.", "p": "The FADER", "d": "2014"}, {"t": "I usually write lyrics when I'm in the club, or when I'm walking home from the club... Like under the influence—there's a lot more real thoughts, and then you wake up and look at the lyrics and you try to understand what you wrote the night before. I don't sit down and say, 'Now I'm gonna write lyri", "p": "The FADER", "d": "2014"}, {"t": "Making music for us is like having a drunk conversation or a high conversation. It's just something that happens.", "p": "The FADER", "d": "2014"}, {"t": "I think vibes and human relations are also super, super influential. Just being in a room at a place at night could give me more inspiration than listening to a Chief Keef track or something.", "p": "The FADER", "d": "2014"}, {"t": "I think it started off as a character. I think Yung Lean was everything Jonathan wasn't... A mixture between like personal and real stuff. That's when I write the best.", "p": "The FADER", "d": "2014"}, {"t": "I get a lot of inspiration from movies. And Bjork. Anything—even The Knife and stuff. It's so everyday, but it's also colossal.", "p": "The FADER", "d": "2014"}, {"t": "I'm really into, like, characters—music characters like Sid Vicious and Kurt Cobain, just like how they are and stuff. Like Lil Wayne.", "p": "The FADER", "d": "2014"}, {"t": "Obviously it's the music mostly—it's the best language.", "p": "The FADER", "d": "2014"}, {"t": "When you're just listening and you're like, lalalala, and then there's something real, and it's like, Whoa, he's actually a human.", "p": "The FADER", "d": "2014"}, {"t": "I've come to realise it's better to make music sober.", "p": "Medium (Tim Noakes)", "d": "2016"}, {"t": "I used to get so fucked up when I wrote songs, but now I try to get a little bit more sober when I create.", "p": "Medium (Tim Noakes)", "d": "2016"}, {"t": "William Burroughs influenced me a lot. It sounds cheesy but I love Naked Lunch. I love And The Hippos Were Boiled In Their Tanks, the one he did with Jack Kerouac. I also love Howl by Allen Ginsberg. The Beat Generation were kind of like Sad Boys. A bunch of people doing the same thing and inspiring", "p": "Medium (Tim Noakes)", "d": "2016"}, {"t": "A lot of people think it's easy. They think they can say stupid stuff on a trap beat and make a video with 3D shit in the background. But you can't steal ideas. You have to be original.", "p": "Medium (Tim Noakes)", "d": "2016"}, {"t": "It's like an unstoppable force. Sherman and Gud both have ADHD, so I have to be the calm one. Then when we make music I become the crazy one in the booth, jumping around. It's like theatre; we trade positions. They're my friends, they're my family, they're all I have.", "p": "Medium (Tim Noakes)", "d": "2016"}, {"t": "Most of the songs are from the heart. If my voice sounds aggressive then it's just from that time and space.", "p": "Medium (Tim Noakes)", "d": "2016"}, {"t": "I'm still an outsider in the hip hop community. I don't even know if I'm making hip hop anymore.", "p": "Dazed", "d": "2017"}, {"t": "Stranger is much easier, a neon, light-blue sound. If Warlord was going through the gates of hell, you would come out the other end into a garden and Stranger is playing with medieval naked people laying in the garden.", "p": "Dazed", "d": "2017"}, {"t": "That's how it starts. You look at things and people through a lens, and it comes out completely different.", "p": "Dazed", "d": "2017"}, {"t": "It's very Swedish, with the minimal production. I guess it kinda makes sense. You can't really run from your roots.", "p": "Dazed", "d": "2017"}, {"t": "It felt like me, Gud, Sherman and White Armor were a band. The process of it was, like... I can't even remember it, 'cause it was just having fun, basically. We were just creating, kinda like jamming, and then out of nowhere we had 14 songs.", "p": "Dazed", "d": "2017"}, {"t": "It's like reaching really deep into your mind and losing control between what's real and what's not.", "p": "Complex", "d": "2018"}, {"t": "You're expressing yourself in the purest art forms, painting and singing.", "p": "Complex", "d": "2018"}, {"t": "'Stranger' was my Pet Sounds. I guess it can get better, but to me I feel it was quite a big point in my career.", "p": "Complex", "d": "2018"}, {"t": "I guess it kinda changes monthly, or even daily, and then falls into the same box. Sometimes I can be only listening to Percy Sledge, Al Williams, maybe the Talking Heads. Then it'll be Three 6 Mafia, Young Buck. I guess it all falls into one box of inspiration.", "p": "Complex", "d": "2018"}, {"t": "I don't really like when there's guitars and trap drums, like an emo rap song. I think you should go all the way with it. It sounds conservative but the blend just sounds too modern and forced.", "p": "Complex", "d": "2018"}, {"t": "It's strange to talk about Talking Heads and Young Buck as being the same but they really are. They both paved the way in their respective genres. They both kinda have the same attitudes.", "p": "Complex", "d": "2018"}, {"t": "It's more childish than my music. My music is more developed quite a lot. It's kind of caught up with my years. While my painting's still at the Jonathan level. I've had no education in painting, so that's why.", "p": "Complex", "d": "2018"}, {"t": "We were thinking that we should really take our time making something that sounds like a Fleetwood Mac album. Kind of like expansive and polished, and really write songs.", "p": "PAPER Magazine", "d": "2020"}, {"t": "Releasing stuff isn't the most fun because you've already done the work. You're just kind of sitting on your ass waiting to get to the next chapter. But I want to learn how to be in the project for a little longer, and like, stay there. Maybe even celebrate, not just always move on to the next [proj", "p": "PAPER Magazine", "d": "2020"}, {"t": "I think in my head all of our worlds kind of collide. I'm not too aware of what kind of fan bases exist. I just think about artists who would be good to have on a song together.", "p": "PAPER Magazine", "d": "2020"}, {"t": "I don't think putting everyone in special boxes just so their fans are happy is a good way to do it. I think you should just mix it, you know?", "p": "PAPER Magazine", "d": "2020"}, {"t": "You split it up. You make names for things. Me and whitearmor we sat down and would say, \"This is album worthy, this is mixtape worthy, this is EP worthy, this is 'work on,' this is trash, this is maybe a good idea, this is maybe a bad idea.\"", "p": "PAPER Magazine", "d": "2020"}, {"t": "Everything is from scratch, so. whitearmor and Yung Sherm Portugal, they'd wake me up with a cup of coffee and then they would go downstairs and start playing something on the piano. Then whitearmor might say we should record this or that, then he'd put a synth over it and then I'd start singing. Th", "p": "PAPER Magazine", "d": "2020"}, {"t": "I think we had a lot more rules when we were younger, we wanted songs to be specific and a beat to be made and all these rules of how it should sound. whitearmor, Sherm, and Gud they can play guitar, they can play piano, they can play anything. Right now we're just messing around with it all, you kn", "p": "PAPER Magazine", "d": "2020"}, {"t": "If you put yourself out in a lot of costumes — lets say you would go and dress up and make three different characters, then maybe you would be more honest in that costume than you would be without the costume, you know what I mean? Sometimes while going for a new alias or a new musical genre or just", "p": "PAPER Magazine", "d": "2020"}, {"t": "I'm really glad if I can help people to do exactly that with music or art or whatever that you just dress up, make a character, and just start going in. Because you'll find out so much about yourself and what you're interested in and why you're interested in that.", "p": "PAPER Magazine", "d": "2020"}, {"t": "Everyone's desires come up in their art, and if they come out in their art it's much better. People can have terrible lives. They could have been killers, but if they make a song, maybe that's like their purest part of their soul.", "p": "PAPER Magazine", "d": "2020"}, {"t": "Creating is the only thing that's keeping me sane, to be honest.", "p": "PAPER Magazine", "d": "2020"}, {"t": "You've got to be fearless. You have to provoke something. It doesn't have to be provocative in that sense, but you have to provoke someone's feelings or something, you know. You have to get someone to feel something. And if they feel hate? I'm happy. And if they feel love? I'm happy. They're both ve", "p": "PAPER Magazine", "d": "2020"}, {"t": "When there's a certain energy in the room and you've had it in your head for a long time, you want to express that. When I was younger, when I was like 17 or 18 — you know you're young, you're in a big city, you're interested in bleak things and life is bleak and shit goes wrong. Now it hasn't been ", "p": "PAPER Magazine", "d": "2020"}, {"t": "If you bloom into a new flower, you have to express that new flower. You can't be that old, bleak flower.", "p": "PAPER Magazine", "d": "2020"}, {"t": "The name is just my name, Jonatan. I'm trying to break the fourth wall of Yung Lean and Jonatan, and just come together.", "p": "Interview Magazine", "d": "2025"}, {"t": "I would say it's like an uncle album. It's guitar, straight-from-the-heart songs.", "p": "Interview Magazine", "d": "2025"}, {"t": "I come from hip-hop, so it's always going to be hip-hop melodies, but more me trying to do, like, Bruce Springsteen.", "p": "Interview Magazine", "d": "2025"}, {"t": "I'm a poet who does different genres. If I do pop, then it's a poet doing pop, and if I do rock, it's a poet doing rock.", "p": "Interview Magazine", "d": "2025"}, {"t": "I'm far from the American rapper-core. I can't fake that. I grew up listening to Wu-Tang, and everything that you grew up listening to as well.", "p": "Interview Magazine", "d": "2025"}, {"t": "For me, it was always writing lyrics and poetry and rapping, and then singing. Then everything came through that.", "p": "Interview Magazine", "d": "2025"}, {"t": "It becomes little branches on a tree that just grows and grows into this big tree. It pays off to learn one craft.", "p": "Interview Magazine", "d": "2025"}], "meta": {"quote_count": 49, "source_count": 6, "date_range": ["2014", "2025"], "corpus_valid": true}}};
+
+        // Calculate stats
+        const uniqueArtists = new Set();
+        DISCOVERIES.forEach(d => {
+            uniqueArtists.add(d.a);
+            uniqueArtists.add(d.b);
+        });
+        const totalQuotes = Object.values(M).reduce((sum, v) => sum + v.q, 0);
+
+        document.getElementById('stat-pairs').textContent = DISCOVERIES.length;
+        document.getElementById('stat-quotes').textContent = totalQuotes;
+
+        // ===== UTILITIES =====
+        function formatArtistName(artist) {
+            return artist.split('_').map(w => w.charAt(0).toUpperCase() + w.slice(1)).join(' ');
+        }
+
+        function scoreToGradient(score) {
+            const colors = [
+                { pos: 0, color: 'rgb(25, 50, 150)' },
+                { pos: 0.25, color: 'rgb(75, 100, 200)' },
+                { pos: 0.5, color: 'rgb(100, 200, 255)' },
+                { pos: 0.7, color: 'rgb(255, 201, 58)' },
+                { pos: 1, color: 'rgb(255, 97, 109)' }
+            ];
+            return `linear-gradient(90deg, rgb(25, 50, 150) 0%, rgb(100, 200, 255) 50%, rgb(255, 201, 58) 75%, rgb(255, 97, 109) 100%)`;
+        }
+
+        function scoreToColor(score) {
+            if (score < 0.6) return 'rgb(25, 50, 150)';
+            if (score < 0.7) return 'rgb(75, 150, 200)';
+            if (score < 0.8) return 'rgb(100, 200, 255)';
+            if (score < 0.85) return 'rgb(255, 201, 58)';
+            return 'rgb(255, 97, 109)';
+        }
+
+        // ===== PAGE NAVIGATION =====
+        function showPage(pageName) {
+            document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+            document.querySelectorAll('.nav-tab').forEach(t => t.classList.remove('active'));
+
+            if (pageName === 'discover' || pageName === 'artists' || pageName === 'matrix') {
+                document.getElementById(pageName).classList.add('active');
+            }
+
+            document.querySelector(`[onclick="showPage('${pageName}')"]`).classList.add('active');
+
+            if (pageName === 'discover') renderDiscover();
+            if (pageName === 'artists') renderArtists();
+            if (pageName === 'matrix') renderMatrix();
+        }
+
+        // ===== DISCOVER PAGE =====
+        function renderDiscover() {
+            const container = document.getElementById('pairCards');
+            container.innerHTML = '';
+
+            let filtered = DISCOVERIES.slice();
+
+            // Apply filters
+            const searchQuery = document.getElementById('searchInput').value.toLowerCase();
+            const tierFilter = document.querySelector('.chip.active').textContent;
+            const artistFilter = document.getElementById('artistFilter').value;
+
+            filtered = filtered.filter(pair => {
+                const name1 = formatArtistName(pair.a).toLowerCase();
+                const name2 = formatArtistName(pair.b).toLowerCase();
+                const matchesSearch = !searchQuery || name1.includes(searchQuery) || name2.includes(searchQuery);
+
+                let matchesTier = true;
+                if (tierFilter.includes('High')) matchesTier = pair.s > 0.83;
+                else if (tierFilter.includes('Mid')) matchesTier = pair.s >= 0.72 && pair.s <= 0.83;
+                else if (tierFilter.includes('Low')) matchesTier = pair.s < 0.72;
+
+                const matchesArtist = !artistFilter || pair.a === artistFilter || pair.b === artistFilter;
+
+                return matchesSearch && matchesTier && matchesArtist;
+            });
+
+            filtered.forEach((pair, idx) => {
+                const card = document.createElement('div');
+                card.className = 'pair-card';
+
+                const bar = document.createElement('div');
+                bar.className = 'score-bar';
+                bar.style.width = (pair.s * 100) + '%';
+                bar.style.background = scoreToGradient(pair.s);
+
+                const quotesA = M[pair.a] ? M[pair.a].q : 0;
+                const quotesB = M[pair.b] ? M[pair.b].q : 0;
+                const srcA = M[pair.a] ? M[pair.a].src : 0;
+                const srcB = M[pair.b] ? M[pair.b].src : 0;
+
+                card.innerHTML = `
+                    <div class="pair-header">
+                        <div class="pair-rank">#${idx + 1}</div>
+                        <div class="pair-artists">
+                            <div class="pair-artists-names">
+                                <span class="artist-name link" onclick="goToArtist('${pair.a}')">${formatArtistName(pair.a)}</span>
+                                <span class="pair-separator">×</span>
+                                <span class="artist-name link" onclick="goToArtist('${pair.b}')">${formatArtistName(pair.b)}</span>
+                            </div>
+                        </div>
+                        <div class="pair-score-display">
+                            <div class="pair-score-value">${pair.s.toFixed(3)}</div>
+                            <div class="pair-score-label">Similarity</div>
+                        </div>
+                    </div>
+                    <div class="score-bar-container" style="position:relative;">
+                        <div class="score-bar" style="width:${pair.s * 100}%; background:${scoreToGradient(pair.s)};"></div>
+                    </div>
+                    <div class="pair-details">
+                        <div class="artist-detail-block">
+                            <h4>${formatArtistName(pair.a)}</h4>
+                            <div class="artist-meta">
+                                <strong>${quotesA}</strong> quotes from <strong>${srcA}</strong> sources<br>
+                                Interview span: <strong>${M[pair.a].r}</strong><br>
+                                <span class="meta-tag">${M[pair.a].v ? 'Valid' : 'Incomplete'}</span>
+                            </div>
+                        </div>
+                        <div class="artist-detail-block">
+                            <h4>${formatArtistName(pair.b)}</h4>
+                            <div class="artist-meta">
+                                <strong>${quotesB}</strong> quotes from <strong>${srcB}</strong> sources<br>
+                                Interview span: <strong>${M[pair.b].r}</strong><br>
+                                <span class="meta-tag">${M[pair.b].v ? 'Valid' : 'Incomplete'}</span>
+                            </div>
+                        </div>
+                    </div>
+                `;
+
+                card.onclick = (e) => {
+                    if (e.target.classList.contains('link')) return;
+                    card.classList.toggle('expanded');
+                };
+
+                container.appendChild(card);
+            });
+
+            // Update artist filter
+            populateArtistFilter();
+        }
+
+        function populateArtistFilter() {
+            const select = document.getElementById('artistFilter');
+            const options = select.querySelectorAll('option');
+            if (options.length > 1) return;
+
+            const artists = Array.from(uniqueArtists).sort();
+            artists.forEach(artist => {
+                const opt = document.createElement('option');
+                opt.value = artist;
+                opt.textContent = formatArtistName(artist);
+                select.appendChild(opt);
+            });
+        }
+
+        function filterTier(tier) {
+            document.querySelectorAll('.chip').forEach(c => c.classList.remove('active'));
+            event.target.classList.add('active');
+            renderDiscover();
+        }
+
+        function filterArtist() {
+            renderDiscover();
+        }
+
+        document.getElementById('searchInput').addEventListener('input', renderDiscover);
+
+        // ===== ARTISTS PAGE =====
+        function renderArtists() {
+            const grid = document.getElementById('artistsGrid');
+            grid.innerHTML = '';
+
+            const artists = Array.from(uniqueArtists).sort();
+
+            artists.forEach(artist => {
+                const meta = M[artist];
+                const connections = DISCOVERIES.filter(d => d.a === artist || d.b === artist);
+                const topConnection = connections.sort((a, b) => b.s - a.s)[0];
+                const otherArtist = topConnection.a === artist ? topConnection.b : topConnection.a;
+
+                const card = document.createElement('div');
+                card.className = 'artist-card';
+                card.onclick = () => goToArtist(artist);
+
+                card.innerHTML = `
+                    <div class="artist-card-title">${formatArtistName(artist)}</div>
+                    <div class="artist-card-meta">
+                        <strong>${meta.q}</strong> quotes<br>
+                        <strong>${meta.src}</strong> sources<br>
+                        <strong>${meta.r}</strong> period
+                    </div>
+                    <div class="artist-top-connection">
+                        <div class="artist-top-connection-label">Top Connection</div>
+                        <div class="artist-top-connection-name">${formatArtistName(otherArtist)}</div>
+                        <div class="artist-top-connection-score">${topConnection.s.toFixed(3)}</div>
+                    </div>
+                `;
+
+                grid.appendChild(card);
+            });
+        }
+
+        function goToArtist(artist) {
+            showArtistDetail(artist);
+        }
+
+        // ===== ARTIST DETAIL PAGE =====
+        function showArtistDetail(artist) {
+            const detailPage = document.getElementById('artist-detail');
+            const meta = M[artist];
+            const connections = DISCOVERIES.filter(d => d.a === artist || d.b === artist)
+                .sort((a, b) => b.s - a.s);
+
+            const quotes = Q && Q[artist] ? Q[artist] : [];
+
+            let html = `
+                <div class="artist-detail-header">
+                    <button class="back-button" onclick="showPage('artists')">← Back to Artists</button>
+                    <h1 class="artist-detail-title">${formatArtistName(artist)}</h1>
+                    <div class="artist-detail-tags">
+                        <div class="detail-tag">${meta.q} Quotes</div>
+                        <div class="detail-tag">${meta.src} Sources</div>
+                        <div class="detail-tag">Period: ${meta.r}</div>
+                        <div class="detail-tag">${meta.v ? 'Valid Dataset' : 'Partial Data'}</div>
+                    </div>
+                </div>
+
+                <div class="connections-section">
+                    <h2 class="section-title">Connected Artists</h2>
+                    <div class="connections-pills">
+            `;
+
+            connections.forEach(conn => {
+                const other = conn.a === artist ? conn.b : conn.a;
+                html += `
+                    <div class="connection-pill" onclick="goToArtist('${other}')" style="cursor:pointer;">
+                        ${formatArtistName(other)} <strong style="color:#ffc93a;">${conn.s.toFixed(3)}</strong>
+                    </div>
+                `;
+            });
+
+            html += `
+                    </div>
+                </div>
+
+                <div class="quotes-section">
+                    <h2 class="section-title">Production Philosophy Quotes</h2>
+            `;
+
+            if (quotes && quotes.length > 0) {
+                quotes.forEach(q => {
+                    html += `
+                        <div class="quote-item">
+                            <div class="quote-text">"${q.text}"</div>
+                            <div class="quote-source">— ${q.source || 'Unknown Source'}</div>
+                        </div>
+                    `;
+                });
+            } else {
+                html += `<div class="quote-item"><div class="quote-text">No quotes available for this artist.</div></div>`;
+            }
+
+            html += '</div>';
+
+            detailPage.innerHTML = html;
+            detailPage.classList.add('active');
+            document.querySelectorAll('.page').forEach(p => {
+                if (p.id !== 'artist-detail') p.classList.remove('active');
+            });
+            document.querySelectorAll('.nav-tab').forEach(t => t.classList.remove('active'));
+        }
+
+        // ===== MATRIX PAGE =====
+        function renderMatrix() {
+            const container = document.getElementById('heatmap');
+            container.innerHTML = '';
+
+            const artists = Array.from(uniqueArtists).sort();
+            const n = artists.length;
+
+            // Create a lookup for scores
+            const scoreMap = {};
+            DISCOVERIES.forEach(d => {
+                scoreMap[`${d.a}_${d.b}`] = d.s;
+                scoreMap[`${d.b}_${d.a}`] = d.s;
+            });
+
+            // Header
+            const header = document.createElement('div');
+            header.className = 'heatmap-header';
+            header.innerHTML = '<div class="heatmap-header-spacer"></div>';
+            artists.forEach(artist => {
+                const cell = document.createElement('div');
+                cell.className = 'heatmap-header-cell';
+                cell.textContent = artist.slice(0, 3).toUpperCase();
+                header.appendChild(cell);
+            });
+            container.appendChild(header);
+
+            // Rows
+            artists.forEach((artist1, i) => {
+                const row = document.createElement('div');
+                row.className = 'heatmap-row';
+
+                const label = document.createElement('div');
+                label.className = 'heatmap-label';
+                label.textContent = formatArtistName(artist1);
+                row.appendChild(label);
+
+                artists.forEach(artist2 => {
+                    const cell = document.createElement('div');
+                    cell.className = 'heatmap-cell';
+
+                    if (artist1 === artist2) {
+                        cell.style.background = 'rgba(255, 201, 58, 0.2)';
+                        cell.textContent = '1';
+                    } else {
+                        const score = scoreMap[`${artist1}_${artist2}`] || 0;
+                        cell.style.background = scoreToColor(score);
+                        cell.textContent = score ? score.toFixed(2) : '—';
+
+                        const tooltip = document.createElement('div');
+                        tooltip.className = 'tooltip';
+                        tooltip.textContent = `${formatArtistName(artist1)} ↔ ${formatArtistName(artist2)}: ${score.toFixed(3)}`;
+                        cell.appendChild(tooltip);
+                    }
+
+                    row.appendChild(cell);
+                });
+
+                container.appendChild(row);
+            });
+        }
+
+        // Initialize
+        document.addEventListener('DOMContentLoaded', () => {
+            renderDiscover();
+        });
+    </script>
+</body>
+</html>

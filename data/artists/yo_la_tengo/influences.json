@@ -1,0 +1,43 @@
+{
+  "influences": [
+    {
+      "name": "John McEntire",
+      "context": "we brought those to Chicago and utilized quite a few of them when we were working with John McEntire",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Phil Morrison",
+      "context": "we got asked to do a score for Game 6 at the exact same time... And that is also completely different from what we did for the Painlevé movies. Because with the Painlevé movies we were able to whatever we wanted... With Game 6 and Junebug and any other score, we're not in charge. We're at best collaborating with the director... you do learn things from it... one of the reasons we were able to record ourselves and make the records by ourselves is because of the interpersonal experience of recording the soundtracks... working with directors who ultimately have the last word has had the additional benefit of us dealing with each other in a more effective and positive way",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Daniel Johnston",
+      "context": "Nick Hill presented you with the idea that Daniel Johnston would call in during your appearance and you'd back him up while he sang over the phone",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "NRBQ",
+      "context": "I pitched New York Rocker on doing an article on NRBQ, who I adored then and adore now... NRBQ picked out these songs, and it was my introduction to the song-poems and \"Teen Age Riot\" by Portuguese Joe... that was such a profound experience listening to those cassettes over and over. I couldn't be happier about that experience",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Clint Conley",
+      "context": "Clint was my favourite bass player and I feel like I stole everything I know from him just by listening to his records over and over again and basing my life on his decisions",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Boredoms",
+      "context": "There are some bands that have been going all along, whose dedication to their art – the Boredoms in particular – is not just a musical inspiration to me but certainly a spiritual one",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Bob Dylan",
+      "context": "A driving wall-of-noise cover of Dylan's \"Love Minus Zero/No Limit\" was an early highlight",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 7,
+    "sources_checked": 4
+  }
+}

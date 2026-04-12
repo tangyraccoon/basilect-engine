@@ -1,0 +1,38 @@
+{
+  "influences": [
+    {
+      "name": "Duke Ellington",
+      "context": "[Saxophonist] Eric Leeds played me this record, Duke Ellington Live at Newport, with that long saxophone solo [by Paul Gonsalves, on \"Diminuendo and Crescendo in Blue\"].",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "James Brown",
+      "context": "It's like James Brown: He'll talk the whole song, but he's not a rapper either.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Miles Davis",
+      "context": "I remember when Miles Davis came to my house. As he was passing by my piano, he stopped and put his hands down on the keys and played these eight chords, one after the other. It was so beautiful. He sounded like Bill Evans or Lisa [Coleman], who also had this way of playing chords that were so perfect.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Bill Evans",
+      "context": "He sounded like Bill Evans or Lisa [Coleman], who also had this way of playing chords that were so perfect.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Keith Jarrett",
+      "context": "Miles took some soul-type players and put Keith Jarrett on top of that; it was magic.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Carlos Santana",
+      "context": "Carlos Santana has more fans now than when he played Woodstock!",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 6,
+    "sources_checked": 4
+  }
+}

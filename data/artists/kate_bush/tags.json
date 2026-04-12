@@ -1,0 +1,242 @@
+{
+  "tags": [
+    {
+      "tag": "studio_as_instrument",
+      "category": "approach",
+      "weight": 1.0,
+      "raw_score": 27
+    },
+    {
+      "tag": "conceptual",
+      "category": "philosophy",
+      "weight": 0.926,
+      "raw_score": 25
+    },
+    {
+      "tag": "experimental",
+      "category": "philosophy",
+      "weight": 0.889,
+      "raw_score": 24
+    },
+    {
+      "tag": "narrative",
+      "category": "philosophy",
+      "weight": 0.815,
+      "raw_score": 22
+    },
+    {
+      "tag": "multi_instrumental",
+      "category": "approach",
+      "weight": 0.778,
+      "raw_score": 21
+    },
+    {
+      "tag": "self_produced",
+      "category": "approach",
+      "weight": 0.704,
+      "raw_score": 19
+    },
+    {
+      "tag": "vocal_processing",
+      "category": "process",
+      "weight": 0.593,
+      "raw_score": 16
+    },
+    {
+      "tag": "intuitive",
+      "category": "philosophy",
+      "weight": 0.556,
+      "raw_score": 15
+    },
+    {
+      "tag": "orchestration",
+      "category": "process",
+      "weight": 0.556,
+      "raw_score": 15
+    },
+    {
+      "tag": "theatrical",
+      "category": "approach",
+      "weight": 0.556,
+      "raw_score": 15
+    },
+    {
+      "tag": "layering",
+      "category": "process",
+      "weight": 0.519,
+      "raw_score": 14
+    },
+    {
+      "tag": "synthesis",
+      "category": "process",
+      "weight": 0.444,
+      "raw_score": 12
+    },
+    {
+      "tag": "hybrid_production",
+      "category": "approach",
+      "weight": 0.444,
+      "raw_score": 12
+    },
+    {
+      "tag": "emotional",
+      "category": "philosophy",
+      "weight": 0.37,
+      "raw_score": 10
+    },
+    {
+      "tag": "isolation",
+      "category": "philosophy",
+      "weight": 0.333,
+      "raw_score": 9
+    },
+    {
+      "tag": "collaborative_production",
+      "category": "approach",
+      "weight": 0.296,
+      "raw_score": 8
+    },
+    {
+      "tag": "intellectual",
+      "category": "philosophy",
+      "weight": 0.259,
+      "raw_score": 7
+    },
+    {
+      "tag": "autobiographical",
+      "category": "philosophy",
+      "weight": 0.222,
+      "raw_score": 6
+    },
+    {
+      "tag": "immersive",
+      "category": "approach",
+      "weight": 0.222,
+      "raw_score": 6
+    },
+    {
+      "tag": "spiritual",
+      "category": "philosophy",
+      "weight": 0.185,
+      "raw_score": 5
+    },
+    {
+      "tag": "vocal_focused",
+      "category": "approach",
+      "weight": 0.185,
+      "raw_score": 5
+    },
+    {
+      "tag": "maximalism",
+      "category": "process",
+      "weight": 0.148,
+      "raw_score": 4
+    },
+    {
+      "tag": "hi_fi",
+      "category": "approach",
+      "weight": 0.148,
+      "raw_score": 4
+    },
+    {
+      "tag": "sampling",
+      "category": "process",
+      "weight": 0.111,
+      "raw_score": 3
+    },
+    {
+      "tag": "diy",
+      "category": "philosophy",
+      "weight": 0.111,
+      "raw_score": 3
+    },
+    {
+      "tag": "creative_control",
+      "category": "philosophy",
+      "weight": 0.111,
+      "raw_score": 3
+    },
+    {
+      "tag": "live_performance",
+      "category": "approach",
+      "weight": 0.111,
+      "raw_score": 3
+    },
+    {
+      "tag": "literary_influence",
+      "category": "philosophy",
+      "weight": 0.111,
+      "raw_score": 3
+    },
+    {
+      "tag": "literary",
+      "category": "philosophy",
+      "weight": 0.111,
+      "raw_score": 3
+    },
+    {
+      "tag": "individualistic",
+      "category": "philosophy",
+      "weight": 0.111,
+      "raw_score": 3
+    },
+    {
+      "tag": "original",
+      "category": "philosophy",
+      "weight": 0.111,
+      "raw_score": 3
+    },
+    {
+      "tag": "independent",
+      "category": "philosophy",
+      "weight": 0.111,
+      "raw_score": 3
+    },
+    {
+      "tag": "political",
+      "category": "philosophy",
+      "weight": 0.111,
+      "raw_score": 3
+    },
+    {
+      "tag": "found_sound",
+      "category": "process",
+      "weight": 0.074,
+      "raw_score": 2
+    },
+    {
+      "tag": "perfectionist",
+      "category": "philosophy",
+      "weight": 0.074,
+      "raw_score": 2
+    },
+    {
+      "tag": "collaborative",
+      "category": "philosophy",
+      "weight": 0.074,
+      "raw_score": 2
+    },
+    {
+      "tag": "world_music_influenced",
+      "category": "philosophy",
+      "weight": 0.074,
+      "raw_score": 2
+    },
+    {
+      "tag": "artistic_ambition",
+      "category": "philosophy",
+      "weight": 0.074,
+      "raw_score": 2
+    },
+    {
+      "tag": "anti_commercial",
+      "category": "philosophy",
+      "weight": 0.074,
+      "raw_score": 2
+    }
+  ],
+  "meta": {
+    "count": 39,
+    "sources_checked": 11
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "influences": [
+    {
+      "name": "New Kids on the Block",
+      "context": "Before us was the New Kids on the Block, and we were told by several people that there was a backlash that came about after them, that radio didn't want another group of a bunch of boys.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Max Martin",
+      "context": "Max truly is the face of pop music, forever. And we are the first group that he did that with.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Full Force",
+      "context": "Aside from working with Max, we started with a couple of these different urban writer and producers like Full Force, who wrote 'All I Have to Give.' Stuff like this [was special], working with these urban acts that entrusted this five-part white group harmony group that we could pull off urban records.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Beatles",
+      "context": "You would think it was, like, the Beatles, or Michael Jackson, fans going crazy.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Michael Jackson",
+      "context": "You would think it was, like, the Beatles, or Michael Jackson, fans going crazy.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 5,
+    "sources_checked": 3
+  }
+}

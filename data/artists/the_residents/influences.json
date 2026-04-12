@@ -1,0 +1,28 @@
+{
+  "influences": [
+    {
+      "name": "Stockhausen",
+      "context": "Taking inspiration from like-minded mavericks like Stockhausen and Captain Beefheart, they began writing songs that meshed avant-garde and pop sensibilities",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Captain Beefheart",
+      "context": "Taking inspiration from like-minded mavericks like Stockhausen and Captain Beefheart, they began writing songs that meshed avant-garde and pop sensibilities",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Frank Zappa",
+      "context": "They were very influenced by people like Frank Zappa, people who used the studio as a tool, as another instrument.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "MC Escher",
+      "context": "As a graphic artist, when I started out, I knew that I didn't really have the chops to be able to–I was always a big MC Escher fan.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 4,
+    "sources_checked": 3
+  }
+}

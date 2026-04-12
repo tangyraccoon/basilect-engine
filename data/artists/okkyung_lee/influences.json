@@ -1,0 +1,18 @@
+{
+  "influences": [
+    {
+      "name": "John Zorn",
+      "context": "After DNA dissolved in the early 1980s, Mori started performing as an improviser with musicians like John Zorn and Fred Frith",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Fred Frith",
+      "context": "After DNA dissolved in the early 1980s, Mori started performing as an improviser with musicians like John Zorn and Fred Frith",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 2,
+    "sources_checked": 2
+  }
+}

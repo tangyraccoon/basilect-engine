@@ -1,0 +1,13 @@
+{
+  "influences": [
+    {
+      "name": "Amy Winehouse",
+      "context": "Growing up, her parents played the classics—The Beatles, Elvis, Sinatra—but it was when she first heard Amy Winehouse that she truly fell in love.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 1,
+    "sources_checked": 1
+  }
+}

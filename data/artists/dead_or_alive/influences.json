@@ -1,0 +1,18 @@
+{
+  "influences": [
+    {
+      "name": "Sofles",
+      "context": "My discovery of film was actually through graffiti. I had some good friends involved in graffiti when I was younger, particularly Sofles, who introduced me to that world.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Louis Theroux",
+      "context": "I am in love with documentary presenter Louis Theroux and even having the chance to meet him would be incredible for me, let alone working with him.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 2,
+    "sources_checked": 2
+  }
+}

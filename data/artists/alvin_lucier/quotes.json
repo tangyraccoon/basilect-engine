@@ -1,0 +1,20 @@
+{
+  "quotes": [
+    {
+      "text": "I regard this activity not so much as a demonstration of a physical fact, but more as a way to smooth out any irregularities my speech might have",
+      "publication": "",
+      "date": ""
+    },
+    {
+      "text": "Music on a Long Thin Wire is constructed as follows: the wire is extended across a large room, clamped to tables at both ends. The ends of the wire are connected to the loudspeaker terminals of a power amplifier placed under one of the tables. A sine wave oscillator is connected to the amplifier. A magnet straddles the wire at one end. Wooden bridges are inserted under the wire at both ends to which contact microphones are imbedded, routed to the stereo sound system. The microphones pick up the vibrations that the wire imparts to the bridges and are sent through the playback system. By varying the frequency and loudness of the oscillator, a rich variety of slides, frequency shifts, audible beats and other sonic phenomena may be produced.",
+      "publication": "",
+      "date": ""
+    }
+  ],
+  "corpus_meta": {
+    "quote_count": 2,
+    "source_count": 0,
+    "date_range": [],
+    "corpus_valid": false
+  }
+}

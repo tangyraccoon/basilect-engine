@@ -1,0 +1,48 @@
+{
+  "influences": [
+    {
+      "name": "Johnny Cash",
+      "context": "like Johnny Cash sings it, I've been everywhere, man",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Elvis",
+      "context": "I'd go old school with Elvis, Buddy Holly, Johnny Cash, Jerry Lee Lewis, Little Richard, and the great Chuck Berry. That's my dream team—they're the reason I do what I do.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Buddy Holly",
+      "context": "I'd go old school with Elvis, Buddy Holly, Johnny Cash, Jerry Lee Lewis, Little Richard, and the great Chuck Berry. That's my dream team—they're the reason I do what I do.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Jerry Lee Lewis",
+      "context": "I'd go old school with Elvis, Buddy Holly, Johnny Cash, Jerry Lee Lewis, Little Richard, and the great Chuck Berry. That's my dream team—they're the reason I do what I do.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Little Richard",
+      "context": "I'd go old school with Elvis, Buddy Holly, Johnny Cash, Jerry Lee Lewis, Little Richard, and the great Chuck Berry. That's my dream team—they're the reason I do what I do.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Chuck Berry",
+      "context": "I'd go old school with Elvis, Buddy Holly, Johnny Cash, Jerry Lee Lewis, Little Richard, and the great Chuck Berry. That's my dream team—they're the reason I do what I do.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Beach Boys",
+      "context": "I've been working on a new song called 'Milf City,' which has a surf-themed, Beach Boys vibe.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Frankie Avalon",
+      "context": "as Frankie Avalon might say, it should be 'a real gas!'",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 8,
+    "sources_checked": 3
+  }
+}

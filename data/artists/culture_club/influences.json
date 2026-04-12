@@ -1,0 +1,38 @@
+{
+  "influences": [
+    {
+      "name": "David Bowie",
+      "context": "From a young age, he was drawn to the world of music and found solace in the sounds of artists like David Bowie, T. Rex, and Marc Bolan. These influences would later shape his unique vocal style and androgynous image.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "T. Rex",
+      "context": "From a young age, he was drawn to the world of music and found solace in the sounds of artists like David Bowie, T. Rex, and Marc Bolan. These influences would later shape his unique vocal style and androgynous image.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Marc Bolan",
+      "context": "From a young age, he was drawn to the world of music and found solace in the sounds of artists like David Bowie, T. Rex, and Marc Bolan. These influences would later shape his unique vocal style and androgynous image.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Chrissy Hynde",
+      "context": "I've always loved people with an axe to grind. I've always appreciated people like Chrissy Hynde, people who are a little disgruntled.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Malcolm McLaren",
+      "context": "He narrates the brief yet significant period linked to Malcolm McLaren's engagement with Bow. Emphasizing McLaren's unique method of crafting and presenting songs. The encounter compelled Boy George to cultivate a unique artistic perspective and to question the conventional norms of the industry.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Steve Levine",
+      "context": "He gives credit to Steve Levine for being instrumental in their musical evolution, guiding them to a unique sound, and incorporating elements of jazz.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 6,
+    "sources_checked": 5
+  }
+}

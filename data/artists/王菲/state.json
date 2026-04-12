@@ -1,0 +1,49 @@
+{
+  "artist_id": "王菲",
+  "artist_name": "王菲",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T14:45:43.759416+00:00",
+      "result": "1 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T14:45:44.642603+00:00",
+      "result": "1/1 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T14:45:46.899502+00:00",
+      "result": "0 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T14:45:51.117404+00:00",
+      "result": "5 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T14:45:52.022983+00:00",
+      "result": "0/5 scraped"
+    },
+    "review_extract": {
+      "status": "skipped",
+      "timestamp": "2026-04-12T14:45:52.533402+00:00",
+      "result": "failed — skipping to unblock"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T14:45:53.758661+00:00",
+      "result": "0 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T14:45:56.070435+00:00",
+      "result": "3 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-12T14:45:56.070595+00:00"
+}

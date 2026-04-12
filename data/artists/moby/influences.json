@@ -1,0 +1,88 @@
+{
+  "influences": [
+    {
+      "name": "Nick Drake",
+      "context": "the records that really mean the most to me are things like Nick Drake, or Joy Division, or even like the recent Bon Iver record. Records that tend to be quieter or more personal, or more introspective",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Joy Division",
+      "context": "the records that really mean the most to me are things like Nick Drake, or Joy Division, or even like the recent Bon Iver record. Records that tend to be quieter or more personal, or more introspective",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Bon Iver",
+      "context": "the records that really mean the most to me are things like Nick Drake, or Joy Division, or even like the recent Bon Iver record. Records that tend to be quieter or more personal, or more introspective",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "David Lynch",
+      "context": "I was inspired after hearing David Lynch talk at the BAFTAS and talking about how artists should create art just for the reason of creating it",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "David Bowie",
+      "context": "I really love music that instantly creates an interesting atmosphere. And the same was that I love some of David Bowie's ambient work and Brian Eno's ambient work",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Brian Eno",
+      "context": "I really love music that instantly creates an interesting atmosphere. And the same was that I love some of David Bowie's ambient work and Brian Eno's ambient work",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Dadaists and Surrealists",
+      "context": "When I was at university, I was obsessed with early 20th-century art, the Dadaists and the Surrealists",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Mark Lanegan",
+      "context": "I would write a simple instrumental, and then I'd hand it off to Mark Lanegan, or to Cold Specks, and they would write lyrics and vocal melodies, and they'd hand it back to me, and I'd rewrite the song based on what they'd done",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "David Mancuso",
+      "context": "A DJ like David Mancuso was playing Kraftwerk followed by Grace Jones, or Manu Dibango and then New Order.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Kraftwerk",
+      "context": "A DJ like David Mancuso was playing Kraftwerk followed by Grace Jones",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Grace Jones",
+      "context": "A DJ like David Mancuso was playing Kraftwerk followed by Grace Jones, or Manu Dibango and then New Order.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Manu Dibango",
+      "context": "A DJ like David Mancuso was playing Kraftwerk followed by Grace Jones, or Manu Dibango and then New Order.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "New Order",
+      "context": "A DJ like David Mancuso was playing Kraftwerk followed by Grace Jones, or Manu Dibango and then New Order.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "ESG",
+      "context": "The band ESG was a perfect example of that – three Puerto Rican sisters in the South Bronx making a record with Martin Hannett who produced Joy Division.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Massive Attack",
+      "context": "The first three or four Massive Attack records made so much sense to me – they experimented with genres, worked with different singers and tried to write beautiful songs with them.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "OMD",
+      "context": "Then I saw some interview with OMD who were talking about how much they loved it, so I thought, 'Oh, maybe I should go back and use it'",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 16,
+    "sources_checked": 4
+  }
+}

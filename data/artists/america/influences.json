@@ -1,0 +1,38 @@
+{
+  "influences": [
+    {
+      "name": "Freddy Fender",
+      "context": "\"Before the Last Teardrop Falls\" – that was one of the first songs I remember listening to with my dad, driving around in his car on an 8-track. Listening to that as a kid and feeling really proud that there was a Latin-American man singing a #1 song, not only on the country charts, but on the pop charts. That was an important record for me and my family.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Los Lobos",
+      "context": "I threw myself into situations like Los Super Seven that was a Latin supergroup with members of Los Lobos and Calexico. I threw myself into that situation, which led me to playing with all these great Cuban musicians.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Calexico",
+      "context": "I threw myself into situations like Los Super Seven that was a Latin supergroup with members of Los Lobos and Calexico. I threw myself into that situation, which led me to playing with all these great Cuban musicians.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Ed Sheeran",
+      "context": "Ed and Bruno are basically the two reasons I started singing",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Bruno Mars",
+      "context": "Ed and Bruno are basically the two reasons I started singing",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Keith Green",
+      "context": "he remains a unique figure in the Christian music niche because he seems to be perfectly content to live in obscurity. I do think researchers of the future could benefit from having someone like Garrels on record talking about deconstruction, the pressures of making music in Nashville, and the influence of Keith Green on his career.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 6,
+    "sources_checked": 6
+  }
+}

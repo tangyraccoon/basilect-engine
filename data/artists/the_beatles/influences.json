@@ -1,0 +1,18 @@
+{
+  "influences": [
+    {
+      "name": "Rock 'n' roll musicians (old rock 'n' roll songs)",
+      "context": "The group also frequently stepped away from whatever tune they were fiddling with to play some of the old rock 'n' roll songs that inspired them when they were younger.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Smokey Robinson",
+      "context": "With The Beatles' second track was heavily inspired by Smokey Robinson. \"All I've Got to Do\" was recorded in a single day…",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 2,
+    "sources_checked": 6
+  }
+}

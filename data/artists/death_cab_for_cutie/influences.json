@@ -1,0 +1,53 @@
+{
+  "influences": [
+    {
+      "name": "Randy Newman",
+      "context": "I just really wanted, on this record, to kind of push my voice as an instrument and just be a lot more concise with the words... I found myself asking myself what would Randy Newman do? Would Randy Newman need a lot of words to say this, no, he would just come out and say it.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Cure",
+      "context": "One of the records that we've always really loved has been The Cure's Disintegration, because there are so many hooks on that record and they're sneaky hooks.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Robert Smith",
+      "context": "there are little guitars that I think are the kind of thing that Robert Smith might've… like we were channelling our inner Robert Smith.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Beatles",
+      "context": "I remember being six years old and listening to Sgt. Pepper's with a pair of headphones going, \"Oh there's something over here and something on this side. Why is that?\"",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Steve Albini",
+      "context": "Up until now I had been trying to do the Steve Albini/photographic realism sort of thing.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Bonzo Dog Doo-Dah Band",
+      "context": "It comes from a song called \"Death Cab for Cutie\" by the '60s art-rock pranksters the Bonzo Dog Doo-Dah Band.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Coldplay",
+      "context": "We're not a household name. We're not Coldplay. We're not Arcade Fire.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Arcade Fire",
+      "context": "We're not a household name. We're not Coldplay. We're not Arcade Fire.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "various bands from early career",
+      "context": "We've been together longer than some of the bands that I came up emulating.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 9,
+    "sources_checked": 6
+  }
+}

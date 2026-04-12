@@ -1,0 +1,49 @@
+{
+  "artist_id": "hedvige_sylvana",
+  "artist_name": "Hedvige Sylvana",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T14:38:24.025425+00:00",
+      "result": "0 urls"
+    },
+    "interview_scrape": {
+      "status": "skipped",
+      "timestamp": "2026-04-12T14:38:24.528929+00:00",
+      "result": "failed — skipping to unblock"
+    },
+    "interview_extract": {
+      "status": "skipped",
+      "timestamp": "2026-04-12T14:38:24.530929+00:00",
+      "result": "failed — skipping to unblock"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T14:38:28.161615+00:00",
+      "result": "0 urls"
+    },
+    "review_scrape": {
+      "status": "skipped",
+      "timestamp": "2026-04-12T14:38:28.668364+00:00",
+      "result": "failed — skipping to unblock"
+    },
+    "review_extract": {
+      "status": "skipped",
+      "timestamp": "2026-04-12T14:38:28.669457+00:00",
+      "result": "failed — skipping to unblock"
+    },
+    "influence_extract": {
+      "status": "skipped",
+      "timestamp": "2026-04-12T14:38:28.670142+00:00",
+      "result": "no sources.json"
+    },
+    "tag_extract": {
+      "status": "skipped",
+      "timestamp": "2026-04-12T14:38:29.176400+00:00",
+      "result": "no text sources"
+    }
+  },
+  "error": "no sources",
+  "last_updated": "2026-04-12T14:38:29.176424+00:00"
+}

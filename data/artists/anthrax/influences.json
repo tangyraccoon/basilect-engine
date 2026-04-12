@@ -1,0 +1,28 @@
+{
+  "influences": [
+    {
+      "name": "George Martin",
+      "context": "Jay has become that [for us]. And him and I have been working very close on this record. I'll tell you, man, Jay's done the last few ANTHRAX records, and he's become… We talked about [legendary THE BEATLES producer] George Martin before, and Jay has become that [for us].",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Charlie Benante",
+      "context": "Charlie and I grew up together, as you know, in the same house. He very much started me on music and he was always playing music. He was always a great drummer. He played guitar before I even played guitar or bass. So he started me on it, then we went our separate ways and I went to bass. He's actually the one who told me to switch because I was playing the bass parts on guitar.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Lemmy",
+      "context": "I moved to L.A. and the only thing that was left was Lemmy at the Rainbow. That was the only truth to what I believed what was happening in Los Angeles.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Jonny Z",
+      "context": "Yet Jonny Z from Megaforce Records, he founded Anthrax and Metallica, he said: \"Manowar is the first power metal band.\"",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 4,
+    "sources_checked": 5
+  }
+}

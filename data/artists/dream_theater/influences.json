@@ -1,0 +1,23 @@
+{
+  "influences": [
+    {
+      "name": "Jeff Beck",
+      "context": "The last thing that I put into Moises was a Jeff Beck song.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "YES",
+      "context": "I'm currently going back to the music that I grew up with and using track separation to hear music I've loved on a whole different level. Things like \"YES- And You and I\" or parts of Dark Side of the Moon are blowing my mind once again after separating all the tracks!",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Pink Floyd",
+      "context": "I'm currently going back to the music that I grew up with and using track separation to hear music I've loved on a whole different level. Things like \"YES- And You and I\" or parts of Dark Side of the Moon are blowing my mind once again after separating all the tracks!",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 3,
+    "sources_checked": 3
+  }
+}

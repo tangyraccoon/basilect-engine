@@ -1,0 +1,18 @@
+{
+  "influences": [
+    {
+      "name": "Linda Ronstadt",
+      "context": "\"Blue Bayou\" is his dad's hit song from 1963 which was a #1 for my hero Linda Ronstadt.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Monica Zetterlund",
+      "context": "Roy loves jazz and I know a lot of the songs he plays through a Swedish singer, Monica Zetterlund.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 2,
+    "sources_checked": 3
+  }
+}

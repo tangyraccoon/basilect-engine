@@ -1,0 +1,78 @@
+{
+  "influences": [
+    {
+      "name": "Stevie Ray Vaughan",
+      "context": "A neighbor gave Mayer a Stevie Ray Vaughan cassette, which cultivated Mayer's love of blues music.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Buddy Guy",
+      "context": "According to Mayer, his fascination with Vaughan started a \"genealogical hunt\" that led him to other blues guitarists, including Buddy Guy, B.B. King, Freddie King, Albert King, Otis Rush, and Lightnin' Hopkins.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "B.B. King",
+      "context": "According to Mayer, his fascination with Vaughan started a \"genealogical hunt\" that led him to other blues guitarists, including Buddy Guy, B.B. King, Freddie King, Albert King, Otis Rush, and Lightnin' Hopkins.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Freddie King",
+      "context": "According to Mayer, his fascination with Vaughan started a \"genealogical hunt\" that led him to other blues guitarists, including Buddy Guy, B.B. King, Freddie King, Albert King, Otis Rush, and Lightnin' Hopkins.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Albert King",
+      "context": "According to Mayer, his fascination with Vaughan started a \"genealogical hunt\" that led him to other blues guitarists, including Buddy Guy, B.B. King, Freddie King, Albert King, Otis Rush, and Lightnin' Hopkins.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Otis Rush",
+      "context": "According to Mayer, his fascination with Vaughan started a \"genealogical hunt\" that led him to other blues guitarists, including Buddy Guy, B.B. King, Freddie King, Albert King, Otis Rush, and Lightnin' Hopkins.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Lightnin' Hopkins",
+      "context": "According to Mayer, his fascination with Vaughan started a \"genealogical hunt\" that led him to other blues guitarists, including Buddy Guy, B.B. King, Freddie King, Albert King, Otis Rush, and Lightnin' Hopkins.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Grateful Dead",
+      "context": "Mayer also recounted that in 2011 he happened upon a song by the Grateful Dead while listening to Pandora, and that soon the band's music was all he would listen to.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Rory Gallagher",
+      "context": "He was inspired by guitars of famous players the likes of Rory Gallagher and Stevie Ray Vaughan.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Lord Huron",
+      "context": "Lord Huron has been a favorite of mine since I discovered them in about 2012.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Peter Gabriel",
+      "context": "The Eighties gave us Peter Gabriel. That's some of the coolest stuff in the world, you know?",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Jerry Garcia",
+      "context": "\"Wildfire,\" the breezy toe-tapper with which Paradise Valley opens, grooves with Jerry Garcia influence.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "JJ Cale",
+      "context": "In its hushed, double-tracked vocals, the song plays like a love letter to JJ Cale. Mayer's whispery vocal emulation of the rock musician yields another new, but still polished, strain of John Mayer sound.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Randy Newman",
+      "context": "Mayer's lilted, Randy Newman-esque singing on the track finds him unintentionally but impactfully adopting a vocal technique distinctive from anything he's ever done before.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 14,
+    "sources_checked": 5
+  }
+}

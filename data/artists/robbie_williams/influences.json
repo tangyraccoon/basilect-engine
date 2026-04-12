@@ -1,0 +1,38 @@
+{
+  "influences": [
+    {
+      "name": "Eminem",
+      "context": "I'd heard this story about 'Lose Yourself' in 8 Mile and how the director had sent that back, and Eminem was right. And I'm like, 'I'm Eminem in this moment.'",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Freddie Mercury",
+      "context": "Freddie Mercury. I've always, always loved him and am in awe of how brilliant he is.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Prince",
+      "context": "Then Prince.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "John Lennon",
+      "context": "Then John Lennon.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "David Bowie",
+      "context": "David Bowie.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Mick Jagger",
+      "context": "Mick Jagger. I love them all.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 6,
+    "sources_checked": 4
+  }
+}

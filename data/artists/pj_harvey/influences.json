@@ -1,0 +1,153 @@
+{
+  "influences": [
+    {
+      "name": "Steve Knightley",
+      "context": "she attended Beaminster School in nearby Beaminster, where she received guitar lessons from folk singer-songwriter Steve Knightley",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Captain Beefheart",
+      "context": "Her parents introduced her to music that would later influence her work, including blues, Captain Beefheart and Bob Dylan",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Bob Dylan",
+      "context": "Her parents introduced her to music that would later influence her work, including blues, Captain Beefheart and Bob Dylan",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "John Parish",
+      "context": "she probably did learn that from him, amongst other things",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "John Lee Hooker",
+      "context": "I was brought up listening to John Lee Hooker, to Howlin' Wolf, to Robert Johnson, and a lot of Jimi Hendrix and Captain Beefheart",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Howlin' Wolf",
+      "context": "I was brought up listening to John Lee Hooker, to Howlin' Wolf, to Robert Johnson, and a lot of Jimi Hendrix and Captain Beefheart",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Robert Johnson",
+      "context": "I was brought up listening to John Lee Hooker, to Howlin' Wolf, to Robert Johnson, and a lot of Jimi Hendrix and Captain Beefheart",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Jimi Hendrix",
+      "context": "I was brought up listening to John Lee Hooker, to Howlin' Wolf, to Robert Johnson, and a lot of Jimi Hendrix and Captain Beefheart",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Nina Simone",
+      "context": "Other influential artists were \"Nina Simone, the Rolling Stones, people like that I grew up listening to but find I returned to\"",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Rolling Stones",
+      "context": "Other influential artists were \"Nina Simone, the Rolling Stones, people like that I grew up listening to but find I returned to\"",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Soft Cell",
+      "context": "During her teenage years, she began listening to new wave and synth-pop bands such as Soft Cell, Duran Duran and Spandau Ballet",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Duran Duran",
+      "context": "During her teenage years, she began listening to new wave and synth-pop bands such as Soft Cell, Duran Duran and Spandau Ballet",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Spandau Ballet",
+      "context": "During her teenage years, she began listening to new wave and synth-pop bands such as Soft Cell, Duran Duran and Spandau Ballet",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Pixies",
+      "context": "In her later teenage years, she became a fan of Pixies",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Slint",
+      "context": "she then listened to Slint",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Neil Young",
+      "context": "She has named Bob Dylan, and Neil Young, when talking about her influences",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Patti Smith",
+      "context": "Harvey has said that Smith is \"so energising to see and so passionate with what she's doing\"",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Siouxsie Sioux",
+      "context": "Harvey has also cited Siouxsie Sioux in terms of live performance, stating : \"She is so exciting to watch, so full of energy and human raw quality\"",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Ennio Morricone",
+      "context": "She has also drawn inspiration from Russian folk music, Italian soundtrack composer Ennio Morricone",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Arvo Pärt",
+      "context": "classical composers like Arvo Pärt, Erik Satie, Samuel Barber",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Erik Satie",
+      "context": "classical composers like Arvo Pärt, Erik Satie, Samuel Barber",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Samuel Barber",
+      "context": "classical composers like Arvo Pärt, Erik Satie, Samuel Barber",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Henryk Górecki",
+      "context": "classical composers like Arvo Pärt, Erik Satie, Samuel Barber, and Henryk Górecki",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Elvis Presley",
+      "context": "Elvis Presley was also mentioned in her 2022 book Orlam and the 2023 single A Child's Question, August",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Don Paterson",
+      "context": "I was working with Don Paterson, who was my mentor, on a three year poetry course, and it was on my coursework that the first few poems of Orlam were written and Don and I quickly saw that something was beginning to take shape.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "George Mackay Brown",
+      "context": "I was very interested in building my cast of characters as he did, and inventing my own words.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "William Barnes",
+      "context": "And that led me on to reading poets like William Barnes and Thomas Hardy, both of whom used dialect in their work. William Barnes collected together the Dorset dialect in a glossary, and that sort of became my bible.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Flood",
+      "context": "Flood and John Parish, who I worked very closely with in creating the sound, we were all on the same direction: trying really hard to not sound predictable.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Steve McQueen",
+      "context": "going back to Steve McQueen, he was enormously helpful to me at that time, when I talked to him about this sort of heartbreak I was feeling, like I'd lost the joy in it all. He encouraged me to take the boundaries away, and just look at what I loved.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 29,
+    "sources_checked": 4
+  }
+}

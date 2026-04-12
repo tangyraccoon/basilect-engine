@@ -1,0 +1,152 @@
+{
+  "tags": [
+    {
+      "tag": "multi_instrumental",
+      "category": "approach",
+      "weight": 1.0,
+      "raw_score": 13
+    },
+    {
+      "tag": "collaborative_production",
+      "category": "approach",
+      "weight": 0.923,
+      "raw_score": 12
+    },
+    {
+      "tag": "vocal_focused",
+      "category": "approach",
+      "weight": 0.923,
+      "raw_score": 12
+    },
+    {
+      "tag": "confrontational",
+      "category": "philosophy",
+      "weight": 0.769,
+      "raw_score": 10
+    },
+    {
+      "tag": "playful",
+      "category": "philosophy",
+      "weight": 0.692,
+      "raw_score": 9
+    },
+    {
+      "tag": "collaborative",
+      "category": "philosophy",
+      "weight": 0.538,
+      "raw_score": 7
+    },
+    {
+      "tag": "hybrid_production",
+      "category": "approach",
+      "weight": 0.538,
+      "raw_score": 7
+    },
+    {
+      "tag": "serious",
+      "category": "philosophy",
+      "weight": 0.462,
+      "raw_score": 6
+    },
+    {
+      "tag": "narrative",
+      "category": "philosophy",
+      "weight": 0.308,
+      "raw_score": 4
+    },
+    {
+      "tag": "live_performance",
+      "category": "approach",
+      "weight": 0.308,
+      "raw_score": 4
+    },
+    {
+      "tag": "short_form",
+      "category": "approach",
+      "weight": 0.231,
+      "raw_score": 3
+    },
+    {
+      "tag": "no_nonsense_attitude",
+      "category": "philosophy",
+      "weight": 0.231,
+      "raw_score": 3
+    },
+    {
+      "tag": "autobiographical",
+      "category": "philosophy",
+      "weight": 0.231,
+      "raw_score": 3
+    },
+    {
+      "tag": "conceptual",
+      "category": "philosophy",
+      "weight": 0.231,
+      "raw_score": 3
+    },
+    {
+      "tag": "persona_construction",
+      "category": "philosophy",
+      "weight": 0.231,
+      "raw_score": 3
+    },
+    {
+      "tag": "theatrical",
+      "category": "approach",
+      "weight": 0.231,
+      "raw_score": 3
+    },
+    {
+      "tag": "hi_fi",
+      "category": "approach",
+      "weight": 0.154,
+      "raw_score": 2
+    },
+    {
+      "tag": "intuitive",
+      "category": "philosophy",
+      "weight": 0.154,
+      "raw_score": 2
+    },
+    {
+      "tag": "emotional",
+      "category": "philosophy",
+      "weight": 0.154,
+      "raw_score": 2
+    },
+    {
+      "tag": "analog",
+      "category": "approach",
+      "weight": 0.154,
+      "raw_score": 2
+    },
+    {
+      "tag": "electronic",
+      "category": "approach",
+      "weight": 0.154,
+      "raw_score": 2
+    },
+    {
+      "tag": "layering",
+      "category": "process",
+      "weight": 0.154,
+      "raw_score": 2
+    },
+    {
+      "tag": "anti_commercial",
+      "category": "philosophy",
+      "weight": 0.154,
+      "raw_score": 2
+    },
+    {
+      "tag": "hybrid",
+      "category": "philosophy",
+      "weight": 0.154,
+      "raw_score": 2
+    }
+  ],
+  "meta": {
+    "count": 24,
+    "sources_checked": 6
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "influences": [
+    {
+      "name": "Brahms",
+      "context": "one concert both moved and speechless when the quartet passionately and lyrically performed two of Bartok's quartets plus one by Brahms (an early influence on Bartok)",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Beethoven",
+      "context": "The opening and funereal Lento reflects young Bartok's unfulfilled love for violinist Stefi Geyer, with a turgid counterpoint that draws comparison to the fugal writing of Beethoven",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 2,
+    "sources_checked": 1
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "influences": [
+    {
+      "name": "Oscar Wilde",
+      "context": "A quote by Oscar Wilde, a figure Morrissey practically obsessed with was etched into the vinyl groove of the record.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Shelagh Delaney",
+      "context": "The artwork, once more, gives a hint into Morrissey's creative process. It's a picture of Shelagh Delaney, the author of \"A Taste of Honey.\"",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "John Lydon",
+      "context": "While he didn't precisely cut the figure of an anarchist, Morrissey courted just as much controversy for his politics as Sex Pistols' John Lydon once had.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Aztec Camera",
+      "context": "A couple of days before I wrote 'This Charming Man' I'd heard 'Walk Out To Winter' by Aztec Camera on BBC Radio 1, and I felt a little jealous. My competitive urges kicked in. I felt that we needed something up-beat and in a major key for Rough Trade to get behind.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Patti Smith",
+      "context": "On August 31, 1978, while attending a Patti Smith concert, a fourteen-year-old Johnny Marr was introduced to nineteen-year-old Morrissey.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 5,
+    "sources_checked": 3
+  }
+}

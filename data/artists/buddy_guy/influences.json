@@ -1,0 +1,58 @@
+{
+  "influences": [
+    {
+      "name": "Arthur Cruddup",
+      "context": "I listened to Arthur Cruddup, Robert Johnson, and those guys. I worked real hard, always listening and learning",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Robert Johnson",
+      "context": "I listened to Arthur Cruddup, Robert Johnson, and those guys. I worked real hard, always listening and learning",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Muddy Waters",
+      "context": "Well, I was listening to all those guys, people I was learning stuff off. Muddy Waters, Howlin' Wolf, Willie Dixon, Sonny Boy, Little Walter",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Howlin' Wolf",
+      "context": "Well, I was listening to all those guys, people I was learning stuff off. Muddy Waters, Howlin' Wolf, Willie Dixon, Sonny Boy, Little Walter",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Willie Dixon",
+      "context": "Well, I was listening to all those guys, people I was learning stuff off. Muddy Waters, Howlin' Wolf, Willie Dixon, Sonny Boy, Little Walter",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Sonny Boy",
+      "context": "Well, I was listening to all those guys, people I was learning stuff off. Muddy Waters, Howlin' Wolf, Willie Dixon, Sonny Boy, Little Walter",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Little Walter",
+      "context": "Well, I was listening to all those guys, people I was learning stuff off. Muddy Waters, Howlin' Wolf, Willie Dixon, Sonny Boy, Little Walter",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Junior Wells",
+      "context": "I still listen to all those guys, Muddy, Wolf, Sonny Boy, Junior (Wells), Larry Johnson, Arthur Cruddup, Lightnin' Hopkins and Robert Johnson",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Larry Johnson",
+      "context": "I still listen to all those guys, Muddy, Wolf, Sonny Boy, Junior (Wells), Larry Johnson, Arthur Cruddup, Lightnin' Hopkins and Robert Johnson",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Lightnin' Hopkins",
+      "context": "I still listen to all those guys, Muddy, Wolf, Sonny Boy, Junior (Wells), Larry Johnson, Arthur Cruddup, Lightnin' Hopkins and Robert Johnson",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 10,
+    "sources_checked": 1
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "influences": [
+    {
+      "name": "Frank Zappa",
+      "context": "I'm partial to my dad's book \"The Real Frank Zappa Book.\"",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Van Halen",
+      "context": "I guess I would choose two that left an indelible mark on me in my formative years... Van Halen's Fair Warning. I listen to all kinds of music and there are a million different reasons why I might like certain albums, whether it's the sound of the record or the songs themselves, but those two albums sunk in very deep.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Edward Van Halen",
+      "context": "Van Halen's \"Push Comes To Shove.\" That is their weirdest song and it has the best solo Edward Van Halen ever played.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Aimee Mann",
+      "context": "Aimee Mann has always been great at writing in that way. I'd love to know more about the thought process behind that style of songwriting.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Geoff Emerick",
+      "context": "In the world of sound, there are guys who have made many of the classic sounds, like Geoff Emerick, Glynn and Andy Johns, Alan Parsons and Rick Hall. I'm inspired by all that stuff",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Glynn Johns",
+      "context": "In the world of sound, there are guys who have made many of the classic sounds, like Geoff Emerick, Glynn and Andy Johns, Alan Parsons and Rick Hall. I'm inspired by all that stuff",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Andy Johns",
+      "context": "In the world of sound, there are guys who have made many of the classic sounds, like Geoff Emerick, Glynn and Andy Johns, Alan Parsons and Rick Hall. I'm inspired by all that stuff",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Alan Parsons",
+      "context": "In the world of sound, there are guys who have made many of the classic sounds, like Geoff Emerick, Glynn and Andy Johns, Alan Parsons and Rick Hall. I'm inspired by all that stuff",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Rick Hall",
+      "context": "In the world of sound, there are guys who have made many of the classic sounds, like Geoff Emerick, Glynn and Andy Johns, Alan Parsons and Rick Hall. I'm inspired by all that stuff",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Eddie Kramer",
+      "context": "but you can't count out Eddie Kramer, Donn Landee, Steve Albini and Rob Schnapf either.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Donn Landee",
+      "context": "but you can't count out Eddie Kramer, Donn Landee, Steve Albini and Rob Schnapf either.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Steve Albini",
+      "context": "but you can't count out Eddie Kramer, Donn Landee, Steve Albini and Rob Schnapf either.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Rob Schnapf",
+      "context": "but you can't count out Eddie Kramer, Donn Landee, Steve Albini and Rob Schnapf either.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Igor Stravinsky",
+      "context": "music that edged towards difficult modernists such as Igor Stravinsky, Edgar Varèse, and the French electronic genius Pierre Henry",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Edgar Varèse",
+      "context": "music that edged towards difficult modernists such as Igor Stravinsky, Edgar Varèse, and the French electronic genius Pierre Henry",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Pierre Henry",
+      "context": "music that edged towards difficult modernists such as Igor Stravinsky, Edgar Varèse, and the French electronic genius Pierre Henry",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 16,
+    "sources_checked": 4
+  }
+}

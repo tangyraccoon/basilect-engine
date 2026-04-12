@@ -1,0 +1,25 @@
+{
+  "quotes": [
+    {
+      "text": "This 1999 release features all new material themed through the seasons of life.",
+      "publication": "Rogerwhittaker",
+      "date": ""
+    },
+    {
+      "text": "Re-release of the classic Christmas album featuring all original songs written by Roger.",
+      "publication": "Rogerwhittaker",
+      "date": ""
+    },
+    {
+      "text": "Roger's 1993 Self Penned Release, celebrating his 30th year in show business.",
+      "publication": "Rogerwhittaker",
+      "date": ""
+    }
+  ],
+  "corpus_meta": {
+    "quote_count": 3,
+    "source_count": 1,
+    "date_range": [],
+    "corpus_valid": false
+  }
+}

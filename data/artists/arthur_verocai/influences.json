@@ -1,0 +1,88 @@
+{
+  "influences": [
+    {
+      "name": "Carlos Lyra",
+      "context": "His sister took guitar lessons in the early '60s from Carlos Lyra, a Brazilian musician who wrote many of the early bossa nova classics. »I listened sometimes, fell in love with the music and started borrowing my sister's practice books.«",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Roberto Menescal",
+      "context": "He picked up the guitar every day, soon started taking lessons for himself. First with another grandee of bossa nova, Roberto Menescal",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Darcy Vilaverde",
+      "context": "First with another grandee of bossa nova, Roberto Menescal, then with Darcy Vilaverde and Antonio Rebello.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Antonio Rebello",
+      "context": "First with another grandee of bossa nova, Roberto Menescal, then with Darcy Vilaverde and Antonio Rebello.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Frank Zappa",
+      "context": "Growing up, Rio de Janeiro native Arthur Verocai was surrounded by a plethora of sounds, ranging from bossanova, samba, jazz, heavy soul & funk, black American and post-Beatles music, inspired by artists like Frank Zappa, Wes Montgomery, Miles Davis, Stan Kenton, Jobim, and Tim Maia to name a few.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Wes Montgomery",
+      "context": "Growing up, Rio de Janeiro native Arthur Verocai was surrounded by a plethora of sounds, ranging from bossanova, samba, jazz, heavy soul & funk, black American and post-Beatles music, inspired by artists like Frank Zappa, Wes Montgomery, Miles Davis, Stan Kenton, Jobim, and Tim Maia to name a few.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Miles Davis",
+      "context": "Growing up, Rio de Janeiro native Arthur Verocai was surrounded by a plethora of sounds, ranging from bossanova, samba, jazz, heavy soul & funk, black American and post-Beatles music, inspired by artists like Frank Zappa, Wes Montgomery, Miles Davis, Stan Kenton, Jobim, and Tim Maia to name a few.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Stan Kenton",
+      "context": "Growing up, Rio de Janeiro native Arthur Verocai was surrounded by a plethora of sounds, ranging from bossanova, samba, jazz, heavy soul & funk, black American and post-Beatles music, inspired by artists like Frank Zappa, Wes Montgomery, Miles Davis, Stan Kenton, Jobim, and Tim Maia to name a few.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Jobim",
+      "context": "Growing up, Rio de Janeiro native Arthur Verocai was surrounded by a plethora of sounds, ranging from bossanova, samba, jazz, heavy soul & funk, black American and post-Beatles music, inspired by artists like Frank Zappa, Wes Montgomery, Miles Davis, Stan Kenton, Jobim, and Tim Maia to name a few.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Tim Maia",
+      "context": "Growing up, Rio de Janeiro native Arthur Verocai was surrounded by a plethora of sounds, ranging from bossanova, samba, jazz, heavy soul & funk, black American and post-Beatles music, inspired by artists like Frank Zappa, Wes Montgomery, Miles Davis, Stan Kenton, Jobim, and Tim Maia to name a few.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Mr G",
+      "context": "Mr G's live set in Boiler Room was a big impact. Not just because he was using the same MPC as me but I saw you could make a good track and a good live without lots of effects and lots of gear.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Robert Wyatt",
+      "context": "When I decided I wanted to make an album, I went into my crates and picked out a few records I was completely into at that moment by artists like Robert Wyatt, Steve Kuhn, and Arthur Verocai.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Steve Kuhn",
+      "context": "When I decided I wanted to make an album, I went into my crates and picked out a few records I was completely into at that moment by artists like Robert Wyatt, Steve Kuhn, and Arthur Verocai.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Arthur Verocai",
+      "context": "When I decided I wanted to make an album, I went into my crates and picked out a few records I was completely into at that moment by artists like Robert Wyatt, Steve Kuhn, and Arthur Verocai.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Beatles",
+      "context": "During a retreat in Praia do Rosa, where they began to develop the album, the members watched together documentaries of the The Beatles absorbing details of the English band's creative process.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Ringo Starr",
+      "context": "I saw, for example, that Ringo Starr put a cloth over the floor tom for a specific sound effect, I started doing the same",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 16,
+    "sources_checked": 5
+  }
+}

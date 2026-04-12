@@ -1,0 +1,20 @@
+{
+  "quotes": [
+    {
+      "text": "The Continental Drifters emerged from the fertile L.A. pop scene of the 1980s and '90s, an ad hoc band of musicians mostly moonlighting from their \"day bands,\" to collaborate in a free-form environment at Raji's nightclub in Hollywood.",
+      "publication": "LA Times",
+      "date": ""
+    },
+    {
+      "text": "Viewed by some as an L.A. counterpart to the freewheeling early-'70s Southern rock collective Delaney & Bonnie & Friends, the Continental Drifters combined sharp songwriting with skillfully executed instrumental interplay.",
+      "publication": "LA Times",
+      "date": ""
+    }
+  ],
+  "corpus_meta": {
+    "quote_count": 2,
+    "source_count": 1,
+    "date_range": [],
+    "corpus_valid": false
+  }
+}

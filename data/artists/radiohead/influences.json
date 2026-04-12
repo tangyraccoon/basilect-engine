@@ -1,0 +1,78 @@
+{
+  "influences": [
+    {
+      "name": "David Bowie",
+      "context": "Well, when we started talking about touring, I had just been reading about David Bowie's Station to Station tour. I'm not sure if this is entirely true, but as far as I can tell, he did actually go station to station. He didn't get on a plane. He even did the Trans-Siberian Railway.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Jorge Luis Borges",
+      "context": "But what was the last heavy thing I read? Borges's Labyrinths. That was pretty cool. The idea is the story, you know. I tried reading it a few years ago, and I was like, 'What the fuck is this?' and then some guy in the pub explained to me what was going on and then I actually really enjoyed it.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Modeselektor",
+      "context": "Because of the nature of the music software, within the music itself, the tendency is toward soft synths and soft effects—and I use these too—which are all internal, inside the computer. And I think that's making a big difference to music as well. Some of it's really exciting but some of it's a bit lame-ass. It gives everything a softness which is not very exciting to listen to. I know Modeselektor would love me for saying this.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Karlheinz Stockhausen",
+      "context": "Thinking about it, digital albums could really be any length these days. You could make it five hours or you could do a Stockhausen thing and— What? With the helicopters? [Stockhausen's Helicopter String Quartet was written for string quartet and helicopter.] Yeah. He also wrote an opera that lasted seven days.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Krzysztof Penderecki",
+      "context": "his longstanding love of Polish composer Krzysztof Penderecki, whose 'Threnody To The Victims Of Hiroshima' directly inspired Greenwood's award-winning 'Popcorn Superhet Receiver'",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Oliver Messiaen",
+      "context": "He regards French composer Oliver Messiaen as the greatest of all time – 'one of the few composers when you can hear just a few chords in isolation and know it's him'",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Steve Reich",
+      "context": "The next Octatonic release is likely to be a recording of work by another hero, Steve Reich.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Bach",
+      "context": "Listening to Bach has the same feeling as when you're listening to Kraftwerk and you think 'electronic music doesn't get better than this'.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Kraftwerk",
+      "context": "Listening to Bach has the same feeling as when you're listening to Kraftwerk and you think 'electronic music doesn't get better than this'.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "John Lennon",
+      "context": "And then there's that Lennon thing about it's not how you, what's it? ... It's not - yes - it's not who you steal from, it's how you steal.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Nigel Godrich",
+      "context": "And to have the ability within our group with Nigel to sort of move around in all these different areas.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "John Lennon and Yoko Ono",
+      "context": "the poster sloganeering of OK Computer being inspired by John Lennon and Yoko Ono's \"War Is Over!\" billboard campaign. \"Around that time I was totally obsessed with the Lennon thing,\" Yorke states.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Beatles",
+      "context": "a song from \"OK Computer\" inspired by the Beatles' \"Sexy Sadie.\"",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Robert Rauschenberg",
+      "context": "As Robert Rauschenberg said (and quoted in the exhibition): \"The artist's job is to be a witness to his time in history.\"",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 14,
+    "sources_checked": 11
+  }
+}

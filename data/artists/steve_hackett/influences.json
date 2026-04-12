@@ -1,0 +1,68 @@
+{
+  "influences": [
+    {
+      "name": "The Beatles",
+      "context": "ever since the Beatles started working with orchestras, it changed my mind about what was possible, what was credible for a rock act to do",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Segovia",
+      "context": "I was listening to Segovia and classical music, like a guilty pleasure thinking, 'Yeah, I love this stuff, but it's not gonna impact upon rock'",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Pink Floyd",
+      "context": "We lived opposite the Battersea Power Station, made famous many years by Pink Floyd and their flying pig",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Paul McCartney",
+      "context": "I was reading an old interview that Paul McCartney gave in the 1960s, I think it was for Life Magazine... 'Elenore Rigby' has a quality to it",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Dylan Thomas",
+      "context": "The famous line about 'Wearing a face that she keeps a job by the door' is something that was very Dylan Thomas-esque in a way because he would allude to certain things, the use of metaphor was important for him as a writer",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Bob Dylan",
+      "context": "By the mid-1960s, the influence of other Dylan, of course, is paramount upon the Beatles",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Rolling Stones",
+      "context": "I was listening to The Stones very, very early on, and I love their work and practiced along with it relentlessly",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Charlie Watts",
+      "context": "when I was a kid, I desperately wanted to have the long hair that they had, and I thought out of all of them, Charlie was the most handsome",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Buddy Rich",
+      "context": "most drummers that I've talked to mentioned Buddy Rich in terms of saying, 'Well, yeah, this was the gospel handed down'",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Bach",
+      "context": "I'm influenced by masters like Bach, someone who had tremendous technique and complex underpinnings for every phrase, yet the musical effect is very simple because things are so focused.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Anthony Phillips",
+      "context": "We all played 12-string and were fans of his sound. That was something we all shared in Genesis—the idea of lots of 12-strings all arpeggiating at once.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Peter Green",
+      "context": "I read something recently in which Peter Green talked about filling Eric Clapton's shoes when he joined John Mayall's Bluesbreakers. He was under a lot of pressure with Eric being such a huge star. A difficult act to follow, even though Green was stunning in his own right.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 12,
+    "sources_checked": 5
+  }
+}

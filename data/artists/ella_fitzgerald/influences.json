@@ -1,0 +1,43 @@
+{
+  "influences": [
+    {
+      "name": "Ray Charles",
+      "context": "the song, which had already become a global hit through a version by Ray Charles in 1962",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Aretha Franklin",
+      "context": "References to Aretha Franklin's \"Respect\" and Vernon Duke's \"I Can't Get Started With You\" are examples of the interpolations included here",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Janis Joplin",
+      "context": "mingling enough \"wha whas\" to evoke Janis Joplin's version of Big Mama Thornton's blues song, \"Ball and Chain\"",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "James Brown",
+      "context": "emulating the expressionistic screams and wails of James Brown",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Duke Ellington",
+      "context": "a bop version of Duke Ellington's \"It Don't Mean a Thing (If It Ain't Got That Swing)\"",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Vernon Duke",
+      "context": "Instead of \"I Can't Stop Loving You,\" she sings \"I Can't Get Started With You,\" written by Vernon Duke with lyrics by Ira Gershwin",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Pigmeat Markham",
+      "context": "a shout-out to a vaudeville stereotype of the \"Judge\" being revived: Pigmeat Markham, a legendary sketch comic in black vaudeville from the 1920s through the 1940s",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 7,
+    "sources_checked": 3
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "influences": [
+    {
+      "name": "Ruth Reichl",
+      "context": "Back then, it was Ruth Reichl, who had just moved to the New York Times – I inhaled every word she wrote, I thought she was brilliant. I loved the way she told stories and talked about food through many prisms, and how food touches our lives in many ways. She was a big hero of mine, and she is – I think she's a remarkable person.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Alison Cook",
+      "context": "A friend of mine in Houston was doing a thing called Burger Friday, so I totally stole it from Alison Cook – by the way, one of the country's great food writers.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Claude Peck",
+      "context": "I'm following in the footsteps of my friend Claude Peck, my dear friend and colleague… a couple years before he retired, he made a complete change in his work life and went from being the culture editor to the night metro editor. It was really different! I just loved observing how invigorated he was, and he had this breath of fresh air in his work, and it made him really happy, and I thought: 'I want to do that, too.'",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 3,
+    "sources_checked": 1
+  }
+}

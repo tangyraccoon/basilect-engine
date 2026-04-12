@@ -1,0 +1,28 @@
+{
+  "influences": [
+    {
+      "name": "Greg Lake",
+      "context": "Jack Bruce didn't write lyrics, Greg Lake didn't write lyrics, yet they were prolific in terms of being musical creators and parts of groups that were very creative... Mentioning Greg Lake, I do 'I Believe in Father Christmas' as a tribute to him. John O'Hara and I think we played it with him on a couple of cathedral shows some years ago, not long before he died. So I do that one today as a sort of a little nod to Greg Lake. It's a fine song.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Hariprasad Chaurasia",
+      "context": "It was a demo made back in 2007 for a musical idea to perform with the venerable, historic number one flute player of India, Hariprasad Chaurasia, who has collaborated a couple of times with Western artists like John McLaughlin, but he's very much steeped in the traditions of classical Indian music with the bamboo flute. So I wrote this essentially for bamboo flute and the Western concert flute.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "George Martin",
+      "context": "Referring to his late friend George Martin - who worked with The Beatles on all of their albums - Anderson mused: 'I could imagine George probably found it rather difficult being in a studio with The Beatles, whether it was just smoking joints or later on LSD or whatever. I imagine he found it a bit frustrating, because he, like me, was a straight-laced character.'",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Frank Zappa",
+      "context": "He also mentioned rock star Frank Zappa as another musician who never dabbled with drugs. Anderson said: 'He's the only other person I know of, other than me, who I can be pretty sure, anecdotally, that he never took what's popularly called drugs.'",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 4,
+    "sources_checked": 4
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "influences": [
+    {
+      "name": "The Beatles",
+      "context": "On February 9, 1964, when Wilson and her sister Ann watched The Beatles perform on The Ed Sullivan Show, they both instantly wanted to be like the band. In an interview she said, 'The lightning bolt came out of the heavens and struck Ann and me the first time we saw the Beatles on 'The Ed Sullivan Show'... that was the moment Ann and I heard the call to become rock musicians.'",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Peter, Paul and Mary",
+      "context": "Later at a Youth Day event at their church, the duo chose to sing 'The Great Mandala (The Wheel of Life),' by Peter, Paul and Mary",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Elvis Presley",
+      "context": "Later at a Youth Day event at their church, the duo chose to sing... Elvis Presley's 'Crying in the Chapel'",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Doors",
+      "context": "Later at a Youth Day event at their church, the duo chose to sing... The Doors' 'When the Music's Over'",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 4,
+    "sources_checked": 4
+  }
+}

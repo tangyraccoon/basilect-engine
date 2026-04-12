@@ -1,0 +1,38 @@
+{
+  "influences": [
+    {
+      "name": "Kate Bush",
+      "context": "She's far more outgoing than the likes of Kate Bush, and far more photogenic than a musical JD Salinger",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Beyoncé",
+      "context": "I wanted to write a song for Beyoncé and then it happened",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Steven Spielberg",
+      "context": "the young actress' commitment to the role was even praised by Steven Spielberg",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Forrest Gump (film)",
+      "context": "Where have all the Forrest Gumps gone, you know? Where have all the What's Eating Gilbert Grapes gone? I was just really nostalgic for that period of film-making and how it made me feel when I watched those movies.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "What's Eating Gilbert Grape (film)",
+      "context": "Where have all the Forrest Gumps gone, you know? Where have all the What's Eating Gilbert Grapes gone? I was just really nostalgic for that period of film-making and how it made me feel when I watched those movies.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Chrissie Hynde",
+      "context": "Sia says Chrissie Hynde passed this onto her early in her career when talking about reading reviews from industry critics the suggestion given was to her to simply ignore it all",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 6,
+    "sources_checked": 5
+  }
+}

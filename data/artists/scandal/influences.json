@@ -1,0 +1,18 @@
+{
+  "influences": [
+    {
+      "name": "Steve Gadd",
+      "context": "I've read that Rina thinks of Steve Gadd as one of her influences. That's a very interesting choice - he's a session guy, not a big rock star... RINA: At the same time I started playing the drums, I also started to buy and read drum magazines. The first drum magazine I bought had Steve Gadd on the front cover and he was actually my father's favorite drummer. Reading though the interview, I learned that he did tap dancing and made me interested in a totally new world.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Morning Musume",
+      "context": "As kids, what was the first record you ever bought with your own money? RINA: Morning Musume's best album. At the time, I was in elementary school and they were extremely popular. I created a dance team and copied their dance moves.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 2,
+    "sources_checked": 3
+  }
+}

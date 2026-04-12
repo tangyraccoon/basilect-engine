@@ -1,0 +1,63 @@
+{
+  "influences": [
+    {
+      "name": "British bands (general)",
+      "context": "When we first started out, we had never even been to Europe or anywhere. But we kind of pretended like we were a British band because that was the music that we really responded to. And we always kind of liked bands that had an image.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Beach Boys",
+      "context": "Other than a few things like The Beach Boys and that sort of thing, in general, we weren't influenced by LA bands at all.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Who",
+      "context": "\"We'd always idolised British bands,\" Ron Mael explains today. \"We always attempted to be like The Who or The Kinks, even though, stylistically, it didn't turn out that way.\"",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Kinks",
+      "context": "\"We'd always idolised British bands,\" Ron Mael explains today. \"We always attempted to be like The Who or The Kinks, even though, stylistically, it didn't turn out that way.\"",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Roy Wood",
+      "context": "\"Ron and I initially wanted Roy Wood to produce Kimono My House. We both loved The Move because they typified great British music – amazing melodies and great singing.\"",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Move",
+      "context": "\"Ron and I initially wanted Roy Wood to produce Kimono My House. We both loved The Move because they typified great British music – amazing melodies and great singing.\"",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Pete Townshend",
+      "context": "\"Even to this day I marvel at those early Who songs. Sometimes I feel it's a shame that Pete Townshend has grown up emotionally, because we haven't.\"",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Giorgio Moroder",
+      "context": "\"Giorgio was just such a master at being able to incorporate electronic elements into popular music,\" says Ron. \"And in terms of songwriting, just to have our kind of focus affirmed by somebody like him was really something. To be exposed to that whole thing was really eyeopening for us.\"",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Michel Legrand",
+      "context": "Michel Legrand who did the music for The Umbrellas Of Cherbourg, a film which was influential on us.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Little Richard",
+      "context": "Little Richard, whose singing was on another level, so intense and spectacularly powerful.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Elvis",
+      "context": "And Elvis…",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 11,
+    "sources_checked": 5
+  }
+}

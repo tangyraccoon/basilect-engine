@@ -1,0 +1,23 @@
+{
+  "quotes": [
+    {
+      "text": "Elvis Costello probably has 5 projects going on right now.",
+      "publication": "CelebrityAccess",
+      "date": "2020-04-17"
+    },
+    {
+      "text": "The guy just denies completely that I made the name up… but I invented it. Maybe somebody told him the name and he truly feels that he came about it by chance. But it's two words that you're never going to hear together.",
+      "publication": "",
+      "date": ""
+    }
+  ],
+  "corpus_meta": {
+    "quote_count": 2,
+    "source_count": 1,
+    "date_range": [
+      "2020",
+      "2020"
+    ],
+    "corpus_valid": false
+  }
+}

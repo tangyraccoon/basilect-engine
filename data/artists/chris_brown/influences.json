@@ -1,0 +1,138 @@
+{
+  "influences": [
+    {
+      "name": "Michael Jackson",
+      "context": "Brown often cites Michael Jackson as his inspiration, predominantly. Brown emphasizes \"Michael Jackson is the reason why I do music and why I am an entertainer.\"",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Usher",
+      "context": "Usher is also another influence who comes across as a more contemporary figure for Brown. He tells Vibe magazine \"He was the one who the youngsters looked up to. I know that we, in the dancing and singing world, looked up to him\", and maintains \"If it wasn't for Usher, then Chris Brown couldn't exist.\"",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Marvin Gaye",
+      "context": "Other influences include Marvin Gaye, Sam Cooke, Ginuwine, Phil Collins, Bobby Brown and R. Kelly.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Sam Cooke",
+      "context": "Other influences include Marvin Gaye, Sam Cooke, Ginuwine, Phil Collins, Bobby Brown and R. Kelly.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Ginuwine",
+      "context": "Other influences include Marvin Gaye, Sam Cooke, Ginuwine, Phil Collins, Bobby Brown and R. Kelly.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Phil Collins",
+      "context": "Other influences include Marvin Gaye, Sam Cooke, Ginuwine, Phil Collins, Bobby Brown and R. Kelly.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Bobby Brown",
+      "context": "Other influences include Marvin Gaye, Sam Cooke, Ginuwine, Phil Collins, Bobby Brown and R. Kelly.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "R. Kelly",
+      "context": "Other influences include Marvin Gaye, Sam Cooke, Ginuwine, Phil Collins, Bobby Brown and R. Kelly.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Naughty by Nature",
+      "context": "He has cited Naughty by Nature, Tupac, Lil' Wayne and Rakim as his hip-hop influences.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Tupac",
+      "context": "He has cited Naughty by Nature, Tupac, Lil' Wayne and Rakim as his hip-hop influences.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Lil Wayne",
+      "context": "He has cited Naughty by Nature, Tupac, Lil' Wayne and Rakim as his hip-hop influences.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Rakim",
+      "context": "He has cited Naughty by Nature, Tupac, Lil' Wayne and Rakim as his hip-hop influences.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Prince",
+      "context": "In 2008, Brown began work on his third album, announced to be called Graffiti, promising to experiment with a different musical direction inspired by singers Prince and Michael Jackson. He stated, \"I wanted to change it up and really be different. Like my style nowadays, I don't try to be typical urban. I want to be like how Prince, Michael and Stevie Wonder were.\"",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Stevie Wonder",
+      "context": "In 2008, Brown began work on his third album, announced to be called Graffiti, promising to experiment with a different musical direction inspired by singers Prince and Michael Jackson. He stated, \"I wanted to change it up and really be different. Like my style nowadays, I don't try to be typical urban. I want to be like how Prince, Michael and Stevie Wonder were.\"",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "MC Hammer",
+      "context": "Brown also mentioned MC Hammer as an inspiration to his dancing style.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Gerald LeVert",
+      "context": "Initially, I grew up idolizing artists like Michael Jackson, Prince, Stevie Wonder, Gerald LeVert, and The O'Jays.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The O'Jays",
+      "context": "Initially, I grew up idolizing artists like Michael Jackson, Prince, Stevie Wonder, Gerald LeVert, and The O'Jays.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The-Dream",
+      "context": "That's when I fell in love with songwriters like The-Dream, The Underdogs, James Fauntleroy, Tank, and others. They really influenced my writing style.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Underdogs",
+      "context": "That's when I fell in love with songwriters like The-Dream, The Underdogs, James Fauntleroy, Tank, and others. They really influenced my writing style.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "James Fauntleroy",
+      "context": "That's when I fell in love with songwriters like The-Dream, The Underdogs, James Fauntleroy, Tank, and others. They really influenced my writing style.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Tank",
+      "context": "That's when I fell in love with songwriters like The-Dream, The Underdogs, James Fauntleroy, Tank, and others. They really influenced my writing style.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Poo Bear",
+      "context": "He said, 'Yeah, cool—sit in here. But if you're in here, we're gonna talk'... because he ended up spending the entire session dropping gems—really breaking down his process and how he writes. That moment changed everything for me. From that day forward, my trajectory shifted.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Pharrell",
+      "context": "I think I saw Pharrell say something similar: that folk music is kind of the foundation.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Imogen Heap",
+      "context": "Artists like Imogen Heap, for example—she's incredible. A lot of overseas artists have a completely different approach to songwriting.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Musiq Soulchild",
+      "context": "Another week, I might be channeling some eclectic soul vibes—feeling like Musiq Soulchild.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Gap Band",
+      "context": "On 'Dangerous,' I got to play real keys and real guitar, like something you'd hear from The Gap Band. I was able to bring that influence into the record.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 26,
+    "sources_checked": 4
+  }
+}

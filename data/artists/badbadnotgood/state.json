@@ -1,0 +1,49 @@
+{
+  "artist_id": "badbadnotgood",
+  "artist_name": "Badbadnotgood",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:18:34.617689+00:00",
+      "result": "12 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:18:35.275134+00:00",
+      "result": "10/12 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:19:03.599837+00:00",
+      "result": "36 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:19:08.321697+00:00",
+      "result": "10 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:19:09.345763+00:00",
+      "result": "5/10 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:19:25.205374+00:00",
+      "result": "25 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:19:56.542013+00:00",
+      "result": "31 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T22:20:33.615369+00:00",
+      "result": "40 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-11T22:20:33.615469+00:00"
+}

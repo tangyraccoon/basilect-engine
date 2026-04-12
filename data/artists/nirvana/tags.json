@@ -1,0 +1,188 @@
+{
+  "tags": [
+    {
+      "tag": "autobiographical",
+      "category": "philosophy",
+      "weight": 1.0,
+      "raw_score": 15
+    },
+    {
+      "tag": "emotional",
+      "category": "philosophy",
+      "weight": 1.0,
+      "raw_score": 15
+    },
+    {
+      "tag": "confrontational",
+      "category": "philosophy",
+      "weight": 0.667,
+      "raw_score": 10
+    },
+    {
+      "tag": "vocal_focused",
+      "category": "approach",
+      "weight": 0.667,
+      "raw_score": 10
+    },
+    {
+      "tag": "live_performance",
+      "category": "approach",
+      "weight": 0.467,
+      "raw_score": 7
+    },
+    {
+      "tag": "anti_commercial",
+      "category": "philosophy",
+      "weight": 0.4,
+      "raw_score": 6
+    },
+    {
+      "tag": "lo_fi",
+      "category": "approach",
+      "weight": 0.4,
+      "raw_score": 6
+    },
+    {
+      "tag": "short_form",
+      "category": "approach",
+      "weight": 0.333,
+      "raw_score": 5
+    },
+    {
+      "tag": "collaborative",
+      "category": "approach",
+      "weight": 0.267,
+      "raw_score": 4
+    },
+    {
+      "tag": "intuitive",
+      "category": "philosophy",
+      "weight": 0.267,
+      "raw_score": 4
+    },
+    {
+      "tag": "political",
+      "category": "philosophy",
+      "weight": 0.267,
+      "raw_score": 4
+    },
+    {
+      "tag": "contextual_documentation",
+      "category": "approach",
+      "weight": 0.2,
+      "raw_score": 3
+    },
+    {
+      "tag": "oral_history",
+      "category": "approach",
+      "weight": 0.2,
+      "raw_score": 3
+    },
+    {
+      "tag": "hybrid",
+      "category": "philosophy",
+      "weight": 0.2,
+      "raw_score": 3
+    },
+    {
+      "tag": "vocal_processing",
+      "category": "process",
+      "weight": 0.2,
+      "raw_score": 3
+    },
+    {
+      "tag": "dynamic_contrast",
+      "category": "process",
+      "weight": 0.2,
+      "raw_score": 3
+    },
+    {
+      "tag": "working_class_consciousness",
+      "category": "philosophy",
+      "weight": 0.2,
+      "raw_score": 3
+    },
+    {
+      "tag": "noise",
+      "category": "process",
+      "weight": 0.2,
+      "raw_score": 3
+    },
+    {
+      "tag": "derivative",
+      "category": "philosophy",
+      "weight": 0.2,
+      "raw_score": 3
+    },
+    {
+      "tag": "commercial",
+      "category": "philosophy",
+      "weight": 0.2,
+      "raw_score": 3
+    },
+    {
+      "tag": "narrative",
+      "category": "philosophy",
+      "weight": 0.133,
+      "raw_score": 2
+    },
+    {
+      "tag": "maximalism",
+      "category": "process",
+      "weight": 0.133,
+      "raw_score": 2
+    },
+    {
+      "tag": "minimalism",
+      "category": "process",
+      "weight": 0.133,
+      "raw_score": 2
+    },
+    {
+      "tag": "analog",
+      "category": "approach",
+      "weight": 0.133,
+      "raw_score": 2
+    },
+    {
+      "tag": "collaborative_production",
+      "category": "approach",
+      "weight": 0.133,
+      "raw_score": 2
+    },
+    {
+      "tag": "sparse",
+      "category": "approach",
+      "weight": 0.133,
+      "raw_score": 2
+    },
+    {
+      "tag": "diy",
+      "category": "philosophy",
+      "weight": 0.133,
+      "raw_score": 2
+    },
+    {
+      "tag": "multi_instrumental",
+      "category": "approach",
+      "weight": 0.133,
+      "raw_score": 2
+    },
+    {
+      "tag": "experimental",
+      "category": "philosophy",
+      "weight": 0.133,
+      "raw_score": 2
+    },
+    {
+      "tag": "primitive_aesthetic",
+      "category": "philosophy",
+      "weight": 0.133,
+      "raw_score": 2
+    }
+  ],
+  "meta": {
+    "count": 30,
+    "sources_checked": 7
+  }
+}

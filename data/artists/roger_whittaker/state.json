@@ -1,0 +1,49 @@
+{
+  "artist_id": "roger_whittaker",
+  "artist_name": "Roger Whittaker",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:56:54.584140+00:00",
+      "result": "1 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:56:55.599180+00:00",
+      "result": "1/1 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:56:58.546209+00:00",
+      "result": "0 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:57:02.874955+00:00",
+      "result": "7 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:57:09.410433+00:00",
+      "result": "5/7 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:57:21.505458+00:00",
+      "result": "3 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:57:24.388349+00:00",
+      "result": "0 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:57:35.378788+00:00",
+      "result": "12 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-12T16:57:35.378823+00:00"
+}

@@ -1,0 +1,58 @@
+{
+  "influences": [
+    {
+      "name": "Pierre Boulez",
+      "context": "Talking about his initial, often dissonant influences in 20th-century composers (Boulez, Stockhausen, and Luigi Nono)",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Karlheinz Stockhausen",
+      "context": "Talking about his initial, often dissonant influences in 20th-century composers (Boulez, Stockhausen, and Luigi Nono)",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Luigi Nono",
+      "context": "Talking about his initial, often dissonant influences in 20th-century composers (Boulez, Stockhausen, and Luigi Nono)",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Bach",
+      "context": "compared to classical composers like Bach, Frescobaldi, Palestrina or Mozart, I would define myself as unemployed",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Frescobaldi",
+      "context": "compared to classical composers like Bach, Frescobaldi, Palestrina or Mozart, I would define myself as unemployed",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Palestrina",
+      "context": "compared to classical composers like Bach, Frescobaldi, Palestrina or Mozart, I would define myself as unemployed",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Mozart",
+      "context": "compared to classical composers like Bach, Frescobaldi, Palestrina or Mozart, I would define myself as unemployed",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Sergio Leone",
+      "context": "Leone would give Morricone the ultimate composing freedom, allowing him to write the music before his films were made.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Giuseppe Tornatore",
+      "context": "Giuseppe Tornatore, another of my regular collaborators, does that sometimes. Leone and Tornatore are two directors with an understanding that sometimes it is necessary for them to leave the music uncut.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Mahler",
+      "context": "Some movies work really well with music from Bach or Mahler that existed long before the film, so music has its own autonomy.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 10,
+    "sources_checked": 4
+  }
+}

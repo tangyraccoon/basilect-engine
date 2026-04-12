@@ -1,0 +1,33 @@
+{
+  "influences": [
+    {
+      "name": "Stevie Wonder",
+      "context": "I grew up listening to him. Stevie Wonder has always been one of my favorite songwriter/ entertainers in the world.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Brian McKnight",
+      "context": "I obviously have heard his music and I know all his songs, but about two years ago, I went to one of his shows without even knowing that a year after I'll be working with him on a song.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Julio Iglesias (father)",
+      "context": "Traveling the world and with my dad when I was 7, 8, 9, 10 years old, going to all these countries and just watching my dad perform live. Believe it or not, all that sticks in you, and it grows on you.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Frank Sinatra",
+      "context": "It is not now the times of the beautiful singers like Frank Sinatra and Dean Martin, but Vegas still has that unique sense of music, the magic.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Dean Martin",
+      "context": "It is not now the times of the beautiful singers like Frank Sinatra and Dean Martin, but Vegas still has that unique sense of music, the magic.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 5,
+    "sources_checked": 5
+  }
+}

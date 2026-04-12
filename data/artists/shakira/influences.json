@@ -1,0 +1,108 @@
+{
+  "influences": [
+    {
+      "name": "Led Zeppelin",
+      "context": "From her early teens, Shakira was influenced by rock music, listening heavily to such bands and performers as Led Zeppelin",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Metallica",
+      "context": "From her early teens, Shakira was influenced by rock music, listening heavily to such bands and performers as Metallica",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Nirvana",
+      "context": "From her early teens, Shakira was influenced by rock music, listening heavily to such bands and performers as Nirvana",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Beatles",
+      "context": "From her early teens, Shakira was influenced by rock music, listening heavily to such bands and performers as The Beatles",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Police",
+      "context": "From her early teens, Shakira was influenced by rock music, listening heavily to such bands and performers as the Police",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Cure",
+      "context": "From her early teens, Shakira was influenced by rock music, listening heavily to such bands and performers as The Cure",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Tom Petty",
+      "context": "From her early teens, Shakira was influenced by rock music, listening heavily to such bands and performers as Tom Petty",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Aerosmith",
+      "context": "From her early teens, Shakira was influenced by rock music, listening heavily to such bands and performers as Aerosmith",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Madonna",
+      "context": "Her other influences included Madonna, Sheryl Crow, Alanis Morissette, Janis Joplin, Billie Holiday, Marc Anthony, and Van Morrison",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Sheryl Crow",
+      "context": "Her other influences included Madonna, Sheryl Crow, Alanis Morissette, Janis Joplin, Billie Holiday, Marc Anthony, and Van Morrison",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Alanis Morissette",
+      "context": "Her other influences included Madonna, Sheryl Crow, Alanis Morissette, Janis Joplin, Billie Holiday, Marc Anthony, and Van Morrison",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Janis Joplin",
+      "context": "Her other influences included Madonna, Sheryl Crow, Alanis Morissette, Janis Joplin, Billie Holiday, Marc Anthony, and Van Morrison",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Billie Holiday",
+      "context": "Her other influences included Madonna, Sheryl Crow, Alanis Morissette, Janis Joplin, Billie Holiday, Marc Anthony, and Van Morrison",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Marc Anthony",
+      "context": "Her other influences included Madonna, Sheryl Crow, Alanis Morissette, Janis Joplin, Billie Holiday, Marc Anthony, and Van Morrison",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Van Morrison",
+      "context": "Her other influences included Madonna, Sheryl Crow, Alanis Morissette, Janis Joplin, Billie Holiday, Marc Anthony, and Van Morrison",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Depeche Mode",
+      "context": "She cited Depeche Mode's 'Enjoy the Silence' as the song that made her appreciate the power of the electric guitar and 'kick started her passion for music'",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Gloria Estefan",
+      "context": "She credited Gloria Estefan for 'opening a big heavy door that was closed for many years' for Latin musicians in the U.S.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Michael Jackson",
+      "context": "To worship Michael Jackson/Bill Clinton or Tarzan",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Bizarrap",
+      "context": "[Shakira's son Milán] was the one who showed me Bizarrap's music — when you do a song with Bizarrap you go worldwide.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Tommy Mottola",
+      "context": "I barely spoke English when Tommy [Mottola] gave me that vote of confidence to release music in English with 'Whenever, Wherever.' I felt that 'Objection' was the song I had to come out with, because it was the first song I did in English. So he said no, let's go with 'Whatever, Whatever.' That's when he convinced me what his vision went.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 20,
+    "sources_checked": 6
+  }
+}

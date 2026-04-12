@@ -1,0 +1,58 @@
+{
+  "influences": [
+    {
+      "name": "Shirley \"Cha Cha\" Muldowney",
+      "context": "The album's title and cover pay homage to Shirley \"Cha Cha\" Muldowney, a pioneering drag racer who inspired Pirner in his youth. \"When I was a kid, I loved drag racing,\" he says. \"And she was the first woman of drag race. It meant a lot to me that she was willing to stand up against all these men in racing.\"",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Chris Osgood",
+      "context": "The Suicide Commandos song is unfortunately not written by Chris Osgood, but Chris Osgood is pretty much my mentor. He sort of showed me my first Ramones chords and he was my hero when I was growing up",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "MC5",
+      "context": "I love the MC5 and they mean everything to me as an influence and an inspiration",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Wayne Kramer",
+      "context": "That's why I love the MC5 and that's why I can also say that the other guys in the band are all so awesome... I try to understand how Wayne Kramer and Fred \"Sonic\" Smith sorted out a lot of stuff that other people picked up on",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Stooges",
+      "context": "I love the Stooges too",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Keith Richards",
+      "context": "Keith Richards turned me onto Robert Johnson",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Robert Johnson",
+      "context": "Keith Richards turned me onto Robert Johnson — there's a few things like that where you just go \"wow.\"",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Grave Dancer's Union album",
+      "context": "I grew up [and] I learned how to play guitar because of that album",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Rolling Stones",
+      "context": "\"Make Her Laugh\" is a laid-back, Stones-inspired jam",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Smiths",
+      "context": "the smoky guitars of \"Social Butterfly\" have the dreamy aesthetic of '80s indie-pop acts such as the Smiths",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 10,
+    "sources_checked": 6
+  }
+}

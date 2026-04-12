@@ -1,0 +1,23 @@
+{
+  "influences": [
+    {
+      "name": "Kraftwerk",
+      "context": "Hosono had been experimenting with synthesizers and electronic sounds in his solo work and was inspired by the burgeoning electronic music scene in Europe, particularly the work of Kraftwerk.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Martin Denny",
+      "context": "Hosono's fascination with the exotica genre, popularized in the 1950s and 1960s by artists like Martin Denny and Les Baxter, played a significant role in shaping YMO's sound.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Les Baxter",
+      "context": "Hosono's fascination with the exotica genre, popularized in the 1950s and 1960s by artists like Martin Denny and Les Baxter, played a significant role in shaping YMO's sound.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 3,
+    "sources_checked": 3
+  }
+}

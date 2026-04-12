@@ -1,0 +1,18 @@
+{
+  "influences": [
+    {
+      "name": "Avicii",
+      "context": "The band enlisted the help of Swedish producer Avicii, who also recorded the keyboard parts on the track.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Brian Eno",
+      "context": "Get Brian Eno's 11 commandments, used by Coldplay, Brian, Rik and co-producer Marcus Dravs while producing the legendary album \"Viva la Vida or Death and All His Friends\"",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 2,
+    "sources_checked": 5
+  }
+}

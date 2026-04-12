@@ -1,0 +1,28 @@
+{
+  "quotes": [
+    {
+      "text": "Pour savoir son metier, il faut apprendre le metier des autres.",
+      "publication": "The Musical Quarterly",
+      "date": "October 1967"
+    },
+    {
+      "text": "technical perfection. I can strive unceasingly to this end, since I am certain of never being able to attain it. The important thing is to get nearer to it all the time. Art, no doubt, has other effects, but the artist, in my opinion, should have no other aim.",
+      "publication": "The Musical Quarterly",
+      "date": "October 1967"
+    },
+    {
+      "text": "In my own work of composition I find a long period of conscious gestation, in general, necessary. During this interval, I come gradually to see, and with growing precision, the form and evolution which the subsequent work should have as a whole. I may thus be occupied for years without writing a single note of the work - after which the writing goes relatively rapidly; but there is still much time to be spent in eliminating everything that might be regarded as superfluous, in order to realize as completely as possible the longed-for final clarity. Then comes the time when new conceptions have to be formulated for further composition, but these cannot be forced artificially, for they come only of their own free will, and often originate in some very remote perception, without manifesting themselves until long years after.",
+      "publication": "The Musical Quarterly",
+      "date": "October 1967"
+    }
+  ],
+  "corpus_meta": {
+    "quote_count": 3,
+    "source_count": 1,
+    "date_range": [
+      "Octo",
+      "Octo"
+    ],
+    "corpus_valid": false
+  }
+}

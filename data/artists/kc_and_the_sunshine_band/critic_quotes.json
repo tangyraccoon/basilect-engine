@@ -1,0 +1,48 @@
+{
+  "quotes": [
+    {
+      "text": "Coming from a musical strain then known as the Miami Sound, KC and the Sunshine Band perfected its mix of boisterous rhythms, disco-floor grooves, slick funk riffs, R&B hooks, carefree choruses, and dance commands on this self-titled release.",
+      "publication": "Amazon",
+      "date": "2011"
+    },
+    {
+      "text": "Focused on nothing but fun, letting go, and channeling feel-good emotions, the group revolutionized pop music by getting even the most hardened, resistant rock purists to embrace its appeal.",
+      "publication": "Amazon",
+      "date": "2011"
+    },
+    {
+      "text": "KC and the Sunshine Band, led by Harry Wayne Casey, brought a bit of male bravado to the predominantly diva-led disco scene. KC and company incorporated a Caribbean feel to their music, with swelling--and staccato--horn parts and multilayered vocals.",
+      "publication": "Amazon",
+      "date": ""
+    },
+    {
+      "text": "The repetition of the choruses of \"Shake Your Booty\" and \"That's the Way (I Like It)\" had every gold-chain wearing male on the dance floor singing along.",
+      "publication": "Amazon",
+      "date": ""
+    },
+    {
+      "text": "\"Sound Your Funky Horn,\" a minor hit earlier in the band's career, has more of an island feel to it.",
+      "publication": "Amazon",
+      "date": ""
+    },
+    {
+      "text": "The Best of KC and the Sunshine Band provides a fairly broad sampling of the Sunshine Band's music, including \"Keep It Comin' Love,\" \"I'm Your Boogie Man,\" and the tropical funk of \"Boogie Shoes.\"",
+      "publication": "Amazon",
+      "date": ""
+    },
+    {
+      "text": "KC and the Sunshine Band walked the line between funk and disco on a string of dance-ready, horn-laced hits in the late 1970s.",
+      "publication": "Music.Apple",
+      "date": ""
+    }
+  ],
+  "corpus_meta": {
+    "quote_count": 7,
+    "source_count": 2,
+    "date_range": [
+      "2011",
+      "2011"
+    ],
+    "corpus_valid": true
+  }
+}

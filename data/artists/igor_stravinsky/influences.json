@@ -1,0 +1,23 @@
+{
+  "influences": [
+    {
+      "name": "Jacques Maritain",
+      "context": "In pursuing this path, Stravinsky was influenced substantially by Jacques Maritain (1882-1973), the Thomist philosopher who led a Catholic intellectual revival in France between the World Wars.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "G.K. Chesterton",
+      "context": "He speaks to the importance of tradition and the illusory nature of the \"revolutionary\" as applied to music; to amplify this, Stravinsky quotes G.K. Chesterton's paradox about revolution implying a return to its point of origin.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Arnold Schoenberg",
+      "context": "Stravinsky's final religious compositions date from his \"serial period,\" when he had begun to compose according to the ultra-modern twelve-tone method of Arnold Schoenberg.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 3,
+    "sources_checked": 6
+  }
+}

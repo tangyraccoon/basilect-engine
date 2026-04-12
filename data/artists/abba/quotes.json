@@ -1,0 +1,23 @@
+{
+  "quotes": [
+    {
+      "text": "It is important to have fun while making music, because it makes you dare to do crazy things and that reflects into the music. It makes the music more interesting to listen to.",
+      "publication": "Carlmagnuspalm",
+      "date": "November 23, 2023"
+    },
+    {
+      "text": "There's a lot of junk on them, but it's pretty fun to have them, because you can hear us talking and laughing. The interesting thing, when you listen, is that it seems like we had a lot of fun all the time, the girls as well; like it was all pleasurable.",
+      "publication": "Carlmagnuspalm",
+      "date": "November 23, 2023"
+    }
+  ],
+  "corpus_meta": {
+    "quote_count": 2,
+    "source_count": 1,
+    "date_range": [
+      "Nove",
+      "Nove"
+    ],
+    "corpus_valid": false
+  }
+}

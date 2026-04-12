@@ -1,0 +1,63 @@
+{
+  "influences": [
+    {
+      "name": "Celine Dion",
+      "context": "I think Celine has an amazing voice but some of it is a bit straight for me. At the end of the day, though, she is French Canadian and when she sings in French she has a killer voice.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Jean-Jacques Goldman",
+      "context": "I like everything from Jean-Jacques Goldman to Charlotte Gainsbourg.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Charlotte Gainsbourg",
+      "context": "I like everything from Jean-Jacques Goldman to Charlotte Gainsbourg.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Velvet Underground",
+      "context": "It wasn't a boyfriend who introduced Carlisle to the Velvet Underground and the New York Dolls—it was a girl she befriended in a high-school art class.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "New York Dolls",
+      "context": "It wasn't a boyfriend who introduced Carlisle to the Velvet Underground and the New York Dolls—it was a girl she befriended in a high-school art class.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Beach Boys",
+      "context": "Carlisle would wile away the hours listening to records by the Beach Boys, the Animals, and Cat Stevens",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "the Animals",
+      "context": "Carlisle would wile away the hours listening to records by the Beach Boys, the Animals, and Cat Stevens",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Cat Stevens",
+      "context": "Carlisle would wile away the hours listening to records by the Beach Boys, the Animals, and Cat Stevens",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Lorna Doom",
+      "context": "she'd met in high school...thanks in part to a few nudges from Lorna Doom, bassist for foundational punk band the Germs, who she'd met in high school",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Rick Nowels",
+      "context": "I was really lucky to work with [Producer] Rick Nowels on Heaven On Earth, because I was kind of like his muse and he took me under his wing",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Stevie Nicks",
+      "context": "Carlisle injects an emotive vocal that evokes qualities of Stevie Nicks — perhaps not a coincidence since Nicks was thanked in the liner notes and Nowels previously collaborated with the Fleetwood Mac frontwoman.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 11,
+    "sources_checked": 5
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "influences": [
+    {
+      "name": "British new wave music",
+      "context": "I ended up hearing a lot of early new wave music overseas. I listened to a lot of British, German and American music, but the British and German stuff I probably wouldn't have been exposed to if I was living in the states.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "German music",
+      "context": "I ended up hearing a lot of early new wave music overseas. I listened to a lot of British, German and American music, but the British and German stuff I probably wouldn't have been exposed to if I was living in the states.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Flaming Lips",
+      "context": "Two of my all time favorites included, The Flaming Lips and Psychedelic Furs",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Psychedelic Furs",
+      "context": "Two of my all time favorites included, The Flaming Lips and Psychedelic Furs",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 4,
+    "sources_checked": 3
+  }
+}

@@ -1,0 +1,98 @@
+{
+  "tags": [
+    {
+      "tag": "vocal_focused",
+      "category": "approach",
+      "weight": 1.0,
+      "raw_score": 12
+    },
+    {
+      "tag": "collaborative",
+      "category": "philosophy",
+      "weight": 0.917,
+      "raw_score": 11
+    },
+    {
+      "tag": "narrative",
+      "category": "philosophy",
+      "weight": 0.583,
+      "raw_score": 7
+    },
+    {
+      "tag": "collaborative_production",
+      "category": "approach",
+      "weight": 0.5,
+      "raw_score": 6
+    },
+    {
+      "tag": "autobiographical",
+      "category": "philosophy",
+      "weight": 0.417,
+      "raw_score": 5
+    },
+    {
+      "tag": "emotional",
+      "category": "philosophy",
+      "weight": 0.417,
+      "raw_score": 5
+    },
+    {
+      "tag": "hybrid",
+      "category": "philosophy",
+      "weight": 0.417,
+      "raw_score": 5
+    },
+    {
+      "tag": "intellectual",
+      "category": "philosophy",
+      "weight": 0.25,
+      "raw_score": 3
+    },
+    {
+      "tag": "introspective",
+      "category": "philosophy",
+      "weight": 0.25,
+      "raw_score": 3
+    },
+    {
+      "tag": "orchestration",
+      "category": "process",
+      "weight": 0.25,
+      "raw_score": 3
+    },
+    {
+      "tag": "conceptual",
+      "category": "philosophy",
+      "weight": 0.167,
+      "raw_score": 2
+    },
+    {
+      "tag": "reinterpretation",
+      "category": "process",
+      "weight": 0.167,
+      "raw_score": 2
+    },
+    {
+      "tag": "theatrical",
+      "category": "approach",
+      "weight": 0.167,
+      "raw_score": 2
+    },
+    {
+      "tag": "experimental",
+      "category": "philosophy",
+      "weight": 0.167,
+      "raw_score": 2
+    },
+    {
+      "tag": "diy",
+      "category": "philosophy",
+      "weight": 0.167,
+      "raw_score": 2
+    }
+  ],
+  "meta": {
+    "count": 15,
+    "sources_checked": 7
+  }
+}

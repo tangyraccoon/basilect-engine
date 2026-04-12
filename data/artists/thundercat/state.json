@@ -1,0 +1,49 @@
+{
+  "artist_id": "thundercat",
+  "artist_name": "Thundercat",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-11T19:46:20.658684+00:00",
+      "result": "7 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-11T19:46:22.556798+00:00",
+      "result": "7/7 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T19:48:02.022889+00:00",
+      "result": "62 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-11T19:48:06.789146+00:00",
+      "result": "13 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-11T19:48:10.012552+00:00",
+      "result": "6/13 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T19:48:45.650497+00:00",
+      "result": "54 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T19:49:04.202865+00:00",
+      "result": "20 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T19:49:35.206868+00:00",
+      "result": "36 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-11T19:49:35.206992+00:00"
+}

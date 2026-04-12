@@ -1,0 +1,58 @@
+{
+  "influences": [
+    {
+      "name": "James Brown",
+      "context": "instead of starting an Oasis covers band, me and my bro started a James Brown covers band",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Incubus",
+      "context": "me and my bro started a James Brown covers band, whilst throwing in a few Incubus songs",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Fela Kuti",
+      "context": "My dad used to blast Fela Kuti and Cab Callaway in the car at the weekends",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Cab Callaway",
+      "context": "My dad used to blast Fela Kuti and Cab Callaway in the car at the weekends",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Simple Minds",
+      "context": "Mum would play us her favourite bands like Simple Minds and UB40",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "UB40",
+      "context": "Mum would play us her favourite bands like Simple Minds and UB40",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Simply Red",
+      "context": "I remember hearing Fairground by Simply Red on the radio whilst driving to basketball practice and just falling in love with that sound. And Simply Red is STILL my favourite band",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Neil Diamond",
+      "context": "\"Red Red Wine,\" originally a Neil Diamond song, was released in 1983",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Chrissie Hynde",
+      "context": "Notable collaborations include their cover of \"I Got You Babe\" with Chrissie Hynde of The Pretenders",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Robert Palmer",
+      "context": "their collaboration with Robert Palmer on the song \"I'll Be Your Baby Tonight\"",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 10,
+    "sources_checked": 5
+  }
+}

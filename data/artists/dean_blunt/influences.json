@@ -1,0 +1,68 @@
+{
+  "influences": [
+    {
+      "name": "Gil Scott-Heron",
+      "context": "evoking a similar sense of desolation and melancholy as the late Gil Scott-Heron's New York is Killing Me",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "David Lynch",
+      "context": "Blunt himself says in admiration of David Lynch's refusal to explain his surreal oeuvre, 'it's like that complete freedom to watch something and take it in and be given the privilege to completely make up what you want from it.'",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Sade",
+      "context": "his parents introduced him to music through artists like Sade and Steely Dan",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Steely Dan",
+      "context": "his parents introduced him to music through artists like Sade and Steely Dan",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "DMX",
+      "context": "Influenced by MTV's portrayal of American hip-hop bling, he emulated figures like DMX, forming crews and adopting a swagger-filled style that mirrored the era's global youth trends",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Quasimoto",
+      "context": "high-pitched flows reminiscent of Quasimoto, creating a raw, politically charged narrative that satirizes British street life while echoing broader diaspora influences",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Julee Cruise",
+      "context": "striking a resemblance to Twin Peaks soundtrack due to Blunt sampling some of the instrumentals from the soundtrack composers, Julee Cruise's, song \"I Float Alone\"",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Pastels",
+      "context": "Blunt, being the sampling genius that he is, sampled from the song \"Over My Shoulder\" off of The Pastels 1993 album Truckload of Trouble",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Kate Bush",
+      "context": "Whether it be from sampling artists such as Kate Bush or small 90s indie bands to collaborating with pop artists and rappers",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Big Star",
+      "context": "The opener, \"LUSH,\" features an upbeat sample loop of Big Star's \"For You,\" coated by Blunt's very singular baritone",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Oneohtrix Point Never",
+      "context": "loaded with everything from Oneohtrix Point Never-esque field recording samples",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Animal Collective",
+      "context": "pattering drums and bass hits you'd find on an older Animal Collective record",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 12,
+    "sources_checked": 5
+  }
+}

@@ -1,0 +1,138 @@
+{
+  "influences": [
+    {
+      "name": "William Basinski",
+      "context": "I can't think of a more influential figure than Billy when it comes to unifying repetition and emotion. His work is heartbreaking and elevating at the same time.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Pink Floyd",
+      "context": "In my high school years it was all about Pink Floyd and Talking Heads",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Talking Heads",
+      "context": "In my high school years it was all about Pink Floyd and Talking Heads",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Kraftwerk",
+      "context": "in my college years I really latched on to Kraftwerk, the David Byrne / Brian Eno stuff, Killing Joke, Joy Division, Cabaret Voltaire, and stuff like that",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "David Byrne",
+      "context": "in my college years I really latched on to Kraftwerk, the David Byrne / Brian Eno stuff, Killing Joke, Joy Division, Cabaret Voltaire, and stuff like that",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Brian Eno",
+      "context": "in my college years I really latched on to Kraftwerk, the David Byrne / Brian Eno stuff, Killing Joke, Joy Division, Cabaret Voltaire, and stuff like that",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Killing Joke",
+      "context": "in my college years I really latched on to Kraftwerk, the David Byrne / Brian Eno stuff, Killing Joke, Joy Division, Cabaret Voltaire, and stuff like that",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Joy Division",
+      "context": "in my college years I really latched on to Kraftwerk, the David Byrne / Brian Eno stuff, Killing Joke, Joy Division, Cabaret Voltaire, and stuff like that",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Cabaret Voltaire",
+      "context": "in my college years I really latched on to Kraftwerk, the David Byrne / Brian Eno stuff, Killing Joke, Joy Division, Cabaret Voltaire, and stuff like that",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Ligeti",
+      "context": "It was the Ligeti, Bartok, and Penderecki music in Kubrick's The Shining and 2001:A Space Odyssey that sparked my interest in film music in high school",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Bartok",
+      "context": "It was the Ligeti, Bartok, and Penderecki music in Kubrick's The Shining and 2001:A Space Odyssey that sparked my interest in film music in high school",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Penderecki",
+      "context": "It was the Ligeti, Bartok, and Penderecki music in Kubrick's The Shining and 2001:A Space Odyssey that sparked my interest in film music in high school",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Bernard Hermann",
+      "context": "I'd say Bernard Hermann and Jerry Goldsmith are two of my favorite mainstream film composers",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Jerry Goldsmith",
+      "context": "I'd say Bernard Hermann and Jerry Goldsmith are two of my favorite mainstream film composers",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Cliff Martinez",
+      "context": "Lately I seem to prefer scores that are a little more minimalist and atmospheric rather than thematic, like Cliff Martinez's work",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Johan Johansson",
+      "context": "I really loved Johan Johansson's scores to Prisoners and Sicario",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Hildur",
+      "context": "Hildur's scores for Chernobyl and Joker are favorites of mine as well",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Harry Gregson-Williams",
+      "context": "I'd love a VI that could do the kind of filtered pulses you hear all over Harry Gregson-Williams' scores",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "David Bowie",
+      "context": "What really made me think about this was discovering a few records I hadn't really listened to, like: Bowie's Low album, or _Hunky Dory_",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Iggy Pop",
+      "context": "What really made me think about this was discovering a few records I hadn't really listened to, like: Bowie's Low album, or _Hunky Dory_, Iggy Pop stuff I had missed.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Joe Jackson",
+      "context": "I remember hearing a commercial and I thought, 'Joe Jackson, I thought he was cool, and now he's done a fuckin' commercial for something shitty.'",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Tangerine Dream",
+      "context": "this collection of pitch-black ambience has more in common with Tangerine Dream and Brian Eno than it does Ministry or Killing Joke",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Depeche Mode",
+      "context": "the arse-shaking perversion of Sin and Sanctified's naughtiness are reminiscent of Depeche Mode and the darker, more twisted edge of the genre",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Skinny Puppy",
+      "context": "The bouncy, twitching electronics, hulking beats and mostly scant guitars are obvious nods to industrial pioneers Skinny Puppy, with Down In It being, by Reznor's own admission, 'a total rip-off of Dig It by Skinny Puppy.'",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Front Line Assembly",
+      "context": "The Big Come Down starts like Front Line Assembly covering Mr. Bungle",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Mr. Bungle",
+      "context": "The Big Come Down starts like Front Line Assembly covering Mr. Bungle",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 26,
+    "sources_checked": 4
+  }
+}

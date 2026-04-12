@@ -1,0 +1,23 @@
+{
+  "influences": [
+    {
+      "name": "Greg Leisz",
+      "context": "It's featured heavily on SABLE, and Vernon's longtime collaborator Greg Leisz brings the magic here. Leisz is a legend in his own right, and their musical chemistry is undeniable.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Bruce Springsteen",
+      "context": "Vernon acknowledges Springsteen's Nebraska and Dylan's Basement Tapes, both albums being written, performed and produced by the artist in question, as being (Avclub.com 2008) '…. huge influences on me. It's important that I make the records. I engineer them, I mix them'.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Bob Dylan",
+      "context": "Vernon acknowledges Springsteen's Nebraska and Dylan's Basement Tapes, both albums being written, performed and produced by the artist in question, as being (Avclub.com 2008) '…. huge influences on me. It's important that I make the records. I engineer them, I mix them'.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 3,
+    "sources_checked": 6
+  }
+}

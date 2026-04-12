@@ -1,0 +1,23 @@
+{
+  "influences": [
+    {
+      "name": "Ray Charles",
+      "context": "a year earlier, Stevie's debut album had been A Tribute to Uncle Ray, a collection of Charles covers which made little impact on the public consciousness, but which did enable the child prodigy to meet his hero",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Robert Margouleff and Malcolm Cecil",
+      "context": "The crucial next step in Wonder's musical development came at around the same time, when his always curious ears encountered Zero Time, an entirely electronic album made by two studio engineers, Robert Margouleff and Malcolm Cecil. Intrigued by the manner in which their layered, symphonic pop pieces belied the synthesizer's early reputation as a cold, inhuman machine, Stevie sought the duo out, recording two albums, Where I'm Coming From and the seminal Music of My Mind",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Smokey Robinson",
+      "context": "Stevie also reminisced about meeting Motown legend Smokey Robinson, and, aged just 11, boldly telling him: 'You can sing bad, you can sing good, but I can sing better.'",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 3,
+    "sources_checked": 5
+  }
+}

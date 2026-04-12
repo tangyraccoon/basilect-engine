@@ -1,0 +1,83 @@
+{
+  "influences": [
+    {
+      "name": "Ilse Bing",
+      "context": "What stands out from her mentorship with Ilse Bing",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Herbie Hancock",
+      "context": "Early on, I did a promotional tour for Sennheiser with Herbie Hancock. For part of the tour, we came out to the West Coast, and I was in Herbie's studio. My use of the vocoder was for gracing my tracks with a feminine aura. He was using it to produce an album [Sunlight] singing!",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Harald Bode",
+      "context": "I wanted just the vocal breath component, so Harald Bode did a mod for me on my Bode Vocoder that was brilliant.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Leslie Mona-Mathus",
+      "context": "I found this woman, Leslie Mona-Mathus, and she is an engineer. She comes at it for what it is. She's not invested in some protocol of rock music or whatever. She grew up with a deaf brother, and her listening was primal. It was a match made in heaven. When she started working on the mix it had a completely different energy from what the rock guy was doing, and she became my engineer.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Don Buchla",
+      "context": "But until somebody gets the control of randomness that Don has, the control of space that he has, the multiple arbitrary function generator that allows you to do tiered control of data, I'm sticking with the Buchla until everybody else catches up!",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Nadia Boulanger",
+      "context": "Philip studied with Nadia Boulanger, I studied with her and I think Steve was going to.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Philip Glass",
+      "context": "And the rebellion was, 'Wait a minute! We don't have to keep on getting more and more complicated, showing off more and more about how difficult our music is.' I came to this decision via the Buchla and my experiences in electronic music... Philip did patterns that were eight notes that went on and repeated... Both were wonderful composers.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Steve Reich",
+      "context": "And the rebellion was, 'Wait a minute! We don't have to keep on getting more and more complicated, showing off more and more about how difficult our music is.' I came to this decision via the Buchla and my experiences in electronic music... Steve was perhaps a little bit more romantic and less abstract. Both were wonderful composers.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Vladimir Ussachevsky",
+      "context": "I can remember doing an evening at the loft of Phil Niblock and Vladimir Ussachevsky [early electronic musician]. I did evenings and people like Philip Glass, Dickie Landry and Steve Reich would be there. And Vladimir wrote a recommendation for me to get a grant.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "John Chowning",
+      "context": "She studied computer generated music with John Chowning and Max Mathews at Stanford University's Artificial Intelligence Labs",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Max Mathews",
+      "context": "She studied computer generated music with John Chowning and Max Mathews at Stanford University's Artificial Intelligence Labs",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Grieg",
+      "context": "As a child I listened to records my Mother bought at a fire sale—Grieg, Rachmaninoff, Chopin",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Rachmaninoff",
+      "context": "As a child I listened to records my Mother bought at a fire sale—Grieg, Rachmaninoff, Chopin",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Chopin",
+      "context": "As a child I listened to records my Mother bought at a fire sale—Grieg, Rachmaninoff, Chopin",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Glenn Gould",
+      "context": "As a spectator, it was watching Glenn Gould play at Symphony Hall in Boston",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 15,
+    "sources_checked": 5
+  }
+}

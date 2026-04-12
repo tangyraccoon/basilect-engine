@@ -1,0 +1,97 @@
+{
+  "timestamp": "2026-04-11T13:13:04.862052",
+  "test": "mini_batch_e2e",
+  "artists_tested": 20,
+  "checks": {
+    "state_files": {
+      "pass": true,
+      "detail": {
+        "valid": 20,
+        "invalid": 0,
+        "missing": 0,
+        "issues": []
+      }
+    },
+    "corpus_validity": {
+      "pass": true,
+      "detail": {
+        "total": 20,
+        "quote_valid": 6,
+        "critic_valid": 13,
+        "any_valid": 16,
+        "none_valid": 4,
+        "validity_rate": 0.8
+      }
+    },
+    "new_signals": {
+      "pass": true,
+      "detail": {
+        "influences_extracted": 225,
+        "tags_extracted": 854,
+        "artists_with_influences": 19,
+        "artists_with_tags": 20,
+        "sample_influences": [
+          "radiohead <- David Bowie",
+          "radiohead <- Jorge Luis Borges",
+          "bjork <- Gustav Holst",
+          "brian_eno <- John Cage",
+          "brian_eno <- La Monte Young"
+        ],
+        "sample_tags": [
+          "radiohead: experimental (philosophy)",
+          "radiohead: studio_as_instrument (approach)",
+          "bjork: experimental (philosophy)",
+          "bjork: conceptual (philosophy)",
+          "brian_eno: experimental (philosophy)",
+          "brian_eno: studio_as_instrument (approach)"
+        ]
+      }
+    },
+    "progress_file": {
+      "pass": true,
+      "detail": {
+        "exists": true,
+        "valid": true,
+        "issues": [],
+        "completed": 20,
+        "failed": 0
+      }
+    }
+  },
+  "batch_progress": {
+    "started": "2026-04-11T19:07:49.546485+00:00",
+    "total_artists": 20,
+    "queued": 20,
+    "skipped_complete": 0,
+    "completed": 20,
+    "failed": 0,
+    "in_progress": "Mac DeMarco",
+    "current_step": "tag_extract",
+    "estimated_cost": 2.496,
+    "artist_times": [
+      425.0,
+      174.5,
+      231.3,
+      237.6,
+      109.6,
+      115.3,
+      93.6,
+      114.6,
+      120.4,
+      168.1,
+      254.9,
+      246.0,
+      197.1,
+      202.2,
+      211.9,
+      194.2,
+      200.3,
+      280.6,
+      149.1,
+      160.2
+    ],
+    "last_updated": "2026-04-11T20:13:04.850853+00:00",
+    "finished": "2026-04-11T20:13:04.850813+00:00"
+  },
+  "overall_pass": true
+}

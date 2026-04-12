@@ -1,0 +1,118 @@
+{
+  "influences": [
+    {
+      "name": "Talk Talk",
+      "context": "Were you influenced by the work of Talk Talk's Lee Harris for Stop Swimming? Not at all – but I do love Talk Talk's music.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Opeth",
+      "context": "opening metal riffs that could have been written by the Swedish prog metal band Opeth (with whom Wilson was working around this time)",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "George Harrison",
+      "context": "there's some lovely George Harrison-like guitar later in the song",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Pink Floyd",
+      "context": "The surround sound mix turns the track into more of an epic, a climax like Eclipse, the closing track of Pink Floyd's The Dark Side Of The Moon",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "John Adams",
+      "context": "The American composer John Adams is a big influence on me. He has a piece titled \"Harmonielehre\" that starts with the whole orchestra playing these big grand power chords stabbing away.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Meshuggah",
+      "context": "One thing I've always wanted is a baritone because there's a Swedish band called Meshuggah, and I love how they play their guitars tuned way down, with the top strings taped up.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Robert Fripp",
+      "context": "It's based on the Robert Fripp approach—play the notes with conviction, but don't think too hard about what you're playing.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Alex Lifeson",
+      "context": "The others are mainly the major prog-rock guitarists, including Alex Lifeson and David Gilmour.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "David Gilmour",
+      "context": "The others are mainly the major prog-rock guitarists, including Alex Lifeson and David Gilmour.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Tangerine Dream",
+      "context": "The album I fell in love with as a kid was Tangerine Dream's Zeit. I consider it the original ambient record.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Frank Zappa",
+      "context": "he and Jakszyk made as Frank Zappa parodists The Kings Of Oblivion",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "XTC",
+      "context": "This project was conceived as a joke, in the vein of XTC's Dukes Of Stratosphear",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Bret Easton Ellis",
+      "context": "Fear Of A Blank Planet, inspired by Bret Easton Ellis's Lunar Park",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "ABBA",
+      "context": "We both like ABBA and Aphex Twin",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Aphex Twin",
+      "context": "We both like ABBA and Aphex Twin",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Roxy Music",
+      "context": "Raised in a half-Italian, working-class household in Catford, Barbieri inhaled a hot mix that ranged from Roxy Music and David Bowie to Uriah Heep and Black Sabbath",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "David Bowie",
+      "context": "Raised in a half-Italian, working-class household in Catford, Barbieri inhaled a hot mix that ranged from Roxy Music and David Bowie to Uriah Heep and Black Sabbath",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Uriah Heep",
+      "context": "Raised in a half-Italian, working-class household in Catford, Barbieri inhaled a hot mix that ranged from Roxy Music and David Bowie to Uriah Heep and Black Sabbath",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Black Sabbath",
+      "context": "Raised in a half-Italian, working-class household in Catford, Barbieri inhaled a hot mix that ranged from Roxy Music and David Bowie to Uriah Heep and Black Sabbath",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Television",
+      "context": "Bands like Television, Talking Heads, Patti Smith, they were singing about interesting stuff",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Talking Heads",
+      "context": "Bands like Television, Talking Heads, Patti Smith, they were singing about interesting stuff",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Patti Smith",
+      "context": "Bands like Television, Talking Heads, Patti Smith, they were singing about interesting stuff",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 22,
+    "sources_checked": 6
+  }
+}

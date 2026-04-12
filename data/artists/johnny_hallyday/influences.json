@@ -1,0 +1,23 @@
+{
+  "influences": [
+    {
+      "name": "Elvis Presley",
+      "context": "After first seeing Elvis Presley, Hallyday decided he wanted to be a rock singer",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Chubby Checker",
+      "context": "made a name for himself in the early 1960s with French-language covers of early rock hits, including Chubby Checker's \"Let's Twist Again\"",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Jerry Lee Lewis",
+      "context": "made a name for himself in the early 1960s with French-language covers of early rock hits, including Jerry Lee Lewis' \"Whole Lotta Shakin' Going On\"",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 3,
+    "sources_checked": 1
+  }
+}

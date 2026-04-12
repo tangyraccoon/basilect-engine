@@ -1,0 +1,48 @@
+{
+  "influences": [
+    {
+      "name": "The Cure",
+      "context": "I think around the time the band started, it would have been stuff like The Cure, The Smiths, Joy Division, New Order, Depeche Mode, and Pink Floyd. That kind of stuff. I think those were the ones that we all locked on to a lot.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Smiths",
+      "context": "I think around the time the band started, it would have been stuff like The Cure, The Smiths, Joy Division, New Order, Depeche Mode, and Pink Floyd. That kind of stuff. I think those were the ones that we all locked on to a lot.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Joy Division",
+      "context": "I think around the time the band started, it would have been stuff like The Cure, The Smiths, Joy Division, New Order, Depeche Mode, and Pink Floyd. That kind of stuff. I think those were the ones that we all locked on to a lot.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "New Order",
+      "context": "I think around the time the band started, it would have been stuff like The Cure, The Smiths, Joy Division, New Order, Depeche Mode, and Pink Floyd. That kind of stuff. I think those were the ones that we all locked on to a lot.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Depeche Mode",
+      "context": "I think around the time the band started, it would have been stuff like The Cure, The Smiths, Joy Division, New Order, Depeche Mode, and Pink Floyd. That kind of stuff. I think those were the ones that we all locked on to a lot.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Pink Floyd",
+      "context": "I think around the time the band started, it would have been stuff like The Cure, The Smiths, Joy Division, New Order, Depeche Mode, and Pink Floyd. That kind of stuff. I think those were the ones that we all locked on to a lot.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "David Lynch",
+      "context": "David Lynch movies were really popular at that time, so we'd have been big fans of that and early Coen Brothers stuff.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Coen Brothers",
+      "context": "David Lynch movies were really popular at that time, so we'd have been big fans of that and early Coen Brothers stuff.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 8,
+    "sources_checked": 4
+  }
+}

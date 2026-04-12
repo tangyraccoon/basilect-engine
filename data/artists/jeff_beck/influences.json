@@ -1,0 +1,18 @@
+{
+  "influences": [
+    {
+      "name": "Jimi Hendrix",
+      "context": "I can't help it; Jimi is forever in my blood.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Buddy Guy",
+      "context": "This summer, Beck will co-headline a U.S. tour with one of his heroes, the legendary Chicago bluesman Buddy Guy.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 2,
+    "sources_checked": 2
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "quotes": [
+    {
+      "text": "\"I Will Survive\" is one hell of a song -- a sweeping disco thump with a righteous vocal performance, a supercharged and stripped-down arrangement, and a sense of stakes and pathos and drama.",
+      "publication": "",
+      "date": "March 10, 1979"
+    },
+    {
+      "text": "It's a wordy song about a specific situation, and yet it's also one of those forceful, anthemic belters that anyone can adapt to fit their own lives, whether human or angry bird.",
+      "publication": "",
+      "date": "March 10, 1979"
+    }
+  ],
+  "corpus_meta": {
+    "quote_count": 2,
+    "source_count": 0,
+    "date_range": [
+      "Marc",
+      "Marc"
+    ],
+    "corpus_valid": false
+  }
+}

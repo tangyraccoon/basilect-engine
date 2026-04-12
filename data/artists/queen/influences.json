@@ -1,0 +1,48 @@
+{
+  "influences": [
+    {
+      "name": "Lady Gaga",
+      "context": "the first concert I ever bought tickets to go and see with my friends was a Lady Gaga show in Cape Town. It was her Monster Ball world tour, and it was electrifying.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Taylor Swift",
+      "context": "I mean, in a delusional way, I would say Taylor Swift, because I saw her doing it when I was 14 and immediately thought 'I can do this'",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Stevie Wonder",
+      "context": "'Isn't She Lovely' by Stevie Wonder. I used to dance around my childhood living room with my family while that song played in the background, so it's very nostalgic.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Courtney Love",
+      "context": "her upcoming album is influenced by a mixtape playlist the veteran Hole singer made her",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Smashing Pumpkins",
+      "context": "Courtney Love made me a playlist of 90s rock with The Smashing Pumpkins, Nine Inch Nails, Radiohead, Nirvana. That was what I was listening to. Because I missed that the first time around",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Nine Inch Nails",
+      "context": "Courtney Love made me a playlist of 90s rock with The Smashing Pumpkins, Nine Inch Nails, Radiohead, Nirvana. That was what I was listening to.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Radiohead",
+      "context": "Courtney Love made me a playlist of 90s rock with The Smashing Pumpkins, Nine Inch Nails, Radiohead, Nirvana. That was what I was listening to. Because I missed that the first time around – I didn't go through the experience. My parents listen to soul and funk. So I've only just discovered Radiohead.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Nirvana",
+      "context": "Courtney Love made me a playlist of 90s rock with The Smashing Pumpkins, Nine Inch Nails, Radiohead, Nirvana. That was what I was listening to.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 8,
+    "sources_checked": 2
+  }
+}

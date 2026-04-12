@@ -1,0 +1,23 @@
+{
+  "influences": [
+    {
+      "name": "Greg Ginn",
+      "context": "a man whose band were once signed to Black Flag guitarist Greg Ginn's avowedly do-it-your-fucking-self label SST",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Michael Beinhorn",
+      "context": "To me, Beinhorn was an innovator. He totally thought outside of the box.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Herbie Hancock",
+      "context": "Michael Beinhorn began his musical life as a musician in the 1970s. As a producer he made his bow with the great jazz pianist Herbie Hancock",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 3,
+    "sources_checked": 4
+  }
+}

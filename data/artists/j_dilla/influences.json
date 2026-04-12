@@ -1,0 +1,33 @@
+{
+  "influences": [
+    {
+      "name": "Pete Rock",
+      "context": "From Detroit's finest underground rap producer, inspired by the likes of Pete Rock and Diamond D",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Diamond D",
+      "context": "From Detroit's finest underground rap producer, inspired by the likes of Pete Rock and Diamond D",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Joseph (Amp) Fiddler",
+      "context": "He apprenticed with Joseph (Amp) Fiddler, a legendary local funk musician who inspired him to master the art of sampling.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "East Coast hip-hop (nineteen-nineties)",
+      "context": "While Yancey was influenced by the resounding symmetry of nineteen-nineties East Coast hip-hop, everything he produced sounded a little off.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Q-Tip",
+      "context": "But in the mid-nineties, at the behest of Fiddler, the m.c. Q-Tip, of A Tribe Called Quest, became a mentor to Yancey.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 5,
+    "sources_checked": 4
+  }
+}

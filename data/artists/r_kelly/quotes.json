@@ -1,0 +1,28 @@
+{
+  "quotes": [
+    {
+      "text": "Singing is a beautiful disease that's uncurable",
+      "publication": "Inmate Tea with A&P",
+      "date": "March 2"
+    },
+    {
+      "text": "I'm always singing, I'm always writing. I've written like 25 albums since I've been in here.",
+      "publication": "Inmate Tea with A&P",
+      "date": "March 2"
+    },
+    {
+      "text": "I'm working on getting out. I'm using patience as a tactic.",
+      "publication": "Inmate Tea with A&P",
+      "date": "March 2"
+    }
+  ],
+  "corpus_meta": {
+    "quote_count": 3,
+    "source_count": 1,
+    "date_range": [
+      "Marc",
+      "Marc"
+    ],
+    "corpus_valid": false
+  }
+}

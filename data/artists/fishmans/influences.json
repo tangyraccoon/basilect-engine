@@ -1,0 +1,63 @@
+{
+  "influences": [
+    {
+      "name": "Jimi Hendrix",
+      "context": "I liked Jimi Hendrix and The Who, and I was a type of a man who was fascinated by the video of a drummer destroying the drums",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Who",
+      "context": "I liked Jimi Hendrix and The Who, and I was a type of a man who was fascinated by the video of a drummer destroying the drums",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Jam",
+      "context": "At first, he was singing while playing the bass, and our sound was more like punk rock that can be compared to The Jam",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Arrested Development",
+      "context": "Absorbing the influence of dub and sample-based music—Motegi namechecks acts including Arrested Development, Beck, Massive Attack and TLC",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Beck",
+      "context": "Absorbing the influence of dub and sample-based music—Motegi namechecks acts including Arrested Development, Beck, Massive Attack and TLC",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Massive Attack",
+      "context": "Absorbing the influence of dub and sample-based music—Motegi namechecks acts including Arrested Development, Beck, Massive Attack and TLC",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "TLC",
+      "context": "Absorbing the influence of dub and sample-based music—Motegi namechecks acts including Arrested Development, Beck, Massive Attack and TLC",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "George Martin",
+      "context": "Fishmans benefitted from a long working relationship with recording engineer Kazuyuki \"Zak\" Matsumura, whose influence Motegi compares to that of producer George Martin on the Beatles.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Kazuyuki \"Zak\" Matsumura",
+      "context": "He showed us how to strip things back, and reduce our music to the bare essentials. I feel like Zak taught us a lot about how to generate a sense of tension.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "AC/DC",
+      "context": "Out of nowhere, he volunteers that AC/DC's Back in Black was probably similar.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Kiyoshiro Imawano",
+      "context": "The band periodically reconvenes for festival dates and the occasional headlining show, revisiting its old material for the benefit of longstanding fans and newer listeners who missed out first time around. This marked the beginning of the second phase of Fishmans' career, with a rotating cast of guest vocalists including Sato's old hero, Kiyoshiro Imawano.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 11,
+    "sources_checked": 2
+  }
+}

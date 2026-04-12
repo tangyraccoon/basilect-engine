@@ -1,0 +1,236 @@
+{
+  "tags": [
+    {
+      "tag": "collaborative_production",
+      "category": "approach",
+      "weight": 1.0,
+      "raw_score": 32
+    },
+    {
+      "tag": "narrative",
+      "category": "philosophy",
+      "weight": 0.969,
+      "raw_score": 31
+    },
+    {
+      "tag": "autobiographical",
+      "category": "philosophy",
+      "weight": 0.969,
+      "raw_score": 31
+    },
+    {
+      "tag": "confrontational",
+      "category": "philosophy",
+      "weight": 0.969,
+      "raw_score": 31
+    },
+    {
+      "tag": "vocal_focused",
+      "category": "approach",
+      "weight": 0.688,
+      "raw_score": 22
+    },
+    {
+      "tag": "commercial",
+      "category": "philosophy",
+      "weight": 0.438,
+      "raw_score": 14
+    },
+    {
+      "tag": "short_form",
+      "category": "approach",
+      "weight": 0.219,
+      "raw_score": 7
+    },
+    {
+      "tag": "vocal_processing",
+      "category": "process",
+      "weight": 0.219,
+      "raw_score": 7
+    },
+    {
+      "tag": "hi_fi",
+      "category": "approach",
+      "weight": 0.219,
+      "raw_score": 7
+    },
+    {
+      "tag": "intellectual",
+      "category": "philosophy",
+      "weight": 0.188,
+      "raw_score": 6
+    },
+    {
+      "tag": "anti_commercial",
+      "category": "philosophy",
+      "weight": 0.188,
+      "raw_score": 6
+    },
+    {
+      "tag": "serious",
+      "category": "philosophy",
+      "weight": 0.188,
+      "raw_score": 6
+    },
+    {
+      "tag": "conceptual",
+      "category": "philosophy",
+      "weight": 0.188,
+      "raw_score": 6
+    },
+    {
+      "tag": "sampling",
+      "category": "process",
+      "weight": 0.156,
+      "raw_score": 5
+    },
+    {
+      "tag": "isolation",
+      "category": "philosophy",
+      "weight": 0.156,
+      "raw_score": 5
+    },
+    {
+      "tag": "intuitive",
+      "category": "philosophy",
+      "weight": 0.125,
+      "raw_score": 4
+    },
+    {
+      "tag": "emotional",
+      "category": "philosophy",
+      "weight": 0.125,
+      "raw_score": 4
+    },
+    {
+      "tag": "collaborative",
+      "category": "philosophy",
+      "weight": 0.094,
+      "raw_score": 3
+    },
+    {
+      "tag": "formulaic_critique",
+      "category": "philosophy",
+      "weight": 0.094,
+      "raw_score": 3
+    },
+    {
+      "tag": "business_acumen",
+      "category": "philosophy",
+      "weight": 0.094,
+      "raw_score": 3
+    },
+    {
+      "tag": "multi_disciplinary",
+      "category": "approach",
+      "weight": 0.094,
+      "raw_score": 3
+    },
+    {
+      "tag": "hustler_ethos",
+      "category": "philosophy",
+      "weight": 0.094,
+      "raw_score": 3
+    },
+    {
+      "tag": "club-ready",
+      "category": "approach",
+      "weight": 0.094,
+      "raw_score": 3
+    },
+    {
+      "tag": "charismatic_persona",
+      "category": "philosophy",
+      "weight": 0.094,
+      "raw_score": 3
+    },
+    {
+      "tag": "demographic_targeting",
+      "category": "approach",
+      "weight": 0.094,
+      "raw_score": 3
+    },
+    {
+      "tag": "swagger",
+      "category": "philosophy",
+      "weight": 0.094,
+      "raw_score": 3
+    },
+    {
+      "tag": "calculated_commercialism",
+      "category": "philosophy",
+      "weight": 0.094,
+      "raw_score": 3
+    },
+    {
+      "tag": "character_driven",
+      "category": "approach",
+      "weight": 0.094,
+      "raw_score": 3
+    },
+    {
+      "tag": "persona_construction",
+      "category": "philosophy",
+      "weight": 0.094,
+      "raw_score": 3
+    },
+    {
+      "tag": "viral_marketing",
+      "category": "approach",
+      "weight": 0.094,
+      "raw_score": 3
+    },
+    {
+      "tag": "hook_focused",
+      "category": "approach",
+      "weight": 0.094,
+      "raw_score": 3
+    },
+    {
+      "tag": "trend_driven",
+      "category": "philosophy",
+      "weight": 0.094,
+      "raw_score": 3
+    },
+    {
+      "tag": "playful",
+      "category": "philosophy",
+      "weight": 0.062,
+      "raw_score": 2
+    },
+    {
+      "tag": "strategic_sampling",
+      "category": "process",
+      "weight": 0.062,
+      "raw_score": 2
+    },
+    {
+      "tag": "maximalism",
+      "category": "process",
+      "weight": 0.062,
+      "raw_score": 2
+    },
+    {
+      "tag": "layering",
+      "category": "process",
+      "weight": 0.062,
+      "raw_score": 2
+    },
+    {
+      "tag": "inconsistent_vision",
+      "category": "philosophy",
+      "weight": 0.062,
+      "raw_score": 2
+    },
+    {
+      "tag": "strategic_diversity",
+      "category": "philosophy",
+      "weight": 0.062,
+      "raw_score": 2
+    }
+  ],
+  "meta": {
+    "count": 38,
+    "sources_checked": 14
+  }
+}

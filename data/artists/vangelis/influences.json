@@ -1,0 +1,13 @@
+{
+  "influences": [
+    {
+      "name": "Claude Debussy",
+      "context": "Not so long ago, I read a quote from Claude Debussy, this divine composer, where he was saying exactly the same thing.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 1,
+    "sources_checked": 4
+  }
+}

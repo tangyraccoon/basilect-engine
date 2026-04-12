@@ -1,0 +1,98 @@
+{
+  "influences": [
+    {
+      "name": "Ella Fitzgerald",
+      "context": "their father in particular was a jazz fan and young Mary grew up listening to the music of people like Jelly Roll Morton and Ella Fitzgerald",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Jelly Roll Morton",
+      "context": "their father in particular was a jazz fan and young Mary grew up listening to the music of people like Jelly Roll Morton and Ella Fitzgerald",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Judy Garland",
+      "context": "she sounds more like she's doing an impression of Judy Garland, who had performed it in the film Easter Parade",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Peggy Lee",
+      "context": "Her main musical idol was Peggy Lee, and she wanted to make music with something of the Latin flavour of some of Lee's hits",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Exciters",
+      "context": "The first was \"Tell Him\" by the Exciters: Both records pointed her in a direction that was totally different from the folk-pop music the Springfields were making",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Dionne Warwick",
+      "context": "and the second was \"Don't Make Me Over\" by Dionne Warwick: Both records pointed her in a direction that was totally different from the folk-pop music the Springfields were making",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Madeline Bell",
+      "context": "a lot of Springfield's phrasing came from her paying close attention to Bell's vocals. Springfield, like many great singers, was well known as a great imitator, and if you listen to Bell's 1964 B-side \"Don't Cross Over To My Side Of The Street\" you can hear exactly what she learned from Bell",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Phil Spector",
+      "context": "pushed for a sound that was modelled on Phil Spector's Wall of Sound, with her own vocal rather buried in the mix as a result",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Aretha Franklin",
+      "context": "She said later that it \"seemed to move people on a sexual level where it didn't move me at all…\" Part of that dislike came in retrospect, because as we heard in the most recent Aretha Franklin episode, Franklin cut her own version later, and Springfield was intimidated by what she perceived as Franklin's superior performance",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Whitney Houston",
+      "context": "I remember trying to learn a Whitney Houston song. It was a little bit out of range for me, too high, even at that age.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Amy Winehouse",
+      "context": "So I learned an Amy Winehouse song, and my dad came into the living room and was like, 'Hey, you're not that bad.'",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Donny Hathaway",
+      "context": "I was deeply inspired by live albums from Donny Hathaway, Bill Withers, Roberta Flack, Joni Mitchell, Dusty Springfield, and Nina Simone.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Bill Withers",
+      "context": "I was deeply inspired by live albums from Donny Hathaway, Bill Withers, Roberta Flack, Joni Mitchell, Dusty Springfield, and Nina Simone.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Roberta Flack",
+      "context": "I was deeply inspired by live albums from Donny Hathaway, Bill Withers, Roberta Flack, Joni Mitchell, Dusty Springfield, and Nina Simone.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Joni Mitchell",
+      "context": "I was deeply inspired by live albums from Donny Hathaway, Bill Withers, Roberta Flack, Joni Mitchell, Dusty Springfield, and Nina Simone.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Dusty Springfield",
+      "context": "I was deeply inspired by live albums from Donny Hathaway, Bill Withers, Roberta Flack, Joni Mitchell, Dusty Springfield, and Nina Simone.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Nina Simone",
+      "context": "I was deeply inspired by live albums from Donny Hathaway, Bill Withers, Roberta Flack, Joni Mitchell, Dusty Springfield, and Nina Simone.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Labi Siffre",
+      "context": "He's one of my big inspirations.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 18,
+    "sources_checked": 3
+  }
+}

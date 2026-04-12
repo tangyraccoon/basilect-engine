@@ -1,0 +1,53 @@
+{
+  "quotes": [
+    {
+      "text": "We once did a gig for deaf kids. They sat at the front of the stage, put their ears to the ground and soaked up the vibration. They loved it!",
+      "publication": "Classic Rock",
+      "date": "2003"
+    },
+    {
+      "text": "It's strange when you're in a rock'n'roll band, people sometimes think you're a home box office.",
+      "publication": "Classic Rock",
+      "date": "2003"
+    },
+    {
+      "text": "We're not snobs or nothing, it's just that being the Rolling Stones we knew there'd be lots of cameras; we don't like all that media hoo-hah.",
+      "publication": "Classic Rock",
+      "date": "2003"
+    },
+    {
+      "text": "We've got an hour and a half. We can squeeze a few of the gadgets in, but we'd have done it without them if necessary. It's a great show that the kids will remember for a long time.",
+      "publication": "Classic Rock",
+      "date": "2003"
+    },
+    {
+      "text": "Nah, we've never been that sort of a band, and we've always had our own niche. They do their rock'n'roll show, we do ours.",
+      "publication": "Classic Rock",
+      "date": "2003"
+    },
+    {
+      "text": "Maybe, I suppose. But the main thing is that we've also got a lot in common. If we're having a party, we won't be sticking on an AC/DC record, it'll be the Stones, Chuck Berry, Little Richard, that kinda bag.",
+      "publication": "Classic Rock",
+      "date": "2003"
+    },
+    {
+      "text": "We're not far off it now, mate. But I think we could be making music when we're as old as them. From the beginning, this band has always gone for the throat. It was an energy thing. And it still is.",
+      "publication": "Classic Rock",
+      "date": "2003"
+    },
+    {
+      "text": "The gimmick's always been me out there in the schoolboy suit, so people'd remember. Club owners in America might not have recalled the band, but they'd never go forgetting the little kid in the shorts and satchel – the one who behaved like a lunatic.",
+      "publication": "Classic Rock",
+      "date": "2003"
+    }
+  ],
+  "corpus_meta": {
+    "quote_count": 8,
+    "source_count": 1,
+    "date_range": [
+      "2003",
+      "2003"
+    ],
+    "corpus_valid": false
+  }
+}

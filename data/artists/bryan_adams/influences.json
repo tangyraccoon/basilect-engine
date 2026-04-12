@@ -1,0 +1,53 @@
+{
+  "influences": [
+    {
+      "name": "Jim Vallance",
+      "context": "I really must give credit to Jim [Vallance, Adams' songwriting partner]. Great teacher. Always would be there to help me filter out the shite.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Beatles",
+      "context": "I remember driving around with my mother listening to AM radio and The Beatles",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Led Zeppelin",
+      "context": "some I was lucky to see live like Led Zeppelin and T.Rex",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "T.Rex",
+      "context": "some I was lucky to see live like Led Zeppelin and T.Rex",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "David Bowie",
+      "context": "and others I got to tour with, like Bowie and Tina Turner",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Tina Turner",
+      "context": "and others I got to tour with, like Bowie and Tina Turner",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Hiro",
+      "context": "I remember walking into Hiro's studio in the eighties, and that was a trip into the future",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Andrew Catlin",
+      "context": "From then on I worked with Andrew Catlin who had a very different style of simply being there quietly on his own, camera always on hand",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Anton Corbijn",
+      "context": "And I worked with the brilliant Anton Corbijn whose work was not only in camera, but in the darkroom. He introduced me to my printers in the early days, and turned my lacklustre negatives into something I was proud of",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 9,
+    "sources_checked": 3
+  }
+}

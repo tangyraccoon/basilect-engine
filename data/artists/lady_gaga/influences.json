@@ -1,0 +1,38 @@
+{
+  "influences": [
+    {
+      "name": "Mark Ronson",
+      "context": "I have my producer Mark Ronson really and truly to thank for that. I have hope that many people who hear this album know the importance of the comradery between the artist and the producer, and that relationship.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "David Bowie",
+      "context": "Her training inputs were a strange mix—from David Bowie to Bach, from Andy Warhol to Cher. She drew inspiration from an eclectic mix of artists, later weaving their ideas together into her own unique style.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Bach",
+      "context": "Her training inputs were a strange mix—from David Bowie to Bach, from Andy Warhol to Cher. She drew inspiration from an eclectic mix of artists, later weaving their ideas together into her own unique style.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Andy Warhol",
+      "context": "Her training inputs were a strange mix—from David Bowie to Bach, from Andy Warhol to Cher. She drew inspiration from an eclectic mix of artists, later weaving their ideas together into her own unique style.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Cher",
+      "context": "Her training inputs were a strange mix—from David Bowie to Bach, from Andy Warhol to Cher. She drew inspiration from an eclectic mix of artists, later weaving their ideas together into her own unique style.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Don Lawrence",
+      "context": "At age sixteen, Stefani began working with famed vocal coach Don Lawrence, who had also worked with Billy Joel, Christina Aguilera, and Mick Jagger. Behind the glitz of her dramatic performances, Lady Gaga still does the reps and continues to work with Lawrence.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 6,
+    "sources_checked": 4
+  }
+}

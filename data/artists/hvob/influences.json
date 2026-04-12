@@ -1,0 +1,43 @@
+{
+  "influences": [
+    {
+      "name": "Oasis",
+      "context": "I grew up with the records from my brother like Oasis, Radiohead, Sonic Youth or PJ Harvey, just to name a few and the biggest ones.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Radiohead",
+      "context": "I grew up with the records from my brother like Oasis, Radiohead, Sonic Youth or PJ Harvey, just to name a few and the biggest ones.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Sonic Youth",
+      "context": "I grew up with the records from my brother like Oasis, Radiohead, Sonic Youth or PJ Harvey, just to name a few and the biggest ones.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "PJ Harvey",
+      "context": "I grew up with the records from my brother like Oasis, Radiohead, Sonic Youth or PJ Harvey, just to name a few and the biggest ones.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Nicolas Jaar",
+      "context": "one of the tracks I fell in love with immediately was Nicolas Jaar's Time for Us. It was like a magic moment, I felt what music can do to you in a club, and I wanted to create something similar, like music that takes you somewhere.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Clemens Wolf",
+      "context": "with Trialog we really created an artistic world together with the contemporary artist Clemens Wolf and the VJs from lichterloh; their art influenced our music and vice versa.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Notwist",
+      "context": "We've both always listened to a lot of indie music; we both like bands such as Radiohead or The Notwist.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 7,
+    "sources_checked": 3
+  }
+}

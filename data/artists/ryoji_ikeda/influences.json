@@ -1,0 +1,28 @@
+{
+  "influences": [
+    {
+      "name": "Oval",
+      "context": "Big early passions and influences for me were Oval, Ryoji Ikeda and Taylor Deupree",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Ryoji Ikeda",
+      "context": "Big early passions and influences for me were Oval, Ryoji Ikeda and Taylor Deupree",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Taylor Deupree",
+      "context": "Big early passions and influences for me were Oval, Ryoji Ikeda and Taylor Deupree",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "DJ Screw",
+      "context": "Big early passions and influences for me were Oval, Ryoji Ikeda and Taylor Deupree, DJ Screw with his super-slowed down woozy mix-tapes",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 4,
+    "sources_checked": 3
+  }
+}

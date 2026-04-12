@@ -1,0 +1,48 @@
+{
+  "influences": [
+    {
+      "name": "James Holden",
+      "context": "The person who got me into these is James Holden; his release, The Inheritors, is my favorite album from last year. He's a dance producer who is now making more experimental music. He's one of those guys who programs everything in Max/MSP.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Beverly Glenn Copeland",
+      "context": "My favorite example is an album that I've completely fallen in love with over the years I was making Suddenly. It's by Beverly Glenn Copeland and it's called Keyboard Fantasies... The way the music absorbs that and then projects outward is in this beautiful, open, empathetic, inclusive, and encompassing way.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Debussy",
+      "context": "For example, there's a track called \"Sonny's Time\" where I'm playing this Debussy style piano motif and it's bent and warped in this way",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Stravinsky",
+      "context": "Whether we'll have those moments of kind of shock dislocation, that kind of Stravinsky or [Bob] Dylan going electric or those historical moments",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Bob Dylan",
+      "context": "Whether we'll have those moments of kind of shock dislocation, that kind of Stravinsky or [Bob] Dylan going electric or those historical moments",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Lightning Bolt",
+      "context": "try get close to bands who are more physical, such as Lightning Bolt or The Boredoms, bands that are more sort of hypnotic and wall-of-noise and have all sorts of shit going on, because those are the shows that I enjoy going to",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Boredoms",
+      "context": "try get close to bands who are more physical, such as Lightning Bolt or The Boredoms, bands that are more sort of hypnotic and wall-of-noise and have all sorts of shit going on, because those are the shows that I enjoy going to",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Four Tet",
+      "context": "Definitely, Four Tet just cause he's a really good friend of mine, we're always trading ideas off of one another",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 8,
+    "sources_checked": 4
+  }
+}

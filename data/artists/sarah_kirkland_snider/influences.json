@@ -1,0 +1,98 @@
+{
+  "influences": [
+    {
+      "name": "Mozart",
+      "context": "All the music that I grew up loving was written by Mozart, Beethoven, Chopin, WC, Ravel. These are my favorite composers growing up",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Beethoven",
+      "context": "All the music that I grew up loving was written by Mozart, Beethoven, Chopin, WC, Ravel. These are my favorite composers growing up",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Chopin",
+      "context": "All the music that I grew up loving was written by Mozart, Beethoven, Chopin, WC, Ravel. These are my favorite composers growing up",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Ravel",
+      "context": "All the music that I grew up loving was written by Mozart, Beethoven, Chopin, WC, Ravel. These are my favorite composers growing up",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Bach",
+      "context": "And a lot of Bach music that I played, those were like deep religious experiences that I had emotionally",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "PJ Harvey",
+      "context": "PJ Harvey was a huge inspiration for me and in college, like, she was just such a badass and she went out there into the field of rock when she was so young. And just like in the end, her attitude in interviews was very much like, I just went out there and did whatever the fuck I wanted.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Patti Smith",
+      "context": "I'm thinking of Patti Smith, okay. She's somebody who wonderfully has not tried to tailor her looks to the male gaze in the last 20 years, you know, but she is so beloved and she's so sought after and seen as this wise, artful person",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Faure",
+      "context": "For this piece, the main influences were (in no particular order) Bach, Mozart, Faure, Joni Mitchell, Palestrina, Hildegard von Bingen, Byrd, Arvo Pärt, Simon & Garfunkel, Sufjan Stevens, and too much other folk and pop music to name…",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Joni Mitchell",
+      "context": "For this piece, the main influences were (in no particular order) Bach, Mozart, Faure, Joni Mitchell, Palestrina, Hildegard von Bingen, Byrd, Arvo Pärt, Simon & Garfunkel, Sufjan Stevens, and too much other folk and pop music to name…",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Palestrina",
+      "context": "For this piece, the main influences were (in no particular order) Bach, Mozart, Faure, Joni Mitchell, Palestrina, Hildegard von Bingen, Byrd, Arvo Pärt, Simon & Garfunkel, Sufjan Stevens, and too much other folk and pop music to name…",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Hildegard von Bingen",
+      "context": "For this piece, the main influences were (in no particular order) Bach, Mozart, Faure, Joni Mitchell, Palestrina, Hildegard von Bingen, Byrd, Arvo Pärt, Simon & Garfunkel, Sufjan Stevens, and too much other folk and pop music to name…",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Byrd",
+      "context": "For this piece, the main influences were (in no particular order) Bach, Mozart, Faure, Joni Mitchell, Palestrina, Hildegard von Bingen, Byrd, Arvo Pärt, Simon & Garfunkel, Sufjan Stevens, and too much other folk and pop music to name…",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Arvo Pärt",
+      "context": "For this piece, the main influences were (in no particular order) Bach, Mozart, Faure, Joni Mitchell, Palestrina, Hildegard von Bingen, Byrd, Arvo Pärt, Simon & Garfunkel, Sufjan Stevens, and too much other folk and pop music to name…",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Simon & Garfunkel",
+      "context": "For this piece, the main influences were (in no particular order) Bach, Mozart, Faure, Joni Mitchell, Palestrina, Hildegard von Bingen, Byrd, Arvo Pärt, Simon & Garfunkel, Sufjan Stevens, and too much other folk and pop music to name…",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Sufjan Stevens",
+      "context": "For this piece, the main influences were (in no particular order) Bach, Mozart, Faure, Joni Mitchell, Palestrina, Hildegard von Bingen, Byrd, Arvo Pärt, Simon & Garfunkel, Sufjan Stevens, and too much other folk and pop music to name…",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Radiohead",
+      "context": "\"The way hints of Radiohead and David Lang mingle with St. Vincent and Chopin only to be reabsorbed into an aural landscape that is uniquely the voice of Sarah Kirkland Snider, results in what is easily the most beautiful album of the year.\"",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "David Lang",
+      "context": "\"The way hints of Radiohead and David Lang mingle with St. Vincent and Chopin only to be reabsorbed into an aural landscape that is uniquely the voice of Sarah Kirkland Snider, results in what is easily the most beautiful album of the year.\"",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "St. Vincent",
+      "context": "\"The way hints of Radiohead and David Lang mingle with St. Vincent and Chopin only to be reabsorbed into an aural landscape that is uniquely the voice of Sarah Kirkland Snider, results in what is easily the most beautiful album of the year.\"",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 18,
+    "sources_checked": 4
+  }
+}

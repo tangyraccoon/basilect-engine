@@ -1,0 +1,58 @@
+{
+  "influences": [
+    {
+      "name": "Peter Sellars",
+      "context": "Peter wanted me to write an opera for him",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Simone Weil",
+      "context": "In my teens, when I first started to read Simone Weil, I felt that she had experienced so much more than I had at that point",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Amin Maalouf",
+      "context": "Following their fruitful collaborations with L'amour de loin and Adriana Mater, Maalouf became Saariaho's chosen librettist for La Passion de Simone too",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Dawn Upshaw",
+      "context": "While I was at work with the solo part, I had in mind all that experience I had gained working with Dawn's smooth registers in L'amour de loin",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Philippe Jaroussky",
+      "context": "we collaborated closely with Philippe Jaroussky on Only the Sound Remains (2015). For example, he suggested setting the first part in the lower registers and saving the higher ones for the second part",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Brian Ferneyhough",
+      "context": "She continued her training in Freiburg with the composers Brian Ferneyhough and Klaus Huber",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Klaus Huber",
+      "context": "She continued her training in Freiburg with the composers Brian Ferneyhough and Klaus Huber",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Paavo Heininen",
+      "context": "studied with Paavo Heininen at the Sibelius Academy",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "spectralist composers",
+      "context": "her study of the French spectralist composers, made electronic and computer-generated music a constant element in her music",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Olivier Messiaen",
+      "context": "The definitive push came with a Peter Sellers production of Olivier Messiaen's Saint François d'Assise, performed at the Salzburg Festival, which she described as 'liberating,' and 'a sign' that she could venture into the opera genre.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 10,
+    "sources_checked": 3
+  }
+}

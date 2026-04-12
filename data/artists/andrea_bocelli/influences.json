@@ -1,0 +1,48 @@
+{
+  "influences": [
+    {
+      "name": "Frank Sinatra",
+      "context": "I loved a lot, in my youth, the musical comedies of Frank Sinatra…",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Fred Astaire",
+      "context": "As a child I was fascinated by the heroes liked by my parents, for example the couple Fred Astaire and Ginger Rogers…",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Ginger Rogers",
+      "context": "As a child I was fascinated by the heroes liked by my parents, for example the couple Fred Astaire and Ginger Rogers…",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Mario Lanza",
+      "context": "And I was a big fan of Mario Lanza.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Dante Alighieri",
+      "context": "Memorizing texts is a practice that must be exercised and that is, fortunately, something I have been cultivating since I was a child by studying many and also very long poems (for example whole songs of Dante's Divine Comedy.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Tony Bennett",
+      "context": "I grew up in a family where the main music was opera and classical, and we listened to singers like Frank Sinatra and Tony Bennett. So of course I was influenced by that",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "David Foster",
+      "context": "David Foster is the very first person who believed in me. Not only did he believe in me, but he was the first person who showed interest in producing me... It was incredible to see him in action when he was working with my father, and I still am fascinated watching him work today.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Ed Sheeran",
+      "context": "I have followed Ed since the beginning and have always been a huge fan. I still remember the first time I saw him when he was the opening act for Taylor Swift in Toronto [during Swift's 2013 Red tour].",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 8,
+    "sources_checked": 4
+  }
+}

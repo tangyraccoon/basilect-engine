@@ -1,0 +1,68 @@
+{
+  "influences": [
+    {
+      "name": "Joe Satriani",
+      "context": "Joe's influence is just in me. It's part of my guitar style because he showed me all these different exercises. He showed me modal thinking and music theory, how to get melodies out of certain chords and how to make chords out of certain melodies.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Lennie Tristano",
+      "context": "I wanted to know the secrets of music and I just wished there was someone that I could find to teach me that would not force me to change my style... So a friend says to me, call Lennie Tristano, he's the father of cool jazz, he teaches every kind of instrument, every kinda musician, he's the weirdest most intense guy you've ever met in your life. I thought, I'm game, so I started taking lessons from him, and those lessons with Lennie really changed my life, because he approached music in the way you would imagine a Yoda or Zen Master would... He taught me what it was to be a musician and how to practice and what improvisation really was, and those were great lessons to learn as a teenager, they were essential.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "his mother",
+      "context": "I'd probably have to give credit to my mother. She was a professional grammar school teacher her whole life and had an office in our basement where they used to let me rehearse when I was a young drummer at age 9, so the idea of teaching seemed kinda natural.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Eddie Van Halen",
+      "context": "Eddie Van Halen had already brought more positive energy to electric guitar playing. I was an early fan. He was playing what every kid my age wanted to play.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Steve Vai",
+      "context": "And of course my friend Steve Vai was breaking boundaries on guitar in an incredible way.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Yngwie Malmsteen",
+      "context": "And he had a bunch of comrades who were doing that with him from Yngwie Malmsteen to Jason Becker. Those guys could play anything—more notes than you could listen to in a given bar.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Jason Becker",
+      "context": "And he had a bunch of comrades who were doing that with him from Yngwie Malmsteen to Jason Becker. Those guys could play anything—more notes than you could listen to in a given bar.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Beethoven",
+      "context": "I can say honestly that I could listen to Beethoven and Miles Davis and Hendrix and The Ramones and The Rolling Stones equally. They're all important to me.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Miles Davis",
+      "context": "I can say honestly that I could listen to Beethoven and Miles Davis and Hendrix and The Ramones and The Rolling Stones equally. They're all important to me.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Hendrix",
+      "context": "I can say honestly that I could listen to Beethoven and Miles Davis and Hendrix and The Ramones and The Rolling Stones equally. They're all important to me.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Ramones",
+      "context": "I can say honestly that I could listen to Beethoven and Miles Davis and Hendrix and The Ramones and The Rolling Stones equally. They're all important to me.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Rolling Stones",
+      "context": "I can say honestly that I could listen to Beethoven and Miles Davis and Hendrix and The Ramones and The Rolling Stones equally. They're all important to me.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 12,
+    "sources_checked": 5
+  }
+}

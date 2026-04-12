@@ -1,0 +1,78 @@
+{
+  "influences": [
+    {
+      "name": "Debbie Harry",
+      "context": "Vig declared that they wanted to find a female vocalist like \"Debbie Harry, Patti Smith, Chrissie Hynde and Siouxsie Sioux—all really strong, unique personalities\"",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Patti Smith",
+      "context": "Vig declared that they wanted to find a female vocalist like \"Debbie Harry, Patti Smith, Chrissie Hynde and Siouxsie Sioux—all really strong, unique personalities\"",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Chrissie Hynde",
+      "context": "Vig declared that they wanted to find a female vocalist like \"Debbie Harry, Patti Smith, Chrissie Hynde and Siouxsie Sioux—all really strong, unique personalities\"",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Siouxsie Sioux",
+      "context": "Vig declared that they wanted to find a female vocalist like \"Debbie Harry, Patti Smith, Chrissie Hynde and Siouxsie Sioux—all really strong, unique personalities\"",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Velvet Underground",
+      "context": "Garbage has been inspired by The Velvet Underground, Iggy & The Stooges, T. Rex, Roxy Music, The Pretenders, Siouxsie and the Banshees, Blondie, Cocteau Twins, Patti Smith, The Smashing Pumpkins and David Bowie.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Iggy & The Stooges",
+      "context": "Garbage has been inspired by The Velvet Underground, Iggy & The Stooges, T. Rex, Roxy Music, The Pretenders, Siouxsie and the Banshees, Blondie, Cocteau Twins, Patti Smith, The Smashing Pumpkins and David Bowie.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "T. Rex",
+      "context": "Garbage has been inspired by The Velvet Underground, Iggy & The Stooges, T. Rex, Roxy Music, The Pretenders, Siouxsie and the Banshees, Blondie, Cocteau Twins, Patti Smith, The Smashing Pumpkins and David Bowie.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Roxy Music",
+      "context": "Garbage has been inspired by The Velvet Underground, Iggy & The Stooges, T. Rex, Roxy Music, The Pretenders, Siouxsie and the Banshees, Blondie, Cocteau Twins, Patti Smith, The Smashing Pumpkins and David Bowie.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Pretenders",
+      "context": "Garbage has been inspired by The Velvet Underground, Iggy & The Stooges, T. Rex, Roxy Music, The Pretenders, Siouxsie and the Banshees, Blondie, Cocteau Twins, Patti Smith, The Smashing Pumpkins and David Bowie.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Siouxsie and the Banshees",
+      "context": "Garbage has been inspired by The Velvet Underground, Iggy & The Stooges, T. Rex, Roxy Music, The Pretenders, Siouxsie and the Banshees, Blondie, Cocteau Twins, Patti Smith, The Smashing Pumpkins and David Bowie.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Blondie",
+      "context": "Garbage has been inspired by The Velvet Underground, Iggy & The Stooges, T. Rex, Roxy Music, The Pretenders, Siouxsie and the Banshees, Blondie, Cocteau Twins, Patti Smith, The Smashing Pumpkins and David Bowie.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Cocteau Twins",
+      "context": "Garbage has been inspired by The Velvet Underground, Iggy & The Stooges, T. Rex, Roxy Music, The Pretenders, Siouxsie and the Banshees, Blondie, Cocteau Twins, Patti Smith, The Smashing Pumpkins and David Bowie.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Smashing Pumpkins",
+      "context": "Garbage has been inspired by The Velvet Underground, Iggy & The Stooges, T. Rex, Roxy Music, The Pretenders, Siouxsie and the Banshees, Blondie, Cocteau Twins, Patti Smith, The Smashing Pumpkins and David Bowie.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "David Bowie",
+      "context": "Garbage has been inspired by The Velvet Underground, Iggy & The Stooges, T. Rex, Roxy Music, The Pretenders, Siouxsie and the Banshees, Blondie, Cocteau Twins, Patti Smith, The Smashing Pumpkins and David Bowie.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 14,
+    "sources_checked": 4
+  }
+}

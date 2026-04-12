@@ -1,0 +1,38 @@
+{
+  "influences": [
+    {
+      "name": "Adele",
+      "context": "\"@Adele, I thought of you often while writing this song – always hoped that you would love it. This means the world to me. I love you. Mission accomplished.\"",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Catfish and the Bottlemen",
+      "context": "An album that changed your life and why? Catfish and the Bottlemen's debut album, The Balcony. Every song felt like a masterpiece, and to this day, it still ranks as my number one.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Stevie Nicks",
+      "context": "\"Anyone that I've spoken to that's stayed relevant for 50 years in their career, like Stevie Nicks or Elton John, keeps up with culture and what's relevant,\" she said. \"Stevie would tell me, even 10 years ago, that she was just listening to new music—even before it comes out.\"",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Elton John",
+      "context": "\"Anyone that I've spoken to that's stayed relevant for 50 years in their career, like Stevie Nicks or Elton John, keeps up with culture and what's relevant,\" she said.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Pharrell",
+      "context": "Pharrell taught Miley that \"fashion, art, and design…can all be one expression.\"",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Pink Floyd",
+      "context": "For the new album, you were inspired by concept records like The Wall by Pink Floyd",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 6,
+    "sources_checked": 6
+  }
+}

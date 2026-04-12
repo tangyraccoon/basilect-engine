@@ -1,0 +1,53 @@
+{
+  "influences": [
+    {
+      "name": "Depeche Mode",
+      "context": "Our songwriter Peter [Svensson] was deeply into Depeche Mode, Radiohead, Soundgarden and Pantera by then.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Radiohead",
+      "context": "Our songwriter Peter [Svensson] was deeply into Depeche Mode, Radiohead, Soundgarden and Pantera by then.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Soundgarden",
+      "context": "Our songwriter Peter [Svensson] was deeply into Depeche Mode, Radiohead, Soundgarden and Pantera by then.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Pantera",
+      "context": "Our songwriter Peter [Svensson] was deeply into Depeche Mode, Radiohead, Soundgarden and Pantera by then.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Astrud Gilberto",
+      "context": "I guess Nina [Persson] discovered Astrud Gilberto there, and, along with Peter [Svensson], they were inspired to write this song, which later turned into a disco song in the studio.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Beatles",
+      "context": "Peter [Svensson] wasn't that into '60s pop, except for late-period The Beatles, but I know Lee Hazlewood and Nancy Sinatra were huge inspirations for our album \"Life.\"",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Lee Hazlewood",
+      "context": "Peter [Svensson] wasn't that into '60s pop, except for late-period The Beatles, but I know Lee Hazlewood and Nancy Sinatra were huge inspirations for our album \"Life.\"",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Nancy Sinatra",
+      "context": "Peter [Svensson] wasn't that into '60s pop, except for late-period The Beatles, but I know Lee Hazlewood and Nancy Sinatra were huge inspirations for our album \"Life.\"",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Neil Young",
+      "context": "Imagine the song as a shuffle, like Neil Young's \"Harvest\"—that's how it initially sounded.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 9,
+    "sources_checked": 2
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "quotes": [
+    {
+      "text": "My life right now is movies, books, songs. I'm still writing, still singing and recording",
+      "publication": "Christian Post",
+      "date": ""
+    },
+    {
+      "text": "This is really a great opportunity to say things that I believe in, [that] I don't always have the chance to say",
+      "publication": "Christian Post",
+      "date": ""
+    },
+    {
+      "text": "Great success can be the worst thing that happens to you because you become so enamored, so used to that success, and you think it's because you're so good in some way, or you made such great choices",
+      "publication": "Christian Post",
+      "date": ""
+    }
+  ],
+  "corpus_meta": {
+    "quote_count": 3,
+    "source_count": 1,
+    "date_range": [],
+    "corpus_valid": false
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "quotes": [
+    {
+      "text": "Yeah. This is what we've been talking about.",
+      "publication": "Key Tracks: Jimmy Jam on Janet Jackson's Control",
+      "date": ""
+    },
+    {
+      "text": "Oh. So whatever we talk about that's what we're going to write about. That's what the songs are going to be about?",
+      "publication": "Key Tracks: Jimmy Jam on Janet Jackson's Control",
+      "date": ""
+    },
+    {
+      "text": "When are we going to actually start?",
+      "publication": "Key Tracks: Jimmy Jam on Janet Jackson's Control",
+      "date": ""
+    },
+    {
+      "text": "I know a song can't change the world, but if our music could inspire some people, make them want to join hands, and begin to deal with a lot of the social problems we have, then hopefully we can make some sort of progress. And that's pretty much what it's all about.",
+      "publication": "Aimeestevland",
+      "date": ""
+    }
+  ],
+  "corpus_meta": {
+    "quote_count": 4,
+    "source_count": 2,
+    "date_range": [],
+    "corpus_valid": false
+  }
+}

@@ -1,0 +1,103 @@
+{
+  "influences": [
+    {
+      "name": "Egyptian Lover",
+      "context": "Though the inspirational role of Kraftwerkian cousins like Egyptian Lover, Just Ice and Grandmaster Flash is their most frequent reference in interviews",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Just Ice",
+      "context": "Though the inspirational role of Kraftwerkian cousins like Egyptian Lover, Just Ice and Grandmaster Flash is their most frequent reference in interviews",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Grandmaster Flash",
+      "context": "Though the inspirational role of Kraftwerkian cousins like Egyptian Lover, Just Ice and Grandmaster Flash is their most frequent reference in interviews",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Slum Village",
+      "context": "Booth describes the underground sparkle of Slum Village as \"well-fucking juicy\"",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Kool Keith",
+      "context": "asks if I've heard Kool Keith's Matthew. \"He hit so many nails on the head on that record,\" he says. \"It's ridiculous, it's fucking sick.\"",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Karlheinz Stockhausen",
+      "context": "The artists they're most interested in discussing are all controversial in one sense or another, whether it's Eminem's vice-grip control of his pop-music persona or Miles Davis and Karlheinz Stockhausen revamping the avant-garde.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Miles Davis",
+      "context": "The artists they're most interested in discussing are all controversial in one sense or another, whether it's Eminem's vice-grip control of his pop-music persona or Miles Davis and Karlheinz Stockhausen revamping the avant-garde.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Stockhausen",
+      "context": "The evolution of music-creation technology is something that the two trace back to early 20th-century avant-garde composers like Stockhausen, Tod Dockstader, Gyorgy Ligeti",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Tod Dockstader",
+      "context": "The evolution of music-creation technology is something that the two trace back to early 20th-century avant-garde composers like Stockhausen, Tod Dockstader, Gyorgy Ligeti",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Gyorgy Ligeti",
+      "context": "The evolution of music-creation technology is something that the two trace back to early 20th-century avant-garde composers like Stockhausen, Tod Dockstader, Gyorgy Ligeti",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Erik Satie",
+      "context": "\"Stockhausen…he was basically going, 'Fuck off, everyone.' The same way Erik Satie was, the same way loads of fucking top composers have been.\"",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Captain Beefheart",
+      "context": "Fried avant-rock bluesman Captain Beefheart is also a favorite: \"Beefheart's fucking techno,\" he says, almost to himself, assembling another spliff. \"He's ridiculously good. He's fuckin' really good, he fuckin' is.\"",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Steve Reich",
+      "context": "label boss Beckett doesn't hesitate to put them in the same category as influential minimalist composer Steve Reich",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "David Lynch",
+      "context": "Like many experimental musicians, the pair have an interest in durational cinema where gradual developments can dovetail and diverge in an almost symphonic way, and they've expressed a particular interest in David Lynch's work.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Coil",
+      "context": "Autechre's heroes Coil created a weighty body of live work, particularly after they returned to gigs in the 2000s, and these became an important part of their artistic legacy.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "King Crimson",
+      "context": "The rigour of King Crimson's methods, their flat refusal to take the easy or obvious option without that leeway being earned, and the way that they plugged new sounds and instrumentation into their music to renew it at regular intervals, carries strong echoes of Ae.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Edgard Varèse",
+      "context": "Autechre have openly cited musique concrète composers Tod Dockstader and Edgard Varèse as influences",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Iannis Xenakis",
+      "context": "Their generative synthesis, musique concrète, and FM synthesis experiments drew critical comparisons with esteemed composers like Iannis Xenakis, Karlheinz Stockhausen, and Bernard Parmegiani",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Bernard Parmegiani",
+      "context": "Their generative synthesis, musique concrète, and FM synthesis experiments drew critical comparisons with esteemed composers like Iannis Xenakis, Karlheinz Stockhausen, and Bernard Parmegiani",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 19,
+    "sources_checked": 4
+  }
+}

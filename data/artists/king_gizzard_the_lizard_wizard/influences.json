@@ -1,0 +1,18 @@
+{
+  "influences": [
+    {
+      "name": "Mac DeMarco",
+      "context": "how many times have we heard the hard-touring Mac DeMarco described as the world's premier purveyor of slacker rock?",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Alex Brettin / Mild High Club",
+      "context": "I think we both have very different musical upbringings – it's just that we arrive in this very similar place... I'm always just kind of fucking around, but I'm curious, too, and I think Alex's background is the sort of thing I'm fascinated by.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 2,
+    "sources_checked": 5
+  }
+}

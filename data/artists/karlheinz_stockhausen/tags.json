@@ -1,0 +1,272 @@
+{
+  "tags": [
+    {
+      "tag": "experimental",
+      "category": "philosophy",
+      "weight": 1.0,
+      "raw_score": 35
+    },
+    {
+      "tag": "synthesis",
+      "category": "process",
+      "weight": 0.771,
+      "raw_score": 27
+    },
+    {
+      "tag": "intellectual",
+      "category": "philosophy",
+      "weight": 0.771,
+      "raw_score": 27
+    },
+    {
+      "tag": "electronic",
+      "category": "approach",
+      "weight": 0.743,
+      "raw_score": 26
+    },
+    {
+      "tag": "conceptual",
+      "category": "philosophy",
+      "weight": 0.743,
+      "raw_score": 26
+    },
+    {
+      "tag": "studio_as_instrument",
+      "category": "approach",
+      "weight": 0.571,
+      "raw_score": 20
+    },
+    {
+      "tag": "immersive",
+      "category": "approach",
+      "weight": 0.371,
+      "raw_score": 13
+    },
+    {
+      "tag": "collaborative",
+      "category": "philosophy",
+      "weight": 0.257,
+      "raw_score": 9
+    },
+    {
+      "tag": "emotional",
+      "category": "philosophy",
+      "weight": 0.229,
+      "raw_score": 8
+    },
+    {
+      "tag": "hybrid_production",
+      "category": "approach",
+      "weight": 0.229,
+      "raw_score": 8
+    },
+    {
+      "tag": "orchestration",
+      "category": "process",
+      "weight": 0.229,
+      "raw_score": 8
+    },
+    {
+      "tag": "vocal_processing",
+      "category": "process",
+      "weight": 0.2,
+      "raw_score": 7
+    },
+    {
+      "tag": "long_form",
+      "category": "approach",
+      "weight": 0.2,
+      "raw_score": 7
+    },
+    {
+      "tag": "autobiographical",
+      "category": "philosophy",
+      "weight": 0.171,
+      "raw_score": 6
+    },
+    {
+      "tag": "sound_design",
+      "category": "process",
+      "weight": 0.171,
+      "raw_score": 6
+    },
+    {
+      "tag": "maximalism",
+      "category": "process",
+      "weight": 0.171,
+      "raw_score": 6
+    },
+    {
+      "tag": "chance_operations",
+      "category": "process",
+      "weight": 0.171,
+      "raw_score": 6
+    },
+    {
+      "tag": "improvisation",
+      "category": "process",
+      "weight": 0.143,
+      "raw_score": 5
+    },
+    {
+      "tag": "sampling",
+      "category": "process",
+      "weight": 0.143,
+      "raw_score": 5
+    },
+    {
+      "tag": "texture",
+      "category": "process",
+      "weight": 0.143,
+      "raw_score": 5
+    },
+    {
+      "tag": "acoustic",
+      "category": "approach",
+      "weight": 0.143,
+      "raw_score": 5
+    },
+    {
+      "tag": "algorithmic",
+      "category": "process",
+      "weight": 0.114,
+      "raw_score": 4
+    },
+    {
+      "tag": "serious",
+      "category": "philosophy",
+      "weight": 0.114,
+      "raw_score": 4
+    },
+    {
+      "tag": "intuitive",
+      "category": "philosophy",
+      "weight": 0.114,
+      "raw_score": 4
+    },
+    {
+      "tag": "spatial_design",
+      "category": "process",
+      "weight": 0.086,
+      "raw_score": 3
+    },
+    {
+      "tag": "multi_instrumental",
+      "category": "approach",
+      "weight": 0.086,
+      "raw_score": 3
+    },
+    {
+      "tag": "innovative",
+      "category": "philosophy",
+      "weight": 0.086,
+      "raw_score": 3
+    },
+    {
+      "tag": "digital",
+      "category": "approach",
+      "weight": 0.086,
+      "raw_score": 3
+    },
+    {
+      "tag": "theatrical",
+      "category": "philosophy",
+      "weight": 0.086,
+      "raw_score": 3
+    },
+    {
+      "tag": "narrative",
+      "category": "philosophy",
+      "weight": 0.086,
+      "raw_score": 3
+    },
+    {
+      "tag": "spatialization",
+      "category": "process",
+      "weight": 0.086,
+      "raw_score": 3
+    },
+    {
+      "tag": "minimalism",
+      "category": "process",
+      "weight": 0.086,
+      "raw_score": 3
+    },
+    {
+      "tag": "analog",
+      "category": "approach",
+      "weight": 0.086,
+      "raw_score": 3
+    },
+    {
+      "tag": "collaborative_production",
+      "category": "approach",
+      "weight": 0.086,
+      "raw_score": 3
+    },
+    {
+      "tag": "repetition",
+      "category": "process",
+      "weight": 0.086,
+      "raw_score": 3
+    },
+    {
+      "tag": "scientific_approach",
+      "category": "philosophy",
+      "weight": 0.057,
+      "raw_score": 2
+    },
+    {
+      "tag": "abstract",
+      "category": "philosophy",
+      "weight": 0.057,
+      "raw_score": 2
+    },
+    {
+      "tag": "playful",
+      "category": "philosophy",
+      "weight": 0.057,
+      "raw_score": 2
+    },
+    {
+      "tag": "isolation",
+      "category": "philosophy",
+      "weight": 0.057,
+      "raw_score": 2
+    },
+    {
+      "tag": "hi_fi",
+      "category": "approach",
+      "weight": 0.057,
+      "raw_score": 2
+    },
+    {
+      "tag": "drone",
+      "category": "process",
+      "weight": 0.057,
+      "raw_score": 2
+    },
+    {
+      "tag": "spiritual",
+      "category": "philosophy",
+      "weight": 0.057,
+      "raw_score": 2
+    },
+    {
+      "tag": "political",
+      "category": "philosophy",
+      "weight": 0.057,
+      "raw_score": 2
+    },
+    {
+      "tag": "live_performance",
+      "category": "approach",
+      "weight": 0.057,
+      "raw_score": 2
+    }
+  ],
+  "meta": {
+    "count": 44,
+    "sources_checked": 13
+  }
+}

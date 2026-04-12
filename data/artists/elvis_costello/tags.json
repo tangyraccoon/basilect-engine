@@ -1,0 +1,224 @@
+{
+  "tags": [
+    {
+      "tag": "intellectual",
+      "category": "philosophy",
+      "weight": 1.0,
+      "raw_score": 28
+    },
+    {
+      "tag": "collaborative",
+      "category": "philosophy",
+      "weight": 0.571,
+      "raw_score": 16
+    },
+    {
+      "tag": "collaborative_production",
+      "category": "approach",
+      "weight": 0.571,
+      "raw_score": 16
+    },
+    {
+      "tag": "multi_instrumental",
+      "category": "approach",
+      "weight": 0.464,
+      "raw_score": 13
+    },
+    {
+      "tag": "experimental",
+      "category": "philosophy",
+      "weight": 0.429,
+      "raw_score": 12
+    },
+    {
+      "tag": "hybrid",
+      "category": "philosophy",
+      "weight": 0.393,
+      "raw_score": 11
+    },
+    {
+      "tag": "confrontational",
+      "category": "philosophy",
+      "weight": 0.393,
+      "raw_score": 11
+    },
+    {
+      "tag": "playful",
+      "category": "philosophy",
+      "weight": 0.357,
+      "raw_score": 10
+    },
+    {
+      "tag": "narrative",
+      "category": "philosophy",
+      "weight": 0.357,
+      "raw_score": 10
+    },
+    {
+      "tag": "orchestration",
+      "category": "process",
+      "weight": 0.286,
+      "raw_score": 8
+    },
+    {
+      "tag": "vocal_focused",
+      "category": "approach",
+      "weight": 0.25,
+      "raw_score": 7
+    },
+    {
+      "tag": "hybrid_production",
+      "category": "approach",
+      "weight": 0.25,
+      "raw_score": 7
+    },
+    {
+      "tag": "conceptual",
+      "category": "philosophy",
+      "weight": 0.25,
+      "raw_score": 7
+    },
+    {
+      "tag": "political",
+      "category": "philosophy",
+      "weight": 0.25,
+      "raw_score": 7
+    },
+    {
+      "tag": "emotional",
+      "category": "philosophy",
+      "weight": 0.179,
+      "raw_score": 5
+    },
+    {
+      "tag": "anti_commercial",
+      "category": "philosophy",
+      "weight": 0.179,
+      "raw_score": 5
+    },
+    {
+      "tag": "traditional",
+      "category": "philosophy",
+      "weight": 0.143,
+      "raw_score": 4
+    },
+    {
+      "tag": "literary",
+      "category": "philosophy",
+      "weight": 0.107,
+      "raw_score": 3
+    },
+    {
+      "tag": "layering",
+      "category": "process",
+      "weight": 0.107,
+      "raw_score": 3
+    },
+    {
+      "tag": "wordplay",
+      "category": "process",
+      "weight": 0.107,
+      "raw_score": 3
+    },
+    {
+      "tag": "stylistically_diverse",
+      "category": "approach",
+      "weight": 0.107,
+      "raw_score": 3
+    },
+    {
+      "tag": "iterative_refinement",
+      "category": "process",
+      "weight": 0.107,
+      "raw_score": 3
+    },
+    {
+      "tag": "reworking",
+      "category": "process",
+      "weight": 0.107,
+      "raw_score": 3
+    },
+    {
+      "tag": "prolific",
+      "category": "approach",
+      "weight": 0.107,
+      "raw_score": 3
+    },
+    {
+      "tag": "restless_reinvention",
+      "category": "philosophy",
+      "weight": 0.107,
+      "raw_score": 3
+    },
+    {
+      "tag": "call_and_response",
+      "category": "process",
+      "weight": 0.107,
+      "raw_score": 3
+    },
+    {
+      "tag": "short_form",
+      "category": "approach",
+      "weight": 0.107,
+      "raw_score": 3
+    },
+    {
+      "tag": "melodic_sophistication",
+      "category": "process",
+      "weight": 0.107,
+      "raw_score": 3
+    },
+    {
+      "tag": "contextual_analysis",
+      "category": "philosophy",
+      "weight": 0.107,
+      "raw_score": 3
+    },
+    {
+      "tag": "critical_perspective",
+      "category": "philosophy",
+      "weight": 0.107,
+      "raw_score": 3
+    },
+    {
+      "tag": "acoustic",
+      "category": "approach",
+      "weight": 0.071,
+      "raw_score": 2
+    },
+    {
+      "tag": "methodical",
+      "category": "philosophy",
+      "weight": 0.071,
+      "raw_score": 2
+    },
+    {
+      "tag": "studio_as_instrument",
+      "category": "approach",
+      "weight": 0.071,
+      "raw_score": 2
+    },
+    {
+      "tag": "hi_fi",
+      "category": "approach",
+      "weight": 0.071,
+      "raw_score": 2
+    },
+    {
+      "tag": "serious",
+      "category": "philosophy",
+      "weight": 0.071,
+      "raw_score": 2
+    },
+    {
+      "tag": "lo_fi",
+      "category": "approach",
+      "weight": 0.071,
+      "raw_score": 2
+    }
+  ],
+  "meta": {
+    "count": 36,
+    "sources_checked": 10
+  }
+}

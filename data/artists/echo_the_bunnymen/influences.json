@@ -1,0 +1,23 @@
+{
+  "influences": [
+    {
+      "name": "Hoagy Carmichael",
+      "context": "both McCulloch's comments and the song itself seem to exhibit the same notion that classic songwriter Hoagy Carmichael was getting at when he said: 'And then it happened, that queer sensation that this melody was bigger than me.'",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "David Bowie",
+      "context": "While the track's melody may have famously derived from bending 'Life on Mars' out of all recognition",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Russian balalaika bands",
+      "context": "we came back full of ideas of Russian balalaika bands, which Les [Pattinson] used for the middle of the song",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 3,
+    "sources_checked": 4
+  }
+}

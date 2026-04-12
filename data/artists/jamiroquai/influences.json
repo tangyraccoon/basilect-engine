@@ -1,0 +1,18 @@
+{
+  "influences": [
+    {
+      "name": "Jamiroquai",
+      "context": "An acid jazz phase, where I was listening to nothing but Jamiroquai.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "LCD Soundsystem",
+      "context": "We were just off the back of seeing LCD Soundsystem in LA, which was a very inspiring show, and we were instantly just like… looking up all the equipment they use and that kinda shit, trying to dial in some of those sounds and stuff.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 2,
+    "sources_checked": 3
+  }
+}

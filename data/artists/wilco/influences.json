@@ -1,0 +1,113 @@
+{
+  "influences": [
+    {
+      "name": "Bill Fay",
+      "context": "Wilco's music has been inspired by a wide variety of artists and styles including Bill Fay, the Beatles, and Television",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Beatles",
+      "context": "Wilco's music has been inspired by a wide variety of artists and styles including Bill Fay, the Beatles, and Television",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Television",
+      "context": "Wilco's music has been inspired by a wide variety of artists and styles including Bill Fay, the Beatles, and Television",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Byrds",
+      "context": "Influenced by The Byrds and Fairport Convention, the band considered Sky Blue Sky to be less experimental than previous releases",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Fairport Convention",
+      "context": "Influenced by The Byrds and Fairport Convention, the band considered Sky Blue Sky to be less experimental than previous releases",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "John Cale",
+      "context": "John Cale's Paris 1919 was credited by the band as providing a musical parallel. According to Tweedy, \"It was eye-opening that I wasn't the only person that felt like these worlds had a lot more in common than they'd been given credit for—that experimentation and avant-garde theory was not directly opposed to beauty, y'know?\"",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "John Lennon",
+      "context": "Other recording artists from the timespan cited as most influential by the band include John Lennon, Neil Young, and Brian Wilson",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Neil Young",
+      "context": "Other recording artists from the timespan cited as most influential by the band include John Lennon, Neil Young, and Brian Wilson",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Brian Wilson",
+      "context": "Other recording artists from the timespan cited as most influential by the band include John Lennon, Neil Young, and Brian Wilson",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Richard Lloyd",
+      "context": "As a gift for his thirty-fourth birthday, Tweedy received a private guitar lesson from Richard Lloyd of Television; Tweedy was a fan of the group and was particularly fond of the guitar work, which he wanted to incorporate into his music",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Jason & the Scorchers",
+      "context": "Uncle Tupelo was inspired by bands such as Jason & the Scorchers and the Minutemen, influencing the recording of Wilco's A.M.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Minutemen",
+      "context": "Uncle Tupelo was inspired by bands such as Jason & the Scorchers and the Minutemen, influencing the recording of Wilco's A.M.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Ornette Coleman",
+      "context": "Tweedy and O'Rourke enjoyed free jazz artists such as Ornette Coleman, Albert Ayler, and Derek Bailey",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Albert Ayler",
+      "context": "Tweedy and O'Rourke enjoyed free jazz artists such as Ornette Coleman, Albert Ayler, and Derek Bailey",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Derek Bailey",
+      "context": "Tweedy and O'Rourke enjoyed free jazz artists such as Ornette Coleman, Albert Ayler, and Derek Bailey",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Miles Davis",
+      "context": "they also listen to mainstream jazz by artists such as Miles Davis and John Coltrane",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "John Coltrane",
+      "context": "they also listen to mainstream jazz by artists such as Miles Davis and John Coltrane",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Bob Rock",
+      "context": "There's a story about someone, Bob Rock or somebody, who just comes in and puts a piece of cardboard over every meter in the entire house. Why do I need these? I'm using my ears.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Bob Dylan",
+      "context": "Are there any songwriters that are still mysterious to you, just in terms of what they are able to produce? Take Bob Dylan — you're a songwriter, you know how songwriting works, but can you still wrap your head around what he does? ... If I think about Bob Dylan, what he does, what he gets out of himself year after year, all I think is he must read and write and think about it a lot more than a lot of other people and he's been able to maintain that energy for a long time. He has protected the part of himself that is inspired, I think, in a way that I find inspiring myself.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Woody Guthrie",
+      "context": "In folk music — the musical tradition that I'm probably closest to — originality is not a primary concern. What the primary concern would be is telling the story effectively and making a connection and relating what you want to relate. Woody Guthrie always claimed that he never wrote an original melody on purpose, and it was only if he misremembered something he was trying to steal. At the same time, I think Woody Guthrie sounds like nobody else and he's an icon of individuality and originality and uniqueness.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Inuit carvers",
+      "context": "Then I read somewhere about how Inuit carvers create. As I understand it, they take a walrus tusk, or a piece of limestone, and they don't think, \"I'm going to carve an elk or a seal or an eagle.\" They simply carve, and as they go, they discover what's inside the walrus tusk they're cutting into. And they believe that was there, that they just opened it up and revealed it. That's what I'm like when I'm in my most ideal state of creativity",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 21,
+    "sources_checked": 6
+  }
+}

@@ -1,0 +1,236 @@
+{
+  "tags": [
+    {
+      "tag": "vocal_focused",
+      "category": "approach",
+      "weight": 1.0,
+      "raw_score": 32
+    },
+    {
+      "tag": "hybrid_production",
+      "category": "approach",
+      "weight": 0.656,
+      "raw_score": 21
+    },
+    {
+      "tag": "collaborative_production",
+      "category": "approach",
+      "weight": 0.625,
+      "raw_score": 20
+    },
+    {
+      "tag": "emotional",
+      "category": "philosophy",
+      "weight": 0.562,
+      "raw_score": 18
+    },
+    {
+      "tag": "experimental",
+      "category": "philosophy",
+      "weight": 0.531,
+      "raw_score": 17
+    },
+    {
+      "tag": "autobiographical",
+      "category": "philosophy",
+      "weight": 0.438,
+      "raw_score": 14
+    },
+    {
+      "tag": "vocal_processing",
+      "category": "process",
+      "weight": 0.375,
+      "raw_score": 12
+    },
+    {
+      "tag": "electronic",
+      "category": "approach",
+      "weight": 0.375,
+      "raw_score": 12
+    },
+    {
+      "tag": "playful",
+      "category": "philosophy",
+      "weight": 0.312,
+      "raw_score": 10
+    },
+    {
+      "tag": "collaborative",
+      "category": "philosophy",
+      "weight": 0.312,
+      "raw_score": 10
+    },
+    {
+      "tag": "narrative",
+      "category": "philosophy",
+      "weight": 0.281,
+      "raw_score": 9
+    },
+    {
+      "tag": "intuitive",
+      "category": "philosophy",
+      "weight": 0.25,
+      "raw_score": 8
+    },
+    {
+      "tag": "conceptual",
+      "category": "philosophy",
+      "weight": 0.219,
+      "raw_score": 7
+    },
+    {
+      "tag": "maximalism",
+      "category": "process",
+      "weight": 0.219,
+      "raw_score": 7
+    },
+    {
+      "tag": "orchestration",
+      "category": "process",
+      "weight": 0.219,
+      "raw_score": 7
+    },
+    {
+      "tag": "studio_as_instrument",
+      "category": "approach",
+      "weight": 0.188,
+      "raw_score": 6
+    },
+    {
+      "tag": "hi_fi",
+      "category": "approach",
+      "weight": 0.188,
+      "raw_score": 6
+    },
+    {
+      "tag": "sampling",
+      "category": "process",
+      "weight": 0.188,
+      "raw_score": 6
+    },
+    {
+      "tag": "hybrid",
+      "category": "philosophy",
+      "weight": 0.156,
+      "raw_score": 5
+    },
+    {
+      "tag": "political",
+      "category": "philosophy",
+      "weight": 0.156,
+      "raw_score": 5
+    },
+    {
+      "tag": "confrontational",
+      "category": "philosophy",
+      "weight": 0.125,
+      "raw_score": 4
+    },
+    {
+      "tag": "texture",
+      "category": "process",
+      "weight": 0.094,
+      "raw_score": 3
+    },
+    {
+      "tag": "spiritual",
+      "category": "philosophy",
+      "weight": 0.094,
+      "raw_score": 3
+    },
+    {
+      "tag": "live_performance",
+      "category": "approach",
+      "weight": 0.094,
+      "raw_score": 3
+    },
+    {
+      "tag": "empowerment",
+      "category": "philosophy",
+      "weight": 0.094,
+      "raw_score": 3
+    },
+    {
+      "tag": "character_focused",
+      "category": "approach",
+      "weight": 0.094,
+      "raw_score": 3
+    },
+    {
+      "tag": "visual_expression",
+      "category": "process",
+      "weight": 0.094,
+      "raw_score": 3
+    },
+    {
+      "tag": "shock_value",
+      "category": "philosophy",
+      "weight": 0.094,
+      "raw_score": 3
+    },
+    {
+      "tag": "lack_of_cohesion",
+      "category": "philosophy",
+      "weight": 0.094,
+      "raw_score": 3
+    },
+    {
+      "tag": "identity_driven",
+      "category": "philosophy",
+      "weight": 0.094,
+      "raw_score": 3
+    },
+    {
+      "tag": "synthesis",
+      "category": "process",
+      "weight": 0.094,
+      "raw_score": 3
+    },
+    {
+      "tag": "genre_blending",
+      "category": "philosophy",
+      "weight": 0.094,
+      "raw_score": 3
+    },
+    {
+      "tag": "layering",
+      "category": "process",
+      "weight": 0.062,
+      "raw_score": 2
+    },
+    {
+      "tag": "digital",
+      "category": "approach",
+      "weight": 0.062,
+      "raw_score": 2
+    },
+    {
+      "tag": "immersive",
+      "category": "approach",
+      "weight": 0.062,
+      "raw_score": 2
+    },
+    {
+      "tag": "multi_instrumental",
+      "category": "approach",
+      "weight": 0.062,
+      "raw_score": 2
+    },
+    {
+      "tag": "character_driven",
+      "category": "philosophy",
+      "weight": 0.062,
+      "raw_score": 2
+    },
+    {
+      "tag": "intellectual",
+      "category": "philosophy",
+      "weight": 0.062,
+      "raw_score": 2
+    }
+  ],
+  "meta": {
+    "count": 38,
+    "sources_checked": 11
+  }
+}

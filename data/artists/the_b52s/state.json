@@ -1,0 +1,49 @@
+{
+  "artist_id": "the_b52s",
+  "artist_name": "The B‐52s",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:58:34.607534+00:00",
+      "result": "0 urls"
+    },
+    "interview_scrape": {
+      "status": "skipped",
+      "timestamp": "2026-04-12T16:58:35.114769+00:00",
+      "result": "failed — skipping to unblock"
+    },
+    "interview_extract": {
+      "status": "skipped",
+      "timestamp": "2026-04-12T16:58:35.115957+00:00",
+      "result": "failed — skipping to unblock"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:58:39.003193+00:00",
+      "result": "2 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:58:41.789517+00:00",
+      "result": "2/2 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:58:50.953739+00:00",
+      "result": "8 passages"
+    },
+    "influence_extract": {
+      "status": "skipped",
+      "timestamp": "2026-04-12T16:58:51.464884+00:00",
+      "result": "no sources.json"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-12T16:58:56.258600+00:00",
+      "result": "13 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-12T16:58:56.258634+00:00"
+}

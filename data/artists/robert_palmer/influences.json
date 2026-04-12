@@ -1,0 +1,23 @@
+{
+  "influences": [
+    {
+      "name": "Billie Holiday",
+      "context": "In Malta, which is where I mainly grew up, on the AFN (American Forces Network)... Billie Holiday, Nat King Cole, Fats Domino... and Arabic music from the mosques!",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Nat King Cole",
+      "context": "In Malta, which is where I mainly grew up, on the AFN (American Forces Network)... Billie Holiday, Nat King Cole, Fats Domino... and Arabic music from the mosques!",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Fats Domino",
+      "context": "In Malta, which is where I mainly grew up, on the AFN (American Forces Network)... Billie Holiday, Nat King Cole, Fats Domino... and Arabic music from the mosques!",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 3,
+    "sources_checked": 3
+  }
+}

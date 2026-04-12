@@ -1,0 +1,28 @@
+{
+  "influences": [
+    {
+      "name": "Queen",
+      "context": "the blueprint for their music was, as singer Joe Elliott states, \"QUEEN meets AC/DC.\"",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "AC/DC",
+      "context": "the blueprint for their music was, as singer Joe Elliott states, \"QUEEN meets AC/DC.\"",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Thin Lizzy",
+      "context": "But doing that brief tour with Lizzy in 2011 really reconnected me to my first love you know. Because here I was on stage with Scott Gorham and Brian Downey and playing Black Rose and Emerald and Jailbreak and you know Don't Believe A Word. All these great songs. Great riffs and great solos. It totally just transported me back to being 16 again in my bedroom. Just trying to really learn how to play guitar.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Mott the Hoople",
+      "context": "The big 'whoa' that is sung as a gang vocal several times in this song was inspired by the 1973 Mott the Hoople song The Golden Age of Rock 'n' Roll where there is also a bit of that going on. Joe Elliott in particular is a huge fan of Mott",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 4,
+    "sources_checked": 3
+  }
+}

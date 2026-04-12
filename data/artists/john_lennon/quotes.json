@@ -1,0 +1,28 @@
+{
+  "quotes": [
+    {
+      "text": "We're either going to live or we're going to die. I consider that my work won't be finished until I'm dead and buried – and I hope that's a long time",
+      "publication": "Faroutmagazine.Co.Uk",
+      "date": "1980-12-08"
+    },
+    {
+      "text": "It's very easy…all you have to do is say what you mean, make it rhyme, and put a backbeat to it",
+      "publication": "Howtowritesongs.Org",
+      "date": ""
+    },
+    {
+      "text": "Tell the truth, and make it rhyme",
+      "publication": "Howtowritesongs.Org",
+      "date": ""
+    }
+  ],
+  "corpus_meta": {
+    "quote_count": 3,
+    "source_count": 2,
+    "date_range": [
+      "1980",
+      "1980"
+    ],
+    "corpus_valid": false
+  }
+}

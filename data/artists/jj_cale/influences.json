@@ -1,0 +1,18 @@
+{
+  "influences": [
+    {
+      "name": "Louvin Brothers",
+      "context": "first heading east to Nashville, and a stint as guitarist in a country caravan (backing the Louvin Brothers and Little Jimmie Dickens)",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Little Jimmie Dickens",
+      "context": "first heading east to Nashville, and a stint as guitarist in a country caravan (backing the Louvin Brothers and Little Jimmie Dickens)",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 2,
+    "sources_checked": 2
+  }
+}

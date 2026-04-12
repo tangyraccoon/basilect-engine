@@ -1,0 +1,83 @@
+{
+  "influences": [
+    {
+      "name": "Van Morrison",
+      "context": "We ran into Fran, I haven't seen Fran from Travis in a long time so I got to catch up with him a little bit. His new film is a critics' perspective of the band and him getting in touch with what it was like to be a fan again. It's a nice idea. We got to see Van Morrison and that was an unexpected surprise.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Radiohead",
+      "context": "we also listen to quite a bit of Radiohead",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Brian Eno",
+      "context": "I listen to deep Brian Eno tracks",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Tame Impala",
+      "context": "I've been listening to the 1975, Francis and the Lights and Tame Impala",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Whitney Houston",
+      "context": "As we do this interview, Whitney Houston is on. She's pretty mind blowing",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Coldplay",
+      "context": "its always a blend of Coldplay, U2, Miike Snow, The Killers, Kanye, Copeland, Stevie Wonder",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "U2",
+      "context": "its always a blend of Coldplay, U2, Miike Snow, The Killers, Kanye, Copeland, Stevie Wonder",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Miike Snow",
+      "context": "its always a blend of Coldplay, U2, Miike Snow, The Killers, Kanye, Copeland, Stevie Wonder",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Kanye",
+      "context": "its always a blend of Coldplay, U2, Miike Snow, The Killers, Kanye, Copeland, Stevie Wonder",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Copeland",
+      "context": "its always a blend of Coldplay, U2, Miike Snow, The Killers, Kanye, Copeland, Stevie Wonder",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Stevie Wonder",
+      "context": "its always a blend of Coldplay, U2, Miike Snow, The Killers, Kanye, Copeland, Stevie Wonder",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Sherwood Anderson",
+      "context": "When I was writing these songs, I was thinking of things like Sherwood Anderson's book Winesburg, Ohio",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "John Steinbeck",
+      "context": "or that book Pastures of Heaven [by John Steinbeck], where's it's all these short stories that take place in this one setting",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Bruce Springsteen",
+      "context": "It's a tale that could have easily fit on Bruce Springsteen's Nebraska, and it's unlike anything in the Killers catalog",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "John Prine",
+      "context": "It's not until you start getting into Springsteen and [John] Prine and stuff that you get to a third or fourth verse",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 15,
+    "sources_checked": 4
+  }
+}

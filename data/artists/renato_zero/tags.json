@@ -1,0 +1,146 @@
+{
+  "tags": [
+    {
+      "tag": "collaborative_production",
+      "category": "approach",
+      "weight": 1.0,
+      "raw_score": 9
+    },
+    {
+      "tag": "autobiographical",
+      "category": "philosophy",
+      "weight": 1.0,
+      "raw_score": 9
+    },
+    {
+      "tag": "confrontational",
+      "category": "philosophy",
+      "weight": 0.778,
+      "raw_score": 7
+    },
+    {
+      "tag": "conceptual",
+      "category": "philosophy",
+      "weight": 0.556,
+      "raw_score": 5
+    },
+    {
+      "tag": "orchestration",
+      "category": "process",
+      "weight": 0.556,
+      "raw_score": 5
+    },
+    {
+      "tag": "live_performance",
+      "category": "approach",
+      "weight": 0.556,
+      "raw_score": 5
+    },
+    {
+      "tag": "narrative",
+      "category": "philosophy",
+      "weight": 0.556,
+      "raw_score": 5
+    },
+    {
+      "tag": "emotional",
+      "category": "philosophy",
+      "weight": 0.556,
+      "raw_score": 5
+    },
+    {
+      "tag": "vocal_focused",
+      "category": "approach",
+      "weight": 0.556,
+      "raw_score": 5
+    },
+    {
+      "tag": "multi_instrumental",
+      "category": "approach",
+      "weight": 0.556,
+      "raw_score": 5
+    },
+    {
+      "tag": "intuitive",
+      "category": "philosophy",
+      "weight": 0.444,
+      "raw_score": 4
+    },
+    {
+      "tag": "hybrid_production",
+      "category": "approach",
+      "weight": 0.333,
+      "raw_score": 3
+    },
+    {
+      "tag": "experimental",
+      "category": "philosophy",
+      "weight": 0.333,
+      "raw_score": 3
+    },
+    {
+      "tag": "anti_commercial",
+      "category": "philosophy",
+      "weight": 0.333,
+      "raw_score": 3
+    },
+    {
+      "tag": "political",
+      "category": "philosophy",
+      "weight": 0.333,
+      "raw_score": 3
+    },
+    {
+      "tag": "serious",
+      "category": "philosophy",
+      "weight": 0.333,
+      "raw_score": 3
+    },
+    {
+      "tag": "social_commentary",
+      "category": "philosophy",
+      "weight": 0.333,
+      "raw_score": 3
+    },
+    {
+      "tag": "theatrical_production",
+      "category": "approach",
+      "weight": 0.333,
+      "raw_score": 3
+    },
+    {
+      "tag": "synthesis",
+      "category": "process",
+      "weight": 0.222,
+      "raw_score": 2
+    },
+    {
+      "tag": "short_form",
+      "category": "approach",
+      "weight": 0.222,
+      "raw_score": 2
+    },
+    {
+      "tag": "playful",
+      "category": "philosophy",
+      "weight": 0.222,
+      "raw_score": 2
+    },
+    {
+      "tag": "immersive",
+      "category": "approach",
+      "weight": 0.222,
+      "raw_score": 2
+    },
+    {
+      "tag": "self_produced",
+      "category": "approach",
+      "weight": 0.222,
+      "raw_score": 2
+    }
+  ],
+  "meta": {
+    "count": 23,
+    "sources_checked": 7
+  }
+}

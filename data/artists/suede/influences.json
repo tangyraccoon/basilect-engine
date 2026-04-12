@@ -1,0 +1,23 @@
+{
+  "influences": [
+    {
+      "name": "Deee-Lite",
+      "context": "My first albums were by Deee-Lite and Madonna.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Madonna",
+      "context": "My first albums were by Deee-Lite and Madonna.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Brazilian Girls",
+      "context": "That's one reason that I like to make music in other languages, like one of my favorite bands Brazilian Girls.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 3,
+    "sources_checked": 1
+  }
+}

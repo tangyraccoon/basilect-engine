@@ -1,0 +1,38 @@
+{
+  "influences": [
+    {
+      "name": "PJ Harvey",
+      "context": "I would say PJ Harvey, which is always an obvious one, but. She's, you know, she's, I think she's the reason a lot of women play guitar I know a lot about her, you know, she's such a, a powerful force and, but equally so, I don't know, gentle somehow, like it's such a sweet character. So that's, that's a big inspiration.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Geoff Barrow",
+      "context": "I learned so much working with them, like working with Beak and working with Geoff. You know, he's an old school, you know, the way he works with music.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Hawkwind",
+      "context": "So when I was growing up my favorite bands were people like Hawkwind, Black Sabbath, and Deep purple. I was a real rock nutcase and I think it was the whole Hawkwind thing that basically got me into synthesizers. They used to use a lot of synths on their albums and listening to them I just thought \"wow, i'd love to be able to do that\" so I bought my first synthesizer because it made some wind noises and some strange sounds and because that's what Hawkwind used to use. When I used to make those noises with one finger, I felt like a real rockstar because I could do what Hawkwind was doing.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Pink Floyd",
+      "context": "one of my favorite bands is Pink Floyd and if you listen to what they do you know that they're always putting strange things into their music and stuff. I think it gives it a little bit of an edge",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Michael Moorcock",
+      "context": "The band performed the ambitious 'CHRONICLE OF THE BLACK SWORD', as a spectacular live show inspired heavily by Michael Moorcock's epic saga, 'ELRIC'.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "E.M Forster",
+      "context": "Hawkwind return to Earth Studios in Devon to record new studio album based on a short sci-fi story by E.M Forster 'THE MACHINE STOPS'.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 6,
+    "sources_checked": 4
+  }
+}

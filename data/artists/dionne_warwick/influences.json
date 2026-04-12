@@ -1,0 +1,33 @@
+{
+  "influences": [
+    {
+      "name": "Arctic Monkeys",
+      "context": "Inspired by iconic figures such as the Arctic Monkeys and Jimi Hendrix",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Jimi Hendrix",
+      "context": "Inspired by iconic figures such as the Arctic Monkeys and Jimi Hendrix",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Laura Mvula",
+      "context": "I had an amazing conversation with my sister. She said she writes until 'The Thing' comes to her. And when she has 'The Thing,' it feels natural to continue down that path and explore... I asked her what her creative process is.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Hal David",
+      "context": "I felt that same way about Hal David. Hal David, I never refer to him as a lyricist. I always refer to him as a poet.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Burt Bacharach",
+      "context": "It's been an enjoyable one. One that I've had the pleasure of singing some of the greatest songs I feel that were ever written by two composers, [Burt] Bacharach and David.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 5,
+    "sources_checked": 4
+  }
+}

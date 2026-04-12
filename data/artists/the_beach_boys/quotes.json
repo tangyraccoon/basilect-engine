@@ -1,0 +1,33 @@
+{
+  "quotes": [
+    {
+      "text": "I don't accredit it to LSD, I accredit it to marijuana. I smoked marijuana just before I wrote it.",
+      "publication": "En.Wikipedia.Org",
+      "date": "2012"
+    },
+    {
+      "text": "[My mother] told me about dogs that would bark at people and then not bark at others, that a dog would pick up vibrations from these people that you can't see, but you can feel. [...] I didn't really understand too much of what it meant when I was just a boy. It scared me, the word \"vibrations.\"",
+      "publication": "En.Wikipedia.Org",
+      "date": ""
+    },
+    {
+      "text": "I had a lot of unfinished ideas, fragments of music I called 'feels.' Each feel represented a mood or an emotion I'd felt, and I planned to fit them together like a mosaic.",
+      "publication": "En.Wikipedia.Org",
+      "date": "1991"
+    },
+    {
+      "text": "Brian played for me a bunch of chords that would become \"Good Vibrations.\" He didn't have a title for it [...].",
+      "publication": "En.Wikipedia.Org",
+      "date": ""
+    }
+  ],
+  "corpus_meta": {
+    "quote_count": 4,
+    "source_count": 1,
+    "date_range": [
+      "1991",
+      "2012"
+    ],
+    "corpus_valid": false
+  }
+}

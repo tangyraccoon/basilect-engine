@@ -1,0 +1,38 @@
+{
+  "influences": [
+    {
+      "name": "Muddy Waters",
+      "context": "Inspired by artists such as Muddy Waters, Hank Williams, Chuck Berry and Elvis Presley, the album's sound spoke to the group's working class origins.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Hank Williams",
+      "context": "Inspired by artists such as Muddy Waters, Hank Williams, Chuck Berry and Elvis Presley, the album's sound spoke to the group's working class origins.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Chuck Berry",
+      "context": "Inspired by artists such as Muddy Waters, Hank Williams, Chuck Berry and Elvis Presley, the album's sound spoke to the group's working class origins.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Elvis Presley",
+      "context": "Inspired by artists such as Muddy Waters, Hank Williams, Chuck Berry and Elvis Presley, the album's sound spoke to the group's working class origins.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Bob Dylan",
+      "context": "I grew up totally believing in music as art. When I'd hear a great record like Bob Dylan's \"Blowin' in the Wind,\" or a great performance by Peter, Paul and Mary, it would just thrill my soul.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Peter, Paul and Mary",
+      "context": "I grew up totally believing in music as art. When I'd hear a great record like Bob Dylan's \"Blowin' in the Wind,\" or a great performance by Peter, Paul and Mary, it would just thrill my soul.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 6,
+    "sources_checked": 5
+  }
+}

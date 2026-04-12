@@ -1,0 +1,43 @@
+{
+  "influences": [
+    {
+      "name": "Boards of Canada",
+      "context": "There's music, like Boards of Canada and Ulrich Schnauss, that inspired me.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Ulrich Schnauss",
+      "context": "There's music, like Boards of Canada and Ulrich Schnauss, that inspired me.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Photek",
+      "context": "Photek [Rupert Parkes] was the first person that inspired me where I was like, 'What is that sound? I've never heard anything like that.'",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Roni Size",
+      "context": "But then I saw Roni Size's Reprazent in 1996. They came to San Francisco and played at Bimbo's. He had a drummer, and a bassist, and it just blew my mind.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Caribou",
+      "context": "The other artist was Caribou [Tape Op #37]. I'd seen him a few times and was like, 'Man, that's so engaging.' I think that planted the seed.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Tame Impala",
+      "context": "Tame Impala [Tape Op #95] has always been an interesting reference point to me, and it's been interesting to see their progression.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Peter Franco",
+      "context": "He's taught me a lot about what people are looking for, as well as how things can sound like a studio but have that live element to them.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 7,
+    "sources_checked": 5
+  }
+}

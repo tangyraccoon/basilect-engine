@@ -1,0 +1,88 @@
+{
+  "influences": [
+    {
+      "name": "John Coltrane",
+      "context": "We were listening to John Coltrane, Freddie Hubbard, Miles Davis, Ron Carter– the great jazz artists.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Freddie Hubbard",
+      "context": "We were listening to John Coltrane, Freddie Hubbard, Miles Davis, Ron Carter– the great jazz artists.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Miles Davis",
+      "context": "We were listening to John Coltrane, Freddie Hubbard, Miles Davis, Ron Carter– the great jazz artists.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Ron Carter",
+      "context": "We were listening to John Coltrane, Freddie Hubbard, Miles Davis, Ron Carter– the great jazz artists.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "James Brown",
+      "context": "We used to listen to James Brown a lot, Marvin Gaye, The Temptations.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Marvin Gaye",
+      "context": "We used to listen to James Brown a lot, Marvin Gaye, The Temptations. The grooves [and] the lyrics meant something– \"Since I Lost My Baby\", \"Beauty's Only Skin Deep.\" That's grown folks music. Marvin Gaye– with the songs and the hits that he had– to me that's grown folks music.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Temptations",
+      "context": "We used to listen to James Brown a lot, Marvin Gaye, The Temptations.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Cannonball Adderly",
+      "context": "Dee Tee was into Cannonball Adderly",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Philly Joe Jones",
+      "context": "George Brown liked Philly Joe Jones",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Thelonious Monk",
+      "context": "My father used to live in the same building as Thelonious Monk, and he became my godfather",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Lionel Richie",
+      "context": "Lionel Richie had The Commodores",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Maurice White",
+      "context": "Maurice White and Philip Bailey with Earth, Wind & Fire",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Eumir Deodato",
+      "context": "That was my brother and our producer, Eumir Deodato. Eumir told us to focus on the lead singer to some degree, and open up them tracks",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Charlie Parker",
+      "context": "growing up around Jersey City with all the jazz musicians that were around at that time who introduced us to listening to people like Charlie Parker, John Coltrane and all those guys",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Smokey Robinson & The Miracles",
+      "context": "we had to learn all these other songs, songs by a lot of the Motown artists – we'd have to learn tracks by the Temptations, Smokey Robinson & The Miracles, Diana Ross & The Supremes tracks… and what we realised was starting to happen was that we were starting to develop a sound that was influenced as much by the great jazz musicians as by the Motown songs",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Diana Ross & The Supremes",
+      "context": "we had to learn all these other songs, songs by a lot of the Motown artists – we'd have to learn tracks by the Temptations, Smokey Robinson & The Miracles, Diana Ross & The Supremes tracks… and what we realised was starting to happen was that we were starting to develop a sound that was influenced as much by the great jazz musicians as by the Motown songs",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 16,
+    "sources_checked": 4
+  }
+}

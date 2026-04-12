@@ -1,0 +1,80 @@
+{
+  "tags": [
+    {
+      "tag": "vocal_focused",
+      "category": "approach",
+      "weight": 1.0,
+      "raw_score": 8
+    },
+    {
+      "tag": "traditional",
+      "category": "philosophy",
+      "weight": 0.625,
+      "raw_score": 5
+    },
+    {
+      "tag": "multi_instrumental",
+      "category": "approach",
+      "weight": 0.5,
+      "raw_score": 4
+    },
+    {
+      "tag": "emotional",
+      "category": "philosophy",
+      "weight": 0.5,
+      "raw_score": 4
+    },
+    {
+      "tag": "acoustic",
+      "category": "approach",
+      "weight": 0.5,
+      "raw_score": 4
+    },
+    {
+      "tag": "singer_songwriter",
+      "category": "approach",
+      "weight": 0.375,
+      "raw_score": 3
+    },
+    {
+      "tag": "live_performance",
+      "category": "approach",
+      "weight": 0.375,
+      "raw_score": 3
+    },
+    {
+      "tag": "meditative",
+      "category": "philosophy",
+      "weight": 0.25,
+      "raw_score": 2
+    },
+    {
+      "tag": "orchestration",
+      "category": "process",
+      "weight": 0.25,
+      "raw_score": 2
+    },
+    {
+      "tag": "narrative",
+      "category": "philosophy",
+      "weight": 0.25,
+      "raw_score": 2
+    },
+    {
+      "tag": "hi_fi",
+      "category": "approach",
+      "weight": 0.125,
+      "raw_score": 1
+    },
+    {
+      "tag": "self_produced",
+      "category": "approach",
+      "weight": 0.125,
+      "raw_score": 1
+    }
+  ],
+  "meta": {
+    "count": 12,
+    "sources_checked": 6
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "quotes": [
+    {
+      "text": "Kelly still wants to make music and perform, and she's open to popping up on projects she enjoys, but nothing that requires an ongoing daily grind.",
+      "publication": "People",
+      "date": ""
+    },
+    {
+      "text": "It's hard when you have kids and you're like, 'OK, how do I address this?' I picked the [songs for this album] that I thought were, I mean there are definitely ones on there where 'Mommy was angry' but mommies get angry and that's healthy, that happens. I don't polish my life and show it to my children. They see it as a whole, which I think is healthier.",
+      "publication": "SheKnows",
+      "date": ""
+    },
+    {
+      "text": "I wrote these so long ago that I'm in a different place. But it is hard, because I've had to sing them all live. And I'm incapable of not feeling and going to that moment, so that's hard, emotionally, but I'm in a different place now than when I wrote these, and a much healthier place.",
+      "publication": "SheKnows",
+      "date": ""
+    }
+  ],
+  "corpus_meta": {
+    "quote_count": 3,
+    "source_count": 2,
+    "date_range": [],
+    "corpus_valid": false
+  }
+}

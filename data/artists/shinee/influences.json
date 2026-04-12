@@ -1,0 +1,18 @@
+{
+  "influences": [
+    {
+      "name": "112",
+      "context": "Jackson used elements from 90s R&B group 112's \"Cupid\" in the track",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Yunho from TVXQ",
+      "context": "But when I look at Yunho from TVXQ, I think it could be possible to dance.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 2,
+    "sources_checked": 4
+  }
+}

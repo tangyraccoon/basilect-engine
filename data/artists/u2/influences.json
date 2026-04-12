@@ -1,0 +1,18 @@
+{
+  "influences": [
+    {
+      "name": "Joey Ramone",
+      "context": "Ramone is a legend, but he was also someone U2 admired.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Brian Eno",
+      "context": "By the time U2 approached him in the mid-1980s, Eno was already celebrated as an innovator unbound by traditional rock conventions, someone 'forever altering the ways in which music is approached, composed, performed, and perceived'. Eno's background as an avant-garde musician shaped his production approach... This ethos – art-school imagination coupled with fearless experimentation – would profoundly influence U2's sound.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 2,
+    "sources_checked": 4
+  }
+}

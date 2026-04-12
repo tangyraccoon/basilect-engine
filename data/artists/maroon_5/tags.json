@@ -1,0 +1,200 @@
+{
+  "tags": [
+    {
+      "tag": "collaborative_production",
+      "category": "approach",
+      "weight": 1.0,
+      "raw_score": 29
+    },
+    {
+      "tag": "vocal_focused",
+      "category": "approach",
+      "weight": 0.793,
+      "raw_score": 23
+    },
+    {
+      "tag": "collaborative",
+      "category": "philosophy",
+      "weight": 0.759,
+      "raw_score": 22
+    },
+    {
+      "tag": "hybrid_production",
+      "category": "approach",
+      "weight": 0.483,
+      "raw_score": 14
+    },
+    {
+      "tag": "emotional",
+      "category": "philosophy",
+      "weight": 0.379,
+      "raw_score": 11
+    },
+    {
+      "tag": "hi_fi",
+      "category": "approach",
+      "weight": 0.379,
+      "raw_score": 11
+    },
+    {
+      "tag": "commercial",
+      "category": "philosophy",
+      "weight": 0.379,
+      "raw_score": 11
+    },
+    {
+      "tag": "multi_instrumental",
+      "category": "approach",
+      "weight": 0.345,
+      "raw_score": 10
+    },
+    {
+      "tag": "intuitive",
+      "category": "philosophy",
+      "weight": 0.345,
+      "raw_score": 10
+    },
+    {
+      "tag": "vocal_processing",
+      "category": "process",
+      "weight": 0.345,
+      "raw_score": 10
+    },
+    {
+      "tag": "electronic",
+      "category": "approach",
+      "weight": 0.31,
+      "raw_score": 9
+    },
+    {
+      "tag": "synthesis",
+      "category": "process",
+      "weight": 0.276,
+      "raw_score": 8
+    },
+    {
+      "tag": "playful",
+      "category": "philosophy",
+      "weight": 0.241,
+      "raw_score": 7
+    },
+    {
+      "tag": "layering",
+      "category": "process",
+      "weight": 0.241,
+      "raw_score": 7
+    },
+    {
+      "tag": "digital",
+      "category": "approach",
+      "weight": 0.172,
+      "raw_score": 5
+    },
+    {
+      "tag": "studio_as_instrument",
+      "category": "approach",
+      "weight": 0.172,
+      "raw_score": 5
+    },
+    {
+      "tag": "live_performance",
+      "category": "approach",
+      "weight": 0.103,
+      "raw_score": 3
+    },
+    {
+      "tag": "experimental",
+      "category": "philosophy",
+      "weight": 0.103,
+      "raw_score": 3
+    },
+    {
+      "tag": "contemporary_fusion",
+      "category": "philosophy",
+      "weight": 0.103,
+      "raw_score": 3
+    },
+    {
+      "tag": "diy",
+      "category": "philosophy",
+      "weight": 0.103,
+      "raw_score": 3
+    },
+    {
+      "tag": "fan_engagement",
+      "category": "philosophy",
+      "weight": 0.103,
+      "raw_score": 3
+    },
+    {
+      "tag": "autobiographical",
+      "category": "philosophy",
+      "weight": 0.103,
+      "raw_score": 3
+    },
+    {
+      "tag": "persistent_iteration",
+      "category": "philosophy",
+      "weight": 0.103,
+      "raw_score": 3
+    },
+    {
+      "tag": "platform_agnostic",
+      "category": "approach",
+      "weight": 0.069,
+      "raw_score": 2
+    },
+    {
+      "tag": "data_driven",
+      "category": "philosophy",
+      "weight": 0.069,
+      "raw_score": 2
+    },
+    {
+      "tag": "artist_controlled",
+      "category": "philosophy",
+      "weight": 0.069,
+      "raw_score": 2
+    },
+    {
+      "tag": "adaptive_workflow",
+      "category": "process",
+      "weight": 0.069,
+      "raw_score": 2
+    },
+    {
+      "tag": "short_form",
+      "category": "approach",
+      "weight": 0.069,
+      "raw_score": 2
+    },
+    {
+      "tag": "maximalism",
+      "category": "process",
+      "weight": 0.069,
+      "raw_score": 2
+    },
+    {
+      "tag": "hybrid",
+      "category": "philosophy",
+      "weight": 0.069,
+      "raw_score": 2
+    },
+    {
+      "tag": "evolution",
+      "category": "philosophy",
+      "weight": 0.069,
+      "raw_score": 2
+    },
+    {
+      "tag": "repetition",
+      "category": "process",
+      "weight": 0.034,
+      "raw_score": 1
+    }
+  ],
+  "meta": {
+    "count": 32,
+    "sources_checked": 12
+  }
+}

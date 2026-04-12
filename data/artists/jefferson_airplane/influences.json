@@ -1,0 +1,28 @@
+{
+  "influences": [
+    {
+      "name": "Johnny Cash",
+      "context": "I was in high school, and I was 13 and a half or 14 and playing guitar, and I had a Telecaster guitar that I'd bought with my newspaper route money for $115... We struck up a mutual friendship and a love of music, and we started up a band together doing cover songs of Johnny Cash and Buddy Holly and stuff like that.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Buddy Holly",
+      "context": "We struck up a mutual friendship and a love of music, and we started up a band together doing cover songs of Johnny Cash and Buddy Holly and stuff like that.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Little Richard",
+      "context": "he worked in the R&B field and backed up little Richard and all kinds of people",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Doors",
+      "context": "Paul Williams of Crawdaddy collared me around the time of Monterey Pop and told me to listen to your first album. He said it would be the most innovative rock album I would be likely to hear… and he would be right.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 4,
+    "sources_checked": 5
+  }
+}

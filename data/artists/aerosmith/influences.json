@@ -1,0 +1,53 @@
+{
+  "influences": [
+    {
+      "name": "Peter Green",
+      "context": "Musically, Joe had been inspired by Peter Green and Jack Bruce's use of a six-string bass, which he'd used to write the song.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Jack Bruce",
+      "context": "Musically, Joe had been inspired by Peter Green and Jack Bruce's use of a six-string bass, which he'd used to write the song.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Paul McCartney",
+      "context": "The vocal is reminiscent of some of [Paul] McCartney's hard blues numbers.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Beatles",
+      "context": "He began listening to The Beatles, the Stones and The Yardbirds",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Rolling Stones",
+      "context": "He began listening to The Beatles, the Stones and The Yardbirds",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Yardbirds",
+      "context": "He began listening to The Beatles, the Stones and The Yardbirds",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Alvin Lee",
+      "context": "Joe was really into [Ten Years After frontman] Alvin Lee",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Harry Nilsson",
+      "context": "He was a fan of Harry Nilsson's 1968 album Aerial Ballet, and loved the sound of the word 'Aero'",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "George Harrison",
+      "context": "Jack said, \"I want you to go write a solo for this. Think George Harrison.\" I went into this office with a copy of the song and my guitar and sat there for about two hours and came back out. That was it. We got it. I tried to think a little bit like George Harrison.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 9,
+    "sources_checked": 5
+  }
+}

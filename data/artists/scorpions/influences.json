@@ -1,0 +1,23 @@
+{
+  "influences": [
+    {
+      "name": "The Beatles",
+      "context": "I'm from the 50s, so I saw THE BEATLES and THE ROLLING STONES when they first started changing things. I was there and said, 'Yes, I want to do this. I believe in rock.'",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Rolling Stones",
+      "context": "I'm from the 50s, so I saw THE BEATLES and THE ROLLING STONES when they first started changing things. I was there and said, 'Yes, I want to do this. I believe in rock.'",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "AC/DC",
+      "context": "I don't want to hear AC/DC sounding like a pop band either",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 3,
+    "sources_checked": 3
+  }
+}

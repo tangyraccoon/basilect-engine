@@ -1,0 +1,33 @@
+{
+  "influences": [
+    {
+      "name": "Joe Losey",
+      "context": "The American director Joe Losey once said, \"Beware of a cozy British film set, because often, in the creative process, 'niceness' can lead to disaster.\"",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Abel Gance",
+      "context": "I borrowed from Abel Gance and suspended the camera on a pendulum to film Geldof thrashing around in the imagined pool of blood as Pink recalls his father's death.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Stanley Kubrick",
+      "context": "Many years later Stanley Kubrick shot much of Full Metal Jacket there, but in 1981 the industrial waste was still in evidence",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Roger Waters",
+      "context": "I'm heavily inspired by Roger Waters' basslines, and they are the reason I picked up bass",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "George Orwell",
+      "context": "Waters also took a more dominant role at the mic, as he dove into a savage theme straight out of George Orwell's Animal Farm.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 5,
+    "sources_checked": 6
+  }
+}

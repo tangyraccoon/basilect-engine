@@ -1,0 +1,68 @@
+{
+  "influences": [
+    {
+      "name": "Ozzy Osbourne",
+      "context": "[Ozzy's] one of the people that pushed, you know, the darkness forward and made that cool, made that something that was possible and provocative",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Black Sabbath",
+      "context": "That's a forever band that's just always going to be there. It's such a huge part of rock and roll.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Tom Petty",
+      "context": "Like when I saw Tom Petty and Mike Campbell with a '57 Les Paul worth 80 grand—it's part of the show.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Friedrich Nietzsche",
+      "context": "Then I read the Nietzsche philosophy about it. [Editor's note: \"God is dead\" is a widely quoted statement by German philosopher Friedrich Nietzsche.]",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Randy Rhoads",
+      "context": "Randy Rhoads was an influence on me to play lead guitar.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Mel Galley",
+      "context": "There was a kid three of four years older than me named Mel Galley, who also played guitar. I used to see him playing gigs in Cannock and he became my idol. I loved watching him play. I used to mimic everything he did, I tried to look like him.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "James Brown",
+      "context": "It was about the groove - the groove of James Brown. And the melodic vocals of someone like Stevie Wonder. Groove and melody is who I am.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Stevie Wonder",
+      "context": "I ended up hearing all this great music - Tamla Motown, Stevie Wonder, Al Green, Marvin Gaye. All of this music was slowly but surely etched into who I was.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Al Green",
+      "context": "I ended up hearing all this great music - Tamla Motown, Stevie Wonder, Al Green, Marvin Gaye. All of this music was slowly but surely etched into who I was.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Marvin Gaye",
+      "context": "I ended up hearing all this great music - Tamla Motown, Stevie Wonder, Al Green, Marvin Gaye. All of this music was slowly but surely etched into who I was.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "David Bowie",
+      "context": "I'd watched every incarnation of his through the seventies. He always used to tell me: 'You've got to keep changing, Glenn'. When he moved in, some of my clothes started disappearing – the bell-bottoms and boots vanished. He talked about cutting my hair. He was upset that I was still fascinated by Stevie Wonder. He turned me on to Nina Simone. He kept telling me that you have to keep changing.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Nina Simone",
+      "context": "He turned me on to Nina Simone. He kept telling me that you have to keep changing.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 12,
+    "sources_checked": 5
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "influences": [
+    {
+      "name": "Nicolas Ghesquière",
+      "context": "I think Nicolas' work straddles the line between fantastical and elegant. There are always crazy references—he told me they were watching a lot of Evangelion [a Japanese anime series] when working on the last collection—but the work is always very stylised and sophisticated. The clothes themselves are extremely high quality. I think I try to accomplish a similar thing in my work, so we vibe.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Enya",
+      "context": "The stunning future pop masterpiece Visions by Claire Boucher aka Grimes is inspired by Enya, Japanese anime, TLC and Aphex Twin",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "TLC",
+      "context": "The stunning future pop masterpiece Visions by Claire Boucher aka Grimes is inspired by Enya, Japanese anime, TLC and Aphex Twin",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Aphex Twin",
+      "context": "The stunning future pop masterpiece Visions by Claire Boucher aka Grimes is inspired by Enya, Japanese anime, TLC and Aphex Twin",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Palestrina",
+      "context": "and samples Renaissance composer Palestrina",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Timbaland",
+      "context": "Her dream? To be Timbaland and Lydia Lunch simultaneously",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Lydia Lunch",
+      "context": "Her dream? To be Timbaland and Lydia Lunch simultaneously",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 7,
+    "sources_checked": 3
+  }
+}

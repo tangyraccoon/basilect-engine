@@ -1,0 +1,43 @@
+{
+  "influences": [
+    {
+      "name": "His father (Jim McCartney)",
+      "context": "His father, a semi-professional musician, played a crucial role in introducing him to various genres, including: Music hall tunes, Broadway show songs, Jazz standards, Popular hits of the day",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "George Martin",
+      "context": "McCartney's early production experiences were shaped by his work with George Martin during The Beatles era. This mentorship provided: Technical knowledge of recording processes, Understanding of arrangement and orchestration, Insights into the producer's role in shaping a song",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "John Lennon",
+      "context": "The partnership between John Lennon and Paul McCartney was central to The Beatles' creative output. Their collaboration was characterized by: Shared musical influences and domain knowledge, Contrasting personalities that balanced each other, Ability to provide constructive criticism and feedback",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Geoffrey Chaucer",
+      "context": "He had a brilliant English literature teacher called Alan Durban. He got me to get interested [in writing] by telling me about The Miller's Tale [by Geoffrey Chaucer]. When I read it, I thought, 'This is great. It's really dirty.' And it gave me a lot of respect for Chaucer and then it got me interested in other bits of literature.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "William Shakespeare",
+      "context": "I did Hamlet and Henry V. At one point, I was thinking I'd love to direct a couple of plays. Hamlet was one.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Alan Durban",
+      "context": "I had a brilliant English literature teacher called Alan Durban. He got me to get interested [in writing] by telling me about The Miller's Tale [by Geoffrey Chaucer].",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Allen Ginsberg",
+      "context": "I once worked with Allen Ginsberg and Allen always used to say, 'First thought, best thought.' And then he would edit everything. But I think the theory is good.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 7,
+    "sources_checked": 6
+  }
+}

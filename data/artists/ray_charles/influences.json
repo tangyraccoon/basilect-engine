@@ -1,0 +1,78 @@
+{
+  "influences": [
+    {
+      "name": "John J Francis",
+      "context": "\"Play Mumma Play\" was an inspiration as a kid. When bands were having hits on the radio, he was the singer/songwriter who was, sort of, there with his guitar having a hit record, which made me think if he can do it, I can, too.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Ray Charles",
+      "context": "Ray Charles and those guys, great interpreters; Frank Sinatra. No wonder they had so many records out, you know what I mean?",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Elvis Presley",
+      "context": "I mean, when Elvis Presley went in the studio to make records, it must have been really fun, you know, because he didn't have to go through any creative labour apart from just sing the song, you know?",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Frank Sinatra",
+      "context": "Ray Charles and those guys, great interpreters; Frank Sinatra. No wonder they had so many records out, you know what I mean?",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Michael Jackson",
+      "context": "I'd have to say my biggest influences were Michael Jackson and Mariah Carey. I had almost every album of theirs.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Mariah Carey",
+      "context": "I'd have to say my biggest influences were Michael Jackson and Mariah Carey. I had almost every album of theirs.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Beethoven",
+      "context": "As a child, some of Charles' biggest musical influences were classical composers Beethoven, Johan Sebastian Bach, and Amadeus Mozart. Their pristine piano technique alongside their supernatural musical composition abilities was awe-inspiring and important towards Ray's musical development.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Johan Sebastian Bach",
+      "context": "As a child, some of Charles' biggest musical influences were classical composers Beethoven, Johan Sebastian Bach, and Amadeus Mozart. Their pristine piano technique alongside their supernatural musical composition abilities was awe-inspiring and important towards Ray's musical development.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Amadeus Mozart",
+      "context": "As a child, some of Charles' biggest musical influences were classical composers Beethoven, Johan Sebastian Bach, and Amadeus Mozart. Their pristine piano technique alongside their supernatural musical composition abilities was awe-inspiring and important towards Ray's musical development. In particular, Charles took a liking to Mozart, who he was first introduced to at the Florida School for the Deaf and Blind.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Nat King Cole",
+      "context": "After beginning to book paid shows, Charles stated his biggest influence as Nat King Cole, a prominent American jazz singer and pianist.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Wylie Pitman",
+      "context": "His musical curiosities were initially piqued at Wylie Pitman's Red Wing Cafe, a restaurant and jazz club that Ray's family was briefly living in. One night the club's owner played some simple songs and chords on an upright piano for Ray. The owner would later go on to help Ray learn the basics of piano technique.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Mr. Wiley",
+      "context": "His musical curiosity was sparked at Red Wing Café, where owner Mr. Wiley played boogie woogie on an upright piano.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Lowell Fulson",
+      "context": "His sound started to toughen in the early '50s as he toured nationwide with blues singer Lowell Fulson",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Guitar Slim",
+      "context": "went to New Orleans to work with Guitar Slim",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 14,
+    "sources_checked": 4
+  }
+}

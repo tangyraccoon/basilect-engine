@@ -1,0 +1,53 @@
+{
+  "influences": [
+    {
+      "name": "Bach",
+      "context": "I have many. Mostly classical composers who affected my musical experience in my earlier life. Bach, Beethoven, Schoenberg, Berg, Mozart, Schubert, Menotti…I just can't list them all.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Beethoven",
+      "context": "I have many. Mostly classical composers who affected my musical experience in my earlier life. Bach, Beethoven, Schoenberg, Berg, Mozart, Schubert, Menotti…I just can't list them all.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Schoenberg",
+      "context": "I have many. Mostly classical composers who affected my musical experience in my earlier life. Bach, Beethoven, Schoenberg, Berg, Mozart, Schubert, Menotti…I just can't list them all.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Berg",
+      "context": "I have many. Mostly classical composers who affected my musical experience in my earlier life. Bach, Beethoven, Schoenberg, Berg, Mozart, Schubert, Menotti…I just can't list them all.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Mozart",
+      "context": "I have many. Mostly classical composers who affected my musical experience in my earlier life. Bach, Beethoven, Schoenberg, Berg, Mozart, Schubert, Menotti…I just can't list them all.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Schubert",
+      "context": "I have many. Mostly classical composers who affected my musical experience in my earlier life. Bach, Beethoven, Schoenberg, Berg, Mozart, Schubert, Menotti…I just can't list them all.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Menotti",
+      "context": "I have many. Mostly classical composers who affected my musical experience in my earlier life. Bach, Beethoven, Schoenberg, Berg, Mozart, Schubert, Menotti…I just can't list them all.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "John Cage",
+      "context": "I enjoyed my friendship with John Cage. With Ornette, we are still good friends.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "John Lennon",
+      "context": "a specially curated room dedicated to Ono's musical and sonic works (including collaborations with the likes of John Cage and her late husband, renowned musician John Lennon)",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 9,
+    "sources_checked": 4
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "influences": [
+    {
+      "name": "Bach",
+      "context": "Once I understood Bach's music, I wanted to be a concert pianist",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Whitney Houston",
+      "context": "I remember trying to learn a Whitney Houston song. It was a little bit out of range for me, too high, even at that age.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Amy Winehouse",
+      "context": "So I learned an Amy Winehouse song, and my dad came into the living room and was like, 'Hey, you're not that bad.'",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Donny Hathaway",
+      "context": "I was deeply inspired by live albums from Donny Hathaway, Bill Withers, Roberta Flack, Joni Mitchell, Dusty Springfield, and Nina Simone.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Bill Withers",
+      "context": "I was deeply inspired by live albums from Donny Hathaway, Bill Withers, Roberta Flack, Joni Mitchell, Dusty Springfield, and Nina Simone.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Roberta Flack",
+      "context": "I was deeply inspired by live albums from Donny Hathaway, Bill Withers, Roberta Flack, Joni Mitchell, Dusty Springfield, and Nina Simone.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Joni Mitchell",
+      "context": "I was deeply inspired by live albums from Donny Hathaway, Bill Withers, Roberta Flack, Joni Mitchell, Dusty Springfield, and Nina Simone.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Dusty Springfield",
+      "context": "I was deeply inspired by live albums from Donny Hathaway, Bill Withers, Roberta Flack, Joni Mitchell, Dusty Springfield, and Nina Simone.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Nina Simone",
+      "context": "I was deeply inspired by live albums from Donny Hathaway, Bill Withers, Roberta Flack, Joni Mitchell, Dusty Springfield, and Nina Simone.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Labi Siffre",
+      "context": "He's one of my big inspirations.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 10,
+    "sources_checked": 2
+  }
+}

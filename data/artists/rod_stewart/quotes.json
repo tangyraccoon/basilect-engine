@@ -1,0 +1,18 @@
+{
+  "quotes": [
+    {
+      "text": "My inspiration still remains with some of the great black singers of our time, whether it's Sam Cooke, Billie Holiday, Otis Redding",
+      "publication": "Grammy",
+      "date": "2014"
+    }
+  ],
+  "corpus_meta": {
+    "quote_count": 1,
+    "source_count": 1,
+    "date_range": [
+      "2014",
+      "2014"
+    ],
+    "corpus_valid": false
+  }
+}

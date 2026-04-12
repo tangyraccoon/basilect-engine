@@ -1,0 +1,53 @@
+{
+  "influences": [
+    {
+      "name": "Symbolism (French literary movement)",
+      "context": "Debussy was very inspired by Symbolism, the French literary style of his period, both musically and personally, and his music reflects the Symbolist movement's interests in the esoteric and indefinite, in the spiritual and romantic idealism that rejected the naturalism and realism that preceded this time.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Javanese gamelan musicians",
+      "context": "Another notable influence on Debussy was the Javanese gamelan music that he heard at the World's Fair in 1889. In general, he demonstrates fondness for pentatonic scales, melodies, rhythms, and the ensemble textures of the Javanese music.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Richard Wagner",
+      "context": "During Debussy's visits to Bayreuth (a town in Bavaria, Germany), he was inspired by Wagner and his operas. It's likely that Debussy was most attracted to Wagner's pushing the boundaries of traditional harmony, as seen by Wagner's usage of extreme chromaticism, harmonic suspension, and the 'Tristan chord.'",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Muzio Clementi",
+      "context": "The Children's Corner Suite features shades of classicism such as Clementi's influence as well as American ragtime music which was gaining popularity at the time.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Stéphane Mallarmé",
+      "context": "In 1894, Debussy wrote one of his most famous works, Prélude à l'après-midi d'un faune (Prelude to the Afternoon of a Faun). It is based on an erotic poem written by Stéphane Mallarmé, a notable figure in the Symbolist movement.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Nadezhda von Meck",
+      "context": "During his youth, he was able to travel around Europe with Nadezhda von Meck, a supporter of Tchaikovsky who hired him to teach piano to her children. Additionally, he acquired various musical and cultural experiences during his time in Russia.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Paul Verlaine",
+      "context": "Debussy was influenced by literature, particularly the works of poets like Stéphane Mallarmé and Paul Verlaine.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Javanese gamelan",
+      "context": "Debussy was heavily influenced by Eastern music, particularly the Javanese gamelan, which he encountered at the 1889 Paris Exposition.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Liszt",
+      "context": "You get something of it in Liszt, but the idea that you could just take what was like background, was wallpaper, and actually make that wallpaper something that was the focus of your artistic vision is something that started with Debussy.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 9,
+    "sources_checked": 5
+  }
+}

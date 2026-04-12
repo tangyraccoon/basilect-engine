@@ -1,0 +1,48 @@
+{
+  "influences": [
+    {
+      "name": "Joe Meek",
+      "context": "I like this guy named Joe Meek a lot, he used to some pretty fucked up sounding recordings in the 60's",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Harry Nilsson",
+      "context": "I tried to write one of those choppy bouncy chord harry nilsson songs, except on a weird ass synth patch",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "John Maus",
+      "context": "Even when I was 17, and cheap, I was into John Maus, Ariel Pink, Tomita [Isao], and R. Stevie Moore. They were all doing it at home.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Ariel Pink",
+      "context": "Even when I was 17, and cheap, I was into John Maus, Ariel Pink, Tomita [Isao], and R. Stevie Moore. They were all doing it at home.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Tomita (Isao Tomita)",
+      "context": "Even when I was 17, and cheap, I was into John Maus, Ariel Pink, Tomita [Isao], and R. Stevie Moore. They were all doing it at home.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "R. Stevie Moore",
+      "context": "Even when I was 17, and cheap, I was into John Maus, Ariel Pink, Tomita [Isao], and R. Stevie Moore. They were all doing it at home.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Beatles",
+      "context": "I'd learned about it from The Beatles, but they obviously did it from one 1-inch, 4-track to another, so they didn't lose a lot of shit.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Neil Young",
+      "context": "I've always been trying to make something that sounds like Harvest by Neil Young. Clean, right up in your face.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 8,
+    "sources_checked": 5
+  }
+}

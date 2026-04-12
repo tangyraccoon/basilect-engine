@@ -1,0 +1,73 @@
+{
+  "influences": [
+    {
+      "name": "George Balanchine",
+      "context": "As far as George the choreographer, I'm more inclined to feel the same way that he does about what I do.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Pete Townshend",
+      "context": "Pete Townshend thought about Tommy for years before he actually wrote any songs for it.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Willie Nelson",
+      "context": "I've been thinking about it for a while ever since I heard Willie's Stardust record in the late '70s. I thought I could do that, too.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Staple Singers",
+      "context": "Listening to the Staple Singers for the first time at 14, he said, he couldn't sleep that night. 'It just went through me like my body was invisible.'",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Harry James",
+      "context": "Once you think you know the song, then you have go and see how other people have done it. One version led to another until we were starting to assimilate even Harry James' arrangements.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Pérez Prado",
+      "context": "One version led to another until we were starting to assimilate even Harry James' arrangements. Or even Pérez Prado's.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Bill Monroe",
+      "context": "I mean, there are no drums in a Bill Monroe band.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Hank Williams",
+      "context": "Hank Williams didn't use them either... Hank Williams did that, too. He sang to you.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Frank Sinatra",
+      "context": "People talk about Frank [Sinatra] all the time — and they should talk about Frank — but he had the greatest arrangers... I would have gotten that subliminally from Frank many years ago... Frank sang to you, not at you, like so many pop singers today.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Roy Hamilton",
+      "context": "'Ebb Tide' was a song that I kind of grew up with... Roy Hamilton did it and he was a fantastic singer, and he did it in a grandiose way.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Little Richard",
+      "context": "Initially inspired by the performances of Little Richard, and the songwriting of Woody Guthrie, Robert Johnson, and Hank Williams",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Woody Guthrie",
+      "context": "Initially inspired by the performances of Little Richard, and the songwriting of Woody Guthrie, Robert Johnson, and Hank Williams",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Robert Johnson",
+      "context": "Initially inspired by the performances of Little Richard, and the songwriting of Woody Guthrie, Robert Johnson, and Hank Williams",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 13,
+    "sources_checked": 5
+  }
+}

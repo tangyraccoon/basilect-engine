@@ -1,0 +1,63 @@
+{
+  "influences": [
+    {
+      "name": "Billie Holiday",
+      "context": "What musician's have been the most inspiring to you? It's hard to name all of the musicians that have and will continue to inspire me, as the list grows and changes with the wind. To name a couple: Billie Holiday",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Chantels",
+      "context": "To name a couple: Billie Holiday, The Chantels, The Shangri-las, Johnny Cash, Mazzy Star, Velvet Underground, Julie London, Chelsea Wolfe, Sam Cooke, Patsy Cline, Etta James, and the long list continues.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Shangri-las",
+      "context": "To name a couple: Billie Holiday, The Chantels, The Shangri-las, Johnny Cash, Mazzy Star, Velvet Underground, Julie London, Chelsea Wolfe, Sam Cooke, Patsy Cline, Etta James, and the long list continues.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Johnny Cash",
+      "context": "To name a couple: Billie Holiday, The Chantels, The Shangri-las, Johnny Cash, Mazzy Star, Velvet Underground, Julie London, Chelsea Wolfe, Sam Cooke, Patsy Cline, Etta James, and the long list continues.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Mazzy Star",
+      "context": "To name a couple: Billie Holiday, The Chantels, The Shangri-las, Johnny Cash, Mazzy Star, Velvet Underground, Julie London, Chelsea Wolfe, Sam Cooke, Patsy Cline, Etta James, and the long list continues.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Velvet Underground",
+      "context": "To name a couple: Billie Holiday, The Chantels, The Shangri-las, Johnny Cash, Mazzy Star, Velvet Underground, Julie London, Chelsea Wolfe, Sam Cooke, Patsy Cline, Etta James, and the long list continues.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Julie London",
+      "context": "To name a couple: Billie Holiday, The Chantels, The Shangri-las, Johnny Cash, Mazzy Star, Velvet Underground, Julie London, Chelsea Wolfe, Sam Cooke, Patsy Cline, Etta James, and the long list continues.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Chelsea Wolfe",
+      "context": "To name a couple: Billie Holiday, The Chantels, The Shangri-las, Johnny Cash, Mazzy Star, Velvet Underground, Julie London, Chelsea Wolfe, Sam Cooke, Patsy Cline, Etta James, and the long list continues.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Sam Cooke",
+      "context": "To name a couple: Billie Holiday, The Chantels, The Shangri-las, Johnny Cash, Mazzy Star, Velvet Underground, Julie London, Chelsea Wolfe, Sam Cooke, Patsy Cline, Etta James, and the long list continues.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Patsy Cline",
+      "context": "To name a couple: Billie Holiday, The Chantels, The Shangri-las, Johnny Cash, Mazzy Star, Velvet Underground, Julie London, Chelsea Wolfe, Sam Cooke, Patsy Cline, Etta James, and the long list continues.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Etta James",
+      "context": "To name a couple: Billie Holiday, The Chantels, The Shangri-las, Johnny Cash, Mazzy Star, Velvet Underground, Julie London, Chelsea Wolfe, Sam Cooke, Patsy Cline, Etta James, and the long list continues.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 11,
+    "sources_checked": 2
+  }
+}

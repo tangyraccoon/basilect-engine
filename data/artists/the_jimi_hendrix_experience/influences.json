@@ -1,0 +1,38 @@
+{
+  "influences": [
+    {
+      "name": "John Coltrane",
+      "context": "Hendrix's performance has been compared to jazz saxophonist John Coltrane's approach to improvisation",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Miles Davis",
+      "context": "Jimi liked what I had done with Kind of Blue and some other stuff and wanted to add more jazz elements to what he was doing",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Philip Jose Farmer",
+      "context": "Hendrix was a big science fiction fan, and the inspiration came from a Philip Jose Farmer book, Earth Abides",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Beatles",
+      "context": "when I was eleven, my favorite album for months on end was the Beatles 'Revolver,' which featured the crazy-psychedelic recording 'Tomorrow Never Knows.' If that won't imprint a young mind, I don't know what will",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Muddy Waters",
+      "context": "Voodoo Chile is a slow-burning blues song based on the Muddy Waters song 'Rollin' Stone,' but with new lyrics",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Bob Dylan",
+      "context": "Written by Bob Dylan and originally released on the 1967 album 'John Wesley Harding,' All Along the Watchtower",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 6,
+    "sources_checked": 2
+  }
+}

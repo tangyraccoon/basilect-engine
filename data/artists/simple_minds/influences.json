@@ -1,0 +1,73 @@
+{
+  "influences": [
+    {
+      "name": "Jimmy Iovine",
+      "context": "Simple Minds began consciously writing for large arenas. This ambition is evident in their collaborations with producers like Jimmy Iovine.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Who",
+      "context": "I grew up with their music, and when I saw them recently [as part of a run billed as their last big tour] I felt emotional because I realised that it really is the end of an era for them – and for bands such as Simple Minds, as well.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Beatles",
+      "context": "hearing \"Eleanor Rigby\" coming from the kitchen table radio while getting ready for school",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Doors",
+      "context": "hearing The Doors' \"Riders On the Storm\" while riding in his father's new car",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "David Bowie",
+      "context": "hearing a mix of glam (David Bowie, Marc Bolan) and prog-rock (Yes, Genesis) when he was 13 that fueled his love of music",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Marc Bolan",
+      "context": "hearing a mix of glam (David Bowie, Marc Bolan) and prog-rock (Yes, Genesis) when he was 13 that fueled his love of music",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Yes",
+      "context": "hearing a mix of glam (David Bowie, Marc Bolan) and prog-rock (Yes, Genesis) when he was 13 that fueled his love of music",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Genesis",
+      "context": "hearing a mix of glam (David Bowie, Marc Bolan) and prog-rock (Yes, Genesis) when he was 13 that fueled his love of music",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "T. Rex",
+      "context": "suggest they play a T. Rex song",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Julia Cameron",
+      "context": "Then about ten years ago I read a book on creative writing by Julia Cameron where she talked about the idea of daily notes and daily pages. She wrote that creativity is a muscle that needs to be flexed.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Andy Wright",
+      "context": "Our producer on the new album, Andy Wright, was the first guy to say to me, 'Your second verse should be your first verse.' He told me that if I made it the first verse it's much more personal.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Edward Hopper",
+      "context": "I'll see a picture, a room, a landscape, or a person that will remind me of an Edward Hopper painting.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Mikhail Bulgakov",
+      "context": "My favorite book is by Bulgakov called The Master and Margarita.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 13,
+    "sources_checked": 5
+  }
+}

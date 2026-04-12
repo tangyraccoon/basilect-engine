@@ -1,0 +1,33 @@
+{
+  "quotes": [
+    {
+      "text": "It was expressing the joy that I felt on Christmas and the fact that I felt very lonely. I missed my family, I missed Christmas carols with them. I missed the whole Christmas scene.",
+      "publication": "NPR",
+      "date": ""
+    },
+    {
+      "text": "I was working on my Christmas album and the producer asked me to write a Christmas song, to which I thought 'Ooh! How am I going to do that?' 'Feliz Navidad' came and it makes a lot of people happy.",
+      "publication": "The Tamron Hall Show",
+      "date": "2021"
+    },
+    {
+      "text": "If I had left in Spanish only, then I knew the English stations might not play it, so I decided to write an English lyric, 'I want to wish you a merry Christmas.' And then there was no way the stations could lock that song out of the programming.",
+      "publication": "Billboard",
+      "date": ""
+    },
+    {
+      "text": "I don't know how 'Feliz Navidad' became such a favorite. But, I would like to say that I think what made 'Feliz Navidad' such a favorite is the simplicity of the song. The song, in total lyric-wise, because it's bilingual, has 19 words.",
+      "publication": "GRAMMY",
+      "date": ""
+    }
+  ],
+  "corpus_meta": {
+    "quote_count": 4,
+    "source_count": 4,
+    "date_range": [
+      "2021",
+      "2021"
+    ],
+    "corpus_valid": false
+  }
+}

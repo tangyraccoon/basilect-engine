@@ -1,0 +1,194 @@
+{
+  "tags": [
+    {
+      "tag": "orchestration",
+      "category": "process",
+      "weight": 1.0,
+      "raw_score": 20
+    },
+    {
+      "tag": "instrumental_focused",
+      "category": "approach",
+      "weight": 0.9,
+      "raw_score": 18
+    },
+    {
+      "tag": "multi_instrumental",
+      "category": "approach",
+      "weight": 0.65,
+      "raw_score": 13
+    },
+    {
+      "tag": "experimental",
+      "category": "philosophy",
+      "weight": 0.55,
+      "raw_score": 11
+    },
+    {
+      "tag": "conceptual",
+      "category": "philosophy",
+      "weight": 0.55,
+      "raw_score": 11
+    },
+    {
+      "tag": "collaborative",
+      "category": "philosophy",
+      "weight": 0.55,
+      "raw_score": 11
+    },
+    {
+      "tag": "acoustic",
+      "category": "approach",
+      "weight": 0.45,
+      "raw_score": 9
+    },
+    {
+      "tag": "hybrid_production",
+      "category": "approach",
+      "weight": 0.45,
+      "raw_score": 9
+    },
+    {
+      "tag": "arrangement",
+      "category": "process",
+      "weight": 0.45,
+      "raw_score": 9
+    },
+    {
+      "tag": "live_performance",
+      "category": "approach",
+      "weight": 0.4,
+      "raw_score": 8
+    },
+    {
+      "tag": "collaborative_production",
+      "category": "approach",
+      "weight": 0.3,
+      "raw_score": 6
+    },
+    {
+      "tag": "playful",
+      "category": "philosophy",
+      "weight": 0.3,
+      "raw_score": 6
+    },
+    {
+      "tag": "hybrid",
+      "category": "philosophy",
+      "weight": 0.15,
+      "raw_score": 3
+    },
+    {
+      "tag": "respectful_reinterpretation",
+      "category": "philosophy",
+      "weight": 0.15,
+      "raw_score": 3
+    },
+    {
+      "tag": "arrangement-focused",
+      "category": "process",
+      "weight": 0.15,
+      "raw_score": 3
+    },
+    {
+      "tag": "reinterpretation",
+      "category": "process",
+      "weight": 0.15,
+      "raw_score": 3
+    },
+    {
+      "tag": "maximalism",
+      "category": "process",
+      "weight": 0.15,
+      "raw_score": 3
+    },
+    {
+      "tag": "gimmick_based",
+      "category": "philosophy",
+      "weight": 0.15,
+      "raw_score": 3
+    },
+    {
+      "tag": "single_instrument",
+      "category": "approach",
+      "weight": 0.15,
+      "raw_score": 3
+    },
+    {
+      "tag": "collage",
+      "category": "process",
+      "weight": 0.1,
+      "raw_score": 2
+    },
+    {
+      "tag": "boundary_erasing",
+      "category": "philosophy",
+      "weight": 0.1,
+      "raw_score": 2
+    },
+    {
+      "tag": "prolific",
+      "category": "philosophy",
+      "weight": 0.1,
+      "raw_score": 2
+    },
+    {
+      "tag": "intuitive",
+      "category": "philosophy",
+      "weight": 0.1,
+      "raw_score": 2
+    },
+    {
+      "tag": "immersive",
+      "category": "approach",
+      "weight": 0.1,
+      "raw_score": 2
+    },
+    {
+      "tag": "dynamic_performance",
+      "category": "philosophy",
+      "weight": 0.1,
+      "raw_score": 2
+    },
+    {
+      "tag": "independent",
+      "category": "philosophy",
+      "weight": 0.1,
+      "raw_score": 2
+    },
+    {
+      "tag": "studio_as_instrument",
+      "category": "approach",
+      "weight": 0.1,
+      "raw_score": 2
+    },
+    {
+      "tag": "expressive_dynamics",
+      "category": "process",
+      "weight": 0.1,
+      "raw_score": 2
+    },
+    {
+      "tag": "emotional",
+      "category": "philosophy",
+      "weight": 0.1,
+      "raw_score": 2
+    },
+    {
+      "tag": "melodramatic",
+      "category": "philosophy",
+      "weight": 0.1,
+      "raw_score": 2
+    },
+    {
+      "tag": "arrangement_focused",
+      "category": "process",
+      "weight": 0.1,
+      "raw_score": 2
+    }
+  ],
+  "meta": {
+    "count": 31,
+    "sources_checked": 8
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "influences": [
+    {
+      "name": "Kevin Costner",
+      "context": "comes from Field of Dreams, the '80s fantasy baseball film starring Kevin Costner",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Wim Hof",
+      "context": "breath work came in, kind of in more recent years, after its original iteration in Kundalini by the Wim Hof Method, which has a more driving and masculine energy to it",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Patrick McEwen",
+      "context": "the down-regulating breaths that Patrick McEwen describes in the oxygen advantage. I use all these things for different energetic states",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Frou Frou",
+      "context": "A car travelled along a rain-soaked road, thunder rumbling ominously in the distance. This might sound like an insignificant moment for many - it wasn't for Jon Hopkins. The producer, 21 at the time, sat passenger side listening to demos by Frou Frou: an electronic duo composed of Imogen Heap and Guy Sigsworth. He was mesmerised.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Pet Shop Boys",
+      "context": "Hopkins was getting his inspiration from the 20th century instead. Intoxicated by the synthesisers of Pet Shop Boys and Depeche Mode records, he spent the money made from piano recitals on a Roland D-20.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Depeche Mode",
+      "context": "Hopkins was getting his inspiration from the 20th century instead. Intoxicated by the synthesisers of Pet Shop Boys and Depeche Mode records, he spent the money made from piano recitals on a Roland D-20.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Brian Eno",
+      "context": "When colleague Leo Abrahams introduced Hopkins to Brian Eno, it led to numerous jamming sessions, collaborations",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "David Holmes",
+      "context": "You also worked with David Holmes. How was it? His music is very soulful and beautiful. We co-wrote some things for Holy Pictures and it was great; it's been a while since I last saw him but he's been very supportive throughout the years. I am very fond of him.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Warp Records artists",
+      "context": "I love really dark, heavy stuff that just attacks you, like a lot of the Warp Records stuff",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 9,
+    "sources_checked": 6
+  }
+}

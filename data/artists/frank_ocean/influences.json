@@ -1,0 +1,83 @@
+{
+  "influences": [
+    {
+      "name": "Stevie Wonder",
+      "context": "For inspiration, he and Malay listened to older records to either use as musical references or set a mood at the studio, listening to music by Stevie Wonder, Marvin Gaye, Sly and the Family Stone, Pink Floyd, and Jimi Hendrix.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Marvin Gaye",
+      "context": "For inspiration, he and Malay listened to older records to either use as musical references or set a mood at the studio, listening to music by Stevie Wonder, Marvin Gaye, Sly and the Family Stone, Pink Floyd, and Jimi Hendrix.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Sly and the Family Stone",
+      "context": "For inspiration, he and Malay listened to older records to either use as musical references or set a mood at the studio, listening to music by Stevie Wonder, Marvin Gaye, Sly and the Family Stone, Pink Floyd, and Jimi Hendrix.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Pink Floyd",
+      "context": "For inspiration, he and Malay listened to older records to either use as musical references or set a mood at the studio, listening to music by Stevie Wonder, Marvin Gaye, Sly and the Family Stone, Pink Floyd, and Jimi Hendrix.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Jimi Hendrix",
+      "context": "For inspiration, he and Malay listened to older records to either use as musical references or set a mood at the studio, listening to music by Stevie Wonder, Marvin Gaye, Sly and the Family Stone, Pink Floyd, and Jimi Hendrix.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Pharrell Williams",
+      "context": "He previewed songs at different stages of completion to get feedback from guest artists, some of whom he cited as his 'creative heroes', including record producer Pharrell Williams",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "John Mayer",
+      "context": "Ocean and Malay previewed songs to rock musician John Mayer, which inspired his guitar playing for both 'Pyramids' and 'White'.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Kanye West",
+      "context": "According to Malay, Kanye West helped Ocean during the album's final stages by providing 'a mentorship situation' and connecting him with his 'visual people'.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Lauryn Hill",
+      "context": "On Rocky's last LP [Testing], the song we did together [\"Purity\"] is a good example. I went to that session and he played me Lauryn Hill's sample chopped up and the open space he wanted me at.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Marc Jacobs",
+      "context": "I fuck with Marc Jacobs' philosophy on that, so I wouldn't rule it out, but it is a little hectic being a famous person on dating apps.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Ne-Yo",
+      "context": "At the time when Ne-Yo and Usher were setting the bar for Black R&B, he brought in the spirit of rebellion to reinvent R&B",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Usher",
+      "context": "At the time when Ne-Yo and Usher were setting the bar for Black R&B, he brought in the spirit of rebellion to reinvent R&B",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Mr. Hudson",
+      "context": "This song samples There Will Be Tears by Mr. Hudson a simple that is relatable at the core. I like to think that Frank took songs that reminds him of a specific experience",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "MGMT",
+      "context": "Nature Feels samples the hit classic Electric Feel by MGMT to set the stage to transport you to that time and place of the memory",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Stanley Kubrick",
+      "context": "Love Crimes is a seductive track that samples a diatribe from the movie Eyes Wide Shut by Stanley Kubrick, the director he mentioned in Novacane",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 15,
+    "sources_checked": 5
+  }
+}

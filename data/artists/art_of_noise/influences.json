@@ -1,0 +1,48 @@
+{
+  "influences": [
+    {
+      "name": "Trevor Horn",
+      "context": "Trevor's a very inspiring producer, actually. I've never quite come across anybody who has the ability to get the best out of people like Trevor does",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Earth, Wind & Fire",
+      "context": "He'd send me a rough mix of a Dollar track and a note saying, 'I want brass on the chorus — Earth, Wind & Fire; and strings for the verse — Barry Manilow.'",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Barry Manilow",
+      "context": "He'd send me a rough mix of a Dollar track and a note saying, 'I want brass on the chorus — Earth, Wind & Fire; and strings for the verse — Barry Manilow.'",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Bach",
+      "context": "I used to love those pieces where Bach uses a hymn tune and does this wonderful counterpoint all around it. The most simple example I can give you would be 'Jesu Joy of Man's Desiring'",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Phillip Glass",
+      "context": "I thought, 'Well, suppose I put around it that very repetitive, percussive sort of counterpoint that people like Phillip Glass use.' Because I love that music, I love those 'minimalists'",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "John Adams",
+      "context": "I suppose that was my closest homage to John Adams and the minimalists",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Hindemith",
+      "context": "I once read a very good book by a composer called Hindemith in which he described how, when you start a piece, you do have this very strong picture in your head as to how it should be",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Paul Simon",
+      "context": "For instance, Paul Simon throughout his career has taken whatever elements of whatever culture he wants and used them in his own songs, and his songs are so strong that it's always worked",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 8,
+    "sources_checked": 1
+  }
+}

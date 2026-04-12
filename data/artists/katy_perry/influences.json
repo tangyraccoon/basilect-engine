@@ -1,0 +1,83 @@
+{
+  "influences": [
+    {
+      "name": "Crystal Lewis",
+      "context": "As the daughter of a Cleric in the coastal town of Santa Barbara, California, her first fifteen years were filled with nothing but Christian music. But she loved it: \"There was so much cool Christian music,\" she said, noting Crystal Lewis among her favorite artists.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Beach Boys",
+      "context": "At 15, Perry made a discovery where she \"broke in two like the Ten Commandments.\" She had found secular music: The Beach Boys, No Doubt…and Freddie Mercury.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "No Doubt",
+      "context": "At 15, Perry made a discovery where she \"broke in two like the Ten Commandments.\" She had found secular music: The Beach Boys, No Doubt…and Freddie Mercury.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Freddie Mercury",
+      "context": "At 15, Perry made a discovery where she \"broke in two like the Ten Commandments.\" She had found secular music: The Beach Boys, No Doubt…and Freddie Mercury. Since Perry couldn't listen to these artists at home, she went to lots of sleepovers (sneaking in the CDs) just so she could rock out to the \"woman who doesn't give a f—\" in the lyrics of \"Killer Queen.\"",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Alanis Morissette",
+      "context": "In the motel one night, she turned on VH1 where producer Glen Ballard was talking about Alanis Morissette. Morissette's \"Jagged Little Pill\" influenced her decision to meet and work with Ballard.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Glen Ballard",
+      "context": "He taught me everything I know (except guitar); he challenged me to write songs every day. He pushed me and kept on pushing me. We wrote 60-70 songs together.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Dave Stewart",
+      "context": "She also worked with Dave Stewart, and when Perry told him she was still afraid to write about certain subjects, he told her she could and should write about anything she feels.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Eckhart Tolle",
+      "context": "I was really inspired by this little six-minute thing by Eckhart Tolle where he speaks about loss",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Mariah Carey",
+      "context": "I wanted to make a song that was like what Mariah Carey would have put on her first record",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Black Box",
+      "context": "I love the '90s. Black Box, C + C Music Factory, CeCe Peniston, Crystal Waters. I'm so into that vibe right now.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "C + C Music Factory",
+      "context": "I love the '90s. Black Box, C + C Music Factory, CeCe Peniston, Crystal Waters. I'm so into that vibe right now.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "CeCe Peniston",
+      "context": "I love the '90s. Black Box, C + C Music Factory, CeCe Peniston, Crystal Waters. I'm so into that vibe right now.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Crystal Waters",
+      "context": "I love the '90s. Black Box, C + C Music Factory, CeCe Peniston, Crystal Waters. I'm so into that vibe right now.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Madonna",
+      "context": "I love Madonna to death",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Joni Mitchell",
+      "context": "I'll probably turn into more of a Joni Mitchell. As I inch towards my 30s, I think my fourth record will be more of an acoustic guitar album.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 15,
+    "sources_checked": 3
+  }
+}

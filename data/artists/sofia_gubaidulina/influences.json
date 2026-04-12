@@ -1,0 +1,38 @@
+{
+  "influences": [
+    {
+      "name": "Nikolai Peiko",
+      "context": "she studied composition with Nikolai Peiko at the Moscow Conservatory",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Vissarion Shebalin",
+      "context": "pursuing graduate studies there under Vissarion Shebalin",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Astreia ensemble",
+      "context": "Gubaidulina's compositional interests have been stimulated by the tactile exploration and improvisation with rare Russian, Caucasian, and Asian folk and ritual instruments collected by the \"Astreia\" ensemble, of which she was a co-founder",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Gidon Kremer",
+      "context": "The determined advocacy of Gidon Kremer, dedicatee of Gubaidulina's masterly violin concerto, Offertorium, helped bring the composer to international attention in the early 1980s",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Dmitri Shostakovich",
+      "context": "Shostakovich chaired the State Examination Committee and recognized the talent in Gubaidulina's submitted compositions for her graduate degree. He told her afterward that he had defended it against the critiques of other professors, and that 'Everybody thinks that you are moving in the wrong direction,' Gubaidulina recalled in the interview with Lukomsky. 'But I wish you to continue on your \"mistaken\" path.'",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Filipp Herschkowits",
+      "context": "She was one of a group of Soviet composers who circulated around Filipp Herschkowits, an Austrian student of Arnold Schoenberg and Anton Webern who had fled to the Soviet Union to escape fascism in the 1930s.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 6,
+    "sources_checked": 4
+  }
+}

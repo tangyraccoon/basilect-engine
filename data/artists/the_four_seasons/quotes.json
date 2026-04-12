@@ -1,0 +1,40 @@
+{
+  "quotes": [
+    {
+      "text": "If you're from my neighborhood, you've got three ways out: You could join the army. You could get mobbed up. Or you could become a star.",
+      "publication": "Jersey Boys",
+      "date": ""
+    },
+    {
+      "text": "The neighborhood was tough, but you never had to lock the door.",
+      "publication": "Jersey Boys",
+      "date": ""
+    },
+    {
+      "text": "No matter what Tommy says about plucking me from obscurity, the real story is I had \"Short Shorts\" at Number Two when I was 15. OK sure, by 17, I'm just another one-hit wonder worrying that the best is already behind me - but I did not spring to life fully formed the day Joe Pesci showed up at my door.",
+      "publication": "Jersey Boys",
+      "date": ""
+    },
+    {
+      "text": "We were doing good – concerts, club dates, cover of Cashbox. Six more weeks at Number One – that covered a lot of sins.",
+      "publication": "Jersey Boys",
+      "date": ""
+    },
+    {
+      "text": "The characters were not into going down and dirty. They wanted to go to a nice hotel as usual. [Showrunner] Tina Fey was very explicit about not wanting it to be pristine.",
+      "publication": "IndieWire",
+      "date": ""
+    },
+    {
+      "text": "We had to do a lot of aging. Once the actors got there, it was exactly what they were hoping for, because it helped them get in tune with their characters. It helps them feel like, 'I don't have to force it. I see it. It's just my environment. This is not necessarily where I want to be.'",
+      "publication": "IndieWire",
+      "date": ""
+    }
+  ],
+  "corpus_meta": {
+    "quote_count": 6,
+    "source_count": 2,
+    "date_range": [],
+    "corpus_valid": false
+  }
+}

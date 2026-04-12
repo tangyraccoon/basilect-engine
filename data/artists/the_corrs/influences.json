@@ -1,0 +1,53 @@
+{
+  "influences": [
+    {
+      "name": "Crowded House",
+      "context": "As soon as I heard Woodface by Crowded House I was smitten, his style is so organic and musically intelligent.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Mitchell Froom",
+      "context": "Mitchell has always been my all time favourite producer! As soon as I heard Woodface by Crowded House I was smitten, his style is so organic and musically intelligent.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "W. H. Auden",
+      "context": "There's a poem by W. H. Auden, and he's talking about packing up the moon and the sky, and that kind of inspired the lyric.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Oscar Wilde",
+      "context": "I was thinking about the Oscar Wilde quote, \"The tragedy of old age is not that one is old, but that one is young.\" And it just absolutely sums up getting older and being old.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Burt Bacharach",
+      "context": "My mom and dad were listening to all the Burt Bacharach stuff, all the Carpenters records, the Dusty Springfield stuff, so that was like the soundtrack to my very early childhood. So I was greatly inspired by that",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Karen Carpenter",
+      "context": "my voice went into this place that maybe was closer to what Karen Carpenter would have done than what I would have done before. And it was just like my voice went, \"Oh, I'm home.\"",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Dusty Springfield",
+      "context": "My mom and dad were listening to all the Burt Bacharach stuff, all the Carpenters records, the Dusty Springfield stuff, so that was like the soundtrack to my very early childhood. So I was greatly inspired by that",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Rolling Stones",
+      "context": "The Corrs have joked that they could follow in the footsteps of the Rolling Stones - and keep making music well into their old age.",
+      "direction": "inspired_by"
+    },
+    {
+      "name": "Madonna",
+      "context": "She also highlighted another \"amazing\" singer: \"Madonna, still flying. I mean, God knows, she might do it at 70.\" \"Which is so inspiring,\" drummer Caroline, 43, added.",
+      "direction": "inspired_by"
+    }
+  ],
+  "meta": {
+    "count": 9,
+    "sources_checked": 5
+  }
+}

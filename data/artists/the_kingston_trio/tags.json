@@ -1,0 +1,182 @@
+{
+  "tags": [
+    {
+      "tag": "vocal_focused",
+      "category": "approach",
+      "weight": 1.0,
+      "raw_score": 27
+    },
+    {
+      "tag": "acoustic",
+      "category": "approach",
+      "weight": 0.963,
+      "raw_score": 26
+    },
+    {
+      "tag": "traditional",
+      "category": "philosophy",
+      "weight": 0.815,
+      "raw_score": 22
+    },
+    {
+      "tag": "narrative",
+      "category": "philosophy",
+      "weight": 0.815,
+      "raw_score": 22
+    },
+    {
+      "tag": "collaborative",
+      "category": "philosophy",
+      "weight": 0.741,
+      "raw_score": 20
+    },
+    {
+      "tag": "multi_instrumental",
+      "category": "approach",
+      "weight": 0.556,
+      "raw_score": 15
+    },
+    {
+      "tag": "live_performance",
+      "category": "approach",
+      "weight": 0.37,
+      "raw_score": 10
+    },
+    {
+      "tag": "emotional",
+      "category": "philosophy",
+      "weight": 0.37,
+      "raw_score": 10
+    },
+    {
+      "tag": "orchestration",
+      "category": "process",
+      "weight": 0.296,
+      "raw_score": 8
+    },
+    {
+      "tag": "hybrid",
+      "category": "philosophy",
+      "weight": 0.259,
+      "raw_score": 7
+    },
+    {
+      "tag": "playful",
+      "category": "philosophy",
+      "weight": 0.259,
+      "raw_score": 7
+    },
+    {
+      "tag": "intuitive",
+      "category": "philosophy",
+      "weight": 0.148,
+      "raw_score": 4
+    },
+    {
+      "tag": "political",
+      "category": "philosophy",
+      "weight": 0.148,
+      "raw_score": 4
+    },
+    {
+      "tag": "autobiographical",
+      "category": "philosophy",
+      "weight": 0.111,
+      "raw_score": 3
+    },
+    {
+      "tag": "storyteller",
+      "category": "philosophy",
+      "weight": 0.111,
+      "raw_score": 3
+    },
+    {
+      "tag": "solo_performer",
+      "category": "approach",
+      "weight": 0.111,
+      "raw_score": 3
+    },
+    {
+      "tag": "layering",
+      "category": "process",
+      "weight": 0.111,
+      "raw_score": 3
+    },
+    {
+      "tag": "eclectic_repertoire",
+      "category": "philosophy",
+      "weight": 0.111,
+      "raw_score": 3
+    },
+    {
+      "tag": "harmony_driven",
+      "category": "process",
+      "weight": 0.111,
+      "raw_score": 3
+    },
+    {
+      "tag": "improvisation",
+      "category": "process",
+      "weight": 0.074,
+      "raw_score": 2
+    },
+    {
+      "tag": "accessible",
+      "category": "philosophy",
+      "weight": 0.074,
+      "raw_score": 2
+    },
+    {
+      "tag": "effortless",
+      "category": "philosophy",
+      "weight": 0.074,
+      "raw_score": 2
+    },
+    {
+      "tag": "collaborative_production",
+      "category": "approach",
+      "weight": 0.074,
+      "raw_score": 2
+    },
+    {
+      "tag": "place_based",
+      "category": "philosophy",
+      "weight": 0.074,
+      "raw_score": 2
+    },
+    {
+      "tag": "experiential",
+      "category": "philosophy",
+      "weight": 0.074,
+      "raw_score": 2
+    },
+    {
+      "tag": "studio_as_instrument",
+      "category": "approach",
+      "weight": 0.074,
+      "raw_score": 2
+    },
+    {
+      "tag": "long_form",
+      "category": "approach",
+      "weight": 0.074,
+      "raw_score": 2
+    },
+    {
+      "tag": "harmony_focused",
+      "category": "process",
+      "weight": 0.074,
+      "raw_score": 2
+    },
+    {
+      "tag": "repertoire_curation",
+      "category": "process",
+      "weight": 0.074,
+      "raw_score": 2
+    }
+  ],
+  "meta": {
+    "count": 29,
+    "sources_checked": 9
+  }
+}

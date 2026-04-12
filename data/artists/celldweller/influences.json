@@ -1,0 +1,58 @@
+{
+  "influences": [
+    {
+      "name": "Metallica",
+      "context": "I grew up on Metallica and Slayer",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Slayer",
+      "context": "I grew up on Metallica and Slayer",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Styx",
+      "context": "I remember hearing the vocoder on things like Mr Roboto from Styx and being fascinated by how a human voice could sound like that",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Tears for Fears",
+      "context": "The first album I covered was Shout by Tears for Fears. These guys were role models to me",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Depeche Mode",
+      "context": "These guys were role models to me, along with bands like Depeche Mode, The Cure and Howard Jones",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Cure",
+      "context": "These guys were role models to me, along with bands like Depeche Mode, The Cure and Howard Jones",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Howard Jones",
+      "context": "These guys were role models to me, along with bands like Depeche Mode, The Cure and Howard Jones",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Tricky",
+      "context": "If you take a guy like Tricky, he's a great producer but he's also said that how he doesn't understand music and that he does everything by ear",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Trent Reznor",
+      "context": "A true artist is a person who puts in the time and pays his dues; musicians such as Trent Reznor or Al Jorgenson.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Al Jorgenson",
+      "context": "A true artist is a person who puts in the time and pays his dues; musicians such as Trent Reznor or Al Jorgenson.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 10,
+    "sources_checked": 3
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "influences": [
+    {
+      "name": "OMD",
+      "context": "I read that you were really influenced by OMD. What are your other musical influences? Well in the late 70's and early 80's it was definitely OMD",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Human League",
+      "context": "it was also the very early Human League. They had two albums out before they had girl singers and they were both very influential.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Depeche Mode",
+      "context": "Clarke had already enjoyed success with Depeche Mode – he wrote their first top 10 hit, 'Just Can't Get Enough'",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Yazoo",
+      "context": "and alongside Alison Moyet in Yazoo",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "drag performers",
+      "context": "A lot of my bravado in the early days of Erasure came from drag. Back then, when I had no character, going to drag shows in pubs and watching their witty comebacks was where I drew my strength from.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Elvis",
+      "context": "I've always felt that what we did was very rock 'n' roll – I feel like Elvis would have approved",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Paul Simon",
+      "context": "I've heard your favorite artist of all time is Paul Simon, yet your music is in a completely different direction. What have you learned from his work? The reason that I liked Paul Simon, especially in the beginning when I was in my teens, was that I could relate to the songs inasmuch as I could play them on guitar. They weren't technically difficult. I'm not a very good guitarist. What attracted me to those songs was the simplicity of the arrangements. I think I carried that through with Erasure.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Orchestral Manoeuvres in the Dark",
+      "context": "Orchestral Manoeuvres in the Dark is interesting, because the first [self-titled] was a very simple album. It's very simply produced, and I liked that.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Human League",
+      "context": "The Human League I loved because it's all about synths and science fiction.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Philip Glass",
+      "context": "I think a friend recommended it to me. I started experimenting with doing very repetitive sequences in that style, for B-sides mostly, but using synthesizers instead.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Pink Floyd",
+      "context": "I think Pink Floyd's [The Dark Side Of The Moon] is my favorite album of all time. It still sounds amazing.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Genesis",
+      "context": "A Trick of the Tail was the first album that I ever bought. I managed to get enough money to buy a hi-fi stereo system, and I'd never heard stereo before. When I was growing up, radio was mono. This stereo system had two white speakers, and I bought A Trick of the Tail and could not believe the sound of it.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Sparks",
+      "context": "Sparks was when I first took an interest in music – not as a musician, but as a music fan. I was playing music, certainly, but I had no intention to become a musician. When Sparks released that single it was on Top of the Pops. It was a big thing in the UK. My mum had bought a radiogram [radio/phonograph player], and I played the record so much that the grooves disappeared.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Martyn Ware",
+      "context": "I spent the whole time while we recorded asking him questions about how he'd gotten a particular sound [with The Human League].",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Eric Radcliffe",
+      "context": "I asked a lot of questions of Eric Radcliffe. I was very interested in the studio and how it worked. He was kind enough to show me. You're confronted with a thousand buttons – \"What does this one do? What does that one do?\" I learned a lot from him. I'm sure that I've taken techniques from all of the producers and engineers I've worked with. I've learned tricks, for sure.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Martin Gore",
+      "context": "I made a record with Martin Gore [VCMG] that was a techno-ish, minimalist [instrumental] record, and it got me into listening to [EDM].",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 16,
+    "sources_checked": 5
+  }
+}

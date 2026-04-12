@@ -1,0 +1,128 @@
+{
+  "tags": [
+    {
+      "tag": "emotional",
+      "category": "philosophy",
+      "weight": 1.0,
+      "raw_score": 13
+    },
+    {
+      "tag": "collaborative",
+      "category": "philosophy",
+      "weight": 0.923,
+      "raw_score": 12
+    },
+    {
+      "tag": "spiritual",
+      "category": "philosophy",
+      "weight": 0.846,
+      "raw_score": 11
+    },
+    {
+      "tag": "vocal_focused",
+      "category": "approach",
+      "weight": 0.846,
+      "raw_score": 11
+    },
+    {
+      "tag": "intuitive",
+      "category": "philosophy",
+      "weight": 0.692,
+      "raw_score": 9
+    },
+    {
+      "tag": "collaborative_production",
+      "category": "approach",
+      "weight": 0.692,
+      "raw_score": 9
+    },
+    {
+      "tag": "multi_instrumental",
+      "category": "approach",
+      "weight": 0.615,
+      "raw_score": 8
+    },
+    {
+      "tag": "meditative",
+      "category": "philosophy",
+      "weight": 0.385,
+      "raw_score": 5
+    },
+    {
+      "tag": "experimental",
+      "category": "philosophy",
+      "weight": 0.385,
+      "raw_score": 5
+    },
+    {
+      "tag": "student_centered_learning",
+      "category": "philosophy",
+      "weight": 0.231,
+      "raw_score": 3
+    },
+    {
+      "tag": "love_and_unity",
+      "category": "philosophy",
+      "weight": 0.231,
+      "raw_score": 3
+    },
+    {
+      "tag": "playful",
+      "category": "philosophy",
+      "weight": 0.154,
+      "raw_score": 2
+    },
+    {
+      "tag": "live_performance",
+      "category": "approach",
+      "weight": 0.154,
+      "raw_score": 2
+    },
+    {
+      "tag": "hybrid",
+      "category": "philosophy",
+      "weight": 0.154,
+      "raw_score": 2
+    },
+    {
+      "tag": "digital",
+      "category": "approach",
+      "weight": 0.154,
+      "raw_score": 2
+    },
+    {
+      "tag": "traditional",
+      "category": "philosophy",
+      "weight": 0.154,
+      "raw_score": 2
+    },
+    {
+      "tag": "political",
+      "category": "philosophy",
+      "weight": 0.154,
+      "raw_score": 2
+    },
+    {
+      "tag": "studio_as_instrument",
+      "category": "approach",
+      "weight": 0.154,
+      "raw_score": 2
+    },
+    {
+      "tag": "narrative",
+      "category": "philosophy",
+      "weight": 0.154,
+      "raw_score": 2
+    },
+    {
+      "tag": "self_produced",
+      "category": "approach",
+      "weight": 0.077,
+      "raw_score": 1
+    }
+  ],
+  "meta": {
+    "count": 20,
+    "sources_checked": 7
+  }
+}

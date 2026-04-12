@@ -1,0 +1,49 @@
+{
+  "artist_id": "danny_brown",
+  "artist_name": "Danny Brown",
+  "status": "extract_complete",
+  "steps": {
+    "interview_search": {
+      "status": "done",
+      "timestamp": "2026-04-11T20:03:13.981778+00:00",
+      "result": "7 urls"
+    },
+    "interview_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-11T20:03:14.980260+00:00",
+      "result": "7/7 scraped"
+    },
+    "interview_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T20:04:45.240084+00:00",
+      "result": "99 quotes"
+    },
+    "review_search": {
+      "status": "done",
+      "timestamp": "2026-04-11T20:04:49.946007+00:00",
+      "result": "10 urls"
+    },
+    "review_scrape": {
+      "status": "done",
+      "timestamp": "2026-04-11T20:04:52.622836+00:00",
+      "result": "8/10 scraped"
+    },
+    "review_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T20:06:33.698518+00:00",
+      "result": "136 passages"
+    },
+    "influence_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T20:07:12.358772+00:00",
+      "result": "27 influences"
+    },
+    "tag_extract": {
+      "status": "done",
+      "timestamp": "2026-04-11T20:07:52.044445+00:00",
+      "result": "47 tags"
+    }
+  },
+  "error": null,
+  "last_updated": "2026-04-11T20:07:52.044551+00:00"
+}

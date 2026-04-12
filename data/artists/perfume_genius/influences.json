@@ -1,0 +1,48 @@
+{
+  "influences": [
+    {
+      "name": "Karen O",
+      "context": "Karen O just wrote to me, it was crazy! Our friend Cody [Critcheloe], who directed the video, introduced us. I was… I've been a fan for such a long time, and so before I even heard the song I was immediately on board.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Yeah Yeah Yeahs",
+      "context": "I was… I've been a fan for such a long time, and so before I even heard the song I was immediately on board. But then I heard the song and it was everything you would ever want from them, it was so much their sound.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Edna St. Vincent Millay",
+      "context": "one which includes a large, framed photograph of the poet, playwright and key Hadreas influence, Edna St. Vincent Millay",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Blake Mills",
+      "context": "working with his band, long-time producer Blake Mills",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Alan Wyffels",
+      "context": "working with his band, long-time producer Blake Mills and collaborator and husband Alan Wyffels",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Sarah Devachi",
+      "context": "listening to ambient organ music by the composer Sarah Devachi",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Kate Wallich",
+      "context": "a dance piece he collaborated on with choreographer Kate Wallich last year. The act of devising and rehearsing this piece was transformative for Hadreas",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Camille Vivier",
+      "context": "Hadreas collaborated on with Camille Vivier, and which has since evolved into plans for a photography book. 'We built a whole world together,' he says.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 8,
+    "sources_checked": 4
+  }
+}

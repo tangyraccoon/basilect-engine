@@ -1,0 +1,78 @@
+{
+  "influences": [
+    {
+      "name": "the Cure",
+      "context": "My way of making music is definitely influenced by what I listened to in my youth in the late 80s and early 90s; big names like the Cure or Depeche Mode",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Depeche Mode",
+      "context": "My way of making music is definitely influenced by what I listened to in my youth in the late 80s and early 90s; big names like the Cure or Depeche Mode",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Frank De Wulf",
+      "context": "My way of making music is definitely influenced by what I listened to in my youth in the late 80s and early 90s; big names like the Cure or Depeche Mode but also early house and techno music by Frank De Wulf, DJ Pierre, 3Phase, The Martian, F.U.S.E or even Future Sound Of London",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "DJ Pierre",
+      "context": "early house and techno music by Frank De Wulf, DJ Pierre, 3Phase, The Martian, F.U.S.E or even Future Sound Of London",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "3Phase",
+      "context": "early house and techno music by Frank De Wulf, DJ Pierre, 3Phase, The Martian, F.U.S.E or even Future Sound Of London",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "The Martian",
+      "context": "early house and techno music by Frank De Wulf, DJ Pierre, 3Phase, The Martian, F.U.S.E or even Future Sound Of London",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "F.U.S.E",
+      "context": "early house and techno music by Frank De Wulf, DJ Pierre, 3Phase, The Martian, F.U.S.E or even Future Sound Of London",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Future Sound Of London",
+      "context": "early house and techno music by Frank De Wulf, DJ Pierre, 3Phase, The Martian, F.U.S.E or even Future Sound Of London",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Aphex Twin",
+      "context": "I took this period to listen to some old ambient/experimental records to regenerate and relax myself including The Aphex Twin – Analogue Bubblebath",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "B12",
+      "context": "I took this period to listen to some old ambient/experimental records to regenerate and relax myself including The Aphex Twin – Analogue Bubblebath ; B12 – TimeTourist",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Ken Ishii",
+      "context": "I took this period to listen to some old ambient/experimental records to regenerate and relax myself including The Aphex Twin – Analogue Bubblebath ; B12 – TimeTourist ; Ken Ishii – Pneuma",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Namlook",
+      "context": "I took this period to listen to some old ambient/experimental records to regenerate and relax myself including The Aphex Twin – Analogue Bubblebath ; B12 – TimeTourist ; Ken Ishii – Pneuma and Namlook – Astrogator",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Wong Kar-wai",
+      "context": "Some of my earliest influences in art were the X-Men, Wong Kar-wai movies, and skate culture.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Ray Monde",
+      "context": "I have always appreciated strange music my whole life, but it wasn't until I met Ray Monde that I became a participant in making music.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 14,
+    "sources_checked": 2
+  }
+}

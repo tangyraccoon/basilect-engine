@@ -1,0 +1,38 @@
+{
+  "influences": [
+    {
+      "name": "Madonna",
+      "context": "I like that she has an 'I don't give a fuck' attitude but she's probably one of the hardest-working artists of all time. I also love that she really gave people a show… like full-on showgirl 10000% showbiz!",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Judith Butler",
+      "context": "The songs that eventually became Shaking the Habitual owe a huge debt to political thinkers including Judith Butler, Frantz Fanon, bell hooks, Gayatri Chakravorty Spivak and Michel Foucault, amongst others, whose words and actions are an ongoing source of inspiration and strength.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Frantz Fanon",
+      "context": "The songs that eventually became Shaking the Habitual owe a huge debt to political thinkers including Judith Butler, Frantz Fanon, bell hooks, Gayatri Chakravorty Spivak and Michel Foucault, amongst others, whose words and actions are an ongoing source of inspiration and strength.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "bell hooks",
+      "context": "The songs that eventually became Shaking the Habitual owe a huge debt to political thinkers including Judith Butler, Frantz Fanon, bell hooks, Gayatri Chakravorty Spivak and Michel Foucault, amongst others, whose words and actions are an ongoing source of inspiration and strength.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Gayatri Chakravorty Spivak",
+      "context": "The songs that eventually became Shaking the Habitual owe a huge debt to political thinkers including Judith Butler, Frantz Fanon, bell hooks, Gayatri Chakravorty Spivak and Michel Foucault, amongst others, whose words and actions are an ongoing source of inspiration and strength.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Michel Foucault",
+      "context": "The songs that eventually became Shaking the Habitual owe a huge debt to political thinkers including Judith Butler, Frantz Fanon, bell hooks, Gayatri Chakravorty Spivak and Michel Foucault, amongst others, whose words and actions are an ongoing source of inspiration and strength.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 6,
+    "sources_checked": 3
+  }
+}

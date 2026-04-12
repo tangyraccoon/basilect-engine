@@ -1,0 +1,18 @@
+{
+  "influences": [
+    {
+      "name": "DJ Tennis",
+      "context": "One guy that was really amazing was DJ Tennis. We were at this festival in Miami and oh my god, he played such good stuff.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Hernan Cattaneo",
+      "context": "I've always loved Hernan Cattaneo's sets.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 2,
+    "sources_checked": 3
+  }
+}

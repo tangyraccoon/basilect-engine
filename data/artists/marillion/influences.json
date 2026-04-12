@@ -1,0 +1,58 @@
+{
+  "influences": [
+    {
+      "name": "Steve Hackett",
+      "context": "Your initial associations in music seemed to not be specifically related to band life (i.e. the handful of Steve Hackett albums and joining Rick van der Linden's Trace for the Birds album.)",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Rick van der Linden",
+      "context": "Your initial associations in music seemed to not be specifically related to band life (i.e. the handful of Steve Hackett albums and joining Rick van der Linden's Trace for the Birds album.)",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Radiohead",
+      "context": "If Radiohead and Pink Floyd had a baby that was in touch with its feminine side…",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Pink Floyd",
+      "context": "If Radiohead and Pink Floyd had a baby that was in touch with its feminine side…",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Living Colour",
+      "context": "I'd like to feel that I brought a black influence to this band. We're still one of the whitest bands in the world, but not quite as white as Genesis or Pink Floyd. [referenced in context of Living Colour being angry]",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Peter Gabriel",
+      "context": "In the end, it would be Peter Gabriel's Real World studios in the West Country that would provide Marillion with the perfect environment for rediscovering the artistic harmony that has driven them purposefully along for the last two decades.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Massive Attack",
+      "context": "But then I went to see Massive Attack. We were on the guest list and when you picked up your tickets they wanted a donation to the Hoping Foundation. So I went and checked out what it was; it's simply a foundation that raises money to provide materials and arts education – play, dance, painting and drawing – for children who live in refugee camps.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Prince",
+      "context": "Pour My Love, to my ear, is somewhere between Prince and Todd Rundgren, which is a great place to be – and it's somewhere we haven't been before.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Todd Rundgren",
+      "context": "Pour My Love, to my ear, is somewhere between Prince and Todd Rundgren, which is a great place to be – and it's somewhere we haven't been before.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Roger Waters",
+      "context": "Of course, it'd be nice to have mega media exposure, because I'd love to put on a show like Roger Waters or Pink Floyd.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 10,
+    "sources_checked": 3
+  }
+}

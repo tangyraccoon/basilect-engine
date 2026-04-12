@@ -1,0 +1,28 @@
+{
+  "influences": [
+    {
+      "name": "Pierre Schaeffer",
+      "context": "Hearing influential modern composer Pierre Schaeffer's \"Etudes aux Chemins de Fer\" on the radio for the first time confirmed her intuition: that all sounds can be considered music, depending on the intention of the listener.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Pierre Henry",
+      "context": "before moving on to assist Pierre Henry at the prestigious Studio d'Essai in Paris",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Morton Subotnick",
+      "context": "In the 1970s, Radigue was invited to study at NYU and was given access to a Buchla synthesizer set up in a lab by the legendary electronic music composer Morton Subotnick.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Laurie Spiegel",
+      "context": "Around 1970, she created her first synthesizer-based music at NYU at a studio she shared with Laurie Spiegel on a Buchla synthesizer installed by Morton Subotnick.",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 4,
+    "sources_checked": 2
+  }
+}

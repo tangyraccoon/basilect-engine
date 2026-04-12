@@ -1,0 +1,18 @@
+{
+  "influences": [
+    {
+      "name": "John Lydon",
+      "context": "the only time I saw Dave violent – well, almost violent – was when he had [Sex Pistols frontman] John Lydon up against a Transit outside the club Dingwalls",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Hugh Cornwell",
+      "context": "I'd always looked up to Hugh, because he was older and smarter than me",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 2,
+    "sources_checked": 4
+  }
+}

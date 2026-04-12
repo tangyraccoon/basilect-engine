@@ -1,0 +1,23 @@
+{
+  "influences": [
+    {
+      "name": "Bruce Fairbairn",
+      "context": "I also think our producer, Bruce Fairbairn, had something to do with the sense of excitement on Balance. Instead of arguing with me, he encouraged me to pursue my own ideas. He was somebody I could relate to.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Van Halen's father",
+      "context": "I think my desire to do my own thing came from my dad. He was a real soulful guy. He played sax and clarinet like a motherfucker.",
+      "direction": "influenced_by"
+    },
+    {
+      "name": "Ted Templeman",
+      "context": "Our producer, Ted Templeman, happened to walk by and he asked, 'What's that? Let's put it on tape!'",
+      "direction": "influenced_by"
+    }
+  ],
+  "meta": {
+    "count": 3,
+    "sources_checked": 5
+  }
+}
