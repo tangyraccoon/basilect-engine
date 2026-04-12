@@ -7,6 +7,7 @@ Enhanced with interactive feature engines.
 import json
 import subprocess
 import os
+import sys
 import threading
 import uuid
 from pathlib import Path
@@ -19,8 +20,10 @@ import re
 app = Flask(__name__, static_folder='static', static_url_path='')
 CORS(app)
 
-# Get project root (parent of app/)
+# Get project root (parent of app/) and ensure scripts/ is importable
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
+if str(PROJECT_ROOT) not in sys.path:
+    sys.path.insert(0, str(PROJECT_ROOT))
 DATA_DIR = PROJECT_ROOT / "data"
 ARTISTS_DIR = DATA_DIR / "artists"
 
@@ -125,12 +128,18 @@ def serve_static(path):
 
 @app.route('/api/discoveries', methods=['GET'])
 def get_discoveries():
-    """Return ranked artist pairs"""
+    """Return ranked artist pairs. Supports ?limit=N (default 200) and ?offset=N for pagination."""
     path = DATA_DIR / "discoveries.json"
     if not path.exists():
         return jsonify([])
-    data = load_json(path)
-    return jsonify(data or [])
+    data = load_json(path) or []
+    limit = request.args.get('limit', 200, type=int)
+    offset = request.args.get('offset', 0, type=int)
+    total = len(data)
+    page = data[offset:offset + limit]
+    response = jsonify(page)
+    response.headers['X-Total-Count'] = total
+    return response
 
 @app.route('/api/matrix', methods=['GET'])
 def get_matrix():
@@ -175,12 +184,13 @@ def list_artists():
     for artist_dir in sorted(ARTISTS_DIR.iterdir()):
         if artist_dir.is_dir():
             artist_id = artist_dir.name
+            state_path = artist_dir / "state.json"
+            if not state_path.exists():
+                continue  # never processed at all
             corpus_meta = get_artist_corpus_meta(artist_id)
             critic_meta = get_artist_critic_corpus_meta(artist_id)
             quote_valid = bool(corpus_meta and corpus_meta.get("corpus_valid"))
             critic_valid = bool(critic_meta and critic_meta.get("corpus_valid"))
-            if not quote_valid and not critic_valid:
-                continue
             artists.append({
                 "id": artist_id,
                 "name": to_display_name(artist_id),

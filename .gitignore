@@ -35,6 +35,10 @@ data/batch_state.json
 # Large caches
 data/mb_artist_cache.json
 
+# Scraped article text (large, regenerable via scrape.py / scrape_reviews.py)
+data/artists/*/sources.json
+data/artists/*/review_sources.json
+
 # Logs
 logs/
 *.log
